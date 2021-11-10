@@ -1,0 +1,7 @@
+\.git
+.gitattributes
+LICENSE
+^/.*\.org
+fonts
+backgrounds
+
