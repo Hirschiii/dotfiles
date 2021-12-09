@@ -1,0 +1,24 @@
+#+OPTIONS:   H:3 num:t toc:nil title:nil \n:nil @:t ::t |:t ^:t -:t f:t *:t <:t ^:nil _:nil
+#+STARTUP:   showall
+#+latex_class: article
+
+#+latex_compiler: lualatex
+#+LATEX_HEADER: \usepackage{fontspec}
+#+LATEX_HEADER: \setmainfont{Nunito}
+#+LATEX_HEADER: \usepackage[AUTO]{inputenc}
+#+LATEX_HEADER: \usepackage{graphicx}
+#+LATEX_HEADER: \usepackage[a4paper, left = 2.5cm, right = 2.5 cm, top = 2.5 cm, bottom = 2.0 cm]{geometry}
+#+LATEX_HEADER: \usepackage{amsmath, amsthm, amssymb}
+#+LATEX_HEADER: \usepackage[table, xcdraw]{xcolor}
+#+LATEX_HEADER: \usepackage{hyperref}
+#+LATEX_HEADER: \hypersetup{colorlinks=true, linkcolor=violet, citecolor=black, filecolor=black,  urlcolor=black}
+#+LATEX_HEADER: \usepackage{fancyhdr}
+#+LATEX_HEADER: \pagestyle{fancy}
+
+#+LATEX_HEADER: \lhead{\slshape \rightmark}
+#+LATEX_HEADER: \chead{}
+#+LATEX_HEADER: \rhead{\slshape \leftmark}
+
+#+LATEX_HEADER: \lfoot{}
+#+LATEX_HEADER: \cfoot{\thepage}
+#+LATEX_HEADER: \rfoot{Niklas von Hirschfeld}

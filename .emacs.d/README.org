@@ -1,443 +1,184 @@
-#+TITLE: Emacs config
-#+PROPERTY: header-args :tangle init.el
+#+title: Emacs From Scratch
 
-* TODO test Agenda
-* Startup Performance
-#+begin_src emacs-lisp
-(setq gc-cons-threshold (* 50 1000 1000))
+This is an example of a fully custom Emacs configuration that you can use as inspiration when building your own!
 
-(defun efs/display-startup-time ()
-  (message "Emacs loaded in %s with %d garbage collections."
-           (format "%.2f seconds"
-                   (float-time
-                     (time-subtract after-init-time before-init-time)))
-           gcs-done))
+We're developing this configuration live on YouTube, subscribe to [[https://www.youtube.com/c/SystemCrafters?sub_confirmation=1][System Crafters]] (make sure to click the bell!) so that you're notified of future streams.
 
-(add-hook 'emacs-startup-hook #'efs/display-startup-time)
-#+end_src
-* Set Var
-  #+begin_src emacs-lisp
-(setq myFont 165)
-  #+end_src
-* Dashboard
-#+begin_src emacs-lisp
+If you're enjoying the videos and benefitting from the examples in this repo, please *consider [[https://github.com/sponsors/daviwil][becoming a sponsor]]* to support the development of future content!
 
-          (require 'dashboard)
-          (dashboard-setup-startup-hook)
-          ;; Or if you use use-package
-          (use-package dashboard
-            :ensure t
-            :config
-            (dashboard-setup-startup-hook))
+* How to Use This Configuration
 
-        ;; Set the title
-        (setq dashboard-banner-logo-title "Hallo Niklas, wie geht's?")
-        ;; Set the banner
-  (setq dashboard-startup-banner "/home/niklas/Downloads/leonardo.png")
-        ;; Value can be
-        ;; 'official which displays the official emacs logo
-        ;; 'logo which displays an alternative emacs logo
-        ;; 1, 2 or 3 which displays one of the text banners
-        ;; "path/to/your/image.gif", "path/to/your/image.png" or "path/to/your/text.txt" which displays whatever gif/image/text you would prefer
+This repo is meant to be a companion to the Emacs From Scratch video series, serving as an example of a custom configuration build on top of vanilla Emacs.  I give instructions below for how to set it up to try it out, but it isn't meant to be used as your main configuration!  My goal here is to provide a working configuration that you can take inspiration from (and copy from directly).
 
-        ;; Content is not centered by default. To center, set
-        (setq dashboard-center-content t)
+Just keep in mind that this repo isn't set up to be used directly as your own configuration!  Copy the code to your own dotfiles repository and have fun :)
 
-        ;; To disable shortcut "jump" indicators for each section, set
-        (setq dashboard-show-shortcuts nil)
+* Episodes
 
-      (setq dashboard-set-heading-icons t)
-      (setq dashboard-set-file-icons t)
-#+end_src
-* Package Managment
-#+begin_src emacs-lisp
-  ;; Initialize package sources
-  (require 'package)
+This repo now contains configuration from multiple series on the channel!
 
-  (setq package-archives '(("melpa" . "https://melpa.org/packages/")
-			   ("org" . "https://orgmode.org/elpa/")
-			   ("elpa" . "https://elpa.gnu.org/packages/")))
+** [[https://www.youtube.com/playlist?list=PLEoMzSkcN8oPH1au7H6B7bBJ4ZO7BXjSZ][Emacs From Scratch]]
 
-  (package-initialize)
-  (unless package-archive-contents
-    (package-refresh-contents))
+Here is a list of all the episode videos with links to the configuration we built for each one:
 
-    ;; Initialize use-package on non-Linux platforms
-  (unless (package-installed-p 'use-package)
-    (package-install 'use-package))
+1. [[https://www.youtube.com/watch?v=74zOY-vgkyw][Live-Coding a Custom Emacs Configuration from Scratch]] ([[https://github.com/daviwil/emacs-from-scratch/tree/c0266ff684f670ecc5e41615c0282912e6615214][Code]], [[file:show-notes/Emacs-01.org][Notes]])
+2. [[https://www.youtube.com/watch?v=IspAZtNTslY][Adding Helpful UI Improvements]] ([[https://github.com/daviwil/emacs-from-scratch/tree/43c0401355c7971cb4491690ee4b8449505a5d58][Code]], [[file:show-notes/Emacs-02.org][Notes]])
+3. [[https://www.youtube.com/watch?v=xaZMwNELaJY][Key Bindings and Evil]] ([[https://github.com/daviwil/emacs-from-scratch/tree/29e542c79632853d85124019e47506cc0571cd05][Code]], [[file:show-notes/Emacs-03.org][Notes]])
+4. [[https://youtu.be/INTu30BHZGk][Projectile and Magit]] ([[https://github.com/daviwil/emacs-from-scratch/tree/500370fa06889dad313e60473d73090fcfbe106d][Code]], [[file:show-notes/Emacs-04.org][Notes]])
+5. [[https://www.youtube.com/watch?v=VcgjTEa0kU4][Org Mode Basics]] ([[https://github.com/daviwil/emacs-from-scratch/tree/1a13fcf0dd6afb41fce71bf93c5571931999fed8][Code]], [[file:show-notes/Emacs-05.org][Notes]])
+6. [[https://youtu.be/PNE-mgkZ6HM][Organizing Your Life with Org Mode]] ([[https://github.com/daviwil/emacs-from-scratch/tree/c55d0f5e309f7ed8ffa3c00bc35c75937a5184e4][Code]], [[file:show-notes/Emacs-06.org][Notes]])
+7. [[https://youtu.be/kkqVTDbfYp4][Configure Everything with Org Babel]] ([[https://github.com/daviwil/emacs-from-scratch/tree/9388cf6ecd9b44c430867a5c3dad5f050fdc0ee1][Code]], [[file:show-notes/Emacs-07.org][Notes]])
+8. [[https://youtu.be/E-NAM9U5JYE][Build Your Own IDE with lsp-mode]] ([[https://github.com/daviwil/emacs-from-scratch/tree/6d078217a41134cc667f969430d150c50d03f448][Code]], [[file:show-notes/Emacs-08.org][Notes]])
+9. [[https://youtu.be/wa_wZIuT9Vw][Learn to Love the Terminal Modes]] ([[https://github.com/daviwil/emacs-from-scratch/tree/bbfbc77b3afab0c14149e07d0ab08d275d4ba575][Code]], [[file:show-notes/Emacs-09.org][Notes]])
+10. [[https://youtu.be/PMWwM8QJAtU][Effortless File Management with Dired]] ([[https://github.com/daviwil/emacs-from-scratch/blob/8c302a79bf5700f6ef0279a3daeeb4123ae8bd59/Emacs.org#dired][Code]], [[file:show-notes/Emacs-10.org][Notes]])
+11. [[https://youtu.be/dtjq68F2dXw][Keeping Your Emacs Packages Up to Date]] ([[https://github.com/daviwil/emacs-from-scratch/blob/4e921ccbe603d5fdd9c7f16c2418ac7322c8ab71/Emacs.org#automatic-package-updates][Code]], [[file:show-notes/Emacs-Scratch-11.org][Notes]])
+12. [[https://youtu.be/9i_9hse_Y08][How to Cut Emacs Start Up Time in Half!]] (Code, [[file:show-notes/Emacs-Scratch-12.org][Notes]])
 
-  (require 'use-package)
-  (setq use-package-always-ensure t)
+** [[https://www.youtube.com/playlist?list=PLEoMzSkcN8oPZvSdewHG8uApD7THlLLCV][Emacs Essentials]]
 
-(use-package auto-package-update
-  :custom
-  (auto-package-update-interval 7)
-  (auto-package-update-prompt-before-update t)
-  (auto-package-update-hide-results t)
-  :config
-  (auto-package-update-maybe)
-  (auto-package-update-at-time "09:00"))
+1. [[https://youtu.be/48JlgiBpw_I][The Absolute Beginner's Guide to Emacs]] ([[file:show-notes/Emacs-Beginners-01.org][Notes]])
 
-#+end_src
-* Update Load Path
-#+begin_src emacs-lisp
-;; Add my library path to load-path
-(push "~/.dotfiles/.emacs.d/lisp" load-path)
-#+end_src
-* : Load After
-#+begin_src emacs-lisp
-(defun :load-after ()
-    (lambda (features &rest body)
-      (let ((body `(progn
-                     (require ',(setup-get 'feature))
-                     ,@body)))
-        (dolist (feature (if (listp features)
-                             (nreverse features)
-                           (list features)))
-          (setq body `(with-eval-after-load ',feature ,body)))
-        body))
-  :documentation "Load the current feature after FEATURES."
-  :indent 1)
-#+end_src
-* Default Coding System
-#+begin_src emacs-lisp
-(set-default-coding-systems 'utf-8)
-#+end_src
-* Disbale Emacs Stuff
-#+begin_src emacs-lisp
-(setq inhibit-startup-message t)
+** [[https://www.youtube.com/watch?v=RQK_DaaX34Q&list=PLEoMzSkcN8oPQtn7FQEF3D7sroZbXuPZ7][Learning Emacs Lisp]]
 
-(scroll-bar-mode -1)  ; Disable scroll Bar
-(tool-bar-mode -1)    ; Disable toolabr
-(tooltip-mode -1)     ; Disable tooltips
-(set-fringe-mode -1)
+1. [[https://youtu.be/RQK_DaaX34Q][Introduction to Emacs Lisp]] ([[file:show-notes/Emacs-Lisp-01.org][Notes]])
+2. [[https://youtu.be/XXpgzyeYh_4][Types, Conditionals, and Loops]] ([[file:show-notes/Emacs-Lisp-02.org][Notes]])
+3. [[https://youtu.be/EqgkAUHw0Yc][Defining Functions and Commands]] ([[file:show-notes/Emacs-Lisp-03.org][Notes]])
+4. [[https://youtu.be/tq4kTNL1VD8][Defining Variables and Scopes]] ([[file:show-notes/Emacs-Lisp-04.org][Notes]])
+5. [[https://youtu.be/J7d2LmivyyM][Reading and Writing Buffers in Practice]] ([[file:show-notes/Emacs-Lisp-05.org][Notes]], [[https://github.com/daviwil/dotcrafter.el/blob/8d507eda31e08a789c38a5d729866eb4cda6abaf/dotcrafter.el][Code]])
 
-(menu-bar-mode -1)
+** [[https://www.youtube.com/playlist?list=PLEoMzSkcN8oNPbEMYEtswOVTvq7CVddCS][Emacs Desktop Environment]]
 
-#+end_src
-* Font
-#+begin_src emacs-lisp
-(set-face-attribute 'default nil :font "Fira Code Retina" :height myFont)
+1. [[https://www.youtube.com/watch?v=f7xB2fFk1tQ][Getting Started with EXWM]] ([[https://github.com/daviwil/emacs-from-scratch/blob/219c060e1bd695948c7691955a12a5dcaf3a9530/Emacs.org#window-management][Code]], [[file:show-notes/Emacs-Desktop-01.org][Notes]])
+2. [[https://youtu.be/9gfKrrTtyOk][Improving the EXWM Experience]] ([[https://github.com/daviwil/emacs-from-scratch/blob/2805904966dbd5810ee735e25c4b427014761be5/Desktop.org][Code]], [[file:show-notes/Emacs-Desktop-02.org][Notes]])
+3. [[https://youtu.be/HGGU5Zvljj8][Optimizing Window Placement in EXWM]] ([[https://github.com/daviwil/emacs-from-scratch/blob/39f63fe133cd4c41e13bbd1551c6517162851411/Desktop.org#exwm-configuration][Code]], [[file:show-notes/Emacs-Desktop-03.org][Notes]])
+4. [[https://youtu.be/eF5NfVN411Q][Using Multiple Monitors in EXWM]] ([[https://github.com/daviwil/emacs-from-scratch/blob/5ebd390119a48cac6258843c7d5e570f4591fdd4/Desktop.org#exwm-configuration][Code]], [[file:show-notes/Emacs-Desktop-04.org][Notes]])
+5. [[https://youtu.be/usCfMstCZ7E][The Perfect Panel: Integrating Polybar with Emacs]] ([[https://github.com/daviwil/emacs-from-scratch/blob/75f1d4e08512c49ea073c26058df6d4cca3a0d6b/Desktop.org#panel-with-polybar][Code]], [[file:show-notes/Emacs-Desktop-05.org][Notes]])
+6. [[https://youtu.be/GX_LGfuojcE][Enabling Desktop Notifications with Dunst]] ([[https://github.com/daviwil/emacs-from-scratch/blob/b927109521b4b8a7e701709dabbdd9c1ea2fc27c/Desktop.org#desktop-notifications-with-dunst][Code]], [[file:show-notes/Emacs-Desktop-06.org][Notes]])
 
-;; Set the fixed pitch face
-(set-face-attribute 'fixed-pitch nil :font "Fira Code Retina" :height myFont)
+** [[https://www.youtube.com/playlist?list=PLEoMzSkcN8oNvsrtk_iZSb94krGRofFjN][Emacs IDE]]
 
-;; Set the variable pitch face
-(set-face-attribute 'variable-pitch nil :font "Cantarell" :height myFont :weight 'regular)
+1. [[https://youtu.be/0bilcQVSlbM][How to Debug Your Code with dap-mode]] ([[https://github.com/daviwil/emacs-from-scratch/blob/210e517353abf4ed669bc40d4c7daf0fabc10a5c/Emacs.org#debugging-with-dap-mode][Code]], [[file:show-notes/Emacs-IDE-01.org][Notes]])
+2. [[https://youtu.be/jPXIP46BnNA][Python Development Configuration]] ([[https://github.com/daviwil/emacs-from-scratch/blob/dd9320769f3041ac1edca139496f14abe147d010/Emacs.org#python][Code]], [[file:show-notes/Emacs-IDE-02.org][Notes]])
 
-#+end_src
-* Doom!!!
-#+begin_src emacs-lisp
-     ;; On new machine run: M-x all-the-icons-install-fonts
-     (use-package all-the-icons)
+** [[https://www.youtube.com/watch?v=wKTKmE1wLyw&list=PLEoMzSkcN8oMHJ6Xil1YdnYtlWd5hHZql][Emacs Tips]]
 
-    (use-package doom-modeline
-      :init (setq  doom-modeline-height 15)
-	  (setq      doom-modeline-bar-width 6)
-	  (setq      doom-modeline-lsp t)
-	  (setq      doom-modeline-github nil)
-	  (setq      doom-modeline-mu4e nil)
-	  (setq      doom-modeline-irc t)
-	  (setq      doom-modeline-minor-modes nil)
-	  (setq      doom-modeline-persp-name nil)
-	  (setq      doom-modeline-buffer-file-name-style 'truncate-except-project)
-	  (setq      doom-modeline-major-mode-icon nil))
-  (custom-set-faces '(mode-line ((t (:height 0.85))))
-		    '(mode-line-inactive ((t (:height 0.85)))))
-(doom-modeline-mode 1)
+1. [[https://youtu.be/gbdE7oZEdtA][How to Create and Manage Multiple Windows]] ([[file:show-notes/Emacs-Tips-05.org][Notes]])
+2. [[https://youtu.be/C7ZlNRbWdVI][Organize Your Windows with the Tab Bar in Emacs 27]] ([[file:show-notes/Emacs-Tips-06.org][Notes]])
+3. [[https://youtu.be/_qXZNfRcNnw][Dynamic Tiling Windows in Emacs with Edwina]] ([[file:show-notes/Emacs-Tips-07.org][Notes]])
+4. [[https://youtu.be/ZjCRxAMPdNc][Unlock the Power of the Daemon with emacsclient]] ([[file:show-notes/Emacs-Tips-08.org][Notes]])
+5. [[https://youtu.be/T9kygXveEz0][Give Emacs Psychic Completion Powers with prescient.el]] ([[file:show-notes/Emacs-Tips-Prescient.org][Notes]])
+6. [[https://youtu.be/XZjyJG-sFZI][Teach Emacs to Keep Your Folders Clean]] ([[https://github.com/daviwil/emacs-from-scratch/blob/a57d99ba80276926a2b68521f9a9d23dc173a628/Emacs.org][Code]], [[file:show-notes/Emacs-Tips-Cleaning.org][Notes]])
+7. [[https://youtu.be/nZ_T7Q49B8Y][Managing Encrypted Passwords with Emacs]] ([[file:show-notes/Emacs-Tips-Pass.org][Notes]])
+8. [[https://youtu.be/-H2nU0rsUMY][Hey Emacs, Don't Move My Windows!]] ([[file:show-notes/Emacs-Tips-DisplayBuffer-1.org][Notes]])
 
-     (use-package doom-themes
-       :ensure t
-       :config
-       ;; Global settings (defaults)
-       (setq doom-themes-enable-bold t    ; if nil, bold is universally disabled
-	     doom-themes-enable-italic t)) ; if nil, italics is universally disabled
+** [[https://www.youtube.com/watch?v=yZRyEhi4y44&list=PLEoMzSkcN8oM-kA19xOQc8s0gr0PpFGJQ][Emacs Mail]]
 
-     (load-theme 'doom-palenight t)
+1. [[https://youtu.be/yZRyEhi4y44][Streamline Your E-mail Management with mu4e]] ([[file:show-notes/Emacs-Mail-01.org][Notes]])
+2. [[https://youtu.be/olXpfaSnf0o][Managing Multiple Email Accounts with mu4e and mbsync]] ([[file:show-notes/Emacs-Mail-02.org][Notes]])
+3. [[https://youtu.be/WiyqU7gmKsk][Compose and Send Email with Emacs]] ([[file:show-notes/Emacs-Mail-03.org][Notes]])
+4. [[https://youtu.be/aml36yZ-ANc][Enhance Your Emails with Org Mode]] ([[file:show-notes/Emacs-Mail-04.org][Notes]])
+5. [[https://youtu.be/dSZu4jwvaSs][Craft an Email Workflow with Org Mode]] ([[file:show-notes/Emacs-Mail-05.org][Notes]])
 
-#+end_src
-* Keybouard Bindings
-** ESC Cancels ALL
-#+begin_src emacs-lisp
-(global-set-key (kbd "<escape>") 'keyboard-escape-quit)
-#+end_src
-** Rebind C-u
-#+begin_src emacs-lisp
-(global-set-key (kbd "C-M-u") 'universal-argument)
-#+end_src
-** Get Evil
-#+begin_src emacs-lisp
+* Usage Instructions
 
+*IMPORTANT:* Be sure to read the commentary in [[file:Emacs.org][Emacs.org]] in case anything unexpected happens when you load this configuration.  Feel free to [[https://github.com/daviwil/runemacs/issues][file an issue]] to discuss any questions or problems you have so we can discuss it in a future stream!
 
-(use-package evil
-  ;; Pre-load configuration
-  :init
-  (setq evil-want-integration t)
-  (setq evil-want-keybinding nil)
-  (setq evil-want-C-u-scroll t)
-  (setq evil-want-C-i-jump nil)
-  (setq evil-respect-visual-line-mode t)
+*Linux and macOS*
 
-  ;; Activate the Evil
-  (evil-mode 1)
+On Linux, Emacs can be found in every major Linux distribution's package manager.  On macOS you can install Emacs using [[https://brew.sh/][Homebrew]] via =brew install emacs=.
 
-  ;; Set Emacs state modes
-  (dolist (mode '(custom-mode
-                  eshell-mode
-                  git-rebase-mode
-                  erc-mode
-                  circe-server-mode
-                  circe-chat-mode
-                  circe-query-mode
-                  sauron-mode
-                  term-mode))
-    (add-to-list 'evil-emacs-state-modes mode))
+You can easily get started with this configuration on Linux and macOS by following these steps:
 
-  (define-key evil-insert-state-map (kbd "C-g") 'evil-normal-state)
-  (define-key evil-insert-state-map (kbd "C-h") 'evil-delete-backward-char-and-join)
+1. Clone this repository to a folder on your system: =git clone https://github.com/daviwil/emacs-from-scratch=
+2. Back up any existing Emacs configuration you may already have in your home directory in the =.emacs.d= folder (you could try moving it to =.emacs.d-old=)
+3. Rename the directory for the clone of this repo to =~/.emacs.d=.
+4. Start Emacs!
 
-  ;; Use visual line motions even outside of visual-line-mode buffers
-  (evil-global-set-key 'motion "j" 'evil-next-visual-line)
-  (evil-global-set-key 'motion "k" 'evil-previous-visual-line)
+*Windows*
 
+You can download the latest Emacs version (27.1 at the time of this writing) for Windows by heading to the [[https://ftp.gnu.org/gnu/emacs/windows/emacs-27/][GNU FTP site]].  Downloading and running the [[https://ftp.gnu.org/gnu/emacs/windows/emacs-27/emacs-27.1-x86_64-installer.exe][installer package]] will likely be the easiest way to get started.  You can also [[https://chocolatey.org/packages/Emacs][install Emacs via Chocolatey]] if you prefer a more automated approach.
 
-(defun dont-arrow-me-bro ()
-    (interactive)
-    (message "Arrow keys are bad, you know?"))
+The location where the Emacs configuration folder lives may vary based on your version of Windows.  If you have trouble getting this to work, check the [[https://www.gnu.org/software/emacs/manual/html_node/efaq-w32/Location-of-init-file.html#Location-of-init-file][official FAQ]] on the topic.  If you still can't get it to work, feel free to file an issue and I can help investigate.
 
-    ;; Disable arrow keys in normal and visual modes
-    (define-key evil-normal-state-map (kbd "<left>") 'dont-arrow-me-bro)
-    (define-key evil-normal-state-map (kbd "<right>") 'dont-arrow-me-bro)
-    (define-key evil-normal-state-map (kbd "<down>") 'dont-arrow-me-bro)
-    (define-key evil-normal-state-map (kbd "<up>") 'dont-arrow-me-bro)
-    (evil-global-set-key 'motion (kbd "<left>") 'dont-arrow-me-bro)
-    (evil-global-set-key 'motion (kbd "<right>") 'dont-arrow-me-bro)
-    (evil-global-set-key 'motion (kbd "<down>") 'dont-arrow-me-bro)
-    (evil-global-set-key 'motion (kbd "<up>") 'dont-arrow-me-bro))
+For most modern Windows versions (Windows 7+), these steps should work:
 
-  (evil-set-initial-state 'messages-buffer-mode 'normal)
-  (evil-set-initial-state 'dashboard-mode 'normal)
+1. Clone this repository to a folder on your system: =git clone https://github.com/daviwil/emacs-from-scratch=
+2. Back up any existing Emacs configuration you may already have in your home directory  (likely =C:\Users\yourusername\=) in the =.emacs.d= folder (you could try moving it to =.emacs.d-old=)
+3. Rename the directory for the clone of this repo to =C:\Users\yourusername\.emacs.d=.
+4. Start Emacs!
 
-(use-package evil-collection)
-  ;; Is this a bug in evil-collection?
-  (setq evil-collection-company-use-tng nil)
+** Installing the Fira Code Font
 
+This configuration uses the [[https://github.com/tonsky/FiraCode][Fira Code]] font by [[https://github.com/tonsky][@tonsky]] and installation instructions can be found on [[https://github.com/tonsky/FiraCode/wiki/Installing][this wiki page]].
 
-#+end_src
-** general.el
-#+begin_src emacs-lisp
-(use-package general
-  :config
-  (general-evil-setup t)
+However, since this is meant to be /your/ configuration, feel free to choose your own font!
 
-  (general-create-definer rune/leader-keys
-    :keymaps '(normal insert visual emacs)
-    :prefix "SPC"
-    :global-prefix "C-SPC"))
+* Recommendations
 
-#+end_src
-* ivy menus
-#+begin_src emacs-lisp
-(use-package ivy
-  :diminish
-  :bind (("C-s" . swiper)
-	 :map ivy-minibuffer-map
-	 ("TAB" . ivy-alt-done)
-	 ("C-l" . ivy-alt-done)
-	 ("C-j" . ivy-next-line)
-	 ("C-k" . ivy-previous-line)
-	 :map ivy-switch-buffer-map
-	 ("C-k" . ivy-previous-line)
-	 ("C-l" . ivy-done)
-	 ("C-d" . ivy-switch-buffer-kill)
-	 :map ivy-reverse-i-search-map
-	 ("C-k" . ivy-previous-line)
-	 ("C-d" . ivy-reverse-i-search-kill))
-  :config
-  (ivy-mode 1))
+Here are some general recommendations on Emacs usage that you might find helpful:
 
-(use-package ivy-rich)
-(ivy-rich-mode 1)
-#+end_src
-* UI
-#+begin_src emacs-lisp
-(use-package rainbow-delimiters
-  :hook (prog-mode . rainbow-delimiters-mode))
-#+end_src
-* Org Mode
-#+begin_src emacs-lisp
-      (defun org-mode-setup ()
-        (org-indent-mode)
-        (variable-pitch-mode 1)
-        (auto-fill-mode 0)
-        (visual-line-mode 1)
-        (setq evil-auto-indent nil))
+** Replace CapsLock with CTRL
 
-      (use-package org
-        :hook (org-mode . org-mode-setup)
-        :config
-        (setq org-ellipsis " ▾"
-              org-hide-emphasis-markers t))
+Most people don't use the CapsLock key (unless you like YELLING ON THE INTERNET) so you can use this simple fix to replace it with the CTRL to make your Emacs life easier.  Doing this will prevent you from having to bend your pinky down all day long to hit all those fabled Emacs keybindings, allowing you to keep your hands on the home row of the keyboard.
 
-      (use-package org-bullets
-        :after org
-        :hook (org-mode . org-bullets-mode)
-        :custom
-        (org-bullets-bullet-list '("◉" "○" "●" "○" "●" "○" "●")))
+Here's how to do it across all 3 major operating systems:
 
-    ;; Replace list hyphen with dot
-    (font-lock-add-keywords 'org-mode
-                            '(("^ *\\([-]\\) "
-                              (0 (prog1 () (compose-region (match-beginning 1) (match-end 1) "•"))))))
+*Linux X11*
 
-(custom-set-faces
-  '(org-level-1 ((t (:inherit outline-1 :height 1.0))))
-  '(org-level-2 ((t (:inherit outline-2 :height 1.0))))
-  '(org-level-3 ((t (:inherit outline-3 :height 1.0))))
-  '(org-level-4 ((t (:inherit outline-4 :height 1.0))))
-  '(org-level-5 ((t (:inherit outline-5 :height 1.0))))
-)
+There are [[https://askubuntu.com/questions/33774/how-do-i-remap-the-caps-lock-and-ctrl-keys][many ways]] to accomplish this in Linux, but the easiest (and most repeatable) I've found is to use [[https://wiki.archlinux.org/index.php/Xmodmap][xmodmap]].  First, create a file named =.Xmodmap= in your home folder and populate it like so:
 
-    ;; Make sure org-indent face is available
-    (require 'org-indent)
+#+begin_src
 
-    ;; Ensure that anything that should be fixed-pitch in Org files appears that way
-    (set-face-attribute 'org-block nil :foreground nil :inherit 'fixed-pitch)
-    (set-face-attribute 'org-code nil   :inherit '(shadow fixed-pitch))
-    (set-face-attribute 'org-indent nil :inherit '(org-hide fixed-pitch))
-    (set-face-attribute 'org-verbatim nil :inherit '(shadow fixed-pitch))
-    (set-face-attribute 'org-special-keyword nil :inherit '(font-lock-comment-face fixed-pitch))
-    (set-face-attribute 'org-meta-line nil :inherit '(font-lock-comment-face fixed-pitch))
-    (set-face-attribute 'org-checkbox nil :inherit 'fixed-pitch)
-   #+end_src
-* Agenda
-#+begin_src emacs-lisp
-(setq org-directory "~/Projects/Code/OrgFiles")
-(setq org-agenda-files '("Tasks.org" "Birthdays.org" "Habits.org"))
-
-;; If you only want to see the agenda for today
-;; (setq org-agenda-span 'day)
-
-(setq org-agenda-start-with-log-mode t)
-(setq org-log-done 'time)
-(setq org-log-into-drawer t)
-#+end_src
-* TODO's
-#+begin_src emacs-lisp
-(setq org-todo-keywords
-  '((sequence "TODO(t)" "NEXT(n)" "|" "DONE(d!)")
-    (sequence "BACKLOG(b)" "PLAN(p)" "READY(r)" "ACTIVE(a)" "REVIEW(v)" "WAIT(w@/!)" "HOLD(h)" "|" "COMPLETED(c)" "CANC(k@)")))
-
-;; Configure custom agenda views
-(setq org-agenda-custom-commands
-  '(("d" "Dashboard"
-     ((agenda "" ((org-deadline-warning-days 7)))
-      (todo "NEXT"
-        ((org-agenda-overriding-header "Next Tasks")))
-      (tags-todo "agenda/ACTIVE" ((org-agenda-overriding-header "Active Projects")))))
-
-    ("n" "Next Tasks"
-     ((todo "NEXT"
-        ((org-agenda-overriding-header "Next Tasks")))))
-
-
-    ("W" "Work Tasks" tags-todo "+work")
-
-    ;; Low-effort next actions
-    ("e" tags-todo "+TODO=\"NEXT\"+Effort<15&+Effort>0"
-     ((org-agenda-overriding-header "Low Effort Tasks")
-      (org-agenda-max-todos 20)
-      (org-agenda-files org-agenda-files)))
-
-    ("w" "Workflow Status"
-     ((todo "WAIT"
-            ((org-agenda-overriding-header "Waiting on External")
-             (org-agenda-files org-agenda-files)))
-      (todo "REVIEW"
-            ((org-agenda-overriding-header "In Review")
-             (org-agenda-files org-agenda-files)))
-      (todo "PLAN"
-            ((org-agenda-overriding-header "In Planning")
-             (org-agenda-todo-list-sublevels nil)
-             (org-agenda-files org-agenda-files)))
-      (todo "BACKLOG"
-            ((org-agenda-overriding-header "Project Backlog")
-             (org-agenda-todo-list-sublevels nil)
-             (org-agenda-files org-agenda-files)))
-      (todo "READY"
-            ((org-agenda-overriding-header "Ready for Work")
-             (org-agenda-files org-agenda-files)))
-      (todo "ACTIVE"
-            ((org-agenda-overriding-header "Active Projects")
-             (org-agenda-files org-agenda-files)))
-      (todo "COMPLETED"
-            ((org-agenda-overriding-header "Completed Projects")
-             (org-agenda-files org-agenda-files)))
-      (todo "CANC"
-            ((org-agenda-overriding-header "Cancelled Projects")
-             (org-agenda-files org-agenda-files)))))))
-#+end_src
-* Refilling
-#+begin_src emacs-lisp
-(setq org-refile-targets
-      '(("Archive.org" :maxlevel . 1)))
-
-;; Save Org buffers after refiling!
-(advice-add 'org-refile :after 'org-save-all-org-buffers)
-#+end_src
-* Summon the Hydra
-#+begin_src emacs-lisp
-(use-package hydra)
-
-(defhydra hydra-text-scale (:timeout 4)
-  "scale text"
-  ("j" text-scale-increase "in")
-  ("k" text-scale-decrease "out")
-  ("f" nil "finished" :exit t))
-
-(rune/leader-keys
-  "ts" '(hydra-text-scale/body :which-key "scale text"))
-#+end_src
-* My KeyBindings
-#+begin_src emacs-lisp
-(rune/leader-keys
-      "f" '(:ignore t :which-key "Files")
-      "ff" '(counsel-find-file :which-key "Dir")
-      "<" '(counsel-switch-buffer :which-key "Buffer")
-      "m" '(:ignore t :which-key "Org")
-      "me" '(org-export-dispatch :which-key "Org-Export")
-      "mt" '(org-babel-tangle :which-key "babel-tangel")
-      "tt" '(counsel-load-theme :which-key "themes"))
-
+clear lock
+clear control
+keycode 66 = Control_L
+add control = Control_L
+add Lock = Control_R
 
 #+end_src
 
-* Help
-#+begin_src emacs-lisp
-(use-package which-key
-  :init (which-key-mode)
-  :diminish which-key-mode
-  :config
-  (setq which-key-idle-delay 0.3))
+This replaces CapsLock with control and also replaces the Ctrl key on the right side with CapsLock just in case you ever need to use it.  Most login systems (GDM, KDM, etc) will load this file when you log in so you might not need to do anything extra for it to take effect, just log out and log back in again.  If that doesn't seem to work, you can add this line to one of your startup files (=.xinitrc=, =.profile=, window manager configuration, etc):
 
+#+begin_src sh
 
+xmodmap ~/.Xmodmap
 
-(use-package counsel
-  :bind(("M-x" . counsel-M-x)
-        ("C-x b" . counsel-switch-buffer)
-        ("C-x C-f" . counsel-find-file)
-        :map minibuffer-local-map
-        ("C-r" . 'counsel-minibuffer-history))
-  :config
-  (setq ivy-initial-inputs-alist nil)) ;; Don't start search ^
-
-(use-package helpful
-  :custom
-  (counsel-describe-function-function #'helpful-callable)
-  (counsel-describe-variable-function #'helpful-variable)
-  :bind
-  ([remap describe-function] . counsel-describe-function)
-  ([remap describe-command] . helpful-command)
-  ([remap describe-variable] . counsel-describe-variable)
-  ([remap describe-key] . helpful-key))
 #+end_src
+
+*Linux sway*
+
+In your =~/.config/sway/config= file add this stanza and reload the config (usually $mod-Shift-c) or =swaymsg reload=:
+
+#+begin_src
+input * {
+xkb_options caps:ctrl_modifier
+}
+#+end_src
+
+
+*Windows*
+
+Approach #1: Change the binding in the Windows registry
+
+On Windows you can use a simple registry file to tweak the CapsLock mapping.  Save the following text to a file called =CapsLockHack.reg=:
+
+#+begin_src
+
+REGEDIT4
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Keyboard Layout]
+"Scancode Map"=hex:00,00,00,00,00,00,00,00,02,00,00,00,1d,00,3a,00,00,00,00,00
+
+#+end_src
+
+Now double-click on this file in Windows Explorer and allow Windows to apply it to your registry settings.  After you log out of your current session and log back in the new key mapping should be in effect. Note that this change will affect *all* users on your system.
+
+Approach #2: Use Microsoft's PowerToys
+
+You can use PowerToys' Keyboard Manager to easily remap the keys. Download the tool from their [[https://github.com/microsoft/PowerToys/releases][github]] page and install it. Then open the powertoys settings (you sould find it in the taskbar), go to keyboard manager, enable it if it isn't already enabled and remap your keys. Once finished you should see something like:
+
+=Caps Lock=   ➞ =Ctrl (Left)=
+
+=Ctrl (left)= ➞ =Caps Lock=
+
+*macOS*
+
+Thankfully Apple saw fit to make this a first-class option in macOS.  You can follow the [[https://support.apple.com/guide/mac-help/change-the-behavior-of-the-modifier-keys-mchlp1011/mac][official documentation]] for your version of macOS to find the Modifier Keys settings and then switch Caps Lock to Control on that page.

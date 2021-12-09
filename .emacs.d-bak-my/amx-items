@@ -1,0 +1,24 @@
+
+;; ----- amx-history -----
+(
+ ispell-change-dictionary
+ flyspell-mode
+ org-present
+ package-install
+ company-mode
+ change-font
+ org-export-dispatch
+)
+
+;; ----- amx-data -----
+(
+ (all-the-icons-install-fonts . 1)
+ (company-tabnine-install-binary . 1)
+ (org-export-dispatch . 10)
+ (package-install . 4)
+ (change-font . 1)
+ (flyspell-mode . 4)
+ (company-mode . 1)
+ (org-present . 3)
+ (ispell-change-dictionary . 2)
+)

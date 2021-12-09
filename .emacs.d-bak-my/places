@@ -1,0 +1,23 @@
+;;; -*- coding: utf-8 -*-
+(("/home/niklas/School/Spanisch/Spanisch.org" . 3284)
+ ("/home/niklas/.emacs.d/recentf" . 751)
+ ("/home/niklas/reveal.js/geschichte/geschichte.org" . 514)
+ ("/home/niklas/reveal.js/geschichte/geschichte.html" . 4047)
+ ("/home/niklas/reveal.js/geschichte/"
+  (dired-filename . "/home/niklas/reveal.js/geschichte/geschichte.org"))
+ ("/home/niklas/reveal.js/"
+  (dired-filename . "/home/niklas/reveal.js/geschichte"))
+ ("/home/niklas/School/Musik/Musik.org" . 281)
+ ("/home/niklas/School/Erdkunde/Erdkunde.org" . 307)
+ ("/home/niklas/School/Erdkunde/"
+  (dired-filename . "/home/niklas/School/Erdkunde/Erdkunde.org"))
+ ("/home/niklas/.emacs.d/elpa/hydra-20201115.1055/hydra-autoloads.el" . 2946)
+ ("/home/niklas/.emacs.d/elpa/lv-20200507.1518/lv-autoloads.el" . 374)
+ ("/home/niklas/.emacs.d/elpa/dashboard-20210928.656/dashboard-autoloads.el" . 962)
+ ("/home/niklas/.emacs.d/elpa/all-the-icons-20211108.7/all-the-icons-autoloads.el" . 2243)
+ ("/home/niklas/.emacs.d/elpa/shrink-path-20190208.1335/shrink-path-autoloads.el" . 428)
+ ("/home/niklas/.emacs.d/elpa/f-20210624.1103/f-autoloads.el" . 368)
+ ("/home/niklas/.emacs.d/elpa/counsel-20210928.949/counsel-autoloads.el" . 17140)
+ ("/home/niklas/.emacs.d/elpa/swiper-20210919.1221/swiper-autoloads.el" . 1398)
+ ("/home/niklas/.emacs.d/elpa/s-20210616.619/s-autoloads.el" . 368)
+ ("/home/niklas/.emacs.d/elpa/ivy-20210930.1450/ivy-autoloads.el" . 5416))
