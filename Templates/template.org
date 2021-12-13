@@ -14,11 +14,3 @@
 #+LATEX_HEADER: \hypersetup{colorlinks=true, linkcolor=violet, citecolor=black, filecolor=black,  urlcolor=black}
 #+LATEX_HEADER: \usepackage{fancyhdr}
 #+LATEX_HEADER: \pagestyle{fancy}
-
-#+LATEX_HEADER: \lhead{\slshape \rightmark}
-#+LATEX_HEADER: \chead{}
-#+LATEX_HEADER: \rhead{\slshape \leftmark}
-
-#+LATEX_HEADER: \lfoot{}
-#+LATEX_HEADER: \cfoot{\thepage}
-#+LATEX_HEADER: \rfoot{Niklas von Hirschfeld}

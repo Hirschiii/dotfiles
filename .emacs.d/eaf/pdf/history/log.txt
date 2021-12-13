@@ -1,1 +1,6 @@
+/home/niklas/School/Mathe/Mathe.pdf
 /home/niklas/School/Physik/Arbeit_9_12.pdf
+/home/niklas/Downloads/"MA10_Potenzfunktionen.pdf
+/home/niklas/School/Musik/Musik.pdf
+/home/niklas/School/Chemie/arbeit_chemie.pdf
+/home/niklas/latex-templates/cv.pdf
