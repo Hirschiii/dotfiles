@@ -14,9 +14,7 @@
 
 (add-hook 'emacs-startup-hook #'efs/display-startup-time)
 #+end_src
-* Set Var
-  #+begin_src emacs-lisp
-  #+end_src
+
 * Dashboard
 #+begin_src emacs-lisp
 

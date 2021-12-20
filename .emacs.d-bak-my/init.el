@@ -9,8 +9,6 @@
 
 (add-hook 'emacs-startup-hook #'efs/display-startup-time)
 
-
-
 (require 'dashboard)
         (dashboard-setup-startup-hook)
         ;; Or if you use use-package

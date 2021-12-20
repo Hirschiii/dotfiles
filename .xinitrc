@@ -19,11 +19,18 @@ light -N 2 &
 
 dunst &
 
-/home/niklas/.dotfiles/autostart.sh &
+picom &
 
+/home/niklas/scripts/dwmbar &
 # Set wallpaper
 feh --bg-fill /home/niklas/wall/boy.png
 # Set WM name (for Java apps)
 
+xrandr --setprovideroutputsource modesetting NVIDIA-0
+xrandr --auto
+
+# Vars
+
+export BROWSER = "qutebrowser" &
 # Run dwm
 exec /usr/local/bin/dwm

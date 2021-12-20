@@ -1,0 +1,35 @@
+* Settings:
+
+** Two Column Layout:
+
+#+begin_export latex
+\setlength{\emergencystretch}{3em}
+\twocolumn
+#+end_export
+
+* Nice Title Page
+
+#+begin_export latex
+\setcounter{tocdepth}{2}
+
+\begin{titlepage} % Suppresses displaying the page number on the title page and the subsequent page counts as page 1
+
+    \raggedleft % Right align the title page
+
+    \rule{1pt}{\textheight} % Vertical line
+    \hspace{0.05\textwidth} % Whitespace between the vertical line and title page text
+    \parbox[b]{0.75\textwidth}{ % Paragraph box for holding the title page text, adjust the width to move the title page left or right on the page
+
+            {\Huge\bfseries Chemie Arbeit \\Themen}\\[2\baselineskip] % Title
+            {\large\textit{Notizen und Mitschriften}}\\[4\baselineskip] % Subtitle or further description
+            {\Large\textsc{Niklas von Hirschfeld}} % Author name, lower case for consistent small caps
+
+            \vspace{0.5\textheight} % Whitespace between the title block and the publisher
+
+            {\noindent Gymnasium Lüneburger Heide}\\[\baselineskip] % Publisher and logo
+    }
+
+\end{titlepage}\tableofcontents
+\newpage
+
+#+end_export

@@ -1,3 +1,5 @@
+/home/niklas/.dotfiles/.emacs.d/Emacs.pdf
+/home/niklas/School/Spanisch/arbeit.pdf
 /home/niklas/School/Mathe/Mathe.pdf
 /home/niklas/School/Physik/Arbeit_9_12.pdf
 /home/niklas/Downloads/"MA10_Potenzfunktionen.pdf
