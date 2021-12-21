@@ -1,2 +1,0 @@
-;;; Generated package description from fortune-cookie.el  -*- no-byte-compile: t -*-
-(define-package "fortune-cookie" "20181223.842" "Print a fortune in your scratch buffer." 'nil :commit "6c1c08f5be83822c0b762872ab25e3dbee96f333" :authors '(("Andrew Schwartzmeyer" . "andrew@schwartzmeyer.com")) :maintainer '("Andrew Schwartzmeyer" . "andrew@schwartzmeyer.com") :keywords '("fortune" "cowsay" "scratch" "startup") :url "https://github.com/andschwa/fortune-cookie")
