@@ -1,7 +1,8 @@
 Xft.dpi  : 192
 
-Xpdf.initialZoom: 200
+! Xpdf.initialZoom: 200
 
+Xcursor.theme: gentoo-blue
 Xcursor.size: 64
 
 ! These might also be useful depending on your monitor and personal preference:
@@ -28,16 +29,19 @@ st.font: Source Code Variable:style=Medium:pixelsize=26:antialias=true:autohint=
 
 !! Set the background, foreground and cursor colors as below:
 
+*.color0: #492E69
+*.color8: #FBA531
+*.color4: #E63B46
 !! gruvbox:
-*.color0: #1d2021
+!*.color0: #1d2021
 *.color1: #cc241d
 *.color2: #98971a
 *.color3: #d79921
-*.color4: #458588
+!*.color4: #458588
 *.color5: #b16286
 *.color6: #689d6a
 *.color7: #a89984
-*.color8: #928374
+!*.color8: #928374
 *.color9: #fb4934
 *.color10: #b8bb26
 *.color11: #fabd2f

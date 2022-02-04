@@ -4,7 +4,6 @@
 
 #+latex_compiler: lualatex
 #+LATEX_HEADER: \usepackage{fontspec}
-#+LATEX_HEADER: \setmainfont{Nunito}
 #+LATEX_HEADER: \usepackage[AUTO]{inputenc}
 #+LATEX_HEADER: \usepackage{graphicx}
 #+LATEX_HEADER: \usepackage[a4paper, left = 2.5cm, right = 2.5 cm, top = 2.5 cm, bottom = 2.0 cm]{geometry}

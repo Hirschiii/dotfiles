@@ -1,30 +1,23 @@
 # et keyboard layout to Swiss German
-setxkbmap de
+# setxkbmap de
 
 # Load .Xresources file
 xrdb -merge ~/.Xresources
 
-lxsession &
+# xmodmap ~/.Xmodmap &
 
-picom &
+#xrandr --setprovideroutputsource modesetting NVIDIA-0 &
+#xrandr --auto &
 
-xmodmap ~/.Xmodmap &
+# light -I &
+# light -N 2 &
 
-/usr/bin/emacs --daemon &
-
-light -I &
-light -N 2 &
-
-dunst &
-
-picom &
-
+# picom &
 # Set wallpaper
-feh --bg-fill /home/niklas/wall/mountains.png
+# feh --bg-fill /home/niklas/wall/gen4k.jpg
+# /usr/bin/emacs -daemon &
 # Set WM name (for Java apps)
 
-# Vars
-
-export BROWSER = "qutebrowser" &
 # Run dwm
-exec /usr/local/bin/dwm
+#exec dbus-run-session /usr/local/bin/dwm
+exec dbus-run-session bspwm

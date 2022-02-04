@@ -15,8 +15,8 @@ The following variables are used to tweak some of the configuration pieces for u
   ;;       in Emacs and init.el will be generated automatically!
 
   ;; You will most likely need to adjust this font size for your system!
-  (defvar efs/default-font-size 180)
-  (defvar efs/default-variable-font-size 180)
+  (defvar efs/default-font-size 130)
+  (defvar efs/default-variable-font-size 130)
 
   ;; Make frame transparency overridable
   (defvar efs/frame-transparency '(90 . 90))
@@ -160,8 +160,7 @@ I am using the [[https://github.com/tonsky/FiraCode][Fira Code]] and [[https://f
 ;; Set the variable pitch face
 (set-face-attribute 'variable-pitch nil :font "Cantarell" :height efs/default-variable-font-size :weight 'regular)
 
-#+end_src
-
+#+end_src 
 * Dashboard
 
 #+begin_src emacs-lisp
@@ -179,7 +178,7 @@ I am using the [[https://github.com/tonsky/FiraCode][Fira Code]] and [[https://f
   ;; Set the title
   (setq dashboard-banner-logo-title "Welcome to Emacs Dashboard")
   ;; Set the banner
-  (setq dashboard-startup-banner "/home/niklas/Downloads/full.png")
+  (setq dashboard-startup-banner 'official)
   ;; Value can be
   ;; 'official which displays the official emacs logo
   ;; 'logo which displays an alternative emacs logo
@@ -280,17 +279,6 @@ This configuration uses [[https://evil.readthedocs.io/en/latest/index.html][evil
     (setq mouse-wheel-follow-mouse 't) ;; scroll window under mouse
     
     (setq scroll-step 1) ;; keyboard scroll one line at a time
-#+end_src
-* EAF
-
-#+begin_src emacs-lisp
-
-  (add-to-list 'load-path "~/.emacs.d/site-lisp/emacs-application-framework/")
-  (require 'eaf)
-
-  (require 'eaf-browser)
-  (require 'eaf-pdf-viewer)
-
 #+end_src
 * Development
 
@@ -767,7 +755,9 @@ The =efs/org-font-setup= function configures various text faces to tweak the siz
     (set-face-attribute 'line-number nil :inherit 'fixed-pitch)
     (set-face-attribute 'line-number-current-line nil :inherit 'fixed-pitch))
 
-#+end_src
+  (setq org-hide-emphasis-markers t)
+
+        #+end_src
 
 ** Basic Config
 
@@ -794,7 +784,8 @@ This section contains the basic configuration for =org-mode= plus the configurat
       (setq org-agenda-files
             '("~/Org/Tasks.org"
               "~/Org/Habits.org"
-              "~/Org/Birthdays.org"))
+              "~/Org/Birthdays.org"
+              "~/Org/BigTask.org"))
 
       (require 'org-habit)
       (add-to-list 'org-modules 'org-habit)
@@ -815,6 +806,7 @@ This section contains the basic configuration for =org-mode= plus the configurat
         '((:startgroup)
            ; Put mutually exclusive tags here
            (:endgroup)
+           ("sil" , ?S)
            ("@errand" . ?E)
            ("@home" . ?H)
            ("@work" . ?W)
@@ -929,7 +921,7 @@ We use [[https://github.com/joostkremers/visual-fill-column][visual-fill-column]
 #+begin_src emacs-lisp
 
   (defun efs/org-mode-visual-fill ()
-    (setq visual-fill-column-width 100
+    (setq visual-fill-column-width 150
           visual-fill-column-center-text t)
     (visual-fill-column-mode 1))
 
@@ -990,6 +982,28 @@ This snippet adds a hook to =org-mode= buffers so that =efs/org-babel-tangle-con
 
 #+end_src
 
+* Org Roam
+
+#+begin_src emacs-lisp
+
+  (use-package org-roam
+    :ensure t)
+
+  (use-package org-roam
+    :ensure t
+    :init
+    (setq org-roam-v2-ack t)
+    :custom
+    (org-roam-directory "~/RoamNotes")
+    (org-roam-completion-everywhere t)
+    :bind (("C-c n l" . org-roam-buffer-toggle)
+           ("C-c n f" . org-roam-node-find)
+           ("C-c n i" . org-roam-node-insert)
+           :map org-mode-map
+           ("C-M-i"    . completion-at-point))
+    :config
+    (org-roam-setup))
+#+end_src
 * LaTex Export
 
 #+begin_src emacs-lisp
@@ -1039,7 +1053,7 @@ This snippet adds a hook to =org-mode= buffers so that =efs/org-babel-tangle-con
          \\subject{{{{beamersubject}}}}\n"
 
                  ("\\section{%s}" . "\\section*{%s}")
-	       
+
                  ("\\begin{frame}[fragile]\\frametitle{%s}"
                   "\\end{frame}"
                   "\\begin{frame}[fragile]\\frametitle{%s}"
@@ -1052,6 +1066,8 @@ This snippet adds a hook to =org-mode= buffers so that =efs/org-babel-tangle-con
         '(("utf8" "inputenc"  t)
           ("normalem" "ulem"  t)
           (""     "mathtools"   t)))
+
+(setq org-format-latex-options (plist-put org-format-latex-options :scale 4.0))
 #+end_src
 * Terminals
 
@@ -1319,3 +1335,5 @@ Dial the GC threshold back down so that garbage collection happens more frequent
   (setq gc-cons-threshold (* 2 1000 1000))
 
 #+end_src
+
+ 
