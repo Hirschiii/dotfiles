@@ -1,0 +1,97 @@
+set $fm DP1
+set $sm HDMI2
+set $am eDP1
+
+set $mod Mod4
+
+font pango:monospace 8
+
+for_window [class="^.*"] border pixel 3
+new_window 1pixel
+
+gaps inner 6
+gaps outer 6
+
+floating_modifier $mod
+
+bindsym $mod+Shift+s layout stacking
+bindsym $mod+Shift+t layout tabbed
+workspace 1 output $fm
+workspace 2 output $fm
+workspace 3 output $fm
+workspace 4 output $fm
+workspace 5 output $fm
+workspace 6 output $fm
+workspace 7 output $fm
+workspace 8 output $fm
+workspace 9 output $fm
+workspace 10 output $fm
+workspace 1 output $am
+workspace 2 output $am
+workspace 3 output $am
+workspace 4 output $am
+workspace 5 output $am
+workspace 6 output $am
+workspace 7 output $am
+workspace 8 output $am
+workspace 9 output $am
+workspace 10 output $am
+workspace 11 output $sm
+workspace 12 output $sm
+workspace 13 output $sm
+workspace 14 output $sm
+workspace 15 output $sm
+workspace 16 output $sm
+workspace 17 output $sm
+workspace 18 output $sm
+workspace 19 output $sm
+workspace 20 output $sm
+
+#Define WS Vars
+set $ws1 "1"
+set $ws2 "2"
+set $ws3 "3"
+set $ws4 "4"
+set $ws5 "5"
+set $ws6 "6"
+set $ws7 "7"
+set $ws8 "8"
+set $ws9 "9"
+set $ws10 "10"
+set $ws11 "11"
+set $ws12 "12"
+set $ws13 "13"
+set $ws14 "14"
+set $ws15 "15"
+set $ws16 "16"
+set $ws17 "17"
+set $ws18 "18"
+set $ws19 "19"
+set $ws20 "20"
+
+# class                 border  backgr. text    indicator child_border
+client.focused          #ABE9B3 #ABE9B3 #1a1826 #ABE9B3   #ABE9B3
+client.focused_inactive #333333 #5f676a #ffffff #484e50   #5f676a
+client.unfocused        #333333 #222222 #888888 #292d2e   #222222
+client.urgent           #2f343a #900000 #ffffff #900000   #900000
+client.placeholder      #000000 #0c0c0c #ffffff #000000   #0c0c0c
+
+client.background       #ffffff
+exec_always --no-startup-id ~/.config/i3/autostart.sh
+
+bar {
+     position top
+     tray_output primary
+     status_command i3blocks -c $HOME/.config/i3/i3blocks.conf
+     font pango:FiraCode Nerd Font 13
+     colors {
+         background #1c1c1c
+         statusline #b2b2b2
+             # class        border background text
+             focused_workspace  #d9d9d9 #212121        #d9d9d9
+             active_workspace   #d9d9d9 #212121        #d9d9d9
+             inactive_workspace #0d1010 #212121        #d9d9d9
+             urgent_workspace #d9d9d9 #212121        #d9d9d9
+     }
+}
+

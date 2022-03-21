@@ -2,9 +2,18 @@
 # setxkbmap de
 
 # Load .Xresources file
-xrdb -merge ~/.Xresources
-
-# xmodmap ~/.Xmodmap &
+xrdb -merge ~/.Xresources &
+setxkbmap de &
+feh --bg-fill /home/niklas/wall/joker.png &
+xsetroot -cursor_name leftptr &
+picom --daemon &
+nm-applet &
+xmodmap ~/.Xmodmap &
+light -I &
+light -N 2 &
+dbus-launch --sh-syntax --exit-with-session; pulseaudio --kill; pipewire &
+pasystray &
+# xmodmap ~/.Xmodmap 
 
 #xrandr --setprovideroutputsource modesetting NVIDIA-0 &
 #xrandr --auto &
@@ -20,4 +29,6 @@ xrdb -merge ~/.Xresources
 
 # Run dwm
 #exec dbus-run-session /usr/local/bin/dwm
-exec dbus-run-session bspwm
+xrandr --setprovideroutputsource modesetting NVIDIA-0
+xrandr --auto
+exec dbus-run-session i3

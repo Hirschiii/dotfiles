@@ -256,20 +256,18 @@
   (pyvenv-mode 1))
 
 (use-package company
-    :after lsp-mode
-    :hook (lsp-mode . company-mode)
-    :bind (:map company-active-map
-           ("<tab>" . company-complete-selection))
-          (:map lsp-mode-map
-           ("<tab>" . company-indent-or-complete-common))
-    :custom
-    (company-minimum-prefix-length 1)
-    (company-idle-delay 0.0))
+  :after lsp-mode
+  :hook (lsp-mode . company-mode)
+  :bind (:map company-active-map
+         ("<tab>" . company-complete-selection))
+        (:map lsp-mode-map
+         ("<tab>" . company-indent-or-complete-common))
+  :custom
+  (company-minimum-prefix-length 1)
+  (company-idle-delay 0.0))
 
-  (use-package company-box
-    :hook (company-mode . company-box-mode))
-
-(add-hook 'after-init-hook 'global-company-mode)
+(use-package company-box
+  :hook (company-mode . company-box-mode))
 
 (use-package projectile
   :diminish projectile-mode
@@ -433,6 +431,46 @@
 
 (setq org-hide-emphasis-markers t)
 
+;; specify the justification you want
+(plist-put org-format-latex-options :justify 'center)
+
+(defun org-justify-fragment-overlay (beg end image imagetype)
+  "Adjust the justification of a LaTeX fragment.
+The justification is set by :justify in
+`org-format-latex-options'. Only equations at the beginning of a
+line are justified."
+  (cond
+   ;; Centered justification
+   ((and (eq 'center (plist-get org-format-latex-options :justify)) 
+         (= beg (line-beginning-position)))
+    (let* ((img (create-image image 'imagemagick t))
+           (width (car (image-size img)))
+           (offset (floor (- (/ (window-text-width) 2) (/ width 2)))))
+      (overlay-put (ov-at) 'before-string (make-string offset ? ))))
+   ;; Right justification
+   ((and (eq 'right (plist-get org-format-latex-options :justify)) 
+         (= beg (line-beginning-position)))
+    (let* ((img (create-image image 'imagemagick t))
+           (width (car (image-display-size (overlay-get (ov-at) 'display))))
+           (offset (floor (- (window-text-width) width (- (line-end-position) end)))))
+      (overlay-put (ov-at) 'before-string (make-string offset ? ))))))
+
+(defun org-latex-fragment-tooltip (beg end image imagetype)
+  "Add the fragment tooltip to the overlay and set click function to toggle it."
+  (overlay-put (ov-at) 'help-echo
+               (concat (buffer-substring beg end)
+                       "mouse-1 to toggle."))
+  (overlay-put (ov-at) 'local-map (let ((map (make-sparse-keymap)))
+                                    (define-key map [mouse-1]
+                                      `(lambda ()
+                                         (interactive)
+                                         (org-remove-latex-fragment-image-overlays ,beg ,end)))
+                                    map)))
+
+;; advise the function to a
+(advice-add 'org--format-latex-make-overlay :after 'org-justify-fragment-overlay)
+(advice-add 'org--format-latex-make-overlay :after 'org-latex-fragment-tooltip)
+
 (defun efs/org-mode-setup ()
     (org-indent-mode)
     (variable-pitch-mode 1)
@@ -474,6 +512,7 @@
       '((:startgroup)
          ; Put mutually exclusive tags here
          (:endgroup)
+         ("sil" , ?S)
          ("@errand" . ?E)
          ("@home" . ?H)
          ("@work" . ?W)

@@ -1,0 +1,17 @@
+xrdb -merge ~/.Xresources &
+setxkbmap de &
+feh --bg-fill /home/niklas/wall/moon.png &
+xsetroot -cursor_name leftptr &
+nm-applet &
+light -I &
+light -N 2 &
+
+dbus-launch --sh-syntax --exit-with-session; pulseaudio --kill; pipewire &
+pasystray &
+# Starting light-lock with X session
+light-locker &
+
+xmodmap /home/niklas/.Xmodmap
+xrandr --setprovideroutputsource modesetting NVIDIA-0
+xrandr --auto
+
