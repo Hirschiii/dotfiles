@@ -1,17 +1,18 @@
 xrdb -merge ~/.Xresources &
 setxkbmap de &
-feh --bg-fill /home/niklas/wall/moon.png &
+feh --bg-fill ~/dotfiles/wall/ &
 xsetroot -cursor_name leftptr &
-nm-applet &
 light -I &
 light -N 2 &
 
 dbus-launch --sh-syntax --exit-with-session; pulseaudio --kill; pipewire &
-pasystray &
 # Starting light-lock with X session
-light-locker &
+# light-locker &
 
-xmodmap /home/niklas/.Xmodmap
+conky -d -c /home/niklas/.config/conky/.conkyrc &
+
+xautolock -time 5 -locker "i3lock-fancy-rapid 5 3" &
+xmodmap /home/niklas/dotfiles/.Xmodmap
 xrandr --setprovideroutputsource modesetting NVIDIA-0
 xrandr --auto
 

@@ -256,6 +256,18 @@ alias merge='xrdb -merge ~/.Xresources'
 # nnn FIFO
 export NNN_FIFO=/tmp/nnn.fifo
 
+# youtube-dl
+alias yta-aac="youtube-dl --extract-audio --audio-format aac "
+alias yta-best="youtube-dl --extract-audio --audio-format best "
+alias yta-flac="youtube-dl --extract-audio --audio-format flac "
+alias yta-m4a="youtube-dl --extract-audio --audio-format m4a "
+alias yta-mp3="youtube-dl --extract-audio --audio-format mp3 "
+alias yta-opus="youtube-dl --extract-audio --audio-format opus "
+alias yta-vorbis="youtube-dl --extract-audio --audio-format vorbis "
+alias yta-wav="youtube-dl --extract-audio --audio-format wav "
+alias ytv-best="youtube-dl -f bestvideo+bestaudio "
+
+
 # the terminal rickroll
 alias rr='bash /home/niklas/roll.sh'
 
@@ -265,7 +277,8 @@ alias tips="lbrynet txo spend --type=support --is_not_my_input --blocking"
 ### RANDOM COLOR SCRIPT ###
 # Get this script from my GitLab: gitlab.com/dwt1/shell-color-scripts
 # Or install it from the Arch User Repository: shell-color-scripts
-colorscript random
+# colorscript random
+nerdfetch
 
 ### SETTING THE STARSHIP PROMPT ###
 starship init fish | source

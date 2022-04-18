@@ -3,10 +3,15 @@ super + Escape
 
 
 super + d
-    dmenu_run
+    rofi -no-lazy-grab -show drun -modi drun
 
 super + p
     prime-run dmenu_run
+
+super+shift+x
+    i3lock-fancy-rapid 5 3
+
+
  
 
 
@@ -34,6 +39,12 @@ XF86AudioLowerVolume
 
 XF86AudioMute
     pactl set-sink-mute @DEFAULT_SINK@ toggle && pkill -RTMIN+1 i3blocks
+
+XF86MonBrightnessUp
+    light -A 5
+
+XF86MonBrightnessDown 
+    light -U 5
 
 
 #i3 Specific Keybindings
@@ -83,6 +94,9 @@ super + Return
 
 super + q
     i3-msg kill
+
+super + shift + e
+    i3-msg exit
 
 super + shift + c
     i3-msg reload
