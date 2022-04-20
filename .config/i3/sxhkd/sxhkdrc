@@ -41,10 +41,10 @@ XF86AudioMute
     pactl set-sink-mute @DEFAULT_SINK@ toggle && pkill -RTMIN+1 i3blocks
 
 XF86MonBrightnessUp
-    light -A 5
+    light -A 10
 
 XF86MonBrightnessDown 
-    light -U 5
+    light -U 10
 
 
 #i3 Specific Keybindings

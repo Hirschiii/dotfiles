@@ -45,7 +45,7 @@ own_window_argb_visual yes
 update_interval 2
 uppercase no
 use_xft yes
-xftalpha 0.8
+xftalpha 1
 xftfont  Bitstream Vera Sans Mono:size=12  # for xfce
 #xftfont  Bitstream Vera Sans Mono:size=9 # for gnome
 
@@ -106,4 +106,4 @@ ${color1}Outbound Connection ${alignr} Remote Service/Port${color}
 ${tcp_portmon 32768 61000 rhost 0} ${alignr} ${tcp_portmon 32768 61000 rservice 0}
 ${tcp_portmon 32768 61000 rhost 1} ${alignr} ${tcp_portmon 32768 61000 rservice 1}
 ${color #88cc00}$hr
-${color grey}${font SauceCodePro Nerd Font Mono:regular:size=9}DOOMSDAY CLOCK: ${alignr}${execi 7200 node ~/.config/conky/scr.js}
+${color grey}${font SauceCodePro Nerd Font Mono:regular:size=9}DOOMSDAY CLOCK: ${alignr}${execi 7200 python3 ~/.config/conky/scr.py}
