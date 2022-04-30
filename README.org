@@ -1,2 +1,4 @@
 #+TITLE: Readme
-* My Arch-Xmonad and Emacs X Windows Manager setup :)
+Hey Guys, this is my everyday-setup for School.
+
+i'm using Gentoo and i Love it!!!
