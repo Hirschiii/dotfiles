@@ -4,15 +4,14 @@
 # Load .Xresources file
 xrdb -merge ~/.Xresources &
 setxkbmap de &
-feh --bg-fill /home/niklas/wall/joker.png &
+#feh --bg-fill /home/niklas/wall/joker.png &
 xsetroot -cursor_name leftptr &
-picom --daemon &
-nm-applet &
-xmodmap ~/.Xmodmap &
-light -I &
-light -N 2 &
-dbus-launch --sh-syntax --exit-with-session; pulseaudio --kill; pipewire &
-pasystray &
+#nm-applet &
+#xmodmap ~/.Xmodmap &
+#light -I &
+#light -N 2 &
+#dbus-launch --sh-syntax --exit-with-session; pulseaudio --kill; pipewire &
+#pasystray &
 # xmodmap ~/.Xmodmap 
 
 #xrandr --setprovideroutputsource modesetting NVIDIA-0 &
@@ -27,8 +26,10 @@ pasystray &
 # /usr/bin/emacs -daemon &
 # Set WM name (for Java apps)
 
+light -I &
+light -N 2 &
 # Run dwm
 #exec dbus-run-session /usr/local/bin/dwm
-xrandr --setprovideroutputsource modesetting NVIDIA-0
-xrandr --auto
+#xrandr --setprovideroutputsource modesetting NVIDIA-0
+#xrandr --auto
 exec dbus-run-session i3

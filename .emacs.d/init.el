@@ -28,8 +28,8 @@
                           ("elpa" . "https://elpa.gnu.org/packages/")))
 
  (package-initialize)
- (unless package-archive-contents
-   (package-refresh-contents))
+
+(package-refresh-contents)
 
    ;; Initialize use-package on non-Linux platforms
  (unless (package-installed-p 'use-package)
@@ -51,12 +51,14 @@
 ;; reliably, set `user-emacs-directory` before loading no-littering!
 ;(setq user-emacs-directory "~/.cache/emacs")
 
-(use-package no-littering)
+;; (add-to-list 'load-path "~/.emacs.d/site-lisp/")
+;; (use-package no-littering)
+;; (require 'no-littering)
 
 ;; no-littering doesn't set this by default so we must place
 ;; auto save files in the same path as it uses for sessions
-(setq auto-save-file-name-transforms
-      `((".*" ,(no-littering-expand-var-file-name "auto-save/") t)))
+;; (setq auto-save-file-name-transforms
+      ;; `((".*" ,(no-littering-expand-var-file-name "auto-save/") t)))
 
 (setq inhibit-startup-message t)
 
@@ -827,3 +829,16 @@ line are justified."
 
 ;; Make gc pauses faster by decreasing the threshold.
 (setq gc-cons-threshold (* 2 1000 1000))
+(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(package-selected-packages
+   '(dired-hide-dotfiles dired-open all-the-icons-dired dired-single eshell-git-prompt vterm eterm-256color org-roam org-mind-map visual-fill-column ox-reveal ivy-prescient which-key doom-modeline doom-themes command-log-mode ivy-bibtex use-package undo-tree typescript-mode shrink-path rainbow-delimiters pyvenv python-mode org-bullets lsp-ui lsp-ivy ivy-rich helpful general forge evil-nerd-commenter evil-collection dashboard dap-mode counsel-projectile company-tabnine company-box biblio auto-package-update all-the-icons)))
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ )

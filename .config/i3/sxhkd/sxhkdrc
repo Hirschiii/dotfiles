@@ -2,14 +2,19 @@ super + Escape
     pkill -USR1 -x sxhkd
 
 
-super + d
-    rofi -no-lazy-grab -show drun -modi drun
-
+# super + d
 super + p
     prime-run dmenu_run
 
 super+shift+x
     i3lock-fancy-rapid 5 3
+
+# start dmenu
+# super+shift+d
+#	dmenu_run -i -nb '#191919' -nf '#fea63c' -sb '#fea63c' -sf '#191919' -fn 'NotoMonoRegular:bold:pixelsize=40'
+
+super+d
+	dmenu_run -fn 'Noto Sans:12'
 
 
  
@@ -21,7 +26,7 @@ super + w
    firefox
 
 super + c
-    clipmenu
+    clipmenu -fn "Noto Sans:12"
 
 alt + t
  alacritty -e "tty-clock"
@@ -104,12 +109,15 @@ super + shift + c
 super + shift + r
     i3-msg restart
 
-super + e
-    emacsclient -c -a emacs
-
 super + ctrl + {h,j,k,l}
     i3-msg resize {grow width 1 px or 1 ppt, shrink height 1 px or 1 ppt, grow height 1 px or 1 ppt, shrink width 1 px or 1 ppt}
 
-super + o
+super + e
     flatpak run org.onlyoffice.desktopeditors
+
+super + o
+    flatpak run md.obsidian.Obsidian
+
+super + b
+    qutebrowser
 

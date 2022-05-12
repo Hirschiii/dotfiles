@@ -1,5 +1,6 @@
+;;;; -*- mode: lisp-data -*-
 (
- (:id "sha1:6d4eb958390599243ba9f5035cb671fa8dd6a93a" :fingerprints ("sha1:7b:75:42:b2:7f:94:3e:67:6a:fe:e1:3f:af:ae:df:58:6e:aa:f1:54") :host "elpa.gnu.org:443" :conditions (:expired :invalid :verify-cert))
- (:id "sha1:24c7a1e6369fef1e50de1deb1a9e5bbc68f80c8b" :fingerprints ("sha1:ae:78:68:42:66:8d:8b:fe:7d:76:cf:cc:bd:d3:c7:9f:32:b8:01:58") :host "orgmode.org:443" :conditions (:expired :invalid :verify-cert))
- (:id "sha1:85b31c268009209a8d3c5387033b219264f7e62b" :fingerprints ("sha1:b5:b9:09:73:35:bc:48:5a:1f:f1:37:33:e5:c0:89:7e:e2:5f:6a:6c") :host "melpa.org:443" :conditions (:revocation-data-superseded :expired :invalid :verify-cert))
+ (:id "sha1:24c7a1e6369fef1e50de1deb1a9e5bbc68f80c8b" :fingerprints ("sha1:ae:78:68:42:66:8d:8b:fe:7d:76:cf:cc:bd:d3:c7:9f:32:b8:01:58" "sha1:95:c4:fa:2f:2c:84:9d:86:0a:85:f7:f4:1a:af:80:a8:0b:57:10:0f") :host "orgmode.org:443" :conditions (:same-cert))
+ (:id "sha1:6d4eb958390599243ba9f5035cb671fa8dd6a93a" :fingerprints ("sha1:7b:75:42:b2:7f:94:3e:67:6a:fe:e1:3f:af:ae:df:58:6e:aa:f1:54" "sha1:20:5d:a0:22:12:af:6f:9e:24:12:6c:3c:88:b4:97:b1:f0:19:9c:65") :host "elpa.gnu.org:443" :conditions (:same-cert))
+ (:id "sha1:85b31c268009209a8d3c5387033b219264f7e62b" :fingerprints ("sha1:b5:b9:09:73:35:bc:48:5a:1f:f1:37:33:e5:c0:89:7e:e2:5f:6a:6c" "sha1:e1:ca:67:6d:b8:5a:eb:b0:c3:80:6f:c9:80:af:4e:d1:ab:73:57:13") :host "melpa.org:443" :conditions (:same-cert))
 )
