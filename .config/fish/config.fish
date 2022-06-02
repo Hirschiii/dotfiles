@@ -202,6 +202,8 @@ end
 # \x1b[1;1H <- goes to (1, 1) (start)
 alias clear='echo -en "\x1b[2J\x1b[1;1H" ; echo; echo; seq 1 (tput cols) | sort -R | spark | lolcat; echo; echo'
 
+alias home="bash ~/.screenlayout/Home.sh"
+
 # root privileges
 alias doas="doas --"
 
@@ -223,10 +225,12 @@ alias doompurge="~/.emacs.d/bin/doom purge"
 
 # Changing "ls" to "exa"
 alias ls='exa -l --color=always --group-directories-first' # my preferred listing
-alias la='exa -a --color=always --group-directories-first'  # all files and dirs
+alias la='exa -la --color=always --group-directories-first'  # all files and dirs
 alias ll='exa -l --color=always --group-directories-first'  # long format
 alias lt='exa -aT --color=always --group-directories-first' # tree listing
 alias l.='exa -a | egrep "^\."'
+
+alias update_all="sudo emerge --ask --update --newuse --deep @world"
 
 # Colorize grep output (good for log files)
 alias grep='grep --color=auto'
@@ -245,7 +249,9 @@ alias lynx='lynx -cfg=~/.lynx/lynx.cfg -lss=~/.lynx/lynx.lss -vikeys'
 alias mocp='mocp -M "$XDG_CONFIG_HOME"/moc -O MOCDir="$XDG_CONFIG_HOME"/moc'
 
 # kara
-alias kara="java -Dsun.java2d.uiScale=2.0 -jar ~/Downloads/kara.jar"
+# alias kara="java -Dsun.java2d.uiScale=2.0 -jar ~/Downloads/kara.jar"
+
+
 
 # ps
 alias psa="ps auxf"
@@ -276,6 +282,12 @@ alias rr='bash /home/niklas/roll.sh'
 
 # Unlock LBRY tips
 alias tips="lbrynet txo spend --type=support --is_not_my_input --blocking"
+
+
+# Music Video
+
+alias musvid-car="mpv 'https://www.youtube.com/watch?v=ctqjw2j5yRY'"
+alias musvid-dick="mpv 'https://www.youtube.com/watch?v=thJgU9jkdU4'"
 
 ### RANDOM COLOR SCRIPT ###
 # Get this script from my GitLab: gitlab.com/dwt1/shell-color-scripts

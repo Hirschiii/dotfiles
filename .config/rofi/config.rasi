@@ -1,5 +1,6 @@
 /* Rofi config file */
 configuration {
+    modi: "window,drun,run";
     font: "Source Sans Pro 32";
     show-icons: true;
     display-window: "Window";

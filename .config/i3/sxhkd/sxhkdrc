@@ -13,9 +13,11 @@ super+shift+x
 # super+shift+d
 #	dmenu_run -i -nb '#191919' -nf '#fea63c' -sb '#fea63c' -sf '#191919' -fn 'NotoMonoRegular:bold:pixelsize=40'
 
-super+d
-	dmenu_run -fn 'Noto Sans:12'
+# super+d
+#	dmenu_run -fn 'Noto Sans:12'
 
+super+d
+	rofi -show drun
 
  
 
@@ -23,7 +25,7 @@ super+d
 # Application Keybindings
 
 super + w
-   firefox
+	rofi -show window
 
 super + c
     clipmenu -fn "Noto Sans:12"
@@ -44,6 +46,25 @@ XF86AudioLowerVolume
 
 XF86AudioMute
     pactl set-sink-mute @DEFAULT_SINK@ toggle && pkill -RTMIN+1 i3blocks
+
+XF86AudioPlay
+  playerctl play-pause
+
+XF86AudioNext
+  playerctl next
+
+XF86AudioPrevious
+  playerctl previous
+
+F1
+  playerctl play-pause
+
+F3
+  playerctl next
+
+F2
+  playerctl previous
+
 
 XF86MonBrightnessUp
     light -A 10
@@ -116,7 +137,7 @@ super + e
     flatpak run org.onlyoffice.desktopeditors
 
 super + o
-    flatpak run md.obsidian.Obsidian
+  obsidian
 
 super + b
     qutebrowser

@@ -23,7 +23,10 @@ c.aliases = {'q': 'quit', 'w': 'session-save', 'wq': 'quit --save'}
 # Setting dark mode
 # config.set("colors.webpage.darkmode.enabled", True)
 
-
+# jMatrix
+import sys, os
+sys.path.append(os.path.join(sys.path[0], 'jmatrix'))
+config.source("jmatrix/jmatrix/integrations/qutebrowser.py")
 
 # Which cookies to accept. With QtWebEngine, this setting also controls
 # other features with tracking capabilities similar to those of cookies;

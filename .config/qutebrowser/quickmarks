@@ -24,3 +24,4 @@ led http://192.168.1.54:5500/
 open https://192.168.1.1/
 fritz http://192.168.1.99/
 local http://localhost:4000/
+dp https://www.deepl.com/translator
