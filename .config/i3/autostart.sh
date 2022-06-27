@@ -6,7 +6,7 @@
 # picom --config ~/.config/picom/picom.conf --vsync &
 # compton --vsync &
 picom &
-feh --bg-fill ~/.dotfiles/wall/back_to_everfrost.png &
+# feh --bg-fill ~/.dotfiles/wall/back_to_everfrost.png &
 
 # bash ~/scripts/launche_poly.sh &
 xrdb -merge ~/.Xresources &

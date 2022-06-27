@@ -12,3 +12,10 @@ Xft.hintstyle:  hintfull
 Xft.hinting: 1
 Xft.antialias: 1
 Xft.rgba: rgb
+
+dwm.normbordercolor: #ffffff
+dwm.normbgcolor: #444444
+dwm.normfgcolor: #bbbbbb
+dwm.selbordercolor: #eeeeee
+dwm.selbgcolor: #bd93f9
+dwm.selfgcolor: #000000

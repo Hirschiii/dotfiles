@@ -2,7 +2,7 @@ set $fm DP1
 set $sm HDMI2
 set $am eDP1
 
-include $HOME/.config/i3/themes/onedark.conf
+include $HOME/.config/i3/themes/dracula.conf
 include $HOME/.config/i3/workspaces.conf
 
 # include $HOME/.config/i3/scratchpad.conf
@@ -16,12 +16,12 @@ for_window [class="^.*"] border pixel 3
 new_window 1pixel
 
 hide_edge_borders smart
-smart_gaps on
+# smart_gaps on
 
-border_radius 10
+# border_radius 10
 
-gaps inner 6
-gaps outer 6
+# gaps inner 6
+# gaps outer 6
 
 floating_modifier $mod
 

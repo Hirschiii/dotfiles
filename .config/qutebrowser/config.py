@@ -10,6 +10,7 @@
 #   qute://help/configuring.html
 #   qute://help/settings.html
 
+
 # Uncomment this to still load settings configured via autoconfig.yml
 # config.load_autoconfig()
 # Or uncomment this line to load settings from config.py
@@ -20,13 +21,13 @@ config.load_autoconfig(False)
 # Type: Dict
 c.aliases = {'q': 'quit', 'w': 'session-save', 'wq': 'quit --save'}
 
-# Setting dark mode
-# config.set("colors.webpage.darkmode.enabled", True)
-
 # jMatrix
 import sys, os
 sys.path.append(os.path.join(sys.path[0], 'jmatrix'))
 config.source("jmatrix/jmatrix/integrations/qutebrowser.py")
+# Setting dark mode
+# config.set("colors.webpage.darkmode.enabled", True)
+
 
 # Which cookies to accept. With QtWebEngine, this setting also controls
 # other features with tracking capabilities similar to those of cookies;

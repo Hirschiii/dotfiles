@@ -2,6 +2,9 @@
 # et keyboard layout to Swiss German
 # setxkbmap de
 
+# pscircle --output-height=2160 --output-width=3840 --output=/tmp/pscircle.png
+# feh --bg-fill /tmp/pscircle.png
+feh --bg-fill ~/.dotfiles/wall/dracu-gentoo.png &
 # Load .Xresources file
 xrdb -merge ~/.Xresources &
 setxkbmap de &
@@ -36,6 +39,7 @@ if which dbus-launch >/dev/null && test -z "$DBUS_SESSION_BUS_ADDRESS"; then
        eval `dbus-launch --sh-syntax --exit-with-session`
 fi
 
+# bash /home/niklas/.dotfiles/.local/scripts/psbg.sh & 
 gentoo-pipewire-launcher &
 
 # Run dwm
@@ -44,4 +48,8 @@ gentoo-pipewire-launcher &
 #xrandr --auto
 nm-applet &
 pasystray &
-exec dbus-run-session i3
+
+# exec dbus-run-session i3
+wmname LG3D &
+dwmblocks &
+clipmenud &

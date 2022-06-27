@@ -4,8 +4,9 @@ LICENSE
 ^/.*\.org
 fonts
 backgrounds
-scripts
 Pictures
 dmenu
 wall
 .kernel_config
+i3-master.zip
+scripts

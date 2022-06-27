@@ -1,5 +1,7 @@
 # Configuration for Alacritty, the GPU enhanced terminal emulator.
 
+# import ~/.config/alacritty/dracula.yml
+
 # Import additional configuration files
 #
 # Imports are loaded in order, skipping all missing files, with the importing
@@ -102,6 +104,9 @@
   #multiplier: 3
 
 # Font configuration
+
+import: 
+- ~/.config/alacritty/dracula.yml
 font:
   # Normal (roman) font face
   normal:
@@ -111,7 +116,7 @@ font:
     #   - (macOS) Menlo
     #   - (Linux/BSD) monospace
     #   - (Windows) Consolas
-    family: FiraCode Nerd Font Mono
+    family: FiraCode Nerd Font
     # family: Hack Nerd Font
     # family:  Source Code Pro
     # family: SauceCodePro Nerd Font
@@ -125,7 +130,7 @@ font:
     #
     # If the bold family is not specified, it will fall back to the
     # value specified for the normal font.
-    family: FiraCode Nerd Font Mono
+    family: FiraCode Nerd Font
     # family: Hack Nerd Font
     # family:  Source Code Pro
     # family: SauceCodePro Nerd Font
@@ -138,7 +143,7 @@ font:
     #
     # If the italic family is not specified, it will fall back to the
     # value specified for the normal font.
-    family: FiraCode Nerd Font Mono
+    family: FiraCode Nerd Font   
     # family:  Source Code Pro
     # family: SauceCodePro Nerd Font  
     # family: Hack Nerd Font
@@ -152,7 +157,7 @@ font:
     #
     # If the bold italic family is not specified, it will fall back to the
     # value specified for the normal font.
-    family: FiraCode Nerd Font Mono
+    family: FiraCode Nerd Font
     # family: Hack Nerd Font
     # family:  Source Code Pro
     # family: SauceCodePro Nerd Font

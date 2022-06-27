@@ -14,9 +14,10 @@ set -U fish_user_paths $HOME/.local/bin $HOME/Applications $fish_user_paths
 
 ### EXPORT ###
 set fish_greeting                                 # Supresses fish's intro message
-set TERM "xterm-256color"                         # Sets the terminal type
+# set TERM "xterm-256color"                         # Sets the terminal type
 set EDITOR "emacsclient -t -a ''"                 # $EDITOR use Emacs in terminal
 set VISUAL "emacsclient -c -a emacs"              # $VISUAL use Emacs in GUI mode
+set PATH $PATH /home/niklas/.cargo/bin ~/.local/bin/
 
 
 ### SET MANPAGER
@@ -230,7 +231,7 @@ alias ll='exa -l --color=always --group-directories-first'  # long format
 alias lt='exa -aT --color=always --group-directories-first' # tree listing
 alias l.='exa -a | egrep "^\."'
 
-alias update_all="sudo emerge --ask --update --newuse --deep @world"
+# alias update_all="sudo emerge --ask --update --newuse --deep @world"
 
 # Colorize grep output (good for log files)
 alias grep='grep --color=auto'
@@ -247,6 +248,15 @@ alias df='df -h'                          # human-readable sizes
 alias free='free -m'                      # show sizes in MB
 alias lynx='lynx -cfg=~/.lynx/lynx.cfg -lss=~/.lynx/lynx.lss -vikeys'
 alias mocp='mocp -M "$XDG_CONFIG_HOME"/moc -O MOCDir="$XDG_CONFIG_HOME"/moc'
+
+
+# School / Markdonw
+
+# alias marktohtml = "pandoc --webtex -f markdown -t html -i $argv[1] -o $argv[2]"
+function marktohtml -a inputfile outputfile;
+  pandoc --webtex -f markdown -t html -i $inputfile -o $outputfile;
+  qutebrowser $outputfile
+end
 
 # kara
 # alias kara="java -Dsun.java2d.uiScale=2.0 -jar ~/Downloads/kara.jar"
@@ -288,12 +298,6 @@ alias tips="lbrynet txo spend --type=support --is_not_my_input --blocking"
 
 alias musvid-car="mpv 'https://www.youtube.com/watch?v=ctqjw2j5yRY'"
 alias musvid-dick="mpv 'https://www.youtube.com/watch?v=thJgU9jkdU4'"
-
-### RANDOM COLOR SCRIPT ###
-# Get this script from my GitLab: gitlab.com/dwt1/shell-color-scripts
-# Or install it from the Arch User Repository: shell-color-scripts
-# colorscript random
-nerdfetch
 
 ### SETTING THE STARSHIP PROMPT ###
 starship init fish | source
