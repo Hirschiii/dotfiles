@@ -63,6 +63,7 @@ return packer.startup(function(use)
   use("ap/vim-css-color")
   use("antoinemadec/FixCursorHold.nvim") -- This is needed to fix lsp doc highlight
   use("terryma/vim-multiple-cursors")
+  use("goolord/alpha-nvim")
 
   -- completion
   use("hrsh7th/nvim-cmp")
@@ -79,8 +80,13 @@ return packer.startup(function(use)
   use("tamago324/nlsp-settings.nvim") -- language server settings defined in json for
   use("jose-elias-alvarez/null-ls.nvim") -- for formatters and linters
 
+  -- html
+  use("alvan/vim-closetag")
+  use("AtsushiM/search-parent.vim")
+  use("AtsushiM/sass-compile.vim")
+
   -- git
-  use "lewis6991/gitsigns.nvim"
+  use("lewis6991/gitsigns.nvim")
 
   use("preservim/tagbar") -- Tagbar for code navigation"
   use({
@@ -96,7 +102,7 @@ return packer.startup(function(use)
 
   -- Markdown
   -- use("ixru/nvim-markdown")
-  -- use("godlygeek/tabular")
+  use("godlygeek/tabular")
   use("junegunn/goyo.vim")
   use("junegunn/limelight.vim")
   -- use("mzlogin/vim-markdown-toc")

@@ -1,0 +1,37 @@
+#!/bin/bash
+
+source /home/niklas/.local/bin/config-files-import
+
+opendirect="journal index"
+  
+pick=$(echo -e "notes\nconfigs\nindex\njournal" | fzf)
+
+validate() { echo $2 | grep -F -q -w "$1"; }
+
+if [ ! -z $pick ]; then
+  # if [ "$pick" == "notes" ]; then
+  #   picked=$notes
+  # else
+  #   picked=$configs
+  # fi
+  validate "$pick" "$opendirect" && nvim ${!pick} && exit || picked=$pick
+  
+  # if exists_in_list "$opendirect" " " "$pick"; then
+  #   nvim ${files[$pick]}
+  #   exit
+  # else
+  #   picked=${files[$pick]}
+  # fi
+else
+  exit
+fi
+
+my_file=$(echo -e ${!picked} | tr " " "\n" | fzf)
+
+
+if [ ! -z $my_file ];
+then
+  nvim ${my_files[$my_file]}
+else
+  exit
+fi

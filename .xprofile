@@ -50,6 +50,7 @@ nm-applet &
 pasystray &
 
 # exec dbus-run-session i3
+devmon 2>&1 > /dev/null &
 wmname LG3D &
 dwmblocks &
 clipmenud &
