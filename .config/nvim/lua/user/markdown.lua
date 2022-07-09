@@ -20,3 +20,4 @@ let g:vimwiki_list = [{'path': '~/Notes/',
   \ 'ext': '.md',
   \ 'custom_wiki2html': '~/.local/bin/wiki2html.sh'}]
 ]])
+

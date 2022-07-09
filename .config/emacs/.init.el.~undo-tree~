@@ -1,0 +1,46 @@
+(undo-tree-save-format-version . 1)
+"d82418ec6190d1887e2560cb5186306524154026"
+[nil nil nil nil (25208 64419 42010 569000) 0 nil]
+([nil nil ((28599 . 28842) (#("
+" 0 1 (fontified nil)) . -28599) (28072 . 28600) (#(" " 0 1 (fontified nil)) . 28072) (27799 . 28073) (t 25208 63987 31286 181000)) nil (25208 64419 41989 961000) 0 nil])
+([nil nil ((28602 . 28841) (#("(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ )" 0 239 (fontified nil)) . -28602) (28599 . 28601) (#("
+" 0 1 (fontified nil)) . -28599) (28072 . 28600) (#(" " 0 1 (fontified nil)) . 28072) (27799 . 28073) (#("(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(package-selected-packages
+   '(dired-hide-dotfiles dired-open all-the-icons-dired dired-single eshell-git-prompt vterm eterm-256color org-roam org-mind-map visual-fill-column ox-reveal ivy-prescient which-key doom-modeline doom-themes command-log-mode ivy-bibtex use-package undo-tree typescript-mode shrink-path rainbow-delimiters pyvenv python-mode org-bullets lsp-ui lsp-ivy ivy-rich helpful general forge evil-nerd-commenter evil-collection dashboard dap-mode counsel-projectile company-tabnine company-box biblio auto-package-update all-the-icons)))" 0 802 (fontified nil)) . -27799) (t 25273 53185 256506 453000)) nil (25279 25475 720738 551000) 0 nil])
+([nil nil ((28646 . 28885) (#("(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ )" 0 239 (fontified nil)) . -28646) (28599 . 28645) (#("
+" 0 1 (fontified nil)) . -28599) (28072 . 28600) (#(" " 0 1 (fontified nil)) . 28072) (27799 . 28073) (#("(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(package-selected-packages
+   '(dired-hide-dotfiles dired-open all-the-icons-dired dired-single eshell-git-prompt vterm eterm-256color org-roam org-mind-map visual-fill-column ox-reveal ivy-prescient which-key doom-modeline doom-themes command-log-mode ivy-bibtex use-package undo-tree typescript-mode shrink-path rainbow-delimiters pyvenv python-mode org-bullets lsp-ui lsp-ivy ivy-rich helpful general forge evil-nerd-commenter evil-collection dashboard dap-mode counsel-projectile company-tabnine company-box biblio auto-package-update all-the-icons)))" 0 802 (fontified nil)) . -27799) (t 25279 25475 729253 588000)) nil (25279 25520 415570 661000) 0 nil])
+([nil current ((28660 . 28899) (#("(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ )" 0 239 (fontified nil)) . -28660) (28599 . 28659) (#("
+" 0 1 (fontified nil)) . -28599) (28072 . 28600) (#(" " 0 1 (fontified nil)) . 28072) (27799 . 28073) (#("(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(package-selected-packages
+   '(dired-hide-dotfiles dired-open all-the-icons-dired dired-single eshell-git-prompt vterm eterm-256color org-roam org-mind-map visual-fill-column ox-reveal ivy-prescient which-key doom-modeline doom-themes command-log-mode ivy-bibtex use-package undo-tree typescript-mode shrink-path rainbow-delimiters pyvenv python-mode org-bullets lsp-ui lsp-ivy ivy-rich helpful general forge evil-nerd-commenter evil-collection dashboard dap-mode counsel-projectile company-tabnine company-box biblio auto-package-update all-the-icons))
+ '(warning-suppress-types '((use-package))))" 0 846 (fontified nil)) . -27799) (t 25279 25520 415922 305000)) nil (25279 25521 505310 25000) 0 nil])
+nil

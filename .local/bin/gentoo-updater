@@ -1,0 +1,11 @@
+#!/bin/bash
+
+# sudo layman -S
+sudo eix-sync
+# sudo emerge --ask --verbose --update --newuse --deep @system
+sudo emerge --ask --verbose --update --newuse --deep @world
+sudo emerge --depclean
+# sudo eclean packages
+# sudo eclean distfiles
+# sudo revdep-rebuild
+# sudo etc-update

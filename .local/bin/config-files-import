@@ -4,7 +4,7 @@ declare -A my_files
 
 configs="tmux i3 fish qutebrowser nvim dwm st dmenu"
 
-notes="Deutsch Geschichte Spanisch English Kunst Chmie Mathe Physik Politik Silentium SV Spanisch Technik_AG"
+notes="Deutsch Geschichte Spanisch English Kunst Chemie Mathe Physik Politik Silentium SV Spanisch Technik_AG"
 
 index="/home/niklas/Notes/index.md"
 
@@ -14,7 +14,7 @@ my_files[Deutsch]="/home/niklas/Notes/Projects/School/Deutsch/index.md"
 my_files[Geschichte]="/home/niklas/Notes/Projects/School/Geschichte/index.md"
 my_files[Spanisch]="/home/niklas/Notes/Projects/School/Spanisch/index.md"
 my_files[English]="/home/niklas/Notes/Projects/School/English/index.md"
-my_files[Chmie]="/home/niklas/Notes/Projects/School/Chmie/index.md"
+my_files[Chemie]="/home/niklas/Notes/Projects/School/Chemie/index.md"
 my_files[Kunst]="/home/niklas/Notes/Projects/School/Kunst/index.md"
 my_files[Mathe]="/home/niklas/Notes/Projects/School/Mathe/index.md"
 my_files[Physik]="/home/niklas/Notes/Projects/School/Physik/index.md"

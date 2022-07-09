@@ -1,28 +1,61 @@
 /* See LICENSE file for copyright and license details. */
 
-#include "./themes/dracula.h"
+
 /* appearance */
-static const unsigned int borderpx  = 5;        /* border pixel of windows */
+static const unsigned int borderpx  = 4;        /* border pixel of windows */
 static const unsigned int snap      = 32;       /* snap pixel */
 static const unsigned int systraypinning = 0;   /* 0: sloppy systray follows selected monitor, >0: pin systray to monitor X */
 static const unsigned int systrayonleft = 0;   	/* 0: systray in the right corner, >0: systray on left of status text */
 static const unsigned int systrayspacing = 2;   /* systray spacing */
-static const unsigned int gappx     = 0;        /* gap pixel between windows */
 static const int systraypinningfailfirst = 1;   /* 1: if pinning fails, display systray on the first monitor, False: display systray on the last monitor*/
 static const int showsystray        = 1;     /* 0 means no systray */
 static const int showbar            = 1;     /* 0 means no bar */
 static const int topbar             = 1;     /* 0 means bottom bar */
+static const int horizpadbar        = 5;        /* horizontal padding for statusbar */
+static const int vertpadbar         = 10;        /* vertical padding for statusbar */
 static const char *fonts[]          = { 
-  "FiraCode Nerd Font:style=Retina,Regular:size=12:autohint=true",
+  "FiraCode Nerd Font:style=Retina,Regular:size=14:autohint=true",
   "Noto Color Emoji:style=Regular:pixelsize=20:antialias=true:autohint=true",
   "Symbols Nerd Font:style=1000-em:antialias=true:autohint=true:pixelsize=20"
 };
 static const char dmenufont[]       = "FiraCode Nerd Font:style=Retina,Regular:size=12:autohint=true";
+
+
+// theme
+
+#include "./themes/catppuccin.h"
+
 static const char *colors[][3]      = {
-	/*               fg         bg         border   */
-	[SchemeNorm] = { col_gray3, col_gray1, col_gray2 },
-	[SchemeSel]  = { col_gray4, col_cyan,  col_cyan  },
+    /*                     fg       bg      border */
+    [SchemeNorm]       = { gray3,   black,  gray2 },
+    [SchemeSel]        = { gray4,   blue,   blue  },
+    // [TabSel]           = { blue,    gray2,  black },
+    // [TabNorm]          = { gray3,   black,  black },
+    // [SchemeTag]        = { gray3,   black,  black },
+    // [SchemeTag1]       = { blue,    black,  black },
+    // [SchemeTag2]       = { red,     black,  black },
+    // [SchemeTag3]       = { orange,  black,  black },
+    // [SchemeTag4]       = { green,   black,  black },
+    // [SchemeTag5]       = { pink,    black,  black },
+    // [SchemeLayout]     = { green,   black,  black },
+    // [SchemeBtnPrev]    = { green,   black,  black },
+    // [SchemeBtnNext]    = { yellow,  black,  black },
+    // [SchemeBtnClose]   = { red,     black,  black },
 };
+
+
+/* tagging */
+static const char *tags[] = { "1", "2", "3", "4", "5", "6", "7", "8", "9" };
+
+// static const int tagschemes[] = {
+//     SchemeTag1, SchemeTag2, SchemeTag3, SchemeTag4, SchemeTag5
+// };
+
+// static const char *colors[][3]      = {
+// 	/*               fg         bg         border   */
+// 	[SchemeNorm] = { col_gray3, col_gray1, col_gray2 },
+// 	[SchemeSel]  = { col_gray4, col_cyan,  col_cyan  },
+// };
 
 
 typedef struct {
@@ -31,28 +64,31 @@ typedef struct {
 } Sp;
 const char *spcmd1[] = {"st", "-n", "spterm", "-g", "120x34", NULL };
 const char *spcmd2[] = {"st", "-n", "spfm", "-g", "144x41", "-e", "ranger", NULL };
-// const char *spcmd3[] = {"keepassxc", NULL };
 static Sp scratchpads[] = {
 	/* name          cmd  */
 	{"spterm",      spcmd1},
 	{"spranger",    spcmd2},
-	// {"keepassxc",   spcmd3},
 };
 
-/* tagging */
-static const char *tags[] = { "1", "2", "3", "4", "5", "6", "7", "8", "9" };
+
+
+// static const char *tagselfg[] = { "#ffffff", "#ffffff", "#000000", "#000000", "#ffffff", "#ffffff", "#ffffff", "#000000", "#ffffff" };
+// static const char *tagselbg[] = { "#ff0000", "#ff7f00", "#ffff00", "#00ff00", "#0000ff", "#4b0082", "#9400d3", "#ffffff", "#000000" };
+
+static const unsigned int ulinepad	= 5;	/* horizontal padding between the underline and tag */
+static const unsigned int ulinestroke	= 2;	/* thickness / height of the underline */
+static const unsigned int ulinevoffset	= 0;	/* how far above the bottom of the bar the line should appear */
+static const int ulineall 		= 0;	/* 1 to show underline on all tags, 0 for just the active ones */
+
 static const Rule rules[] = {
 	/* xprop(1):
 	 *	WM_CLASS(STRING) = instance, class
 	 *	WM_NAME(STRING) = title
 	 */
-	/* class      instance    title    tags mask  iscnetered   isfloating   monitor */
-	{ "Gimp"    , NULL        , NULL , 0        , 0 , 1 , -1 } ,
-	{ "Firefox" , NULL        , NULL , 1 << 8   , 0 , 0 , -1 } ,
-	{ NULL      , "spterm"    , NULL , SPTAG(0) , 0 , 1 , -1 } ,
-	{ NULL      , "spfm"      , NULL , SPTAG(1) , 0 , 1 , -1 } ,
-	{ NULL      , "keepassxc" , NULL , SPTAG(2) , 0 , 0 , -1 } ,
-  { NULL      , "myfzf"     , NULL , 0        , 1 , 1 , -1 } ,
+	/* class      instance    title       tags mask     iscentered   isfloating   monitor */
+	{ NULL,		  "spterm",		NULL,		SPTAG(0),		1,			 -1 },
+	{ NULL,		  "spfm",		NULL,		SPTAG(1),		1,			 -1 },
+  { NULL         , "myfzf"     , NULL         , 0               , 1 , 1 , -1 } ,
 };
 
 /* layout(s) */
@@ -79,41 +115,29 @@ static const Layout layouts[] = {
 /* helper for spawning shell commands in the pre dwm-5.0 fashion */
 #define SHCMD(cmd) { .v = (const char*[]){ "/bin/sh", "-c", cmd, NULL } }
 
+/* commands */
+static char dmenumon[2] = "0"; /* component of dmenucmd, manipulated in spawn() */
+static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon, "-fn", dmenufont, "-nb", black, "-nf", gray2, "-sb", green, "-sf", blue, NULL };
+static const char *termcmd[]  = { "st", NULL };
+
 #include <X11/XF86keysym.h>
-
-/* Add somewhere in your constants definition section */
-
-// static const char *upvol[]   = { "/usr/bin/pactl", "set-sink-volume", "0", "+5%", "&&", "kill", "-10", "$(pidof", "dwmblocks)",     NULL };
-// static const char *downvol[] = { "/usr/bin/pactl", "set-sink-volume", "0", "-5%",  "&&", "kill", "-10", "$(pidof", "dwmblocks)",   NULL };
-// static const char *mutevol[] = { "/usr/bin/pactl", "set-sink-mute",   "0", "toggle", "&&", "kill", "-10", "$(pidof", "dwmblocks)", NULL };
-
-// static const char *upvol[]   = { "/usr/bin/pactl", "set-sink-volume", "0", "+5%", "&&", "/home/niklas/.local/bin/sb-killvol",  NULL };
-// static const char *downvol[] = { "/usr/bin/pactl", "set-sink-volume", "0", "-5%",  "&&", "/home/niklas/.local/bin/sb-killvol", NULL };
-// static const char *mutevol[] = { "/usr/bin/pactl", "set-sink-mute",   "0", "toggle", "&&", "/home/niklas/.local/bin/sb-killvol", NULL };
 
 static const char *lightup[] = { "light", "-A", "10",  NULL };
 static const char *lightdown[] = { "light", "-U", "10",  NULL };
 
-
-#define STATUSBAR "dwmblocks"
-
-/* commands */
-static char dmenumon[2] = "0"; /* component of dmenucmd, manipulated in spawn() */
-static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon, "-fn", dmenufont, "-nb", col_gray1, "-nf", col_gray3, "-sb", col_cyan, "-sf", col_gray4, NULL };
-static const char *termcmd[]  = { "st", NULL };
-
-
-
-
 static Key keys[] = {
 	/* modifier                     key        function        argument */
-  { 0,                            XF86XK_AudioLowerVolume,  spawn,   SHCMD("/usr/bin/pactl set-sink-volume 0 -5% && kill -44 $(pidof dwmblocks)") },
-	{ 0,                            XF86XK_AudioRaiseVolume,  spawn,   SHCMD("/usr/bin/pactl set-sink-volume 0 +5% && kill -44 $(pidof dwmblocks)")},
-	{ 0,                            XF86XK_AudioMute,         spawn,   SHCMD("/usr/bin/pactl set-sink-mute 0 toggle") },
-	{ 0,                            XF86XK_MonBrightnessUp, spawn,    {.v = lightup   } },
-	{ 0,                            XF86XK_MonBrightnessDown, spawn,  {.v = lightdown   } },
+  	{ 0,                            XF86XK_AudioLowerVolume,    spawn,   SHCMD("/usr/bin/pactl set-sink-volume 0 -5% && kill -44 $(pidof dwmblocks)") },
+	{ 0,                            XF86XK_AudioRaiseVolume,    spawn,   SHCMD("/usr/bin/pactl set-sink-volume 0 +5% && kill -44 $(pidof dwmblocks)")},
+	{ 0,                            XF86XK_AudioMute,           spawn,   SHCMD("/usr/bin/pactl set-sink-mute 0 toggle") },
+	{ 0,                            XF86XK_MonBrightnessUp,     spawn,    {.v = lightup   } },
+	{ 0,                            XF86XK_MonBrightnessDown,   spawn,  {.v = lightdown   } },
+	{ 0,                            XF86XK_Calculator,          spawn,  SHCMD("galculator") },
 
-  { MODKEY,                       XK_c,       spawn,          SHCMD("clipmenu")},
+  	{ MODKEY,                       XK_c,       spawn,          SHCMD("clipmenu")},
+
+	{ MODKEY|ShiftMask,             XK_e,      spawn,           SHCMD("killall bar.sh dwm") },
+	{ MODKEY,                       XK_e,      spawn,           SHCMD("emacsclient -c -a 'emacs'") },
 
 	{ MODKEY,                       XK_n,       spawn,          SHCMD("st -n myfzf -g 144x41 -e /home/niklas/.local/bin/fzf-important-files")},
 
@@ -156,7 +180,6 @@ static Key keys[] = {
 	TAGKEYS(                        XK_7,                      6)
 	TAGKEYS(                        XK_8,                      7)
 	TAGKEYS(                        XK_9,                      8)
-	{ MODKEY|ShiftMask,             XK_e,      quit,           {0} },
 };
 
 /* button definitions */
@@ -165,7 +188,6 @@ static Button buttons[] = {
 	/* click                event mask      button          function        argument */
 	{ ClkTagBar,            MODKEY,         Button1,        tag,            {0} },
 	{ ClkTagBar,            MODKEY,         Button3,        toggletag,      {0} },
-	{ ClkWinTitle,          0,              Button2,        zoom,           {0} },
 	{ ClkStatusText,        0,              Button2,        spawn,          {.v = termcmd } },
 	{ ClkClientWin,         MODKEY,         Button1,        movemouse,      {0} },
 	{ ClkClientWin,         MODKEY,         Button2,        togglefloating, {0} },

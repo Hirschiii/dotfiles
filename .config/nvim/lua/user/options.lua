@@ -15,7 +15,7 @@ vim.o.showmode = false                        -- we don't need to see things lik
 vim.o.showtabline = 2                         -- always show tabs
 vim.o.smartcase = true                        -- smart case
 vim.o.swapfile = false                        -- creates a swapfile
-vim.o.completeopt = "menuone", "noselect"   -- mostly just for cmp
+-- vim.o.completeopt = "menuone", "noselect"   -- mostly just for cmp
 
 vim.bo.fileencoding = "utf-8"                  -- the encoding written to a file
 vim.bo.smartindent = true                      -- make indenting smarter again
