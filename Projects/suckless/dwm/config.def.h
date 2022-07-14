@@ -96,6 +96,9 @@ static Key keys[] = {
 
 	{ MODKEY|ShiftMask,             XK_e,      spawn,           SHCMD("killall bar.sh dwm") },
 
+  { MODKEY,                       XK_u,      spawn,           SHCMD("/home/niklas/.local/bin/dmenumount")},
+  { MODKEY|ShiftMask,             XK_u,      spawn,           SHCMD("/home/niklas/.local/bin/dmenuunmount")},
+
 	{ MODKEY|ShiftMask,                       XK_n,       spawn,          SHCMD("st -n myfzf -g 144x41 -e /home/niklas/.local/bin/fzf-important-files fzf")},
 	{ MODKEY|ShiftMask,                       XK_t,       spawn,          SHCMD("st -n myfzf -g 144x41 -e /home/niklas/.local/bin/fzf-important-files journal")},
 	{ MODKEY|ShiftMask,                       XK_i,       spawn,          SHCMD("st -n myfzf -g 144x41 -e /home/niklas/.local/bin/fzf-important-files index")},
