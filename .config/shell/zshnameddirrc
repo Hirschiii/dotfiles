@@ -1,0 +1,8 @@
+hash -d n=/home/niklas/Notes/ 
+hash -d nh=/home/niklas/Documents/Notes_html 
+hash -d c=/home/niklas/.config/ 
+hash -d d=/home/niklas/Downloads 
+hash -d suck=/home/niklas/Projects/suckless 
+hash -d src=/home/niklas/.local/bin 
+hash -d sc=/home/niklas/.local/scripts 
+hash -d dot=/home/niklas/.dotfiles 

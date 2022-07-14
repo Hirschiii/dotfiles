@@ -2,6 +2,7 @@ vim.cmd([[
    augroup _markdown
       autocmd!
       autocmd FileType markdown setlocal wrap spelllang=de spell
+      autocmd FileType markdown setlocal tabstop=4 expandtab shiftwidth=2
    augroup end
 ]])
 
@@ -20,4 +21,3 @@ let g:vimwiki_list = [{'path': '~/Notes/',
   \ 'ext': '.md',
   \ 'custom_wiki2html': '~/.local/bin/wiki2html.sh'}]
 ]])
-

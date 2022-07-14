@@ -2,13 +2,15 @@
 
 declare -A my_files
 
-configs="tmux i3 fish qutebrowser nvim dwm st dmenu"
+configs="tmux i3 fish qutebrowser nvim dwm st dmenu zsh"
 
 notes="Deutsch Geschichte Spanisch English Kunst Chemie Mathe Physik Politik Silentium SV Spanisch Technik_AG"
 
 index="/home/niklas/Notes/index.md"
 
-journal="/home/niklas/Notes/Resources/Planning/Daily_Notes/$(date +%Y)/$(date +%m)/$(date +%F).md"
+journal="/home/niklas/Notes/Area/Planning/Daily_Notes/$(date +%Y)/$(date +%m)/$(date +%F).md"
+
+kanban="/home/niklas/Notes/Area/Planning/Kanban/Planning.md"
 
 my_files[Deutsch]="/home/niklas/Notes/Projects/School/Deutsch/index.md"
 my_files[Geschichte]="/home/niklas/Notes/Projects/School/Geschichte/index.md"
@@ -23,7 +25,7 @@ my_files[Silentium]="/home/niklas/Notes/Projects/School/Silentium/index.md"
 my_files[SV]="/home/niklas/Notes/Projects/School/SV/index.md"
 my_files[Technik_AG]="/home/niklas/Notes/Projects/School/Technik_AG/index.md"
 
-my_files[tmux]="/home/niklas/.tmux.conf"
+my_files[tmux]="/home/niklas/.config/tmux/tmux.conf"
 my_files[i3]="/home/niklas/.config/i3/config"
 my_files[fish]="/home/niklas/.config/fish/config.fish"
 my_files[qutebrowser]="/home/niklas/.config/qutebrowser/config.py"
@@ -31,3 +33,4 @@ my_files[nvim]="/home/niklas/.config/nvim/init.lua"
 my_files[dwm]="/home/niklas/Projects/suckless/dwm/config.def.h"
 my_files[st]="/home/niklas/Projects/suckless/st/config.def.h"
 my_files[dmenu]="/home/niklas/Projects/suckless/dmenu/config.def.h"
+my_files[zsh]="/home/niklas/.config/zsh/.zshrc"

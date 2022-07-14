@@ -108,7 +108,6 @@ enum {
   ClkTagBar,
   ClkLtSymbol,
   ClkStatusText,
-  ClkWinTitle,
   ClkClientWin,
   ClkRootWin,
   ClkLast
@@ -198,12 +197,6 @@ struct Systray {
   Client *icons;
 };
 
-typedef struct Systray   Systray;
-struct Systray {
-	Window win;
-	Client *icons;
-};
-
 /* function declarations */
 static void applyrules(Client *c);
 static int applysizehints(Client *c, int *x, int *y, int *w, int *h,
@@ -224,7 +217,7 @@ static void configurerequest(XEvent *e);
 static Monitor *createmon(void);
 static void destroynotify(XEvent *e);
 static void detach(Client *c);
-// static void detachstack(Client *c);
+static void detachstack(Client *c);
 static Monitor *dirtomon(int dir);
 static void drawbar(Monitor *m);
 static void drawbars(void);
@@ -280,7 +273,7 @@ static void sigchld(int unused);
 static void spawn(const Arg *arg);
 static Monitor *systraytomon(Monitor *m);
 static void tag(const Arg *arg);
-static void tagmon(const Arg *arg);
+// static void tagmon(const Arg *arg);
 static void tile(Monitor *);
 static void togglebar(const Arg *arg);
 static void togglefloating(const Arg *arg);
@@ -365,6 +358,8 @@ struct NumTags {
   char limitexceeded[LENGTH(tags) > 31 ? -1 : 1];
 };
 
+// static ClrScheme tagscheme[LENGTH(tags)];
+
 /* function implementations */
 void applyrules(Client *c) {
   const char *class, *instance;
@@ -404,6 +399,9 @@ void applyrules(Client *c) {
     XFree(ch.res_class);
   if (ch.res_name)
     XFree(ch.res_name);
+  // c->tags =
+  //     c->tags & TAGMASK ? c->tags & TAGMASK :
+  //     c->mon->tagset[c->mon->seltags];
   c->tags = c->tags & TAGMASK ? c->tags & TAGMASK
                               : (c->mon->tagset[c->mon->seltags] & ~SPTAGMASK);
 }
@@ -542,10 +540,11 @@ void buttonpress(XEvent *e) {
       arg.ui = 1 << i;
     } else if (ev->x < x + blw)
       click = ClkLtSymbol;
-    else if (ev->x > selmon->ww - (int)TEXTW(stext) - getsystraywidth())
-      click = ClkStatusText;
+    // else if (ev->x > selmon->ww - (int)TEXTW(stext) - getsystraywidth())
+    // 	click = ClkStatusText;
     else
-      click = ClkWinTitle;
+      // click = ClkWinTitle;
+      click = ClkStatusText;
   } else if ((c = wintoclient(ev->window))) {
     focus(c);
     restack(selmon);
@@ -817,7 +816,6 @@ Monitor *createmon(void) {
   return m;
 }
 
-
 void destroynotify(XEvent *e) {
   Client *c;
   XDestroyWindowEvent *ev = &e->xdestroywindow;
@@ -905,14 +903,15 @@ int drawstatusbar(Monitor *m, int bh, char *stext) {
     isCode = 0;
   text = p;
 
-  w += 2; /* 1px padding on both sides */
-  ret = x = m->ww - w;
+  w += horizpadbar;
+  ret = m->ww - w;
+  x = m->ww - w - getsystraywidth();
 
   drw_setscheme(drw, scheme[LENGTH(colors)]);
   drw->scheme[ColFg] = scheme[SchemeNorm][ColFg];
   drw->scheme[ColBg] = scheme[SchemeNorm][ColBg];
   drw_rect(drw, x, 0, w, bh, 1, 1);
-  x++;
+  x += horizpadbar / 2;
 
   /* process status text */
   i = -1;
@@ -980,8 +979,8 @@ int drawstatusbar(Monitor *m, int bh, char *stext) {
 
 void drawbar(Monitor *m) {
   int x, w, tw = 0, stw = 0;
-  int boxs = drw->fonts->h / 9;
-  int boxw = drw->fonts->h / 6 + 2;
+  // int boxs = drw->fonts->h / 9;
+  // int boxw = drw->fonts->h / 6 + 2;
   unsigned int i, occ = 0, urg = 0;
   Client *c;
 
@@ -992,9 +991,8 @@ void drawbar(Monitor *m) {
     stw = getsystraywidth();
 
   /* draw status first so it can be overdrawn by tags later */
-
   if (m == selmon) { /* status is only drawn on selected monitor */
-    sw = m->ww - drawstatusbar(m, bh, stext);
+    tw = m->ww - drawstatusbar(m, bh, stext);
   }
 
   resizebarwin(m);
@@ -1013,21 +1011,27 @@ void drawbar(Monitor *m) {
         drw, scheme[m->tagset[m->seltags] & 1 << i ? SchemeSel : SchemeNorm]);
     drw_text(drw, x, 0, w, bh, lrpad / 2, tags[i], urg & 1 << i);
     x += w;
+    if (ulineall ||
+        m->tagset[m->seltags] &
+            1 << i) /* if there are conflicts, just move these lines directly
+                       underneath both 'drw_setscheme' and 'drw_text' :) */
+      drw_rect(drw, x + ulinepad, bh - ulinestroke - ulinevoffset,
+               w - (ulinepad * 2), ulinestroke, 1, 0);
   }
   w = blw = TEXTW(m->ltsymbol);
   drw_setscheme(drw, scheme[SchemeNorm]);
   x = drw_text(drw, x, 0, w, bh, lrpad / 2, m->ltsymbol, 0);
 
   if ((w = m->ww - tw - stw - x) > bh) {
-    if (m->sel) {
-      drw_setscheme(drw, scheme[m == selmon ? SchemeSel : SchemeNorm]);
-      drw_text(drw, x, 0, w, bh, lrpad / 2, m->sel->name, 0);
-      if (m->sel->isfloating)
-        drw_rect(drw, x + boxs, boxs, boxw, boxw, m->sel->isfixed, 0);
-    } else {
-      drw_setscheme(drw, scheme[SchemeNorm]);
-      drw_rect(drw, x, 0, w, bh, 1, 1);
-    }
+    // if (m->sel) {
+    //   drw_setscheme(drw, scheme[m == selmon ? SchemeSel : SchemeNorm]);
+    //   drw_text(drw, x, 0, w, bh, lrpad / 2, m->sel->name, 0);
+    //   if (m->sel->isfloating)
+    //     drw_rect(drw, x + boxs, boxs, boxw, boxw, m->sel->isfixed, 0);
+    // } else {
+    drw_setscheme(drw, scheme[SchemeNorm]);
+    drw_rect(drw, x, 0, w, bh, 1, 1);
+    // }
   }
   drw_map(drw, m->barwin, 0, 0, m->ww - stw, bh);
 }
@@ -1534,11 +1538,8 @@ void propertynotify(XEvent *e) {
       drawbars();
       break;
     }
-    if (ev->atom == XA_WM_NAME || ev->atom == netatom[NetWMName]) {
+    if (ev->atom == XA_WM_NAME || ev->atom == netatom[NetWMName])
       updatetitle(c);
-      if (c == c->mon->sel)
-        drawbar(c->mon);
-    }
     if (ev->atom == netatom[NetWMWindowType])
       updatewindowtype(c);
   }
@@ -1865,7 +1866,7 @@ void setup(void) {
   if (!drw_fontset_create(drw, fonts, LENGTH(fonts)))
     die("no fonts could be loaded.");
   lrpad = drw->fonts->h;
-  bh = drw->fonts->h + 2;
+  bh = drw->fonts->h + vertpadbar;
   updategeom();
   /* init atoms */
   utf8string = XInternAtom(dpy, "UTF8_STRING", False);
@@ -1991,11 +1992,11 @@ void tag(const Arg *arg) {
   }
 }
 
-void tagmon(const Arg *arg) {
-  if (!selmon->sel || !mons->next)
-    return;
-  sendmon(selmon->sel, dirtomon(arg->i));
-}
+// void tagmon(const Arg *arg) {
+//   if (!selmon->sel || !mons->next)
+//     return;
+//   sendmon(selmon->sel, dirtomon(arg->i));
+// }
 
 void tile(Monitor *m) {
   unsigned int i, n, h, mw, my, ty;

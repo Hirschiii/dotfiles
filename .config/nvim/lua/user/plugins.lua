@@ -110,24 +110,12 @@ return packer.startup(function(use)
 	use("godlygeek/tabular")
 	use("junegunn/goyo.vim")
 	use("junegunn/limelight.vim")
+	use({ "iamcco/markdown-preview.nvim", run = "cd app && npm install", setup = function() vim.g.mkdp_filetypes = { "markdown" } end, ft = { "markdown" }, })
 	-- use("mzlogin/vim-markdown-toc")
 	use({ "ellisonleao/glow.nvim", branch = "main" })
 	use("junegunn/fzf")
 	use("junegunn/fzf.vim")
 	use("vimwiki/vimwiki")
-	use({
-		"nvim-neorg/neorg",
-		config = function()
-			require("neorg").setup({
-				 -- check out setup part...
-				load = {
-				["core.defaults"] = {},
-        ["core.export"] = {},
-          }
-				})
-		end,
-		requires = "nvim-lua/plenary.nvim",
-	})
 
 	-- treesitter
 	use({

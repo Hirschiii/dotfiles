@@ -1,6 +1,0 @@
-#!/bin/zsh
-
-export XDG_DATA_HOME=~/.local/share
-export XDG_CACHE_HOME=~/.cache
-export XDG_STATE_HOME=~/.local/state
-export XDG_CONFIG_HOME=~/.config

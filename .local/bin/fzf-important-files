@@ -2,36 +2,56 @@
 
 source /home/niklas/.local/bin/config-files-import
 
-opendirect="journal index"
-  
-pick=$(echo -e "notes\nconfigs\nindex\njournal" | fzf)
+fzf-manager ()
+{
 
-validate() { echo $2 | grep -F -q -w "$1"; }
+  opendirect="kanban journal index"
+    
+  pick=$(echo -e "kanban\nnotes\nconfigs\nindex\njournal" | fzf)
 
-if [ ! -z $pick ]; then
-  # if [ "$pick" == "notes" ]; then
-  #   picked=$notes
-  # else
-  #   picked=$configs
-  # fi
-  validate "$pick" "$opendirect" && nvim ${!pick} && exit || picked=$pick
-  
-  # if exists_in_list "$opendirect" " " "$pick"; then
-  #   nvim ${files[$pick]}
-  #   exit
-  # else
-  #   picked=${files[$pick]}
-  # fi
-else
-  exit
-fi
+  validate() { echo $2 | grep -F -q -w "$1"; }
 
-my_file=$(echo -e ${!picked} | tr " " "\n" | fzf)
+  if [ ! -z $pick ]; then
+    # if [ "$pick" == "notes" ]; then
+    #   picked=$notes
+    # else
+    #   picked=$configs
+    # fi
+    validate "$pick" "$opendirect" && nvim ${!pick} && exit || picked=$pick
+    
+    # if exists_in_list "$opendirect" " " "$pick"; then
+    #   nvim ${files[$pick]}
+    #   exit
+    # else
+    #   picked=${files[$pick]}
+    # fi
+  else
+    exit
+  fi
+
+  my_file=$(echo -e ${!picked} | tr " " "\n" | fzf)
 
 
-if [ ! -z $my_file ];
-then
-  nvim ${my_files[$my_file]}
-else
-  exit
-fi
+  if [ ! -z $my_file ];
+  then
+    nvim ${my_files[$my_file]}
+  else
+    exit
+  fi
+}
+
+
+case "$1" in
+  fzf) fzf-manager
+  ;;
+  index) nvim $index
+  ;;
+  journal) nvim $journal
+  ;;
+  config) nvim ${my_files[$(echo -e $configs | tr " " "\n" | fzf)]}
+  ;;
+  school) nvim ${my_files[$(echo -e $notes | tr " " "\n" | fzf)]}
+  ;;
+  *) exit
+  ;;
+esac
