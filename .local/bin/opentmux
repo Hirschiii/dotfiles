@@ -1,16 +1,40 @@
-#!/bin/sh
+#!/bin/env bash
 
 start_tmux_session ()
 {
-  exit
+  if [ -z "$@" ];then
+    create_one=$(echo -e "yes\nno" | dmenu -p "Do you want to create a tmux session?")
+
+    if [ ! "$create_one" = "yes" ]; then exit; fi
+
+    session_name=$(echo -e "vim\nwork\ntest" | dmenu -p "Name?")
+
+    tmux new-session -d -s $session_name
+    alacritty -e tmux a -t $session_name
+
+  else
+    create_one=$(echo -e "yes\nno" | dmenu -p "Do you want to create $1?")
+
+    if [ ! "$create_one" = "yes" ]; then exit; fi
+
+    tmux new-session -d -s $1
+    alacritty -e tmux a -t $1
+  fi
 }
 
-if [ "$(tmux ls)" = "no server running on /tmp/tmux-1000/default" ]
-then
-  start_tmux_session
+if [[ -n $(pgrep tmux) ]]; then
+  get_session=$(tmux ls -F "#{session_name}" | dmenu)
+
+  if [ -z $get_session ]; then exit; fi
+
+  tmux has-session -t $get_session 2>/dev/null
+  
+  if [ $? != 0 ]; then
+    start_tmux_session $get_session
+  else
+    alacritty -e tmux a -t $get_session
+  fi
+
 else
-  get_session=$(tmux ls  | dmenu | sed -e 's#:.*\(\)#\1#')
-
-  alacritty -e tmux a -t $get_session
+  start_tmux_session
 fi
-

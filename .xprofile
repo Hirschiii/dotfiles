@@ -5,7 +5,7 @@ ERRFILE="$XDG_CACHE_HOME/X11/xsession-errors"
 
 # pscircle --output-height=2160 --output-width=3840 --output=/tmp/pscircle.png
 # feh --bg-fill /tmp/pscircle.png
-feh --no-fehbg --bg-fill ~/.dotfiles/wall/coffein.png &
+feh --no-fehbg --bg-fill ~/.dotfiles/.config/wall/coffein.png &
 # Load .Xresources file
 xrdb -merge /home/niklas/.Xresources &
 setxkbmap de &

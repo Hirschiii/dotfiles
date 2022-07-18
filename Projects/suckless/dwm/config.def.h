@@ -100,7 +100,7 @@ static Key keys[] = {
   { MODKEY|ShiftMask,             XK_u,      spawn,           SHCMD("/home/niklas/.local/bin/dmenuunmount")},
 
 	{ MODKEY|ShiftMask,                       XK_n,       spawn,          SHCMD("alacritty -e /home/niklas/.local/bin/fzf-important-files fzf")},
-	{ MODKEY|ShiftMask,                       XK_t,       spawn,          SHCMD("alacritty -e /home/niklas/.local/bin/fzf-important-files journal")},
+	{ MODKEY|ShiftMask,                       XK_t,       spawn,          SHCMD("/home/niklas/.local/bin/opentmux")},
 	{ MODKEY|ShiftMask,                       XK_i,       spawn,          SHCMD("alacritty -e /home/niklas/.local/bin/fzf-important-files index")},
 
 	{ MODKEY,                       XK_b,       spawn,          SHCMD("/opt/Bitwarden/bitwarden %U")},
@@ -109,6 +109,8 @@ static Key keys[] = {
 	{ MODKEY, 			XK_w, 	    spawn,	    SHCMD("qutebrowser")},
 
 	{ MODKEY,                       XK_p,      spawn,          {.v = dmenucmd } },
+	{ MODKEY|ShiftMask,             XK_p,      spawn,          SHCMD("bitwarden-dmenu --dmenu-args='-i' --clear-clipboard 30 --session-timeout 100 --sync-vault-after 3600 --on-error 'xargs notify-send --urgency=low'") },
+
 	{ MODKEY,                       XK_Return, spawn,          {.v = termcmd } },
 	{ MODKEY,                       XK_j,      focusstack,     {.i = +1 } },
 	{ MODKEY,                       XK_k,      focusstack,     {.i = -1 } },
