@@ -38,7 +38,7 @@ key_bindings:
   - { key: C, mods: Alt, action: Copy }
 
 import: 
-- ~/.config/alacritty/catppuccin.yml
+- ~/.config/alacritty/colorscheme.yml
 
 font:
   normal:

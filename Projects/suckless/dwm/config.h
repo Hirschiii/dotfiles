@@ -1,7 +1,7 @@
 /* See LICENSE file for copyright and license details. */
 
 /* appearance */
-static const unsigned int borderpx  = 4;        /* border pixel of windows */
+static const unsigned int borderpx  = 8;        /* border pixel of windows */
 static const unsigned int snap      = 32;       /* snap pixel */
 static const unsigned int systraypinning = 0;   /* 0: sloppy systray follows selected monitor, >0: pin systray to monitor X */
 static const unsigned int systrayonleft = 0;   	/* 0: systray in the right corner, >0: systray on left of status text */
@@ -41,13 +41,12 @@ static const char *colors[][3]      = {
 static const char *tags[] = { "1", "2", "3", "4", "5", "6", "7", "8", "9" };
 
 static const Rule rules[] = {
-	/* xprop(1):
-	 *	WM_CLASS(STRING) = instance, class
-	 *	WM_NAME(STRING) = title
-	 */
-	/* class      instance    title       tags mask    iscenter     isfloating   monitor */
-  	{ NULL         , "myfzf"     , NULL , 0         , 1 ,         1 , -1 } ,
-    { "qutebrowser", "qutebrowser", NULL, 4 ,       0,  0, -1 }
+// 	/* xprop(1):
+// 	 *	WM_CLASS(STRING) = instance, class
+// 	 *	WM_NAME(STRING) = title
+// 	 */
+// 	/* class      instance    title       tags mask    iscenter     isfloating   monitor */
+  { "Firefox",    NULL,        NULL,      1 << 8,       0,          0,            -1}
 };
 
 /* layout(s) */
@@ -77,7 +76,7 @@ static const Layout layouts[] = {
 /* commands */
 static char dmenumon[2] = "0"; /* component of dmenucmd, manipulated in spawn() */
 static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon, "-fn", dmenufont, "-nb", black, "-nf", green, "-sb", gray2, "-sf", red, NULL };
-static const char *termcmd[]  = { "st", NULL };
+static const char *termcmd[]  = { "alacritty", NULL };
 
 #include <X11/XF86keysym.h>
 
@@ -93,15 +92,16 @@ static Key keys[] = {
 	{ 0,                            XF86XK_MonBrightnessDown,   spawn,  {.v = lightdown   } },
 
   { MODKEY,                       XK_c,       spawn,          SHCMD("clipmenu")},
+  { MODKEY|ShiftMask,             XK_c,       spawn,          SHCMD("/home/niklas/.local/bin/colortheme")},
 
 	{ MODKEY|ShiftMask,             XK_e,      spawn,           SHCMD("killall bar.sh dwm") },
 
   { MODKEY,                       XK_u,      spawn,           SHCMD("/home/niklas/.local/bin/dmenumount")},
   { MODKEY|ShiftMask,             XK_u,      spawn,           SHCMD("/home/niklas/.local/bin/dmenuunmount")},
 
-	{ MODKEY|ShiftMask,                       XK_n,       spawn,          SHCMD("st -n myfzf -g 144x41 -e /home/niklas/.local/bin/fzf-important-files fzf")},
-	{ MODKEY|ShiftMask,                       XK_t,       spawn,          SHCMD("st -n myfzf -g 144x41 -e /home/niklas/.local/bin/fzf-important-files journal")},
-	{ MODKEY|ShiftMask,                       XK_i,       spawn,          SHCMD("st -n myfzf -g 144x41 -e /home/niklas/.local/bin/fzf-important-files index")},
+	{ MODKEY|ShiftMask,                       XK_n,       spawn,          SHCMD("alacritty -e /home/niklas/.local/bin/fzf-important-files fzf")},
+	{ MODKEY|ShiftMask,                       XK_t,       spawn,          SHCMD("alacritty -e /home/niklas/.local/bin/fzf-important-files journal")},
+	{ MODKEY|ShiftMask,                       XK_i,       spawn,          SHCMD("alacritty -e /home/niklas/.local/bin/fzf-important-files index")},
 
 	{ MODKEY,                       XK_b,       spawn,          SHCMD("/opt/Bitwarden/bitwarden %U")},
 	{ MODKEY|ShiftMask,             XK_b,       togglebar,      {0} },
@@ -124,6 +124,7 @@ static Key keys[] = {
 	{ MODKEY,                       XK_m,      setlayout,      {.v = &layouts[2]} },
 	{ MODKEY,                       XK_space,  setlayout,      {0} },
 	{ MODKEY|ShiftMask,             XK_space,  togglefloating, {0} },
+	{ MODKEY|ShiftMask,             XK_f,      togglefullscr,  {0} },
 	{ MODKEY,                       XK_0,      view,           {.ui = ~0 } },
 	{ MODKEY|ShiftMask,             XK_0,      tag,            {.ui = ~0 } },
 	{ MODKEY,                       XK_comma,  focusmon,       {.i = -1 } },

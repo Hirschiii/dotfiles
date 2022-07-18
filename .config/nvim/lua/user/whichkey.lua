@@ -96,6 +96,7 @@ local mappings = {
   },
   ["F"] = { "<cmd>Telescope live_grep theme=ivy<cr>", "Find Text" },
   ["P"] = { "<cmd>lua require('telescope').extensions.projects.projects()<cr>", "Projects" },
+  ["r"] = { "<cmd>source /home/niklas/.config/nvim/init.lua<cr>", "Projects" },
   
   p = {
     name = "Packer",

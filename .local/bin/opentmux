@@ -1,0 +1,16 @@
+#!/bin/sh
+
+start_tmux_session ()
+{
+  exit
+}
+
+if [ "$(tmux ls)" = "no server running on /tmp/tmux-1000/default" ]
+then
+  start_tmux_session
+else
+  get_session=$(tmux ls  | dmenu | sed -e 's#:.*\(\)#\1#')
+
+  alacritty -e tmux a -t $get_session
+fi
+

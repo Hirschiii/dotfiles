@@ -1,4 +1,0 @@
-#+TITLE: Readme
-Hey Guys, this is my everyday-setup for School.
-
-i'm using Gentoo and i Love it!!!

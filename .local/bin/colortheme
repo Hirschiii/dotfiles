@@ -1,0 +1,56 @@
+#!/bin/env bash
+
+# make_dark ()
+# {
+#   # Alacritty
+#
+#   sed -i "s/^colors: *.*/colors: *dark/" /home/niklas/.config/alacritty/colorscheme.yml 
+#
+#   # nvim
+#
+#   sed -i "s/^vim\.g\.catppuccin_flavour = \".*\"/vim\.g\.catppuccin_flavour = \"mocha\"/" /home/niklas/.config/nvim/lua/user/colorscheme.lua
+#
+#   feh --bg-fill ~/Downloads/wallpapers/minimalistic/darker_unicat.png
+#   
+# }
+#
+# make_light ()
+# {
+#   # Alacritty
+#
+#   sed -i "s/^colors: *.*/colors: *light/" /home/niklas/.config/alacritty/colorscheme.yml
+#
+#   # nvim
+#
+#   sed -i "s/^vim\.g\.catppuccin_flavour = \".*\"/vim\.g\.catppuccin_flavour = \"latte\"/" /home/niklas/.config/nvim/lua/user/colorscheme.lua
+#
+#   feh --bg-fill ~/Downloads/wallpapers/minimalistic/blue_unicat.png
+# }
+
+black="#1E1D2D"
+gray2="#282737"
+green="#ABE9B3"
+red="#F28FAD"
+
+pick=$(echo -e "dark\nlight" | dmenu -p "Pick Color Sheme" -fn "FiraCode Nerd Font:style=Retina,Regular:size=14:autohint=true" -nb "$black" -nf "$green" -sb "$gray2" -sf "$red")
+
+if [ -z $pick];
+then
+  exit 
+fi
+
+sed -i "s/^colors: *.*/colors: *$pick/" /home/niklas/.config/alacritty/colorscheme.yml
+
+# nvim
+
+light="latte"
+dark="mocha"
+
+sed -i "s/^vim\.g\.catppuccin_flavour = \".*\"/vim\.g\.catppuccin_flavour = \"${!pick}\"/" /home/niklas/.config/nvim/lua/user/colorscheme.lua
+
+# case "$pick" in
+#   dark) make_dark
+#   ;;
+#   light) make_light
+#   ;;
+# esac

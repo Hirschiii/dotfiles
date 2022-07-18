@@ -1,5 +1,0 @@
-#!/bin/bash
-
-# A dmenu prompt script, which lables the prompt $1 to decide between yes or no
-
-[ $(echo -e "No\nYes" | dmenu -i -p "$1") == "Yes" ] && $2

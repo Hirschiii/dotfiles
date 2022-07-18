@@ -1,7 +1,7 @@
 /* See LICENSE file for copyright and license details. */
 
 /* appearance */
-static const unsigned int borderpx  = 1;        /* border pixel of windows */
+static const unsigned int borderpx  = 4;        /* border pixel of windows */
 static const unsigned int snap      = 32;       /* snap pixel */
 static const unsigned int systraypinning = 0;   /* 0: sloppy systray follows selected monitor, >0: pin systray to monitor X */
 static const unsigned int systrayonleft = 0;   	/* 0: systray in the right corner, >0: systray on left of status text */
@@ -15,7 +15,7 @@ static const char *fonts[]          = {
   "Noto Color Emoji:style=Regular:pixelsize=20:antialias=true:autohint=true",
   "Symbols Nerd Font:style=1000-em:antialias=true:autohint=true:pixelsize=20"
 };
-static const char dmenufont[]       = "FiraCode Nerd Font:style=Retina,Regular:size=12:autohint=true";
+static const char dmenufont[]       = "FiraCode Nerd Font:style=Retina,Regular:size=14:autohint=true";
 
 #include "./themes/catppuccin.h"
 
@@ -45,10 +45,9 @@ static const Rule rules[] = {
 	 *	WM_CLASS(STRING) = instance, class
 	 *	WM_NAME(STRING) = title
 	 */
-	/* class      instance    title       tags mask     isfloating   monitor */
-	{ "Gimp",     NULL,       NULL,       0,            1,           -1 },
-	{ "Firefox",  NULL,       NULL,       1 << 8,       0,           -1 },
-  { NULL         , "myfzf"     , NULL         , 0               , 1 , 1 , -1 } ,
+	/* class      instance    title       tags mask    iscenter     isfloating   monitor */
+  	{ NULL         , "myfzf"     , NULL , 0         , 1 ,         1 , -1 } ,
+    { "qutebrowser", "qutebrowser", NULL, 4 ,       0,  0, -1 }
 };
 
 /* layout(s) */
@@ -77,7 +76,7 @@ static const Layout layouts[] = {
 
 /* commands */
 static char dmenumon[2] = "0"; /* component of dmenucmd, manipulated in spawn() */
-static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon, "-fn", dmenufont, "-nb", black, "-nf", gray2, "-sb", green, "-sf", blue, NULL };
+static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon, "-fn", dmenufont, "-nb", black, "-nf", green, "-sb", gray2, "-sf", red, NULL };
 static const char *termcmd[]  = { "st", NULL };
 
 #include <X11/XF86keysym.h>
@@ -93,11 +92,16 @@ static Key keys[] = {
 	{ 0,                            XF86XK_MonBrightnessUp,     spawn,    {.v = lightup   } },
 	{ 0,                            XF86XK_MonBrightnessDown,   spawn,  {.v = lightdown   } },
 
-  	{ MODKEY,                       XK_c,       spawn,          SHCMD("clipmenu")},
+  { MODKEY,                       XK_c,       spawn,          SHCMD("clipmenu")},
 
 	{ MODKEY|ShiftMask,             XK_e,      spawn,           SHCMD("killall bar.sh dwm") },
 
-	{ MODKEY,                       XK_n,       spawn,          SHCMD("alacritty --class myfzf -e /home/niklas/.local/bin/fzf-important-files fzf")},
+  { MODKEY,                       XK_u,      spawn,           SHCMD("/home/niklas/.local/bin/dmenumount")},
+  { MODKEY|ShiftMask,             XK_u,      spawn,           SHCMD("/home/niklas/.local/bin/dmenuunmount")},
+
+	{ MODKEY|ShiftMask,                       XK_n,       spawn,          SHCMD("st -n myfzf -g 144x41 -e /home/niklas/.local/bin/fzf-important-files fzf")},
+	{ MODKEY|ShiftMask,                       XK_t,       spawn,          SHCMD("st -n myfzf -g 144x41 -e /home/niklas/.local/bin/fzf-important-files journal")},
+	{ MODKEY|ShiftMask,                       XK_i,       spawn,          SHCMD("st -n myfzf -g 144x41 -e /home/niklas/.local/bin/fzf-important-files index")},
 
 	{ MODKEY,                       XK_b,       spawn,          SHCMD("/opt/Bitwarden/bitwarden %U")},
 	{ MODKEY|ShiftMask,             XK_b,       togglebar,      {0} },
