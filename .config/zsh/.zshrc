@@ -135,6 +135,11 @@ alias lt='exa -aT --color=always --group-directories-first' # tree listing
 alias l.='exa -a | egrep "^\."'
 
 
+# Herbstluftwm
+
+alias hc="herbstclient"
+
+
 alias vim="nvim"
 
 

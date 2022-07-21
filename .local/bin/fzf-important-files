@@ -5,9 +5,11 @@ source /home/niklas/.local/bin/config-files-import
 fzf-manager ()
 {
 
-  opendirect="kanban journal index"
+  
+  opendirect="wiki henning kanban journal index"
     
-  pick=$(echo -e "kanban\nnotes\nconfigs\nindex\njournal" | fzf)
+  pick=$(echo $all | sed "s/ /\\n/g" | fzf)
+  # pick=$(echo -e "henning\nkanban\nnotes\nconfigs\nindex\njournal" | fzf)
 
   validate() { echo $2 | grep -F -q -w "$1"; }
 
@@ -52,6 +54,6 @@ case "$1" in
   ;;
   school) nvim ${my_files[$(echo -e $notes | tr " " "\n" | fzf)]}
   ;;
-  *) exit
+  *) fzf-manager
   ;;
 esac

@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 declare -A my_files
-
+all="wiki henning kanban journal notes configs index"
 configs="tmux i3 fish qutebrowser nvim dwm st dmenu zsh"
 
 notes="Deutsch Geschichte Spanisch English Kunst Chemie Mathe Physik Politik Silentium SV Spanisch Technik_AG"
@@ -11,6 +11,10 @@ index="/home/niklas/Notes/index.md"
 journal="/home/niklas/Notes/Area/Planning/Daily_Notes/$(date +%Y)/$(date +%m)/$(date +%F).md"
 
 kanban="/home/niklas/Notes/Area/Planning/Kanban/Planning.md"
+
+henning="/home/niklas/Notes/Projects/Henning/index.md"
+
+wiki="/home/niklas/Notes/Area/Wiki/index.md"
 
 my_files[Deutsch]="/home/niklas/Notes/Projects/School/Deutsch/index.md"
 my_files[Geschichte]="/home/niklas/Notes/Projects/School/Geschichte/index.md"

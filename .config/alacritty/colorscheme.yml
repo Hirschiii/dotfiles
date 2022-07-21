@@ -1,6 +1,11 @@
+# Dises Datei einfach via:
+# import:
+# - /pfad/zu/disese/datei
+# in alacritty.yml importieren
+
 # Colors (Iceberg Dark)
   # Default colors
-ice-dark: &dark
+dark: &dark
   primary:
     background: '#161821'
     foreground: '#d2d4de'
@@ -27,7 +32,7 @@ ice-dark: &dark
     cyan:    '#95c4ce'
     white:   '#d2d4de'
 
-ice-light: &light
+light: &light
   # Default colors
   primary:
     background: '#e8e9ec'
@@ -55,5 +60,4 @@ ice-light: &light
     cyan:    '#327698'
     white:   '#262a3f'
 
-colors: *light
-
+colors: *dark

@@ -25,6 +25,8 @@ c.aliases = {'q': 'quit', 'w': 'session-save', 'wq': 'quit --save'}
 import sys, os
 sys.path.append(os.path.join(sys.path[0], 'jmatrix'))
 config.source("jmatrix/jmatrix/integrations/qutebrowser.py")
+
+config.set('content.autoplay', False)
 # Setting dark mode
 # config.set("colors.webpage.darkmode.enabled", True)
 

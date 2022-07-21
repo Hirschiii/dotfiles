@@ -43,19 +43,19 @@ import:
 font:
   normal:
     family: FiraCode Nerd Font
-    style: Retina Regular
+    style: Regular
 
   bold:
     family: FiraCode Nerd Font
-    style: Retina Bold
+    style: Bold
 
-  italic:
+  italics:
     family: FiraCode Nerd Font   
-    style: Retina Italic
+    style: Italic
 
   bold_italic:
     family: FiraCode Nerd Font
-    style: Retina Bold Italic
+    style: Bold,Italic
 
   size: 13.0
 
@@ -81,6 +81,8 @@ font:
 #
 # To completely disable the visual bell, set its duration to 0.
 #
-visual_bell:
+bell:
   animation: EaseOutExpo
   duration: 0
+
+
