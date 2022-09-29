@@ -41,3 +41,9 @@ resource.itslearning.com c1h-word-view-15.cdn.office.net script allow
 # Github
 
 github.com github.githubassets.com script allow
+
+# Whatsapp
+
+https://web.whatsapp.com/ mmg.whatsapp.com xhr allow
+https://web.whatsapp.com/ media-ams4-1.cdn.whatsapp.net xhr allow
+

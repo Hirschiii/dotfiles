@@ -6,7 +6,7 @@
     #   [{width}]x{height}[+/-{x}+/-{y}]
     #geometry = "500x100-10+5000"
     origin = top-right
-    offset = 10x70
+    offset = 10x40
 
     # Show how many messages are currently hidden (because of geometry).
     indicate_hidden = yes

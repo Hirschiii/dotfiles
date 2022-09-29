@@ -1,12 +1,13 @@
 #!/bin/bash
 
-sudo layman -S
-sudo eix-sync
-sudo emaint -a sync
-sudo emerge --ask --verbose --update --newuse --deep @system
-sudo emerge --ask --verbose --update --newuse --deep @world
-# sudo emerge --depclean
-# sudo eclean packages
-# sudo eclean distfiles
-# sudo revdep-rebuild
-# sudo etc-update
+doas layman -S
+doas eix-sync
+doas emaint -a sync
+doas emerge --ask --verbose --update --newuse --deep @system
+doas emerge --ask --verbose --update --newuse --deep @world
+doas emerge --ask @preserved-rebuild
+# doas emerge --depclean
+# doas eclean packages
+# doas eclean distfiles
+# doas revdep-rebuild
+# doas etc-update

@@ -1,0 +1,5 @@
+bindkey -s "^O" "n -e\n"
+bindkey -s "^N" "fzf-important-files\n"
+
+# Where should I put you?
+bindkey -s ^f "tmux-sessionizer\n"

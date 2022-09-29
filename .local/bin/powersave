@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# Stuff i dont need
+
+pkill polybar
+pkill pipewire
+pkill picom

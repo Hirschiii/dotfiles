@@ -2,6 +2,7 @@
 .gitattributes
 LICENSE
 ^/.*\.org
+^/.*\.md
 fonts
 backgrounds
 Pictures
@@ -10,3 +11,4 @@ wall
 .kernel_config
 .kernel*
 i3-master.zip
+.xinitrc

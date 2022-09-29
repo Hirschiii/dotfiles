@@ -1,0 +1,1100 @@
+prime-run nexuiz-glx -benchmark demos/demo1 -nosound 2>&1 | egrep -e '[0-9]+ frames'
+rm -r ~/.xonotic/\
+
+killall nexuiz
+nexuiz
+doas emerge --ask --depclean nexuiz
+pkill glxgears
+doas emerge --ask games-fps/xonotic
+vblank_mode=0
+export vblank_mode=0\
+\
+
+glxgears & sleep 15 ; killall glxgears
+prime-run glxgears & sleep 15 ; killall glxgears
+prime-runvblank_mode=0 glxgears & sleep 15 ; killall glxgears
+vblank_mode=0 DRI_PRIME=0 glxgears
+vblank_mode=0 DRI_PRIME=1 glxgears
+eselect opengl list
+doas eselect opengl list
+vblank_mode=0  __NV_PRIME_RENDER_OFFLOAD=1 glxgears
+vblank_mode=0  __NV_PRIME_RENDER_OFFLOAD=0 glxgears
+vblank_mode=0 glxgears
+doas emerge --ask blender
+doas nvim /etc/portage/package.use/blender
+doas emerge --ask --depcean 
+doas emerge --ask --depclean 
+doas emerge --depclean lightdm
+vim polybar/config.ini
+vim .xpr
+vim .Xpr
+vim .Xresources
+xrdb -merge .Xresources
+doas emerge --ask gimp
+time gimp
+time prime-run gimp
+vim tmux.conf
+curl cht.sh
+vim .local/bin/tmux-cht.sh
+cd .config/tmux
+vim tmux-cht-command
+./tmux-cht.sh
+mkdir work
+mkdir vonHirschfeld
+npm i -g vscode-langservers-extracted
+doas npm i -g vscode-langservers-extracted
+doas emerge --ask python
+doas eselect python list
+doas emerge --ask tree-sitter
+doas emerge --ask dev-libs/tree-sitter
+eix tree-sitte
+eix tree-sitter
+ls /tmp
+./login_web_scraper -u gulugulu -p Hobbes12hobbes12
+./login_web_scraper 
+vim /tmp/uberspace_accounting.html
+login_web_scraper -u gulugulu -p Hobbes12hobbes12 -w uberspace | grep "betrögt\
+"
+login_web_scraper -u gulugulu -p Hobbes12hobbes12 -w uberspace | grep "beträgt"
+mkdir css
+mv main.css css/style.css
+vim .config/nvim/after/plugin/keymap/harpoon.lua
+cd .config/nvim/after/plugin/
+vim lsp.lua
+tree-sitter
+doas emerge --ask dev-python/tree-sitter
+doas emerge --ask --depclean tree-sitter
+doas emerge --ask --depclean */tree-sitter
+doas emerge --ask --depclean dev-libs/tree-sitter dev-python/tree-sitter
+doas rc-service ly del
+doas rc-service ly delelete
+doas rc-service ly remove
+doas rc-update ly remove
+doas rc-update rel ly
+doas rc-update del ly
+doas vim /etc/modules-load.d/nvidia.conf
+doas rm /etc/modules-load.d/nvidia.conf
+mpv 'https://www.youtube.com/watch?v=thIlxChNYqk'
+cd Notes/School/Mathe/
+sc-im Aufgabe-
+make 
+make clean
+cd Notes/School/MA
+sc-im 
+gnuplot
+make -C uninstall
+make -C delete
+cd Tabellen
+cd t
+mv Tabellen/tabellen
+mv Tabellen tabellen
+cd ta
+l
+eix sc-im
+doas nvim /etc/portage/package.use/sc-im
+cd Notes/School/Mathe
+sc tabellen
+sc-im Aufgabe-01-09-22.sc
+cd Downloads/examples
+cd ../sc-im/examples
+cd lua
+sc-im getstock.lua
+sc-im stock.sc
+cd .dotfiles/.local/bin
+vim create_beamer
+chmod +x create_beamer
+stow cr
+stow .
+vim .local/bin/create_beamer
+git clone https://github.com/alexeygumirov/pandoc-beamer-how-to
+cd pandoc-
+zathura presentation
+zathura presentation.pdf
+zathura demo-slides.pdf
+zathura beamer-cea-example.pdf
+zathura demo
+zathura demo.pdf
+git https://github.com/matze/mthemeclone
+git clone https://github.com/matze/mtheme
+git clone https://github.com/edasubert/beamerMaterialDesign
+zathura beamerMaterialDesign/materialDesignExample.pdf
+cd mtheme
+vim ne
+vim NEWS
+ls demo
+ls source
+ls doc
+ls docker
+mv beamerthememetropolis.sty ~/Notes/School/test
+locate pandoc
+whereis pandoxc
+whereis pandoc
+cd /usr/share/pandoc-2.18/
+ls ghc-9.0.2
+mkdir templates
+pandoc index.md index.pdf
+pandoc -i index.md -o index.pdf
+zathura index.pdf
+vim Mathe-Unterricht-2022-09-01.md
+pandoc -i Mathe-Unterricht-2022-09-01.md -o pdf/Mathe-Unterricht-01-09-2022.pdf#
+pandoc -i Mathe-Unterricht-2022-09-01.md -o pdf/Mathe-Unterricht-01-09-2022.pdf
+zathura pdf/Mathe-Unterricht-01-09-2022.pdf
+mkdir test
+vim presentation
+cd fzf-important-files
+cd School/test
+pandoc presentation.md -t beamer -o pres.pdf
+zathura prt
+make sty
+pandoc -o test.tex presentation.md
+vim test.tex
+pdflatex test.tex
+create_beamer presentation.md pres.pdf
+zathura pres.pdf
+vim ~/.local/bin/create_beamer
+create_beamer presentation.md pres_1.pdf
+pandoc -o pres_2.pdf -t beamer presentation.md
+zathura pres_1.pdf pres_2
+zathura pres_1.pdf pres_2.pdf
+whereos Copenhagen
+whereis Copenhagen
+locate Copenhagen
+locate Copenhagen.latex
+cd pandoc-beamer-how-to
+zathura presentation_nice_formatting.pdf
+ls p
+ls pandoc
+npm install markmap-cli
+doas npm install markmap-cli
+markmap-clu
+markmap-clo
+markmap-cli
+rm package-lock.json
+rm package.json
+rm package.json node_modules
+rm -rf node_modules
+touch presentation.md
+vim presentation.md
+eix graphviz
+doas emerge --ask graphviz
+doas vim /etc/portage/package.use/graphviz
+doas emerge --ask media-gfx/graphviz
+vim Notes/Me/presentation.md
+vim /usr/local/share/nvim/runtime/lua/vim/treesitter/query.lua
+vim Me/presentation.md
+mkdir informatik
+cd informatik
+touch index
+mkdir diagramms
+rm index
+dot 
+dot -Tpng informatik.gv -o file.png
+dot -Tsvg -Goverlap=false informatik.gv -o file.png
+dot -Tsvg -Goverlap=false informatik.gv -o file.svg
+sxiv file.svg
+feh file.svg
+vim ~/Notes/Me/presentation.md
+sxiv file.png | sxiv file.png
+dot -Tpng -Goverlap=false informatik.gv -o file.png | sxiv file.png
+vim plugin
+vim bufferline.lua
+mv bufferline.lua bufferline.lua.bak
+mv lualine.lua lualine.lua.bak
+vim .config/polybar/
+clipmenu
+git commit -m "Update"
+vim ME
+rm M
+rm ME
+vim .local/scripts/folder-to-keybindings
+cd Projects
+man sed
+vim .config/tn
+vim .config/tmux/tmux.conf
+echo mem > /sys/power/state
+doas echo mem > /sys/power/state
+vim .local/share/xorg/Xorg.0.log
+pwd
+vim ~/.config/polybar/config.ini
+vim vim login_web_scraper
+login_web_scraper -u
+login_web_scraper -w uberspace
+vim /tmp/accounting.html
+pandoc -o /tmp/html-text.txt /tmp/accounting.html
+vim /tmp/html-text.txt
+cat /tmp/html-text.txt | grep "beträgt derzeit"
+cat /tmp/html-text.txt | grep "beträgt derzeit" | awk 'printf $4'
+cat /tmp/html-text.txt | grep "beträgt derzeit" | awk "printf $4"
+cat /tmp/html-text.txt | grep "beträgt derzeit" | awk "printf(\"$1\""
+cat /tmp/html-text.txt | grep "beträgt derzeit" | awk $4
+cat /tmp/html-text.txt | grep "beträgt derzeit" | awk '{ print $1 }'
+cat /tmp/html-text.txt | grep "beträgt derzeit" | awk '{ print $4 }'
+cat /tmp/html-text.txt | grep "beträgt derzeit" | awk '{ printf $4 }'
+cat /tmp/html-text.txt | grep "beträgt derzeit" | awk '{ printf $4 }' | sed /**//
+cat /tmp/html-text.txt | grep "beträgt derzeit" | awk '{ printf $4 }' | sed "**/**"
+cat /tmp/html-text.txt | grep "beträgt derzeit" | awk '{ printf $4 }' | sed "s/**//"
+cat /tmp/html-text.txt | grep "beträgt derzeit" | awk '{ printf $4 }' | sed "s/**//g"
+cat /tmp/html-text.txt | grep "beträgt derzeit" | awk '{ printf $4 }' | sed "s/**//g" "s/�€.%//g"
+cat /tmp/html-text.txt | grep "beträgt derzeit" | awk '{ printf $4 }' | sed "s/**//g" | sed "s/�€.%//g"
+cat /tmp/html-text.txt | grep "beträgt derzeit" | awk '{ printf $4 }' | sed "s/**//g" | sed "s/�€.//g"
+cat /tmp/html-text.txt | grep "beträgt derzeit" | awk '{ print $4 }' | sed "s/**//g" | sed "s/�€.//g"
+login_web_scraper -u gulugulu -p Hobbes12hobbes12 -w uberspace
+login_web_scraper -h
+cd .config/sc-im
+vim scimrc
+cd examples
+cd external
+#6666
+#i6
+#i6i6
+vim .local/bin/
+login_web_scraper -u gulugulu -p Hobbes12hobbes12 -w uberspace -t guthaben
+cd Notes/Projects/Henning
+cd Projects/Web-Login-Scraper
+cp ~/.local/bin/login_web_scraper ./
+#i5
+i5
+#
+#7"\
+#8"
+vim Downloads/sc-im/examples/external/test.sc
+cd 
+vim test.sc
+make install
+cd Notes/Projects/Web-Login-Scraper
+sc-im test.sc
+mc test.sc login_web_scraper.sc
+mv test.sc login_web_scraper.sc
+mkdir music
+yta-best https://music.youtube.com/watch?v=IUVu-hj4SyY
+yta-best 'https://music.youtube.com/watch?v=IUVu-hj4SyY'
+mv a\$ap\ ferg,\ nicki\ minaj,\ верка\ серду�у�ка\ -\ plain\ jane,\ все\ бу�дет\ у�ороу�о\ \(mashup\)\ \[IUVu-hj4SyY\].opus music
+yta-mp3 'https://music.youtube.com/watch?v=IUVu-hj4SyY'
+mv a\$ap\ ferg,\ nicki\ minaj,\ верка\ серду�у�ка\ -\ plain\ jane,\ все\ бу�дет\ у�ороу�о\ \(mashup\)\ \[IUVu-hj4SyY\].mp3 music
+rm music/Spotify
+rm - rmusic/Spotify
+rm -r music/Spotify
+doas vim /etc/portage/make.conf
+loginctl show-se
+loginctl show-session
+loginctl session-status
+loginctl session-status suspend
+suspend
+cd Notes
+mv Notes notes
+vim co
+cd .config/nvim.mybak/lua/user
+vim /tmp/test
+cd .config/nvim/
+qutebrowser
+vim notes/index.
+acpi -ba
+acpi --battery
+acpi -V
+xmodmap .Xm
+doas emerge --ask media-fonts/\
+dejavu
+doas emerge --ask media-fonts/dejavu
+\:ls
+\:q
+doas emerge --ask kmscon
+senos
+ls /usr/share/console
+tmux -2
+vim notes/index.n
+vim notes/index.md
+setterm --background black --foreground yellow --bold on --store on
+setterm --background black --foreground yellow --bold on 
+ls /usr/share/consolefonts
+setfont ter-v32n
+setfont ter-u32n
+setfont ter-i32n
+setfont lat9w-16
+setfont iso10.16
+setfont sun12x22
+setfont solar24x32
+showconsolefont
+setxkbmap de
+xmodmap .xmodmap
+xmodmap ~/.xmodmap
+xmodmap $HOME/.xmodmap
+cd .config/herbstluftwm
+vim autostart
+vim notes/Wiki/index.md
+vim notes/School/projektorientierung/index.md
+dot -Tpng -Goverlap=false biodiversität.gv -o file.png\
+
+feh file.png
+zathura file.png
+cd notes/School/projektorientierung/diagram
+dot -Tpng -Goverlap=false biodiversität.gv -o file.png
+sxiv biodiversität.gv
+vim biodiversität.gv
+vim biodiversität_fertig.gv
+dot -Tpng -Goverlap=false biodiversität_fertig.gv -o file.png
+vim biodiversität
+vim .
+cd notes/sch
+mkdir projektorientierung
+vim projektorientierung/index.md
+loadkeys de
+doas loadkeys de
+pkill polybar pipewire
+cd notes/School/deutsch
+vim 2Ã�
+vim 2022-09-19-Deutsch-Unterricht.md
+zathura Referat\ -\ Fabeln\ der\ Aufklärung.pdf
+cd notes/Me
+glxinfo | grep rendering
+emerge --ask sys-apps/pciutils
+doas ""
+doas emerge --ask sys-apps/pciutils
+eselect kernel list
+vim /etc/X11/
+cd /etc/X11
+mkdir xorg.conf.d
+lspci | grep -Ei "VGA|AGP|3D"
+lspci | grep VGA
+DRI_PRIME=1 glxinfo | grep "OpenGL renderer"
+glxinfo | grep "OpenGL renderer"
+prime-run glxinfo | grep "OpenGL renderer"
+htpo
+doas vim /etc/X11/xorg.conf.d/10-dri.conf
+optirun glxgea
+prime-runglxinfo | grep OpenGL
+doas rc-service bumblebee stop
+doas rc-service bumblebee start
+vim /lib64/elogind/system-sleep
+prime-run glxg
+pkill polybar 
+mkdir geschichte
+doas powertp
+zathura Downloads/Kriterien\ einer\ Quellenkritik\ und\ der\ Textzusammenfassung\ mit\ Hinweisen.pdf
+ac
+vim powersave
+chmod +x powersave
+vim notes/Me/presentation.md
+dot -Tpng -Goverlap=false informatik.gv -o file.png\
+
+sxiv file.
+vim ../Informatik-2022-09-08.md
+startcx
+sign
+tree
+tree | grep Nerd
+tree | grep nerd
+tree | grep icons
+tree | grep font
+cd nnn-4.6
+make O_NERD=1
+doas make O_NERD=1
+vim src/icons.h
+make O_NERD=1 install
+doas make O_NERD=1 install
+ls src
+nnn
+powertop
+glxinfo
+glxinfo | grep intel
+glxinfo | grep Intel
+glxinfo | grep Mesa
+glxinfo | grep 3D
+glxinfo | grep Nvidia
+prime-runglxinfo | grep Nvidia
+prime-run glxinfo | grep Nvidia
+prime-run glxinfo | grep nvidia
+prime-run glxinfo | grep 3D
+prime-run glxinfo | grep Mesa
+prime-run glxinfo | less
+npm install marp-cli
+doas npm install marp-cli
+npm install --save-dev @marp-team/marp-cli
+npm install -g @marp-team/marp-cli
+doas npm install -g @marp-team/marp-cli
+rm -rf package-lock.json
+rm -rf package.json node_modules
+marp
+qutebrowser Informatik-2022-09-08.
+qutebrowser Informatik-2022-09-08.html
+marp Informatik-2022-09-08.md
+cd Soi
+git clone https://github.com/hakimel/reveal.js.git
+cd reveal.js && npm install
+npm -h
+vim index.html
+npm run
+npm start\
+
+npm start -h
+npm start -- --port=8001
+mkdir pow
+cd pow
+touch index.dm
+mv index.md
+mv index.dm index.md
+cd ../informatik
+pandoc -s -t revealjs -o output.html Informatik-2022-09-08.md
+cat output.html
+cd .config/shell
+ivm zsh_alias
+vim zsh_alias
+cd diagramms
+vim informatik.gv
+dot -Tpng -Goverlap=false informatik.gv -o file.png
+sxiv file.png
+sxiv YBoRLR1.png
+cd Me
+vim my_vim_tutor.md
+acpiu
+while time
+watch time
+watch date
+watch -n 1date
+watch -n 1 date
+vim Informatik-2022-09-08.
+vim Informatik-2022-09-08.md
+revealjs output.html Informatik-2022-09-08.md
+qutebrowser output.html
+doas powerof
+
+vim /etc/thinkfan.conf 
+mkdir spanisch
+cd spanisch
+vim ind
+vim tmux-sessionizer
+vim .config/herbstluftwm/a
+vim .config/herbstluftwm/
+cd Templates
+vim Unterrichts\ Mitschrifft.md
+doas emerge --ask cmatric
+doas emerge --ask cmatrix
+camt
+nmap
+vim notes/Wiki/Tools/diagramm.md
+vim notes/School/informatik
+zathura Was\ ist\ Aufklärung.pdf
+mkdir diagramm
+cd diagramm
+cp ../../informatik/diagramms/informatik.gv ./
+mv informatik.gv Aufklärung.gv
+vim Aufklärung.gv
+cd di
+sxiv Aufklärung.gv
+dot -Tpng -Goverlap=false Aufklärung.gv -o output.png
+sxiv output.png
+ls rm index.md
+cat Index.md
+rm index.md
+vim informatik
+vim Index.md
+mv Index.md index.md
+acpoi
+time
+date
+eix -s typioca
+git clone https://github.com/bloznelis/typioca
+cd typioca
+make build
+cat /proc/acpi/ibm/fan
+thop
+cd Source/typioca
+./execs/typioca
+vim .config/qutebrowser/jmatrix-rules
+power
+vim config.
+vim config
+vim fzf-important-files 
+fzf
+fzf-important-files
+cd .local/
+vim config-files-import
+vim fzf-important-files
+eix -s cheese
+doas -s nvim /etc/portage/make.conf
+doas nvim /etc/portage/make.conf
+doas nvim /etc/portage/package.use/cheese
+doas emerge --ask cheese
+./login_web_scraper
+vim login_web_scraper
+vim login_web_scraper -h
+./login_web_scraper -h
+cat login_web_scraper.sc
+./login_web_scraper -u gulugulu -p Hobbes12hobbes12 -w uberspace -t guthaben
+sc-im login_web_scraper
+sc-im login_web_scraper.sc
+cma
+cmatrix
+4
+rr
+./typioca
+doas emerge --ask qalculatw
+doas emerge --ask qalculate
+eix -s galculator
+doas emerge --ask galculator
+daos powerto
+daos powertop
+cd Dwo
+pandoc -o niklas.md
+pandoc -o niklas.md 2022_09_08_Statistiken2stunde.docx
+vim niklas.md
+cd Ma
+cd tabellen
+eix -s sc-im
+doas emerge --ask sc-im
+sc-im tabellen/Aufgabe-01-09-22.sc
+sc-im tabellen/2022-09-22-Aufgaben.sc
+cd Source/sc-im
+doas make delete
+make -C src uninstall
+doas make -C src uninstall
+sc-im
+sc-im ~/Downloads/Geb\ Daten.
+sc-im ~/Downloads/Geb\ Daten.xlsx
+bci 15*1
+bic
+vim Downloads/sc-im/examples/external
+bx
+bc 15*7
+nm-connection-editor
+iw list | grep "Supported interface modes" -A 8
+ip addr
+ip link
+lsusb
+nm-
+nm-t
+nmcli
+nmtui
+git clone https://github.com/lakinduakash/linux-wifi-hotspot
+cd linux-wifi-hotspot
+eix -s qrencode
+doas emerge --ask qrencode
+doas wihotspot
+ip link show
+wihotspot
+iwc
+lbŃ�blk
+free
+doas -v
+cmake .. -DNVIDIA_SUPPORT=ON -DAMDGPU_SUPPORT=ON
+ls 
+rm -rf ./*
+doas rm -rf CMakeFiles
+rm -rf nvtop
+doas rm -rf nvtop
+git clone https://github.com/Syllo/nvtop.git
+mkdir -p nvtop/build && cd nvtop/build
+cmake .. -DNVIDIA_SUPPORT=ON
+cmake .. -DNVIDIA_SUPPORT=ON -DAMDGPU_SUPPORT=OFF
+eix nvtop
+doas s
+cd School
+mkdir bio
+touch bio/index.md
+eix -s rstudio
+npm install -g neovim
+doas npm install -g neovim
+gem install neovim
+vim 
+vim .config/nvim/lua/user
+sc-im tabellen/2022-09-23-Aufgaben.sc
+vim notes/School/Physik/index.md
+zathura rmarkdown-2.0.pdf
+zathura rmarkdown-reference.pdf
+r
+pip install neovim
+cd /tmp
+task add ggplot2 mit R installlieren install.packages("ggplot2")
+task add 'ggplot2 mit R installlieren install.packages("ggplot2")'
+zathura /tmp/test.html
+qutebrowser /tmp/test.html
+qutebrowser /tmp/test.pdf
+zathura /tmp/test.pdf p
+zathura /tmp/test.pdf 
+vim /tmp/test.Rmd
+vim .config/nvim
+doas -s 
+vim /tmp/test.rmd
+eix whatsapp
+doas vim /etc/portage/package.use/whatsapp
+doas emerge --ask whatsapp-desktop-bin\
+
+doas dispatch-conf
+R
+doas rm R/x86_64-pc-linux-gnu-library/4.2/00LOCK-vctrs
+doas rm -r R/x86_64-pc-linux-gnu-library/4.2/00LOCK-vctrs
+doas rm -r R/x86_64-pc-linux-gnu-library/4.2/00LOCK-gtable
+vim .config/herbstluftwm
+cd .pandoc/templates
+vim eisvogel.latex
+picom
+vim /usr/share/pandoc-2.18/
+locate templates
+locate templates | grep repos
+locate templates | grep pando
+locate templates | grep pandoc
+man pandoc
+mkdir -p .pandoc/templates
+unzip Downloads/Eisvogel.zip
+ls Downloads
+rm -rf examples
+rm CHANGELOG.md icon.png LICENSE README.md
+y
+mv eisvogel.latex .pandoc/templates
+cd nop
+cd notes/po
+cd notes/
+vim sourcesanspro.sty
+rm sourcesanspro.sty
+eix -s sourcesanspro
+doas emerge --ask source-pro
+doas emerge --ask source-sans
+doas emerge --ask texlive-fontsextra texlive-fontsrecommended 
+eix -s texlive-fonts
+pandoc -o index.pdf --template=eisvogel.latex index.md
+zathura index.pdf 
+pkill X
+vim in
+pkill polybar
+doas emerge --ask --depc
+doas emerge --ask --depcleanm
+doas emerge --ask --depclean
+doas eselect kernel set 1
+doas eselect kernel list
+ls /usr/src/linux
+ls /usr/src/
+vim nvim/after/plugin/vimwiki.lua
+acoi
+scpi
+hotp
+emerge --ask --update @world
+doas emerge --ask --update @world
+msg
+vim /var/log/boot
+vim /var/log/
+dmesg
+dmesg | less
+usermod -a -G video,bumblebee niklas
+doas usermod -a -G video,bumblebee niklas
+primusrun
+glxinfo | grep OpenGL
+prime-run glxinfo | grep OpenGL
+doas v
+doas shutdown -r now
+locate nvidia/lib
+locate opengl
+locate nvidia
+nvtpo
+primusrun glxgears
+nvidia-settings
+primus glxinfo | grep OpenGL
+killall X && startx
+primusrun glxinfo | grep OpenGL
+vim /var/log/Xorg.0.log
+optirun glxgears
+prime-run
+doas grub-mkconfig -o /boot/grub/grub.cfg
+vim /etc/init.d/bumblebee
+vim /etc/bumblebee/bumblebee.conf
+lsmo
+nvotp
+doas rmmod nvidia && echo "OFF" >> /proc/acpi/bbswitch
+cat /proc/acpi/bbswitch
+ls /boot/grub
+dmesg | grep nvidia
+prime-run glxge
+prime-run gimp
+vim /var/log
+ls /var/lo
+ls /var/lof
+ls /var/log
+cd /var/log
+vim syslog
+vim /var/log/syslog
+cd /usr/src/linux
+doas .s
+cd ../linux-5.15.59-gentoo
+make menuconfig
+doas emerge @module-rebuild
+doas reboot
+prime-run glxinfo
+prime-run qutebrowser
+vim .config/qutebrowser
+video-sync=display-resample mpv 'https://www.youtube.com/watch?v=l9hnUFBbKp8'
+cd .config/mpv
+ls -la
+cp -r /usr/share/doc/mpv/ ~/.config/
+cp -r /usr/share/doc/mpv-0.34.1-r1/* ~/.config/mpv
+unzip client-api-changes.rst.bz2
+bzip2 ./*
+bzip2 -d ./*
+prime-run mpv 'https://www.youtube.com/watch?v=l9hnUFBbKp8'
+vim mpv.conf
+mpv --hwdec=auto 'https://www.youtube.com/watch?v=l9hnUFBbKp8'
+mpv 'https://www.youtube.com/watch?v=l9hnUFBbKp8'
+mpv 'https://www.youtube.com/watch?v=LXb3EKWsInQ'
+dmesg| grep nvidia
+neofetch
+doas laptop_mode status
+doas emerge --ask --noreplace sys-firmware/intel-microcode
+vim /etc/default/grub
+doas vim /etc/default/grub
+grep microcode /proc/cpuinfo
+udmesg | grep microcode
+dmesg | grep microcode
+mpv 'https://www.youtube.com/watch?v=BsBNV2PuCBA'
+mkdir sil
+cp ~/notes/Resources/Templates/eisvogel.md ./sil/24-09-2022-sil-English.md
+cd notes/School/English/sil
+cd .config/neofetch
+cd ../neofetch
+cd ../nvim
+vim after/plugin
+ls plugin
+ls init.lua
+cat init.lua
+cat after/plugin/treesitter-context.lua
+vim after/plugin/keymap
+vim .config/nvim/lua/user/keymap.lua
+vim .config/nvim/lua/user/cmp-use-rust.lua
+vim .config/nvim/after/plugin/lsp.lua
+vim .config/nvim.bak-nice/lua/user/autoload.lua
+cd notes/School/English
+ls sil
+cd sil
+vim 24-09-2022-sil-English.md
+vim .config/nvim/after/plugin/pandoc.lua
+cd .config/nvim.mybak
+cd ../nvim.bak-nice
+vim lua/user/auto
+vim lua/user/autoload.lua
+vim after/plugin/pandoc.lua
+mv pandoc.lua markdown.md
+mv markdown.md markdown.lua
+vim pa
+vim .config/nvim/after/plugin/markdown.lua
+vim notes/School/English/sil/24-09-2022-sil-English.md
+vim School/English/sil/24-09-2022-sil-English.md
+cd School/English/sil
+pandoc 24-09-2022-sil-English.md -o output.pdf --template=eisvogel.latex
+vim sil/24-09-2022-sil-English.md
+touch latex.md
+vim latex.md
+vim Resources/Templates
+vim Resources/Templates/eisvogel.md
+pandoc eisvogel.md -o eisvogel.pdf --from markdown --template=eisvogel.latex --listings
+zathura eisvogel.pdf
+vim index.
+touch ideen.md
+touch TODO_heute.md
+vim ideen.md
+vim herbstluftwm/autostart
+prime-run glx
+glxgears
+doas rmmod bbswitch
+prime-run glxgea
+doas rmmod nvidia_modeset
+rmmod nvidia
+lsmod d
+lsmod 
+doas rmmod nvidiA
+doas rmmod nvidia
+prime-run glxgears
+doas emerge --ask @prebuild
+git clone https://github.com/meskarune/i3lock-fancy.git
+doas make install
+git clone https://github.com/Raymo111/i3lock-color.git
+cd i3lock-color
+vim install-
+vim install-i3lock-color.sh
+./install-i3lock-color.sh
+i3lcok
+i3lock
+cd ../i3lock-fancy
+./i3lock-fancy
+loginctl suspend
+vim .xinitrc
+i3lock-fancy
+doas dispatch-conf 
+vim .local/bin/lock.sh
+doas chmod +x .local/bin/lock.sh
+cd .local/bin
+./lock.sh
+cd i3lock-fancy
+doas make uninstall
+rm -rf i3lock-fancy
+doas emerge --ask xsslock
+doas emerge --ask xss-lock
+xss-lock --transfer-sleep-lcok -- /home/niklas/.local/bin/lock.sh --nofork
+xss-lock --transfer-sleep-lock -- /home/niklas/.local/bin/lock.sh --nofork
+gentoo-updater
+vim .local/bin/gentoo-updater
+stratx
+sta
+vim lua/user/packer.lua
+cd .config/nvim/lua/user/pa
+cd .config/nvim/lua/user/
+vim notes/Resources/Templates
+vim notes/School/in
+cd after/plugin
+zathura Downloads/spielanleitung.pdf
+cd notes/School/informatik
+mkdir pdf
+pandoc Spielanleitung-2022-09-26.md -o pdf/Spielanleitung-2022-09-26.pdf --template=eisvogel.latex 
+zathura pdf/Spielanleitung-2022-09-26.pdf
+vim bio/index.md
+vim notes/School/bio
+obsidian
+vim notes/Me/workflow.md
+vim notes/Projects/HomeServer
+cd .config/qutebrowser/
+vim quickmarks
+doas emerge --ask net-vpn/networkmanager-openvpn
+vim .config/nvim/lua/user/packer.lua
+vim .config/nvim/after/plugin
+mkdir notes/School/bio/pdf
+cd .config/nvim/after/plugin/keymap/
+vim telescope.lua
+vim ap
+cd .config/nvim/after/plugin
+vim markdown.lua
+vim /tmp/test.md
+cd .config/nvim
+vim lua/user
+vim after/plugin/color.lua
+vim .config/nvim/lua/user/set.lua
+vim nvim/lua/user/packer.lua
+vim nvim/after/plugin/markdown.lua
+pandoc 2022-09-23-Bio-Sil.md -o pdf/sil.pdf --template=eisvogel.latex 
+zathura pdf/sil.pdf
+pandoc 24-09-2022-sil-English.md -o output.pdf --template=eisvogel.latex 
+pandoc 2022-09-27-Bio-Unterricht.md -o output.pdf --template=eisvogel.latex 
+sensors
+lsm
+lsmod
+task 1 done
+task 2 done
+task
+ip a
+exit
+doas clamav
+doas emerge --ask clamav
+doas freshclam
+clamscan ~
+doas -s
+ls -l
+ls -l /
+lsbl
+lsblk
+ls /media/sda-usb-USB_SanDisk_3.2G
+ls /usr
+doas clamscan -r /
+start
+acpo
+doas emerge --ask updf
+doas emerge --ask mupdf
+doas emerge --ask mutools
+doas emerge --ask mutool
+mutool Downloads/Die\ Renaissance\ -\ Bildbeschreibung,\ quellenkritische\ Einleitung\ und\ Zusammenfassung.pdf
+mutool Downloads/Die\ Renaissance\ -\ Bildbeschreibung,\ quellenkritische\ Einleitung\ und\ Zusammenfassung.pdf extract
+pandoc Die\ Renaissance\ -\ Bildbeschreibung,\ quellenkritische\ Einleitung\ und\ Zusammenfassung.pdf -o test.txt
+man mutool
+cd Doe
+unzip vertopal.com_Die\ Renaissance\ -\ Bildbeschreibung,\ quellenkritische\ Einleitung\ und\ Zusammenfassung.zip
+vim 7f4c7f9fc9414b6384790db15685a214.markdown
+cd Downloads
+mupdf Die\ Renaissance\ -\ Bildbeschreibung,\ quellenkritische\ Einleitung\ und\ Zusammenfassung.pdf
+zathura Die\ Renaissance\ -\ Bildbeschreibung,\ quellenkritische\ Einleitung\ und\ Zusammenfassung.pdf
+cd notes/me
+cd work
+git clone https://github.com/sbmueller/pandoc_beamer
+cd notes/School
+mkdir slides
+cp -rf ~/work/pandoc_beamer ./slides
+cd slides
+mv pandoc_beamer test
+cd test
+cat Makefile
+mkdir Resources
+mv work/pandoc_beamer Resources
+cd Resources
+zathura Downloads/Die\ Renaissance\ -\ Bildbeschreibung,\ quellenkritische\ Einleitung\ und\ Zusammenfassung.pdf
+ls Downloads/*.png
+sxiv Downloads/Ge
+cd notes/School/geschichte
+mv pandoc_beamer Europerznetrismus
+cd Europerznetrismus
+sxiv Downloads/GeschichteM9_2022-09-28\ 093609.png
+vim vim slides.md
+vim slides.
+vim slides.md 
+vim ma
+tmux
+pandoc 2022-09-28-Geschichte-Unterricht.md -o output.pdf --template=eisvogel.latex
+vim 2022-09-28-Geschichte-Unterricht.md
+eix -s rg
+eix -s live-grep
+zathura Resources/pandoc_beamer/slides.pdf 
+cp -rf ~/Resources/pandoc_beamer ./
+mv pandoc_beamer Arbeit_als_Entfaltung
+cd Arbeit_als_Entfaltung
+cd ..
+rm -rf Arbeit_als_Entfaltung
+cd
+make
+cd .config/nvim/lua/user
+vim packer.lua
+pkill picom
+pkill pipewire
+prime-run cheese
+nvtop
+htop
+doas powertop
+vm
+vim
+vim 2022-09-21-Spanisch-Unterricht.md
+vim notes/School/index.md
+tmux-sessionizer
+vim notes/Resources/Templates/eisvogel.
+vim notes/Resources/Templates/eisvogel.md
+zathura notes/School/deutsch/deutsch_sil.pdf
+cd notes
+git add -
+cd School/geschichte/Europerznetrismus
+rm -rf ./.git*
+n -e
+git rm --cached School/geschichte/Europerznetrismus
+git add .
+git commit -m "update"
+git push
+lynx www.google.de
+apci
+vim vocs.md
+vim 2022-09-28-Deutsch-SIL.md
+pandoc 2022-09-28-Deutsch-SIL.md -o deutsch_sil.pdf --template=eisvogel.latex 
+zathura deutsch_sil.pdf
+vim index.md
+powersave
+acpi
+doas emerge --ask xcalc
+man xcalc
+eix -s xcalc
+xcalc -h
+xcalc
+bci
+doas emerge --ask --depclean sc-im
+cd Source
+s
+cd sc-im
+vim src/Makefile
+make -C src install
+doas make -C src install
+sc-im tabellen/2022-09-29-tabellen.sc
+mkdir notes/School/Mathe/resources
+sxiv /tmp/2022-09-29_09:18:06_1789x538.png
+mv /tmp/2022-09-29_09:18:06_1789x538.png notes/School/Mathe/resources/taschenrechner-statistik-bedeutungen.png
+sc-im tabellen/SchugroeÃ�en.sc
+vim .config/herbstluftwm/autostart
+pandoc 2022-09-29-Mathe-Unterricht.md -o output.pdf --template=eisvogel.latex 
+zathura output.pdf
+vim data.csv
+vim Makefile
+ös
+vim template.beamer
+cd Resources/pandoc_beamer
+ls
+zathura slides.pdf
+vim slides.md
+doas poweroff
+bc
+startx
+ls
+sc-im tabellen/SchugroeÃ�en.sc
+eix -s axis
+pandoc 2022-09-29-Mathe-Unterricht.md -s -V -o output.pdf --template=eisvogel.latex
+pandoc 2022-09-29-Mathe-Unterricht.md -o output.pdf --template=eisvogel.latex
+pandoc 2022-09-29-Mathe-Unterricht.md -s -o output.pdf --template=eisvogel.latex
+zathura output.pdf
+cp ~/Resources/pandoc_beamer/data.csv ./
+ls
+vim index.md
+vim data.csv
+vim 2022-09-2
+vim 2022-09-29-Mathe-Unterricht.md
+n -e
+vim data.csv
+mkdir data
+mv data.csv data/2022-09-29-Nr_3.csv
+vim data/2022-09-29-Nr_6.csv
+sc-im data/2022-09-29-Nr_6.csv
+tmux-sessionizer
+sxiv resources/taschenrechner-statistik-bedeutungen.png
+powersave
+vim Resources/pandoc_beamer/Makefile
+cd notes
+cd School
+mkdir zusammenfassung
+cp deutsch/2022-09-28-Deutsch-SIL.md zusammenfassung
+cp English/2022-09-27-English-Unterricht.md zusammenfassung
+cp geschichte/2022-09-28-Geschichte-Unterricht.md zusammenfassung
+cp informatik/Informatik-2022-09-26.md zusammenfassung
+cp Mathe/2022-09-29-Mathe-Unterricht.md zusammenfassung
+cp -rf Mathe/data zusammenfassung
+cp pow/2022-09-28-Politik-Unterricht.md zusammenfassung
+cp spanisch/2022-09-28-Spanisch-Unterricht.md zusammenfassung
+cp spanisch/vocs.md zusammenfassung
+cd zusammenfassung
+ls
+pandoc ./*.md -o output.pdf --template=eisvogel
+pandoc ./*.md -o output.pdf --template=eisvogel.latex 
+pandoc -t pdf -s --toc ./*.md -o output.pdf --template=eisvogel.latex
+zathura output.pdf
+cd notes/School/zusammenfassung
+vim 2022-09-28-Politik-Unterricht.md
+vim 2022-09-28-Spanisch-Unterricht.md
+vim Informatik-2022-09-26.md
+vim vocs.md 
+vim test.md
+pandoc test.md -o pdf
+pandoc test.md -o test.pdf
+rm test.md 
+ls
+rm pdf
+vim 2022-09-29-Mathe-Unterricht.md
+vim 2022-09-27-English-Unterricht.md
+vim 2022-09-28-
+vim 2022-09-28-Deutsch-SIL.md
+vim 2022-09-28-Geschichte-Unterricht.md
+pandoc -t pdf -s --toc ./*.md -o output.pdf --template=eisvogel.latex
+zathura output.pdf
+vim 2022-09-28-Spanisch-Unterricht.md
+zathura output.pdf
+acpi
+vim notes/Resources/Templates
+ls
+n -e
+acpi
+cd .config/nvim
+vim lua/user/packer.lua
+vim after/plugin/color.lua
+ls
+cat .config/nvim/after/plugin/keymap/harpoon.lua
+acpi
+grep --color -E "vmx|svm" /proc/cpuinfo
+doas -s
+ls
+time ls
+ls
+time ls
+time st
+time alacritty
+tmux
+ls
+alacritty
+htop
+tmux-sessionizer
+vim
+vim
+ls
+ls
+bc
+htop

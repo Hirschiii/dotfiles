@@ -52,7 +52,7 @@ case "$1" in
   ;;
   config) nvim ${my_files[$(echo -e $configs | tr " " "\n" | fzf)]}
   ;;
-  school) nvim ${my_files[$(echo -e $notes | tr " " "\n" | fzf)]}
+  school) nvim ${my_files[$(echo -e $School | tr " " "\n" | fzf)]}
   ;;
   *) fzf-manager
   ;;

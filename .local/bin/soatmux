@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# Start or Attache Tmux
+
+tmux a -t default || tmux new -s default
