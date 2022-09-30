@@ -1098,3 +1098,13 @@ ls
 ls
 bc
 htop
+vim
+cd .dotfiles
+git add .
+git commit -m "update!\
+"
+git push
+acpo
+acpi
+cd notes
+vim .git/config
