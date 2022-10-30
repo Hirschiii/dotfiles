@@ -1,8 +1,0 @@
-2022/10/29-12:15:52.100 6f3f Reusing MANIFEST /home/niklas/.local/share/qutebrowser/webengine/IndexedDB/https_www.chess.com_0.indexeddb.leveldb/MANIFEST-000001
-2022/10/29-12:15:52.101 6f3f Recovering log #21
-2022/10/29-12:15:52.101 6f3f Reusing old log /home/niklas/.local/share/qutebrowser/webengine/IndexedDB/https_www.chess.com_0.indexeddb.leveldb/000021.log 
-2022/10/29-12:15:56.484 6f3f Level-0 table #28: started
-2022/10/29-12:15:56.484 6f3f Level-0 table #28: 0 bytes OK
-2022/10/29-12:15:56.500 6f3f Delete type=0 #21
-2022/10/29-12:15:56.501 6f3f Manual compaction at level-0 from (begin) .. (end); will stop at (end)
-2022/10/29-12:15:56.501 6f3f Manual compaction at level-1 from (begin) .. (end); will stop at (end)

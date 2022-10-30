@@ -1,1 +1,0 @@
-bin/wiki2html.sh

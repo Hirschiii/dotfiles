@@ -1,8 +1,0 @@
-2022/10/30-11:28:31.317 1d64 Reusing MANIFEST /home/niklas/.local/share/qutebrowser/webengine/Local Storage/leveldb/MANIFEST-000001
-2022/10/30-11:28:31.317 1d64 Recovering log #148
-2022/10/30-11:28:31.318 1d64 Level-0 table #150: started
-2022/10/30-11:28:31.333 1d64 Level-0 table #150: 239918 bytes OK
-2022/10/30-11:28:31.339 1d64 Delete type=0 #148
-2022/10/30-11:32:26.345 4ced Level-0 table #153: started
-2022/10/30-11:32:26.373 4ced Level-0 table #153: 239918 bytes OK
-2022/10/30-11:32:26.380 4ced Delete type=0 #151

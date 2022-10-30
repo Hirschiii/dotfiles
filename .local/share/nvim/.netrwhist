@@ -1,8 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =6
-let g:netrw_dirhist_6='/var/log/lightdm'
-let g:netrw_dirhist_5='/home/niklas/Source/suckless/dmenu'
-let g:netrw_dirhist_4='/etc/portage'
-let g:netrw_dirhist_3='/etc/portage/package.use'
-let g:netrw_dirhist_2='/home/niklas/.dotfiles/.config/qutebrowser'
-let g:netrw_dirhist_1='/home/niklas/.dotfiles/.config/herbstluftwm'
