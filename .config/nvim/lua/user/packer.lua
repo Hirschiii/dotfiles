@@ -12,7 +12,7 @@ return require("packer").startup(function(use)
     use("kyazdani42/nvim-web-devicons")
 
     -- Simple plugins can be specified as strings
-    use("TimUntersberger/neogit")
+    -- use("TimUntersberger/neogit")
 
     -- TJ created lodash of neovim
     use("nvim-lua/plenary.nvim")
@@ -54,7 +54,7 @@ return require("packer").startup(function(use)
     -- Primeagen doesn"t create lodash
     -- use("ThePrimeagen/git-worktree.nvim")
     use("ThePrimeagen/harpoon")
-    use('ThePrimeagen/vim-be-good')
+    -- use('ThePrimeagen/vim-be-good')
 
     use("mbbill/undotree")
 
@@ -65,7 +65,7 @@ return require("packer").startup(function(use)
 --         require('mkdnflow').setup({})
 --     end
 -- })
-    use("junegunn/goyo.vim")
+    -- use("junegunn/goyo.vim")
     use("junegunn/limelight.vim")
     use({ "iamcco/markdown-preview.nvim", run = "cd app && npm install", setup = function() vim.g.mkdp_filetypes = { "markdown" } end, ft = { "markdown" }, })
     use("vimwiki/vimwiki")
@@ -73,12 +73,12 @@ return require("packer").startup(function(use)
     use("vim-pandoc/vim-pandoc-syntax")
 
     -- Colorscheme section
-    use({
-        "catppuccin/nvim",
-        as = "catppuccin",
-    })
+    -- use({
+    --     "catppuccin/nvim",
+    --     as = "catppuccin",
+    -- })
     use("folke/tokyonight.nvim")
-    use("lunarvim/colorschemes") -- A bunch of colorschemes you can try output
+    -- use("lunarvim/colorschemes") -- A bunch of colorschemes you can try output
 
     use("nvim-treesitter/nvim-treesitter", {
         run = ":TSUpdate",
@@ -90,7 +90,7 @@ return require("packer").startup(function(use)
         end,
     })
 
-    use("nvim-treesitter/playground")
+    -- use("nvim-treesitter/playground")
     use("romgrk/nvim-treesitter-context")
 
     -- use("mfussenegger/nvim-dap")

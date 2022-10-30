@@ -4,12 +4,18 @@ let g:vimwiki_list = [{'path': '~/vimwiki/',
 augroup pandoc_syntax
   autocmd! FileType vimwiki set syntax=markdown.pandoc
 augroup END
+
+" Pandoc
+let g:pandoc#syntax#conceal#urls=1
+
 ]]
 
 vim.api.nvim_create_autocmd(
     { "BufRead", "BufNewFile" },
     { pattern = { "*.md"}, command = "setlocal syntax=markdown.pandoc" }
 )
+
+
 --
 -- require('mkdnflow').setup({
 --     modules = {

@@ -31,7 +31,7 @@ vim.o.clipboard = "unnamedplus"                 -- allows neovim to global copy
 vim.o.smartcase = true                        -- smart case
 
 vim.wo.cursorline = true
-vim.wo.wrap = true                         -- display lines as one long line
+vim.wo.wrap = false                         -- display lines as one long line
 
 -- Give more space for displaying messages.
 vim.opt.cmdheight = 1

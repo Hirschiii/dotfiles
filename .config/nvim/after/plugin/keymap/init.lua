@@ -19,7 +19,7 @@ nnoremap("<leader>u", ":UndotreeShow<CR>")
 -- nmap("<leader>Y", "\"+Y")
 
 -- Maps Esc to jj
-inoremap("jj", "<Esc>")
+inoremap("jf", "<Esc>")
 
 -- Move with Ctrl 
 

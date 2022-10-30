@@ -1,0 +1,7 @@
+2022/10/26-19:10:48.622 4b85 Reusing MANIFEST /home/niklas/.local/share/qutebrowser/webengine/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/10/26-19:10:48.623 4b85 Recovering log #22
+2022/10/26-19:10:48.624 4b85 Reusing old log /home/niklas/.local/share/qutebrowser/webengine/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000022.log 
+2022/10/26-19:10:49.574 4b83 Compacting 1@1 + 1@2 files
+2022/10/26-19:10:49.592 4b83 Generated table #25@1: 355 keys, 57851 bytes
+2022/10/26-19:10:49.592 4b83 Compacted 1@1 + 1@2 files => 57851 bytes
+2022/10/26-19:10:49.598 4b83 compacted to: files[ 0 0 1 0 0 0 0 ]

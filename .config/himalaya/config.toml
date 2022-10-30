@@ -1,0 +1,20 @@
+name = "Niklas von Hirschfeld"
+downloads-dir = "$HOME/Mail/"
+signature = """
+Cordialement,
+Regards,
+"""
+
+[Uberspace_Niklas]
+default = true
+email = "niklas@vonhirschfeld.eu"
+
+imap-host = "aegaeon.Uberspace.de"
+imap-port = 993
+imap-login = "niklas@vonhirschfeld.eu"
+imap-passwd-cmd = "pass privat/emails/vonhirschfeld.eu | head -1"
+
+smtp-host = "aegaeon.Uberspace.de"
+smtp-port = 465
+smtp-login = "niklas@vonhirschfeld.eu"
+smtp-passwd-cmd = "pass privat/emails/vonhirschfeld.eu | head -1"

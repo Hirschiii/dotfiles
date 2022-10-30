@@ -1,0 +1,128 @@
+windows:
+- geometry: !!binary |
+    AdnQywADAAAAAAAAAAAAAAAAB38AAAgkAAAABgAAAAYAAAd5AAAIHgAAAAAAAAAADwAAAAAGAAAA
+    BgAAB3kAAAge
+  tabs:
+  - history:
+    - last_visited: '2022-10-30T11:39:16'
+      pinned: false
+      title: '~'
+      url: https://hirschiii.github.io/website/
+    - last_visited: '2022-10-30T11:39:23'
+      pinned: false
+      title: latex makrdown beamer at DuckDuckGo
+      url: https://duckduckgo.com/?q=latex+makrdown+beamer&ia=web
+    - active: true
+      last_visited: '2022-10-30T11:39:42'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 1678
+      title: latex makrdown beamer pandoc at DuckDuckGo
+      url: https://duckduckgo.com/?q=latex+makrdown+beamer+pandoc&ia=web
+      zoom: 1.7
+  - history:
+    - active: true
+      last_visited: '2022-10-30T11:39:47'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 436
+      title: 'sbmueller/pandoc_beamer: Template to simply create TeX slides in Markdown
+        using pandoc'
+      url: https://github.com/sbmueller/pandoc_beamer
+      zoom: 1.7
+  - history:
+    - active: true
+      last_visited: '2022-10-30T11:39:48'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: 'Beamer presentations using pandoc, markdown, LaTeX, and a makefile -
+        easier to read and less typing : LaTeX'
+      url: https://www.reddit.com/r/LaTeX/comments/x0jcg/beamer_presentations_using_pandoc_markdown_latex/
+      zoom: 2.295703125
+  - history:
+    - active: true
+      last_visited: '2022-10-30T11:40:13'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: Beamer presentations using pandoc, markdown, LaTeX, and a makefile
+      url: http://jeromyanglim.blogspot.com/2012/07/beamer-pandoc-markdown.html
+      zoom: 1.7
+  - active: true
+    history:
+    - last_visited: '2022-10-30T11:41:21'
+      pinned: false
+      title: github at DuckDuckGo
+      url: https://duckduckgo.com/?q=github&ia=web
+    - last_visited: '2022-10-30T11:41:29'
+      pinned: false
+      title: GitHub
+      url: https://github.com/
+    - last_visited: '2022-10-30T11:41:35'
+      pinned: false
+      title: Your Profile
+      url: https://github.com/settings/profile
+    - last_visited: '2022-10-30T11:43:17'
+      pinned: false
+      title: SSH and GPG keys
+      url: https://github.com/settings/keys
+    - last_visited: '2022-10-30T11:43:17'
+      pinned: false
+      title: Add new SSH keys
+      url: https://github.com/settings/ssh/new
+    - last_visited: '2022-10-30T11:43:27'
+      pinned: false
+      title: Confirm access
+      url: https://github.com/settings/ssh
+    - last_visited: '2022-10-30T11:54:22'
+      pinned: false
+      title: SSH and GPG keys
+      url: https://github.com/settings/keys
+    - last_visited: '2022-10-30T11:54:22'
+      pinned: false
+      title: Add new SSH keys
+      url: https://github.com/settings/ssh/new
+    - last_visited: '2022-10-30T11:54:43'
+      pinned: false
+      title: SSH and GPG keys
+      url: https://github.com/settings/keys
+    - last_visited: '2022-10-30T11:54:43'
+      pinned: false
+      title: Add new SSH keys
+      url: https://github.com/settings/ssh/new
+    - last_visited: '2022-10-30T11:55:23'
+      pinned: false
+      title: SSH and GPG keys
+      url: https://github.com/settings/keys
+    - last_visited: '2022-10-30T11:55:23'
+      pinned: false
+      title: Add new SSH keys
+      url: https://github.com/settings/ssh/new
+    - active: true
+      last_visited: '2022-10-30T11:55:45'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: SSH and GPG keys
+      url: https://github.com/settings/keys
+      zoom: 1.838671875
+  - history:
+    - last_visited: '2022-10-30T11:41:51'
+      pinned: false
+      title: Connecting to GitHub with SSH - GitHub Docs
+      url: https://docs.github.com/en/authentication/connecting-to-github-with-ssh
+    - active: true
+      last_visited: '2022-10-30T11:41:52'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 7172
+      title: Generating a new SSH key and adding it to the ssh-agent - GitHub Docs
+      url: https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
+      zoom: 2.38359375

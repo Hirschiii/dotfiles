@@ -1,0 +1,17 @@
+2022/10/30-11:39:16.770 6c8e Reusing MANIFEST /home/niklas/.local/share/qutebrowser/webengine/Local Storage/leveldb/MANIFEST-000001
+2022/10/30-11:39:16.770 6c8e Recovering log #152
+2022/10/30-11:39:16.772 6c8e Level-0 table #155: started
+2022/10/30-11:39:16.779 6c8e Level-0 table #155: 240020 bytes OK
+2022/10/30-11:39:16.785 6c8e Delete type=0 #152
+2022/10/30-11:39:16.785 6c8d Compacting 4@0 + 1@1 files
+2022/10/30-11:39:16.824 6c8d Generated table #157@0: 62 keys, 959068 bytes
+2022/10/30-11:39:16.824 6c8d Compacted 4@0 + 1@1 files => 959068 bytes
+2022/10/30-11:39:16.830 6c8d compacted to: files[ 0 1 0 0 0 0 0 ]
+2022/10/30-11:39:16.830 6c8d Delete type=2 #145
+2022/10/30-11:39:16.830 6c8d Delete type=2 #147
+2022/10/30-11:39:16.830 6c8d Delete type=2 #150
+2022/10/30-11:39:16.830 6c8d Delete type=2 #153
+2022/10/30-11:39:16.830 6c8d Delete type=2 #155
+2022/10/30-11:41:28.541 6d73 Level-0 table #159: started
+2022/10/30-11:41:28.567 6d73 Level-0 table #159: 244198 bytes OK
+2022/10/30-11:41:28.574 6d73 Delete type=0 #156

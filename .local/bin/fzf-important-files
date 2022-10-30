@@ -6,7 +6,7 @@ fzf-manager ()
 {
 
   
-  opendirect="wiki henning kanban journal index"
+  opendirect="wiki henning kanban daily index"
     
   pick=$(echo $all | sed "s/ /\\n/g" | fzf)
   # pick=$(echo -e "henning\nkanban\nnotes\nconfigs\nindex\njournal" | fzf)

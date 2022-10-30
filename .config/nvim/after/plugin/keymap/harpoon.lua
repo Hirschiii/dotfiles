@@ -1,5 +1,4 @@
 local nnoremap = require("user.keymap").nnoremap
-        
 local silent = { silent = true }
 
 -- Terminal commands

@@ -1,14 +1,14 @@
 #!/usr/bin/env bash
 
 declare -A my_files
-all="School wiki henning kanban journal configs index"
+all="School wiki henning kanban daily configs index"
 configs="tmux i3 fish qutebrowser nvim dwm st dmenu zsh"
 
 School="Index Inforamtik Deutsch Geschichte Spanisch English Kunst Chemie Mathe Physik Politik Silentium SV Spanisch Technik_AG"
 
 index="$HOME/notes/index.md"
 
-journal="$HOME/notes/Area/Planning/Daily_Notes/$(date +%Y)/$(date +%m)/$(date +%F).md"
+daily="$HOME/notes/daily/$(date +%Y)/$(date +%m)/$(date +%F).md"
 
 kanban="$HOME/notes/Area/Planning/Kanban/Planning.md"
 

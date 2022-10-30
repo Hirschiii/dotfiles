@@ -1,0 +1,239 @@
+{"level":30,"time":"2022-10-27T13:28:17.291Z","pid":8350,"hostname":"localhost.localdomain","msg":"key/initialize: Generating new encryption key, since we did not find it on disk"}
+{"level":30,"time":"2022-10-27T13:28:17.294Z","pid":8350,"hostname":"localhost.localdomain","msg":"config/set: Saving user config to disk"}
+{"level":30,"time":"2022-10-27T13:28:17.295Z","pid":8350,"hostname":"localhost.localdomain","msg":"config/set: Saved user config to disk"}
+{"level":30,"time":"2022-10-27T13:28:17.300Z","pid":8350,"hostname":"localhost.localdomain","msg":"app ready"}
+{"level":30,"time":"2022-10-27T13:28:17.301Z","pid":8350,"hostname":"localhost.localdomain","msg":"starting version 5.62.0"}
+{"level":30,"time":"2022-10-27T13:28:17.301Z","pid":8350,"hostname":"localhost.localdomain","msg":"media access status [object Undefined] [object Undefined]"}
+{"level":30,"time":"2022-10-27T13:28:17.315Z","pid":8350,"hostname":"localhost.localdomain","msg":"MainSQL: migrateSchemaVersion: Migrating from schema_version 0 to user_version 0"}
+{"level":30,"time":"2022-10-27T13:28:17.324Z","pid":8350,"hostname":"localhost.localdomain","msg":"MainSQL: updateSchema:\n  Current user_version: 0;\n  Most recent db schema: 66;\n  SQLite version: 3.37.2;\n  SQLCipher version: 4.5.1 community;\n  (deprecated) schema_version: 0;\n"}
+{"level":30,"time":"2022-10-27T13:28:17.324Z","pid":8350,"hostname":"localhost.localdomain","msg":"MainSQL: updateToSchemaVersion1: starting..."}
+{"level":30,"time":"2022-10-27T13:28:17.328Z","pid":8350,"hostname":"localhost.localdomain","msg":"MainSQL: updateToSchemaVersion1: success!"}
+{"level":30,"time":"2022-10-27T13:28:17.329Z","pid":8350,"hostname":"localhost.localdomain","msg":"MainSQL: updateToSchemaVersion2: starting..."}
+{"level":30,"time":"2022-10-27T13:28:17.332Z","pid":8350,"hostname":"localhost.localdomain","msg":"MainSQL: updateToSchemaVersion2: success!"}
+{"level":30,"time":"2022-10-27T13:28:17.332Z","pid":8350,"hostname":"localhost.localdomain","msg":"MainSQL: updateToSchemaVersion3: starting..."}
+{"level":30,"time":"2022-10-27T13:28:17.336Z","pid":8350,"hostname":"localhost.localdomain","msg":"MainSQL: updateToSchemaVersion3: success!"}
+{"level":30,"time":"2022-10-27T13:28:17.336Z","pid":8350,"hostname":"localhost.localdomain","msg":"MainSQL: updateToSchemaVersion4: starting..."}
+{"level":30,"time":"2022-10-27T13:28:17.339Z","pid":8350,"hostname":"localhost.localdomain","msg":"MainSQL: updateToSchemaVersion4: success!"}
+{"level":30,"time":"2022-10-27T13:28:17.340Z","pid":8350,"hostname":"localhost.localdomain","msg":"MainSQL: updateToSchemaVersion6: starting..."}
+{"level":30,"time":"2022-10-27T13:28:17.344Z","pid":8350,"hostname":"localhost.localdomain","msg":"MainSQL: updateToSchemaVersion6: success!"}
+{"level":30,"time":"2022-10-27T13:28:17.344Z","pid":8350,"hostname":"localhost.localdomain","msg":"MainSQL: updateToSchemaVersion7: starting..."}
+{"level":30,"time":"2022-10-27T13:28:17.348Z","pid":8350,"hostname":"localhost.localdomain","msg":"MainSQL: updateToSchemaVersion7: success!"}
+{"level":30,"time":"2022-10-27T13:28:17.349Z","pid":8350,"hostname":"localhost.localdomain","msg":"MainSQL: updateToSchemaVersion8: starting..."}
+{"level":30,"time":"2022-10-27T13:28:17.353Z","pid":8350,"hostname":"localhost.localdomain","msg":"MainSQL: updateToSchemaVersion8: success!"}
+{"level":30,"time":"2022-10-27T13:28:17.353Z","pid":8350,"hostname":"localhost.localdomain","msg":"MainSQL: updateToSchemaVersion9: starting..."}
+{"level":30,"time":"2022-10-27T13:28:17.356Z","pid":8350,"hostname":"localhost.localdomain","msg":"MainSQL: updateToSchemaVersion9: success!"}
+{"level":30,"time":"2022-10-27T13:28:17.356Z","pid":8350,"hostname":"localhost.localdomain","msg":"MainSQL: updateToSchemaVersion10: starting..."}
+{"level":30,"time":"2022-10-27T13:28:17.361Z","pid":8350,"hostname":"localhost.localdomain","msg":"MainSQL: updateToSchemaVersion10: success!"}
+{"level":30,"time":"2022-10-27T13:28:17.361Z","pid":8350,"hostname":"localhost.localdomain","msg":"MainSQL: updateToSchemaVersion11: starting..."}
+{"level":30,"time":"2022-10-27T13:28:17.365Z","pid":8350,"hostname":"localhost.localdomain","msg":"MainSQL: updateToSchemaVersion11: success!"}
+{"level":30,"time":"2022-10-27T13:28:17.365Z","pid":8350,"hostname":"localhost.localdomain","msg":"MainSQL: updateToSchemaVersion12: starting..."}
+{"level":30,"time":"2022-10-27T13:28:17.368Z","pid":8350,"hostname":"localhost.localdomain","msg":"MainSQL: updateToSchemaVersion12: success!"}
+{"level":30,"time":"2022-10-27T13:28:17.369Z","pid":8350,"hostname":"localhost.localdomain","msg":"MainSQL: updateToSchemaVersion13: starting..."}
+{"level":30,"time":"2022-10-27T13:28:17.372Z","pid":8350,"hostname":"localhost.localdomain","msg":"MainSQL: updateToSchemaVersion13: success!"}
+{"level":30,"time":"2022-10-27T13:28:17.372Z","pid":8350,"hostname":"localhost.localdomain","msg":"MainSQL: updateToSchemaVersion14: starting..."}
+{"level":30,"time":"2022-10-27T13:28:17.376Z","pid":8350,"hostname":"localhost.localdomain","msg":"MainSQL: updateToSchemaVersion14: success!"}
+{"level":30,"time":"2022-10-27T13:28:17.376Z","pid":8350,"hostname":"localhost.localdomain","msg":"MainSQL: updateToSchemaVersion15: starting..."}
+{"level":30,"time":"2022-10-27T13:28:17.385Z","pid":8350,"hostname":"localhost.localdomain","msg":"MainSQL: updateToSchemaVersion15: success!"}
+{"level":30,"time":"2022-10-27T13:28:17.386Z","pid":8350,"hostname":"localhost.localdomain","msg":"MainSQL: updateToSchemaVersion16: starting..."}
+{"level":30,"time":"2022-10-27T13:28:17.395Z","pid":8350,"hostname":"localhost.localdomain","msg":"MainSQL: updateToSchemaVersion16: success!"}
+{"level":30,"time":"2022-10-27T13:28:17.395Z","pid":8350,"hostname":"localhost.localdomain","msg":"MainSQL: updateToSchemaVersion17: starting..."}
+{"level":30,"time":"2022-10-27T13:28:17.397Z","pid":8350,"hostname":"localhost.localdomain","msg":"MainSQL: updateToSchemaVersion17: Index messages_view_once did not already exist"}
+{"level":30,"time":"2022-10-27T13:28:17.402Z","pid":8350,"hostname":"localhost.localdomain","msg":"MainSQL: updateToSchemaVersion17: success!"}
+{"level":30,"time":"2022-10-27T13:28:17.403Z","pid":8350,"hostname":"localhost.localdomain","msg":"MainSQL: updateToSchemaVersion18: starting..."}
+{"level":30,"time":"2022-10-27T13:28:17.408Z","pid":8350,"hostname":"localhost.localdomain","msg":"MainSQL: updateToSchemaVersion18: success!"}
+{"level":30,"time":"2022-10-27T13:28:17.408Z","pid":8350,"hostname":"localhost.localdomain","msg":"MainSQL: updateToSchemaVersion19: starting..."}
+{"level":30,"time":"2022-10-27T13:28:17.415Z","pid":8350,"hostname":"localhost.localdomain","msg":"MainSQL: updateToSchemaVersion19: success!"}
+{"level":30,"time":"2022-10-27T13:28:17.415Z","pid":8350,"hostname":"localhost.localdomain","msg":"MainSQL: updateToSchemaVersion20: starting..."}
+{"level":30,"time":"2022-10-27T13:28:17.433Z","pid":8350,"hostname":"localhost.localdomain","msg":"MainSQL: updateToSchemaVersion20: success!"}
+{"level":30,"time":"2022-10-27T13:28:17.437Z","pid":8350,"hostname":"localhost.localdomain","msg":"MainSQL: updateToSchemaVersion21: success!"}
+{"level":30,"time":"2022-10-27T13:28:17.442Z","pid":8350,"hostname":"localhost.localdomain","msg":"MainSQL: updateToSchemaVersion22: success!"}
+{"level":30,"time":"2022-10-27T13:28:17.446Z","pid":8350,"hostname":"localhost.localdomain","msg":"MainSQL: updateToSchemaVersion23: success!"}
+{"level":30,"time":"2022-10-27T13:28:17.451Z","pid":8350,"hostname":"localhost.localdomain","msg":"MainSQL: updateToSchemaVersion24: success!"}
+{"level":30,"time":"2022-10-27T13:28:17.467Z","pid":8350,"hostname":"localhost.localdomain","msg":"MainSQL: updateToSchemaVersion25: success!"}
+{"level":30,"time":"2022-10-27T13:28:17.470Z","pid":8350,"hostname":"localhost.localdomain","msg":"MainSQL: updateToSchemaVersion26: success!"}
+{"level":30,"time":"2022-10-27T13:28:17.474Z","pid":8350,"hostname":"localhost.localdomain","msg":"MainSQL: updateToSchemaVersion27: success!"}
+{"level":30,"time":"2022-10-27T13:28:17.478Z","pid":8350,"hostname":"localhost.localdomain","msg":"MainSQL: updateToSchemaVersion28: success!"}
+{"level":30,"time":"2022-10-27T13:28:17.482Z","pid":8350,"hostname":"localhost.localdomain","msg":"MainSQL: updateToSchemaVersion29: success!"}
+{"level":30,"time":"2022-10-27T13:28:17.485Z","pid":8350,"hostname":"localhost.localdomain","msg":"MainSQL: updateToSchemaVersion30: success!"}
+{"level":30,"time":"2022-10-27T13:28:17.485Z","pid":8350,"hostname":"localhost.localdomain","msg":"MainSQL: updateToSchemaVersion31: starting..."}
+{"level":30,"time":"2022-10-27T13:28:17.492Z","pid":8350,"hostname":"localhost.localdomain","msg":"MainSQL: updateToSchemaVersion31: success!"}
+{"level":30,"time":"2022-10-27T13:28:17.497Z","pid":8350,"hostname":"localhost.localdomain","msg":"MainSQL: updateToSchemaVersion32: success!"}
+{"level":30,"time":"2022-10-27T13:28:17.503Z","pid":8350,"hostname":"localhost.localdomain","msg":"MainSQL: updateToSchemaVersion33: success!"}
+{"level":30,"time":"2022-10-27T13:28:17.508Z","pid":8350,"hostname":"localhost.localdomain","msg":"MainSQL: updateToSchemaVersion34: success!"}
+{"level":30,"time":"2022-10-27T13:28:17.513Z","pid":8350,"hostname":"localhost.localdomain","msg":"MainSQL: updateToSchemaVersion35: success!"}
+{"level":30,"time":"2022-10-27T13:28:17.517Z","pid":8350,"hostname":"localhost.localdomain","msg":"MainSQL: updateToSchemaVersion36: success!"}
+{"level":30,"time":"2022-10-27T13:28:17.526Z","pid":8350,"hostname":"localhost.localdomain","msg":"MainSQL: updateToSchemaVersion37: success!"}
+{"level":30,"time":"2022-10-27T13:28:17.546Z","pid":8350,"hostname":"localhost.localdomain","msg":"MainSQL: updateToSchemaVersion38: success!"}
+{"level":30,"time":"2022-10-27T13:28:17.552Z","pid":8350,"hostname":"localhost.localdomain","msg":"MainSQL: updateToSchemaVersion39: success!"}
+{"level":30,"time":"2022-10-27T13:28:17.555Z","pid":8350,"hostname":"localhost.localdomain","msg":"MainSQL: updateToSchemaVersion40: success!"}
+{"level":30,"time":"2022-10-27T13:28:17.564Z","pid":8350,"hostname":"localhost.localdomain","msg":"MainSQL: updateToSchemaVersion41: success!"}
+{"level":30,"time":"2022-10-27T13:28:17.568Z","pid":8350,"hostname":"localhost.localdomain","msg":"MainSQL: updateToSchemaVersion42: success!"}
+{"level":30,"time":"2022-10-27T13:28:17.569Z","pid":8350,"hostname":"localhost.localdomain","msg":"MainSQL: updateToSchemaVersion43: About to iterate through 0 conversations"}
+{"level":30,"time":"2022-10-27T13:28:17.569Z","pid":8350,"hostname":"localhost.localdomain","msg":"MainSQL: updateToSchemaVersion43: About to iterate through 0 messages"}
+{"level":30,"time":"2022-10-27T13:28:17.569Z","pid":8350,"hostname":"localhost.localdomain","msg":"MainSQL: updateToSchemaVersion43: Updated 0 messages"}
+{"level":30,"time":"2022-10-27T13:28:17.572Z","pid":8350,"hostname":"localhost.localdomain","msg":"MainSQL: updateToSchemaVersion43: success!"}
+{"level":30,"time":"2022-10-27T13:28:17.575Z","pid":8350,"hostname":"localhost.localdomain","msg":"MainSQL: updateToSchemaVersion44: success!"}
+{"level":30,"time":"2022-10-27T13:28:17.581Z","pid":8350,"hostname":"localhost.localdomain","msg":"MainSQL: updateToSchemaVersion45: success!"}
+{"level":30,"time":"2022-10-27T13:28:17.585Z","pid":8350,"hostname":"localhost.localdomain","msg":"MainSQL: updateToSchemaVersion46: success!"}
+{"level":40,"time":"2022-10-27T13:28:17.594Z","pid":8350,"hostname":"localhost.localdomain","msg":"MainSQL: updateToSchemaVersion47: our UUID not found"}
+{"level":30,"time":"2022-10-27T13:28:17.596Z","pid":8350,"hostname":"localhost.localdomain","msg":"MainSQL: updateToSchemaVersion47: success!"}
+{"level":30,"time":"2022-10-27T13:28:17.599Z","pid":8350,"hostname":"localhost.localdomain","msg":"MainSQL: updateToSchemaVersion48: success!"}
+{"level":30,"time":"2022-10-27T13:28:17.603Z","pid":8350,"hostname":"localhost.localdomain","msg":"MainSQL: updateToSchemaVersion49: success!"}
+{"level":30,"time":"2022-10-27T13:28:17.606Z","pid":8350,"hostname":"localhost.localdomain","msg":"MainSQL: updateToSchemaVersion50: success!"}
+{"level":30,"time":"2022-10-27T13:28:17.611Z","pid":8350,"hostname":"localhost.localdomain","msg":"MainSQL: updateToSchemaVersion51: success!"}
+{"level":30,"time":"2022-10-27T13:28:17.616Z","pid":8350,"hostname":"localhost.localdomain","msg":"MainSQL: updateToSchemaVersion52: success!"}
+{"level":30,"time":"2022-10-27T13:28:17.617Z","pid":8350,"hostname":"localhost.localdomain","msg":"MainSQL: updateToSchemaVersion53: About to iterate through 0 conversations"}
+{"level":30,"time":"2022-10-27T13:28:17.617Z","pid":8350,"hostname":"localhost.localdomain","msg":"MainSQL: updateToSchemaVersion53: Updated 0 conversations"}
+{"level":30,"time":"2022-10-27T13:28:17.621Z","pid":8350,"hostname":"localhost.localdomain","msg":"MainSQL: updateToSchemaVersion53: success!"}
+{"level":30,"time":"2022-10-27T13:28:17.627Z","pid":8350,"hostname":"localhost.localdomain","msg":"MainSQL: updateToSchemaVersion54: success!"}
+{"level":30,"time":"2022-10-27T13:28:17.631Z","pid":8350,"hostname":"localhost.localdomain","msg":"MainSQL: updateToSchemaVersion55: success!"}
+{"level":30,"time":"2022-10-27T13:28:17.639Z","pid":8350,"hostname":"localhost.localdomain","msg":"MainSQL: updateToSchemaVersion56: success!"}
+{"level":30,"time":"2022-10-27T13:28:17.645Z","pid":8350,"hostname":"localhost.localdomain","msg":"MainSQL: updateToSchemaVersion57: success!"}
+{"level":30,"time":"2022-10-27T13:28:17.651Z","pid":8350,"hostname":"localhost.localdomain","msg":"MainSQL: updateToSchemaVersion58: success!"}
+{"level":30,"time":"2022-10-27T13:28:17.655Z","pid":8350,"hostname":"localhost.localdomain","msg":"MainSQL: updateToSchemaVersion59: success!"}
+{"level":30,"time":"2022-10-27T13:28:17.660Z","pid":8350,"hostname":"localhost.localdomain","msg":"MainSQL: updateToSchemaVersion60: success!"}
+{"level":30,"time":"2022-10-27T13:28:17.689Z","pid":8350,"hostname":"localhost.localdomain","msg":"MainSQL: updateToSchemaVersion61: success!"}
+{"level":30,"time":"2022-10-27T13:28:17.693Z","pid":8350,"hostname":"localhost.localdomain","msg":"MainSQL: updateToSchemaVersion62: success!"}
+{"level":30,"time":"2022-10-27T13:28:17.697Z","pid":8350,"hostname":"localhost.localdomain","msg":"MainSQL: updateToSchemaVersion63: success!"}
+{"level":30,"time":"2022-10-27T13:28:17.705Z","pid":8350,"hostname":"localhost.localdomain","msg":"MainSQL: updateToSchemaVersion64: success!"}
+{"level":30,"time":"2022-10-27T13:28:17.715Z","pid":8350,"hostname":"localhost.localdomain","msg":"MainSQL: updateToSchemaVersion65: success!"}
+{"level":30,"time":"2022-10-27T13:28:17.719Z","pid":8350,"hostname":"localhost.localdomain","msg":"MainSQL: updateToSchemaVersion66: success!"}
+{"level":30,"time":"2022-10-27T13:28:17.720Z","pid":8350,"hostname":"localhost.localdomain","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2022-10-27T13:28:17.721Z","pid":8350,"hostname":"localhost.localdomain","msg":"config/set: Saved ephemeral config to disk"}
+{"level":30,"time":"2022-10-27T13:28:17.721Z","pid":8350,"hostname":"localhost.localdomain","msg":"got slow theme-setting value system"}
+{"level":30,"time":"2022-10-27T13:28:17.721Z","pid":8350,"hostname":"localhost.localdomain","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2022-10-27T13:28:17.722Z","pid":8350,"hostname":"localhost.localdomain","msg":"config/set: Saved ephemeral config to disk"}
+{"level":30,"time":"2022-10-27T13:28:17.722Z","pid":8350,"hostname":"localhost.localdomain","msg":"got slow spellcheck setting true"}
+{"level":30,"time":"2022-10-27T13:28:17.722Z","pid":8350,"hostname":"localhost.localdomain","msg":"getSystemTraySetting had no flags and did no DB lookups. Returning DoNotUseSystemTray"}
+{"level":50,"time":"2022-10-27T13:28:17.723Z","pid":8350,"hostname":"localhost.localdomain","msg":"visibleOnAnyScreen: windowOptions didn't have valid bounds fields"}
+{"level":30,"time":"2022-10-27T13:28:17.723Z","pid":8350,"hostname":"localhost.localdomain","msg":"Location reset needed"}
+{"level":30,"time":"2022-10-27T13:28:17.723Z","pid":8350,"hostname":"localhost.localdomain","msg":"Initializing BrowserWindow config: {\"show\":false,\"width\":800,\"height\":610,\"minWidth\":300,\"minHeight\":200,\"autoHideMenuBar\":false,\"titleBarStyle\":\"default\",\"titleBarOverlay\":false,\"backgroundColor\":\"#3a76f0\",\"webPreferences\":{\"devTools\":false,\"spellcheck\":true,\"nodeIntegration\":false,\"nodeIntegrationInWorker\":false,\"sandbox\":false,\"contextIsolation\":false,\"preload\":\"[REDACTED]/preload.bundle.js\",\"backgroundThrottling\":false,\"enablePreferredSizeMode\":true,\"disableBlinkFeatures\":\"Accelerated2dCanvas,AcceleratedSmallCanvases\"},\"icon\":\"[REDACTED]/images/signal-logo-desktop-linux.png\"}"}
+{"level":30,"time":"2022-10-27T13:28:17.824Z","pid":8350,"hostname":"localhost.localdomain","msg":"spellcheck: user locale: de"}
+{"level":30,"time":"2022-10-27T13:28:17.824Z","pid":8350,"hostname":"localhost.localdomain","msg":"spellcheck: available spellchecker languages:  [\"af\",\"bg\",\"ca\",\"cs\",\"cy\",\"da\",\"de\",\"de-DE\",\"el\",\"en\",\"en-AU\",\"en-CA\",\"en-GB\",\"en-GB-oxendict\",\"en-US\",\"es\",\"es-419\",\"es-AR\",\"es-ES\",\"es-MX\",\"es-US\",\"et\",\"fa\",\"fo\",\"fr\",\"fr-FR\",\"he\",\"hi\",\"hr\",\"hu\",\"hy\",\"id\",\"it\",\"it-IT\",\"ko\",\"lt\",\"lv\",\"nb\",\"nl\",\"pl\",\"pt\",\"pt-BR\",\"pt-PT\",\"ro\",\"ru\",\"sh\",\"sk\",\"sl\",\"sq\",\"sr\",\"sv\",\"ta\",\"tg\",\"tr\",\"uk\",\"vi\"]"}
+{"level":30,"time":"2022-10-27T13:28:17.824Z","pid":8350,"hostname":"localhost.localdomain","msg":"spellcheck: setting languages to:  [\"de\"]"}
+{"level":30,"time":"2022-10-27T13:28:17.824Z","pid":8350,"hostname":"localhost.localdomain","msg":"got fast theme-setting value system"}
+{"level":30,"time":"2022-10-27T13:28:17.835Z","pid":8350,"hostname":"localhost.localdomain","msg":"got fast spellcheck setting true"}
+{"level":30,"time":"2022-10-27T13:28:17.847Z","pid":8350,"hostname":"localhost.localdomain","msg":"System tray service: created"}
+{"level":30,"time":"2022-10-27T13:28:17.848Z","pid":8350,"hostname":"localhost.localdomain","msg":"System tray service: updating main window. Previously, there was not a window, and now there is"}
+{"level":30,"time":"2022-10-27T13:28:17.848Z","pid":8350,"hostname":"localhost.localdomain","msg":"System tray service: rendering no tray"}
+{"level":30,"time":"2022-10-27T13:28:17.848Z","pid":8350,"hostname":"localhost.localdomain","msg":"Begin ensuring permissions"}
+{"level":30,"time":"2022-10-27T13:28:17.853Z","pid":8350,"hostname":"localhost.localdomain","msg":"Ensuring file permissions for 4 files"}
+{"level":30,"time":"2022-10-27T13:28:17.854Z","pid":8350,"hostname":"localhost.localdomain","msg":"Finish ensuring permissions in 6ms"}
+{"level":30,"time":"2022-10-27T13:28:19.436Z","pid":8350,"hostname":"localhost.localdomain","msg":"main window is ready-to-show"}
+{"level":30,"time":"2022-10-27T13:28:19.437Z","pid":8350,"hostname":"localhost.localdomain","msg":"showing main window"}
+{"level":30,"time":"2022-10-27T13:28:19.438Z","pid":8350,"hostname":"localhost.localdomain","msg":"System tray service: rendering no tray"}
+{"level":30,"time":"2022-10-27T13:28:20.057Z","pid":8350,"hostname":"localhost.localdomain","msg":"Updating BrowserWindow config: %s {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":1914,\"height\":516,\"x\":3,\"y\":524}"}
+{"level":30,"time":"2022-10-27T13:28:20.057Z","pid":8350,"hostname":"localhost.localdomain","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2022-10-27T13:28:20.058Z","pid":8350,"hostname":"localhost.localdomain","msg":"config/set: Saved ephemeral config to disk"}
+{"level":30,"time":"2022-10-27T13:28:20.344Z","pid":8350,"hostname":"localhost.localdomain","msg":"MainSQL: removeKnownAttachments: About to iterate through 0 messages"}
+{"level":30,"time":"2022-10-27T13:28:20.344Z","pid":8350,"hostname":"localhost.localdomain","msg":"MainSQL: removeKnownAttachments: Done processing 0 messages"}
+{"level":30,"time":"2022-10-27T13:28:20.344Z","pid":8350,"hostname":"localhost.localdomain","msg":"MainSQL: removeKnownAttachments: About to iterate through 0 conversations"}
+{"level":30,"time":"2022-10-27T13:28:20.344Z","pid":8350,"hostname":"localhost.localdomain","msg":"MainSQL: removeKnownAttachments: Done processing 0 conversations"}
+{"level":30,"time":"2022-10-27T13:28:20.345Z","pid":8350,"hostname":"localhost.localdomain","msg":"deleteAll: deleted 0 files"}
+{"level":30,"time":"2022-10-27T13:28:20.347Z","pid":8350,"hostname":"localhost.localdomain","msg":"deleteAllBadges: deleted 0 files"}
+{"level":30,"time":"2022-10-27T13:28:20.349Z","pid":8350,"hostname":"localhost.localdomain","msg":"MainSQL: removeKnownStickers: About to iterate through 0 stickers"}
+{"level":30,"time":"2022-10-27T13:28:20.349Z","pid":8350,"hostname":"localhost.localdomain","msg":"MainSQL: removeKnownStickers: Done processing 0 stickers"}
+{"level":30,"time":"2022-10-27T13:28:20.349Z","pid":8350,"hostname":"localhost.localdomain","msg":"deleteAllStickers: deleted 0 files"}
+{"level":30,"time":"2022-10-27T13:28:20.351Z","pid":8350,"hostname":"localhost.localdomain","msg":"MainSQL: removeKnownDraftAttachments: About to iterate through 0 conversations"}
+{"level":30,"time":"2022-10-27T13:28:20.351Z","pid":8350,"hostname":"localhost.localdomain","msg":"MainSQL: removeKnownDraftAttachments: Done processing 0 conversations"}
+{"level":30,"time":"2022-10-27T13:28:20.351Z","pid":8350,"hostname":"localhost.localdomain","msg":"deleteAllDraftAttachments: deleted 0 files"}
+{"level":30,"time":"2022-10-27T13:28:20.353Z","pid":8350,"hostname":"localhost.localdomain","msg":"Begin ensuring permissions"}
+{"level":30,"time":"2022-10-27T13:28:20.353Z","pid":8350,"hostname":"localhost.localdomain","msg":"sending `database-ready`"}
+{"level":30,"time":"2022-10-27T13:28:20.362Z","pid":8350,"hostname":"localhost.localdomain","msg":"Ensuring file permissions for 61 files"}
+{"level":50,"time":"2022-10-27T13:28:20.364Z","pid":8350,"hostname":"localhost.localdomain","msg":"ensureFilePermissions: Error from chmod ENOENT: no such file or directory, chmod '[REDACTED]/SingletonCookie'"}
+{"level":50,"time":"2022-10-27T13:28:20.365Z","pid":8350,"hostname":"localhost.localdomain","msg":"ensureFilePermissions: Error from chmod ENOENT: no such file or directory, chmod '[REDACTED]/SingletonLock'"}
+{"level":30,"time":"2022-10-27T13:28:20.367Z","pid":8350,"hostname":"localhost.localdomain","msg":"Finish ensuring permissions in 14ms"}
+{"level":30,"time":"2022-10-27T13:28:20.446Z","pid":8350,"hostname":"localhost.localdomain","msg":"Prevent display sleep service: allowing display sleep"}
+{"level":30,"time":"2022-10-27T13:28:23.391Z","pid":8350,"hostname":"localhost.localdomain","msg":"Updating BrowserWindow config: %s {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":1914,\"height\":342,\"x\":3,\"y\":698}"}
+{"level":30,"time":"2022-10-27T13:28:23.392Z","pid":8350,"hostname":"localhost.localdomain","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2022-10-27T13:28:23.393Z","pid":8350,"hostname":"localhost.localdomain","msg":"config/set: Saved ephemeral config to disk"}
+{"level":30,"time":"2022-10-27T13:28:24.475Z","pid":8350,"hostname":"localhost.localdomain","msg":"Updating BrowserWindow config: %s {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":1914,\"height\":516,\"x\":3,\"y\":524}"}
+{"level":30,"time":"2022-10-27T13:28:24.476Z","pid":8350,"hostname":"localhost.localdomain","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2022-10-27T13:28:24.477Z","pid":8350,"hostname":"localhost.localdomain","msg":"config/set: Saved ephemeral config to disk"}
+{"level":30,"time":"2022-10-27T13:28:26.129Z","pid":8350,"hostname":"localhost.localdomain","msg":"Updating BrowserWindow config: %s {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":1914,\"height\":1037,\"x\":3,\"y\":3}"}
+{"level":30,"time":"2022-10-27T13:28:26.129Z","pid":8350,"hostname":"localhost.localdomain","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2022-10-27T13:28:26.130Z","pid":8350,"hostname":"localhost.localdomain","msg":"config/set: Saved ephemeral config to disk"}
+{"level":30,"time":"2022-10-27T13:28:58.825Z","pid":8350,"hostname":"localhost.localdomain","msg":"updater/start: Updates disabled - not starting new version checks"}
+{"level":30,"time":"2022-10-27T13:28:58.856Z","pid":8350,"hostname":"localhost.localdomain","msg":"App loaded - time: 41561"}
+{"level":30,"time":"2022-10-27T13:28:58.856Z","pid":8350,"hostname":"localhost.localdomain","msg":"SQL init - time: 425"}
+{"level":30,"time":"2022-10-27T13:28:58.856Z","pid":8350,"hostname":"localhost.localdomain","msg":"Preload - time: 1020"}
+{"level":30,"time":"2022-10-27T13:28:58.857Z","pid":8350,"hostname":"localhost.localdomain","msg":"WebSocket connect - time: 39317"}
+{"level":30,"time":"2022-10-27T13:28:58.857Z","pid":8350,"hostname":"localhost.localdomain","msg":"Processed count: 0"}
+{"level":30,"time":"2022-10-27T13:28:58.857Z","pid":8350,"hostname":"localhost.localdomain","msg":"Messages per second: 0"}
+{"level":30,"time":"2022-10-27T13:31:02.581Z","pid":8350,"hostname":"localhost.localdomain","msg":"close event {\"readyForShutdown\":false,\"shouldQuit\":false}"}
+{"level":30,"time":"2022-10-27T13:31:02.582Z","pid":8350,"hostname":"localhost.localdomain","msg":"System tray service: rendering no tray"}
+{"level":30,"time":"2022-10-27T13:31:02.582Z","pid":8350,"hostname":"localhost.localdomain","msg":"requestShutdown: Requesting close of mainWindow..."}
+{"level":30,"time":"2022-10-27T13:31:02.632Z","pid":8350,"hostname":"localhost.localdomain","msg":"requestShutdown: Response received"}
+{"level":30,"time":"2022-10-27T13:31:02.639Z","pid":8350,"hostname":"localhost.localdomain","msg":"before-quit event {\"readyForShutdown\":true,\"shouldQuit\":false}"}
+{"level":30,"time":"2022-10-27T13:31:02.639Z","pid":8350,"hostname":"localhost.localdomain","msg":"System tray service: markShouldQuit"}
+{"level":30,"time":"2022-10-27T13:31:02.640Z","pid":8350,"hostname":"localhost.localdomain","msg":"close event {\"readyForShutdown\":true,\"shouldQuit\":true}"}
+{"level":30,"time":"2022-10-27T13:31:02.645Z","pid":8350,"hostname":"localhost.localdomain","msg":"System tray service: updating main window. Previously, there was a window, and now there is not"}
+{"level":30,"time":"2022-10-27T13:31:02.646Z","pid":8350,"hostname":"localhost.localdomain","msg":"System tray service: rendering no tray"}
+{"level":30,"time":"2022-10-29T15:08:10.432Z","pid":11401,"hostname":"localhost.localdomain","msg":"app ready"}
+{"level":30,"time":"2022-10-29T15:08:10.436Z","pid":11401,"hostname":"localhost.localdomain","msg":"starting version 5.62.0"}
+{"level":30,"time":"2022-10-29T15:08:10.437Z","pid":11401,"hostname":"localhost.localdomain","msg":"media access status [object Undefined] [object Undefined]"}
+{"level":30,"time":"2022-10-29T15:08:10.439Z","pid":11401,"hostname":"localhost.localdomain","msg":"got fast theme-setting value system"}
+{"level":30,"time":"2022-10-29T15:08:10.452Z","pid":11401,"hostname":"localhost.localdomain","msg":"got fast theme-setting value system"}
+{"level":30,"time":"2022-10-29T15:08:10.453Z","pid":11401,"hostname":"localhost.localdomain","msg":"got fast spellcheck setting true"}
+{"level":30,"time":"2022-10-29T15:08:10.457Z","pid":11401,"hostname":"localhost.localdomain","msg":"getSystemTraySetting had no flags and did no DB lookups. Returning DoNotUseSystemTray"}
+{"level":30,"time":"2022-10-29T15:08:10.460Z","pid":11401,"hostname":"localhost.localdomain","msg":"Initializing BrowserWindow config: {\"show\":false,\"width\":1914,\"height\":1037,\"minWidth\":300,\"minHeight\":200,\"autoHideMenuBar\":false,\"titleBarStyle\":\"default\",\"titleBarOverlay\":false,\"backgroundColor\":\"#3a76f0\",\"webPreferences\":{\"devTools\":false,\"spellcheck\":true,\"nodeIntegration\":false,\"nodeIntegrationInWorker\":false,\"sandbox\":false,\"contextIsolation\":false,\"preload\":\"[REDACTED]/preload.bundle.js\",\"backgroundThrottling\":false,\"enablePreferredSizeMode\":true,\"disableBlinkFeatures\":\"Accelerated2dCanvas,AcceleratedSmallCanvases\"},\"icon\":\"[REDACTED]/images/signal-logo-desktop-linux.png\",\"x\":3,\"y\":3}"}
+{"level":30,"time":"2022-10-29T15:08:10.923Z","pid":11401,"hostname":"localhost.localdomain","msg":"spellcheck: user locale: de"}
+{"level":30,"time":"2022-10-29T15:08:10.923Z","pid":11401,"hostname":"localhost.localdomain","msg":"spellcheck: available spellchecker languages:  [\"af\",\"bg\",\"ca\",\"cs\",\"cy\",\"da\",\"de\",\"de-DE\",\"el\",\"en\",\"en-AU\",\"en-CA\",\"en-GB\",\"en-GB-oxendict\",\"en-US\",\"es\",\"es-419\",\"es-AR\",\"es-ES\",\"es-MX\",\"es-US\",\"et\",\"fa\",\"fo\",\"fr\",\"fr-FR\",\"he\",\"hi\",\"hr\",\"hu\",\"hy\",\"id\",\"it\",\"it-IT\",\"ko\",\"lt\",\"lv\",\"nb\",\"nl\",\"pl\",\"pt\",\"pt-BR\",\"pt-PT\",\"ro\",\"ru\",\"sh\",\"sk\",\"sl\",\"sq\",\"sr\",\"sv\",\"ta\",\"tg\",\"tr\",\"uk\",\"vi\"]"}
+{"level":30,"time":"2022-10-29T15:08:10.924Z","pid":11401,"hostname":"localhost.localdomain","msg":"spellcheck: setting languages to:  [\"de\"]"}
+{"level":30,"time":"2022-10-29T15:08:10.926Z","pid":11401,"hostname":"localhost.localdomain","msg":"got fast theme-setting value system"}
+{"level":30,"time":"2022-10-29T15:08:10.974Z","pid":11401,"hostname":"localhost.localdomain","msg":"MainSQL: updateSchema:\n  Current user_version: 66;\n  Most recent db schema: 66;\n  SQLite version: 3.37.2;\n  SQLCipher version: 4.5.1 community;\n  (deprecated) schema_version: 288;\n"}
+{"level":30,"time":"2022-10-29T15:08:10.975Z","pid":11401,"hostname":"localhost.localdomain","msg":"got fast spellcheck setting true"}
+{"level":30,"time":"2022-10-29T15:08:11.033Z","pid":11401,"hostname":"localhost.localdomain","msg":"System tray service: created"}
+{"level":30,"time":"2022-10-29T15:08:11.034Z","pid":11401,"hostname":"localhost.localdomain","msg":"System tray service: updating main window. Previously, there was not a window, and now there is"}
+{"level":30,"time":"2022-10-29T15:08:11.035Z","pid":11401,"hostname":"localhost.localdomain","msg":"System tray service: rendering no tray"}
+{"level":30,"time":"2022-10-29T15:08:11.036Z","pid":11401,"hostname":"localhost.localdomain","msg":"Begin ensuring permissions"}
+{"level":30,"time":"2022-10-29T15:08:11.057Z","pid":11401,"hostname":"localhost.localdomain","msg":"Ensuring file permissions for 4 files"}
+{"level":30,"time":"2022-10-29T15:08:11.065Z","pid":11401,"hostname":"localhost.localdomain","msg":"Finish ensuring permissions in 29ms"}
+{"level":30,"time":"2022-10-29T15:08:17.160Z","pid":11401,"hostname":"localhost.localdomain","msg":"main window is ready-to-show"}
+{"level":30,"time":"2022-10-29T15:08:17.161Z","pid":11401,"hostname":"localhost.localdomain","msg":"showing main window"}
+{"level":30,"time":"2022-10-29T15:08:17.166Z","pid":11401,"hostname":"localhost.localdomain","msg":"System tray service: rendering no tray"}
+{"level":30,"time":"2022-10-29T15:08:17.802Z","pid":11401,"hostname":"localhost.localdomain","msg":"Updating BrowserWindow config: %s {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":954,\"height\":1037,\"x\":963,\"y\":3}"}
+{"level":30,"time":"2022-10-29T15:08:17.809Z","pid":11401,"hostname":"localhost.localdomain","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2022-10-29T15:08:17.812Z","pid":11401,"hostname":"localhost.localdomain","msg":"config/set: Saved ephemeral config to disk"}
+{"level":30,"time":"2022-10-29T15:08:19.070Z","pid":11401,"hostname":"localhost.localdomain","msg":"MainSQL: removeKnownAttachments: About to iterate through 1 messages"}
+{"level":30,"time":"2022-10-29T15:08:19.072Z","pid":11401,"hostname":"localhost.localdomain","msg":"MainSQL: removeKnownAttachments: Done processing 1 messages"}
+{"level":30,"time":"2022-10-29T15:08:19.072Z","pid":11401,"hostname":"localhost.localdomain","msg":"MainSQL: removeKnownAttachments: About to iterate through 53 conversations"}
+{"level":30,"time":"2022-10-29T15:08:19.080Z","pid":11401,"hostname":"localhost.localdomain","msg":"MainSQL: removeKnownAttachments: Done processing 53 conversations"}
+{"level":30,"time":"2022-10-29T15:08:19.082Z","pid":11401,"hostname":"localhost.localdomain","msg":"deleteAll: deleted 0 files"}
+{"level":30,"time":"2022-10-29T15:08:19.091Z","pid":11401,"hostname":"localhost.localdomain","msg":"deleteAllBadges: deleted 0 files"}
+{"level":30,"time":"2022-10-29T15:08:19.143Z","pid":11401,"hostname":"localhost.localdomain","msg":"MainSQL: removeKnownStickers: About to iterate through 219 stickers"}
+{"level":30,"time":"2022-10-29T15:08:19.148Z","pid":11401,"hostname":"localhost.localdomain","msg":"MainSQL: removeKnownStickers: Done processing 219 stickers"}
+{"level":30,"time":"2022-10-29T15:08:19.149Z","pid":11401,"hostname":"localhost.localdomain","msg":"deleteAllStickers: deleted 0 files"}
+{"level":30,"time":"2022-10-29T15:08:19.155Z","pid":11401,"hostname":"localhost.localdomain","msg":"MainSQL: removeKnownDraftAttachments: About to iterate through 53 conversations"}
+{"level":30,"time":"2022-10-29T15:08:19.159Z","pid":11401,"hostname":"localhost.localdomain","msg":"MainSQL: removeKnownDraftAttachments: Done processing 53 conversations"}
+{"level":30,"time":"2022-10-29T15:08:19.160Z","pid":11401,"hostname":"localhost.localdomain","msg":"deleteAllDraftAttachments: deleted 0 files"}
+{"level":30,"time":"2022-10-29T15:08:19.162Z","pid":11401,"hostname":"localhost.localdomain","msg":"Begin ensuring permissions"}
+{"level":30,"time":"2022-10-29T15:08:19.164Z","pid":11401,"hostname":"localhost.localdomain","msg":"sending `database-ready`"}
+{"level":30,"time":"2022-10-29T15:08:19.242Z","pid":11401,"hostname":"localhost.localdomain","msg":"Ensuring file permissions for 462 files"}
+{"level":50,"time":"2022-10-29T15:08:19.252Z","pid":11401,"hostname":"localhost.localdomain","msg":"ensureFilePermissions: Error from chmod ENOENT: no such file or directory, chmod '[REDACTED]/SingletonCookie'"}
+{"level":50,"time":"2022-10-29T15:08:19.253Z","pid":11401,"hostname":"localhost.localdomain","msg":"ensureFilePermissions: Error from chmod ENOENT: no such file or directory, chmod '[REDACTED]/SingletonLock'"}
+{"level":30,"time":"2022-10-29T15:08:19.331Z","pid":11401,"hostname":"localhost.localdomain","msg":"Finish ensuring permissions in 169ms"}
+{"level":30,"time":"2022-10-29T15:08:19.645Z","pid":11401,"hostname":"localhost.localdomain","msg":"Prevent display sleep service: allowing display sleep"}
+{"level":30,"time":"2022-10-29T15:08:27.134Z","pid":11401,"hostname":"localhost.localdomain","msg":"updater/start: Updates disabled - not starting new version checks"}
+{"level":30,"time":"2022-10-29T15:08:27.139Z","pid":11401,"hostname":"localhost.localdomain","msg":"System tray service: setting unread count to 2"}
+{"level":30,"time":"2022-10-29T15:08:27.140Z","pid":11401,"hostname":"localhost.localdomain","msg":"System tray service: rendering no tray"}
+{"level":30,"time":"2022-10-29T15:08:27.274Z","pid":11401,"hostname":"localhost.localdomain","msg":"App loaded - time: 16862"}
+{"level":30,"time":"2022-10-29T15:08:27.274Z","pid":11401,"hostname":"localhost.localdomain","msg":"SQL init - time: 563"}
+{"level":30,"time":"2022-10-29T15:08:27.275Z","pid":11401,"hostname":"localhost.localdomain","msg":"Preload - time: 3330"}
+{"level":30,"time":"2022-10-29T15:08:27.275Z","pid":11401,"hostname":"localhost.localdomain","msg":"WebSocket connect - time: 4355"}
+{"level":30,"time":"2022-10-29T15:08:27.275Z","pid":11401,"hostname":"localhost.localdomain","msg":"Processed count: 71"}
+{"level":30,"time":"2022-10-29T15:08:27.275Z","pid":11401,"hostname":"localhost.localdomain","msg":"Messages per second: 7.736733137190803"}
+{"level":30,"time":"2022-10-29T15:08:28.669Z","pid":11401,"hostname":"localhost.localdomain","msg":"System tray service: setting unread count to 0"}
+{"level":30,"time":"2022-10-29T15:08:28.669Z","pid":11401,"hostname":"localhost.localdomain","msg":"System tray service: rendering no tray"}
+{"level":30,"time":"2022-10-29T15:08:40.427Z","pid":11401,"hostname":"localhost.localdomain","msg":"Updating BrowserWindow config: %s {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":1914,\"height\":1037,\"x\":3,\"y\":3}"}
+{"level":30,"time":"2022-10-29T15:08:40.428Z","pid":11401,"hostname":"localhost.localdomain","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2022-10-29T15:08:40.429Z","pid":11401,"hostname":"localhost.localdomain","msg":"config/set: Saved ephemeral config to disk"}
+{"level":30,"time":"2022-10-29T15:08:45.281Z","pid":11401,"hostname":"localhost.localdomain","msg":"close event {\"readyForShutdown\":false,\"shouldQuit\":false}"}
+{"level":30,"time":"2022-10-29T15:08:45.282Z","pid":11401,"hostname":"localhost.localdomain","msg":"System tray service: rendering no tray"}
+{"level":30,"time":"2022-10-29T15:08:45.283Z","pid":11401,"hostname":"localhost.localdomain","msg":"requestShutdown: Requesting close of mainWindow..."}
+{"level":30,"time":"2022-10-29T15:08:45.358Z","pid":11401,"hostname":"localhost.localdomain","msg":"MainSQL: slow query close duration=51ms"}
+{"level":30,"time":"2022-10-29T15:08:45.359Z","pid":11401,"hostname":"localhost.localdomain","msg":"requestShutdown: Response received"}
+{"level":30,"time":"2022-10-29T15:08:45.367Z","pid":11401,"hostname":"localhost.localdomain","msg":"before-quit event {\"readyForShutdown\":true,\"shouldQuit\":false}"}
+{"level":30,"time":"2022-10-29T15:08:45.367Z","pid":11401,"hostname":"localhost.localdomain","msg":"System tray service: markShouldQuit"}
+{"level":30,"time":"2022-10-29T15:08:45.368Z","pid":11401,"hostname":"localhost.localdomain","msg":"close event {\"readyForShutdown\":true,\"shouldQuit\":true}"}
+{"level":30,"time":"2022-10-29T15:08:45.374Z","pid":11401,"hostname":"localhost.localdomain","msg":"System tray service: updating main window. Previously, there was a window, and now there is not"}

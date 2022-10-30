@@ -1,19 +1,17 @@
 #!/bin/sh
+# et keyboard layout to Swiss nGerman
+# setxkbmap de
 
 ERRFILE="$XDG_CACHE_HOME/X11/xsession-errors"
-
-export EDITOR=nvim
-# export VISUAL=ewrap
-# pscircle --output-height=2160 --output-width=3840 --output=/tmp/pscircle.png
-# feh --bg-fill /tmp/pscircle.png
-
-export NNN_PLUG='o:fzopen;p:preview-tabbed;d:diffs;t:nmount;v:imgview'
-export NNN_FIFO=/tmp/nnn.fifo
-
-
-# Default
-xdg-mime default zathura.desktop application/pdf
-# emacs --daemon &
+# Load .Xresources file
+setxkbmap de &
+clipmenud &
+xmodmap ~/.Xmodmap
+#feh --bg-fill /home/niklas/wall/joker.png &
+xsetroot -cursor_name leftptr &
+picom --daemon &
+#nm-applet &
+#xmodmap ~/.Xmodmap &
 #light -I &
 #light -N 2 &
 #dbus-launch --sh-syntax --exit-with-session; pulseaudio --kill; pipewire &
@@ -28,20 +26,31 @@ xdg-mime default zathura.desktop application/pdf
 
 # picom &
 # Set wallpaper
-# feh --bg-fill /home/niklas/wall/gen4k.jpg
+feh --bg-fill /home/niklas/.dotfiles/wall/dracu-gentoo.png &
 # /usr/bin/emacs -daemon &
 # Set WM name (for Java apps)
+
+# light-locker &
+
+#light -I &
+#light -N 2 &
+
+#light-locker &
 
 # if which dbus-launch >/dev/null && test -z "$DBUS_SESSION_BUS_ADDRESS"; then
 #        eval `dbus-launch --sh-syntax --exit-with-session`
 # fi
 
-# bash /home/niklas/.dotfiles/.local/scripts/psbg.sh & 
+#/usr/bin/gentoo-pipewire-launcher &
 
 # Run dwm
 #exec dbus-run-session /usr/local/bin/dwm
 #xrandr --setprovideroutputsource modesetting NVIDIA-0
 #xrandr --auto
-# exec dbus-run-session i3
-# devmon 2>&1 > /dev/null &
-# wmname LG3D
+
+#nvidia-settings --config=/home/niklas/.config/nvidia/settings
+#nm-applet &
+#/usr/local/bin/dwmblocks &
+#xrdb -merge /home/niklas/.Xresources &
+#pasystray &
+
