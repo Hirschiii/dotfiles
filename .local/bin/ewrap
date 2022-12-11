@@ -2,8 +2,10 @@
 
 if [ -n "$TMUX" ] ; then
     # tmux session running
-    tmux split-window -h "vim \"$*\""
+    # tmux split-window -h "nvim \"$*\""
+    nvim "$*"
 else
     # Remove option --tab for new window
-    st -e nvim $* &
+    # st -e nvim $* &
+    nvim "$*"
 fi

@@ -2,6 +2,7 @@
 
 vim.opt.nu = true
 vim.opt.relativenumber = true
+-- vim.opt.mouse=""
 
 vim.opt.errorbells = false
 
@@ -27,11 +28,14 @@ vim.opt.scrolloff = 8
 vim.opt.signcolumn = "yes"
 vim.opt.isfname:append("@-@")
 
+
 vim.o.clipboard = "unnamedplus"                 -- allows neovim to global copy
 vim.o.smartcase = true                        -- smart case
 
 vim.wo.cursorline = true
 vim.wo.wrap = false                         -- display lines as one long line
+
+vim.wo.concealcursor="c"
 
 -- Give more space for displaying messages.
 vim.opt.cmdheight = 1
@@ -43,6 +47,19 @@ vim.opt.updatetime = 50
 -- Don't pass messages to |ins-completion-menu|.
 vim.opt.shortmess:append("c")
 
+
+vim.opt.formatoptions:remove("cro") -- Stop newline continution of comments
+
+vim.cmd[[
+autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
+]]
+
+
 -- vim.opt.colorcolumn = "80"
 
 vim.g.mapleader = " "
+
+-- Himalaya
+
+vim.g.himalaya_folder_picker = 'telescope'
+vim.g.himalaya_telescope_preview_enabled = 1

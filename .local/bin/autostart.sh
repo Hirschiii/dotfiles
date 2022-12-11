@@ -1,8 +1,9 @@
 #!/bin/bash
 
-pkill nm-manager
-pkill tint2 
+pkill nm-applet
 
-tint2 & 
 nm-applet &
-feh --bg-fill ~/.dotfiles/.config/wall/super.jpg &
+~/.config/polybar/launch.sh &
+# feh --bg-fill ~/.dotfiles/.config/wall/larry.png &
+feh --bg-fill --randomize ~/.config/wall/*
+# DISPLAY=:0 feh --bg-center ~/.config/wall/colemak.png

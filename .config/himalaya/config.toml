@@ -1,20 +1,37 @@
 name = "Niklas von Hirschfeld"
 downloads-dir = "$HOME/Mail/"
 signature = """
-Cordialement,
 Regards,
 """
 
-[Uberspace_Niklas]
+[uberspace]
 default = true
 email = "niklas@vonhirschfeld.eu"
 
+backend = "imap" # imap, maildir or notmuch
 imap-host = "aegaeon.Uberspace.de"
 imap-port = 993
 imap-login = "niklas@vonhirschfeld.eu"
-imap-passwd-cmd = "pass privat/emails/vonhirschfeld.eu | head -1"
+imap-passwd-cmd = "pass privat/emails/niklas@vonhirschfeld.eu | head -1"
 
+sender = "smtp" # smtp or sendmail
 smtp-host = "aegaeon.Uberspace.de"
 smtp-port = 465
 smtp-login = "niklas@vonhirschfeld.eu"
-smtp-passwd-cmd = "pass privat/emails/vonhirschfeld.eu | head -1"
+smtp-passwd-cmd = "pass privat/emails/niklas@vonhirschfeld.eu | head -1"
+
+[gmail]
+default = true
+email = "test@gmail.com"
+
+backend = "imap" # imap, maildir or notmuch
+imap-host = "imap.gmail.com"
+imap-port = 993
+imap-login = "niklasvonh@gmail.com"
+imap-passwd-cmd = "pass privat/emails/niklasvonh@gmail.com"
+
+sender = "smtp" # smtp or sendmail
+smtp-host = "smtp.gmail.com"
+smtp-port = 465
+smtp-login = "niklasvonh@gmail.com"
+smtp-passwd-cmd = "pass privat/emails/niklasvonh@gmail.com"

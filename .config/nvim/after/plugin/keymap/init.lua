@@ -5,13 +5,12 @@ local inoremap = Remap.inoremap
 local xnoremap = Remap.xnoremap
 local nmap = Remap.nmap
 
-nnoremap("<leader>f", ":Ex<CR>")
+nnoremap("<leader>f", ":NvimTreeToggle<CR>")
+nnoremap("<leader>F", ":NvimTreeFocus<CR>")
 nnoremap("<leader>u", ":UndotreeShow<CR>")
 
 -- greatest remap ever
--- xnoremap("<leader>p", "\"_dP")
-
-
+xnoremap("<leader>p", "\"_dP")
 
 -- next greatest remap ever : asbjornHaland
 -- nnoremap("<leader>y", "\"+y")
@@ -21,11 +20,22 @@ nnoremap("<leader>u", ":UndotreeShow<CR>")
 -- Maps Esc to jj
 inoremap("jf", "<Esc>")
 
--- Move with Ctrl 
+nnoremap("<C-d>", "<C-d>zz")
+nnoremap("<C-u>", "<C-u>zz")
 
-nmap("<C-h>", "<C-w>h")
-nmap("<C-j>", "<C-w>j")
-nmap("<C-k>", "<C-w>k")
-nmap("<C-l>", "<C-w>l")
+nnoremap("<f8>", ":TagbarToggle<CR>")
 
+-- Emment
 
+vim.g.user_emmet_leader_key="<C-s>"
+
+-- Easy Aligne
+
+-- nmap("ga", <Plug>EasyAlign)
+vim.keymap.set("n", "ga", "<Plug>(EasyAlign)")
+vim.keymap.set("v", "ga", "<Plug>(EasyAlign)")
+
+-- Copilot
+
+vim.g.copilot_no_tab_map = true
+vim.api.nvim_set_keymap("i", "<C-J>", 'copilot#Accept("<CR>")', { silent = true, expr = true })

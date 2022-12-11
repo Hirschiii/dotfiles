@@ -1,16 +1,8 @@
--- vim.g.catppuccin_flavour = "mocha" -- latte, frappe, macchiato, mocha
---
--- vim.cmd [[
--- try
---   colorscheme tokyonight-storm
--- catch /^Vim\%((\a\+)\)\=:E185/
---   colorscheme default
---   set background=dark
--- endtry
--- ]]
--- vim.cmd[[colorscheme catppuccin]]
---
-vim.g.thehirschii_colorscheme = "tokyonight"
+vim.g.hirschiii_colorscheme = "tokyonight"
+
+-- require("catppuccin").setup({
+-- 	transparent_background = false,
+-- });
 
 function ColorMyPencils()
     vim.g.gruvbox_contrast_dark = 'hard'
@@ -19,7 +11,7 @@ function ColorMyPencils()
     vim.g.gruvbox_invert_selection = '0'
     vim.opt.background = "dark"
 
-    vim.cmd("colorscheme " .. vim.g.thehirschii_colorscheme)
+    vim.cmd("colorscheme " .. vim.g.hirschiii_colorscheme)
 
     local hl = function(thing, opts)
         vim.api.nvim_set_hl(0, thing, opts)
@@ -31,7 +23,7 @@ function ColorMyPencils()
 
     hl("ColorColumn", {
         ctermbg = 0,
-        bg = "#555555",
+        bg = "#2B79A0",
     })
 
     hl("CursorLineNR", {

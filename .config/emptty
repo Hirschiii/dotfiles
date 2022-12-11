@@ -1,0 +1,20 @@
+#!/bin/sh
+Selection=true
+
+xrdb -merge ~/.Xresources
+setxkbmap de
+xmodmap ~/.Xmodmap
+clipmenud &
+xsetroot -cursor_name leftptr &
+picom --daemon &
+light -I &
+light -N 2 &
+
+# source /etc/profile does not have any effect
+
+
+
+export BROWSER=chromium-bin
+export EDITOR=nvim
+
+exec dbus-launch $@

@@ -1,1200 +1,1098 @@
-vim login_web_scraper
-chmod +x login_web_scraper_v2
-vim login_web_scraper_v2
-lynx google.de
-lynx google.com
-vim notes/School/index.md 
-pass -l
-pass -ls
-./login_web_scraper_pass.sh -P niklas@vonhirschfeld.eu
-pass insert uberspace.com/gulugulu
-./login_web_scraper_pass.sh -w test -u niklas@vonhirschfeld.eu
-cp login_web_scraper_v2.sh login_web_scraper_pass.sh
-eix -s passmenu
-cmatrix
-git clone https://git.sr.ht/~rjraymond/smatrix
-cd smatrix
-make run
-chmod +x .local/bin/passmenu2
-cat passmenu2
-bash passmenu2
-Hobbes12hobbes12
-mv passmenu2 ~/.dotfiles/.local/bin/
-vim notes/Projects/Web-Login-Scraper/index.md
-cd notes/pr
-vim Web-Login-Scraper
-cp login_web_scraper_v2.sc login_web_scraper_pass.sc
-cat login_web_scraper_pass.sc
-./login_web_scraper_pass.sh -u uberspace.com/gulugulu -w uberspace
-./login_web_scraper_pass.sh -w test -u uberspace.com/gulugulu
-w3m www.google.de
-zathura Downloads/Die\ Renaissance\ -\ Bildbeschreibung,\ quellenkritische\ Einleitung\ und\ Zusammenfassung.pdf
-hto
-task add funktionale vs object programmiersprache
-vim .config/sc-im
-sc-im login_web_scraper_pass.s
-./login_web_scraper_pass.sh -w uberspace -u uberspace.com/gulugulu
-sc-im login_web_scraper_pass.sc
-pkill element-desktop
-vim Resources/pandoc_beamer/slides.md
-zathura slides.pdf 
-zathura ~/Downloads/Die\ Renaissance\ -\ Bildbeschreibung,\ quellenkritische\ Einleitung\ und\ Zusammenfassung.pdf
-make 
-zathura Europerznetrismus/slides.pdf
-links
-vim 2022-09-28-Geschichte-Unterricht.md
-cd Europerznetrismus
-vim slides.
-vim alacritty/alacritty.yml
-fc
-make clean install
-fc-cat
-fc-list
-fc-list | grep noto
-eix -s emoji
-doas emerge --ask --deselect noto-emoji
-doas emerge --ask noto-emoji unifont
-doas make clean 
-lks
-pass insert hlwm/niklas@vonhirschfeld.eu -n
-pass generate hlwm/niklas@vonhirschfeld.eu -n
-pass insert hlwm/niklas@vonhirschfeld.eu
-pass rm niklas@vonhirschfeld.eu
-zathura Downloads/spielanleitung.pdf
-zathura Downloads/spielanleitung_erstellen.pdf
-vim in
-task add +sil test
-zathura Downloads/output.pdf
-vim Informatik-2022-09-08.md
-vim Informatik-2022-09-20.md 
-vim Spielanleitung-2022-09-26.md
-cp Spielanleitung-2022-09-26.md Spielanleitung-2022-10-04.md
-eisvogel Spielanleitung-2022-09-26.md
-eisvogel Spielanleitung-2022-10-04.md
-task add +school Für spanisch vokabelheft anschaffen
-eix -s deepl
-eix -s dp
-eix -s translate
-pip install deepl-cli
-mw l
-cd .config/nvim/after/plugin/keymap
-vi mh
-vim harpoon.lua
-zathura signal-2022-09-30-084758_002.jpeg
-sxiv signal-2022-09-30-084758_002.jpeg
-pandoc vocs.md -o vocs.pdf --template=eisvogel.latex
-zathura vocs.pdf
-task add +privat joggen gehen
-sl
-vim 2022-09-28-Deutsch-SIL.md
-zathura deutsch_sil.pdf
-task add +privat danja 52 shades of red schicken
-power
-nvim
-vim .zprofile
-vim .config/tmux/
-vim .config/alacritty/colorscheme.yml
-vim .config/tmux/tmux.conf
-vim sil/24-09-2022-sil-English.md
-cd .config/nvim/after/plugin
-im 
-vim notes/Resources/Templates/eisvogel.,
-->
-->\n
-cat /proc/acpi/ibm/fan
-./.local/bin/passmenu2
-pkill pass
-vim login_web_scraper_pass.s
-vim login_web_scraper_pass.
-QlVW
-eix -s pass
-pass cp uberspace.com/gulugulu
-pass cp uberspace.com
-pass insert test/test
-doas emerge --ask pass
-pass -h
-pass ls
-pass ls hlwm
-pass show test/test
-passmenu2
-pass test/test -c
-cd notes/Projects/Web-Login-Scraper
-./login_web_scraper_pass.sh -h
-./login_web_scraper_pass.sh -u uberspace.com/gulugulu -w test
-gpg --list-key
-export GPG_TTY=$(tty)
-pass test/test
-gpg --list-secret-key
-gpg-agent
-gpgconf --kill gpg-agent
-doas emerge --ask libxlsxreader
-eix -s libxlsxreader
-doas make uninstall
-doas make -C src uninstall
-i3lock
-cd .config/herbstluftwm/au
-cd .config/herbstluftwm/
-doas emerge --ask libxls libxlsxwriter libzip 
-doas emerge --ask --deselect sc-im
-neo
-mw 
-pass niklas@vonhirschfeld.eu
-pass edit niklas@vonhirschfeld.eu
-pass edit test/hahah
-mbsync -a
-mw
-mw -D niklas@vonhirschfeld
-mw -D niklas@vonhirschfeld.eu
-mw -l
-mw -a niklas@vonhirschfeld.eu
-mw -y
-mw -Y
-pass edit privat/emails
-pass edit privat/emails/vonhirschfeld.eu
-pass privat/emails/vonhirschfeld.eu 
-neomutt
-cat /etc/portage/package.use/sc-im
-pass test/test 
-cd notes/Wiki
-gentoo-updater
-vim .
-vim alacritty/colorscheme.yml
-xprop
-vim tokyo_night.yml
-vi
-tmux -a
-tmux
-tmux a
-cd .config/tmux/
-vim tmux
-ös
-vim .config/alacritty
-cat catppuccin.yml
-cat alacritty.yml.henning
-mv alacritty.yml.henning alacritty.yml
-fc-list | grep Retina
-false
-echo -e "\e[3mItalic"
-vim colorscheme.yml
-vim catppuccin.yml
-ls alacritty
-mkdir catppuccin
-mv alacritty/*.yml catppuccin/
-ls catppuccin
-rm -rf alacritty
-l
-vim /tmp/test.md
-git clone https://github.com/catppuccin/alacritty.git 
-nvtop
-ks
-prime-run alacritty
-cd .config/tmux
-vim tmux.conf
-apss
-pass test/
-cd .config/herbstluftwm
-vim autostart
-eix -s libxls
-eix -s libxml
-eix -s libzip
-shell
-pkg-config --exists xlswriter
-doas emerge --ask xlswriter
-doas emerge --ask dev-python/xlsxwriter
-eix -s xlsxwriter
-pkg-config --exists xlsxwriter
-,ale
-make -C src clean
-ls src
-cd src
-eix -s
-eix -s sc-im
-rm -rf sc-im
-git clone https://github.com/andmarti1424/sc-im
-vim src/Makefile
-doas     make -C src install
-sc-im /tmp/test.md
-vim Wi
-vim WIKI
-doas emerge --ask libxls libxlswriter libxml2 libzip wl-clipboard
-doas emerge --ask libxls libxlswriter libxml2 libzip wl-clipboard gnuplot
-doas emerge --ask libxls libxlswriter libxml2 libzip wl-clipboard sci-visualization/gnuplot
-doas emerge --ask libxls dev-libs/libxlsxwriter libxml2 libzip wl-clipboard sci-visualization/gnuplot
-doas emerge --ask libxls dev-libs/libxlsxwriter libxml2 libzip sci-visualization/gnuplot
-cd notes/Projects
-ls work
-mv notes/Projects/Web-Login-Scraper work
-cd work
-mkdir projects 
-mv work/Web-Login-Scraper projects
-vim tmux-sessionizer
-doas vim /etc/portage/package.use/mutt
-doas emerge --ask --verbose mail-client/mutt
-rm -rf .config/mutt
-doas emerge --ask --deselect neomutt mutt-wizard
-doas emerge --ask --depclean
-cd .task
-tar czf task-backup-$(date +'%Y%m%d').tar.gz *
-mv task-backup-20221005.tar.gz ~/
-doas emerge --ask timewarrior
-cp login_web_scraper_pass.sh login_web_scraper_pass_V2.sh
-vim login_web_scraper_pass_V2.sh
-cd tmux-sessionizer
-pass test/hahah
-ls *.pdf
-ls *.jpg
-ls *.jpeg
-ls *.png
-sxiv YBoRLR1.png
-task 1 done
-task 6 done
-date --hlp
-date -d "%Y-%m-%d"
-date -d %Y-%m-%d
-sc-im login_web_scraper_v2.sc
-vim date.sh
-chmod +x date.sh
-vim notes/Wiki/tools/sc-im.md
-ls examples
-cd examples
-ls nocurses
-ls wide
-cd wide
-sc-im ucranian.sc
-ls ui_example
-cd ui_example
-make install
-doas make
-cat tui.
-cat tui.h
-ls Module
-ls plot
-cd plot
-sc-im plot_bar.sc
-sc-im plot_pie.sc
-cd Source/sc-im
-cd doc
-cd Downloads 
-git clone https://github.com/jonnieey/Sc-im-Tutorial
-cd sc-im
-cd Sc-im-Tutorial
-sc-im Lesson11_Numeric_Functions.sc
-date -d "%D"
-date -d %D
-date %D
-date +%D
-date +%Y-%m-%d
-ls pdf
-zathura pdf/2022-10-06-Mathe-Unterricht.pdf
-sc-im /tmp/test
-vim /tmp/test.csv
-zathura Mathe-Unterricht-2022-09-01.md
-zathura MA_Abi_Operatoren_ab2021_neu.pdf
-mv output.pdf pdf/2022-10-06-Mathe-Unterricht.pdf
-vim login_web_scraper_pass.sc
-sc-im tabellen/2022-10-06-Mathe-Unterricht.sc
-mutt
-cat .Xresources
-vim .xpr
-pkill lightdm
-killall X
-pass test/test/test
-pass insert test/test/test
-cat Lesson14_Conditional_Function_IF.sc
-sc-im Lesson14_Conditional_Function_IF.sc
-cd /tmp/
-vim test.sh
-chmod +x test.sh
-vim /tmp/test.txt
-doas emerge --deselect lightdm
-doas emerge --ask --depclean 
-pkill X
-cd Downloads/Sc-im-Tutorial
-vim Lesson12_String_Functions.sc
-cat .xprofile
-rm .xprofile
-cat .xsession
-cat .xinitrc
-mv login_web_scraper_pass_V2.sh
-mv login_web_scraper_pass_V2.sh Uberspace.sh
-./Uberspace.sh
-./Uberspace.sh uberspace
-vim login_web_scraper_v2.sh
-vim login_web_scraper_pass.sh
-cd projects/Web-Login-Scraper
-vim .config/sc-im/scimrc
-eix -s activitywatch
-eix -s activity
-eix -s screentime
-eix -s time tracker
-zathura Downloads/Practice.pdf
-vim In
-vim 2022-10-06-English-Unterricht.md
-vim ~/notes/Resources/Templates/eisvogel.md
-eisvogel 2022-10-06-English-Unterricht.md
-pass generate
-pass generate test
-date +%Y%m%d #
-date +%Y%m%d # 0
-date +%Y%m%d
-date +%s
-cat test.sc
-vim -d Uberspace.sh login_web_scraper_pass.sh
-cd .config/sc-im
-vim scimrc
-cd projects
-cd Web-Login-Scraper
-pass edit privat/anonaddy.com
-pass privat/anonaddy.com
-pass rm test
-pass rm test/hahah
-pass rm test/test/test
-pass rm test/test
-sc-im --version
-date -g
-date -h
-\:q
-task add +henning henning nach email client fragen?
-task add +henning henning nach email client fragen
-cd notes/Projects/Henning
-vo, 
-sc-im test.sc
-vim test.sc
-task add +henning uberspace pro monat
-tmux list-sessions
-eix -s himalaya
-cd notes/School
-cd zusammenfassung
-curl -sSL https://raw.githubusercontent.com/soywod/himalaya/master/install.sh | PREFIX=~/.local sh
-cd 
-cd .dotfiles/.config
-mkdir himalaya
-cd himalaya
-cd notes/School/zusammenfassung
-pandoc 2022-09-23-Bio-Unterricht.md -o 2022-09-23-Bio-Unterricht.pdf --template=eisvogel.latex 
-pandoc 2022-09-27-Bio-Unterricht.md -o 2022-09-27-Bio-Unterricht.pdf --template=eisvogel.latex 
-pandoc 2022-09-27-Bio-Unterricht.md -o 2022-09-23-Bio-Sil.pdf --template=eisvogel.latex 
-pandoc 2022-09-23-Bio-Sil.md -o 2022-09-23-Bio-Sil.pdf --template=eisvogel.latex 
-cd .config/himalaya
-vim config.toml
-himalaya completion zsg
-himalaya completion zsh > himalaya-completions.zsh
-mv himalaya-completions.zsh ~/.config/zsh
-vim .zshrc 
-himalaya watch
-himalaya read
-himalaya read 123
-cd .config/nvim/lua/user
-vim color.lua
-vim 
-cat color.lua
-vim himalaya.lua
-cd .config/nvim/lua/user/
-vim packer.lua
-vim functions
-cd .dotfiles/.config/zsh
-vim mail.zsh
-rm functions
-pwd
-doas emerge --ask jq w3m
-doas emerge --ask app-misc/jq w3m
-mail
-himalaya read 122
-cal
-task add +schule bericht vom Futurium due:Freitag
-task add +schule bericht vom Futurium due:freitag
-task add +schule bericht vom Futurium due:2022-10-14
-cd .config/shell
-vim zsh_alias
-revealjs 2022-09-30-Physik-Unterricht.md
-revealjs 2022-09-30-Physik-Unterricht.md test.html
-revealjs 2022-09-30-Physik-Unterricht.md rev.html
-pass edit school/sratch.edu
-cd .config/alacritty/
-fc-list | grep "Emoji"
-vim output.html
-st
-qutebrowser output.
-pandoc --mathjax=https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js -s 2022-09-30-Physik-Unterricht.md -o output.html
-qutebrowser output.html
-task news
-pandoc -s 2022-09-30-Physik-Unterricht.md -o output.html
-eisvogel 2022-09-30-Physik-Unterricht.md
-vim 2022-09-30-Physik-Unterricht.md
-pass privat/emails/vonhirschfeld.eu
-pass uberspace.com/gulugulu
-vim /tmp/accounting.html
-vim .zshrc r
-chmod +x /tmp/test.sh
-vim /tmp/test.sh
-/tmp/test.sh
-cat /tmp/html-text.txt
-task 3 done
-tasl
-task list
-pass 
-pass generat
-pass generator
-pass privat/server/uberspace--test1 
-cat /tmp/html-text.txt| grep "Summe"
-cat /tmp/html-text.txt| grep "Summe" | awk '{ print $2 }'
-cat /tmp/html-text.txt| grep "Summe" | awk '{ print $2 }' | sed "s/�€.//"
-cat /tmp/html-text.txt| grep "Summe" | awk '{ print $2 }' | sed "s/�€//"
-cat /tmp/html-text.txt| grep "zusätzlicher Speicherplatz" | awk '{ print $2 }' | sed "s/�€//"
-cat /tmp/html-text.txt| grep "zusätzlicher Speicherplatz" | awk '{ print $3 }' | sed "s/�€//"
-cat /tmp/html-text.txt| grep "zusätzlicher Speicherplatz" | awk '{ print $3 }' | sed "s/�GB//"
-ls /tmp/login_web_scraper
-ls /tmp/login_web_scraper*
-pass generate generator
-bash
-sc-im my_Uberspace.sc
-./Uberspace.sh uberspace mon server privat uberspace--test1 # 
-./Uberspace.sh uberspace mon server privat uberspace--test1 
-vim /tmp/html-text.txt
-vim ~/.zshrc
-vim /tmp/login_web_scraper
-./Uberspace.sh uberspace test test test
-vim my_Uberspace.sc
-cd /tmp
-vim -d login_web_scraper_gul*
-ls music
-ls Mail
-ls -la /ma
-ls -la Mail
-load
-fpath
-echo $fpath
-fpath+=/home/niklas/.config/zsh
-himalaya completion zsh > /usr/share/zsh/site-functions/_himalaya
-doas himalaya completion zsh > /usr/share/zsh/site-functions/_himalaya
-himalay
-a
-himalaya write
-pass
-himalaya write -a /home/niklas/projects/Web-Login-Scraper/Uberspace.sh /home/niklas/projects/Web-Login-Scraper/Uberspace.sc
-himalaya -h
-himalaya completion
-himalaya completion zsh
-himalaya completion zsh >> .config/zsh/himalaya-completions.zsh
-cat .config/zsh/himalaya-completions.zsh
-source .config/zsh/himalaya-completions.zsh
-./.config/zsh/himalaya-completions.zsh
-vim .config/zsh/himalaya-completions.zsh
-cd .config/zsh
-rm himalaya-completions.zsh
-vim /tmp/myMail
-pkill polybar
-cd i3lock-color
-git clone https://github.com/meskarune/i3lock-fancy.git
-cd i3lock-
-cd i3lock-fancy
-i3lock-fancy -d
-i3lock-fancy 
-vim lock.sh
-i3lock -h
-i3lock --help
-vim /tmp/leni.md
-vim .xmodmap
-pass privat/server/uberspace--test1
-cat Uberspace.sc
-vim Uberspace.sc
-sc-im Uberspace.s
-sc-im Uberspace.sc
-vimin
-vim vocs.pdf
-vim Uberspace.s
-vim Uberspace.sh
-pass edit test/test/test
-curl -s -o /dev/null -c /tmp/login_cooki 'https://dashboard.uberspace.de/login' --data-raw '_csrf_token=634F9E33639560772251F5E3E91FBF43&login=gultest1&password=qX0+1?2CY>1j,P]Ntq&A](UG6&submit=login' --compressed\
-
-cat /tmp/login_cooki
-curl -o /tmp/logint_test.html --cookie /tmp/login_cooki https://dashboard.uberspace.de/dasboard/accounting
-curl -o /tmp/logint_test.html --cookie /tmp/login_cooki https://dashboard.uberspace.de/dashboard/accounting
-cat /tmp/logint_test.html
-curl -s -o /tmp/login_all -c /tmp/login_cooki 'https://dashboard.uberspace.de/login' --data-raw '_csrf_token=634F9E33639560772251F5E3E91FBF43&login=gultest1&password=qX0+1?2CY>1j,P]Ntq&A](UG6&submit=login' --compressed\
-
-curl -s -o /tmp/login_all -c /tmp/login_cooki 'https://dashboard.uberspace.de/login' --data-raw '_csrf_token=634F9E33639560772251F5E3E91FBF43&login=gulugulu&password=Hobbes12hobbes12&submit=login' --compressed\
-
-curl -s -o /tmp/login_all -c /tmp/login_cooki 'https://dashboard.uberspace.de/login' --data-raw "_csrf_token=634F9E33639560772251F5E3E91FBF43&login=gultest1&password=qX0+1?2CY>1j,P]Ntq&A](UG6&submit=login" --compressed\
-
-curl -s -o /tmp/login_all -c /tmp/login_cooki 'https://dashboard.uberspace.de/login' --data-raw "_csrf_token=634F9E33639560772251F5E3E91FBF43&login=gultest1&password='qX0+1?2CY>1j,P]Ntq&A](UG6'&submit=login" --compressed\
-
-la
-unicode_st
-unicode_start
-./Uberspace.sh uberspace konti test test test
-./Uberspace.sh uberspace konto test test test
-ls /tmp/html-text_gultest1.txt
-cat /tmp/html-text_gultest1.txt
-cat /tmp/accounting_gultest1.html
-cat /tmp/login_web_scraper_gul
-cat /tmp/login_web_scraper_gultest1
-curl -s -o /dev/null -c /tmp/test_cooki 'https://dashboard.uberspace.de/login --data-raw "_csrf_token=634F9E33639560772251F5E3E91FBF43&login=$1&password=$2&submit=login" --compressed
-curl -s -o /dev/null -c /tmp/test_cooki 'https://dashboard.uberspace.de/login' --data-raw "_csrf_token=634F9E33639560772251F5E3E91FBF43&login=$1&password=$2&submit=login" --compressed
-cat /tmp/test_cooki
-curl -s -o /tmp/accounting_testta.html --cookie /tmp/test_cooki https://dashboard.uberspace.de/dashboard/accounting
-cat /tmp/accounting_testta.html
-qutebrowser /tmp/accounting_
-qutebrowser /tmp/accounting_testta.html
-curl https://dashboard.uberspace.de/dashboard/accounting
-curl -c /tmp/test_cooki https://dashboard.uberspace.de/dashboard/accounting
-curl -h
-curl --help
-curl --help all | grep "-c"
-curl --help all | grep "\-c"
-rm /tmp/login_web_scraper_gulugulu
-./Uberspace.sh uberspace gb test test test
-curl --help all
-curl --help all | grep "compr"
-./Uberspace.sh uberspace gb server privat uberspace--test1
-./Uberspace.sh uberspace mod server privat uberspace--test1
-cat /tmp/login_web_scraper_gulugulu
-vim -d /tmp/login_web_scraper_gulugulu /tmp/login_web_scraper_gultest1
-rm /tmp/login_web_scraper_gultest1
-curl -c /tmp/login_web_scraper_gultest1 https://dashboard.uberspace.de/dashboard/accounting\
-
-curl -c /tmp/login_web_scraper_gulugulu 'https://dashboard.uberspace.de/dashboard/accounting'
-curl -c /tmp/login_web_scraper_gulugulu 'https://dashboard.uberspace.de/login'
-curl -c /tmp/login_web_scraper_gulugulu https://dashboard.uberspace.de/dashboard/accounting
-rm /tmp/*gulugulu*
-./Uberspace.sh uberspace mon test test test
-rm /tmp/*gultest1*
-./Uberspace.sh uberspace mon server privat uberspace--test1
-cat /tmp/*gultest1*
-pass edit privat/server
-pass edit privat/server/uberspace--test1
-vim /tmp/login_all
-pkill pol
-pass test/test/test 
-himalaya
-vim .config/herbstluftwm
-vim .Xpr
-cd notes/School/informatik
-cd scratch_basic
-ls resources
-apci
-acpoi
-unzip scratch3.0-linux-3.3.0.zip
-cd scratch3.0-linux-3.3.0
-eix -s stratuc
-eix -s stratux
-git clone https://github.com/scratux/scratux.git
-cd scratux
-./fetch.sh
-ls rm -rf scratux
-rm -rf scratux
-cd /dev/sd
-cd /media/sda-usb-USB_SanDisk_3.2G
-ls -la
-task 
-task add inf hochladen due:17:00
-date
-doas poweriff
-zathura slides.pdf
-cd Resources/pandoc_beamer
-vim Spielanleitung-2022-10-04.md
-cp -rf ~/Resources/pandoc_beamer ./scratch_basic
-cd ./scratch_basic
-vim slides.,
-vim slides.md
-qutebrowser --backend webengine
-time qutebrowser --backend webengine
-qutebrowser -h
-doas emerge --ask x11-misc/lightdm
-dmesg
-dmesg | grep lightd
-dmesg | grep light
-doas rc-update add xdm default
-acpi -c
-acpi -A
-acpi --everything
-fc-list | grep "Fira"
-date --help
-pkill nm-applet
-nm-applet
-tint
-chmod +x .local/bin/autostart.sh
-cd .config
-s
-rm tint2/tint2rc
-doas rm tint2/tint2rc
-ls tint2
-cd tint2
-doas rm tint2
-doas rm -rf tint2
-mkdir tint2
-tint2
-vim tint2/tint2rc
-wget -O - -q https://checkip.amazonaws.com\
-\
-
-curl -s https://icanhazip.com\
-\
-
-ip addr
-hostname -I
-hostname -i
-ip a
-Hddip a s | grep -w inet | awk '{ print $2}'
-ip a s | grep -w inet | awk '{ print $2}'
-ip a s | grep -w inet
-curl -s https://icanhazip.com
-nmcli -p device show
-nmcli -p device show | grep "IP4.ADDRESS"
-nmcli -p device show | grep "IP4.ADDRESS" | head -1
-nmcli -p device show | grep "IP4.ADDRESS" | head -1 | awl  �{print $2} �
-nmcli -p device show | grep "IP4.ADDRESS" | head -1 | awk  �{print $2} �
-nmcli -p device show | grep "IP4.ADDRESS" | head -1 | awk '{ print $2 }'
-xprop -root -spy | awk '/^_NET_CURRENT_DESKTOP/ { print "Workspace " ($3 + 1) ; fflush(); }'
-xprop -root -spy | awk '/^_NET_CURRENT_DESKTOP/ { print ($3 + 1) ; fflush(); }'\
-
-xprop -root -spy | awk '/^_NET_CURRENT_DESKTOP/ { print ($3 + 1) ; fflush(); }'
-cd .config/polybar
-vim config.ini 
-cd .local/bin
-chmod +x myhost.sh
-echo "$(nmcli -p device show | grep "IP4.ADDRESS" | head -1 | awk '{ print $2 }') | $(xprop -root -spy | awk '/^_NET_CURRENT_DESKTOP/ { print ($3 + 1) ; fflush(); }'\
-
-echo "$(nmcli -p device show | grep "IP4.ADDRESS" | head -1 | awk '{ print $2 }') | $(xprop -root -spy | awk '/^_NET_CURRENT_DESKTOP/ { print ($3 + 1) ; fflush(); }'"\
-
-echo "$(nmcli -p device show | grep 'IP4.ADDRESS' | head -1 | awk '{ print $2 }') | $(xprop -root -spy | awk '/^_NET_CURRENT_DESKTOP/ { print ($3 + 1) ; fflush(); }'\
-
-echo "$(nmcli -p device show | grep 'IP4.ADDRESS' | head -1 | awk '{ print $2 }') | $(xprop -root -spy | awk '/^_NET_CURRENT_DESKTOP/ { print ($3 + 1) ; fflush(); }'"
-echo "$(nmcli -p device show | grep 'IP4.ADDRESS' | head -1 | awk '{ print $2 }') | $(xprop -root -spy | awk '/^_NET_CURRENT_DESKTOP/ { print ($3 + 1) ; fflush(); }') | $(hostname)"\
-
-vim myhost.sh
-./myhost.sh
-https://gitlab.com/visone/wallpapers.git
-git clone https://gitlab.com/visone/wallpapers.git
-cd wallpapers/B
-cd wallpapers/BlackAndWhite
-sxiv .
-feh --bg-fill esXvwzw.jpeg
-sxiv wallpapers/BlackAndWhite
-feh --bg-fill wallpapers/BlackAndWhite/bw035.jpg
-mv wallpapers/BlackAndWhite/bw035.jpg ~/.dotfiles/.config/wall/bw_moon_rising.jpg
-vim .local/bin/auto
-vim .local/bin/autostart.sh
-mv Downloads/super.jpg ~/.dotfiles/.config/wall
-feh --bg-fill .dotfiles/.config/wall/super.jpg
-cd st
-cd Source/suckless/st
-vim config.h
-doas make clean install
-vim .config/nvim/after/plugin/color.lua
-sc-im
-vim .local/bin/fzf-important-files
-vim .config/nvim/lua/user/packer.lua 
-vim .config/nvim/lua/user/neogit.lua
-lightdm --tedtmofr
-lightdm --tedtmode
-lightdm --tedt-mode
-lightdm --test-mode
-vim .config/nvim/lua/user/set.lua
-vim .config/shell/zsh
-vim .config/shell/zsh_alias
-cd tabellen
-sc-im 2022-10-06-Mathe-Unterricht.sc
-bc 
-vim 2022-10-06-Mathe-Unterricht.mkd
-eisvogel 2022-10-06-Mathe-Unterricht.md output.pdf
-eisvogel 2022-10-06-Mathe-Unterricht.md
-zathura resources/taschenrechner-statistik-bedeutungen.png
-sxiv resources/taschenrechner-statistik-bedeutungen.png
-sensors
-task add +linux tint2 intervall zeit nachgucken
-task
-neofetch
-zathura Resources/pandoc_beamer/slides.pdf
-vim notes/Resources/Templates/eisvogel.
-ls -h
-ls --help
-ls -U
-ls -U | grep "12"
-vim notes/School/in
-vim notes/School/index.md
-pandoc 2022-10-12-Geschichte-Unterricht.md -o output.pptx
-vim 2022-10-12-Geschichte-Unterricht.md
-eisvogel 2022-10-12-Geschichte-Unterricht.md
-pandoc 2022-10-12-Geschichte-Unterricht.md -o output.pdf --template=eisvogel.latex
-cd Downloads
-sxiv signal-2022-10-12-084747_00*
-cd .config/nvim
-vim after/plugin/keymap/telescope.lua
-doas emerge --ask rg
-vim .config/nvim/lua/user/keymap.lua
-vim .config/nvim/lua/user/telescope.lua
-vim .config/nvim/after/plugin/keymap/telescope.lua
-cd notes/School/spanisch
-doas emerge --ask ripgrep
-vim vocs.
-eix -s kalgebra
-doas emerge --ask kalgebra
-light
-light -h
-light -U 3
-light -A 3
-bc
-vim 2022-10-1
-vim 2022-10-13-Donnerstag-Mathe-Unterricht.md
-eisvogel 2022-10-13-Donnerstag-Mathe-Unterricht.md
-zathura output.html
-pandoc 2022-10-13-Donnerstag-Mathe-Unterricht.md -o output.pdf --template=eisvogel.latex 
-zathura output.pdf
-pkill pipewire
-powersave
-vim .config/nvim/lua/user/packer.lua
-vim notes/Resources/Templates/eisvogel.md
-cd notes/daily
-pandoc 2022-10-13.md -o Futurium.pdf --template=eisvogel.latex
-zathura Futurium.pdf
+xrdb -merge .Xresources
+doas emerge --ask starship
+eix -s starship
+bashtop
 start
-cd Resources/pandoc_beamer/
-vim Makefile
-n -e
-vim vocs.md
-vim sprechprüfung.
-vim sprechprüfung.md
-pandoc --toc sprechprüfung.md -o sprechprüfung.pdf --template=eisvogel.latex
-zathura sprechprüfung.pdf
-free
-vim index.md
-tmux-sessionizer
-vim .dotfiles/.local/bin
-vim .dotfiles/.local/bin/tint2_vol.sh
-chmod +x .dotfiles/.local/bin/tint2_vol.sh
-cd .dotfiles
-stow .
-cd
-vim .dotfiles/.local/bin/t
-rm .dotfiles/.local/bin/tint2_vol.sh
-chmod +x .config/tint2/executors/volume
-pactl -h
-pactl 
-pacat
-vim .config/tint2/
-qutebrowser
-vim .config/qutebrowser
-cd /m
-cd /mnt
-pd
-lsblk
-cp -rf ~/.config ./
-vim .zshrc
-doas nvim /etc/hosts
-vim /etc/host.conf
-vim /etc/hosts
-doas vim /etc/hosts
-vim init.el
-doas emerge --ask cantarell
-/usr/bin/ls
-/bin/ls
-/bin/ls -la
-ls .emacs.d
-/bin/ls -la .emacs.d
-cp .config/emacs/init.el .emacs.d
-cd .emacs.d
-rm -rf eln-cache
-cd .config/emacs
-cd ..
-cd emacs.bak
-nmtui
-doas emerge --ask emerge --ask x11-themes/xcursor-themes
-doas emerge --ask x11-themes/xcursor-themes
-doas emerge --ask eca
-doas emerge --ask exa
-vim .Xresources
-emerge --ask x11-terms/alacritty
-doas emerge --ask x11-terms/alacritty
-alac
-alacritty
-doas /etc/init.d/emacs.niklas start
-emacsclient
-emacsclient -h
-/etc/init.d/emacs.myuser restart
-/etc/init.d/emacs.niklas restart
-pkill emacs
-emacs -q -l .config/emacs/init.el
-emacs --debug-init
-rm -rf .emacs.d
-git clone https://github.com/daviwil/emacs-from-scratch
-mv emacs-from-scratch emacs.d
-mv emacs.d .emacs.d
-mv .emacs.d .emacs.d.bak
-mv .config/emacs.bak .emacs.d
-emacs
-cd .emacs.d.bak
-vim Emacs.org
-mkdir Org
-touch Org/Tasks.org
-cd Org
-touch Habits.orh
-touch Habits.org 
-touch Birthdays.org
-doas /etc/init.d/emacs.niklas restart
-emacsclient -c
-emacsclient --socket-name=/tmp/emacs$(id -u)/server file
-rm file
-emacsclient --socket-name=/tmp/emacs$(id -u)/server -c
-vim .config/herbstluftwm/autostart
-eix -s rg
-mkdir RoamNotes
-nvim .config/alacritty/catppuccin/catppuccin-frappe.yml
-doas rc-update dle emacs.myuser default
-doas rc-update del emacs.myuser default
-doas rc-update del emacs.niklas default
-/etc/init.d/emacs.niklas stop
-doas /etc/init.d/emacs.niklas stop
-vim /etc/init.d/emacs
-vim .config/herbstluftwm/autostart u
-doas emerge --ask --noreplace sys-firmware/intel-microcode
-doas cp .zshrc /root
-doas chsh root
-vim Source/suckless/st/config.
-vim Source/suckless/st/config.h
-vim .config/herbstluftwm/autostart l
-vim .config/herbstluftwm/autostart 
-vim
-vim .config/alacritty/alacritty.yml
-doas -s /bin/zsh
-cd .config/alacritty
-cat tokyo_night.yml
-vim alacritty.yml
-neofe
-grep microcode /proc/cpuinfo
-dmesg | grep microcode
-doas emerge --ask sys-power/acpid
-/etc/init.d/acpid start
-python3.7 -X importtime -m qutebrowser --temp-basedir
-python -X importtime -m qutebrowser --temp-basedir
-python -X importtime -m qutebrowser --temp-basedir | grep "jmatirx"
-man qutebrowser
-time qutebrowser -c
-mv config.py config.py.bak
-cp config.py.bak config.py
-vim config.py
-rm config.py
-time qutebrowser -c ./.config/qutebrowser/.config.py.bak
-time qutebrowser -C ./.config/qutebrowser/.config.py.bak
-time qutebrowser -C .config/qutebrowser/config.py.bak
-time qutebrowser -C /home/niklas/.config/qutebrowser/config.py.bak
-time qutebrowser
-cd .config/qutebrowser
-vim config.py.bak
-mv config.py.bak config.py
-cat config.py
-eix -s element
-doas vim /etc/portage/package.accept_keywords/element
-doas emerge --ask element-desktop-bin
-cd .config/tint2
-vim tint2rc
-startc
-htpo
-doas emerge --ask powertop
-doas vim /etc/portage/package.use/powertop
-emerge --ask sys-power/powertop\
-
-doas emerge --ask sys-power/powertop\
-
-doas emerge --ask apci
-doas emerge --ask acpi
-exit
-pkill picom
-amixer
-man picom
-vim .config/picom/picom.conf
-picom
-man powertop
-picom --daemon
-htp
-powertop
-doas powertop -c
-feh --randomize --no-fehbg --bg-fill .dotfiles/.config/wall
-pkill tint2
-tint2 -h
-doas vim /etc/portage/package.use/tint2
-doas emerge --ask --update tint2
-doas emerge --ask tint2
-tint2 -c .config/tint2/tint2rc
-acpi
-vim .config/tint2/tint2rc 
-doas poweroff
-vim .config/tint2/tint2rc
+ls zsh-syntax-highlighting
+mv zsh-syntax-highlighting/zsh-syntax-highlighting.zsh ./
+rm -rf zsh-syntax-highlighting
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git
+rm zsh-syntax-highlighting.zsh
+cd zsh-syntax-highlighting
+chmod +x zsh-syntax-highlighting.
+chmod +x zsh-syntax-highlighting.zsh
+source ./zsh-syntax-highlighting.zsh
+ba
+starship
+starshipinit
+starship init
+starship init zsh
+feh Downloads/test.svg
+feh --conversion-timeout 1 Downloads/test.svg
+DISPLAY=:0 feh --bg-max --randomize ~/.wallpaper/*
+DISPLAY=:0 feh --bg-max --randomize ~/.config/wall/*
+cat autostart.sh
+feh --bg-max --randomize ~/.config/wall/*
+feh --bg-fill --randomize ~/.config/wall/*
+pkill picom 
 hotp
-vim /etc/conf.d/hostname
-vim /etc/hostname
-doas vim /etc/hostname
-egrep -v '(^#|^$)' /etc/conf.d/hostname
-zgrep HOSTNAME /proc/config.gz
-cd /usr/src/linux
-rc-status --all | grep hostname | tr -s ' '
-rc-status --all
-doas rc-service del ssh
-doas rc-service del sshd
-doas rc-update del sshd
-startx+
-acpi -a
-acpi -b
-acpi -V
-doas emerge --ask lightdm
-cd /root
-cp .xinitrc .xprofile
-xrandr
-doas emerge --ask tmux
-doas emerge --ask x11-misc/light-locker
-echo $PROMPT
-vim /etc/lightdm/lightdm.conf
-doas vim /etc/portage/package.use
-doas vim /etc/portage/package.use/pass
-eix -s task
-dm-tool
-dm-tool -h
-doas -s 
-eix -s clipmenu
-vim Source/suckless/dmenu
-doas vim /etc/portage/savedconfig/x11-misc/dmenu-5.0
-cd Source/suckless
-cd dmenu
-doas make clean uninstall
-vim /etc/portage/package.use
-vim /etc/portage/package.use/clipmenu
-vim /etc/portage/make.conf
-doas vim /etc/portage/make.conf
-doas vim /etc/portage/package.use/clipmenu
-doas emerge --ask clipmenu
-clipmenu
-clipmenud
-vim .xinitrc
-doas emerge --ask task pass
-doas vim /etc/portage/package.use/dmenu
-doas emerge --ask dmenu
-dmenu
-doas /etc/init.d/xdm restart
-htop
-vim .xprofile
-vim /var/log/lightdm
-vim /var/log/Xorg.0.log
-lightdm -h
-lightdm
-dm-tool lock
-doas /etc/init.d/xdm stop
-doas /etc/init.d/xdm start
-doas emerge --ask xterm
-eix -s ly
-cd sSou
-cd Source
-rm -rf ly
-git clone --recurse-submodules https://github.com/nullgemm/ly.git
-cd ly
-make
-doas make run
-doas rc-update add ly 
-doas rc-update add ly default
-doas make install
-ly
-alsamixer
-vim /etc/conf.d/display-manager
-doas vim /etc/conf.d/display-manager
-vim /etc/conf.d/xdm
-doas vim /etc/conf.d/xdm
-doas -s
-hostname -d
-hostname -s
-hostname -f
-hostname -n
-rc-update add hostname default
-doas rc-update add hostname default
-rc-service hostname restart
-doas rc-service hostname restart
-ls
-hostname
-reboot
-doas reboot
-whereis ly
-/usr/bin/ly
-doas ly
-startx
-hostname
-doas -s 
+dpo
+dpas 
+mkdir kunst
+eix -s discord
+discord
+doas shutdown -h
+doas shutdown -h noe
+mydoc_web
+vim 2022-11-18-Physik-Unterricht.md
+doas emerge --ask discord
+doas emerge --ask discord-bin
+vim .local/bin/autotiling
+picom --benchmark
+picom --benchmark cykler
+picom --benchmark cykle
+picom --benchmark 1
+picom --benchmark 2
+picom -h
+picom --vsync --daemon
+emerge --update --newuse --deep --with-bdeps=y @world
+vim vocs.md
+vim .config/picom/
+ld
+watch ip a
+doas emerge --ask --deselect picom
+git clone https://gitlab.com/Zaney/picom
+LDFLAGS="-L/usr/X11R6/lib -L/usr/local/lib" CPPFLAGS="-I/usr/X11R6/include -I/usr/local/include" meson --buildtype=release . build
+ninja -C build\
+
+eix -s libevent
+doas emerge --ask dev-libs/libevent
+eix -s uthash
+eix -s xcb
+doas emerge --ask x11-misc/xcb
+eix -s libev
+eix -s libconfig
+eix -s meson
+eix -s picom
+rm -rf picom
+git clone https://github.com/pijulius/picom
+git submodule update --init --recursive
+meson --buildtype=release . build
+ninja -C build
+ninja -C build install
+doas ninja -C build install
+picom
+doas ninja -C build uninstall
+doas emerge --ask picom
+-ip a
+picom --deamon
+picom --daemon
 ip a
-eix -s fzf
-cd Source/sc-im
-ls
-doas make install
-doas make -s Cinstall
-doas make -s src install
-doas make -C src install
-sc-im
-eix -s sc-im
-cd Source/sc-im
-vim He
-vim Hel
-vim HELP
-ls
-vim Readme.md
-vim src/Makefile
-eix -s xliblm
-eix -s libxlm
-doas emerge --ask fzf
-fzf 
-htop
-doasemerge --ask app-laptop/laptop-mode-tools
-doas emerge --ask app-laptop/laptop-mode-tools
-cd /usr/src/linux
-dosa -s
-doas -s
-htop
-cat /proc/cpuinfo
-glxinfo | grep "direct rendering"
-htop
-doas emerge --ask gnuplot libxls libxlm libzip lua 
-doas emerge --ask sci-visualization/gnuplot libxls libxlm libzip lua 
-doas emerge --ask sci-visualization/gnuplot libxls libxlm libzip dev-lang/lua 
-doas emerge --ask sci-visualization/gnuplot libxls libxlm2 libzip dev-lang/lua 
-doas emerge --ask sci-visualization/gnuplot libxls libxml2 libzip dev-lang/lua 
-htop
-doas -s
-doas vim /etc/portage/make.conf
-htop
-nmtui
-doas nmtui
-ls
-htop
-sc-im
-doas emerge --ask sc-im
-eix .s
-eix -s signal
-emerge --ask signal-desktop-bin
-eix -s signal-desktop
+doas emerge --update --newuse --deep --with-bdeps=y @world\
+
 doas emerge --ask signal-desktop-bin
-cal
-doas vim /etc/portage/make.conf
-pass init
-man pass
-pass init niklas@vonhirschfeld.eu
-pass test
-pass insert test
-pass
-gpg
-gpg -h
-tmux 
-task add test
-task
-task 1 done
-top
-htop
-doas emerge --ask lua libxls libxlswriter libxml2 libzip gnuplot ncurses
-doas emerge --ask dev-lang/lua libxls libxlswriter libxml2 libzip gnuplot ncurses
-doas emerge --ask dev-lang/lua libxls libxlswriter libxml2 libzip sci-visualization/gnuplot ncurses
-doas emerge --ask dev-lang/lua libxls libxlsxwriter libxml2 libzip sci-visualization/gnuplot ncurses
-doas emerge --ask sc-im
-sc-im
-doas emerge --ask --deselect sc-im
-aslami
-alsa
-alsamixer
-amixer scontrols
-amixer Master +1
-amixer controls
-amixer controls Master
-alsamixer -h
-alsamixer -v
-alsamixer -V
-alsamixer -V Master
-amixer
-amixer -h
-amixer -i
-loginctl suspend
-htop
-doas emerge --ask arand
-doas emerge --ask arandr
-setxkbmap de
-xmodmap .Xmodmap
-amixer -c 1 set Master playback 100% unmute
-amixer -c0
-amixer list-cards
-amixer sset "Auto-Mute" unmute Headphones
-amixer set Master 20%-
-amixer set Master toggle
-amixer sset "Auto-Mute" unmute
-alsamixer
-amixer sset Masert unmute
-amixer sset Master mute
-amixer sset Master unmute
-amixer sset Speaker unmute
-vim .config/herbstluftwm/autostart
-amixer
-alsamixer
-eix -s bitwarden
-doas -s
-doas vim /etc/portage/package.accept_keywords/bitwarden
-doas emerge --ask bitwarden-desktop-bin
-bitwarden
-locate *.desktop
-doas vim /usr/bin/bitwarden
-doas chmod +x /usr/bin/bitwarden
-vim /usr/share/applications/bitwarden.desktop
-locate firefox.desktop
-locate alacritty.desktop
-locate *desktop
-locate *.desktop
-whereis alacritty.desktop
-vim .config/tint2/tint2rc
-alsamixer
-doas -s 
-gpg --full-gen-key
-git config --global user.email "niklas@vonhirschfeld.eu"
-git config --global user.name "Niklas von Hirschfeld"
-pass git init
-pass generate test
-pass
-pass test
-pass rm test
-pass init test/test
-pass 
-pass test
-pass git push
-man pass
-pass -g
-pass -h
-ls -la
-rm -rf .password-store
-pass init niklas@vonhirschfeld.eu
-pass
-pass insert test/test
-pass test/test
-pass insert test/test/test
-ls
-cat .Xpr
-cd .dotfiles
-ls
-cd
+doas eselect kernel list
+cd linux
+cd picom
+pkill tint2
 cat .Xresources
-top
-htop
-sensors
-fetch
-doas emerge --ask pandoc
-doas -s
+git clone https://github.com/polybar/polybar
+ls po
+cd .dotfiles/.config
+mkdir polybar
+cp /etc/polybar/config.ini ./polybar
+polybar mybar
+chmod +x launch.sh u
+chmod +x launch.sh 
+vim launch.sh
+eix -s polybar
+vim /etc/portage/package.use/polybar
+doas vim /etc/portage/package.use/polybar
+doas emerge --ask polybar
+vim ~/.local/bin/autostart.sh
+git clone
+git clonepolybar example &\
+
+git clone https://github.com/ColemakMods/mod-dh.git
+cp ./colemak_dh_iso_us.xmodmap ~/.colemak_dh.xmodmap
+setxkbmap de -variant colemak_dh
+setxkbmap de 
+setxkbmap -h
+setxkbmap 
+setxkbmap --help
+man setxkbmap
+setxkbmap -print
+xmodmap .XM
+xmodmap .Xmodmap
+vim .local/bin/keyboardswitch
+vim .local/bin/keyboardswitch.sh
+xmodmap ~/.Xmodmap
+now=$(setxkbmap -print | awk -F"+" '/xkb_symbols/ {print $2}')\
+
+bash
+~/.local/bin/switchkey.sh
+vim .config/emptty
+setxkbmap us -variante colemak-dh
+setxkbmap us -variant colemak-dh
+setxkbmap us -variant colemak_DH
+setxkbmap us -variant colemak_dh
+setxkbmap sf
+setxkbmap -query | grep layout
+xkblayout-state print "%s"
+setxkbmap -print | awk -F"+" '/xkb_symbols/ {print $2}'
+vim .local/bin/switchkey.sh
+chmod +x switchkey.sh
+./switchkey.sh
+setxkbmap de
+vim .task
+vim .taskw
+vim .taskrc
+feh --bg-fill Downloads/colemak_dh_main_ansi.png
+feh --bg-fit Downloads/colemak_dh_main_ansi.png
+feh --bg-scale Downloads/colemak_dh_main_ansi.png
+task add +fun Blender Keyboard colemak dh
+q2 17
+q2 18
+q2 19
+q1 20
+task 7 mod Mikael Geb. Geschenk
+task +Klausur 
+task add project:Schule priority:H urgent:N +Kunst +Klausur Kunst Klausur
+task inbox
+task +Klausur
+task add Deutschafugaben
+task start 22
+pkill polybar
+polybar exapel
+polybar example
+vim .config/polybar/config.ini
+ls /sys/class/power
+ls /sys/class/power_supply
+vim tmp3algjeso_AB\ 7\ Wenn\ Männer\ und\ Frauen\ streiten.txt
+vim .config/herbstluftwm/qu
+task 14 done
+task 20 mod due:thu
+task 2 done
+task 10 done
+tas
+pandoc 2022-11-27-Musik-Unterricht.md -o output.pdf
+task +Musik
+pandoc 2022-11-21-Deutsch-Unterricht.md --to pdf
+vim idn
+pandoc 2022-11-21-Deutsch-Unterricht.md -o output.pdf
+task 22 stop
+task undo
+pkill emacs
+cd notes/School
+mkdir musik
+vim .zshrc 
+pandoc Umfrage.md -o Umfragen.pdf
+zathura Umfragen.pdf
+npm i bootstrap
+rm .rf package.json package-lock.json 
+rm  package.json package-lock.json 
+cd notes/School/projektorientierung
+cd pro
+mkdir Biodiversität_Umfrage
+touch index.html
+eix -s vscode-html
+rm -rf package-lock.json
+ls .npm
+ls node_modules
+npm init t
+npm init
+rm -rf package.json
+npm list -g
+npm install --save vscode-html-languageservice --user
+cd work/Biodiversität_Umfrage
+npm install -g npm@9.1.2
+doas npm install -g npm@9.1.2
+pandoc Umfrage.md -o Umfrageb.docx
+cd Dwo
+unzip bootstrap-5.2.3-examples.zip
+cd bootstrap-5.2.3-examples
+cd headers
+vim headers.css
+cd /etc/npm
+rm -rf package*
+ls /usr/bin/vscode-html-language-server
+vim treesitter.lua
+vim treesitter-context.lua
+ls lsp.lua
+vscode-html-language-server 
+eix -s vym
+doas emerge --ask vym
+cd notes/Wiki
+cd notes/School/deutsch
+zathura deutsch_sil.pdf
+chmod +x Obsidian-1.0.3.AppImage
+./Obsidian-1.0.3.AppImage
+doas cp Obsidian-1.0.3.AppImage /usr/bin/obsidian
+vim config.ini
+obsidia
+obsidian
 l
-ls
-vim in
-vim index.md
-htop
-doas -s
-ssh-keygen -t ed25519 -C "niklas@vonhirschfeld.eu"
-cat .ssh/id_ed25519
-cat .ssh/id_ed25519.pub
-cd np
-cd notes
-cd .do
-cd
-cd .dotfiles
-git add .
+ls kunst
+mv -rf kunst School/
+mv kunst School/
+ls ku
+mkdocs build
+ls Area
+rm -rf Area
+ls daily
+vimh
+vim fzf-important-files 
+vim config
+vim config-files-import
+vim fzf-important-files
+vim notes/daily/2022/10/2022-10-03.md
+cd notes/daily/2022
+mkdir 11
+cd 11
+ls html
+rm -rf html
+ls javascripts
+ls Me
+cat Me/presentation.md
+mv Me/presentation.md Wiki
+cd Me
+vi mTo
+vim To
+vim TODO.md
+rm TODO.md
+cat my_vim_tutor.md
+cat workflow.md
+rm -rf Me
+ls Planning
+cd Planning
+rm -rf Planning
 git commit -m "update"
 git push
-ls .-la
+cd Resources
+ls Assets
+ls Dataview
+rm -rf Dataview
+task project:Home
+cd Pr
+cd pr
+tree 
+rm -rf backups
+ls Documents
+ls go
+ls music
+ls personal
+rm -rf personal
+vim WebDav.md
+npm i -g vscode-langservers-extracted
+rm /usr/bin/vscode-*
+doas rm /usr/bin/vscode-*
+doas npm i -g vscode-langservers-extracted
+pandoc 2022-11-21-Deutsch-Unterricht.md -o output.docx
+haskell-updater
+eix -s
+eix -s thunar
+doas emerge --ask thunar
+shutdown -h now
+doas !
+doas doas !
+vim colemak.lua
+sed -i "s/local/test" init.lua
+sed -i "s/local/test/" init.lua
+sed -i "s/test/local/" init.lua
+vim i
+vim keyboardswitch.sh
+cat keyboardswitch.sh
+rm keyboardswitch.sh
+vim switchkey.sh
+vim lua/user
+vim lua/user/colemak.lua
+vim colortheme
+ls -j
+ls -h
+man ls
+ls -l Downloads
+ls Downloads/signal-2022-11-
+ls Downloads/signal-2022-11-*
+cd .config/nvim/after/plugin/keymap
+cat harpoon.lua
+cat telescope.lua
+pandoc 2022-11-29-Geschichte-Unterricht.md -o output.pdf
+sxiv Downloads/signal-2022-11-29-103027_002.jpeg
+vim auto
+bc
+man bc
+q1
+cd .config/qutebrowser
+mv config.py .config.py.bak
+qutebrowser
+man qutebrowser
+qutebrowser -d
+mv .config.py.bak config.py
+time qutebrowser
+vim config.py
+feh --bg-fill .config/wall/colemak.png
+cp Downloads/colemak_dh_iso.png .config/wall/colemak.png
+sxiv Downloads/colemak_dh_
+sxiv Downloads/colemak_dh_iso.png
+feh --bg-fill Downloads/colemak_dh_iso.png
+feh --bg-scale Downloads/colemak_dh_iso.png
+feh --bg Downloads/colemak_dh_iso.png
+man feh
+feh --bg-center Downloads/colemak_dh_iso.png
+cd Downloads/mod-dh/
+ls cm
+ls xmodmap
+cd xmodmap
+cp colemak_dh_iso_us_wide.xmodmap ~/.colemak_dh.xmodmap
+rm .colemak_dh.xmodmap
+vim .local/bin/autostart.sh
+man sxiv
+feh ./*
+feh ./* &
+rm dark-cat-rosewater.png
+rm gen*
+git clone https://github.com/siddhanthrathod/bspwm.git
+cd bspwm
+feh --bg-fill ign_leafHelmet.png
+mv ign_leafHelmet.png ~/.config/wall/
+sxiv mono.png nord-* 94605.jpg
+mv mono.png nord-* ~/.config/wall
+mv -rf mpv turbowarp-desktop xfce4/ mimeapps.list pavucontrol.ini QtProject.conf kdenlive* procps pulse Signal onlyoffice obsidian neofetch MuseScore light libreoffice InSilmaril htop gtk-* GIMP filezilla Element dconf configstore chromium-bin bashtop bspwm ~/.config
+mv mpv turbowarp-desktop xfce4/ mimeapps.list pavucontrol.ini QtProject.conf kdenlive* procps pulse Signal onlyoffice obsidian neofetch MuseScore light libreoffice InSilmaril htop gtk-* GIMP filezilla Element dconf configstore chromium-bin bashtop bspwm ~/.config
+stow -
+cat .bash_profile
+rm -rf .bash_profile
+rm .config
+mkdir .config
+ls .co
+ls .cong
+ls .config
+feh --bg-fill wp10514861-richard-stallman-wallpapers.jpg
+mv wp10514861-richard-stallman-wallpapers.jpg ~/.config/wall/gta.jpg
+git add .
+vim /etc/X11/xorg.conf.d
+vim .stow-local-ignore
+ls 
+cd notes/He
+sc-im Uberspace.
+sc-im Uberspace.sc
+tree work
+tree Documents
+rm -rf go
+cd ls
 ls -la
-ls .local
-cat sh
-tree .local
+cd .do
+rm art* auto* cmark c* d* l* m* t* a* c* e*
+rm fzf-important-files glow
+rm gentoo-updater himalaya kara opentmux p* soatmux unix wiki2html.sh
+rm stylua
+cd .dotfiles
+stow .
+cd .local
+rm *@
+ls *@
+rm art* c* d* ewrap fzf-important-files g* himalaya lo* m* m* opentmux tmux-*
+rm auto*
+rm kara passmenu2 soatmux stylua termtyper turbwarp unix wiki2html.sh
+rm powersave
+lsa
+cd bin
+cat powersave
+cat unix
+./unix
+cat watchmedo
+./watchmedo
+./watchmedo log
+cat create_beamer
+man pass
+zip Account_Scraper
+cd Account_Scraper
+zip Uberspace.*
+man zip
+zip Uberspace Uberspace.*
+vim Uberspace.sc
+doas powertop
+doas vim /etc/X11/xorg.conf.d/20-intel.conf
+doas intel_gpu_frequency
+sxiv /tmp/2022-11-30_09:11:45_1890x349.png
+doas mv /etc/X11/xorg.conf.d/20-* ./
+doas mv 20-* /etc/X11/xorg.conf.d
+pkill powertop
+doas pkill powertop
+pkill pulseaudio
+vim .config/picom/co
+vim .config/picom/picom.conf
+doas vim /etc/portage/package.use/libva
+doas emerge --ask media-video/libva-utils x11-drivers/xf86-video-intel
+doas emerge --ask media-video/libva-utils x11-drivers/xf86-video-intel mpv
+doas emerge --ask media-video/libva-utils x11-drivers/xf86-video-intel mpv media-libs/libva-intel-media-driver
+task add urgent:Y priority:H doas emerge --ask mpv media-libs/libva-intel-media-driver
+task 9 due;
+task 9 mod due:
+vim 2022-11-30-Spanisch-Gramatic-conditional.md
+acpi
+ytv-best 'https://www.youtube.com/watch?v=IXlL_83bPqM'
+doas emerge --ask mpv media-libs/libva-intel-media-driver
+tmux-sessionizer
+doas intel_gpu_tp
+mpv Violent\ Night\ ｃ�\ Offizieller\ Trailer\ deutsch⧸german\ HD\ \[IXlL_83bPqM\].webm
+doas emerge --ask media-libs/vulkan-loader
+neofetch
+ytv-best 'https://www.youtube.com/watch?v=LXb3EKWsInQ'
+VDPAU_DRIVER=va_gl mpv COSTA\ RICA\ IN\ 4K\ 60fps\ HDR\ \(ULTRA\ HD\)\ \[LXb3EKWsInQ\].webm
+intel_gpu_top
+doas emerge --ask --update --newuse --deep @word
+doas emerge --ask --update --deep @word
+ls Downloads
+mpv --vo=gpu --hwdec=vaapi COSTA\ RICA\ IN\ 4K\ 60fps\ HDR\ \(ULTRA\ HD\)\ \[LXb3EKWsInQ\].webm
+mpv --vo=gpu --hwdec=vaapi COSTA\ RICA\ IN\ 4K\ 60fps\ HDR\ \(ULTRA\ HD\)\  
+ls *.webpm
+ls *.webm
+mpv --vo=gpu --hwdec=vaapi Violent\ Night\ ｃ�\ Offizieller\ Trailer\ deutsch⧸german\ HD\ \[IXlL_83bPqM\].webm
+vainfo
+mpv https://www.youtube.com/watch?v=seIBOZgtiko
+mpv 'https://www.youtube.com/watch?v=seIBOZgtiko'
+mpv -h
+mpv --list-options
+mpv --list-options | grep profile
+mpv --profile-set=high-quality 'https://www.youtube.com/watch?v=seIBOZgtiko'
+mpv --profile-set=high-quality --hwdec-codecs=all 'https://www.youtube.com/watch?v=seIBOZgtiko'
+mpv --profile-set=high-quality --hwdec-codecs=all 'https://www.youtube.com/watch?v=LXb3EKWsInQ&t=11s'
+mpv --profile-set=high-quality 'https://www.youtube.com/watch?v=LXb3EKWsInQ&t=11s'
+mpv --profile-set=high-quality Downloads/COSTA\ RICA\ IN\ 4K\ 60fps\ HDR\ \(ULTRA\ HD\)\ \[LXb3EKWsInQ\].webm
+glxinfo
+doas emerge --ask --update --deep @world
+doas emerge --ask --update --newuse --deep @world
+mpv --profile-set=high-quality COSTA\ RICA\ IN\ 4K\ 60fps\ HDR\ \(ULTRA\ HD\)\ \[LXb3EKWsInQ\].webm
+mpv COSTA\ RICA\ IN\ 4K\ 60fps\ HDR\ \(ULTRA\ HD\)\ \[LXb3EKWsInQ\].webm
+cd .config/mpv
+vim mpv.conf
+ffplay VO
+ffplay COSTA\ RICA\ IN\ 4K\ 60fps\ HDR\ \(ULTRA\ HD\)\ \[LXb3EKWsInQ\].webm
+mpv --vo=gpu --gpu-context=drm --drm-connector=1.HDMI-A-1 --hwdec=v4l2m2m-copy
+mpv --vo=gpu --gpu-context=drm --drm-connector=1.HDMI-A-1 --hwdec=v4l2m2m-copy COSTA\ RICA\ IN\ 4K\ 60fps\ HDR\ \(ULTRA\ HD\)\ \[LXb3EKWsInQ\].webm
+mkdir langtec
+cd langtec
+mkdir vorbereitung
+rm -rf javascripts
+rm -rf site mkdocs.yml
+ls Resources
+Pro
+ls Projects
+doas vim /etc/portage/make.
+rm /etc/portage/make.
+doas rm /etc/portage/make.
+primusrun ls
+primusrun glxinfo -B
+eix -s nvidia
+vim .xinitrc
+grep -E 'WW|EE' /var/log/Xorg.0.log
+doas emerge --ask @preserved-rebuild
+doas emerge --ask nvidia-driver
+doas emerge --ask nvidia-drivers
+vim /etc/modprobe.d/nvidia.conf
+cd /etc/mod
+cd /etc/modprobe.d
+cat blacklist-nvidia.conf
+rm blacklist-nvidia.conf
+doas rm blacklist-nvidia.conf
+lspci -k
+lspci -k | grep nvidia
+lspci -k | grep nou
+doas rm /etc/modules-load.d/nvidia.conf
+lspci -k | grep -A 2 -E "(VGA|3D)"
+lspci -k | grep -EA3 'VGA|3D'
+lspci | grep -i 3d
+vim .local/share/xorg/Xorg.
+vim .local/share/xorg/Xorg.0.log
+lspc
+lspci | grep "nvidia"
+lspci | grep -E 'VGA|3D'
+cd work/langtec/vorbereitung
+mkdir emails
+cd emails
+optirun glxinfo | grep "OpenGL renderer"
+primusrun glxinfo | grep "OpenGL renderer"
+eix -s prime
+doas emerge --ask prime-run
+prime-run glxinfo | grep "OpenGL renderer"
+glxinfo|egrep "OpenGL vendor|OpenGL renderer"
+dmesg
+dmesg | grep nvidia
+mkinitcpio -P
+modprobe nvidia
+doas modprobe Nvidia
+doas insmod nvidia\
+
+ls /dev/ | grep nv
+modprobe
+modprobe -h
+modprobe -a
+modinfo
+module_path
+doas emerge --ask @
+doas emerge --ask @x11-module-rebuild
+emerge @module-rebuild
+doas emerge @module-rebuild
+modprobe bbswitch
+doas modprobe bbswitch
+lspci -k | grep -i -e vga -e nvidia
+vim /etc/portage/make.confq
+vim /etc/portage/make.conf
+doas rc-update add bumblebee default
+grub-mkconfig -o /boot/grub/grub.cfg
+primusrun
+emerge --ask sys-power/bbswitch x11-misc/bumblebee x11-misc/primus
+doas emerge --ask sys-power/bbswitch x11-misc/bumblebee x11-misc/primus
+cd 
+cd Source/envycontrol
+doas python envycontrol.py
+doas python envycontrol.py -s hybrid
+doas modprobe nvidia
+lspci| grep VGA
+lspci| grep 3d
+lspci| grep 3D
+doas vim /etc/portage/package.use/mpv
+doas grub-mkconfig -o /boot/grub/grub.cfg
+doas shutdown -r now
+lspci | grep 3d
+rc-service ly stop
+primusrun glxgears
+vim .config/mpv/mpv.conf
+prime-run mpv COSTA\ RICA\ IN\ 4K\ 60fps\ HDR\ \(ULTRA\ HD\)\ \[LXb3EKWsInQ\].webm
+nvidia-settings
+feh --bg-fill .config/wall/2560x1600.png
+prime-run kdenliv
+prime-run kdenlive
+doas emerge --ask --deselect bbswitch
+doas emerge --ask --deselect bumblebee primus
+mplayer -vc help | grep --color vdpau
+doas emerge --ask vlc
+emerge --ask --changed-use --deep @world
+doas emerge --ask --changed-use --deep @world
+cd .config/polybar
+./launch.sh
+cd .local/bin
+vim autostart.sh
+./autostart.sh
+cd work/langtec/emails
+doas modprobe -r nvidia_modeset
+doas modprobe -r nvidia
+loginctl suspend
+modprobe -r bbswitch
+doas modprobe -r bbswitch
+task project:Linux
+task project:Linux vim eclips compiler https://github.com/mfussenegger/nvim-jdtls
+task add project:Linux vim eclips compiler https://github.com/mfussenegger/nvim-jdtls
+task project:
+task 22 done
+task 16 mod project:Privat
+task 18 done
+task project:Praktikum
+task summary
+task He
+task 16 done
+zathura Downloads/signal-2022-11-29-103027_002.jpeg
+zathura Downloads/Praktikum.pdf
+doas X -configure
+emptty
+cd langtec/emails
+vim 2022-11-30-Email-Antwort-Unterlagen.md
+cd /etc/X11
+cat xorg.conf.d
+ls xorg.conf.d
+cat chooser.sh
+cd notes/School/Mathe
+zathura Wurzelfunktionen.pdf
+prime-run mpv Downloads/COSTA\ RICA\ IN\ 4K\ 60fps\ HDR\ \(ULTRA\ HD\)\ \[LXb3EKWsInQ\].webm
+cd .config/herbstluftwm
+vim autostart
+vim lua/user/init.lua
+cat lua/user/init.lua
+vim .config/herbstluftwm/autostart
+vim after/plugin/statusline.lua
+cd notes/Projects/Account_Scraper
+vim Uberspace.sh
+vim notes/Projects/Account_Scraper/Uberspace.sh
+lspci
+lspci | grep nv
+lspci | grep Nv
+lspci | grep vga
+lspci | grep VGA
+lspci | grep 3D
+cd /etc/X11/xorg.conf.d
+vim 10-nvidia.conf
+doas lspci | grep -E "VGA|3D controller"
+doas vim 10-nvidia.conf
+doas mv 10-nvidia.conf /etc/X11/xorg.conf.d
+eix -s gputest
+glxinfo -B
+prime-run glxinfo -B
+prime-run nvidia-setting
+prime-run nvidia-settings
+export vblank_mode=0
+glxgears
+prime-run export vblank_mode=0 glxgears
+DRI_PRIME=1 glxgears
+vblank_mode=0 prime-run glxgears
+watch intel_gpu_top
+doas watch intel_gpu_top
+watch doas intel_gpu_top
+mkdir test
+cp -rf notes/* test
+c
+ls test
+cd test
+ls ../notes
+vim Makefile
+rm -rf test
+vim opa
+cat init.lua
+vim index.
+vim after/plugin/keymap
+eix -s bat
+eix -s ctags
+doas emerge --ask ctags
+vim ind
+vim init.lua
+ctags -R ./
+man ctags
+ctags -R init.lua
+ctags -R .
+ctags -R -f .
+cat tags
+rm tags
+vim after/plugin/keymap/init.lua
+vim lua/user/keymap.lua 
+ctags
+ctags .
+ctags *
+ctags -R *
+s
+ctags --list-feature
+ctags --list-features
+ctags --help
+ctags --lang="lua" -R .
+ctags --lang="lua" .
+ctags --lang="lua" *
+npm --global -i vscode-html-languageserver
+npm install --save vscode-html-languageservice
+rm -rf package.json package-lock.json 
+rm -rf node_modules
+npm -h
+npm install -g vscode-html-languageservice
+doas npm install -g vscode-html-languageservice
+vscode-html-language-server
+vim test.html
+cat ./after/plugin ./lua/user ./plugin/packer_compiled.lua ./spell/de.utf-8.add ./spell/de.utf-8.add.spl ./spell/de.utf-8.spl ./spell/de.utf-8.sug ./spell/en.utf-8.add ./spell/en.utf-8.add.spl ./spell/es.utf-8.add ./spell/es.utf-8.add.spl ./spell/es.utf-8.spl ./spell/es.utf-8.sug ./after ./init.lua ./lua ./plugin ./spell ./tags  | grep syntax
+cat ./after/plugin ./lua/user ./plugin/packer_compiled.lua ./spell/de.utf-8.add ./spell/de.utf-8.add.spl ./spell/de.utf-8.spl ./spell/de.utf-8.sug ./spell/en.utf-8.add ./spell/en.utf-8.add.spl ./spell/es.utf-8.add ./spell/es.utf-8.add.spl ./spell/es.utf-8.spl ./spell/es.utf-8.sug ./after ./init.lua ./lua ./plugin ./spell ./tags  | grep vim.g
+cat ./after/plugin ./lua/user ./plugin/packer_compiled.lua ./spell/de.utf-8.add ./spell/de.utf-8.add.spl ./spell/de.utf-8.spl ./spell/de.utf-8.sug ./spell/en.utf-8.add ./spell/en.utf-8.add.spl ./spell/es.utf-8.add ./spell/es.utf-8.add.spl ./spell/es.utf-8.spl ./spell/es.utf-8.sug ./after ./init.lua ./lua ./plugin ./spell ./tags 
+cat ./* | grep syntax
+cat keymap/* | grep syntac
+cat keymap/* | grep syntax
+lsmod
+nvim --version
+vim lua/user/set.lua
+vim --version
+vim /tmp/test.html
+cd Source/neovim
+git pull
+make CMAKE_BUILD_TYPE=make CMAKE_BUILD_TYPE=Release
+make CMAKE_BUILD_TYPE=Release
+rm -rf neovim
+git clone https://github.com/neovim/neovim
+cd neovim && make CMAKE_BUILD_TYPE=Release
+make install
+vim 
+make clean
+doas make clean
+make clean install 
+doas make clean install 
+echo $VIMRUNTIME
+rm /usr/local/share/nvim/runtime
+doas rm -rf /usr/local/share/nvim/runtime
+cd nvtop
+cd ..
+cd neovim
+doas make install
+eix -s LIBVTERM
+doas emerge --ask LIBVTERM
+eix  dev-libs/tree-sitter
+eix -s dev-libs/tree-sitter
+eix -s tree-sitter
+doas emerge --ask tree-sitter-cli
+tree-sitter
+alacritty
+vim .config/alacritty/alacritty.yml
+vim .local/bin/gentoo-updater
+vim .config/nvim
+task add project:Henning ihn nach useflags gtk und qt fragen (in bezug auf pakete die diese benötigen wie chromium)
+task add project:Henning ihn nach useflags gtk und qt fragen in bezug auf pakete die diese benötigen wie chromium
+doas rm /etc/X11/xorg.conf.d/10-nvidia.conf
+doas mv ./10-nvidia.conf /etc/X11/xorg.conf.d
+startx
+doas emerge --ask --verbose --update --newuse --deep @world\
+
+cd lua/user
+vim set.lua
+eix -s lua-
+eix -s sumneko
+eix -s lua-language-server
+rm -rf lua-language-server
+git clone https://github.com/sumneko/lua-language-server.git
+cd lua-language-server
+git submodule update --depth 1 --init --recursive
+cd 3rd/luamake
+./compile/install.sh
+cd ../..
+./3rd/luamake/luamake rebuild
+./bin/lua-language-server 
+npm i -g bash-language-server
+doas npm i -g bash-language-server
+cd nvim
+cd after/plugin
+vim statusline.lua
+rm statusline.lua
+vim color.lua 
+doas nvim /etc/portage/make.conf
+doas vim /etc/portage/package.use/gtk
+doas vim /etc/portage/make.conf
+cat /etc/portage/make.conf
+vim notes/index.md
+chromium-bin -h
+doas doas emerge --ask --deselect doomsday 
+doas emerge --ask --deselect doomsday 
+doas eselect kernel list 
+doas eselect kernel set 1
+ls /usr/src/linux
+ls /usr/src/
+doas emerge --ask bar
+doas emerge --ask bat
+vim .config/shell/zsh_alias
+doas rm /etc/portage/package.use/gtk 
+bat .local/bin/gentoo-updater
+cd /usr/src/linux
+doas emerge --ask --deep --update --newuse @world
+doas emerge @
+doas nvim /etc/portage/package.use/gtl
+gentoo-updater
+doas
+cat .local/bin/gentoo-updater
+doas emerge --ask --verbose --update --newuse --deep @world
+sxiv Downloads/Trace.png
+cd work/langtec
+mkdir log
+touch index.md
+dc
+cat markdown.lua
+mkdir my_snippets
+vim my_snippets/package.json
+cd my_snippets
+cat package.json
+mkdir snippets
+task 12 done
+vim test
+cd .config/shell/
+vim zsh_alias
+cat markdown.md
+cd notes/Resources/Templates
+cat mark_titel.md
+vim mark_titel.md
+vim /tet
+vim /tmp/tet
+vim /tmp/tmes.md
+cd .config/nvim/my_snippets
+vim snippets/all.json
+doas emerge --asj wintericks
+doas emerge --ask wintericks
+doas emerge --ask winetricks
+doas nvim /etc/portage/package.use/gtk
+eix -s evolution
+doas dispatch-conf
+doas emerge --ask mail-client/evolution
+eix -s rpi-imager
+eix -s khal
+eix -s calcli
+doas emerge --ask khal
+doas rm /etc/portage/package.accept_keywords/khal
+pip install khal
+pip install khal --user
+pip install easywebdav
+pip install easywebdav --user
+pip install vobject --user
+cd cd
+cd Soiu
+https://github.com/spanezz/calcli.git
+git clone https://github.com/spanezz/calcli.git
+cd calcli
+./setup.py
+./setup.py --help
+./setup.py build
+./setup.py install
+doas ./setup.py install
+calcli
+doas rm /etc/portage/package.accept_keywords/vdir
+eix -s vdirsyncer
+doas 
+doas emerge --ask vdirsyncer
+cd Source
+git clone https://github.com/pimutils/vdirsyncer
+cd vdirsyncer
+make
+pip install --user --ignore-installed vdirsyncer
+vdirsyncer
+vdirsyncer showconfig
+cd .config
+mkdir vdirsyncer
+vdirsyncer sync
+vdirsyncer discover bob_calendar
+vdirsyncer discover bob_calendar -vdebug
+vdirsyncer -vdebug discover bob_calendar 
+vim vdirsyncer/config
+vdirsyncer discover bob_calendar 
+khal
+khal configuere
+khal configure
+eix -s kalendat
+eix -s kalendar
+eix -s calendat
+eix -s calendar
+doas emerge --ask gnome-calendar
+cd .config/nvim/after/plugin/
+cd notes/Projects/keyboard
+mv WebDav.md WebDAV/index.md
+vim WebDAV/index.md
+vim Aufgaben.md
+vim /tmp/notes.txt
+cd Do
+cd Documents
+mkdir Templates
+vim Templates/default.html
+cd .config/nvim/lua/user/ma
+vim te
+vim markdown.lua
+vim templates.lua
+eix -s luarocks
+doas emerge --ask luarocks
+vim .config/nvim/lua/user/packer.lua
+vim .config/nvim/lua/user/markdown.lua
+nvim
+cd .config/nvim/lua/user/pa
+cd .config/nvim/lua/user/
+nvim 
+cd wi
+mkdir html
+cd html
+mkdir designes
+cd designes
+mkdir Images_parralex_smoth
+cd Images_parralex_smoth
+rm index.html
+cat index.html
+vim tets.js
+vim .config/nvim/after/plugin/lsp.lua
+doas vim /etc/portage/package.use/steam
+doas -s emerge --ask --noreplace app-eselect/eselect-repository dev-vcs/git
+sensors
+steam
+doas intel_gpu_t
+doas intel_gpu_top
+xrandr --set "PRIME Synchronization" 1
+xrandr --output eDP-1
+xrandr --output eDP-1 --set "PRIME Synchronization" 1
+doas vim /etc/X11/xorg.conf.d/10-nvidia.conf
+watch nvidia-smi
+doas mv /etc/X11/xorg.conf.d/10-nvidia.conf ./
+doas vim /etc/X11/xorg.conf.d/20-modesetting.conf
+nvidia-sm
+doas vim /etc/X11/xorg.conf.d
+xrandr --list
+xrandr --listproviders
+prime-run glxgears
+nvtop
+eix -s nvtop
+doas -s
+pkill nvtop
+doas pkill nvtop
+doas pkill intel_gpu_top
+pkill picom
+ssh pi@192.158.4.17
+lsd
+npm install -g neovim
+doas npm install -g neovim
+vim lsa
+vim ls
+doas npm install -g tern
+npm install -g bundle/tern_for_vim
+doas npm config set legacy-peer-deps true
+npm config set legacy-peer-deps true
+doas npm install -g bundle/tern_for_vim
+doas npm install -g npm 
+doas npm install -g bundle/tern_for_vim --force
+doas npm install -g neoclide/tern-neovim
+doas npm install -g tern-neovim
+doas npm install -g tern_for_vim
+doas npm install -g https://github.com/ternjs/tern_for_vim
+vim sr
+htop
+cd .config/nvim/lua/user
+vim packer.lua
+nvidia-smi
+cd work
+vim scripts.js
+cd
+cd work/html/designes/Images_parralex_smoth
+cp scripts.js ../../../Biodiversität_Umfrage/
+chromium-bin index.html
+cd Biodiversität_Umfrage
+vim index.html
+vim main.css
+mv main.css style.css
+vim style.css
+tree
+cd .config/wall
+sxiv ./*
+rm ge
+ls wall
+rm -rf wall
+sxiv ./* &
+cd .config/nvim
+vim lua/user/packer.lua
+vim after/plugin/lsp.lua
+rm te
+rm test
+vim html.lua
+cd .config/nvim/after/plugin
+vim keymap/init.lua
+vim lsp.lua
+cd Wurzelfunktionen
+vim Definitionsmengen.tex
+rm --template=eisvogel.latex
+rm ./--template=eisvogel.latex
+vim 2022-12-08-Mathe-Unterricht.md
+pandoc 2022-12-08-Mathe-Unterricht.md -o output.pdf
+doas poweroff -h now
+task
+herbstclient layout 
+zathura Downloads/Ph11_Freier_Fall
+zathura Downloads/Ph11_Freier_Fall.pdf
+pandoc 2022-12-09-Physik-Unterricht.md -o output.pdf
+zathura output.pdf
+zathura output.pdf &
+pandoc 2022-12-09-Physik-Unterricht.md -o output.pdf &
+cat tabellen/2022-12-09-Physik-Fall.csv
+pandoc 2022-12-09-Physik-Unterricht.md -o output.pdf 
+mv 2022-12-09-Physik-Klausur.md 2022-12-09-Physik-Unterricht.md
+vim index.md
+ls tabellen
+cat 2022-11-
+cat tabellen/2022-11-11-Klausur_vorbereitung.csv
+vim 2022-11-11-Physik-Unterricht.md
+vim tabellen/2022-12-09-Physik-Fall.csv
+ssh gulugulu@aegaeon.uberspace.eu
+zathura 1523493229origami-to-astonish-and-amuse.pdf
+pkill steam
+cd notes/wi
+cd notes
+vim S
+vim Sabre.md
+cd WebDAV
+vim sabredav.md
+cd Downloads
+cat 20
+cat 20221210T183351Z-e5e93974e48b2f8b.ics
+ssh gulugulu@aegaeon.uberspace.de
+doas emerge --ask --deselect steam
+eix -s steam
+eix -s steam-launcher
+doas emerge --ask --deselect steam-launcher
+doas emerge --update --newuse --deep --with-bdeps=y @world
+doas emerge --ask --depclean
+doas shutdown -h now
+vim
+n -e
+pwd
+ls
+exit
+Test
+ls
+n -e
+n -tmux-sessionizere
+tmux-sessionizer
+cd Downloads
+git clone https://github.com/ThePrimeagen/.dotfiles
+cd .dotfiles/nvim/.config
+cd nvim
+cd lua/u
+ls 
+cd lua
+cd theprimeagen
+n -e
+cat ./* | grep refactoring
+ls
+cd ..
+cd .config/nvim/lua/user
+rm statusline.lua
+vim filemanager
+vim filetree.lua
+vim keymap/init.lua
+vim statusline.lua
+vim ./*
+n -e
+vim keymap/telescope.lua
+vim keymap/refactoring.lua
+ls nvim*
+rm -rf nvim.mybak nvim.nice-bak 
+mv nvim nvim.bak
+mv ~/Downloads/.dotfiles/nvim/.config/nvim ./
+cd nvim
+cd lua/theprimeagen
+vim packer.lua
+vim init.lua
+vi init.lua
+cd ..
+n -e
+ls
+rm -rf nvim
+mv nvim.bak nvim
+vim nvim/lua/user/packer.lua
+cd /tmp
+ls
+bash test.sh
+ls
+lua ./test.lua
+cd .config/nvim/after/plugin
+vim keymap/refactoring.lua
+vim keymap/telescope.lua
+vim /tmp/test.sh
+n -e
+vim
+vim packer.lua
+cd /tmp/
+ls
+lua test.lua
+vim test.lua
+lua test.lua
+cd .config/nvim/lua/user
+ls
+vim packer.lua
+cd .config/nvim/after/plugin
+vim terminal.lua
+vim
+vim te
+vim terminal.lua 
+vim
+ls
+vim /tmp/test.md
+cd .config/nvim/
+ls
+vim after/plugin/keymap/init.lua
+cd .config/nvim/after/plugin/ls
+cd .config/nvim/after/plugin/
+vim kls
+vim color.lua
+vim cop
+ls
+vim keymap/init.lua
+vim lsp.lua
+vim /tmp/caldav.md
+cd .config/nvim/after/plugin
+vim markdown.lua
+vim .config/nvim/lua/user
+cd .config/nvim/lua/user
+vim ls
+n -e
+vim lsp.lua
+vim /tmp/test.lua
+ls ~/.co
+ls ~/.config

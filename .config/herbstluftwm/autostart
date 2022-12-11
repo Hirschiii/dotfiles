@@ -19,7 +19,7 @@ xmodmap ~/.Xmodmap &
 
 myTerm="alacritty"
 myLauncher="dmenu_run"
-myBrowser="qutebrowser"
+myBrowser="chromium-bin"
 
 hc emit_hook reload
 
@@ -52,6 +52,7 @@ hc keybind $Mod-Shift-p spawn scrot '/tmp/%F_%T_$wx$h.png' -s -e 'xclip -selecti
 
 hc keybind $Mod-d spawn $myLauncher
 hc keybind $Mod-w spawn $myBrowser
+hc keybind $Mod-Shift-w spawn feh --bg-fill --randomize ~/.config/wall/*
 hc keybind XF86Calculator spawn st -e bc
 
 # Scripts
@@ -179,7 +180,7 @@ hc set frame_gap 0
 hc set frame_bg_transparent 1
 
 # add overlapping window borders
-hc set window_gap 0
+hc set window_gap 40
 hc set frame_padding 0
 hc set smart_window_surroundings 0
 hc set smart_frame_surroundings 1

@@ -15,5 +15,12 @@ alias ytv-best="yt-dlp -f bestvideo+bestaudio "
 # the terminal rickroll
 alias rr='curl -s -L https://raw.githubusercontent.com/keroserene/rickrollrc/master/roll.sh | bash'
 
-alias mathjax='pandoc $1 -o output.pdf --template=eisvogel.latex'
-alias eisvogel='pandoc --mathjax=https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js -s $1 -o output.html'
+alias eisvogel='pandoc $1 -o output.pdf -s --from markdown --to pdf --template=eisvogel.latex --number-sections'
+alias mathjax='pandoc --mathjax=https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js -s $1 -o output.html'
+
+# Work
+
+alias summary="task summary"
+
+alias mydoc_web="doas quark -h 127.0.0.1 -p 80 -d ~/notes/site"
+
