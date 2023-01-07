@@ -97,6 +97,7 @@ local function config(_config)
     return vim.tbl_deep_extend("force", {
         on_attach = function()
             local opts = { buffer = true };
+            -- nnoremap("<space>e", vim.diagnostic.open_float)
             nnoremap("gd", function() vim.lsp.buf.definition() end, opts)
             nnoremap("K", function() vim.lsp.buf.hover() end, opts)
             nnoremap("<leader>vws", function() vim.lsp.buf.workspace_symbol() end, opts)
@@ -141,15 +142,16 @@ vim.api.nvim_create_autocmd({ "BufWritePost" }, {
 
 require("mason-lspconfig").setup()
 
-require("mason-lspconfig").setup_handlers {
-    function (server_name)
-        require("lspconfig")[server_name].setup(config(
-        {capabilities = capabilities}
-        ))
-    end,
-}
+-- require("mason-lspconfig").setup_handlers {
+--     function (server_name)
+--         require("lspconfig")[server_name].setup(config(
+--         {capabilities = capabilities}
+--         ))
+--     end,
+-- }
 
 require'lspconfig'.bashls.setup(config())
+
 require("lspconfig").html.setup({
     cmd = { "vscode-html-language-server", "--stdio" },
     filetype = { "html" },
@@ -165,6 +167,33 @@ require("lspconfig").html.setup({
 },config())
 
 require("lspconfig").grammarly.setup(config())
+require("lspconfig").pylsp.setup(config())
+require'lspconfig'.phpactor.setup({
+    -- on_attach = on_attach,
+    root_dir = require("lspconfig").util.root_pattern('index.php');
+    init_options = {
+        ["language_server_phpstan.enabled"] = true,
+        ["language_server_psalm.enabled"] = true,
+    },
+},config())
+
+require("lspconfig").efm.setup {
+    on_attach = on_attach,
+    flags = {
+        debounce_text_changes = 150,
+    },
+    init_options = {documentFormatting = true},
+    filetypes = {"python"},
+    settings = {
+        rootMarkers = {".git/"},
+        languages = {
+            python = {
+                {formatCommand = "black --quiet -", formatStdin = true}
+            }
+        }
+    }
+}
+
 --
 --
 -- require("lspconfig").ccls.setup(config())

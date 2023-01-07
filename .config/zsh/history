@@ -1,433 +1,4 @@
-xrdb -merge .Xresources
-doas emerge --ask starship
-eix -s starship
-bashtop
-start
-ls zsh-syntax-highlighting
-mv zsh-syntax-highlighting/zsh-syntax-highlighting.zsh ./
-rm -rf zsh-syntax-highlighting
-git clone https://github.com/zsh-users/zsh-syntax-highlighting.git
-rm zsh-syntax-highlighting.zsh
-cd zsh-syntax-highlighting
-chmod +x zsh-syntax-highlighting.
-chmod +x zsh-syntax-highlighting.zsh
-source ./zsh-syntax-highlighting.zsh
-ba
-starship
-starshipinit
-starship init
-starship init zsh
-feh Downloads/test.svg
-feh --conversion-timeout 1 Downloads/test.svg
-DISPLAY=:0 feh --bg-max --randomize ~/.wallpaper/*
-DISPLAY=:0 feh --bg-max --randomize ~/.config/wall/*
-cat autostart.sh
-feh --bg-max --randomize ~/.config/wall/*
-feh --bg-fill --randomize ~/.config/wall/*
-pkill picom 
-hotp
-dpo
-dpas 
-mkdir kunst
-eix -s discord
-discord
-doas shutdown -h
-doas shutdown -h noe
-mydoc_web
-vim 2022-11-18-Physik-Unterricht.md
-doas emerge --ask discord
-doas emerge --ask discord-bin
-vim .local/bin/autotiling
-picom --benchmark
-picom --benchmark cykler
-picom --benchmark cykle
-picom --benchmark 1
-picom --benchmark 2
-picom -h
-picom --vsync --daemon
-emerge --update --newuse --deep --with-bdeps=y @world
-vim vocs.md
-vim .config/picom/
-ld
-watch ip a
-doas emerge --ask --deselect picom
-git clone https://gitlab.com/Zaney/picom
-LDFLAGS="-L/usr/X11R6/lib -L/usr/local/lib" CPPFLAGS="-I/usr/X11R6/include -I/usr/local/include" meson --buildtype=release . build
-ninja -C build\
-
-eix -s libevent
-doas emerge --ask dev-libs/libevent
-eix -s uthash
-eix -s xcb
-doas emerge --ask x11-misc/xcb
-eix -s libev
-eix -s libconfig
-eix -s meson
-eix -s picom
-rm -rf picom
-git clone https://github.com/pijulius/picom
-git submodule update --init --recursive
-meson --buildtype=release . build
-ninja -C build
-ninja -C build install
-doas ninja -C build install
-picom
-doas ninja -C build uninstall
-doas emerge --ask picom
--ip a
-picom --deamon
-picom --daemon
-ip a
-doas emerge --update --newuse --deep --with-bdeps=y @world\
-
-doas emerge --ask signal-desktop-bin
-doas eselect kernel list
-cd linux
-cd picom
-pkill tint2
-cat .Xresources
-git clone https://github.com/polybar/polybar
-ls po
-cd .dotfiles/.config
-mkdir polybar
-cp /etc/polybar/config.ini ./polybar
-polybar mybar
-chmod +x launch.sh u
-chmod +x launch.sh 
-vim launch.sh
-eix -s polybar
-vim /etc/portage/package.use/polybar
-doas vim /etc/portage/package.use/polybar
-doas emerge --ask polybar
-vim ~/.local/bin/autostart.sh
-git clone
-git clonepolybar example &\
-
-git clone https://github.com/ColemakMods/mod-dh.git
-cp ./colemak_dh_iso_us.xmodmap ~/.colemak_dh.xmodmap
-setxkbmap de -variant colemak_dh
-setxkbmap de 
-setxkbmap -h
-setxkbmap 
-setxkbmap --help
-man setxkbmap
-setxkbmap -print
-xmodmap .XM
-xmodmap .Xmodmap
-vim .local/bin/keyboardswitch
-vim .local/bin/keyboardswitch.sh
-xmodmap ~/.Xmodmap
-now=$(setxkbmap -print | awk -F"+" '/xkb_symbols/ {print $2}')\
-
-bash
-~/.local/bin/switchkey.sh
-vim .config/emptty
-setxkbmap us -variante colemak-dh
-setxkbmap us -variant colemak-dh
-setxkbmap us -variant colemak_DH
-setxkbmap us -variant colemak_dh
-setxkbmap sf
-setxkbmap -query | grep layout
-xkblayout-state print "%s"
-setxkbmap -print | awk -F"+" '/xkb_symbols/ {print $2}'
-vim .local/bin/switchkey.sh
-chmod +x switchkey.sh
-./switchkey.sh
-setxkbmap de
-vim .task
-vim .taskw
-vim .taskrc
-feh --bg-fill Downloads/colemak_dh_main_ansi.png
-feh --bg-fit Downloads/colemak_dh_main_ansi.png
-feh --bg-scale Downloads/colemak_dh_main_ansi.png
-task add +fun Blender Keyboard colemak dh
-q2 17
-q2 18
-q2 19
-q1 20
-task 7 mod Mikael Geb. Geschenk
-task +Klausur 
-task add project:Schule priority:H urgent:N +Kunst +Klausur Kunst Klausur
-task inbox
-task +Klausur
-task add Deutschafugaben
-task start 22
-pkill polybar
-polybar exapel
-polybar example
-vim .config/polybar/config.ini
-ls /sys/class/power
-ls /sys/class/power_supply
-vim tmp3algjeso_AB\ 7\ Wenn\ Männer\ und\ Frauen\ streiten.txt
-vim .config/herbstluftwm/qu
-task 14 done
-task 20 mod due:thu
-task 2 done
-task 10 done
-tas
-pandoc 2022-11-27-Musik-Unterricht.md -o output.pdf
-task +Musik
-pandoc 2022-11-21-Deutsch-Unterricht.md --to pdf
-vim idn
-pandoc 2022-11-21-Deutsch-Unterricht.md -o output.pdf
-task 22 stop
-task undo
-pkill emacs
-cd notes/School
-mkdir musik
-vim .zshrc 
-pandoc Umfrage.md -o Umfragen.pdf
-zathura Umfragen.pdf
-npm i bootstrap
-rm .rf package.json package-lock.json 
-rm  package.json package-lock.json 
-cd notes/School/projektorientierung
-cd pro
-mkdir Biodiversität_Umfrage
-touch index.html
-eix -s vscode-html
-rm -rf package-lock.json
-ls .npm
-ls node_modules
-npm init t
-npm init
-rm -rf package.json
-npm list -g
-npm install --save vscode-html-languageservice --user
-cd work/Biodiversität_Umfrage
-npm install -g npm@9.1.2
-doas npm install -g npm@9.1.2
-pandoc Umfrage.md -o Umfrageb.docx
-cd Dwo
-unzip bootstrap-5.2.3-examples.zip
-cd bootstrap-5.2.3-examples
-cd headers
-vim headers.css
-cd /etc/npm
-rm -rf package*
-ls /usr/bin/vscode-html-language-server
-vim treesitter.lua
-vim treesitter-context.lua
-ls lsp.lua
-vscode-html-language-server 
-eix -s vym
-doas emerge --ask vym
-cd notes/Wiki
-cd notes/School/deutsch
-zathura deutsch_sil.pdf
-chmod +x Obsidian-1.0.3.AppImage
-./Obsidian-1.0.3.AppImage
-doas cp Obsidian-1.0.3.AppImage /usr/bin/obsidian
-vim config.ini
-obsidia
-obsidian
-l
-ls kunst
-mv -rf kunst School/
-mv kunst School/
-ls ku
-mkdocs build
-ls Area
-rm -rf Area
-ls daily
-vimh
-vim fzf-important-files 
-vim config
-vim config-files-import
-vim fzf-important-files
-vim notes/daily/2022/10/2022-10-03.md
-cd notes/daily/2022
-mkdir 11
-cd 11
-ls html
-rm -rf html
-ls javascripts
-ls Me
-cat Me/presentation.md
-mv Me/presentation.md Wiki
-cd Me
-vi mTo
-vim To
-vim TODO.md
-rm TODO.md
-cat my_vim_tutor.md
-cat workflow.md
-rm -rf Me
-ls Planning
-cd Planning
-rm -rf Planning
-git commit -m "update"
-git push
-cd Resources
-ls Assets
-ls Dataview
-rm -rf Dataview
-task project:Home
-cd Pr
-cd pr
-tree 
-rm -rf backups
-ls Documents
-ls go
-ls music
-ls personal
-rm -rf personal
-vim WebDav.md
-npm i -g vscode-langservers-extracted
-rm /usr/bin/vscode-*
-doas rm /usr/bin/vscode-*
-doas npm i -g vscode-langservers-extracted
-pandoc 2022-11-21-Deutsch-Unterricht.md -o output.docx
-haskell-updater
-eix -s
-eix -s thunar
-doas emerge --ask thunar
-shutdown -h now
-doas !
-doas doas !
-vim colemak.lua
-sed -i "s/local/test" init.lua
-sed -i "s/local/test/" init.lua
-sed -i "s/test/local/" init.lua
-vim i
-vim keyboardswitch.sh
-cat keyboardswitch.sh
-rm keyboardswitch.sh
-vim switchkey.sh
-vim lua/user
-vim lua/user/colemak.lua
-vim colortheme
-ls -j
-ls -h
-man ls
-ls -l Downloads
-ls Downloads/signal-2022-11-
-ls Downloads/signal-2022-11-*
-cd .config/nvim/after/plugin/keymap
-cat harpoon.lua
-cat telescope.lua
-pandoc 2022-11-29-Geschichte-Unterricht.md -o output.pdf
-sxiv Downloads/signal-2022-11-29-103027_002.jpeg
-vim auto
-bc
-man bc
-q1
-cd .config/qutebrowser
-mv config.py .config.py.bak
-qutebrowser
-man qutebrowser
-qutebrowser -d
-mv .config.py.bak config.py
-time qutebrowser
-vim config.py
-feh --bg-fill .config/wall/colemak.png
-cp Downloads/colemak_dh_iso.png .config/wall/colemak.png
-sxiv Downloads/colemak_dh_
-sxiv Downloads/colemak_dh_iso.png
-feh --bg-fill Downloads/colemak_dh_iso.png
-feh --bg-scale Downloads/colemak_dh_iso.png
-feh --bg Downloads/colemak_dh_iso.png
-man feh
-feh --bg-center Downloads/colemak_dh_iso.png
-cd Downloads/mod-dh/
-ls cm
-ls xmodmap
-cd xmodmap
-cp colemak_dh_iso_us_wide.xmodmap ~/.colemak_dh.xmodmap
-rm .colemak_dh.xmodmap
-vim .local/bin/autostart.sh
-man sxiv
-feh ./*
-feh ./* &
-rm dark-cat-rosewater.png
-rm gen*
-git clone https://github.com/siddhanthrathod/bspwm.git
-cd bspwm
-feh --bg-fill ign_leafHelmet.png
-mv ign_leafHelmet.png ~/.config/wall/
-sxiv mono.png nord-* 94605.jpg
-mv mono.png nord-* ~/.config/wall
-mv -rf mpv turbowarp-desktop xfce4/ mimeapps.list pavucontrol.ini QtProject.conf kdenlive* procps pulse Signal onlyoffice obsidian neofetch MuseScore light libreoffice InSilmaril htop gtk-* GIMP filezilla Element dconf configstore chromium-bin bashtop bspwm ~/.config
-mv mpv turbowarp-desktop xfce4/ mimeapps.list pavucontrol.ini QtProject.conf kdenlive* procps pulse Signal onlyoffice obsidian neofetch MuseScore light libreoffice InSilmaril htop gtk-* GIMP filezilla Element dconf configstore chromium-bin bashtop bspwm ~/.config
-stow -
-cat .bash_profile
-rm -rf .bash_profile
-rm .config
-mkdir .config
-ls .co
-ls .cong
-ls .config
-feh --bg-fill wp10514861-richard-stallman-wallpapers.jpg
-mv wp10514861-richard-stallman-wallpapers.jpg ~/.config/wall/gta.jpg
-git add .
-vim /etc/X11/xorg.conf.d
-vim .stow-local-ignore
-ls 
-cd notes/He
-sc-im Uberspace.
-sc-im Uberspace.sc
-tree work
-tree Documents
-rm -rf go
-cd ls
-ls -la
-cd .do
-rm art* auto* cmark c* d* l* m* t* a* c* e*
-rm fzf-important-files glow
-rm gentoo-updater himalaya kara opentmux p* soatmux unix wiki2html.sh
-rm stylua
-cd .dotfiles
-stow .
-cd .local
-rm *@
-ls *@
-rm art* c* d* ewrap fzf-important-files g* himalaya lo* m* m* opentmux tmux-*
-rm auto*
-rm kara passmenu2 soatmux stylua termtyper turbwarp unix wiki2html.sh
-rm powersave
-lsa
-cd bin
-cat powersave
-cat unix
-./unix
-cat watchmedo
-./watchmedo
-./watchmedo log
-cat create_beamer
-man pass
-zip Account_Scraper
-cd Account_Scraper
-zip Uberspace.*
-man zip
-zip Uberspace Uberspace.*
-vim Uberspace.sc
-doas powertop
-doas vim /etc/X11/xorg.conf.d/20-intel.conf
-doas intel_gpu_frequency
-sxiv /tmp/2022-11-30_09:11:45_1890x349.png
-doas mv /etc/X11/xorg.conf.d/20-* ./
-doas mv 20-* /etc/X11/xorg.conf.d
-pkill powertop
-doas pkill powertop
-pkill pulseaudio
-vim .config/picom/co
-vim .config/picom/picom.conf
-doas vim /etc/portage/package.use/libva
-doas emerge --ask media-video/libva-utils x11-drivers/xf86-video-intel
-doas emerge --ask media-video/libva-utils x11-drivers/xf86-video-intel mpv
-doas emerge --ask media-video/libva-utils x11-drivers/xf86-video-intel mpv media-libs/libva-intel-media-driver
-task add urgent:Y priority:H doas emerge --ask mpv media-libs/libva-intel-media-driver
-task 9 due;
-task 9 mod due:
-vim 2022-11-30-Spanisch-Gramatic-conditional.md
-acpi
-ytv-best 'https://www.youtube.com/watch?v=IXlL_83bPqM'
-doas emerge --ask mpv media-libs/libva-intel-media-driver
-tmux-sessionizer
-doas intel_gpu_tp
-mpv Violent\ Night\ ｃ�\ Offizieller\ Trailer\ deutsch⧸german\ HD\ \[IXlL_83bPqM\].webm
 doas emerge --ask media-libs/vulkan-loader
-neofetch
 ytv-best 'https://www.youtube.com/watch?v=LXb3EKWsInQ'
 VDPAU_DRIVER=va_gl mpv COSTA\ RICA\ IN\ 4K\ 60fps\ HDR\ \(ULTRA\ HD\)\ \[LXb3EKWsInQ\].webm
 intel_gpu_top
@@ -475,7 +46,6 @@ doas rm /etc/portage/make.
 primusrun ls
 primusrun glxinfo -B
 eix -s nvidia
-vim .xinitrc
 grep -E 'WW|EE' /var/log/Xorg.0.log
 doas emerge --ask @preserved-rebuild
 doas emerge --ask nvidia-driver
@@ -534,7 +104,6 @@ grub-mkconfig -o /boot/grub/grub.cfg
 primusrun
 emerge --ask sys-power/bbswitch x11-misc/bumblebee x11-misc/primus
 doas emerge --ask sys-power/bbswitch x11-misc/bumblebee x11-misc/primus
-cd 
 cd Source/envycontrol
 doas python envycontrol.py
 doas python envycontrol.py -s hybrid
@@ -544,7 +113,6 @@ lspci| grep 3d
 lspci| grep 3D
 doas vim /etc/portage/package.use/mpv
 doas grub-mkconfig -o /boot/grub/grub.cfg
-doas shutdown -r now
 lspci | grep 3d
 rc-service ly stop
 primusrun glxgears
@@ -560,9 +128,6 @@ mplayer -vc help | grep --color vdpau
 doas emerge --ask vlc
 emerge --ask --changed-use --deep @world
 doas emerge --ask --changed-use --deep @world
-cd .config/polybar
-./launch.sh
-cd .local/bin
 vim autostart.sh
 ./autostart.sh
 cd work/langtec/emails
@@ -595,8 +160,6 @@ cat chooser.sh
 cd notes/School/Mathe
 zathura Wurzelfunktionen.pdf
 prime-run mpv Downloads/COSTA\ RICA\ IN\ 4K\ 60fps\ HDR\ \(ULTRA\ HD\)\ \[LXb3EKWsInQ\].webm
-cd .config/herbstluftwm
-vim autostart
 vim lua/user/init.lua
 cat lua/user/init.lua
 vim .config/herbstluftwm/autostart
@@ -634,17 +197,14 @@ c
 ls test
 cd test
 ls ../notes
-vim Makefile
 rm -rf test
 vim opa
 cat init.lua
-vim index.
 vim after/plugin/keymap
 eix -s bat
 eix -s ctags
 doas emerge --ask ctags
 vim ind
-vim init.lua
 ctags -R ./
 man ctags
 ctags -R init.lua
@@ -652,13 +212,11 @@ ctags -R .
 ctags -R -f .
 cat tags
 rm tags
-vim after/plugin/keymap/init.lua
 vim lua/user/keymap.lua 
 ctags
 ctags .
 ctags *
 ctags -R *
-s
 ctags --list-feature
 ctags --list-features
 ctags --help
@@ -696,15 +254,11 @@ make install
 vim 
 make clean
 doas make clean
-make clean install 
-doas make clean install 
 echo $VIMRUNTIME
 rm /usr/local/share/nvim/runtime
 doas rm -rf /usr/local/share/nvim/runtime
 cd nvtop
-cd ..
 cd neovim
-doas make install
 eix -s LIBVTERM
 doas emerge --ask LIBVTERM
 eix  dev-libs/tree-sitter
@@ -724,7 +278,6 @@ startx
 doas emerge --ask --verbose --update --newuse --deep @world\
 
 cd lua/user
-vim set.lua
 eix -s lua-
 eix -s sumneko
 eix -s lua-language-server
@@ -739,12 +292,8 @@ cd ../..
 ./bin/lua-language-server 
 npm i -g bash-language-server
 doas npm i -g bash-language-server
-cd nvim
 cd after/plugin
-vim statusline.lua
-rm statusline.lua
 vim color.lua 
-doas nvim /etc/portage/make.conf
 doas vim /etc/portage/package.use/gtk
 doas vim /etc/portage/make.conf
 cat /etc/portage/make.conf
@@ -761,11 +310,9 @@ doas emerge --ask bat
 vim .config/shell/zsh_alias
 doas rm /etc/portage/package.use/gtk 
 bat .local/bin/gentoo-updater
-cd /usr/src/linux
 doas emerge --ask --deep --update --newuse @world
 doas emerge @
 doas nvim /etc/portage/package.use/gtl
-gentoo-updater
 doas
 cat .local/bin/gentoo-updater
 doas emerge --ask --verbose --update --newuse --deep @world
@@ -783,10 +330,7 @@ mkdir snippets
 task 12 done
 vim test
 cd .config/shell/
-vim zsh_alias
 cat markdown.md
-cd notes/Resources/Templates
-cat mark_titel.md
 vim mark_titel.md
 vim /tet
 vim /tmp/tet
@@ -798,7 +342,6 @@ doas emerge --ask wintericks
 doas emerge --ask winetricks
 doas nvim /etc/portage/package.use/gtk
 eix -s evolution
-doas dispatch-conf
 doas emerge --ask mail-client/evolution
 eix -s rpi-imager
 eix -s khal
@@ -823,16 +366,12 @@ doas ./setup.py install
 calcli
 doas rm /etc/portage/package.accept_keywords/vdir
 eix -s vdirsyncer
-doas 
 doas emerge --ask vdirsyncer
-cd Source
 git clone https://github.com/pimutils/vdirsyncer
 cd vdirsyncer
-make
 pip install --user --ignore-installed vdirsyncer
 vdirsyncer
 vdirsyncer showconfig
-cd .config
 mkdir vdirsyncer
 vdirsyncer sync
 vdirsyncer discover bob_calendar
@@ -848,7 +387,6 @@ eix -s kalendar
 eix -s calendat
 eix -s calendar
 doas emerge --ask gnome-calendar
-cd .config/nvim/after/plugin/
 cd notes/Projects/keyboard
 mv WebDav.md WebDAV/index.md
 vim WebDAV/index.md
@@ -859,16 +397,11 @@ cd Documents
 mkdir Templates
 vim Templates/default.html
 cd .config/nvim/lua/user/ma
-vim te
-vim markdown.lua
 vim templates.lua
 eix -s luarocks
 doas emerge --ask luarocks
 vim .config/nvim/lua/user/packer.lua
 vim .config/nvim/lua/user/markdown.lua
-nvim
-cd .config/nvim/lua/user/pa
-cd .config/nvim/lua/user/
 nvim 
 cd wi
 mkdir html
@@ -883,7 +416,6 @@ vim tets.js
 vim .config/nvim/after/plugin/lsp.lua
 doas vim /etc/portage/package.use/steam
 doas -s emerge --ask --noreplace app-eselect/eselect-repository dev-vcs/git
-sensors
 steam
 doas intel_gpu_t
 doas intel_gpu_top
@@ -901,17 +433,14 @@ xrandr --listproviders
 prime-run glxgears
 nvtop
 eix -s nvtop
-doas -s
 pkill nvtop
 doas pkill nvtop
 doas pkill intel_gpu_top
-pkill picom
 ssh pi@192.158.4.17
 lsd
 npm install -g neovim
 doas npm install -g neovim
 vim lsa
-vim ls
 doas npm install -g tern
 npm install -g bundle/tern_for_vim
 doas npm config set legacy-peer-deps true
@@ -924,24 +453,10 @@ doas npm install -g tern-neovim
 doas npm install -g tern_for_vim
 doas npm install -g https://github.com/ternjs/tern_for_vim
 vim sr
-htop
-cd .config/nvim/lua/user
-vim packer.lua
-nvidia-smi
-cd work
-vim scripts.js
-cd
 cd work/html/designes/Images_parralex_smoth
 cp scripts.js ../../../Biodiversität_Umfrage/
-chromium-bin index.html
-cd Biodiversität_Umfrage
-vim index.html
 vim main.css
 mv main.css style.css
-vim style.css
-tree
-cd .config/wall
-sxiv ./*
 rm ge
 ls wall
 rm -rf wall
@@ -951,10 +466,6 @@ vim lua/user/packer.lua
 vim after/plugin/lsp.lua
 rm te
 rm test
-vim html.lua
-cd .config/nvim/after/plugin
-vim keymap/init.lua
-vim lsp.lua
 cd Wurzelfunktionen
 vim Definitionsmengen.tex
 rm --template=eisvogel.latex
@@ -962,18 +473,14 @@ rm ./--template=eisvogel.latex
 vim 2022-12-08-Mathe-Unterricht.md
 pandoc 2022-12-08-Mathe-Unterricht.md -o output.pdf
 doas poweroff -h now
-task
 herbstclient layout 
 zathura Downloads/Ph11_Freier_Fall
 zathura Downloads/Ph11_Freier_Fall.pdf
 pandoc 2022-12-09-Physik-Unterricht.md -o output.pdf
-zathura output.pdf
-zathura output.pdf &
 pandoc 2022-12-09-Physik-Unterricht.md -o output.pdf &
 cat tabellen/2022-12-09-Physik-Fall.csv
 pandoc 2022-12-09-Physik-Unterricht.md -o output.pdf 
 mv 2022-12-09-Physik-Klausur.md 2022-12-09-Physik-Unterricht.md
-vim index.md
 ls tabellen
 cat 2022-11-
 cat tabellen/2022-11-11-Klausur_vorbereitung.csv
@@ -988,111 +495,1744 @@ vim S
 vim Sabre.md
 cd WebDAV
 vim sabredav.md
-cd Downloads
 cat 20
 cat 20221210T183351Z-e5e93974e48b2f8b.ics
-ssh gulugulu@aegaeon.uberspace.de
 doas emerge --ask --deselect steam
 eix -s steam
 eix -s steam-launcher
 doas emerge --ask --deselect steam-launcher
 doas emerge --update --newuse --deep --with-bdeps=y @world
 doas emerge --ask --depclean
-doas shutdown -h now
-vim
-n -e
 pwd
-ls
 exit
 Test
-ls
-n -e
 n -tmux-sessionizere
 tmux-sessionizer
-cd Downloads
 git clone https://github.com/ThePrimeagen/.dotfiles
 cd .dotfiles/nvim/.config
-cd nvim
 cd lua/u
-ls 
 cd lua
 cd theprimeagen
-n -e
 cat ./* | grep refactoring
-ls
-cd ..
-cd .config/nvim/lua/user
 rm statusline.lua
 vim filemanager
 vim filetree.lua
-vim keymap/init.lua
 vim statusline.lua
 vim ./*
 n -e
-vim keymap/telescope.lua
-vim keymap/refactoring.lua
 ls nvim*
-rm -rf nvim.mybak nvim.nice-bak 
 mv nvim nvim.bak
 mv ~/Downloads/.dotfiles/nvim/.config/nvim ./
 cd nvim
 cd lua/theprimeagen
-vim packer.lua
-vim init.lua
 vi init.lua
-cd ..
-n -e
-ls
 rm -rf nvim
 mv nvim.bak nvim
 vim nvim/lua/user/packer.lua
-cd /tmp
-ls
 bash test.sh
-ls
 lua ./test.lua
-cd .config/nvim/after/plugin
 vim keymap/refactoring.lua
 vim keymap/telescope.lua
 vim /tmp/test.sh
-n -e
-vim
-vim packer.lua
 cd /tmp/
-ls
-lua test.lua
-vim test.lua
-lua test.lua
-cd .config/nvim/lua/user
-ls
-vim packer.lua
-cd .config/nvim/after/plugin
 vim terminal.lua
-vim
 vim te
 vim terminal.lua 
 vim
-ls
 vim /tmp/test.md
 cd .config/nvim/
-ls
 vim after/plugin/keymap/init.lua
 cd .config/nvim/after/plugin/ls
 cd .config/nvim/after/plugin/
 vim kls
 vim color.lua
 vim cop
-ls
 vim keymap/init.lua
-vim lsp.lua
 vim /tmp/caldav.md
-cd .config/nvim/after/plugin
-vim markdown.lua
 vim .config/nvim/lua/user
-cd .config/nvim/lua/user
-vim ls
-n -e
-vim lsp.lua
-vim /tmp/test.lua
 ls ~/.co
 ls ~/.config
+rm Thunar
+cd .do
+cd .dotfiles
+rm discord
+cd .dotfiles/.config
+mv discord ~/.config
+ls nvim
+rm -rf nvim.mybak nvim.nice-bak 
+cat spotify
+ls spotify
+rm ~/.config/spotify
+mv spotify ~/.config
+mv Thunar ~/.config
+git add .
+git commit -m "Update"
+git push
+vim gentoo-updater
+gentoo-updater
+ip a
+rm 10-nvidia.conf
+doas rm 10
+cd work/Biodiversität_Umfrage
+eix -s php
+eix -s php-cli
+eix -s php5-cli
+doas nvim /etc/portage/package.use/php
+doas emerge --ask php
+doas emerge --ask www-servers/nginx
+doas cp -rf work/Biodiversität_Umfrage/ /var/www/localhost/
+cd /var/www/localhost
+mv Biodiversität_Umfrage bio
+doas mv Biodiversität_Umfrage bio
+vim /etc/nginx/nginx.conf
+doas vim /etc/nginx/nginx.conf
+rc-service nginx start
+doas rc-service nginx start
+doas ps aux | grep 'php'\
+
+doas nvim /etc/portage/make.conf
+nvidia-smi
+doas cp -rf work/Biodiversität_Umfrage /var/www/localhost/bio
+ssh gulugulu@aegaeon.uberspace.de
+chromium-bin umfrage.php
+man php
+php -h
+php -f umfrage.php
+php umfrage.php
+chromium-bin index.
+rm q
+ls te
+bat templates.lua
+bat markdown.lua
+vim markdown.lua
+watch acpi
+pkill nm-applet
+ascpi
+tmux 
+doas powertop
+pandoc 2022-12-12-Deutsch-Unterricht.md -o output.pdf
+bashtop
+acpi -a
+acpi -b
+task add +sil +deutsch S. 104 Ein beispiel aus dem Text Darstellungsweise
+task inbox
+mv WebDAV Kalendar
+cd Kalendar
+doas 
+rm -rf i3lock-*
+git clone https://github.com/meskarune/i3lock-fancy.git
+cd i3lock-fancy
+doas make install\
+
+i3lock-fancy -i ~/.config/wall/linus.jpg
+i3lock-fancy -i ~/.config/wall/dracu-gentoo.png
+i3lock-fancy
+eix -s convert
+eix -s imagemagick
+git clone https://github.com/Raymo111/i3lock-color.git\
+
+cd i3lock-color
+./install-i3lock-color.sh
+i3lock-fancy -gpf Comic-Sans-MS -- scrot -z
+./lo
+./build.sh
+doas ./install-i3lock-color.sh
+i3lock
+whereis i3lock
+cd Source/i3lock-
+cd Source/i3lock-color
+doas make uninstall
+doas .s
+eix -s i3lock
+doas nvim /etc/portage/package.accept_keywords/i3
+doas emerge --ask i3lock-color
+doas dispatch-conf
+vim lock.sh
+./lock.sh
+nvim
+doas nvim /etc/nginx/nginx.conf
+doas rc-service nginx restart
+mysql -u root
+mkdir Umfrage_php
+cp umfrage.php vote.php connect.inc.php ../Umfrage_php
+doas cp -rf Umfrage_php  /var/www/localhost
+cd Umfrage_php
+mv umfrage.php index.php
+cd ..
+cp -rf ./* /var/www/localhost/bio/
+doas cp -rf ./* /var/www/localhost/bio/
+chromium-bin index.html
+vim scripts.js
+mysql -e "SHOW DATABASES;"
+mysql -u root -e "SHOW DATABASES;"
+doas emerge --ask --config mysql
+doas rc-service mysql start
+mysql -u root -h localhost -p
+eix -s php-mysql
+eix -s php mysql
+eix -s php 
+eix -s mysql
+doas emerge --ask mysql
+doas nvim /var/log/nginx
+cd /etc/nginx
+nvim nginx.conf
+cd schule
+sxiv ./*
+eix -s phpmyadmin
+doas emerge --ask phpmyadmin
+chmod +x Beekeeper-Studio-Ultimate-3.7.10.AppImage
+./Beekeeper-Studio-Ultimate-3.7.10.AppImage
+mysql -u root -p -e "SHOW DATABASES;"
+mysql -u root -p -e "SELECT @@SERVERNAME"
+mysql -u root -p
+cp -rf ./* /var/www/localhost/Umfrage_php
+doas emerge --ask --config phpmyadmin
+eix -s beekeeper
+doas cp -rf ./* /var/www/localhost/Umfrage_php
+vim index.
+vim index.html
+doas cp -rf ./* /var/www/localhost/Umfrage_php/
+php connect.inc.php
+php vote.php
+vim index.php
+vim connect.inc.php
+vim vote.php
+php statistik.php
+vim statistik.php
+nvim /var/log/nginx/
+cd /var/log/nginx
+bc 
+pandoc 2022-12-13-Unterricht-Informatik.md -o output.docx
+sc-im Noten.sc
+task add Schnelllesen
+vim init.lua
+acpi -V
+task 11 done
+task
+-la 
+tree
+enso
+sen
+sensors
+task add +sil +english p. 38 Task 3 Engnlish
+eix -s neovide
+ls neovide.tar.gz
+tar -xzf ne
+tar -xzf neovide.tar.gz
+ls ne
+ls neovide
+./neovide
+doas cp neovide /usr/bin
+vim ls
+vim sl
+vim lsp.lua
+cd .config/nvim/lua/user
+vim set.lua
+picom
+picom --daemonm
+picom --deamon
+neovide --wsl
+neovide --multigrid --noidle 
+eix -s xsecurelock
+cd SOu
+git clone https://github.com/google/xsecurelock.git
+cd xsecurelock
+sh autogen.sh
+./configure --with-pam-service-name=emptty
+ls /etc/pa
+ls /etc/pam.d/
+bat .xinitrc
+neovide -h
+neovide --multigrid
+vim .xinitrc
+vim .config/emptty 
+xsecurelock
+env XSECURELOCK_SAVER=saver_xscreensaver xsecurelock
+xss-lock
+eix -s xss-lock
+doas emerge --ask xss-lock
+eix -s xautolock
+doas emerge --ask xautolock
+xset s 300 5
+xss-lock -n /usr/lib/xsecurelock/dimmer -l -- xsecurelock
+mylocker = env XSECURELOCK_PASSWORD_PROMPT=time_hex XSECURELOCK_DISCARD_FIRST_KEYPRESS=0 xsecurelock\
+
+bash
+xscreensaver-demo
+xsecurelock -h
+xsecurelock -h | grep screen
+xsecurelock -h | grep screen saver
+xsecurelock -h | grep "screen saver"
+env XSECURELOCK_SAVER=saver_multiplex XSECURELOCK_DISCARD_FIRST_KEYPRESS=0 xsecurelock
+env XSECURELOCK_SAVER=saver_xscreensaver XSECURELOCK_DISCARD_FIRST_KEYPRESS=0 xsecurelock
+eix -s xscreen
+doas emerge --ask xscreensaver
+env XSECURELOCK_PASSWORD_PROMPT=disco XSECURELOCK_DISCARD_FIRST_KEYPRESS=0 xsecurelock
+env XSECURELOCK_PASSWORD_PROMPT=time_hex XSECURELOCK_DISCARD_FIRST_KEYPRESS=0 xsecurelock
+env XSECURELOCK_PASSWORD_PROMPT=kaomoji XSECURELOCK_DISCARD_FIRST_KEYPRESS=0 xsecurelock
+env XSECURELOCK_PASSWORD_PROMPT=emoticon XSECURELOCK_DISCARD_FIRST_KEYPRESS=0 xsecurelock
+cd .config
+./emptty
+vim emptty
+pandoc Biodiversität.docx -o output.md
+cd work/Umfrage_php
+cd 
+vim h
+vim html.lua
+rm sl
+cd .config/nvim/lua/user/pa
+cd .config/nvim/lua/user/
+vim packer.lua
+xset s activate
+pandoc Umfrage\ Projekt\ .docx -o output.md
+mv umfrage.php umfrage_layout.php
+vim umfrage_layout.php
+vim fragen_layout.html
+mv fragen_layout.html umfrage.php
+cal
+vim .config/emptty
+echo $EDITOR
+git clone https://github.com/j-jith/taskwarrior-kanban
+cd taskwarrior-kanban
+python tw-kanban.py
+pip3 install jinja2 --user
+doas pip3 install jinja2 --user
+python3 tw-kanban.py
+cd notes/Resources/Templates
+s
+bat mark_titel.md
+cat mark_titel.md
+cd .config/nvim/after/plugin
+cat lsp.lua| grep snipp
+vim luasnip.lua
+calc
+vim Downloads/asset.HEIC
+sxiv Downloads/asset.HEIC
+eix -s tetris
+doas emerge --ask nottetris2
+ninvaders
+eix -s nsnake
+eix -s ninvaders
+doas -s 
+doas emerge --ask ninvaders
+git clone https://github.com/tiehuis/2048-cli.git
+cd 2048-cli
+./2048
+eix -s nethack
+doas emerge --ask nethack
+git clone https://github.com/alexdantas/nSnake
+cd ns
+cd nSnake
+doas emerge --ask dso
+vim Makefile
+cat INSTALL.md
+nethack
+neofetch
+watch -h
+watch -n 30 pandoc 2022-12-15-Mathe-Unterricht.md -o output.pdf
+pandoc 2022-12-15-Mathe-Unterricht.md -o output.pdf
+bc
+vim Wurzelfunktionen/Definitionsmengen.tex
+pkill pulseaudio
+cd .local/bin
+./dmenumount
+lsblk
+dmenumount
+cd /media
+cp ~/Downloads/Zusammenfassung_Frauen_in_Fuehrungspositionen.pdf /media/
+doas cp ~/Downloads/Zusammenfassung_Frauen_in_Fuehrungspositionen.pdf /media/
+ls /media
+dmenuunmount
+task add +sil +english p. 52 Nr. 2
+cd notes/School/kunst
+mkdir Frühstück
+cd Frühstück
+sxiv pexels-*
+cp pexels-* ~/notes/School/kunst/Frühstück
+pkill gimp
+prime-run gimp
+cd .config/herbstluftwm
+vim autostart
+doas nvim /etc/portage/package.use/qutebrowser
+doas emerge --ask qutebrowser
+vym -h
+eix -s vym
+git clone https://github.com/insilmaril/vym
+cd vym
+cmake -
+cmake .
+make
+doas make install
+doas make clean install
+vym -v
+whereis vym
+/usr/bin/vym -b
+/usr/bin/vym -v
+/usr/local/bin/vym -v
+doas mv /usr/bin/vym /usr/bin/vym-old
+pkill picom
+cd .config/nvim/after/plugin/keymap
+vim telescope.lua
+vim notes/Resources/Templates/mark_titel.md
+cd .config/shell
+vim zsh_alias
+pass test/test
+himalaya
+mkdir Mail
+mail
+cd Mail
+pandoc Facharbeit\ Papa\ 2.docx -o Facharbeit.md
+cat Facharbeit
+cat Facharbeit.md
+pandoc Facharbeit.md -o output.pdf
+vim Facharbeit
+vim Facharbeit.md
+eisvogel Facharbeit.md
+zathura Facharbeit
+pandoc Facharbeit.md -o output.pdf -s --toc --from markdown --to pdf --template=eisvogel.latex --number-sections
+pandoc Facharbeit.md -o output_we.pdf -s --toc
+zathura output_we.pdf&
+pandoc Facharbeit.md -o output_we.pdf -s --toc --number-sections 
+cp Facharbeit.md Facharbeit_we.md
+vim Facharbeit_we.md
+pandoc Facharbeit_we.md -o output_we.pdf -s --toc --number-sections 
+picom --daemon
+cd notes/School/bio/vym_web
+chromium-bin Klausur_16_12.html
+sxiv Klausur_16_12.
+sxiv Klausur_16_12.png
+mv 2022-12-15-English-Unterricht.md 2022-12-15-English-Sil.md
+cd Biomembran
+zathura slides.pdf
+zathura output.pdf &
+pandoc 2022-12-15-English-Unterricht.md -o output.pdf
+vim vym
+vim /tmp/test.lua
+2
+lua test.lua
+cd /tmp
+vim test.lua
+rm test.lua
+vim pong.bash
+bash nummer_erraten.bash
+cd work
+mkdir copilot
+cd copilot
+vim nummer_erraten.bash
+vim chattbot.lua
+qutebrowser
+time qutebrowser
+time chromium-bin
+pandoc 2022-12-16-Physik-Unterricht.md -o output.md
+zathura output.pdf&
+pandoc 2022-12-16-Physik-Unterricht.md -o output.pdf
+vim ~/notes/Resources/Templates/mark_titel.md
+cd Dow
+vim output.md 
+vim Downloads/output.md
+ls *.css
+cat style.css
+bat style.css
+vim style_umfrage.css
+cd Biodiversität_Umfrage
+vim umfrage
+bat umfrage.php
+vim umfrage.php
+vim style.css
+chrom
+chromium-bin
+pkill polybar
+vim .config/picom/
+date
+cd .config/wall
+sxiv col
+sxiv colemak.png
+rm colemak.png
+eix -s
+eix -s zoom
+doas emerge --ask zoom
+doas emerge --ask net-im/zoom
+cd .config/polybar
+setxkbmap de
+xmodmap ~/.Xmodmap 
+./launch.sh
+eix -s structorizer
+htop
+task add informatik caesar verschlüsserung
+vim .config/zoom
+vim .config/zoom.conf
+cpio
+acpi
+cd /usr/src/linux
+cd notes/School
+mkdir sport
+vim sport/index.md
+doas shutdown -r now
+vim index.md
+cd Downloads
+pandoc S-107-Nr5-19-12-22.docx -o output.md
+vim output.md
+vim .config/picom/picom.conf
+sxiv Downloads/WhatsApp\ Image\ 2022-12-19\ at\ 18.09.59.jpeg
+doas shutdown -h now
+pandoc 2022-12-19-Deutsch-Unterricht.md -o output.docx
+pandoc 2022-12-19-Deutsch-Unterricht.md -o output.pdf
+eisvogel 2022-12-19-Deutsch-Unterricht.md
+zathura output.pdf
+pandoc 2022-12-19-Deutsch-Unterricht.md -o output.tex
+pandoc 2022-12-19-Deutsch-Unterricht.md -o output.tex -s
+vim output.tex
+pdflatex output.tex
+vi 2022-12-19-Deutsch-Unterricht.md
+pandoc 2022-12-19-Deutsch-Unterricht.md -s -o output.pdf
+zathura output.pdf 
+onlyoffice output.docx
+vim 2022-12-19-Deutsch-Unterricht.md
+pandoc 2022-12-19-Deutsch-Unterricht.md -s -o output.docx
+ls 
+cd /etc/X11/Sessions/
+vim Xsession
+n -e
+cd /usr/share/xsessions
+doas s
+doas -s
+cd
+cd Source
+cd suckless
+cd dwm
+ls
+make clean install 
+doas make clean install 
+ls
+feh --bg-fill .config/wall
+cd Source/suckless/dwm
+ls
+vim config.def.h
+cd Source/suckless
+ls
+vim dwm/config.def.h
+cd notes/Projects
+ls
+mkdir Uni
+vim Uni/index.md
+task 
+task add Berufsorientierung Presentation Studiengang
+vim notes/Projects/Uni/index.md
+acpi
+cd Source/suckless/dwm
+vim config.def.h
+doas shutdown -h now
+cd Studium
+l
+zathura slides.pdf
+cat slides.
+cat slides.md
+ls
+ls
+vim index.md
+pkill pulseaudio
+ls
+task 
+task 5 done
+task 1 done
+task 2 done
+task 8 done
+task
+task add +sil +geschichte S. 45 Nr. 2 Schriftlich bearbeiten und ihm zuschicken
+cd notes/School/geschichte
+ls
+for i in [1..10]; do echo $i;\
+fir\
+fi
+for i in [1..10]; do echo $i; done
+for (i in [1..10]; do echo $i; done
+for (i in [1..10]); do echo $i; done
+for ((i=1; i<=20; i++)); do echo $i; done
+nushel
+env
+cargo search shells --limit 10
+sc
+ssh-agent -c
+ssh-agent -h
+man ssh-agent
+bashtop
+zathura Downloads/vym.pdf
+ls
+bat unnamed.csv
+rm unnamed.csv
+eix -s nushell
+doas -s
+doas emerge --ask nushell
+touch test.vym
+vym
+rm -h
+man rm
+nu
+cd notes/School/geschichte
+pandoc 2022-09-28-Geschichte-Unterricht.md -o output_1.pdf
+nu
+ls
+pandoc 2022-09-20-Geschichte-Unterricht.md - output_1.pdf
+pandoc 2022-09-20-Geschichte-Unterricht.md -o output_1.pdf
+pandoc 2022-09-28-Geschichte-Unterricht.md -o output_2.pdf
+pandoc 2022-10-04-Geschichte-Unterricht.md -o output_3.pdf
+pandoc 2022-10-12-Geschichte-Unterricht.md -o output_4.pdf
+pandoc 2022-11-01-Geschichte-Unterricht.md -o output_5.pdf
+pandoc 2022-11-15-Geschichte-Unterricht.md -o output_6.pdf
+pandoc 2022-11-29-Geschichte-Unterricht.md -o output_7.pdf
+pandoc 2022-12-13-Geschichte-Unterricht.md -o output_8.pdf
+pandoc 2022-12-21-Geschichte-Unterricht.md -o output_9.pdf
+vim index.md
+doas shutdown -h now
+lsblk
+doas -s
+doas nvim /etc/portage/package.use/adb
+doas emerge --ask dev-util/android-sdk-update-manager
+doas emerge --ask dev-util/android-sdk-update-manager dev-util/android-tools
+adb reboot bootloader
+adb
+adb devices
+fastboot
+fastboot devices
+abd
+adb
+adb reboot bootloader
+doas -s
+doas adb devices
+gpasswd -a niklas plugdev
+doas gpasswd -a niklas plugdev
+adb devices
+doas shutdown -r not
+doas shutdown -r now
+lsusb
+adb devices
+adb devices
+lsusb
+doas -s
+lsusb
+adb devices
+adb reboot bootloader
+fastboot devi
+fastboot devives
+fastboot devices
+doas -s
+ls Downloads/MindTheGapps-12.1.0-arm64-
+ls Downloads/MindTheGapps-12.1.0-arm64-*
+doas -s
+dmenumount
+cd /mnt/usb
+ls
+mkdir backup
+doas -s
+lsbusb
+lsusb
+lspciu
+lscpi
+lspci
+lsblk
+doas -s
+cd .config/herbstluftwm
+ls
+vim autostart
+dmenuunmount
+doas 
+doas .-s
+doas -s
+cd Biodiversität_Umfrage
+ls
+vim index.
+vim umfrage_layout.php
+vim umfrage.php
+ip a
+ip
+ip a
+doas -s
+ssh gulugulu@aegaeon.uberspace.de
+vim table_design_umfrage_v1.css
+ls
+cp umfrage.php umfrage.html
+touch custom_radio.css
+rm custom_radio.css
+doas rc-service nginx start
+doas rc-service php-fpm start
+vim ~/.config/alacritty/alacritty.yml
+vim umfrage.html
+cp umfrage.html umfrage.php
+vim umfrage.php
+doas shutdown -h now
+vim index.html
+cp umfrage.html umfrage.php
+vim umfrage_layout.php
+ls
+vim umfrage.html
+cp style_umfrage.css table_design_umfrage_v1.css
+vim style_umfrage.css
+vim umfrage.php
+rm tesz
+cd work
+cd Umfrage_php
+ls
+cd notes/wi
+cd notes/Wiki
+ls
+vim cat eM_Client.md
+cd work/Biodiversität_Umfrage
+vim index.md
+bc
+vim index.md
+ssh gulugulu@aegaeon.uberspace.de
+htop
+pass
+eix -s mysql
+doas nvim /etc/portage/package.use/mysql
+doas emerge --ask mysql-workbench
+doas -s
+mysql -u root -po
+mysql -u root -p
+vim index.md
+ip a
+doas shutdown -h now
+vim scripts.js
+vim index.md
+vim vote.php
+vim old.style.css
+vim index.html
+doas -s
+ssh gulugulu@aegaeon.uberspace.de
+mysql -u root -p
+vim index.
+vim index.md
+cd Biodiversität_Umfrage
+vim style_umfrage.css
+ls
+vim vote.php
+vim umfrage.php
+vim index.html
+cp style.css old.style.css
+vim style.css
+n -e
+doas -s
+mpv 'https://www.youtube.com/watch?v=Lh1SQFCu61M'
+mpv 'https://www.youtube.com/watch?v=LXb3EKWsInQ&t=11s'
+prime-run mpv 'https://www.youtube.com/watch?v=LXb3EKWsInQ&t=11s'
+doas 
+doas -s
+cd .config/zsh
+vim zsh_alias
+ls
+n -e
+cd
+vim .zshrc
+vim .config/mpv
+doas emerge --deselect xsnow
+doas emerge --ask xsno
+doas emerge --ask xsnow
+nvidia-top
+nvidia-smi
+doas 
+doas  -s
+htop
+pass
+pass test/test
+mail
+cd .config/herbstluftwm
+vim autostart
+task add conky für taskwarrior
+task
+task summary
+sum
+summary 
+task 3 delete
+task 17 delete
+task 6 delete
+task 1 delete
+task 4 delete
+task 8 delete
+task
+acpi
+vim
+vim index.
+vim index.md
+task add php lsp mason vim
+nvim
+cd .config/nvim/after/plugin
+ls
+vim lsp.lua
+n -e
+cd .config/nvim/lua/user
+vim ls
+vim lsp.lua
+n -e
+composer
+eix -s composer
+doas emerge --ask composer
+doas dispatch-conf
+eix -s pcntl
+cd .config/nvim
+vim
+composer -h
+man composer
+cd /etc/php/cli-php8.1/
+ls
+doas -s
+nvim
+nvim
+doas rc-service php-fpm restart
+php -h
+php --ini
+vim /etc/portage/package.use/php
+doas vim /etc/portage/package.use/php
+doas emerge .
+doas emerge --ask php
+phpactor
+cd /etc/php/cli-php8.1
+ls
+vim ext-active/opcache.ini
+php --ini
+composer update
+doas -S
+doas -s
+doas nvim /etc/nginx/nginx.conf
+doas rc-service nginx restart
+eix -s phpactor
+cd Biodiversität_Umfrage
+vim index.html
+vim vote.php 
+mv index.html index.php
+vim umfrage.php
+cd ..
+ls
+mv Biodiversität_Umfrage bio_po_umfrage
+vim bio_po_umfrage/vote.php
+mysql -u root -o
+mysql -u root -p
+doas -s
+cd .config/nvim/lua/user
+vim packer.lua
+cd .config/nvim/lua/user
+vim pavc
+vim packer.lua
+vim 
+vim .config/nvim/after/plugin/lsp.lua
+cd .config/nvim/after
+ls
+n -e
+vim lsp.lua
+doas -s
+mysql -u root -p
+ssh gulugulu@aegaeon.uberspace.de
+sxiv .config/wall
+sxiv .config/wall/*
+cd .config/wall
+ls
+sxiv ./*
+cd .local/bin
+ls
+vim autostart.sh
+task add +timetracker Chess
+task start Chess
+task
+task start 14
+timew
+task 
+task 14 stop
+timew
+timew summary
+timew 
+timew show
+timew -h
+timew week
+task add getting things done 
+task 15 start
+rm -rf .doomsday
+cd .dotfiles
+stow -
+stow .
+cd .local/bin
+pwd
+cd .dotfiles/.local/bin
+mkdir conky
+vim conky-disk-usage.sh
+chmod +x conky-disk-usage.sh
+./conky-disk-usage.sh
+vim conky-disk-io.sh
+vim conky-status-all
+vim conky-status-all.sh
+vim conky-task-progress.sh
+chmod +x ./*
+doas nvim /etc/portage/package.use/conky
+doas emerge --ask conky
+doas dispatch-conf 
+cd .config
+cd
+cd .dotfiles/.config
+cd conky
+conkx
+ls conky-minimal
+rm -rf ./*
+ls
+vim conky_main.lua
+conky -C ./conky_main.lua
+ls 
+ls -la
+cat .conkyrc
+conky -C .conkyrc
+vim .conkyrc
+conky
+conky -h
+conky -c ./conky_main.lua
+cd .local/bin/conky
+ls
+./conky-disk-io.sh
+cd .local/bin
+cd conky
+ls
+mv conky-disk-usage.sh conky-directory-usage.sh
+cd .local/bin/conky
+bat conky-directory-usage.sh
+mv conky-directory-usage.sh conky-disk-usage.sh
+chmod +x conky-directory-usage.sh
+vim conky-bg-space-to-fg.sh
+chmod +x conky-bg-space-to-fg.sh
+vim conky-biggest-files.sh
+chmod +x conky-biggest-files.sh
+mv conky-disk-io.sh conky-diskio.sh
+vim conky-directory-usage.sh
+./conky-directory-usage.sh
+ls
+10*100/10
+bash
+cd .local/bin
+cd conky
+ls
+printf %.2f $(echo "$float/1.18" | bc -l)
+printf %.22f $(echo "$float/1.28" | bc -l)
+printf %.2f $(echo "$float/1.28" | bc -l)
+vim conky-task-progress.sh
+./conky-task-progress.sh
+task
+task conky
+man task
+task Conky
+ansito e
+eix -s ansito
+python3.6 -m pip install ansito
+pip install ansito
+pip install ansito --user
+cd
+cd .local/bin/conky
+öls
+ls
+vim conky-task-progress.sh
+./conky-task-progress.sh
+cd .config/con
+cd .config
+cd conky
+vim ma
+conky -c conky_main.lua
+ls
+vim conky_main.lua
+vim conky_task_progress.lua
+pkill conky
+conky -c conky_task_progress.lua
+ip route get 8.8.8.8 | awk -F"dev " 'NR==1{split($2,a," ");print a[1]}'\
+
+ip route get 8.8.8.8 | awk -F"src " 'NR==1{split($2,a," ");print a[1]}'
+ip a
+hostname -I
+ip -4 addr show eth0 | grep -oP "(?<=inet ).*(?=/)"\
+
+hostname -I | awk '{ print $1 }'
+hostname -i
+cat file
+ip route get 8.8.8.8 | sed -n 's|^.*src \(.*\)$|\1|gp'
+awk '/inet addr:/{gsub(/^.{5}/,"",$2); print $2}' file
+ip route get 8.8.8.8 | tr -s ' ' | cut -d' ' -f7
+ip route get 8.8.8.8 | tr -s ' ' | cut -d' ' -f7 | awk 'print $1'
+ip route get 8.8.8.8 | tr -s ' ' | cut -d' ' -f7 | awk '{print $1}'
+ip route get 8.8.8.8 | tr -s ' ' | cut -d' ' -f7 
+cd .local/bin/conky
+vim conky-directory-usage.sh
+cd .local/bin/conky
+vim conky-task-progress.sh
+cd .config/co
+cd .config/con
+cd .config/conky
+ls
+conky -c conky_main.lua
+pkill conky
+vim conky_main.lua
+vim conky_task_progress.lua
+vim .conkyrc
+fc-list
+fc-list | grep retina
+vim conky_all.lua
+fc-list | grep Retina
+conky -c ~/.config/conky/conky_task_progress.lua
+cd .config/conky
+conky -c conky_task_progress.lua
+conky -c conky_all.lua
+pkill conky
+vim conky_all.lua
+vim conky_task_progress.lua
+cd .config/conky
+conky -c conky_all.lua
+pkill conky
+conky -c conky_task_progress.lua
+vim .config/emptty
+task
+task 15 stop
+timew week
+timew day
+cat .taskrc
+task limit:10
+task limit:10 rc.defaultwith:80
+task limit:10 rc.defaultwith:80 rc._forcecolor:on
+task limit:10 rc.defaultwith:80 rc._forcecolor:on rc.verbose:affext,blank todo
+cd .config
+ls
+task start 14
+task
+task doing
+task todo
+task
+ls -la .task
+ls -la .task*
+vim .taskrc
+pkill conky
+cd .config/conky
+conky -c conky_task_progress.lua
+task 14 stop
+cd .config/conky
+vim conky_
+vim conky_task_progress.lua
+task
+task todo
+task doing
+task todo
+vim .taskrc
+vim .config/conky/conky_task_progress.lua
+cd .config/conky
+vim conky_task_progress.lua
+task todo
+task todo -ACTIVE
+task todo -BLOCKD
+task todo
+task status:waiting
+task status:pending
+task status:pending -OVERDUE
+task status:pending -WAITING
+task status:pending -BLOCKED
+task status:pending -ACTIVE
+cd .config/conky
+vim conky_task_progress.lua
+task project
+task
+task show
+task
+watch task
+task todo
+time task todo
+watch task todo
+task todo
+task 1 show
+task 1
+task delete 1
+cd .config/conky
+vim conky_task_progress.lua
+vim .taskrc
+task 1
+cd .config/conky
+cp conky_task_progress.lua conky_next_examen.lua
+vim conky_next_examen.lua
+task add +klausur due:eocw  English
+task add +klausur due:fri  English
+task add +klausur due:fri  spanisch
+task add due:tomorrow +klausur deutsch
+task examen
+task 17 15 16 delete
+vim .task
+vim .taskrc
+cd .config/conky
+ls
+vim conky_next_examen.lua
+vim .config/emptty
+task project
+task summary
+task
+cd .config/conky
+vim conky_task_progress.lua
+cd .config/conky
+vim conky_e
+vim conky_ex
+l
+ls
+vim conky_next_examen.lua
+vim conky_task_progress.lua
+cd .config/emp
+vim .config/emptty
+htop
+pkill conky
+cd .config/conky
+conky -c conky_task_progress.lua
+conky -c conky_next_examen.lua
+ls
+vim conky_task_progress.lua
+cd .config/conky
+vim conky_task_progress.lua
+grep -v '^100'
+echo "100" | grep -v '^100'
+echo "190" | grep -v '^100'
+cd .local/bin/i
+cd .local/bin/
+cd conky
+ls
+./conky-task-progress.sh
+vim conky-task-progress.sh
+cp conky-task-progress.sh conky-sort.sh
+vim conky-s
+vim conky-sort.sh
+task project:Linux mod project:Privat.Linux
+task project
+task summary
+task b6862wf7
+task id:b6862wf7
+cd .local/bin/conky
+./conky-task-progress.sh
+task add project:Praktikum Anfrage auf ablauf, zeit und programme?
+task add project:Praktikum Anfrage auf ablauf, zeit und programme
+task summary
+vim .config/conky/conky_task_progress.lua
+task project:Home
+task summary
+task project
+task
+cd .local/bin/conky
+ls
+vim conky-task-progress.sh
+./conky-task-progress.sh | sed '/100/d\
+'
+echo "100, 90, 110" | grep -v "_100"
+echo "100, 90, 110" | grep -v "^100"
+echo "100, 90, 110" | grep -v '^100'
+echo "110" | grep -v '^100'
+echo "100" | grep -v '^100'
+echo "120" | grep -v '_100'
+grep -g
+grep -h
+grep -v
+grep --help
+grep --help | grep "-v"
+task all
+task inbox
+task project
+task summary
+cd .config/conky
+vim conky_task_progress.lua
+task summary
+task summary | ansito -
+task in
+q1 15
+task 3 done
+q4 6
+q2 7 8 9 10 
+task 11 done
+task 12 done
+task delete 11
+q2 10
+q2 7 8 9
+q3 1
+q3 7
+q3 8
+q3 9
+task inboc
+task inbox
+task 3 delete
+q4 5
+q2 3
+task
+task -h
+task colors
+man task
+vim .taskrc
+man task
+task +nocolor
+echo -e "\e[31mRed Text\e[0m"
+echo -e "\e[31m$(task)\e[0m"
+cd .config/conky
+vim conky_task_progress.lua
+vim conky_next_examen.lua
+task no-color.theme
+task include no-color.theme
+vim .taskrc
+task
+task color
+task color white on red
+task summary rc.defaultwidth:80 | ansito -
+task summary
+task summary | ansito
+task summary | ansito -
+ansito
+ansito -h
+task 
+task todo
+task todo | cat
+task start 10
+conky -h
+vim .config/conky/conky_task_progress.lua
+ls
+cd .config/nvim/after/plugin
+ls
+vim markdown.lua
+task 
+task 10 stop
+himalaya
+himalaya -h
+pass
+pass test/test
+himalaya write
+mail
+cd .config/herbstluftwm
+vim autostart
+cd .config/herbstluftwm
+vima
+vim autostart
+cd .local/bin
+ls
+vim passmenu2
+vim passmenu
+chmod +x passmenu
+passmenu
+passmenu2
+acpi
+pass
+pass test/test
+cd Downloads
+task 10 done
+task
+himalaya folders -w 50
+himalaya uberspace folders -w 50
+himalaya -h
+himalaya -a uberspace folders -w 50
+himalaya -a uberspace -f Sent Messages
+himalaya -a uberspace -f 'Sent Messages'
+ls
+himalaya -a uberspace -f 'Sent'
+himalaya -a uberspace -f 'Sent' 16
+himalaya -a uberspace -f 'Sent' read 16
+mial
+mail
+mail
+cd notes
+ls
+vim Projects/index.md
+cd Downloads
+chmod +x morgen-2.6.3.AppImage
+./morgen-2.6.3.AppImage
+task
+task add project:Schule.po.biodiversität
+task add project:Schule.po.biodiversität Design to light and title as Mask for bio img
+task 10 start
+cp Downloads/avenue-g8d6dd1403_1280.jpg work/bio_po_umfrage/assets/bio_mask.jpg
+cp Downloads/julian-fill-cjy8GKROLRY-unsplash.jpg ~/work/bio_po_umfrage/assets/bio_mask_v2.jpg 
+convert Downloads/nahil-naseer-xljtGZ2-P3Y-unsplash\ \(1\).jpg --rotate 90 work/bio_po_umfrage/assets/bio_mask_v3.jpg 
+convert Downloads/nahil-naseer-xljtGZ2-P3Y-unsplash\ \(1\).jpg --rotate 90 /work/bio_po_umfrage/assets/bio_mask_v3.jpg 
+convert Downloads/nahil-naseer-xljtGZ2-P3Y-unsplash\ \(1\).jpg -rotate 90 work/bio_po_umfrage/assets/bio_mask_v3.jpg 
+vim index.php
+task
+task 10 done
+task 
+timew
+task project:Schule.po.biodiversität add menu
+q4
+task
+timew summary
+timew day
+task burndown
+cd .config/shell
+ls
+vim zsh_alias
+npx msdl
+ls
+mupdf Jojo_s_Bizarre_Adventure_Golden_Wind_Giorno\&\#039\;s_Theme_Ver_2.pdf
+sensors
+task
+task add python contactbook
+task start 11
+doas -s
+mysql -u root -p 
+doas -s
+pip install black --user
+cd .config/nvim/after/plugin
+vim lsp.lua
+mysql -u root -p
+cd bio_po_umfrage
+touch .htacces
+mv .htacces .htaccess
+vim umfrage.php
+vim .htaccess
+vim vote.php
+vim index.md
+vim style_umfrage.css
+rm .htaccess
+vim index.php
+mkdir miniprojects
+cd miniprojects
+mkdir python
+vim python/index.md
+cd python
+mkdir contacts_project
+cd contacts_project
+touch requirements.txt
+touch README.md contacts.py
+mkdir contacts
+cd contacts
+touch __init__.py views.py
+touch database.py main.py model.py
+vim RE
+n -e
+vim viw
+vim views.py
+python
+python 
+ls
+vim sampledata.py
+vim model.py
+python main.py
+pip install qt5
+pip install qt5 --user
+pip install pyqt5 --user
+n -e
+cd contacts_project
+ls
+chmod +x contacts.py
+pip install mysql
+pip install mysql --user
+pip install mysql-connector-python --user
+rc-service mysql start
+doas rc-service mysql start
+vim contacts
+vim contacts.py
+./contacts.py
+doas -u root -p
+mysql -u root -p
+task 
+task 11 sto
+task 11 stp
+task 11 stop
+task
+vim .config/conky/conky_task_progress.lua
+pass test/test
+himalaya read 1545
+himalaya -a gmail read 1545
+himalaya
+himalaya -a gmail
+himalaya -h
+himalaya -a gmail read 
+himalaya -a gmail read 1545
+mail
+htop
+xrandr --output eDP-1 -r 48
+xrandr
+vim .config/picom
+xrandr --output default --mode 3840x2160_48.00
+xrandr --output eDP-1 --mode 3840x2160_48.00
+xrandr
+doas -s
+xrandr
+doas -s
+neofetch
+nvtop
+nvidia-smi
+doas intel_gpu_top
+pkill intel_gpu_top
+doas pkill intel_gpu_top
+htop
+prime-run mpv 'https://www.youtube.com/watch?v=hH3zCpRDaIA'
+doas emerge --deselect  starship
+vim note
+nvtop
+gentoo-updater
+doas emerge --update --newuse --deep --with-bdeps=y @world
+cat note
+doas emerge --ask --depclean
+doas emerge --update --newuse --deep --with-bdeps=y @world
+doas shutdown -h now
+vim index.html
+doas -s
+cd Source
+git clone https://github.com/kdheepak/taskwarrior-tui
+cd taskwarrior-
+cd taskwarrior-tui
+make
+make install
+cd
+cd Downloads
+tar -xf taskwarrior-tui-x86_64-unknown-linux-gnu.tar.gz
+ls
+ls taskwarrior-tui
+./taskwarrior-tui 
+mv taskwarrior-tui ~/.dotfiles/.local/bin
+taskwarrior-tui
+task todo 
+vim .config/conky/conky_next_examen.lua
+task 6 mod project:Schule
+task 5 mod project:Schule
+task 8 mod project:Schule
+task 9 mod project:Schule
+task 11 modify project:Privat.python
+task
+task project:Schule
+ask
+task
+task project:Schule
+task 7 mod project:Schule
+task limit:10 rc.defaultwidth:80 project:Schule
+task Schulaufgaben
+task schulaufgaben
+vim .taskrc
+task -project:Schule
+task project:Schule
+task project:-Schule
+task project:
+task 
+task project.not:Schule
+task project:Schule
+vim .config/conky/conky_task_progress.lua
+task 2 mod project:Privat.Schule
+task project:Schule
+vim .taskrc
+task sch
+task 7 mod +Inf
+task task 8 mod +BO
+task 8 mod +BO
+task 10 mod +biodiversität
+tas
+task 10 modify +po
+task schulaufgaben
+task 10 modify -biodiversität
+taskwarrior-tui
+task schulaufgaben
+vim .taskw
+vim .taskrc
+task 10 delete
+task add project:Schule.po +PO Menu hinzufügen
+cd notes/School/B
+cd notes/School/BAK-10-2021-2022/English
+ls Nosedive
+cat Writing\ a\ Comment.md
+cat English.md
+cat English-Strangerthings.md
+ls
+ls Aufgaben
+cat Aufgaben/English\ Aufgabe\ 2022-05-19.md
+cat Nosedive/Comment.md
+n -e
+vim .config/nvim/after/plugin
+cd .config/nvim
+cd lua/user
+bat markdown.lua
+ls
+cat ./* | grep link
+cd .config/nvim/after/plugin
+vim packer.lua
+vim markdown.lua
+n -e
+cd
+cp Downloads/Caesar3.svg ~/notes/School/informatik/
+doas emerge --ask inkscape
+tegehkgqqzxzjkjl
+echo "tegehkgqqzxzjkjl" >> note
+bat note
+vim Downloads/events.ics
+lsblk
+cd /mnt/notes/School/English
+cd
+cp ls
+ls
+cp Jojo_s_Bizarre_Adventure_Golden_Wind_Giorno\&\#039\;s_Theme_Ver_2.pdf /mnt
+doas cp Jojo_s_Bizarre_Adventure_Golden_Wind_Giorno\&\#039\;s_Theme_Ver_2.pdf /mnt
+ls /mnt
+dmenumount
+ls /mnt/usb
+cp Jojo_s_Bizarre_Adventure_Golden_Wind_Giorno\&\#039\;s_Theme_Ver_2.pdf /mnt/usb
+dmenuunmount
+cat note
+doas emerge --update --newuse --deep --with-bdeps=y @world
+htop
+cat note
+doas emerge --update --newuse --deep --with-bdeps=y @world
+cd notes
+vim Wiki/filme.md
+cd Wiki
+ls
+vim filme.md
+neo
+neofetch
+cat .local/bin/gentoo-updater
+cd /usr/src/linux
+doas -s
+ls
+doas emerge --ask --depclean
+doas emerge --ask @
+doas emerge --ask @module-rebuild
+doas shutdown -h now
+task
+task schulaufgaben
+task 7 start
+ls
+zathura 2023-01-05-Caesar-Verschlüsselung.pdf&
+mkdir assets
+mv Caesar3.svg assets
+cat Nosedive/Comment.md
+pdflatex 2023-01-05-Caesar-Verschlüsselung.tex
+pdflatex 2023-01-05-Caesar-Verschlüsselung.tex -shell-escape
+pdflatex --shell-escape 2023-01-05-Caesar-Verschlüsselung.tex
+eix -s inkscape
+ls
+touch 2023-01-05-Caesar-Verschlüsselung.tex
+vim index.md
+n -e
+vim
+vim .config/nvim/lua/user/packer.lua
+vim
+gentoo-updater
+cat /etc/portage/package.accept_keywords/adb
+cat /etc/portage/package.accept_keywords/kernel
+doas nvim /etc/portage/package.accept_keywords/kernel
+htoip
+hto
+vim note
+neofetch
+eix -s gentoo-source
+eix -s gentoo-sources
+doas emerge --ask gentoo-sources
+emerge --ask --update --deep --with-bdeps=y --newuse sys-kernel/gentoo-sources
+doas emerge --ask gentoo-sources-6.1.3
+doas emerge --ask gentoo-sources:6.1.3
+doas -s
+prime-run mpv 'https://www.youtube.com/watch?v=j039ZLCfq-I'
+prime-run glxgears
+glxgears
+glxgears -h
+nvtop
+nvidia-smi
+prime-run chromiun-bin
+prime-run chromium-bin
+nvidia-smi
+doas intel_gpu_top
+openssl speed
+vblank_mode=0 glxgears & sleep 15 ; killall glxgears
+vblank_mode=0 prime-run glxgears & sleep 15 ; killall glxgears
+xrandr --setprovideroffloadsink provider sink
+xrandr --setprovideroffloadsink nvidia Intel
+xrandr --listproviders
+prime-run glxinfo | grep "OpenGL renderer"
+emerge --ask media-libs/vulkan-loader
+doas emerge --ask media-libs/vulkan-loader
+doas emerge --ask dev-util/vulkan-tools
+doas emerge --ask  dev-util/intel-ocl-sdk
+emerge --ask dev-libs/intel-compute-runtime
+doas emerge --ask dev-libs/intel-compute-runtime
+prime-run vulkaninfo
+doas nvim /etc/portage/package.use/mpv
+doas emerge --ask mpv
+mpv 'https://www.youtube.com/watch?v=j039ZLCfq-I'
+man mpv
+vim .config/mpv
+prime-run mpv 'https://www.youtube.com/watch?v=j039ZLCfq-I'
+prime-run glxgears
+LIBGL_DEBUG=1 glxinfo -B 
+dmesg | grep i915
+mpv 'https://www.youtube.com/watch?v=LXb3EKWsInQ&t=14s'
+VDPAU_DRIVER=va_gl mpv 'https://www.youtube.com/watch?v=LXb3EKWsInQ&t=14s'
+mpv --vo=gpu --hwdec=vaapi  'https://www.youtube.com/watch?v=LXb3EKWsInQ&t=14s'
+pkill piclm
+pkill pico,m
+pkill picom
+prime-run picom
+picom
+picom --daemon
+prime-run __GL_SYNC_TO_VBLANK=0 glxgears
+__GL_SYNC_TO_VBLANK=0 prime-run glxgears
+vblank=1 glxgears
+vblank=0 glxgears
+vblank_mode=0 glxgears
+nvtop
+nvidia-smi
+hto
+htop
+lsmod | grep nvidia
+doas -s
+doas emerge --ask tuxracer
+doas emerge --ask extreme-tuxracer
+eix -s glmark2
+lsmod
+doas -s
+xrandr --list
+xrandr --listproviders
+prime-run glxgears
+__GL_SYNC_TO_VBLANK=0 prime-run glxgears
+nvtop
+cd Downloads
+chmod üx Unigine_Superposition-1.1.run 
+chmod +x Unigine_Superposition-1.1.run 
+./Unigine_Superposition-1.1.run
+prime-run ./Unigine_Superposition-1.1/Superposition
+./Unigine_Superposition-1.1/Superposition
+cd
+ls
+bat Superposition_Benchmark_v1.1_
+bat Superposition_Benchmark_v1.1_713_1673022062928.score
+doas shutdown -h now
+pkill polybar
+pkill nm-applet
+pkill polybar
+vim .config/autostart
+vim .local/bin/auto
+vim .local/bin/autostart.sh
+vim .config/conky/conky_next_examen.lua
+pkill conly
+cd .config/nvim
+n -e
+pkill conky
+vim .config/emptty
+cd .config/con
+cd .config/conky
+ös
+ls
+ls -la
+cat .conkyrc
+conky -c .conkyrc
+vim .conkyrc
+conky
+conky -c conky.conf
+vim conky.conf
+mv conky.conf conky.lua
+vim conky.
+vim conky.lua
+cd .config/conky
+vim conky.lua
+conky -co .config/conky/conky.lua
+conky -c .config/conky/conky.lua
+cd .config/conky
+ls
+vim conky_task_progress.lua
+htop
+free
+free -m
+ps -e -o pid,vsz,comm= | sort -n -k 2
+htop
+doas shutdown -r now
+vim .config/emptty
+htop
+vim .config/conky/conky.lua
+cd Downloads wget http://dl.dropbox.com/u/964512/conky/conkydate/conkyrc
+cd Downloads
+wget http://dl.dropbox.com/u/964512/conky/conkydate/conkyrc
+cd .config/conky
+ls
+chmod +x cal.lua
+./cal.lua
+vim cal.lua
+vim conky.lua
+vim .config/conky/conky.lua
+tme
+time
+date %Y
+date %y
+date %j
+date +%y
+date +%Y
+date +%Y-%m
+date +%Y-%m-%d 5h
+date +%Y-%m-%d %h
+date +%Y-%m-%d
+man date
+date +%Y-%m-%d %R
+date +%Y-%m-%d:%R
+date "+%Y-%m-%d %R"
+doas nvim /etc/laptop-mode/conf.d/intel_pstate.conf
+doas rc-service laptop_mode restart
+doas nvim /etc/laptop-mode/conf.d/cpufreq.conf
+htop
+nvim /etc/laptop-mode/conf.d
+doas nvim /etc/laptop-mode/conf.d
+doas rc-service laptop_mode restart
+htoP
+htop
+cd souz
+cd sou
+cd Source
+ls
+git clone git clone https://github.com/NikitaIvanovV/dmenu-win
+git clone https://github.com/NikitaIvanovV/dmenu-win
+cd dmenu-win
+doas make install
+dmenu-win
+vim ~/.config/herbstluftwm/autostart
+cd .local/bin
+vim dmenu_run_hlwm
+ls
+ls dmenu*
+chmod +x dmenu_run_hlwm
+./dmenu_run_hlwm
+rm dmenu_run_hlwm
+wget https://gist.githubusercontent.com/wdkrnls/fa9670000221419674f22d995f3a5896/raw/ae2b8925feeb49343cda09dd8ec67ba95c295ff0/dmenu_hlwm_add_tags
+bat dmenu_hlwm_add_tags
+cp dmenu_hlwm_add_tags ~/.local/bin
+cd .local/bin
+chmod +x dmenu_hlwm_add_tags
+txr
+eix -s herbstluftwm
+./dmenu_hlwm_add_tags
+eix -s txr
+cd Downloads
+ls t
+ls t*
+ls txr-284.zip
+unzip txr-284.zip
+cd txr-284
+make
+doas make install
+doas make install ~/.local/bin
+bat Makefile
+\:q
+cd .local/bin/i
+cd .local/bin/
+vim dmenu_hlwm_add_tags
+cd
+cd Source
+git clone https://github.com/herbstluftwm/herbstluftwm
+cd herbstluftwm/scripts
+./dumpbeautify.sh
+bat dumpbeautify.sh
+vim dumpbeautify.sh
+herbstclient dump | ./dumpbeautify.sh
+./exec_on_tag.sh
+bat exec
+bat exec_on_tag.sh
+bat keychain.sh
+doas emerge --ask wmctrl
+./windowmenu.sh
+./toggledualhead.sh
+./wselect.sh
+./la
+bat layout.sh
+./layout.sh
+bat q3terminal.sh
+./scratchpad.sh
+bat scratchpad.sh
+ls
+mv wselect.sh ~/.local/bin
+./floatmon.sh
+./loadstate.sh
+bat loadstate.sh
+herbstclient use test
+herbstclient use Test
+herbstclient remove Test
+herbstclient tag_status 
+task 7 stop
+task
+task schulaufgaben
+htop

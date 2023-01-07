@@ -20,6 +20,8 @@ xmodmap ~/.Xmodmap &
 myTerm="alacritty"
 myLauncher="dmenu_run"
 myBrowser="chromium-bin"
+myScripts="$HOME/.local/bin"
+# myBrowser="qutebrowser"
 
 hc emit_hook reload
 
@@ -43,10 +45,11 @@ hc keybind $Mod-Return spawn $myTerm
 # hc keybind $Mod-Shift-Return spawn $myTerm 
 
 hc keybind $Mod-Shift-Return spawn $myTerm -e tmux new-session -A -s default
-hc keybind $Mod-x spawn /home/niklas/.local/bin/lock.sh
+hc keybind $Mod-x spawn xset s activate
 
 
-hc keybind $Mod-Shift-p spawn scrot '/tmp/%F_%T_$wx$h.png' -s -e 'xclip -selection clipboard -i $f'
+hc keybind $Mod-Shift-s spawn scrot '/tmp/%F_%T_$wx$h.png' -s -e 'xclip -selection clipboard -i $f'
+hc keybind $Mod-Shift-p spawn $HOME/.local/bin/passmenu2
 
 # Application Launcher
 
@@ -56,12 +59,14 @@ hc keybind $Mod-Shift-w spawn feh --bg-fill --randomize ~/.config/wall/*
 hc keybind XF86Calculator spawn st -e bc
 
 # Scripts
-hc keybind $Mod-m spawn dmenumount
+hc keybind $Mod-m spawn $myScripts/dmenumount
 hc keybind $Mod-c spawn clipmenu
 hc keybind $Mod-Shift-c spawn passmenu2
-hc keybind $Mod-Shift-m spawn dmenuunmount
+hc keybind $Mod-Shift-m spawn $myScripts/dmenuunmount
 hc keybind $Mod-n spawn $myTerm -e /home/niklas/.local/bin/fzf-important-files
 hc keybind $Mod-Shift-n spawn $myTerm -e /home/niklas/.local/bin/fzf-important-files school
+
+hc keybind $Mod-a spawn dmenu-win
 
 # Audio Controll
 

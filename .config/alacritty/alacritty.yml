@@ -288,7 +288,7 @@ import:
 live_config_reload: true
 
 window:
-  opacity: 0.9
+  opacity: 1
 
 # Shell
 #

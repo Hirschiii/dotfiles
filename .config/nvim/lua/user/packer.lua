@@ -73,6 +73,8 @@ return require("packer").startup(function(use)
         "williamboman/mason-lspconfig.nvim",
         "neovim/nvim-lspconfig",
     }
+
+    use('alvan/vim-closetag')
     use('mattn/emmet-vim')
     use('mfussenegger/nvim-lint')
 
@@ -140,11 +142,10 @@ return require("packer").startup(function(use)
     -- use("junegunn/goyo.vim")
     use("junegunn/limelight.vim")
     use({ "iamcco/markdown-preview.nvim", run = "cd app && npm install", setup = function() vim.g.mkdp_filetypes = { "markdown" } end, ft = { "markdown" }, })
-    use("vimwiki/vimwiki")
-    -- use("lervag/wiki.vim")
     use('junegunn/vim-easy-align')
+    use("ixru/nvim-markdown")
     -- use("vim-pandoc/vim-pandoc")
-    use("vim-pandoc/vim-pandoc-syntax")
+    -- use("vim-pandoc/vim-pandoc-syntax")
 
     -- use {'glepnir/template.nvim'}
 

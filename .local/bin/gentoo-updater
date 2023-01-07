@@ -3,11 +3,11 @@
 doas layman -S
 doas eix-sync
 doas emaint -a sync
-# doas emerge --ask --verbose --update --newuse --deep @system
+doas emerge --ask --verbose --update --newuse --deep @system
 doas emerge --ask --verbose --update --newuse --deep @world
 # doas emerge @module-rebuild
-# doas emerge --depclean
-# doas eclean packages
-# doas eclean distfiles
-# doas revdep-rebuild
-# doas etc-update
+doas emerge --ask --depclean
+doas eclean packages
+doas eclean distfiles
+doas revdep-rebuild
+doas etc-update

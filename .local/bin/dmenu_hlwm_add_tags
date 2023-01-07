@@ -1,0 +1,58 @@
+#!/bin/bash
+
+### License: GPL3+
+#
+# Author: Kyle Andrews
+#
+# This script enables dynamic creation of new tags in hlwm.
+#
+###
+
+hc() {
+    herbstclient "$@"
+}
+
+# return the first integer index of the value in the array
+index_of() {
+    local x="$1"
+    local -n xs="${2}"
+    for i in "${!xs[@]}"; do
+	if [[ "${xs[$i]}" = "${x}" ]]; then
+	    echo "${i}";
+	    break
+	fi
+    done
+}
+
+print_array() {
+    local -n xs="${1}"
+    printf '%s\n' "${xs[@]}"    
+}
+
+# What are the available tags?
+# .  empty
+# :  not empty
+# +  viewed on the specified unfocused monitor
+# -  viewed on a different unfocused monitor
+# %  viewed on a different monitor and is focused
+# !  tag contains an urgent window
+eval $(hc tag_status | txr -B -c '	@(coll)@{status /[#:.]/}@{tag /[^\t]+/}@(end)')
+
+fidx=$(index_of '#' status)
+focused=${tag[$fidx]}
+
+new=$(print_array tag | dmenu -i -p "new tag:")
+Mod=Mod4
+nidx=$(index_of $new tag)
+len=${#tag[@]}
+keys=({1..9} 0)
+if [[ -z $nidx ]]
+then
+    hc add $new
+    if [[ $len -lt 9 ]]
+    then
+	key="${keys[$len]}"
+	hc keybind "$Mod-$key" use_index "$len"
+	hc keybind "$Mod-Shift-$key" use_index "$len"
+    fi
+fi
