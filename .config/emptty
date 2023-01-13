@@ -13,6 +13,8 @@ light -N 2 &
 conky -c ~/.config/conky/conky_task_progress.lua &
 conky -c ~/.config/conky/conky.lua &
 
+
+
 # Auto lock after inactive
 
 xset s 300 5 &

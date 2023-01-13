@@ -58,8 +58,6 @@ Battery: $battery
 Uptime:$color $uptime
 Frequency (in MHz):$color $freq
 Frequency (in GHz):$color $freq_g
-RAM Usage:$color $mem/$memmax - $memperc% ${membar 4}
-Swap Usage:$color $swap/$swapmax - $swapperc% ${swapbar 4}
 CPU Usage:$color $cpu% ${cpubar 4}
 Processes:$color $processes  Running:$color $running_processes
 $hr
