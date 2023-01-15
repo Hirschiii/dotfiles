@@ -7,6 +7,8 @@ return {
     "nvim-lua/popup.nvim",
     "nvim-telescope/telescope.nvim",
 
+    'vigoux/LanguageTool.nvim',
+
     {
 	    'VonHeikemen/lsp-zero.nvim',
 	    dependencies = {
@@ -63,7 +65,10 @@ return {
 
     "ThePrimeagen/harpoon",
     "mbbill/undotree",
-    { "iamcco/markdown-preview.nvim", build = "cd app && npm install", setup = function() vim.g.mkdp_filetypes = { "markdown" } end, ft = { "markdown" }, },
+    { "iamcco/markdown-preview.nvim", build = "cd app && npm install",
+        setup = function()
+            vim.g.mkdp_filetypes = { "markdown" }
+        end, ft = { "markdown" }, },
     'junegunn/vim-easy-align',
     'ixru/nvim-markdown',
 

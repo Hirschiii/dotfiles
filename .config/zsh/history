@@ -1147,3 +1147,189 @@ vim copilot.lua
 cd .dotfiles/.config/nvim.bak/after/plugin/keymap
 ls
 vim init.lua
+cd .config/nvim/lua/plugins
+vim copilot.lua
+n -e
+cd
+cd .dotfiles
+git add *
+git add .
+git commit -m "update"
+git push
+doas nvim /etc/portage/package.use/nginx
+doas dispatch-conf
+gentoo-updater
+doas shutdown -h now
+ls
+mkdir python 
+cd python
+vim index.md
+n -e
+pip install nltk
+pip install nltk --user
+pip install textblob newspaper3k --user
+vim main.py
+python main.py
+pip3 install textblob --user
+pip3 install newspaper3k --user
+pip install nltk --user
+python
+python -m textblob.download_corpora
+cd nvim
+vim init.lua
+vun
+vim
+cd
+cd work/miniprojects/python
+mkdir vimauto_exec
+cd vimauto_exec
+vim main.py
+task add sehtest anfragen project:Privat
+q1 8
+task
+pass
+pass test/test
+mail
+task add rollos raussuchen
+cd .config/nvim/lua/plugins/
+vim init.lua
+cd .config/nvim/lua/plugins
+vim init.lua
+eix -s eos
+eix -s easy-installer
+snap
+eix -s snap
+eix -s snapd
+doas emerge --ask snapd
+doas -s
+adb
+fastboot devices
+doas -s
+cd Downloads 
+doas -s
+cd work
+cd notes
+n -e
+n -e
+cd
+ls Do
+ls Documents
+cd Downloads
+ls
+ls lineage-19.1-20221225-
+ls lineage-19.1-20221225-*
+pass test/test
+task
+pass edit test/test
+mail
+doas -s
+adb
+cd Downloads
+fastboot devices
+adb devices
+adb sideload e-1.6-r-20221129238947-stable-guacamole.zip
+pass test/test
+mail
+htop
+pass test/test
+mail
+cd Downloads
+ös
+ls flash-all.bat
+bat flash-all.bat
+ls *.bat
+ls images.zip
+fastboot -w images.zip
+cd payload_dumper
+pip install -r requirements.txt --user
+python3 payload_dumper.py ../payload.bin
+xmodmap ~/.Xmodmap
+pip install --upgrade protoc==3.20.x
+pip install --upgrade protoc==3.20.x --user
+pip install --upgrade protoc==3.20.0 --user
+PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION=python
+doas PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION=python
+doas s
+pip install protobuf==3.20.0
+pip install protobuf==3.20.0 --user
+doas pip install protobuf==3.20.0 --user
+doas python payload_dumper.py payload.bin
+cd output
+ls
+vim flash_all.sh
+doas -s
+cd Downloads
+ls
+ls twrp-3.7.0_12-0-guacamole*
+fastboot flash recovery twrp-3.7.0_12-0-guacamole.img
+fastboot devices
+doas s
+doas -s
+doas shutdown -h now
+cd Downloads/payload_dumper/output
+ls
+ls reserve.img
+cd Downloads/payload_dumper/output
+ls
+vim flash_all.sh
+doas -s
+cd miniprojects/python/vimauto_exec
+ls
+vim main.py
+pass test/test
+vim emails
+cd emails
+ls
+cp 2023-01-03-Email-Fragen.md 2023-01-14-Hello-Christopher.md
+vim 2023-01-1
+vim 2023-01-14-Hello-Christopher.md 
+mail
+cd /usr/src/linux
+doas -s
+eix -s virtualbox
+doas emerge --ask virtualbox
+virtualbox
+doas virtualbox
+doas emerge -1 virtualbox-modules
+doas shutdown -h now
+pass test/test
+mail
+doas gpasswd -a niklas vboxsf
+doas gpasswd -a niklas vboxuser
+cd Downloads
+doas -s
+cd /mnt/usb
+ls
+ls -la
+dmenuunmount
+lsblk
+pass test/test
+mial
+mail
+doas shutdown -h now
+doas emerge --ask app-emulation/virtualbox-additions
+doas virt
+doas virtualbox
+doas dmenu
+doas dmenurun
+doas virtualbox
+adb devices ces
+adb devices 
+doas 
+doas -s
+pass
+pass test/test
+mail
+pass privat/emails/niklas@vonhirschfeld.eu
+cd .config/himalaya
+ls
+bat config.toml
+doas shutdown -h now
+ls
+vim index.md
+acpi
+cd work/miniprojects/python
+cp vimauto_exec/autosave.lua ~/.config/nvim/after/plugin
+cd vimauto_exec
+ls
+vim main.py
