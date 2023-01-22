@@ -1,177 +1,3 @@
-doas nvim /etc/portage/package.use/adb
-doas emerge --ask dev-util/android-sdk-update-manager
-doas emerge --ask dev-util/android-sdk-update-manager dev-util/android-tools
-fastboot
-abd
-adb
-doas adb devices
-gpasswd -a niklas plugdev
-doas gpasswd -a niklas plugdev
-doas shutdown -r not
-adb devices
-adb reboot bootloader
-fastboot devi
-fastboot devives
-fastboot devices
-ls Downloads/MindTheGapps-12.1.0-arm64-
-ls Downloads/MindTheGapps-12.1.0-arm64-*
-cd /mnt/usb
-mkdir backup
-lsbusb
-lsusb
-lspciu
-lscpi
-lspci
-doas .-s
-ip
-vim table_design_umfrage_v1.css
-touch custom_radio.css
-rm custom_radio.css
-vim ~/.config/alacritty/alacritty.yml
-cp umfrage.html umfrage.php
-vim umfrage_layout.php
-vim umfrage.html
-cp style_umfrage.css table_design_umfrage_v1.css
-rm tesz
-cd Umfrage_php
-cd notes/wi
-cd notes/Wiki
-vim cat eM_Client.md
-cd work/Biodiversität_Umfrage
-bc
-eix -s mysql
-doas nvim /etc/portage/package.use/mysql
-doas emerge --ask mysql-workbench
-mysql -u root -po
-vim old.style.css
-cp style.css old.style.css
-mpv 'https://www.youtube.com/watch?v=Lh1SQFCu61M'
-mpv 'https://www.youtube.com/watch?v=LXb3EKWsInQ&t=11s'
-prime-run mpv 'https://www.youtube.com/watch?v=LXb3EKWsInQ&t=11s'
-vim .zshrc
-doas emerge --deselect xsnow
-doas emerge --ask xsno
-doas emerge --ask xsnow
-nvidia-top
-doas 
-task add conky für taskwarrior
-sum
-summary 
-task 17 delete
-task 6 delete
-task 1 delete
-task 4 delete
-task 8 delete
-task add php lsp mason vim
-vim ls
-composer
-eix -s composer
-doas emerge --ask composer
-doas dispatch-conf
-eix -s pcntl
-composer -h
-man composer
-cd /etc/php/cli-php8.1/
-nvim
-doas rc-service php-fpm restart
-php -h
-vim /etc/portage/package.use/php
-doas vim /etc/portage/package.use/php
-doas emerge .
-doas emerge --ask php
-phpactor
-cd /etc/php/cli-php8.1
-vim ext-active/opcache.ini
-php --ini
-composer update
-doas -S
-eix -s phpactor
-cd Biodiversität_Umfrage
-vim vote.php 
-mv index.html index.php
-mv Biodiversität_Umfrage bio_po_umfrage
-vim bio_po_umfrage/vote.php
-mysql -u root -o
-vim pavc
-cd .config/nvim/after
-sxiv .config/wall
-sxiv .config/wall/*
-cd .config/wall
-sxiv ./*
-vim autostart.sh
-task add +timetracker Chess
-task start Chess
-timew 
-timew show
-timew -h
-task add getting things done 
-task 15 start
-rm -rf .doomsday
-stow -
-stow .
-pwd
-cd .dotfiles/.local/bin
-mkdir conky
-vim conky-disk-usage.sh
-chmod +x conky-disk-usage.sh
-./conky-disk-usage.sh
-vim conky-disk-io.sh
-vim conky-status-all
-vim conky-status-all.sh
-chmod +x ./*
-doas nvim /etc/portage/package.use/conky
-doas emerge --ask conky
-doas dispatch-conf 
-conkx
-ls conky-minimal
-rm -rf ./*
-conky -C ./conky_main.lua
-conky -C .conkyrc
-conky -c ./conky_main.lua
-./conky-disk-io.sh
-mv conky-disk-usage.sh conky-directory-usage.sh
-bat conky-directory-usage.sh
-mv conky-directory-usage.sh conky-disk-usage.sh
-chmod +x conky-directory-usage.sh
-vim conky-bg-space-to-fg.sh
-chmod +x conky-bg-space-to-fg.sh
-vim conky-biggest-files.sh
-chmod +x conky-biggest-files.sh
-mv conky-disk-io.sh conky-diskio.sh
-./conky-directory-usage.sh
-10*100/10
-bash
-printf %.2f $(echo "$float/1.18" | bc -l)
-printf %.22f $(echo "$float/1.28" | bc -l)
-printf %.2f $(echo "$float/1.28" | bc -l)
-task conky
-task Conky
-ansito e
-eix -s ansito
-python3.6 -m pip install ansito
-pip install ansito
-pip install ansito --user
-öls
-vim ma
-ip route get 8.8.8.8 | awk -F"dev " 'NR==1{split($2,a," ");print a[1]}'\
-
-ip route get 8.8.8.8 | awk -F"src " 'NR==1{split($2,a," ");print a[1]}'
-ip a
-hostname -I
-ip -4 addr show eth0 | grep -oP "(?<=inet ).*(?=/)"\
-
-hostname -I | awk '{ print $1 }'
-hostname -i
-cat file
-ip route get 8.8.8.8 | sed -n 's|^.*src \(.*\)$|\1|gp'
-awk '/inet addr:/{gsub(/^.{5}/,"",$2); print $2}' file
-ip route get 8.8.8.8 | tr -s ' ' | cut -d' ' -f7
-ip route get 8.8.8.8 | tr -s ' ' | cut -d' ' -f7 | awk 'print $1'
-ip route get 8.8.8.8 | tr -s ' ' | cut -d' ' -f7 | awk '{print $1}'
-ip route get 8.8.8.8 | tr -s ' ' | cut -d' ' -f7 
-vim conky-directory-usage.sh
-cd .config/co
-conky -c conky_main.lua
 vim conky_main.lua
 fc-list
 fc-list | grep retina
@@ -206,7 +32,6 @@ time task todo
 watch task todo
 task 1 show
 task delete 1
-task 1
 cp conky_task_progress.lua conky_next_examen.lua
 task add +klausur due:eocw  English
 task add +klausur due:fri  English
@@ -217,7 +42,6 @@ task 17 15 16 delete
 vim .task
 vim conky_e
 vim conky_ex
-l
 cd .config/emp
 conky -c conky_task_progress.lua
 conky -c conky_next_examen.lua
@@ -256,7 +80,6 @@ q1 15
 task 3 done
 q4 6
 q2 7 8 9 10 
-task 11 done
 task 12 done
 task delete 11
 q2 10
@@ -307,7 +130,6 @@ himalaya -a uberspace -f 'Sent Messages'
 himalaya -a uberspace -f 'Sent'
 himalaya -a uberspace -f 'Sent' 16
 himalaya -a uberspace -f 'Sent' read 16
-mial
 chmod +x morgen-2.6.3.AppImage
 ./morgen-2.6.3.AppImage
 task add project:Schule.po.biodiversität
@@ -342,7 +164,6 @@ mkdir miniprojects
 cd miniprojects
 mkdir python
 vim python/index.md
-cd python
 mkdir contacts_project
 touch requirements.txt
 touch README.md contacts.py
@@ -353,15 +174,12 @@ touch database.py main.py model.py
 vim RE
 vim viw
 vim views.py
-python
 python 
 vim sampledata.py
 vim model.py
-python main.py
 pip install qt5
 pip install qt5 --user
 pip install pyqt5 --user
-cd contacts_project
 chmod +x contacts.py
 pip install mysql
 pip install mysql --user
@@ -444,7 +262,6 @@ tegehkgqqzxzjkjl
 echo "tegehkgqqzxzjkjl" >> note
 bat note
 vim Downloads/events.ics
-lsblk
 cd /mnt/notes/School/English
 cp ls
 cp Jojo_s_Bizarre_Adventure_Golden_Wind_Giorno\&\#039\;s_Theme_Ver_2.pdf /mnt
@@ -453,7 +270,6 @@ ls /mnt
 dmenumount
 ls /mnt/usb
 cp Jojo_s_Bizarre_Adventure_Golden_Wind_Giorno\&\#039\;s_Theme_Ver_2.pdf /mnt/usb
-dmenuunmount
 cat note
 doas emerge --update --newuse --deep --with-bdeps=y @world
 vim Wiki/filme.md
@@ -461,7 +277,6 @@ cd Wiki
 vim filme.md
 neo
 cat .local/bin/gentoo-updater
-cd /usr/src/linux
 doas emerge --ask --depclean
 doas emerge --ask @
 doas emerge --ask @module-rebuild
@@ -475,7 +290,6 @@ pdflatex --shell-escape 2023-01-05-Caesar-Verschlüsselung.tex
 eix -s inkscape
 touch 2023-01-05-Caesar-Verschlüsselung.tex
 vim .config/nvim/lua/user/packer.lua
-gentoo-updater
 cat /etc/portage/package.accept_keywords/adb
 cat /etc/portage/package.accept_keywords/kernel
 doas nvim /etc/portage/package.accept_keywords/kernel
@@ -548,7 +362,6 @@ vim .config/autostart
 vim .config/conky/conky_next_examen.lua
 pkill conly
 cd .config/con
-ös
 cat .conkyrc
 conky -c .conkyrc
 vim .conkyrc
@@ -617,7 +430,6 @@ ls txr-284.zip
 unzip txr-284.zip
 cd txr-284
 make
-doas make install
 doas make install ~/.local/bin
 bat Makefile
 \:q
@@ -653,14 +465,10 @@ herbstclient use Test
 herbstclient remove Test
 herbstclient tag_status 
 task 7 stop
-git add .
-cd 
 cd Bo
 cd No
 cd Notcd
 git add . 
-git commit -m "update"
-git push
 ls Kanban
 bat Kanban/Untitled\ Kanban.md
 rm Kanban
@@ -695,10 +503,8 @@ vim snippets/all.json
 cat package.json
 vim .config/nvim/after/plugin
 vim Documents/Templates/default.html
-cd Source
 git clone https://github.com/j-jith/taskwarrior-kanban
 cd taskwarrior-kanban
-git pull
 python tw-kanban.py
 doas python tw-kanban.py
 doas python tw-kanban.py &
@@ -708,7 +514,6 @@ vim tw-kanban.py
 python3 ./tw-kanban.py
 chromium-bin index.html
 cd Wo
-cd work
 mkdir tw-knaban
 cd tw-knaban
 mv tw-knaban tw-kanban
@@ -717,7 +522,6 @@ unzip Drag-and-Drop-In-PHP-Source-Code.zip
 cd Dr
 cd drag
 chromium-bin index.php
-ls -la
 cp ./* ~/work/tw-kanban
 rm index.php
 rm drag.jpg
@@ -754,9 +558,7 @@ s
 cd ..
 rm -rf 2023-01-08.md
 doas nvim /etc/nginx/nginx.conf 
-pass
 himalaya -a gmail read 1533
-cd notes
 mkdir Me
 ls Projects
 ls Projects/Uni
@@ -773,8 +575,6 @@ vim kanban-idee.
 vim kanban-idee.php
 doas rc-service nginx start
 doas rc-service php-fpm start
-doas rc-service mysql start
-doas nvim /etc/nginx/nginx.conf
 pandoc umfrage.php -o umfrage.html
 cp umfrage.php umfrage.html
 pandoc umfrage.html -o umfrage.md
@@ -816,7 +616,6 @@ cd .config/nvim/after/plugin/ls
 vim lsp.lua
 cd .config/n
 find . -type f -name "*.lua" | xargs wc -l | tail -n1
-cd .dotfiles
 cd .config
 mkdir nvim_under_200
 cd nvim_under_200
@@ -842,17 +641,14 @@ cd .dotfiles/.config
 mv nvim nvim.bak
 mv nvim_under_200 nvim
 cd .local/share
-cd nvim
 rm -rf ./tree-sitter-*
 vim /tmp/test.lua
 cd /tmp/l
 cd /tmp
 history
-cd .config/zsh
 bat history
 vim history 
 time vim
-vim color.lua
 apci
 cd .dotfiles/.config/nvim.bak/after/plugin/h
 cd .dotfiles/.config/nvim.bak/after/plugin/
@@ -864,23 +660,17 @@ vim .local/bin
 chmod +x .local/bin/startweb
 vim .local/bin/st
 vim .local/bin/startweb
-ssh gulugulu@aegaeon.uberspace.de
 mysql -u gulugulu -p
-mysql -u root -p
-startweb
 doas nvim /etc/nginx/
 doas rc-service nginx restart
 vim umfrage.
 vim umfrage.php
-vim index.html
 vim style.css
 doas nvim /var/log/nginx
 cd notes/School/en
 cd notes/School/English
-task schulaufgaben
 vim nd
 vim index.
-cd .config/nvim/after/plugin/
 vim pa
 vim --startuptime 
 doas emerge --ask hyperfine
@@ -891,21 +681,18 @@ cd .dotfiles/.config/nvim.bak
 cd after/plugin/keymap
 cd .config/nvim/plugin
 rm packer_compiled.lua
-cd
 cd packer
 cd .. 
 rm -rf packer
 taks
 cd .dotfiles/.config/nvim.bak/after/plugin/keymap/
 vim telescope.lua
-task
 task show 11
 task 11 show
 task 11
 cd .config/nvim/lua
 vim user/remap.lua
 cd user
-vim remap.lua
 cd work/bio_po_umfrage
 vim vote.php
 vim 2023-01-
@@ -914,10 +701,7 @@ cd lua/plugins
 touch init.lua
 cd .config/nvim/lua/user/
 vim packer.lua
-vim
 cp Downloads/Caesar3.png ~/notes/School/informatik/assets
-pass test/test
-mail
 sxiv assets/Caesar3.svg
 vim test.tex
 pandoc test.md -s -o test.tex
@@ -935,8 +719,6 @@ zathura Caesar.pdf&
 vim Caesar.
 vim Caesar.md
 pandoc Caesar.md -o Caesar.pdf
-cd .config/nvim/lua/plugins/
-vim copilot.lua
 bc 
 lua test.l
 vim test.l
@@ -945,16 +727,11 @@ vim test.lua "potenz"
 vim test.lua
 lua test.lua "potenz"
 mv test.lua caesar.lua
-cd .config/nvim/lua/plugins
-vim init.lua
-cd .config/nvim/lua/user
-cd .config/nvim/after/plugin
 vim mardown.lua
 acpi -L
 acpi -b
 acpi -i
 pkill efm-langserver
-nvtop
 cd .local/share/nvim/site/pack
 cd /etc/laptop-mode
 doas vim conf.d
@@ -967,87 +744,45 @@ doas modprobe nvidia-drm
 doas shutdown -r now
 doas rmmod -r nvidia_drm
 doas rmmod -f nvidia_drm
-vim index.md
 pkill picom pulseaudio conky
 pkill picom 
-doas shutdown -h now
 vim 2023-01-11-deutsch-unterricht.md
-doas -s
-pkill picom
-pkill pulseaudio
-pkill conky
-lsmod
 rmmod nvidia_
-rmmod nvidia_drm
-doas rmmod nvidia_drm
-doas rmmod nvidia_modeset
-doas rmmod nvidia
 pkill polybar
 hotp
 doas powertop
-n -e
 doas nvim intel_pstate.conf
 doas nvim cpufreq.conf
 doas rc-service laptop_mode re
 doas rc-service laptop_mode restart
-cd Downloads
 pandoc 2022_12_2022.docx -o /tmp/english.md
 vim /tmp/english.md
-acpi
 datae
-date
 date 
-htop
 sensors
 cd /etc/X11/xorg.conf.d
-ls
-doas -s 
 nvtop
-vim index.md
-doas shutdown -h now
 pandoc 2023-01-11-english-unterricht.md -o alexa.pdf
 zathura alexa.pdf&
-eisvogel 2023-01-11-english-unterricht.md
-zathura output.pdf
 ssh gulugulu@aegaeon.uberspace.de
-cd .config/nvim/after/plugin/
-vim color.lua
 cd .config/nvim/after/plugin
-vim color.lua
 task add Christopher schreibne
 q1 12
 task 11 done
 task 7 done
-task
 task schulaufgaben
 task 6 done
 task 5 done
-ls
 php -S localhost:8000
 l
-vim .
 rm index.html
-vim index.html
-vim index.html
-n -e
-doas shutdown -h now
-vim index.md
-ls
 mkdir js
-vim index.html
 php -S 127.0.0.1
-php -S 127.0.0.1:8000
 doas nvim /etc/nginx/nginx.conf
 startweb
 ip a
 pkill conky 
-pkill picom
-pkill pulseaudio
-pkill pol
-htop
 doas -s 
-acpi
-htop
 lsmod
 rmmod nvidia
 rmmod nvidia_drm
@@ -1056,12 +791,8 @@ rmmod nvidia_modeset
 doas rmmod nvidia_modeset
 doas rmmod nvidia
 doas nvim /etc/modprobe.d/blacklist.conf
-doas -s
-htop
 bc
-nvim --version
 cd Source
-ls
 cd neovim
 git pull
 make CMAKE_BUILD_TYPE=Release
@@ -1069,31 +800,18 @@ doas make CMAKE_BUILD_TYPE=Release
 doas make install
 nvim --version
 zathura output.pdf&
-pandoc 2023-01-12-mathe-unterricht.md -o output.pdf
 nvim
 pulseaudio
-pkill pulseaudio
-pulseaudio
 date
-acpi
-doas shutdown -h now
-vim index.md
-ls
 pandoc 2023-01-12-mathe-unterricht.md -o output.pdf
 vim .
 php -S 0.0.0.0:8000
-ls
 vim index.html
 doas pkill picom
-pkill conky
-pkill pulseaudio
 pkill pol
-ls
 vim js/scripts.js
 php -S 127.0.0.1:8000
 vi index.md
-vim index.md
-doas shutdown -h now
 pandoc 2023-01-11-english-unterricht.md -o alex.pdf
 zathura alex
 zathura alex.pdf
@@ -1102,97 +820,48 @@ zathura summary_alexa.pdf
 eisvogel 2023-01-11-english-unterricht.md
 pandoc 2023-01-11-english-unterricht.md -o output.pdf -s --from markdown --to pdf --template=eisvogel.latex --number-sections
 zathura output.pdf
-vim index.md
 cd 
 cd .config/zsh
-n -e
 task 1 wait
 task 1 WAIT
 task 1 +WAIT
 task 1
 task 1 modify wait:eom
 pkill pico
-pkill picom
-pkill pulseaudio
-vim index.md
 feh --bg-fill .config/wall/move_compile.png
 pkill conky
 feh --bg-fill .config/wall/bird_gentoo.jpg
 cd .config/nvim/lua/user
-ls
 vim remap.lua
 cd work/tw-kanban
-ls
-vim update_db.php
-cd .dotfiles/.config/nvim.bak/after/plugin/keymap
-vim init.lua
-vim index.md
-doas shutdown -h now
-ls
 doas rc-service mysql start
 php update_db.php
 vim update_db.php
 mysql -u root -p
-pass
-pass test/test
-mail
-acpi
 cd .config/nvim/after/plugin/
 vim color.lua
-ls
-n -e
-vim index.md
-cd .config/nvim/lua/plugins
-vim copilot.lua
 cd .dotfiles/.config/nvim.bak/after/plugin/keymap
-ls
-vim init.lua
-cd .config/nvim/lua/plugins
 vim copilot.lua
-n -e
-cd
-cd .dotfiles
 git add *
-git add .
-git commit -m "update"
-git push
 doas nvim /etc/portage/package.use/nginx
 doas dispatch-conf
 gentoo-updater
-doas shutdown -h now
-ls
 mkdir python 
-cd python
-vim index.md
-n -e
 pip install nltk
-pip install nltk --user
 pip install textblob newspaper3k --user
-vim main.py
-python main.py
 pip3 install textblob --user
 pip3 install newspaper3k --user
 pip install nltk --user
 python
 python -m textblob.download_corpora
 cd nvim
-vim init.lua
 vun
 vim
-cd
-cd work/miniprojects/python
 mkdir vimauto_exec
-cd vimauto_exec
-vim main.py
 task add sehtest anfragen project:Privat
 q1 8
-task
-pass
-pass test/test
-mail
 task add rollos raussuchen
 cd .config/nvim/lua/plugins/
-vim init.lua
 cd .config/nvim/lua/plugins
 vim init.lua
 eix -s eos
@@ -1201,39 +870,21 @@ snap
 eix -s snap
 eix -s snapd
 doas emerge --ask snapd
-doas -s
-adb
-fastboot devices
-doas -s
 cd Downloads 
-doas -s
 cd work
 cd notes
 n -e
-n -e
 cd
 ls Do
 ls Documents
-cd Downloads
-ls
 ls lineage-19.1-20221225-
 ls lineage-19.1-20221225-*
-pass test/test
 task
 pass edit test/test
-mail
-doas -s
 adb
-cd Downloads
-fastboot devices
 adb devices
 adb sideload e-1.6-r-20221129238947-stable-guacamole.zip
-pass test/test
-mail
 htop
-pass test/test
-mail
-cd Downloads
 ös
 ls flash-all.bat
 bat flash-all.bat
@@ -1249,67 +900,38 @@ pip install --upgrade protoc==3.20.x --user
 pip install --upgrade protoc==3.20.0 --user
 PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION=python
 doas PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION=python
-doas s
 pip install protobuf==3.20.0
 pip install protobuf==3.20.0 --user
 doas pip install protobuf==3.20.0 --user
 doas python payload_dumper.py payload.bin
 cd output
-ls
-vim flash_all.sh
-doas -s
-cd Downloads
-ls
 ls twrp-3.7.0_12-0-guacamole*
 fastboot flash recovery twrp-3.7.0_12-0-guacamole.img
 fastboot devices
 doas s
-doas -s
-doas shutdown -h now
-cd Downloads/payload_dumper/output
-ls
 ls reserve.img
 cd Downloads/payload_dumper/output
-ls
 vim flash_all.sh
-doas -s
 cd miniprojects/python/vimauto_exec
-ls
-vim main.py
-pass test/test
 vim emails
 cd emails
-ls
 cp 2023-01-03-Email-Fragen.md 2023-01-14-Hello-Christopher.md
 vim 2023-01-1
 vim 2023-01-14-Hello-Christopher.md 
-mail
 cd /usr/src/linux
-doas -s
 eix -s virtualbox
 doas emerge --ask virtualbox
 virtualbox
-doas virtualbox
 doas emerge -1 virtualbox-modules
-doas shutdown -h now
-pass test/test
-mail
 doas gpasswd -a niklas vboxsf
 doas gpasswd -a niklas vboxuser
 cd Downloads
-doas -s
-cd /mnt/usb
-ls
 ls -la
 dmenuunmount
 lsblk
-pass test/test
 mial
-mail
-doas shutdown -h now
 doas emerge --ask app-emulation/virtualbox-additions
 doas virt
-doas virtualbox
 doas dmenu
 doas dmenurun
 doas virtualbox
@@ -1318,18 +940,176 @@ adb devices
 doas 
 doas -s
 pass
-pass test/test
-mail
 pass privat/emails/niklas@vonhirschfeld.eu
 cd .config/himalaya
-ls
 bat config.toml
-doas shutdown -h now
-ls
 vim index.md
 acpi
-cd work/miniprojects/python
 cp vimauto_exec/autosave.lua ~/.config/nvim/after/plugin
 cd vimauto_exec
-ls
+cd .dotfiles
+git add .
+git commit -m "update"
+git push
+pkill picom
+pkill pulseaudio
+nmtui
+pip install git+https://github.com/mmabrouk/chatgpt-wrapper --user
+pip freeze | grep playwright 
+python -m playright
+eix -s playwright
+npm init playwright@latest
+playwright install firefox
+chatgpt
+cd  work/miniprojects/python
+cd contacts_project
+n -e
+vim test.py
+python test.py
+chatgpt install
+chatgpt 
+cd log
+vim 2023-01-16.md
+cd python
+mkdir tourism_chatgpt
+cd tourism_chatgpt
+touch main.py
+cp /tmp/2023-01-16_20:44:53_1915x372.png work/miniprojects/python/tourism_chatgpt
+pass te
+pass test/test
+mail
+himalaya -a uberspace read 223
+pip install openai
+pip install openai --user
+python chat_gpt_output_summarize.py
 vim main.py
+cp /mnt/usb/tourism_german_squad.csv ./data.csv
+python main.py
+file -i data.csv
+iconv -l
+pandoc tourism_german_squad.xlsx -o data.csv
+pandoc -h
+man pandoc
+pandoc tourism_german_squad.xlsx -f xls -o data.csv
+cd ~/Documents
+cd /mnt/usb
+vim tourism_german_squad.csv
+cd work/miniprojects/python/tourism_chatgpt
+ls
+vim chat_gpt_output_summarize.py
+sxiv /tmp/2023-01-16_20:44:53_1915x372.png
+doas shutdown -h now
+l
+s
+cd python/tourism_chatgpt
+ls
+cp ~/Documents/tourism_german_squad.csv data.csv
+python main.py
+vim main.py
+python chat_gpt_output_summarize.py
+vim chat_gpt_output_summarize.py
+python main.py >> first_try_chatgpt.out
+bat first_try_chatgpt.out
+vim first_try_chatgpt.out
+vim index.md
+pip install xlrd
+pip install xlrd --user
+vim main.py
+cp main.py fail_first_try_csv.py
+cp /mnt/usb/tourism_german_squad.xlsx data.xlsx
+pip install pandas --user
+pip install openpyxl --user
+sensorfs
+sensors
+doas shutdown -h now
+pkill picom
+pkill pulseaudio
+task 6 delete
+task 7 donw
+task 7 done
+task
+nmtui
+grep "Antwort:" | sed -s "s/Antwort://g"  
+vim output_tests/17-01-Nr-5-try-chatgpt-3.out
+pip install subporcess --user
+vim test.py
+doas shutdown -h now
+doas shutdown -h now\
+doas
+doas shutdown -h now
+ip A
+ip a
+doas shutdown -h now
+bc
+cd ..
+cd vonHirschfeld
+ls
+vim css/style.css
+cd work
+git clone https://github.com/hirschiii/deezid
+git clone https://github.com/hirschii/deezid
+git clone https://github.com/hirschi/deezid
+https://github.com/Hirschiii/deezid
+git clone https://github.com/Hirschiii/deezid
+ssh-keygen
+cat 
+cat ~/.ssh/id_rsa.pub
+git clone git@github.com:Hirschiii/deezid.git
+ls
+cd deezid
+tmux
+cd notes/Projects
+ls
+vim index.md
+gentoo-updater
+doas shutdown -h now
+bashtop
+cd no
+cd work
+cd
+cd notes
+cd Projects
+cd Account_Scraper
+ls
+pass test/test
+sc-im Uberspace.s
+sc-im Uberspace.sc
+cd notes/Projects/Account_Scraper
+ls
+cat example
+cat example.sc
+vim Uberspace.sc
+vim Uberspace.sh
+sc-im example.sc
+gent
+gentoo-updater
+htop
+cal
+cal motn
+cal month
+cal month 3
+cal -h
+cal -3
+vim /tmp/henning
+cp Uberspace.sc Uberspace.sc.bal
+sc-im Uberspace.
+sc-im Uberspace.s
+sc-im Uberspace.sc
+vim Uberspace.sc
+zip -h
+man zip
+zip -q Uberspace.zip Uberspace.sc Uberspace.sh
+cp Uberspace.zip ~/Downloads
+cd ~/Downloads
+unzip Uberspace.zip
+ls
+pass test/test
+pass 
+pass privat/uberspace/taskwarrior
+pass test/test/test
+pass test/test/test | grep "User"
+pass test/test/test | grep -i "User"
+pass edit test/test/test
+pass test/test/test | grep -i "user"
+gentoo-updater
+doas emerge --update --newuse --deep --with-bdeps=y @world

@@ -1,0 +1,138 @@
+# [Created by task 2.6.2 10/27/2022 15:33:44]
+# Taskwarrior program configuration file.
+# For more documentation, see https://taskwarrior.org or try 'man task', 'man task-color',
+# 'man task-sync' or 'man taskrc'
+
+# Here is an example of entries that use the default, override and blank values
+#   variable=foo   -- By specifying a value, this overrides the default
+#   variable=      -- By specifying no value, this means no default
+#   #variable=foo  -- By commenting out the line, or deleting it, this uses the default
+
+# You can also refence environment variables:
+#   variable=$HOME/task
+#   variable=$VALUE
+
+# Use the command 'task show' to see all defaults and overrides
+weekstart=Monday
+
+# Files
+data.location=/home/niklas/.task
+
+# Custom reports
+report.todo.description=Todo
+report.todo.columns=id,project,description.count,urgency
+report.todo.labels=ID,Project,Text,Urg
+report.todo.sort=urgency-,project-
+report.todo.filter=status:pending -ACTIVE -WAITING -BLOCKED -OVERDUE
+
+# Alle Schulaufgaben
+
+report.schulaufgaben.description=Schulaufgaben
+report.schulaufgaben.columns=id,tags,description.count,urgency
+report.schulaufgaben.labels=ID,Fach,Text,Urg
+report.schulaufgaben.sort=urgency-,project-
+report.schulaufgaben.filter=status:pending -ACTIVE -WAITING -BLOCKED -OVERDUE project:Schule
+
+# Die nächste Klausur anzeigen
+report.examen.description=Die nächste Klausur anzeigen
+report.examen.columns=id,project,description.count,urgency
+report.examen.labels=ID,Project,Text,Urg
+report.examen.sort=due+
+report.examen.filter=status:pending -ACTIVE -WAITING -BLOCKED -OVERDUE +klausur
+
+report.doing.description=In progress
+report.doing.columns=id,description.count
+report.doing.labels=ID,Text
+report.doing.sort=priority-,id+
+report.doing.filter=status:pending +ACTIVE
+
+
+# taskd.trust=allow all
+
+# To use the default location of the XDG directories,
+# move this configuration file from ~/.taskrc to ~/.config/task/taskrc and uncomment below
+
+#data.location=~/.local/share/task
+#hooks.location=~/.config/task/hooks
+
+# Color theme (uncomment one to use)
+#include light-16.theme
+# include light-256.theme
+# include dark-16.theme
+include dark-256.theme
+#include dark-red-256.theme
+#include dark-green-256.theme
+# include dark-blue-256.theme
+# include dark-violets-256.theme
+#include dark-yellow-green.theme
+#include dark-gray-256.theme
+#include dark-gray-blue-256.theme
+# include solarized-dark-256.theme
+# include solarized-light-256.theme
+#include no-color.theme
+
+uda.urgent.type=string
+uda.urgent.label=Urgent
+uda.urgent.values=Y,N
+
+uda.priority.values=H,L
+
+uda.selectedtoday.type=string
+uda.selectedtoday.label=Selected_for_today
+uda.selectedtoday.values=Y,N
+
+urgency.tags.coefficient = 0
+urgency.annotations.coefficient = 0
+urgency.uda.urgent.Y.coefficient = 10
+urgency.uda.urgent.N.coefficient = 0
+urgency.uda.priority.H.coefficient = 10
+urgency.uda.priority.L.coefficient = 0
+
+
+# https://blag.nullteilerfrei.de/2013/10/24/the-eisenhower-matrix-in-taskwarrior/
+# inbox
+report.inbox.description=INBOX report
+report.inbox.filter=limit:page dep: status:pending -fun and ( priority: or urgent: )
+report.inbox.columns=id,project,description,entry.age,priority,urgent,tags
+report.inbox.labels=ID,Proj,Description,Age,Prio,Urgent,Tags
+report.inbox.sort=entry+
+
+# task Q1
+report.q1.description=Quadrant 1: important and urgent
+report.q1.filter=limit:page status:pending and priority:H and urgent:Y
+report.q1.columns=start.active,id,project,urgency,description,entry.age,tags
+report.q1.labels=A,ID,Proj,Urg,Description,Age,Tags
+
+# task Q2
+report.q2.description=Quadrant 2: important and unurgent
+report.q2.filter=limit:page status:pending and priority:H and urgent:N
+report.q2.columns=start.active,id,project,urgency,description,entry.age,tags
+report.q2.labels=A,ID,Proj,Urg,Description,Age,Tags
+
+# task Q3
+report.q3.description=Quadrant 3: unimportant and urgent
+report.q3.filter=limit:page status:pending and priority:L and urgent:Y
+report.q3.columns=start.active,id,project,urgency,description,entry.age,tags
+report.q3.labels=A,ID,Proj,Urg,Description,Age,Tags
+
+# task Q4
+report.q4.description=Quadrant 4: unimportant and unurgent
+report.q4.filter=limit:page status:pending and priority:L and urgent:N
+report.q4.columns=start.active,id,project,urgency,description,entry.age,tags
+report.q4.labels=A,ID,Proj,Urg,Description,Age,Tags
+
+
+
+report.project.description=Projects report
+report.project.filter=status:pending project.not:
+report.project.columns=id,project,description,tags
+report.project.labes=ID,Proj,Description,Tags
+report.project.sort=project,urgency
+taskd.certificate=\/home\/niklas\/.task\/Niklas.cert.pem
+taskd.key=\/home\/niklas\/.task\/Niklas.key.pem
+taskd.ca=\/home\/niklas\/.task\/ca.cert.pem
+taskd.server=gulugulu.uber.space:41920
+# taskd.server=192.168.4.10:53589
+taskd.credentials=Privat\/Niklas von Hirschfeld\/aed357f0-3a3e-4dd5-8982-d92d6e09e7d1
+# taskd.ca=\/home\/niklas\/.task\/ca.cert.pem
+news.version=2.6.0
