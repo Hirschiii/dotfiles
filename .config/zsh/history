@@ -1113,3 +1113,37 @@ pass edit test/test/test
 pass test/test/test | grep -i "user"
 gentoo-updater
 doas emerge --update --newuse --deep --with-bdeps=y @world
+lsblk
+btrfs
+btrfs balance
+btrfs inspect-internal
+pv
+eix -s pv
+doas emerge --ask pv
+mv .taskrc ~/.dotfiles
+cd .dotfiles
+git add
+cd
+cd work
+cd tw-kanban
+cd ..
+mv tw-kanban tw-kanban.save
+git clone git@github.com:Hirschiii/tw-Kanban.git
+mv tw-kanban.save/* tw-Kanban
+ls tw-Kanban
+rm tw-kanban.save
+ls tw-kanban.save
+rm -rf tw-kanban.save
+cd tw-Kanban
+git add .
+git commit -m "update"
+git push
+ls
+cd /mnt
+ls
+mkdir gentoo_backup
+doas -s
+ls
+doas cp -r work /mnt/gentoo_backup/dirs
+lsblk
+doas -s
