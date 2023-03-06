@@ -1,3 +1,0 @@
-#!/bin/bash
-
-echo "/home/niklas/Notes/Resources/Planning/Daily notes/$(date +%Y)/$(date +%m)/$(date +%F).md"

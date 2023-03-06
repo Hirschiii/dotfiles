@@ -8,7 +8,7 @@ School="Index Inforamtik Deutsch Geschichte Spanisch English Kunst Chemie Mathe 
 
 index="$HOME/notes/index.md"
 
-daily="$HOME/notes/daily/$(date +%Y)/$(date +%m)/$(date +%F).md"
+daily="$(date +"%y-%m-%d %H:%M" | while read d t ; do f=$HOME/notes/daily/$d ; ( echo; echo $t ; echo ) >> "$f" ; echo "$f"; done; )"
 
 kanban="$HOME/notes/Area/Planning/Kanban/Planning.md"
 

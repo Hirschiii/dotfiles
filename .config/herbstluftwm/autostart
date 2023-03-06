@@ -14,6 +14,9 @@ xmodmap ~/.Xmodmap &
 # $HOME/.config/polybar/launch.sh &
 ~/.local/bin/autostart.sh &
 
+doas tlp start &
+doas system76-power daemon &
+
 # xmodmap ~/.xmodmap 
 # xmodmap $HOME/.xmodmap
 
@@ -70,13 +73,13 @@ hc keybind $Mod-a spawn dmenu-win
 
 # Audio Controll
 
-# hc keybind XF86AudioRaiseVolume spawn pactl set-sink-volume @DEFAULT_SINK@ +10%
-# hc keybind XF86AudioLowerVolume spawn pactl set-sink-volume @DEFAULT_SINK@ -10%
-# hc keybind XF86AudioMute spawn pactl set-sink-mute @DEFAULT_SINK@ toggle
+hc keybind XF86AudioRaiseVolume spawn pactl set-sink-volume @DEFAULT_SINK@ +10%
+hc keybind XF86AudioLowerVolume spawn pactl set-sink-volume @DEFAULT_SINK@ -10%
+hc keybind XF86AudioMute spawn pactl set-sink-mute @DEFAULT_SINK@ toggle
 
-hc keybind XF86AudioRaiseVolume spawn amixer set Master 5%+
-hc keybind XF86AudioLowerVolume spawn amixer set Master 5%-
-hc keybind XF86AudioMute spawn amixer set Master toggle
+# hc keybind XF86AudioRaiseVolume spawn amixer set Master 5%+
+# hc keybind XF86AudioLowerVolume spawn amixer set Master 5%-
+# hc keybind XF86AudioMute spawn amixer set Master toggle
 # Backlight 
 
 hc keybind XF86MonBrightnessDown spawn light -U 10

@@ -35,8 +35,8 @@ report.schulaufgaben.filter=status:pending -ACTIVE -WAITING -BLOCKED -OVERDUE pr
 
 # Die nächste Klausur anzeigen
 report.examen.description=Die nächste Klausur anzeigen
-report.examen.columns=id,project,description.count,urgency
-report.examen.labels=ID,Project,Text,Urg
+report.examen.columns=id,due,description.count,urgency
+report.examen.labels=ID,Due,Text,Urg
 report.examen.sort=due+
 report.examen.filter=status:pending -ACTIVE -WAITING -BLOCKED -OVERDUE +klausur
 
@@ -128,8 +128,8 @@ report.project.filter=status:pending project.not:
 report.project.columns=id,project,description,tags
 report.project.labes=ID,Proj,Description,Tags
 report.project.sort=project,urgency
-taskd.certificate=\/home\/niklas\/.task\/Niklas.cert.pem
-taskd.key=\/home\/niklas\/.task\/Niklas.key.pem
+taskd.certificate=\/home\/niklas\/.task\/client.cert.pem
+taskd.key=\/home\/niklas\/.task\/client.key.pem
 taskd.ca=\/home\/niklas\/.task\/ca.cert.pem
 taskd.server=gulugulu.uber.space:41920
 # taskd.server=192.168.4.10:53589

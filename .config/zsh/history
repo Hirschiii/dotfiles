@@ -1,1149 +1,1106 @@
-vim conky_main.lua
-fc-list
-fc-list | grep retina
-fc-list | grep Retina
-conky -c ~/.config/conky/conky_task_progress.lua
-vim conky_all.lua
-conky -c conky_all.lua
-task 15 stop
-timew week
-cat .taskrc
-task limit:10
-task limit:10 rc.defaultwith:80
-task limit:10 rc.defaultwith:80 rc._forcecolor:on
-task limit:10 rc.defaultwith:80 rc._forcecolor:on rc.verbose:affext,blank todo
-task start 14
-ls -la .task
-ls -la .task*
-task 14 stop
-vim conky_
-task doing
-task todo -ACTIVE
-task todo -BLOCKD
-task status:waiting
-task status:pending
-task status:pending -OVERDUE
-task status:pending -WAITING
-task status:pending -BLOCKED
-task status:pending -ACTIVE
-task show
-watch task
-time task todo
-watch task todo
-task 1 show
-task delete 1
-cp conky_task_progress.lua conky_next_examen.lua
-task add +klausur due:eocw  English
-task add +klausur due:fri  English
-task add +klausur due:fri  spanisch
-task add due:tomorrow +klausur deutsch
-task examen
-task 17 15 16 delete
-vim .task
-vim conky_e
-vim conky_ex
-cd .config/emp
-conky -c conky_task_progress.lua
-conky -c conky_next_examen.lua
-grep -v '^100'
-echo "190" | grep -v '^100'
-cd conky
-cp conky-task-progress.sh conky-sort.sh
-vim conky-s
-vim conky-sort.sh
-task project:Linux mod project:Privat.Linux
-task b6862wf7
-task id:b6862wf7
-./conky-task-progress.sh
-task add project:Praktikum Anfrage auf ablauf, zeit und programme?
-task add project:Praktikum Anfrage auf ablauf, zeit und programme
-task project:Home
-cd .local/bin/conky
-vim conky-task-progress.sh
-./conky-task-progress.sh | sed '/100/d\
-'
-echo "100, 90, 110" | grep -v "_100"
-echo "100, 90, 110" | grep -v "^100"
-echo "100, 90, 110" | grep -v '^100'
-echo "110" | grep -v '^100'
-echo "100" | grep -v '^100'
-echo "120" | grep -v '_100'
-grep -g
-grep -h
-grep -v
-grep --help
-grep --help | grep "-v"
-task all
-task project
-task in
-q1 15
-task 3 done
-q4 6
-q2 7 8 9 10 
-task 12 done
-task delete 11
-q2 10
-q2 7 8 9
-q3 1
-q3 7
-q3 8
-q3 9
-task inboc
-task inbox
-task 3 delete
-q4 5
-q2 3
-task -h
-task colors
-man task
-task +nocolor
-echo -e "\e[31mRed Text\e[0m"
-echo -e "\e[31m$(task)\e[0m"
-vim conky_next_examen.lua
-task no-color.theme
-task include no-color.theme
-task color
-task color white on red
-task summary rc.defaultwidth:80 | ansito -
-task summary
-task summary | ansito
-task summary | ansito -
-ansito
-ansito -h
-task todo
-task todo | cat
-task start 10
-conky -h
-task 10 stop
-himalaya write
-vima
-vim passmenu2
-vim passmenu
-chmod +x passmenu
-passmenu
-passmenu2
-himalaya folders -w 50
-himalaya uberspace folders -w 50
-himalaya -a uberspace folders -w 50
-himalaya -a uberspace -f Sent Messages
-himalaya -a uberspace -f 'Sent Messages'
-himalaya -a uberspace -f 'Sent'
-himalaya -a uberspace -f 'Sent' 16
-himalaya -a uberspace -f 'Sent' read 16
-chmod +x morgen-2.6.3.AppImage
-./morgen-2.6.3.AppImage
-task add project:Schule.po.biodiversität
-task add project:Schule.po.biodiversität Design to light and title as Mask for bio img
-task 10 start
-cp Downloads/avenue-g8d6dd1403_1280.jpg work/bio_po_umfrage/assets/bio_mask.jpg
-cp Downloads/julian-fill-cjy8GKROLRY-unsplash.jpg ~/work/bio_po_umfrage/assets/bio_mask_v2.jpg 
-convert Downloads/nahil-naseer-xljtGZ2-P3Y-unsplash\ \(1\).jpg --rotate 90 work/bio_po_umfrage/assets/bio_mask_v3.jpg 
-convert Downloads/nahil-naseer-xljtGZ2-P3Y-unsplash\ \(1\).jpg --rotate 90 /work/bio_po_umfrage/assets/bio_mask_v3.jpg 
-convert Downloads/nahil-naseer-xljtGZ2-P3Y-unsplash\ \(1\).jpg -rotate 90 work/bio_po_umfrage/assets/bio_mask_v3.jpg 
-task 10 done
-timew
-task project:Schule.po.biodiversität add menu
-q4
-timew summary
-timew day
-task burndown
-cd .config/shell
-vim zsh_alias
-npx msdl
-mupdf Jojo_s_Bizarre_Adventure_Golden_Wind_Giorno\&\#039\;s_Theme_Ver_2.pdf
-task add python contactbook
-task start 11
-mysql -u root -p 
-pip install black --user
-cd bio_po_umfrage
-touch .htacces
-mv .htacces .htaccess
-vim .htaccess
-rm .htaccess
-mkdir miniprojects
-cd miniprojects
-mkdir python
-vim python/index.md
-mkdir contacts_project
-touch requirements.txt
-touch README.md contacts.py
-mkdir contacts
-cd contacts
-touch __init__.py views.py
-touch database.py main.py model.py
-vim RE
-vim viw
-vim views.py
-python 
-vim sampledata.py
-vim model.py
-pip install qt5
-pip install qt5 --user
-pip install pyqt5 --user
-chmod +x contacts.py
-pip install mysql
-pip install mysql --user
-pip install mysql-connector-python --user
-rc-service mysql start
-vim contacts
-vim contacts.py
-./contacts.py
-doas -u root -p
-task 11 sto
-task 11 stp
-task 11 stop
-himalaya read 1545
-himalaya
-himalaya -a gmail
-himalaya -h
-himalaya -a gmail read 
-himalaya -a gmail read 1545
-xrandr --output eDP-1 -r 48
-vim .config/picom
-xrandr --output default --mode 3840x2160_48.00
-xrandr --output eDP-1 --mode 3840x2160_48.00
-xrandr
-pkill intel_gpu_top
-doas pkill intel_gpu_top
-prime-run mpv 'https://www.youtube.com/watch?v=hH3zCpRDaIA'
-doas emerge --deselect  starship
-git clone https://github.com/kdheepak/taskwarrior-tui
-cd taskwarrior-
-cd taskwarrior-tui
-make install
-tar -xf taskwarrior-tui-x86_64-unknown-linux-gnu.tar.gz
-ls taskwarrior-tui
-./taskwarrior-tui 
-mv taskwarrior-tui ~/.dotfiles/.local/bin
-task todo 
-task 6 mod project:Schule
-task 5 mod project:Schule
-task 8 mod project:Schule
-task 9 mod project:Schule
-task 11 modify project:Privat.python
-ask
-task 7 mod project:Schule
-task limit:10 rc.defaultwidth:80 project:Schule
-task Schulaufgaben
-task -project:Schule
-task project:-Schule
-task project:
-task 
-task project.not:Schule
-vim .config/conky/conky_task_progress.lua
-task 2 mod project:Privat.Schule
-task project:Schule
-task sch
-task 7 mod +Inf
-task task 8 mod +BO
-task 8 mod +BO
-task 10 mod +biodiversität
-tas
-task 10 modify +po
-task 10 modify -biodiversität
-taskwarrior-tui
-vim .taskw
-vim .taskrc
-task 10 delete
-task add project:Schule.po +PO Menu hinzufügen
-cd notes/School/B
-cd notes/School/BAK-10-2021-2022/English
-ls Nosedive
-cat Writing\ a\ Comment.md
-cat English.md
-cat English-Strangerthings.md
-ls Aufgaben
-cat Aufgaben/English\ Aufgabe\ 2022-05-19.md
-bat markdown.lua
-cat ./* | grep link
-cp Downloads/Caesar3.svg ~/notes/School/informatik/
-doas emerge --ask inkscape
-tegehkgqqzxzjkjl
-echo "tegehkgqqzxzjkjl" >> note
-bat note
-vim Downloads/events.ics
-cd /mnt/notes/School/English
-cp ls
-cp Jojo_s_Bizarre_Adventure_Golden_Wind_Giorno\&\#039\;s_Theme_Ver_2.pdf /mnt
-doas cp Jojo_s_Bizarre_Adventure_Golden_Wind_Giorno\&\#039\;s_Theme_Ver_2.pdf /mnt
-ls /mnt
-dmenumount
-ls /mnt/usb
-cp Jojo_s_Bizarre_Adventure_Golden_Wind_Giorno\&\#039\;s_Theme_Ver_2.pdf /mnt/usb
-cat note
-doas emerge --update --newuse --deep --with-bdeps=y @world
-vim Wiki/filme.md
-cd Wiki
-vim filme.md
-neo
-cat .local/bin/gentoo-updater
-doas emerge --ask --depclean
-doas emerge --ask @
-doas emerge --ask @module-rebuild
-task 7 start
-zathura 2023-01-05-Caesar-Verschlüsselung.pdf&
-mkdir assets
-mv Caesar3.svg assets
-cat Nosedive/Comment.md
-pdflatex 2023-01-05-Caesar-Verschlüsselung.tex -shell-escape
-pdflatex --shell-escape 2023-01-05-Caesar-Verschlüsselung.tex
-eix -s inkscape
-touch 2023-01-05-Caesar-Verschlüsselung.tex
-vim .config/nvim/lua/user/packer.lua
-cat /etc/portage/package.accept_keywords/adb
-cat /etc/portage/package.accept_keywords/kernel
-doas nvim /etc/portage/package.accept_keywords/kernel
-htoip
-vim note
-neofetch
-eix -s gentoo-source
-eix -s gentoo-sources
-doas emerge --ask gentoo-sources
-emerge --ask --update --deep --with-bdeps=y --newuse sys-kernel/gentoo-sources
-doas emerge --ask gentoo-sources-6.1.3
-doas emerge --ask gentoo-sources:6.1.3
-glxgears
-glxgears -h
-prime-run chromiun-bin
-prime-run chromium-bin
-doas intel_gpu_top
-openssl speed
-vblank_mode=0 glxgears & sleep 15 ; killall glxgears
-vblank_mode=0 prime-run glxgears & sleep 15 ; killall glxgears
-xrandr --setprovideroffloadsink provider sink
-xrandr --setprovideroffloadsink nvidia Intel
-prime-run glxinfo | grep "OpenGL renderer"
-emerge --ask media-libs/vulkan-loader
-doas emerge --ask media-libs/vulkan-loader
-doas emerge --ask dev-util/vulkan-tools
-doas emerge --ask  dev-util/intel-ocl-sdk
-emerge --ask dev-libs/intel-compute-runtime
-doas emerge --ask dev-libs/intel-compute-runtime
-prime-run vulkaninfo
-doas nvim /etc/portage/package.use/mpv
-doas emerge --ask mpv
-mpv 'https://www.youtube.com/watch?v=j039ZLCfq-I'
-man mpv
-vim .config/mpv
-prime-run mpv 'https://www.youtube.com/watch?v=j039ZLCfq-I'
-LIBGL_DEBUG=1 glxinfo -B 
-dmesg | grep i915
-mpv 'https://www.youtube.com/watch?v=LXb3EKWsInQ&t=14s'
-VDPAU_DRIVER=va_gl mpv 'https://www.youtube.com/watch?v=LXb3EKWsInQ&t=14s'
-mpv --vo=gpu --hwdec=vaapi  'https://www.youtube.com/watch?v=LXb3EKWsInQ&t=14s'
-pkill piclm
-pkill pico,m
-prime-run picom
-picom
-picom --daemon
-prime-run __GL_SYNC_TO_VBLANK=0 glxgears
-vblank=1 glxgears
-vblank=0 glxgears
-vblank_mode=0 glxgears
-nvidia-smi
-hto
-lsmod | grep nvidia
-doas emerge --ask tuxracer
-doas emerge --ask extreme-tuxracer
-eix -s glmark2
-xrandr --list
-xrandr --listproviders
-prime-run glxgears
-__GL_SYNC_TO_VBLANK=0 prime-run glxgears
-chmod üx Unigine_Superposition-1.1.run 
-chmod +x Unigine_Superposition-1.1.run 
-./Unigine_Superposition-1.1.run
-prime-run ./Unigine_Superposition-1.1/Superposition
-./Unigine_Superposition-1.1/Superposition
-bat Superposition_Benchmark_v1.1_
-bat Superposition_Benchmark_v1.1_713_1673022062928.score
-pkill nm-applet
-vim .config/autostart
-vim .config/conky/conky_next_examen.lua
-pkill conly
-cd .config/con
-cat .conkyrc
-conky -c .conkyrc
-vim .conkyrc
-conky
-conky -c conky.conf
-vim conky.conf
-mv conky.conf conky.lua
-vim conky.
-conky -co .config/conky/conky.lua
-conky -c .config/conky/conky.lua
-vim conky_task_progress.lua
-free
-free -m
-ps -e -o pid,vsz,comm= | sort -n -k 2
-cd Downloads wget http://dl.dropbox.com/u/964512/conky/conkydate/conkyrc
-wget http://dl.dropbox.com/u/964512/conky/conkydate/conkyrc
-cd .config/conky
-chmod +x cal.lua
-./cal.lua
-vim cal.lua
-vim conky.lua
-tme
-time
-date %Y
-date %y
-date %j
-date +%y
-date +%Y
-date +%Y-%m
-date +%Y-%m-%d 5h
-date +%Y-%m-%d %h
-date +%Y-%m-%d
-man date
-date +%Y-%m-%d %R
-date +%Y-%m-%d:%R
-date "+%Y-%m-%d %R"
-doas nvim /etc/laptop-mode/conf.d/intel_pstate.conf
-doas nvim /etc/laptop-mode/conf.d/cpufreq.conf
-nvim /etc/laptop-mode/conf.d
-doas nvim /etc/laptop-mode/conf.d
-htoP
-cd souz
-cd sou
-git clone git clone https://github.com/NikitaIvanovV/dmenu-win
-git clone https://github.com/NikitaIvanovV/dmenu-win
-cd dmenu-win
-dmenu-win
-vim ~/.config/herbstluftwm/autostart
-vim dmenu_run_hlwm
-ls dmenu*
-chmod +x dmenu_run_hlwm
-./dmenu_run_hlwm
-rm dmenu_run_hlwm
-wget https://gist.githubusercontent.com/wdkrnls/fa9670000221419674f22d995f3a5896/raw/ae2b8925feeb49343cda09dd8ec67ba95c295ff0/dmenu_hlwm_add_tags
-bat dmenu_hlwm_add_tags
-cp dmenu_hlwm_add_tags ~/.local/bin
-cd .local/bin
-chmod +x dmenu_hlwm_add_tags
-txr
-eix -s herbstluftwm
-./dmenu_hlwm_add_tags
-eix -s txr
-ls t
-ls t*
-ls txr-284.zip
-unzip txr-284.zip
-cd txr-284
-make
-doas make install ~/.local/bin
-bat Makefile
-\:q
-cd .local/bin/i
-cd .local/bin/
-vim dmenu_hlwm_add_tags
-git clone https://github.com/herbstluftwm/herbstluftwm
-cd herbstluftwm/scripts
-./dumpbeautify.sh
-bat dumpbeautify.sh
-vim dumpbeautify.sh
-herbstclient dump | ./dumpbeautify.sh
-./exec_on_tag.sh
-bat exec
-bat exec_on_tag.sh
-bat keychain.sh
-doas emerge --ask wmctrl
-./windowmenu.sh
-./toggledualhead.sh
-./wselect.sh
-./la
-bat layout.sh
-./layout.sh
-bat q3terminal.sh
-./scratchpad.sh
-bat scratchpad.sh
-mv wselect.sh ~/.local/bin
-./floatmon.sh
-./loadstate.sh
-bat loadstate.sh
-herbstclient use test
-herbstclient use Test
-herbstclient remove Test
-herbstclient tag_status 
-task 7 stop
-cd Bo
-cd No
-cd Notcd
-git add . 
-ls Kanban
-bat Kanban/Untitled\ Kanban.md
-rm Kanban
-rm -rf Kanban
-rm Superposition_Benchmark_v1.1_*
-bat Desktop
-rm Desktop
-ls Mail
-bat Mail/Facharbeit
-bat Mail/Facharbeit.md
-ks
-rm Planning
-ls Planning
-rm -rf Planning
-rm Jojo_s_Bizarre_Adventure_Golden_Wind_Giorno\&\#039\;s_Theme_Ver_2.pdf
-vim Projects/index.md
-task export status:pending
-task status:pending export
-cat ./* | grep auto
-vim markdown.lua
-cat ./color.lua | grep Write
-cat ./filetree.lua | grep Write
-cat ./* | grep -l Write
-cat ./* | grep -L Write
-cat ./* | grep Write
-cat ./* | grep -L "Write"
-cat ./* | grep -l "Write"
-cat ./* | grep -l -R "Write"
-task export
-cd .config/nvim/my_snippets
-vim snippets/all.json
-cat package.json
-vim .config/nvim/after/plugin
-vim Documents/Templates/default.html
-git clone https://github.com/j-jith/taskwarrior-kanban
-cd taskwarrior-kanban
-python tw-kanban.py
-doas python tw-kanban.py
-doas python tw-kanban.py &
-pip3 install jinja2 --usert
-pip3 install jinja2 --user
-vim tw-kanban.py
-python3 ./tw-kanban.py
-chromium-bin index.html
-cd Wo
-mkdir tw-knaban
-cd tw-knaban
-mv tw-knaban tw-kanban
-cd tw-kanban
-unzip Drag-and-Drop-In-PHP-Source-Code.zip
-cd Dr
-cd drag
-chromium-bin index.php
-cp ./* ~/work/tw-kanban
-rm index.php
-rm drag.jpg
-git clone https://github.com/mikiakira/php-simple-kanban
-ls php-simple-kanban
-cd php-simple-kanban
-cp app.template.db app.db
-vim config/define.php
-ls js
-vim index.php
-vim .config/nvim/after/plugin/lsp.lua
-vim kanaban-idee.html
-mv kanaban-idee.html kanban-idee.php
-cp kanban-idee.js back.js
-vim kanban-idee.jk
-mv back.js kanban-idee.js
-vim php-simple-kanban/index.php
-cp kanban-idee.js bak.kan.js
-vim .config/emptty
-vim .local/bin/auto
-vim .local/bin/autostart.sh
-vim .config/conky/conky.lua
-hc tag_status 
-task 8 done
-cd .config/herbstluftwm
-vim autostart
-sxiv 2023-01-08_12:42:41_3748x1996.png
-sxiv 2023-01-08_12:43:13_2009x1425.png
-mv 2023-01-08_12:43:13_2009x1425.png ~/notes/School/pow
-sxiv 2023-01-08_12:47:14_1304x884.png
-cp 2023-01-08_12:47:14_1304x884.png ~/notes/School/pow
-cd notes/daily/2023/01/2023-01-08.md
-s
-cd ..
-rm -rf 2023-01-08.md
-doas nvim /etc/nginx/nginx.conf 
-himalaya -a gmail read 1533
-mkdir Me
-ls Projects
-ls Projects/Uni
-ls -rf Projects/Uni Me
-mv -rf Projects/Uni Me
-mv Projects/Uni Me
-cd Me/Uni
-doas .s
-vim index.md 
-vim kanban-idee.js
-vim kanban-idee.css
-vim php-simple-kanban
-vim kanban-idee.
-vim kanban-idee.php
-doas rc-service nginx start
-doas rc-service php-fpm start
-pandoc umfrage.php -o umfrage.html
-cp umfrage.php umfrage.html
-pandoc umfrage.html -o umfrage.md
-mv umfrage.md umfrage.txt
-bat umfrage.md
-bat umfrage.txt
-ls Biodiversität,\ über\ uns.docx
-pandoc Biodiversität,\ über\ uns.docx -o uber_wir.md
-vim uber_wir.md
-doas vim /etc/nginx/nginx.conf
-vim work/bio_po_umfrage/index.html
-vim work/bio_po_umfrage/umfrage
-vim work/bio_po_umfrage/umfrage.php
-vim work/bio_po_umfrage/index.md
-vp vote.php vote.php.dug
-cp vote.php vote.php.dug
-vim umfrage.m
-vim umfrage.md
-vim umfrage.txt
-vim style_umfrage.css
-vim scripts.js
-task project:Schule PO hochladen
-task add project:Schule PO hochladen
-q1 11
-vim umfrage
-vim umfrage.php 
-vim note/tmp
-cd .config/nvim/after/plugin/keymap
-cd .config/nvim/
-cat init.lua
-ls keymap.lua
-cat keymap.lua
-cat markdown.lua
-cat neogit.lua
-cd ~/.dotfiles
-ls 
-cat packer.lua
-cd .config/nvim/after/plugin/ls
-vim lsp.lua
-cd .config/n
-find . -type f -name "*.lua" | xargs wc -l | tail -n1
-cd .config
-mkdir nvim_under_200
-cd nvim_under_200
-mkdir -p lua/user
-cd lua/user
-vim keymap.lua
-cp ~/.config/nvim/lua/user/keymap.lua ./
-vim impatient.lua
-vim ind
-mkdir -p after/plugin
-cd after/plugin
-vim 
-mv keymap/* ./
-ls keymap
-rm -rf keymap
-bat init.lua
-rm init.lua
-vim set.lua
-cd .config/nvim
-find . -type f -name "*.lua" | xargs wc -l | tail -n1\
+cat /etc/modprobe.d/blacklist.conf
+doas rm /etc/modprobe.d/blacklist.conf
+__NV_PRIME_RENDER_OFFLOAD=1 __GLX_VENDOR_LIBRARY_NAME=nvidia glxinfo | grep "OpenGL renderer"
+lspci | grep VGA
+dmesg
+dmesg | vim
+dmesg > vim
+dmesg | less
+lsmod\
 
-cd .dotfiles/.config
-mv nvim nvim.bak
-mv nvim_under_200 nvim
-cd .local/share
-rm -rf ./tree-sitter-*
-vim /tmp/test.lua
-cd /tmp/l
-cd /tmp
-history
-bat history
-vim history 
-time vim
-apci
-cd .dotfiles/.config/nvim.bak/after/plugin/h
-cd .dotfiles/.config/nvim.bak/after/plugin/
-vim h
-vim html.lua
-cp notes/tmp work/bio_po_umfrage/fragen_chatgpt
-vim notes/tmp
-vim .local/bin
-chmod +x .local/bin/startweb
-vim .local/bin/st
-vim .local/bin/startweb
-mysql -u gulugulu -p
-doas nvim /etc/nginx/
-doas rc-service nginx restart
-vim umfrage.
-vim umfrage.php
-vim style.css
-doas nvim /var/log/nginx
-cd notes/School/en
-cd notes/School/English
-vim nd
-vim index.
-vim pa
-vim --startuptime 
-doas emerge --ask hyperfine
-hyperfine "nvim --headless +qa" --warmup 5
-hyperfine "nvim --headless +qa" --warmup 5 > hyperfine-packer.out
-cd .dotfiles/.config/nvim.bak/
-cd .dotfiles/.config/nvim.bak
-cd after/plugin/keymap
-cd .config/nvim/plugin
-rm packer_compiled.lua
-cd packer
-cd .. 
-rm -rf packer
-taks
-cd .dotfiles/.config/nvim.bak/after/plugin/keymap/
-vim telescope.lua
-task show 11
-task 11 show
-task 11
-cd .config/nvim/lua
-vim user/remap.lua
-cd user
-cd work/bio_po_umfrage
-vim vote.php
-vim 2023-01-
-mkdir lua/plugins
-cd lua/plugins
-touch init.lua
-cd .config/nvim/lua/user/
-vim packer.lua
-cp Downloads/Caesar3.png ~/notes/School/informatik/assets
-sxiv assets/Caesar3.svg
-vim test.tex
-pandoc test.md -s -o test.tex
-vim test.tex 
-pdflatex test.tex
-vim test.md
-pandoc test.md -o test.tex
-pandoc test.md -o test.pdf
-zathura test.pdf
-vim 2023-01-05-Caesar-Verschlüsselung.
-vim 2023-01-05-Caesar-Verschlüsselung.tex
-pdflatex 2023-01-05-Caesar-Verschlüsselung.tex
-zathura 2023-01-05-Caesar-Verschlüsselung.pdf
-zathura Caesar.pdf&
-vim Caesar.
-vim Caesar.md
-pandoc Caesar.md -o Caesar.pdf
-bc 
-lua test.l
-vim test.l
-lua test.lua
-vim test.lua "potenz"
-vim test.lua
-lua test.lua "potenz"
-mv test.lua caesar.lua
-vim mardown.lua
-acpi -L
-acpi -b
-acpi -i
-pkill efm-langserver
-cd .local/share/nvim/site/pack
-cd /etc/laptop-mode
-doas vim conf.d
-cpi
-doas vim /etc/laptop-mode/conf.d/intel_pstate.conf
-pkill X
-doas pkill X
-modprobe nvidia-drm
-doas modprobe nvidia-drm
-doas shutdown -r now
-doas rmmod -r nvidia_drm
-doas rmmod -f nvidia_drm
-pkill picom pulseaudio conky
-pkill picom 
-vim 2023-01-11-deutsch-unterricht.md
-rmmod nvidia_
-pkill polybar
-hotp
-doas powertop
-doas nvim intel_pstate.conf
-doas nvim cpufreq.conf
-doas rc-service laptop_mode re
-doas rc-service laptop_mode restart
-pandoc 2022_12_2022.docx -o /tmp/english.md
-vim /tmp/english.md
-datae
-date 
-sensors
-cd /etc/X11/xorg.conf.d
-nvtop
-pandoc 2023-01-11-english-unterricht.md -o alexa.pdf
-zathura alexa.pdf&
-ssh gulugulu@aegaeon.uberspace.de
-cd .config/nvim/after/plugin
-task add Christopher schreibne
-q1 12
-task 11 done
-task 7 done
-task schulaufgaben
-task 6 done
-task 5 done
-php -S localhost:8000
-l
-rm index.html
-mkdir js
-php -S 127.0.0.1
-doas nvim /etc/nginx/nginx.conf
-startweb
-ip a
-pkill conky 
-doas -s 
-lsmod
-rmmod nvidia
-rmmod nvidia_drm
-doas rmmod nvidia_drm
-rmmod nvidia_modeset
+neofetch
 doas rmmod nvidia_modeset
 doas rmmod nvidia
-doas nvim /etc/modprobe.d/blacklist.conf
+doas rmmod nvidia 
+__NV_PRIME_RENDER_OFFLOAD=1 __GLX_VENDOR_LIBRARY_NAME=nvidia glxgears
+cat .xinitrc
+pkillx
+pkill X
+cd /usr/src/linux
+dmesg | grep nvidia
+doas emerge --ask nvidia-driver
+doas emerge --ask nvidia-drivers
+xrandr --listproviders
+nvidia-smi
+cat /etc/X11/xorg.conf
+doas nvidia-xconfig --prime
+doas vim /etc/X11/x
+doas system76-power graphics
+lsmod
+doas system76-power power battery
+doas system76-power graphics intergrated
+doas system76-power graphics integrated
+mkdir source
+cd source/o
+cd source/
+doas emerge --ask app-text/zathura app-text/zathura-meta
+zathura Downloads/Ph11_AB_Traegheit.pdf
+nmtui-hostname
+doas emerge --ask x11-misc/polybar
+task add project:Privat switch to ligth emacs
+cd .config
+ls em
+ls emacs
+doas emerge --ask polybar
+cd .config/polybar
+./launch.sh
+git remote add origin git@github.com:Hirschiii/hw-landingpage.git
+git branch -M main
+git push -u origin main
+hto
+vim 20-modesetting.conf
+doas vim /etc/X11/xorg.conf
+fast
+eix -s fast
+doas emerge --ask speedtest+
+doas emerge --ask speedtest++
+eix -s speedtest
+SpeedTest
+doas SpeedTest
+doas emerge --regen
+doas system76-power porfile performance
+task 19
+bc 
 bc
-cd Source
-cd neovim
-git pull
-make CMAKE_BUILD_TYPE=Release
-doas make CMAKE_BUILD_TYPE=Release
-doas make install
-nvim --version
+doas vim /etc/dracut.conf
+doas dracut
+doas dracut --force
+doas dracut --kver 6.1.8-zen1
+doas dracut --kver 6.1.8-zen1 --force
+doas emerge --ask --noreplace sys-firmware/intel-microcode
+iucode_tool -S --write-earlyfw=/boot/early_ucode.cpio /lib/firmware/intel-ucode/*
+doas iucode_tool -S --write-earlyfw=/boot/early_ucode.cpio /lib/firmware/intel-ucode/*
+grep microcode /proc/cpuinfo
+dmesg | grep microcode
+lyx
+doas emerge --ask app-editor/emcas
 zathura output.pdf&
-nvim
-pulseaudio
-date
-pandoc 2023-01-12-mathe-unterricht.md -o output.pdf
-vim .
-php -S 0.0.0.0:8000
-vim index.html
-doas pkill picom
-pkill pol
-vim js/scripts.js
-php -S 127.0.0.1:8000
-vi index.md
-pandoc 2023-01-11-english-unterricht.md -o alex.pdf
-zathura alex
-zathura alex.pdf
-mv alex.pdf summary_alexa.pdf
-zathura summary_alexa.pdf
-eisvogel 2023-01-11-english-unterricht.md
-pandoc 2023-01-11-english-unterricht.md -o output.pdf -s --from markdown --to pdf --template=eisvogel.latex --number-sections
-zathura output.pdf
-cd 
-cd .config/zsh
-task 1 wait
-task 1 WAIT
-task 1 +WAIT
-task 1
-task 1 modify wait:eom
-pkill pico
-feh --bg-fill .config/wall/move_compile.png
-pkill conky
-feh --bg-fill .config/wall/bird_gentoo.jpg
-cd .config/nvim/lua/user
-vim remap.lua
-cd work/tw-kanban
-doas rc-service mysql start
-php update_db.php
-vim update_db.php
-mysql -u root -p
-cd .config/nvim/after/plugin/
-vim color.lua
-cd .dotfiles/.config/nvim.bak/after/plugin/keymap
-vim copilot.lua
-git add *
-doas nvim /etc/portage/package.use/nginx
-doas dispatch-conf
-gentoo-updater
-mkdir python 
-pip install nltk
-pip install textblob newspaper3k --user
-pip3 install textblob --user
-pip3 install newspaper3k --user
-pip install nltk --user
-python
-python -m textblob.download_corpora
-cd nvim
-vun
+doas system76-power performance
+doas vim /etc/portage/package.use/emacs
+task add taskwarrior workfllw
+n
+mkdir Dev/notes/pad
+mkdir -p Dev/notes/pad
+vim + "$(date +"%y-%m-%d %H:%M" | while read d t ; do f=$HOME/Dev/notes/pad/$d ; ( echo; echo $t ; echo ) >> "$f" ; echo "$f"; done; )" ; 
+cd .zsr
+cd .config/sh
+vim .config/nvim/after/plugin/lsp.lua
 vim
-mkdir vimauto_exec
-task add sehtest anfragen project:Privat
-q1 8
-task add rollos raussuchen
-cd .config/nvim/lua/plugins/
+not
+doas tlp av
+vim remap.lua
+doas emerge --ask emca
+doas emerge --ask emacs
+doas emerge --ask emcas
+doas emerge --ask app-editors/emacs
+noter
+vim .config/herbstluftwm/autostart 
+vim daly-note
+rm daly-note
+vim fzf-important-files
+vim config-files-import
+glxgears
+ls creative-section-shapes
+vim ind
+zathura signal-2023-02-23-085606_002.jpeg
+feh signal-2023-02-23-085606_002.jpeg
+task 1 stop
+task 1 done
+task 35 delete
+cd .config/zsh
+cd shell
+q4 1
+q4 2
+q5 done
+task 5 done
+task 5 delete
+task 6 done
+q3 5
+q4 6
+task 7 done
+q3 8
+q4 8
+q4 9
+q4 10
+q4 11
+q4 12
+q3 13
+task 14 delete
+task 15 delete
+task inbox
+task 17 done
+task 14 done
+q4 15
+task 16 delete
+q3 15
+q4 16
+q4 17
+q3 18
+q3 19
+q3 20
+q4 21
+q4 22
+task q1
+vim notes/Wiki/taskwarrior.md
+task add priority:H urgent:Y +script add script to automaticly add wait two weeks before due for examen
+task add add opentask for tw
+rm autotiling
+cat b
+cat black
+rm black
+rm ikhal
+cat icalendar
+rm icalendar
+rm ics_diff 
+vim switchkey.sh
+date -d "2023-03-06 - 14 days\
+"
+date -d "2023-03-06 - 14 days" +%d
+date -d "2023-03-06 - 14 days" +%y-%m-%d
+vim .dotfiles/.local/bin/tw-examen-wait-hook.sh
+cd .dotfiles/.local/bin
+chmod +x tw-examen-wait-hook.sh
+./tw-examen-wait-hook.sh 1
+./tw-examen-wait-hook.sh 12
+vim tw-examen-wait-hook.sh
+./tw-examen-wait-hook.sh 2023-03-06
+task 1 export
+task 1 export | sed -i "s/"due":".*"/"
+task 8 export
+task 8 export | sed -i "s/"due":".*"/"
+task 8 export | sed -i "s/\"due\":".*"/"
+task 8 due
+task 8 export | sed -i "s/due//"
+task 8 export > sed -i "s/due//"
+task 8 export | sed"s/due//"
+task 8 export | sed "s/due//"
+task 8 export | sed "s/*due\":\".*\"//"
+eix -s jq
+./tw-examen-wait-hook.sh
+task 8 export | grep -Po '"due":.*?[^\\]",'
+task 8 export | grep -Po '"due":.*?[^\\]",' | perl -pe 's/"due"://; s/^"//; s/",$//'
+./tw-examen-wait-hook.sh 8
+./tw-examen-wait-hook.sh 8 | sed "s/........//"
+./tw-examen-wait-hook.sh 8 | cut -c1-5
+./tw-examen-wait-hook.sh 8 | cut -c1-8
+./tw-examen-wait-hook.sh 8 
+zathura output.pdf &
+pandoc 2023-02-22-mathe-unterricht.md -o output.pdf
+doas emerge --ask bitwarden
+doas emerge --ask bitwarden-desktop-bin
+cat bitwarden.desktop `
+cat bitwarden.desktop 
+/opt/Bitwarden/bitwarden %U
+doas intel_gpu_top
+cd /etc/X11/
+git commit -m :
+git commit -m "gsap anim"
+cd .config/shell/
+vim zsh_alias
+habit add test
+task help
+echo TASKDATA=~/.task .habit
+habit
+habit 1 del
+Maiiy wuf gfmb fr sup
+q3 21
+q3 23
+feh Downloads/signal-2023-02-24-130255_00*
+aks
+taks
+vim --startuptime vim.log
+v
+LANG=C pactl info | grep "Server Name"
+task summary
+task burndown
+task burndown.weekly
+task burndown.daily
+task add project:Papa.landingpage animation on scroll
+task 28 start
+task 28 stop
+task synvc
+task dy 
+task 26 start
+timw
+timew
+task 26 stop
+timew burndown
+timew summary
+task 3 mod wait:tomorrow
+task 5 mod wait:1wks
+task add project:ideen.tw opentask hinzufuegen fuer links und notizen
+task 6 mod project:ideen.tw
+task project:ideen
+task 16 mod project:ideen.tw
+vim index.html h
+git commit -m "later anim"
+git commit -m "different aminations"
+git pusjh
+git commit -m "dynamicly load js"
+git commit -m "dynamicly load js wihtout jq"
+git commit -m "restart anim"
+git commit -m "better stagger"
+git commit -m "better nav anim"
+git commit -m "nav fix and animation on scroll\
+"
+mkdir js
+touch js/animation.js
+git commit -m "stagger and mark"
+task 15 mod wait:tomorrow
+task 4 scheduled:today
+task 4 modify scheduled:today
+task 26 done
+q3 28
+q1
+q2
+q4
+q3
+doas tlp acv
+doas vim /etc/portage/package.use/zathura
+doas emerge --ask imlib2
+feh -h
+man geh
+man feh
+feh --bg-fill 14731307_rm218-bb-07.eps
+doas reboot
+feh --bg-fill Downloads/14731307_rm218-bb-07.jpg
+eix -s sxiv
+doas emerge --ask sxiv
+sxiv Downloads/14731307_rm218-bb-07.*
+xrandr
+convert -colorspace sRGB -density 600 Downloads/14731307_rm218-bb-07.eps -background white -flatten -resize 3840x2160 -units pixelsperinch -density 224.993 SinglePageSource_im2.png
+doas convert -colorspace sRGB -density 600 Downloads/14731307_rm218-bb-07.eps -background white -flatten -resize 3840x2160 -units pixelsperinch -density 224.993 SinglePageSource_im2.png
+feh --bg-fill Downloads/14731307_rm218-bb-07.png
+feh --bg-fill Downloads/2180133.jpg
+mv Downloads/2180133.jpg .dotfiles/.config/wall/gradient.jpg
+vim .local/bin/autostart.sh
+feh --bg-fill Downloads/14731307_rm218-bb-07.eps
+feh Downloads/14731307_rm218-bb-07.eps
+ls Downloads/14731307_rm218-bb-07.
+ls Downloads/14731307_rm218-bb-07.*
+vim .config/conky/conky_task_progress.lua
+doas emerge  --ask firefox-bin
+eix -s openh264
+eix -s chromium-freeworld
+eix -s chrome
+eix -s google-chrome
+doas emerge --ask google-chromee
+doas emerge --ask google-chrome
+cd work/bi
+;ls
+;s
+git clone git@github.com:Hirschiii/po-bio.git
+cd po-bio
+git checkout -b new_style
+git push origin new_style
+touch test
+git commit -m "tet"
+git push --set-upstream origin new_style
+rm test
+doas rc-service NetworkManager restart
+nmtuoi
+nm-online
+doas nm-online
+vim style_umfrage.css
+date
+git commit -m "new layout and validation"
+vim connect.inc.php
+git commit -m "ip time before 24 hour"
+php
+php -h
+php -a
+cp vote.php test.php
+vim test.php
+git commit -m ""
+git commit -m "test"
+git pus
+vim umfrage.
+adv
+adb
+fastboot devices
+adb devices
+pkill pic
+task add project:Schule.inf.projekt due:2023-03-17 Informatik Projektabgabe
+eix -s filius
+doas emerge --ask sys-apps/flatpak
+doas  echo -e 'sys-apps/flatpak ~amd64\nacct-user/flatpak ~amd64\nacct-group/flatpak ~amd64\ndev-util/ostree ~amd64' >> /etc/portage/package.accept_keywords/flatpak
+flatpak install flathub de.lernsoftware_filius.Filius
+setxkbmap
+setxkbmapde
+ip a
+cd /usr/share/applications
+flatpak run filius
+vim sabredav.md
+mkdir spell
+ls nvim nvim.bak 
+cp nvim.bak/spell/* nvim/spell
+flatpak run de.lernsoftware_filius.Filius
+pkill polybar
+task add project:Privat.papa animation header wird kleiner link
+task add project:Privat.papa requirejs hinzufügen
+task add project:Schule.po check at q14 if valid
+cd Kalendar
+nvim -u
+nvim -u NONE
+nvim --noplugin
+cat 2
+rm 2
+vim 2023-Projektarbeit
+cd 2023-Projektarbeit
+vim index.
+php -S localhost
+task add project:Schule.bio +sil S. 13 Nr 5 und a3
+task 32 delete
+task add project:Schule.bio S. 93 B5 Nr. 3 S. 95 B5
+live-server --host 0.0.0.0
+eix -s tslib
+cd work/hw
+git commit  -m "images"
+npm -h
+npm install tslib
+vim sabre
+vim sabrevsradicale.md
+rm package.json package-lock.json 
+rm vim
+rm vim.log
+doas emerge --ask tslib
+npm install -g neovim
+doas npm install -g neovim
+doas npm install -g neovim tslib
+vim .config/nvim/lua/plugins
+task priority
+task summary \\
+
+task add project:Privat.henning email schreiben
+sxiv Downloads/umfrage.php
+sxiv Downloads/Unbenannt.png
+vim css/main.css
+cd work/hw-landingpage
+mv autocmd.lua ../user
+vim user/init.lua
+vim user/autocmd.lua
+top
+cd .config/nvim.bak/after/plugin
+vim markdown.lua
+vim lua/user
+cd nvim/after
+vim lua/plugins/init.lua
+vim nvim.bak/after/plugin/markdown.lua
+vim nvim.bak/lua/user/markdown.lua
+live
+doas vim /etc/portage/package.use/lyx
+doas emerge --ask lyx
+task add verünftiges notizlayout ausdenken vielleicht lyx?
+task add verünftiges notizlayout ausdenken vielleicht lyx
+ls intelephense
+rm -rf intelephense
+ls Dev
+rm -rf D
+rm -rf Dev/
+unzip mdwiki-0.6.2.zip
+mv mdwiki-0.6.2/mdwiki.html ../notes
+cd no
+rm -rf node_modules
+mv mdwiki.html index.html
+pip install vimwiki-markdown
+python -m pip
+doas emerge --ask dev-python/pip
+unzip rM2TH.zip
+cat Unfortunately\ no\ Linux\ version\ available.txt
+vim -h
+xmodmap ~/.Xmodmap
+pkill conky picom pipewire
+pkill conky pi
+pkill conky 
 cd .config/nvim/lua/plugins
 vim init.lua
-eix -s eos
-eix -s easy-installer
-snap
-eix -s snap
-eix -s snapd
-doas emerge --ask snapd
-cd Downloads 
-cd work
-cd notes
-n -e
-cd
-ls Do
-ls Documents
-ls lineage-19.1-20221225-
-ls lineage-19.1-20221225-*
-task
-pass edit test/test
-adb
-adb devices
-adb sideload e-1.6-r-20221129238947-stable-guacamole.zip
-htop
-ös
-ls flash-all.bat
-bat flash-all.bat
-ls *.bat
-ls images.zip
-fastboot -w images.zip
-cd payload_dumper
-pip install -r requirements.txt --user
-python3 payload_dumper.py ../payload.bin
-xmodmap ~/.Xmodmap
-pip install --upgrade protoc==3.20.x
-pip install --upgrade protoc==3.20.x --user
-pip install --upgrade protoc==3.20.0 --user
-PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION=python
-doas PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION=python
-pip install protobuf==3.20.0
-pip install protobuf==3.20.0 --user
-doas pip install protobuf==3.20.0 --user
-doas python payload_dumper.py payload.bin
-cd output
-ls twrp-3.7.0_12-0-guacamole*
-fastboot flash recovery twrp-3.7.0_12-0-guacamole.img
-fastboot devices
-doas s
-ls reserve.img
-cd Downloads/payload_dumper/output
-vim flash_all.sh
-cd miniprojects/python/vimauto_exec
-vim emails
-cd emails
-cp 2023-01-03-Email-Fragen.md 2023-01-14-Hello-Christopher.md
-vim 2023-01-1
-vim 2023-01-14-Hello-Christopher.md 
-cd /usr/src/linux
-eix -s virtualbox
-doas emerge --ask virtualbox
-virtualbox
-doas emerge -1 virtualbox-modules
-doas gpasswd -a niklas vboxsf
-doas gpasswd -a niklas vboxuser
-cd Downloads
+tw
+cd .npm
+locate twdep
 ls -la
-dmenuunmount
-lsblk
-mial
-doas emerge --ask app-emulation/virtualbox-additions
-doas virt
-doas dmenu
-doas dmenurun
-doas virtualbox
-adb devices ces
-adb devices 
+ls .bash
+ls /usr/bin
+ls /usr/bin | grep tw
+irb
+gem env
+gem install twdeps
+gem env gemdir
+ls /usr/lib64/ruby/gems/2.7.0/gems
+gem list
 doas 
-doas -s
-pass
-pass privat/emails/niklas@vonhirschfeld.eu
-cd .config/himalaya
-bat config.toml
-vim index.md
-acpi
-cp vimauto_exec/autosave.lua ~/.config/nvim/after/plugin
-cd vimauto_exec
-cd .dotfiles
-git add .
-git commit -m "update"
-git push
-pkill picom
-pkill pulseaudio
-nmtui
-pip install git+https://github.com/mmabrouk/chatgpt-wrapper --user
-pip freeze | grep playwright 
-python -m playright
-eix -s playwright
-npm init playwright@latest
-playwright install firefox
-chatgpt
-cd  work/miniprojects/python
-cd contacts_project
-n -e
-vim test.py
-python test.py
-chatgpt install
-chatgpt 
-cd log
-vim 2023-01-16.md
-cd python
-mkdir tourism_chatgpt
-cd tourism_chatgpt
-touch main.py
-cp /tmp/2023-01-16_20:44:53_1915x372.png work/miniprojects/python/tourism_chatgpt
-pass te
-pass test/test
-mail
-himalaya -a uberspace read 223
-pip install openai
-pip install openai --user
-python chat_gpt_output_summarize.py
-vim main.py
-cp /mnt/usb/tourism_german_squad.csv ./data.csv
-python main.py
-file -i data.csv
-iconv -l
-pandoc tourism_german_squad.xlsx -o data.csv
-pandoc -h
-man pandoc
-pandoc tourism_german_squad.xlsx -f xls -o data.csv
-cd ~/Documents
-cd /mnt/usb
-vim tourism_german_squad.csv
-cd work/miniprojects/python/tourism_chatgpt
-ls
-vim chat_gpt_output_summarize.py
-sxiv /tmp/2023-01-16_20:44:53_1915x372.png
-doas shutdown -h now
-l
-s
-cd python/tourism_chatgpt
-ls
-cp ~/Documents/tourism_german_squad.csv data.csv
-python main.py
-vim main.py
-python chat_gpt_output_summarize.py
-vim chat_gpt_output_summarize.py
-python main.py >> first_try_chatgpt.out
-bat first_try_chatgpt.out
-vim first_try_chatgpt.out
-vim index.md
-pip install xlrd
-pip install xlrd --user
-vim main.py
-cp main.py fail_first_try_csv.py
-cp /mnt/usb/tourism_german_squad.xlsx data.xlsx
-pip install pandas --user
-pip install openpyxl --user
-sensorfs
-sensors
-doas shutdown -h now
-pkill picom
-pkill pulseaudio
-task 6 delete
-task 7 donw
-task 7 done
-task
-nmtui
-grep "Antwort:" | sed -s "s/Antwort://g"  
-vim output_tests/17-01-Nr-5-try-chatgpt-3.out
-pip install subporcess --user
-vim test.py
-doas shutdown -h now
-doas shutdown -h now\
 doas
-doas shutdown -h now
-ip A
-ip a
-doas shutdown -h now
-bc
-cd ..
+eix -s twdeps
+twdeps
+git clone https://github.com/staskus/KanWarrior.git
+cd KanWarrior
+doas ./executable
+./executable
+task ex
+task examen 
+task 8 mod wait:due-14d
+task -h
+doas make PREFIX=/usr
+eix -s himalaya
+curl -sSL https://pimalaya.org/himalaya/install.sh | PREFIX=~/.local sh
+whereis himalaya
+doas eix -s libssl
+doas emerge --ask openssl
+curl https://sh.rustup.rs -sSf | sh
+git clone https://github.com/soywod/himalaya.git
+cd i
+cd himalaya
+cargo check
+cargo build --release
+himalaya
+eix -s ssl
+$sql = "SELECT * FROM ip WHERE ip='$ip' AND datum < $timebefore;"; // Wählt alle Einträge aus der Datenbank aus, die in der Spalte ip die IP-Adresse des Besuchers haben.\
+
+ssh gulgulu@aegaeon.uberspace.de
+task add prio:H urgent:Y vonhirschfeld homepage 1pager design
+task 37 modify scheduled:tomorrow
+task synchronize
+cd gentoo_backup/dirs
 cd vonHirschfeld
-ls
-vim css/style.css
+mv vonHirschfeld /home/niklas/work
+doas cp -rf vonHirschfeld /home/niklas/work
+cd work/vi
+cd work/vonHirschfeld
+git init
+mv vonHirschfeld vonHirschfeld.bak
+git clone git@github.com:Hirschiii/vonHirschfeld.eu.git
+mv vonHirschfeld.bak/* vonHirschfeld.eu
+cd vonHirschfeld.
+cd vonHirschfeld..
+ls vonHirschfeld.eu
+rm -rf vonHirschfeld.bak
+git commit -m "init"
+doas dispatch-conf
+doas emerge --ask filezilla
+pandoc -o 02\ Zirkel\ Waagerechter\ Wurf\ LaufzettelGLH\ kurz.doc -o output.pdf
+eix -s tree
+doas emerge --ask tere
+doas emerge --ask tree
+doas emerge --ask  app-text/tree
+ls Picture1.png
+mv Picture1.png /home/niklas/notes/School/Physik/assets
+cd /home/niklas/notes/School/Physik
+cd assets
+mv Picture1.png ballschuss.png
+task add project:Schule.po prio:H urgent:Y rote liste fix
+task add project:Schule.po priority:H urgent:Y favicon und Title
+task project:Schule.po
+task 38 done
+mkdir work/po-bio/assests
+ls assets
+ls assests
+rm assests
+rm -rf assests
+mv Downloads/pexels-pascal-ingelrest-10422028.jpg ~/work/po-bio/assets/seestern.jpg
+doas mv Downloads/pexels-lina-ortega-15076759.jpg ~/work/po-bio/assets/bird.jpg
+vim style.css
+nmtui
+ssh gulugul@aegaeon.uberspace.de
+git commit -m "fix list und home animationen"
+mv Downloads/noun-biodiversity-2369115.svg work/po-bio/assets/favicon.svg
+mv ~/Downloads/noun-biodiversity-4733928.svg assets/favicon.svg
+mv ~/Downloads/noun-tree-3116567.svg assets/favicon.svg
+cd work/po-bio/
+task 37
+task 37 dpne
+task 37 done
+task 8
+task +klausur mod wait:due-14days
+task +klausur
+vim .taskrc
+doas tlp bat
+gentoo-pipewire-launcher
+pkill picom
+hotp
+cd work/po-bio
+git commit -m "update favicon"
+task 
+task +sil
+task project:Schule.bio
+task add project:Schule.bio +sil S 96 angucken abhängigkeit enzymanischer reaktionen
+doas eselect repository list | grep guru
+doas eselect repository add guru
+doas eselect repository enable guru
+doas emerge-webrsync
+eix -s helix
+doas emerge --sync
+emerge --ask helix
+setxkbmap .Xm
+vim home_anim.js
+git commit -m "better anim"
+vim js/animation.js
+mv Downloads/future.png notes/School/kunst/Hackathon-1hj/orientierung
+curl https://previews.123rf.com/images/ingara/ingara1811/ingara181100664/127555481-abstract-technology-background-big-data-stream-visualization-landing-page-with-cryptography-design-3.jpg
+wget https://previews.123rf.com/images/ingara/ingara1811/ingara181100664/127555481-abstract-technology-background-big-data-stream-visualization-landing-page-with-cryptography-design-3.jpg
+mv 127555481-abstract-technology-background-big-data-stream-visualization-landing-page-with-cryptography-design-3.jpg /home/niklas/notes/School/kunst/Hackathon-1hj/orientierung/bigdata.jpg
+cd notes/School/kunst
+cd Hackathon-1hj
+zathura moodboard.pdf
+stertx
+vim praktikumsbericht/index.md
+cd hw-landingpage
+cd vonHirschfeld.eu
+cd ../hw-landingpage
+vim app.js
+picom --daemon
+php -S localhost:800
+task 4 start
+eix -s ispell
+cd notes/School/pow/praktikumsbericht/assets
+sxiv adversarial-attack-example-detection\ \(1\).jpg
+cd pw
+cd praktikumsbericht/assets
+mv adversarial-attack-example-detection\ \(1\).jpg adervsarial.jpg
+rm ./*
+wget https://viso.ai/wp-content/uploads/2021/06/adversarial-attack-example-detection.jpg
+eix -s calibri
+doas emerge --ask aspel-.de
+doas emerge --ask aspel-de
+doas emerge --ask aspell-de
+doas emerge --ask helix
+helix
+hx
+cd notes/po
+hx index.md
+unzip calibri-font-sv.zip 
+cd calibri\ font\ sv
+unzip Calibri\ Regular.zip
+rm Calibri\ Regular.ttf
+unzip ./Calibri\ Bold\ Italic.zip ./Calibri\ Bold.zip ./Calibri\ Italic.zip ./Calibri\ Light\ Italic.zip ./Calibri\ Light.zip ./Calibri\ Regular.zip -d /home/niklas/.local/share/fonts/
+unzip Calibri\ Bold\ Italic.zip Calibri\ Bold.zip Calibri\ Italic.zip Calibri\ Light\ Italic.zip Calibri\ Light.zip Calibri\ Regular.zip -d /home/niklas/.local/share/fonts/
+unzip Calibri\ Bold\ Italic.zip Calibri\ Bold.zip Calibri\ Italic.zip Calibri\ Light\ Italic.zip Calibri\ Light.zip Calibri\ Regular.zip 
+unzip Calibri\ Bold.zip -d /home/niklas/.local/share/fonts
+unzip Calibri\ Italic.zip -d /home/niklas/.local/share/fonts
+unzip Calibri\ Regular.zip -d /home/niklas/.local/share/fonts
+fc-cache
+fc-cache -h
+fc-cache -f
+cd notes/School/pow/praktikumsbericht
+zathura praktikumsbericht.pdf
+cd .local/share/fonts
+gentoo-
+nvim
+doas mount /dev/sda1 /mnt/
+doas zathura Hirsch_PDF_Vorlage_-_Deer_PDF_Template.pdf
+doas -s
+doas cp Hirsch_PDF_Vorlage_-_Deer_PDF_Template.pdf /home/niklas
+doas chown niklas:niklas Hirsch_PDF_Vorlage_-_Deer_PDF_Template.pdf
+mount /dev/sda1 /mnt
+doas mount /dev/sda1 /mnt
+lsblk
+doas umount /dev/sda1
+mount /dev/sda2 /mnt
+doas mount /dev/sda2 /mnt
+cd /m
+cd /mnt
+doas umount /mnt
+zathura Hirsch_PDF_Vorlage_-_Deer_PDF_Template.pdf 
+startcx
+doas emerge --ask media-fonts/crosextrafonts-carlito
+vim umfrage.php
+vim vote.php
+git commit -m "auswertung\
+"
+git commit -m "auswertung"
+git puh
+doas emerege --ask mysql
+doas emerge --ask mysql
+cd work/vonHirschfeld.eu
+git commit -m "animation and test title"
+With pronouns that replaces people
+git push --force -u origin
 cd work
-git clone https://github.com/hirschiii/deezid
-git clone https://github.com/hirschii/deezid
-git clone https://github.com/hirschi/deezid
-https://github.com/Hirschiii/deezid
-git clone https://github.com/Hirschiii/deezid
-ssh-keygen
-cat 
-cat ~/.ssh/id_rsa.pub
-git clone git@github.com:Hirschiii/deezid.git
-ls
-cd deezid
-tmux
-cd notes/Projects
-ls
+mkdir mini
+cd mini
+mkdir canvas_light
+cd canvas_light
+vim in
+live-server
+mkdir hexagon-froming-part
+cd hexagon-froming-part
+touch index.html
+touch syle.css app.js
+mv syle.css style.css
+nm-applet
+ssh gulugulu@aegaeon.uberspace.de
+vim auswertung.php
+./push.sh test
+git push --force
+git commit -m "try fix auswertung"
+vim push.sh
+chmod +x push.sh
+./push.sh
+./push.sh test_fiy
+zathura Hirsch_PDF_Vorlage_-_Deer_PDF_Template.pdf
+pkill cn
+doas tlp start
+eix -s
+eix -s texlive-sience
+eix -s texlive-math
+locate elsevier
+mkdir 2023-03-03-digitalisierung_arbeitsplätze
+cd 2023-03-03-digitalisierung_arbeitsplätze
+wget http://hess.ess.washington.edu/repository/BCO_neon_2019/tex/elsarticle.cls
+eix -s lyx
+eix -s els
+eix -s elsartivle
+eix -s elsarticl
+eix -s elsarticle
+eix -s texlive-etra
+eix -s texlive-extra
+eix -s texlive
+ls Downloads
+wget http://mirrors.ctan.org/macros/latex/contrib/elsarticle.zip
+unzip elsarticle.zip -d ~/notes/School/pow/2023-03-03-digitalisierung_arbeitsplätze
+cd n
+cd notes/School/pow/2023-03-03-digitalisierung_arbeitsplätze
+mkdir templates
+cd templates
+mkdir latex
+cp -rf ~/notes/School/pow/2023-03-03-digitalisierung_arbeitsplätze/elsarticle ./latex
+cd latex
+ls elsarticle
+cd elsarticle
+mv Neues_Dokument1.lyx article.lyx
+doas system76-power profile batterz
+xmodmap .Xmodmap
+pkill pipewire
+mkdir Lecture_Notes
+vim Lecture_Notes/index.md
+task add found the perfect note taking app
+task sync
+pkill pi
+eix -s inkscape
+vim notes/
+cd Resources
+vim Templates
+doas vim /etc/portage/package.use/inkscape
+doas system76-power profile battery
+eix -s kramdown
+task add instal inkscape
+task add install kramdown
+doas emerge --ask kramdown
+cat /sys/class/power_supply/BAT0/capacity
+emerge --ask jekyll
+task examen
+tree
+pwd
+la
+cd notes/School/pow
+zathura praktikumsbericht/praktikumsbericht.pdf
+vim .config/nvim/lua/plugins/init.lua
+lsa
+cat ls
+]cd ..
+ls Internship\ Report\ \(2\).zip
+unzip Internship\ Report\ \(2\).zip -d intern
+cd intern
+pdflatex report.tex
+zathura report.pdf&
+vim report.
+vim report.pdf
+vim report.t
+cp report.tex title.tex /home/niklas/notes/School/pow/praktikumsbericht
+eix -s qutebrowser
+doas emerge --ask qutebrowser
+doas vim /etc/portage/package.use/chromium
+eix -s latexmk
+doas emerge --ask latexmk
+vim .config/shell/zsh
+vim .config/shell/zsh_alias
+cd praktikumsbericht
+vim report.tex
+vim cover.tex
+zathura cover.pdf&
+pdflatex cover.tex
+zathura cover.pdf
+zathura cover.pdf &
+vim cover.tex 
+setxkbmap de
+task install
+doas install inkscape
+doas emerge --ask inkscape
+doas emerge --ask chromium qutebrowse
+setxkbmap us
+doas system76-power profile performance
+pkill c
+doas emerge --ask chromium qutebrowser
+pkill conky
+doas emerge --ask chromium
+task inst
+task 39 done
+task 40 done
+task add install chromium
+htop
+doas system76-power profile
+doas tlp ac
+git com
+git commit -m "update"
+cp Downloads/eric-chapdelaine.github.io/index.html notes
+eix -s jekyll
+doas emerge --ask jekyll
+cd Downloads
+git clone https://github.com/eric-chapdelaine/eric-chapdelaine.github.io.git
+cd eric-chapdelaine.github.io
+rm articles neu-resources 
+cd projects
+ls CNAME
+cat CNAME
+cat feed.xml
+jekyll
+jekyll -s
+ls articles
+cp -rf _config.yml _data _includes _layouts _site /home/niklas/notes
+cp -rf 404.html CNAME index.html feed.xml css js /home/niklas/notes
+l
+ls _site
+rm Informatik-2022-09-08.html
+cd School/informatik
+rm index.html
+php -S
+rm -rd _site
+git branch
+git pull
+git checkout test-jekyll
+git branche -a
+git branch -a
+git commit -m "jekyll"
+git clone git@github.com:Hirschiii/Hirschiii.github.io.git
+cp -rf _data _includes _layouts css js 404.html _config.yml CNAME feed.xml index.html ../Hirschiii.github.io
+cd ../Hirschiii.github.io/
+git commit -m "Test\
+:"
+mv index.html index.md
+mkdir notes
+ls _no
+ls _site/notes
+vim index.md 
+vim notes
+rm _site
+rm -rf _site
+jekyll build
+cd _site
+php -S localhost:8000
+git commit -m "update test"
+ls notes
+cd Downloads/eric-chapdelaine.github.io
+cp notes/index.html /home/niklas/Hirschiii.github.io/notes
+cp notes/minimal-table.css /home/niklas/Hirschiii.github.io/notes
+ls projects
+git commit -m "notes"
+cd notes/Resources
+vim Templates/markdown.md
+ls _layouts
+vim notes/index.md
+git commit -m "Layout:\
+":
+git commit -m "Layout:\
+"
+vim notes/test.md
+git commit -m "date and title"
+rm index.md
+mkdir projects
+mkdir wiki
+mkdir resume
+mkdir topics
+rm topics
+rm -rf topics
+git commit -m "Table"
+git pusj
+task add project:Note script to autmaticly create table based on topics
+taskwarrior-tui
+taskop
+eix -s taskopen
+cd source
+git clone
+git clone git clone https://github.com/jschlatow/taskopen.git
+git clone https://github.com/jschlatow/taskopen.git
+cd taskopen
+eix -s nim
+doas emerge --ask nim
+task script
+task 40 annotate -- ~/task/script_tabe.md
+mdkri task
+mkdir task
+task 40 annotate -- ~/task/script_tabe.txt
+touch task/script_tabe.md
+task
+task 4 annotate Notes
+task open 4
+taskopen 4
+mimetype task/script_tabe.md
+XDG_UTILS_DEBUG_LEVEL=3 xdg-mime query default test/markdown
+XDG_UTILS_DEBUG_LEVEL=3 xdg-mime default nvim test/markdown
+XDG_UTILS_DEBUG_LEVEL=3 xdg-mime default nvim.desktop test/markdown
+xdg-open task/script_tabe.md
+doas vim .local/share/applications/vim.dekstop
+cd source/taskopen
+https://github.com/jschlatow/taskopen
+make PREFIX=/usr
+doas make PREFIX=/usr install
+pkill
+taskopen 20
+rm task/*
+taskopen 40
+mkdir -p schule/mathe/aufgaben
+l;s
+vim notes/index.html
+git add .
+git commit -m "edit table"
+git push
+cd Hirschiii.github.io
+cd notes
+cd schule
+cd mathe
+rm -rf aufgaben
+rm -rf mathe
+touch 2023-11k-2hj-mathe-inhalt.md
+chromium-bin index.html
+cd .config/nvim/lua/user
+cd ../
+vim after/plugin/mardown.lua
+ls lua/
+ls lua/user
+vim lua/user/packer.lua
+cd lua/user
+cat ./* 
+cd ../../after/plugin
+cat ./* | grep Templates
+vim te
+vim templates.lua
+cd ../../lua/user
+vim autocmd.lua
+cd .config/nvim
+vim lua/user/autocmd.lua
+doas vim /etc/portage/package.use/nnn
+cd Hirschiii.github.io/
+cd notes/
+rm -rf schule
+mv 2023-11k-2hj-mathe-inhalt.md 2023-k11-2hj-mathe-inhalt.md
+lsls
+vim  2023-k11-2hj-mathe-inhalt.md
+tmux-sessionizer
+eix -s nnn
+doas emerge --ask nnn
+nnn
+fzf-important-files
+nnn -de
+cd .config/shell
+ks
+cat quitcd.zsh
+vim .zshrc
+vim notes/Resources/Templates/markdown.md
+cd notes/School/musik
+cd .
+mkdir Mathe
+cd Mathe
 vim index.md
 gentoo-updater
-doas shutdown -h now
-bashtop
-cd no
-cd work
-cd
-cd notes
-cd Projects
-cd Account_Scraper
-ls
-pass test/test
-sc-im Uberspace.s
-sc-im Uberspace.sc
+cd Hirschiii.github.io/no
+ls note* > test.txt
+cat test.
+cat test.txt
+vim test.txt
+rm test.txt
+test=$HOME
+ls $test
+ls $test/notes
+ls note* | sed "s/\(....-\)/\1"
+ls note* | sed "/\(....-\)/\1"
+ls note* | sed -e "/\(....-\)/\1"
+ls note* | sed -s "/\(....-\)/\1"
+ls note* | sed -e '/\(....-\)/\1'
+ls note* | sed -n '/\(....-\)/\1'
+ls note* | sed -n '/\(....-\)/\1/e'
+ls note* | sed -n '/\(....-\)/\1/'
+ls note* | sed -n '/\(....\)/\1/'
+ls note* | sed -n '/..../\1/'
+ls note* | sed -n '/..../1/'
+ls note* | sed -n '/....//'
+ls note* | sed -n '/..../'
+ls note* | sed -n 's/\(....-\)/\1/'
+/bin/ls note* | sed -n 's/-.*-/\1/'
+/bin/ls note* | sed -n 's/-.*-//'
+/bin/ls note* | sed -n 's/-....-//'
+/bin/ls note* | sed -n 's/2023/20/'
+/bin/ls note* | sed 's/2023/20/'
+/bin/ls note* | sed 's/-....-//'
+/bin/ls note* | sed -n 's/\(....-\)/\1/'
+/bin/ls note* | sed 's/\(....-\)/\1/'
+/bin/ls note* | sed 's/-\(....-\)/\1/'
+/bin/ls note* | sed 's/.*\(....-\).*/\1/'
+/bin/ls note* | sed 's/.*\(-....-\).*/\1/'
+/bin/ls note* | sed 's/.*\(^....-\).*/\1/'
+/bin/ls note* | sed 's/note-//' | \sed 's/.*\(^....-\).*/\1/'
+ls note*s
+ls note*
+/bin/ls note* | sed 's/note-//" | sed "s/.*\(....\)-..-../\1/"\
+"
+/bin/ls note* | sed 's/note-//" | sed "s/.*\(....\)-..-../\1"\
+
+/bin/ls note* | sed 's/note-//' | sed "s/.*\(....\)-..-../\1"
+/bin/ls note* | sed 's/note-//' | sed "s/.*\(....\)-..-../\1/"
+/bin/ls note* | sed 's/note-//' | sed "s/.*\(....\)-..-..=.*/\1/"
+/bin/ls note* 
+/bin/ls note* | sed 's/note-//' | sed "s/.*\(....\)-..-..-.*/\1/"
+/bin/ls note* | sed 's/note//' | sed "s/.*-\(....\)-..-..-.*/\1/"
+/bin/ls note* | sed 's/note//' | sed "s/.*-\(....\)-..-..-\(..\)-.*/\1, \2/"
+touch note-2000-10-20-4-3-matedf.md
+rm note-2000-10-20-4-3-matedf.md
+/bin/ls -lA1
+/bin/ls -l
+/bin/ls -l node*
+/bin/ls -l note*
+/bin/ls -l note* | sed "s/.*note//"
+/bin/ls -l note* | sed "s/.*note//" | sed 's/.*\/\(....\)-..-..-\(..\)-\(.\).*/Jahr:\1 Klasse:\2 HJ:\3/'\
+
+/bin/ls -l note* | sed "s/.*note//" | sed 's/^(....\)-..-..-\(..\)-\(.\).*/Jahr:\1 Klasse:\2 HJ:\3/'\
+
+vim .local/scripts/folder-to-keybindings
+cd .local/bin
+cd 
 cd notes/Projects/Account_Scraper
-ls
-cat example
-cat example.sc
 vim Uberspace.sc
 vim Uberspace.sh
-sc-im example.sc
-gent
-gentoo-updater
-htop
-cal
-cal motn
-cal month
-cal month 3
-cal -h
-cal -3
-vim /tmp/henning
-cp Uberspace.sc Uberspace.sc.bal
-sc-im Uberspace.
-sc-im Uberspace.s
-sc-im Uberspace.sc
-vim Uberspace.sc
-zip -h
-man zip
-zip -q Uberspace.zip Uberspace.sc Uberspace.sh
-cp Uberspace.zip ~/Downloads
-cd ~/Downloads
-unzip Uberspace.zip
-ls
-pass test/test
-pass 
-pass privat/uberspace/taskwarrior
-pass test/test/test
-pass test/test/test | grep "User"
-pass test/test/test | grep -i "User"
-pass edit test/test/test
-pass test/test/test | grep -i "user"
-gentoo-updater
-doas emerge --update --newuse --deep --with-bdeps=y @world
-lsblk
-btrfs
-btrfs balance
-btrfs inspect-internal
-pv
-eix -s pv
-doas emerge --ask pv
-mv .taskrc ~/.dotfiles
-cd .dotfiles
-git add
-cd
-cd work
-cd tw-kanban
+ls -Al
+find ./  -printf "%f\n"
+find ./note*  -printf "%f\n"
+for n in *; do printf '%s\n' "$n"; done
+ls -A1
+/usr/bin/ls
+/bin/ls
+ls -G
+exa -G
+ls -a | sort
+/bin/ls -A1
+n -e
+n -e
 cd ..
-mv tw-kanban tw-kanban.save
-git clone git@github.com:Hirschiii/tw-Kanban.git
-mv tw-kanban.save/* tw-Kanban
-ls tw-Kanban
-rm tw-kanban.save
-ls tw-kanban.save
-rm -rf tw-kanban.save
-cd tw-Kanban
-git add .
-git commit -m "update"
-git push
+mkdir _scripts
+cd _scripts
+chmod +x note_table_toc.sh
+./note_table_toc.sh hallp test
+./note_table_toc.sh hallp
+./note_table_toc.sh 
+vim note_table_toc.sh
+doas shutdown -h now
+s
+rm 2023-k11-2hj-mathe-inhalt.md
+vim 2023-02-22-11-2-mathe-linearfunktionen-i.md
+mv 2023-02-22-11-2-mathe--p-q-formel--i.md
+mv 2023-02-22-11-2-mathe-linearfunktionen-i.md  2023-02-22-11-2-mathe--p-q-formel--i.md
+mv 2023-02-22-11-2-mathe--p-q-formel--i.md note-2023-02-22-11-2-mathe--p-q-formel--i.md
+ls notes*
+cd .local/scripts
+sl;
+cat folder-to-keybindings
+vim folder-to-keybindings 
+cd
+cd Hirschiii.github.io/notes
+vim index.html
+cd Hirschiii.github.io/+_sc
+cd Hirschiii.github.io/_scripts
+sl
 ls
-cd /mnt
+\:w
+./note_table_toc.sh
+start
+startx
+cd Downloads
 ls
-mkdir gentoo_backup
-doas -s
+cd notes/School/pow
+cd praktikumsbericht
 ls
-doas cp -r work /mnt/gentoo_backup/dirs
-lsblk
-doas -s
+zathura report.pdf
+mv report.pdf praktikumsbericht.pdf
+zathura praktikumsbericht.pdf
+ping -h
+ping www.google.com
+setxkbmap de
+xmodmap .Xmodmap
+cd notes/School/informatik
+vim 2023-Projektarbeit/index.md
+ls
+cp -rf 2023-Projektarbeit/filius ~/Hirschiii.github.io/notes/school/informatik/projekt-2023-03-05-11-2-informatik-netzwerke-i
+scrot '/tmp/%F_%T_$wx$h.png' -s -e 'xclip -selection clipboard -i $f'\
+
+doas emerge --ask scrot
+vim notes/School/informatik/index.md
+vim notes/School/informatik/2023-pr
+vim notes/School/informatik/2023-Projektarbeit/index.md
+cd .config/herbstluftwm
+ls
+vim autostart
+cd /tmp
+ls
+mv 2023-03-06_09:12:02_2179x1164.png ~/Hirschiii.github.io/notes/school/informatik/projekt-2023-03-05-11-2-informatik-netzwerke-i/assets/aufgabe_6.png
+cd /tmp
+ls
+sxiv 2023-03-06_09:15:42_1408x785.png
+cd Hirschiii.github.io/notes/school/informatik/projekt-2023-03-05-11-2-informatik-netzwerke-i
+ls
+sxiv assets/aufgabe_6.png
+sxiv Hirschiii.github.io/notes/school/informatik/projekt-2023-03-05-11-2-informatik-netzwerke-i/assets/aufgabe_6.png
+cd Downloads
+ls 
+ls  | grep filius
+flatpak run de.lernsoftware_filius.Filius
+GDK_SCALE=2 flatpak run de.lernsoftware_filius.Filius
+cd Hirschiii.github.io/notes/school/informatik/projekt-2023-03-05-11-2-informatik-netzwerke-i
+cd assets
+ls
+cp aufgabe_6.png aufgabe_4.png
+GDK_SCALE=2 flatpak run de.lernsoftware_filius.Filius
+GDK_SCALE=2 inkscape c
+GDK_SCALE=2 inkscape
+cd Hirschiii.github.io
+cd ..
+cd notes
+mkdir -p school/informatik/projekt-2023-03-05-11-2-informatik-netzwerke-i
+cd school/informatik/projekt-2023-03-05-11-2-informatik-netzwerke-i
+ls
+mkdir assets
+cd Hirschiii.github.io/notes/school/informatik/projekt-2023-03-05-11-2-informatik-netzwerke-i
+cd assets
+ls
+cd
+GTK_SCALE=2 inkscape
+GDK_SCALE=2 inkscape
+GDK_SCALE=1.5 inkscape
+GDK_SCALE=1,5 inkscape
+doas emerge --ask bitwarden-desktop
+doas emerge --ask bitwarden-desktop-bin
+/opt/Bitwarden/bitwarden
+vim key.git
+cd /usr/share/applications
+ls
+vim bitwarden.desktop
+doas emerge --ask nginc
+doas vim /etc/portage/package.use/nginc
+doas vim /etc/portage/package.use/nginx
+doas emerge --ask nginx
+cd Hirschiii.github.io
+doas rc-service nginx restart
+herbstclient tag_status 
+vim .config/herbstluftwm/autostart
+herbstclient -h
+herbstclient get_attr index
+herbstclient get index
+herbstclient get tags
+herbstclient get tag
+herbstclient tag_status 
+herbstclient tag_status | sed -e "s/.*#\(..\) .*/\1"
+herbstclient tag_status | sed "s/.*#\(..\) .*/\1"
+herbstclient tag_status | sed "s/.*#\(.\).*/\1"
+herbstclient tag_status | sed "s/.*#\(.\).*/\1/"
+herbstclient use_index +1
+cd .config
+ls
+cd ..
+cd .dotfiles/.config
+mkdir inkscape-figures
+cp ~/Downloads/lec16-fig1.svg inkscape-figures/template.svg

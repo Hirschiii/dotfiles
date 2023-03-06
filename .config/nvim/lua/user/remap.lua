@@ -1,5 +1,5 @@
 local function bind(op, outer_opts)
-    outer_opts = outer_opts or {noremap = true}
+    outer_opts = outer_opts or { noremap = true }
     return function(lhs, rhs, opts)
         opts = vim.tbl_extend("force",
             outer_opts,
@@ -9,7 +9,7 @@ local function bind(op, outer_opts)
     end
 end
 
-nmap = bind("n", {noremap = false})
+nmap = bind("n", { noremap = false })
 nnoremap = bind("n")
 vnoremap = bind("v")
 xnoremap = bind("x")
@@ -57,8 +57,12 @@ vim.keymap.set("n", "<leader>f", function()
     vim.lsp.buf.format()
 end)
 
-vim.keymap.set("n", "<C-k>", "<cmd>cnext<CR>zz")
-vim.keymap.set("n", "<C-j>", "<cmd>cprev<CR>zz")
+-- vim.keymap.set("n", "<C-k>", "<cmd>cnext<CR>zz")
+-- vim.keymap.set("n", "<C-j>", "<cmd>cprev<CR>zz")
+-- " move among buffers with CTRL
+vim.keymap.set("n", "<C-k>", "<cmd>bnext<CR>zz")
+vim.keymap.set("n", "<C-j>", "<cmd>bprev<CR>zz")
+
 vim.keymap.set("n", "<leader>k", "<cmd>lnext<CR>zz")
 vim.keymap.set("n", "<leader>j", "<cmd>lprev<CR>zz")
 

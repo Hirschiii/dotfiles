@@ -7,8 +7,8 @@ conky.config={
   border_width=2,
   default_bar_height=5,
   default_bar_width=80,
-  -- default_color="C0C0C0",
-  default_color="222222",
+  default_color="C0C0C0",
+  -- default_color="222222",
   default_graph_height=25,
   default_graph_width=200,
   default_outline_color="000000",
@@ -40,13 +40,13 @@ conky.config={
 
 conky.text=[[
 ${font FiraCode Nerd Font:style=Bold:pixelsize=50}DOING ${hr 2}${font}
-${texecpi 60 flock /home/niklas/.task task limit:10 rc.defaultwidth:80 doing | ansito - | sed -r 's/([^ ])#/\1\\#/g' | cat }
+${texecpi 60 flock /home/niklas/.task task limit:5 rc.defaultwidth:80 doing | ansito - | sed -r 's/([^ ])#/\1\\#/g' | cat }
 ${font FiraCode Nerd Font:style=Bold:pixelsize=50}TODO ${hr 2}${font}
 ${texecpi 60 flock /home/niklas/.task task limit:5 rc.defaultwidth:80 todo project.not:Schule | sed -r 's/([^ ])#/\1\\#/g' | cat}
 ${font FiraCode Nerd Font:style=Bold:pixelsize=50}Schulaufgaben ${hr 2}${font}
-${texecpi 60 flock /home/niklas/.task task limit:10 rc.defaultwidth:80 schulaufgaben }
+${texecpi 60 flock /home/niklas/.task task limit:5 rc.defaultwidth:80 schulaufgaben }
 ${font FiraCode Nerd Font:style=Bold:pixelsize=50}Nächste Klausur ${hr 2}${font}
-${texecpi 60 flock /home/niklas/.task task limit:10 rc.defaultwidth:80 examen }
+${texecpi 60 flock /home/niklas/.task task limit:5 rc.defaultwidth:80 examen }
 ]]
 
 
