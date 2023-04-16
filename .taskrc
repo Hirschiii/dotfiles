@@ -88,11 +88,10 @@ urgency.uda.urgent.N.coefficient = 0
 urgency.uda.priority.H.coefficient = 10
 urgency.uda.priority.L.coefficient = 0
 
-
 # https://blag.nullteilerfrei.de/2013/10/24/the-eisenhower-matrix-in-taskwarrior/
 # inbox
 report.inbox.description=INBOX report
-report.inbox.filter=limit:page dep: status:pending -fun and ( priority: or urgent: )
+report.inbox.filter=limit:page dep: status:pending and ( priority: or urgent: )
 report.inbox.columns=id,project,description,entry.age,priority,urgent,tags
 report.inbox.labels=ID,Proj,Description,Age,Prio,Urgent,Tags
 report.inbox.sort=entry+
@@ -136,3 +135,9 @@ taskd.server=gulugulu.uber.space:41920
 taskd.credentials=Privat\/Niklas von Hirschfeld\/aed357f0-3a3e-4dd5-8982-d92d6e09e7d1
 # taskd.ca=\/home\/niklas\/.task\/ca.cert.pem
 news.version=2.6.0
+uda.reviewed.type=date
+uda.reviewed.label=Reviewed
+report._reviewed.description=Tasksh review report.  Adjust the filter to your needs.
+report._reviewed.columns=uuid
+report._reviewed.sort=reviewed+,modified+
+report._reviewed.filter=( reviewed.none: or reviewed.before:now-6days ) and ( +PENDING or +WAITING )

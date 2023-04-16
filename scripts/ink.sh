@@ -4,9 +4,9 @@
 # $2 - the image name
 
 # Hold onto my previous workspace so I know where to return to afterwards
-PREVWORKSPACE=$(herbstclient tag_status | sed "s/.*#\(.\).*/\1/")
+PREVWORKSPACE="$(herbstclient tag_status | sed "s/.*#\(.\).*/\1/")"
 # Get where the image is going to be
-IMAGEPATH=~/projects/website/Hirschiii.github.io/notes/$1/$2
+IMAGEPATH=~/Hirschiii.github.io/notes/$1/$2
 
 # Copy the template file into the correct directory
 cp ~/.config/inkscape-figures/template.svg $IMAGEPATH.svg
@@ -14,13 +14,26 @@ cp ~/.config/inkscape-figures/template.svg $IMAGEPATH.svg
 herbstclient use_index +1
 
 # Run Castel's inkscape-shortcut-manager and save its process ID
-# python3 ~/.config/inkscape-shortcut-manager/inkscape-shortcut-manager/main.py & echo "$!" > /tmp/ink.pid
+python3 ~/.config/inkscape-shortcut-manager/inkscape-shortcut-manager/main.py & echo "$!" > /tmp/ink.pid
 
 # Run inkscape
+echo "before"
 inkscape $IMAGEPATH.svg
 
 # Wait until inkscape is closed
-while pgrep -u $UID -x inkscape >/dev/null; do sleep 1; done
+
+for i in $n_procs; do
+    ./procs[${i}] &
+    pids[${i}]=$!
+done
+
+echo "wait"
+echo $(date)
+# wait for all pids
+for pid in ${pids[*]}; do
+    wait $pid
+done
+echo $(date)
 
 # Convert the created svg file to a png
 inkscape --export-type="png" --export-dpi=1000 $IMAGEPATH.svg 
@@ -29,7 +42,8 @@ inkscape --export-type="png" --export-dpi=1000 $IMAGEPATH.svg
 kill -9 $(cat /tmp/ink.pid) > /dev/null
 
 # Return to previous workspace
-herbstclient use_index $PREVWORKSPACE
+echo "$PREVWORKSPACE"
+herbstclient use_index $(expr $PREVWORKSPACE - 1)
 
 # Remove temporary file used to hold process ID
-rm /tmp/ink.pid
+# rm /tmp/ink.pid

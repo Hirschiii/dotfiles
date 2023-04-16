@@ -40,7 +40,7 @@ Mod=Mod4    # Use alt as the main modifier
 
 hc keybind $Mod-Shift-q quit
 hc keybind $Mod-Shift-r reload
-hc keybind $Mod-q close
+hc keybind $Mod-c close
 hc keybind $Mod-i spawn bash ~/.config/herbstluftwm/scipts/dmenu.sh
 hc keybind $Mod-Shift-t spawn bash ~/.local/bin/colortheme
 hc keybind $Mod-Return spawn $myTerm 
@@ -63,7 +63,7 @@ hc keybind XF86Calculator spawn st -e bc
 
 # Scripts
 hc keybind $Mod-m spawn $myScripts/dmenumount
-hc keybind $Mod-c spawn clipmenu
+# hc keybind $Mod-c spawn clipmenu
 hc keybind $Mod-Shift-c spawn passmenu2
 hc keybind $Mod-Shift-m spawn $myScripts/dmenuunmount
 hc keybind $Mod-n spawn $myTerm -e /home/niklas/.local/bin/fzf-important-files
@@ -188,7 +188,7 @@ hc set frame_gap 0
 hc set frame_bg_transparent 1
 
 # add overlapping window borders
-hc set window_gap 40
+hc set window_gap 30
 hc set frame_padding 0
 hc set smart_window_surroundings 0
 hc set smart_frame_surroundings 1

@@ -72,6 +72,19 @@ vim.keymap.set("n", "<leader>x", "<cmd>!chmod +x %<CR>", { silent = true })
 vim.keymap.set("n", "ga", "<Plug>(EasyAlign)")
 vim.keymap.set("v", "ga", "<Plug>(EasyAlign)")
 
+
+-- nnoremap("<C-f>", function()
+--     local t = os.execute("/home/niklas/scripts/ink.py " .. vim.fn.expand('%:r')  .. " " .. vim.api.nvim_get_current_line())
+--     print(t)
+-- end)
+
+vim.cmd[[
+nnoremap <C-f> :exec '.!~/scripts/ink.py %:r "'.getline(".").'"'
+]]
+
+inoremap("<c-j>", "<cmd>lua require'luasnip'.jump(1)<CR>")
+inoremap("<c-k>", "<cmd>lua require'luasnip'.jump(-1)<CR>")
+
 nnoremap("<leader>pb", function()
     require('telescope.builtin').buffers()
 end)
