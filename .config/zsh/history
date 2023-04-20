@@ -1,110 +1,3 @@
-vim notes/note-mathe-2023-11-2--funktionen_und_graphen--a.md
-git push .
-git commit -m "width math fix\
-"
-vim note-physik-2023-11-2--wurf--a
-vim note-physik-2023-11-2--wurf--am
-git commit -m "fix physik link"
-vim notes/note-physik-2023-11-2--wurf--
-vim notes/note-physik-2023-11-2--wurf--a.md
-cd mini
-mkdir grid_header_anim
-cd grid_header_anim
-touch index.html
-touch app.js
-touch syle.css
-cd work/
-git clone git@github.com:Hirschiii/tw-Kanban.git
-task tags
-task =film
-vim kanban-idee.
-vim kanban-idee.css
-task +film export
-task +sil
-cat pending.data
-vim deb.html
-vim index.php
-vim kanband.conf
-vim kanband.json
-mv kanband.json kanban.conf
-live
-q1
-task q1 export
-task q1
-task export q1
-task export q2
-task export q3
-task export q4
-task ex
-php -S localhost:8000
-git commit -m "eisenhower matrx"
-task export
-cp ~/Downloads/twisted-arrow-right-to-top-icon.svg ../images/arrow.svg
-vim ../_layouts/note.html
-ls ..
-task add project:Schule.deutsch +sil ab note
-ls js
-ls _data
-ls _includes
-vim ls _layouts
-jekyll server
-task project:note wacom tablet f√ºr inkscape
-ls ../images
-vim notes/note-allgemein-2023-11-2--begriffe--i.md
-vim notes/note-deutsch-2023-11-2--lyrik--i.md
-mkdir notes/note-deutsch-2023-11-2--lyrik--i
-vim note-deutsch-2023-11-2--lyrik--i
-vim note-deutsch-2023-11-2--lyrik--ia.md
-vim ../css/stylesheet-custom.css
-bc /l
-bc -l
-doas emerge --ask tiemenu
-doas emerge --ask tiemu
-vim .local/bin/tmux-sessionizer
-doas system76-power profile perfomance
-cd /usr/src/linux
-setxkbmap u
-doas emerge --ask powertop
-doas powertop -c
-gentoo-
-cd Android
-cd media
-ls de.komoot.android
-ls org.telegram.messenger.web
-doas vim /etc/portage/package.use/darktable
-doas umount /dev/sda1
-doas emerge --ask darktable
-doas emerge --ask gcc
-staryx
-startz
-pkill xo
-eix -s peerflix
-task 3 start
-timew
-tasl
-task 3 stop
-task 7 done
-mkdir benni_urlaub
-cd benni_urlaub
-chromium-bin index.pdf
-pandoc index.md -o index.pdf
-pandoc index.md -o index.tex
-vim index.tex
-pandoc index.md-s  -o index.tex
-pdflatex index.tex
-vim index.t
-rm index.tex
-pandoc index.md -s -o index.tex
-pandoc index.md -s -o index.pdf
-task cal
-task due:17
-task due:2023:03:17
-task due:2023-03-17
-task calendar
-task due:2023-03-22
-task due:2023-03-23
-chromium-bin watzmann-tour.pdf
-chromium-bin 2208_huettentrekking_watzmanntour_neuauflage-2022-online.pdf
 cd .config/nvim/
 vim after/plugin/autosave.lua
 cat after/plugin/mardown.lua
@@ -121,7 +14,6 @@ eix -s sc-im
 doas emerge --ask sc-im
 sc√Éøim
 sc-iom
-sc-im
 cd notes/Projects/Account_Scraper
 vim Uberspace.sc
 sc-im example.sc
@@ -335,7 +227,6 @@ task 7 mod finish
 task 7 mod scheduled:
 task 17 delete
 task 17 done
-tasksh
 q4 10
 q4 11
 task add project:privat.idee conky mit eisenhower matrix
@@ -470,7 +361,6 @@ whois  ns1.google.com
 cd notes/School/informatik/2023-Projektarbeit
 bat index.md
 cat index.md
-GDK_SCALE=2 flatpak run de.lernsoftware_filius.Filius
 cd /tmp
 sxiv 2023-03-16_19:28:42_690x224.png
 sxiv 2023-03-16_19:28:52_589x219.png
@@ -486,7 +376,6 @@ eix -s deskreen
 cd Hirschiii.github.io/notes/school/informatik/projekt-2023-03-05-11-2-informatik-netzwerke-i
 zathura Projektarbeit_Dokumentation.pdf 
 eix -s nb
-doas pkill pi
 vim .config/herbstluftwm/autostart
 pkill oom_reaper
 vim note-2023-11-2-weimar-refferate.md
@@ -599,7 +488,6 @@ cd _site
 vim school/erdkunde/index.html
 vim -d index.html geschichte.html
 vim deutsch.html erdkunde.html english.html mathe.html physik.html
-picom --daemon
 doas shutdown -h now\\
 
 cat ./* | grep note
@@ -673,12 +561,10 @@ vim note-2023-11-2-mathe-klausur-1.md
 git commit -m "tabel check"
 cd .jekyll-cache
 rm -rf .jekyll-cache
-git commit -m "update"
 pill pi
 pkill pipewire
 pkill picom 
 jekyll build
-doas reboot
 git commit -m "deutsch"
 vim note-2023-11-2-deutsch--lyrik--a.md
 ls *.mp3
@@ -773,7 +659,6 @@ sxiv */*.elf
 sxiv */*.png
 mount /dev/sdb`
 mount /dev/sdb1
-cd ..
 photorec
 doas photorec
 doas mount /dev/sdb1
@@ -794,7 +679,6 @@ task 2 del
 task 20 done
 task 6 donw
 task 6 done
-task
 cd work/tw-Kanban
 vim kanban.conf
 vim kanbanc
@@ -815,7 +699,6 @@ cp droping_circle.py collision.py
 vim collision.py
 python droping_circle.py
 rm -rf tryout
-python collision.py
 cd Hirschiii.github.io
 git commit -m "Kalendar"
 cal
@@ -825,8 +708,6 @@ ip a
 mv Downloads/takeout-20230328T201413Z-001.zip bakup_google_photos.zip
 mkdir backup_google
 unzip bakup_google_photos.zip -d backup_google/
-doas system76-power profile performance
-setxkbmap us
 lspvi
 doas mount /dev/sdb1 /mnt
 doas mount
@@ -840,13 +721,10 @@ cd /mnt
 ls lost+found
 doas ls lost+found
 doas -s
-gentoo-updater
 hotp
-htop
 doas vim /etc/portage/package.use/sfml
 cd Downloads/16_Games
 cd 02\ Doodle\ Jump
-cd Do
 unzip 16_Games.zip
 cd 16_Games
 cd 0
@@ -873,7 +751,6 @@ ls\\
 gcc main.o -o output
 make clear
 vim Makefile
-make clean
 lc
 rm sfml-app
 cd .config/nvim/after/plugin
@@ -899,7 +776,6 @@ make\\
 pkill picom pipewire
 Drehrichtung
 vim test.md
-doas tlp ac
 doas tlp
 vim .config/inkscape-shortcut-manager
 cd .config/inkscape-
@@ -914,8 +790,6 @@ cd work/tetris_cpp
 mkdir computerGraphics
 mv tetris_cpp computerGraphics/gravitation_one_source
 mkdir note-2023-11-2-physik--kreisbewegung
-jekyll serve
-cd Downloads
 tar -xf tor-browser-linux64-12.0.4_ALL.tar.xz
 ls tor-browser
 cd tor-browser
@@ -987,53 +861,179 @@ cd gravitation_anim_center/save
 l
 sls
 cp ~/templates/cpp/sfml/* ./
-cat Makefile
-pkill pi
-doas tlp bat
-cat /sys/class/power_supply/BAT0/capacity
 ls 
 ./big_fish
-la
 ./nice_quadrat
-doas intel_gpu_top
-vim index.md
 mkdir save
 cp main.cpp save/small_10x10_glider.cpp
-ls save
-mv main.cpp main.cpp.bak
 cp save/small_10x10_glider.cpp ./main.cpp
 cp output save/small_10x10_glider
 rm main.cpp
 mv main.cpp.bak main.cpp
 make 
-make
 ./save/small_10x10_glider
-vim main.
-cd gameoflife
-vim main.cpp
-pkill conky
 cd notes/School/pow/praktikumsbericht
 vim report.t
 vim report.tex
 doas pi
-pkill polybar
-doas system76-power profile battery
 pandoc note-2023-11-2--crowdworking.md -o crowdworking.pdf
 zathura crowdworking.pdf
 tae
-date
-startx
-cd work
 git@github.com:Hirschiii/mini_projects.git
 git clone git@github.com:Hirschiii/mini_projects.git
 mv computerGraphics/* mini_projects
 ls mini
 cd mini_projects
-ls
-git add .
 git commit -m "update\
 "
+setxkbmap uys
+vim key.git
+cd .dotfiles
+git add .
+git commit -m "update"
 git push
-n -e
+tasksh
+task 5 start
+cd bio
+ls New\ Folder
+rm -rf New\ Folder
+task 5 sotp
+task 5 stop
+picom --daemon
+cd work/mini
+cat Makefile
+make clean
+g++ main.o -o output -lsfml-graphics -lsfml-window -lsfml-system -static -static-libgcc -static-libstdc++
+g++ main.o -o output -lsfml-graphics -lsfml-window -lsfml-system 
+g++ main.o -o output -lsfml-graphics -lsfml-window -lsfml-system -static
+htiop
+python collision.py
+cd gameoflife
+mkdir platformer
+cp ~/templates/cpp/sfml/* platformer
+cd Downloads/
+unzip result.zip
+vim umfrage.csv
+cp Downloads/umfrage.csv Hirschiii.github.io/notes/school/bio/
+scim\\
+
+sc-im
+task
+task add project:Idee own game / physic engine with rigid body etx
+ssh gulugulu@aegaon.uberspace.de
+ssh gulugulu@aegaon.uberspace.com
+ssh gulugulu@aegaeon.uberspace.de
+scp gulugulu@aegaeon.uberspace.de:/home/gulugulu/umfrage_po.sql ./umfrage_po.sql
+cat umfrage_po.sql
+eix -s mysql
+doas emerge --ask mysql
+doas emerge --config dev-db/mysql
+rc-service mysql start
+doas rc-service mysql start!
+doas rc-service mysql start
+mysql
+mysql -p < umfrage_po.sql
+mysql -u root -p < umfrage_po.sql
+mysql -u root -p umfrage < umfrage_po.sql
+mysql -u root -p umfrage_po < umfrage_po.sql
+mysql -u root -p 
+mkdir po
+mv bio/* pow/
+ls pow
+mv pow/umfrage* po/
+cd po
+vim convert.cpp
+pythona auswertung.py
+python auswertung.py
+vim auswertung.py
+doas pkill pi
+v
+vim note-2023-11-2-informatik--Netzwerke.md
+doas system76-power profile batteyr
+dat
+GDK_SCALE=2 flatpak run de.lernsoftware_filius.Filius
+cd l
+cd pla
+cd platformer
+ls \ 
+cat \\ 
+vim \\ 
+rm \\ 
+vim main.
+doas system76-power power battery
+doas pkill picom
+doas pkill pipewire
+la
+mv main.cpp main.cpp.bak
+ls save
+cp save/nice_quadrat.cpp ./main.cp
+mv main.cp main.cpp
+vim main.cpp
+make
 ./output
+pkill pi
+pkill polybar
+doas system76-power profile battery
+doas tlp bat
+n -e
+vim note-2023-11-2-geschichte--ddr.md
+cd ..
+jekyll serve
+cd .local/bin
+vim powersave
+powersave
+date
+cat /sys/class/power_supply/BAT0/capacity
+doas shutdown -h not
+startcx
+gentoo-updater
+pkill conky
+doas system76-power profile performance
+doas tlp ac
+vim Hirschiii.github.io/notes/school/po/frage.md
+cd work
+cdpo
+cd po-bio
+git pull
+vim umfrage.txt
+vim index.md
+vim umfrage.php
+htop
+eix -s  chromium
+mpv 
+doas vim /etc/portage/make.conf
+vim .config/mpv/mpv.conf
+mpv https://www.youtube.com/watch?v=ST_DZ6yIiXY
+mpv "https://www.youtube.com/watch?v=ST_DZ6yIiXY"
+doas emerge --ask --changed-use --deep @world
+emerge --ask media-video/libva-utils
+doas emerge --ask media-video/libva-utils
+doas vainfo
+ls /usr/lib64/vala-0.56
+neofetch
+doas v
+doas emerge -a media-libs/libva-intel-media-driver
+doas intltool-update
+doas intel_gpu_frequency
+doas intel_gpu_abrt
+doas intel_gpu_time
+doas reboot
+vim auswertung.py.bak
+vainfo
+setxkbmap us
+eix -s yt-dlp
+eix -s youtube-dl
+yt-dlp --throttled-rate 100K https://www.youtube.com/watch?v=6z4ePR7YYa8
+yt-dlp --throttled-rate 100K "https://www.youtube.com/watch?v=6z4ePR7YYa8"
+ls
+chromium-bin --ignore-gpu-blocklist --use-gl=egl
+mpv "https://www.youtube.com/watch?v=maXmId1-upc"
+mpv "https://www.youtube.com/watch?v=6z4ePR7YYa8"
+mpv What\ can\ ‚ÄÉºThe\ Simpsons‚ÄÉΩ\ teach\ us\ about\ Dynamic\ ProgrammingÔºÉø\ \[6z4ePR7YYa8\].webm
+rm What\ can\ ‚ÄÉºThe\ Simpsons‚ÄÉΩ\ teach\ us\ about\ Dynamic\ ProgrammingÔºÉø\ \[6z4ePR7YYa8\].webm
+cd Do
+cd Downloads
+yt-dlp "https://www.youtube.com/watch?v=Jrh5idPduJA&t=3s"
+doas intel_gpu_top
 doas shutdown -h now
+startx
