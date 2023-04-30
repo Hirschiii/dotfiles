@@ -1,7 +1,6 @@
 #!/bin/sh
 
 xsetroot -cursor_name leftptr &
-picom --daemon &
 
 light -I &
 light -N 2 &

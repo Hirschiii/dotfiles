@@ -1,132 +1,3 @@
-cd .config/nvim/
-vim after/plugin/autosave.lua
-cat after/plugin/mardown.lua
-cat after/plugin/te
-cat after/plugin/templates.lua
-vim after/plugin/te
-vim after/plugin/templates.lua
-rm after/plugin/templates.lua
-eix -s scim
-doas vim /etc/portage/package.use/sc-im
-chmod +x UHK.Agent-2.1.1-linux-x86_64.AppImage
-./UHK.Agent-2.1.1-linux-x86_64.AppImage
-eix -s sc-im
-doas emerge --ask sc-im
-scÃ�im
-sc-iom
-cd notes/Projects/Account_Scraper
-vim Uberspace.sc
-sc-im example.sc
-eix -s pass
-doas vim /etc/portage/package.use/p
-doas vim /etc/portage/package.use/pass
-doas emerge --ask pass\ 
-doas emerge --ask pass
-gpg --full-gen-key
-gpg
-gpg -h\\
-
-git test
-git init test
-rm ./.gitconfig
-pass init test
-pass -h
-ls -la .password-store
-rm -rf .password-store
-pass init
-pass init niklas@vonhirschfeld.eu
-pass insert test
-pass
-tsak
-task nex
-task next
-task review
-eix -s tasksh
-tar -xf tasksh-1.2.0.tar.gz
-ls tasksh-1.2.0/
-cd tasksh-1.2.0
-cat INSTALL
-cmake
-cmake -DCMAKE_BUILD_TYPE=release .
-\
-Dependency resolution took 3.54 s.\
-Dependency resolution took 3.54 s.\
-Dependency resolution took 3.54 s.\
-Dependency resolution took 3.54 s.\
-Dependency resolution took 3.54 s.\
-Dependency resolution took 3.54 s.\
-Dependency resolution took 3.54 s.\
-Dependency resolution took 3.54 s.\
-Dependency resolution took 3.54 s.\
-Dependency resolution took 3.54 s.\
-Dependency resolution took 3.54 s.\
-Dependency resolution took 3.54 s.\
-Dependency resolution took 3.54 s.\
-Dependency resolution took 3.54 s.\
-Dependency resolution took 3.54 s.\
-Dependency resolution took 3.54 s.\
-Dependency resolution took 3.54 s.\
-Dependency resolution took 3.54 s.\
-Dependency resolution took 3.54 s.\
-Dependency resolution took 3.54 s.\
-Dependency resolution took 3.54 s.\
-Dependency resolution took 3.54 s.\
-Dependency resolution took 3.54 s.\
-Dependency resolution took 3.54 s.\
-Dependency resolution took 3.54 s.\
-Dependency resolution took 3.54 s.\
-Dependency resolution took 3.54 s.
-make install
-doas make install
-ask
-task project
-task _reviewed
-task todo
-inbox
-task doble
-task double
-task inbox double
-task 29
-task +film
-task film
-task reports
-task all
-task active
-task minimal
-task burndown.daily
-task burndown.weekly
-vim notes/Projects/Henning
-cd notes/Projects/Henning
-task add jekyll layout wiki
-task 33 mod project:Note
-task 33 start
-vim _config.yml
-vim _includes/toc.html
-vim _layouts
-cat article.html
-cat articles.html
-mv articles.html wikis.html
-mv article.html wiki.html
-vim wikis.html
-cp wiki.html article.html
-cp wikis.html articles.html
-vim article.html
-vim articles.html
-ls head.html
-cat head.html
-cat topic-card.html
-cat note-card.html
-cat sidebar.html
-cat home.html
-gem 'jekyll-toc'
-ls -la
-vim _layouts/wiki.html
-cd _includes
-mv toc.html toc.md
-mkdir _markdown
-mv toc.md _markdown
-vim markdown.html
-vim toc.md
 rm markdown.html
 mv _markdown/toc.md toc.html
 rm -rf _markdown
@@ -179,7 +50,6 @@ traceroute www.google.com
 traceroute www.google.com -e
 eix -s tracert
 eix -s tracer
-picom
 vim Downloads/b90ea1b4-d921-4337-bf3f-34ffdc84b260.ics
 rm -rf sc
 rm -rf school
@@ -272,7 +142,6 @@ doas emerge --ask tenet-bsd
 doas emerge --ask telnet-bsd
 telnet
 telnet towel.blinkenlights.nl
-pkill picom
 doas emerge --ask kde-connect
 doas emerge --ask kdeconnect
 pkill conky 
@@ -376,7 +245,6 @@ eix -s deskreen
 cd Hirschiii.github.io/notes/school/informatik/projekt-2023-03-05-11-2-informatik-netzwerke-i
 zathura Projektarbeit_Dokumentation.pdf 
 eix -s nb
-vim .config/herbstluftwm/autostart
 pkill oom_reaper
 vim note-2023-11-2-weimar-refferate.md
 vim note-deutsch-2023-11-2--lyrik--i.md
@@ -626,7 +494,6 @@ doas emerge --ask pygame
 cd notes/benni_urlaub
 zathura index.pdf
 vim index.
-xmodmap .Xmodmap
 vim notes/benni_urlaub
 mv Downloads/20714-MH-Aushang_Hüttentarif-2023_220921\ \(1\).pdf notes/benni_urlaub
 cd /usr/share/app
@@ -704,7 +571,6 @@ git commit -m "Kalendar"
 cal
 cal -3
 setxkbmap de
-ip a
 mv Downloads/takeout-20230328T201413Z-001.zip bakup_google_photos.zip
 mkdir backup_google
 unzip bakup_google_photos.zip -d backup_google/
@@ -899,16 +765,13 @@ ls New\ Folder
 rm -rf New\ Folder
 task 5 sotp
 task 5 stop
-picom --daemon
 cd work/mini
 cat Makefile
-make clean
 g++ main.o -o output -lsfml-graphics -lsfml-window -lsfml-system -static -static-libgcc -static-libstdc++
 g++ main.o -o output -lsfml-graphics -lsfml-window -lsfml-system 
 g++ main.o -o output -lsfml-graphics -lsfml-window -lsfml-system -static
 htiop
 python collision.py
-cd gameoflife
 mkdir platformer
 cp ~/templates/cpp/sfml/* platformer
 cd Downloads/
@@ -969,8 +832,6 @@ ls save
 cp save/nice_quadrat.cpp ./main.cp
 mv main.cp main.cpp
 vim main.cpp
-make
-./output
 pkill pi
 pkill polybar
 doas system76-power profile battery
@@ -998,7 +859,6 @@ git pull
 vim umfrage.txt
 vim index.md
 vim umfrage.php
-htop
 eix -s  chromium
 mpv 
 doas vim /etc/portage/make.conf
@@ -1010,22 +870,18 @@ emerge --ask media-video/libva-utils
 doas emerge --ask media-video/libva-utils
 doas vainfo
 ls /usr/lib64/vala-0.56
-neofetch
 doas v
 doas emerge -a media-libs/libva-intel-media-driver
 doas intltool-update
 doas intel_gpu_frequency
 doas intel_gpu_abrt
 doas intel_gpu_time
-doas reboot
 vim auswertung.py.bak
 vainfo
-setxkbmap us
 eix -s yt-dlp
 eix -s youtube-dl
 yt-dlp --throttled-rate 100K https://www.youtube.com/watch?v=6z4ePR7YYa8
 yt-dlp --throttled-rate 100K "https://www.youtube.com/watch?v=6z4ePR7YYa8"
-ls
 chromium-bin --ignore-gpu-blocklist --use-gl=egl
 mpv "https://www.youtube.com/watch?v=maXmId1-upc"
 mpv "https://www.youtube.com/watch?v=6z4ePR7YYa8"
@@ -1035,5 +891,404 @@ cd Do
 cd Downloads
 yt-dlp "https://www.youtube.com/watch?v=Jrh5idPduJA&t=3s"
 doas intel_gpu_top
+pkill pico
+doas pacman -S neovim
+vi .xinitrc
+doas pacman -S picom
+doas pacman -S feh
+doas pacman -S npm
+vim .config/herbstluftwm
+doas pacman -S gcc
+vim
+doas pacman -S linux-asahi-edge mesa-asahi-edge
+doas update-grub
+doas pacman -S htop
+doas pacman -S neofetch
+neof
+iwctl
+doas systemctl start iwd
+doas pacman -S networkmanager
+doas sysytemctl enable Networkmanager
+doas systemctl enable Networkmanager
+doas systemctl enable NetworkManager
+doas systemctl stop iwd
+doas systemctl stop dhcpcd
+doas systemctl restart NetworkManager
+ip a
+doas systemctl --type=service
+doas systemctl stop wpa_supplicant
+doas systemctl stop NetworkManager
+doas systemctl start NetworkManager
+nmtui
+doas systemctl disable wpa_supplicant
+doas systemctl diable dhcpcd
+doas systemctl disable dhcpcd
+doas systemctl disable iwd
+top
+doas pacman -S xmodmap
+doas pacman -S xorg-xmodmap
+xmodmap .Xmodmap
+picom
+vim .config/picom/picom.conf
+cd .config/polybar
+doas pacman -S exa
+vim config.ini
+cd /sys/class/power_supply
+vim .config/alacritty
+vim .xinitrc
+vim /etc/locale.gen
+doas vim /etc/locale.gen
+doas nvim /etc/locale.gen
+locale -a
+locale-gen
+doas locale-gen
+neofetch
+doas pacman -S tmux fzf
+vim .config/herbstluftwm/autostart
+picom --daemon
+pkill picom
+tmux
+tmux 
+doas reboot
+locale
+localedef --list-archive
+doas nvim /etc/locale.conf
+doas set-locale LANG=de_DE.UTF-8
+doas localectl set-locale LANG=de_DE.UTF-8
+mkdir git
+git clone git@github.com:Hirschiii/mini_projects
+cd mini_projects/
+cd gameoflife
+rm output
+make clean
+./output
+doas pacman -S sfml
+doas pacman -S make
+uname
+uname -a
+doas pacman -S light
+doas light
+doas light -H
+doas light -U 10
+doas light -A 10
+htop
+doas pacman -s arandr
+doas pacman -S arandr
+setxkbmap us
+vim \\
+
+dkas
 doas shutdown -h now
+light -h
+light -L
+light -G sysfs/leds/kbd_backlight
+light sysfs/leds/kbd_backlight -G
+light -s sysfs/leds/kbd_backlight -G
+light -s sysfs/leds/kbd_backlight -A 10
+git clone git@github.com:Hirschiii/Hirschiii.github.io.git
+cd git
+doas hwclock --show
+git clone git@github.com:djpohly/dwl.git
+pacman -S wlroot wayland-protocols
+doas pacman -S wlroot wayland-protocols
+doas pacman -S wlroots wayland-protocols
+cd dwl
+vim config.h
+vim config.def.h
+doas pacan -S pkg-config
+doas pacman -S pkg-config
+which dwl
+doas cp config.def.h config.h
+make
+pwd
+doas pacman -S bmenu
+firefox
+firefox 
+MOZ_ENABLE_WAYLAND=1 firefox
+dwl
 startx
+cd git/dwl
+ls
+./dwl
+exit
+firefox
+doas pacman -S newm
+doas pacman -S yay
+git clone https://aur.archlinux.org/yay.git
+cd yay
+l
+ls
+doas pacman -S fakeroot
+makepkg -si
+yay
+yay -S newm-git
+doas pacman -S cagebreak
+yay -S cagebreak
+doas pacman -S sway
+sway
+ls
+cd .config/sway
+ls
+vim config
+swaymsg -t get_outputs
+cd .config/sway
+vim config
+cd .config/herbstluftwm
+vim autostart
+ls -la
+vim /usr/share/X11/xkb/rules/xorg.lst
+vim .config/sway/config
+ls
+startx
+swa
+sway
+ls
+pkill X
+cd .config
+ls
+mkdir sway
+cp /etc/sway/config ./sway
+cd sway
+pkill sway
+vim config
+doas timedatectl set-timezone Europe/Berlin
+doas reboot
+neofetch
+cat /sys/class/power_supply/macsmc-battery/capacity
+htop
+sway
+ls
+cat /sys/class/power_supply/macsmc-battery/capacity
+doas shutdown -h now
+s
+sway
+cat /sys/class/power_supply/macsmc-battery/capacity
+light -h
+light -L
+light -s sysfs/leds/kbd_backlight -U 10
+ip link show
+ifconfig -a
+ifconfig wlan0-a
+ifconfig wlan0 -a
+ifconfig -a wlan0
+doas shutdown -h now
+nmtui
+ls
+vim kalender.md
+cat /sys/class/power_supply/macsmc-battery
+cat /sys/class/power_supply/macsmc-battery/c
+cat /sys/class/power_supply/macsmc-battery/capacity
+doas light -U 10
+cat /sys/class/power_supply/macsmc-battery
+cat /sys/class/power_supply/macsmc-battery/capacity
+doas pacman -S xonotiv
+doas pacman -S xonotic
+yay -S xonotiv
+yay -S xonotic
+yay -S tuxraver
+yay -S tuxracer
+doas pacman -S supertuxkart
+cat /sys/class/power_supply/macsmc-battery/capacity
+nmtui
+doas pacman -S nm-applet
+doas pacman -S network-manager-applet
+nm-applet
+nmtui
+pkill nm-applet
+MESA_GL_VERSION_OVERRIDE=3.3 MESA_GLSL_VERSION_OVERRIDE=330 MESA_GLES_VERSION_OVERRIDE=3.1 MOZ_ENABLE_WAYLAND=1 firefox
+doas pacman -S bemenu
+bmenu
+bemenu
+bemenu -h
+vim .config/sway/config
+export MOZ_ENABLE_WAYLAND=1
+htio
+htop
+cat /sys/class/power_supply/macsmc-battery/c
+cat /sys/class/power_supply/macsmc-battery/capacity
+nmtui
+htop
+cat /sys/class/power_supply/macsmc-battery/capacity
+light -U 1-
+light -U 10
+ip a 
+ip link show
+nmtui
+bemenu -h
+ls | bemenu
+cat /sys/class/power_supply/macsmc-battery/capacity
+mntui
+nmtui
+sway
+cd Hirschiii.github.io/notes
+cd
+cd .config/sway
+ls
+ls
+vim note-2023-11-2-geschichte.md
+vim note-2023-11-2-geschichte--a.
+vim note-2023-11-2-geschichte--20-21-als-zeitenwende--i.md
+vim note-2023-11-2-geschichte--20-21-als-zeitenwende--a.md
+vim note-2023-11-2-geschichte-klausur.md
+vim kalender.md
+doas pacman -S nnn
+n -e
+ls
+vim note-2023-11-2-bio--klausur_enzyme.md
+nmtui
+feh --bg-fill .config/wall/base_size.png
+doas pacman -S swaybg
+doas pacman -S fuzzel
+fuzzel
+fuzzel -h
+fuzzel -w 10
+fuzzel -w 100
+fuzzel -h
+fuzzel -D
+fuzzel -D 160
+fuzzel -D yes
+vim .config/sway/config
+htop
+nmtui
+[B
+nmtui
+cat /sys/class/power_supply/macsmc-battery/capacity
+cp Downloads/base_size.png .config/wall
+vim .config/sway
+cat /sys/class/power_supply/macsmc-battery/capacity
+cd .config/sway
+ls
+vim config
+ls
+doas pacman -S signal
+yay -S cagebreak
+sway
+doas pacman -S ruby ruby-rdoc gcc make
+gem update --user-install
+gem install jekyll --user-install
+ls -la
+doas pacman -S task
+cd .gem
+ls
+ls .gem
+yay -S jekyll
+ls
+vim note-2023-11-2-bio--klausur_enzyme.md
+doas pacman -S jekyll
+doas pacman -Syyyu
+jekyll
+cd ..
+jekyll server
+htop
+doas pacman -S pipewire
+doas systemctl pipewire-pules start
+doas pacman -S pipewire-pulse
+doas systemctl start pipewire-pules
+pactl
+doas pacman -S pipewire-audio
+doas pacman -S pipewire-audio pipewire-pules
+doas pacman -S pipewire-audio pipewire-pulse
+wireplumber
+doas systemctl start pipwire-pulse
+doas systemctl start pipwire-audio
+doas systemctl start pipewire-pulse
+doas reboot
+doas systemctl start pipewire-pules
+sway
+doas shutdown -h now
+ligth -U 10
+light -U 10
+light -A 10
+cd git/mini_projects
+ls
+cat /sys/class/power_supply/macsmc-battery/capacity
+ls
+n -e
+n -e
+swaz
+sway
+rm -rf Old\ Firefox\ Data
+mkdir work
+cd work
+mkdir po_datascience
+cd po_datascience
+mkdir sfml_map_base
+cd sfml_map_base
+cp ~/git/mini_projects/particle_smoke/* ./
+ls
+vim main.cpp
+make
+./output
+n -e
+make
+./output
+cat /sys/class/power_supply/macsmc-battery/capacity
+sway
+n -e
+cd po_datascience/sfml_map_base
+ls
+vim main.cpp 
+doas shutdown -h now
+make
+./output
+doas pacman -S clangd
+yay -S clangd
+doas pacman -S clang-tools
+doas pacman -Syyyu
+which clangd
+cd .config/nvim.bak/after/plugin
+ls
+vim lsp.lua
+vim .config/nvim/after/plugin/lsp.lua
+doas pacman -S clang
+clang
+clangd
+n -e
+ls
+vim .zshrc
+n -e
+ls /sys/class/power_supply
+cat /sys/class/power_supply/macsmc-battery/status
+cat /sys/class/power_supply/macsmc-battery/c
+cat /sys/class/power_supply/macsmc-battery/capacity
+cat /proc/loadavg
+cd .config/sway
+ls
+n -e
+chmod +x script_bar.sh
+vim script_bar.sh
+nm-applet
+vim .config/sway/config
+cd .config/nvim/after
+ls
+vim plugin/
+doas pacman -S zsh-syntax-highlighting
+n -e
+cd .config
+cd sway
+ls
+cd .config
+ls
+cd .
+cd .config
+cd sway
+cd .config
+vim .zshrc
+make 
+./output
+ks
+n -e
+ls
+vim main.
+vim main.cpp
+make
+./output
+htop
+sway
+doas shutdown -h now
+cd work
+cd po_datascience/o
+cd po_datascience/
+cd sfml_map_base
+ls
+./output

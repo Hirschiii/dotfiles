@@ -65,4 +65,7 @@ lsp.configure('ltex', {
     }
 })
 
+-- require("lspconfig").clangd.setup(config({
+--     cmd = { '/usr/bin/clangd', '/main.cpp' }}))
+
 lsp.setup()

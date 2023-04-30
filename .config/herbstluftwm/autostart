@@ -9,6 +9,7 @@ hc() {
 # Autostart
 
 # setxkbmap de &
+picom --daemon &
 xrdb -merge /home/niklas/.Xresources &
 xmodmap ~/.Xmodmap &
 # $HOME/.config/polybar/launch.sh &
@@ -22,7 +23,7 @@ doas system76-power daemon &
 
 myTerm="alacritty"
 myLauncher="dmenu_run"
-myBrowser="chromium-bin"
+myBrowser="firefox"
 myScripts="$HOME/.local/bin"
 # myBrowser="qutebrowser"
 
