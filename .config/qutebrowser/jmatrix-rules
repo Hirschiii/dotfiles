@@ -13,37 +13,21 @@ matrix-off: opera-scheme true
 matrix-off: vivaldi-scheme true
 matrix-off: wyciwyg-scheme true
 matrix-off: qute-scheme true
-
 * * * block
 * * css allow
 * * frame block
 * * image allow
 * 1st-party * allow
 * 1st-party frame allow
-
-# Google account youtube
-
 accounts.google.com ssl.gstatic.com xhr allow
 youtube.com googlevideo.com xhr allow
 youtube.com googlevideo.com media allow
 youtube.com s.ytimg.com script allow
 youtube.com www.gstatic.com script allow
 youtube.com ytimg.com image allow
-
-# itslearning Word iframe
 glh.itslearning.com live.com frame allow
 glh.itslearning.com officeapps.live.com frame allow
-
 resource.itslearning.com euc-word-view.officeapps.live.com frame allow
 resource.itslearning.com euc-word-view.officeapps.live.com xhr allow
 resource.itslearning.com c1h-word-view-15.cdn.office.net script allow
-
-# Github
-
 github.com github.githubassets.com script allow
-
-# Whatsapp
-
-https://web.whatsapp.com/ mmg.whatsapp.com xhr allow
-https://web.whatsapp.com/ media-ams4-1.cdn.whatsapp.net xhr allow
-

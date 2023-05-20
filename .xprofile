@@ -53,4 +53,5 @@ feh --bg-fill /home/niklas/.dotfiles/wall/dracu-gentoo.png &
 #/usr/local/bin/dwmblocks &
 #xrdb -merge /home/niklas/.Xresources &
 #pasystray &
-
+export public_secondbrain=~/git/second-brain-public/content
+export secondbrain=~/git/content

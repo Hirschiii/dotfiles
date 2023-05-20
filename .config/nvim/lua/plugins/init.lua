@@ -1,6 +1,12 @@
 return {
     "kyazdani42/nvim-web-devicons",
+    "nvim-tree/nvim-tree.lua",
     "lewis6991/impatient.nvim", -- improve startup time
+
+
+    -- Writing / Zenmode
+    'junegunn/goyo.vim',
+    'junegunn/limelight.vim',
 
     -- TJ created lodash of neovim
     "nvim-lua/plenary.nvim",
@@ -8,7 +14,6 @@ return {
     "nvim-telescope/telescope.nvim",
 
     'vigoux/LanguageTool.nvim',
-
     {
         'VonHeikemen/lsp-zero.nvim',
         dependencies = {
@@ -28,6 +33,7 @@ return {
             -- Snippets
             { 'L3MON4D3/LuaSnip' },
             { 'rafamadriz/friendly-snippets' },
+            "saadparwaiz1/cmp_luasnip",
         }
     },
 
@@ -41,12 +47,19 @@ return {
 
     -- html
 
+    'norcalli/nvim-colorizer.lua',
     'turbio/bracey.vim',
     'mattn/emmet-vim',
 
     "simrat39/symbols-outline.nvim",
-    "L3MON4D3/LuaSnip",
-    "rafamadriz/friendly-snippets", -- a bunch of snippets to use
+    {
+        "L3MON4D3/LuaSnip",
+        dependencies = {
+            "rafamadriz/friendly-snippets" -- a bunch of snippets to use
+        },
+        -- install jsregexp (optional!).
+        build = "make install_jsregexp"
+    },
     "saadparwaiz1/cmp_luasnip",
     {
         "kylechui/nvim-surround",
@@ -56,7 +69,7 @@ return {
             })
         end
     },
-
+    { "lukas-reineke/indent-blankline.nvim" },
     {
         "windwp/nvim-autopairs",
         config = function() require("nvim-autopairs").setup {} end
@@ -83,7 +96,7 @@ return {
     -- Color Theme:
 
     "folke/tokyonight.nvim",
-    { "catppuccin/nvim",       as = "catppuccin" },
+    { "catppuccin/nvim",                    as = "catppuccin" },
     {
         'rose-pine/neovim',
     },
@@ -95,7 +108,8 @@ return {
         end,
     },
 
-    { 'nvim-treesitter/nvim-treesitter',
+    {
+        'nvim-treesitter/nvim-treesitter',
         build = ":TSUpdate",
     },
     "romgrk/nvim-treesitter-context",

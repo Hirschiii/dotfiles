@@ -1,545 +1,3 @@
-rm markdown.html
-mv _markdown/toc.md toc.html
-rm -rf _markdown
-rm toc.md 
-mv ~/Downloads/toc.html ./
-cd Hirschiii.github.io/_includes
-vim .config/nvim/after/plugin/luasnip.lua
-vim test,md
-vim articles/word2vec.md
-vim wiki/kalendar.md
-n -e
-hn -e
-ls articles
-vim articles/index.html
-cp articles/index.html wiki/
-vim wiki/index.html
-jekyll sere
-jekyll build --trace
-cd notes/wi
-cd notes/Wiki
-vim Kalendar/sabrevsradicale.md
-cat animation.md
-vim Kalendar/sabredav.md
-node -v
-mkdir motion_canvas
-cd motion_canvas
-npm init @motion-canvas@latest
-cd my-animation
-npm install
-cd /var/tmp/portage/www-client/chromium-110.0.5481.177-r1/
-doas cd /var/tmp/portage/www-client/chromium-110.0.5481.177-r1
-doas powertop --autotune
-doas powertop -h
-cd .config/herbstluftwm
-vim autostart
-setxkbmap de 
-tmux-sessionizer
-eix -s traceroute
-vim Hirschiii.github.io/wiki/kalendar.md
-doas emerge --ask whois
-doas emerge --ask whois traceroute
-whois -h
-whois -h www.google.de
-whois 'www.google.de'
-whois ccn.com
-whois google.com
-traceroute -h
-traceroute --help
-traceroute www.google.com
-traceroute www.google.com -e
-eix -s tracert
-eix -s tracer
-vim Downloads/b90ea1b4-d921-4337-bf3f-34ffdc84b260.ics
-rm -rf sc
-rm -rf school
-mkdir presentation
-cd presentation
-wget https://cdn.jsdelivr.net/gh/impress/impress.js@2.0.0/js/impress.js
-rm note-bio-2023-11-2--enzyme--a/test.*
-ls note-bio-2023-11-2--enzyme--a
-cd test_pres
-live-server
-cd notes/
-locale bewerbung
-pass test
-vim .taskrc
-rm -rf te
-rm -rf intelephense
-ls task
-touch task/script_tabe.txt
-touch task/script_tabe.md
-task 17 mod annotate 
-task 17
-task denotate 17
-task 17 denotate
-npm install -g impress.md
-doas npm install -g impress.md
-mkdir impress
-cd im
-cd impress
-impress.md test.md > test.html
-impress.md test.md
-cd wiki
-mv kalendar.md kalender.md
-vim kalender.md
-git commit -m "fix spell"
-task 33 done
-task 11 WAIT
-task 11 mod wait:2day
-task 11
-task 11 mod wait:
-task 1 mod wait:2day
-task 7 mod due:
-task 7
-task 7 mod scheduled
-task 7 mod finish
-task 7 mod scheduled:
-task 17 delete
-task 17 done
-q4 10
-q4 11
-task add project:privat.idee conky mit eisenhower matrix
-q4 9
-q312
-q3 12
-task 16 done
-q3 13
-q3 14
-q3 15
-q4 16
-q4 17
-taskopen 17
-task add project:privat.fix fix opentask
-q3 18
-a4 19
-q4 19
-q4 20
-q1 21
-q3 22
-task 23 done
-q4 24
-q4 23
-task in
-task inbox
-tak
-cd notes/school/informatik/projekt-2023-03-05-11-2-informatik-netzwerke-i
-cd filius
-zip filius filius.zip
-doas emerge --ask zip
-zip filius.zip filius
-zip filius.zip filius/}
-*
-zip filius.zip filius/*
-unzip filius.zip
-vim note-erdkunde-2023-11-2--klimawandel--a.md
-startX
-doas emerge --ask telnet
-eix -s telnet
-doas emerge --ask net-telnet
-telinit
-doas emerge --ask tenet-bsd
-doas emerge --ask telnet-bsd
-telnet
-telnet towel.blinkenlights.nl
-doas emerge --ask kde-connect
-doas emerge --ask kdeconnect
-pkill conky 
-task add project:Note script to link first appearing keyword to doc with def like wikipedia
-q4 25
-unzip ap-bericht-vorlage_18april2022.zip
-mv Versuchsbericht-lyx.lyx ~/Hirschiii.github.io/templates
-unzip ap-bericht-vorlage_18april2022.zip -d ~/Hirschiii.github.io/templates
-unzip ap-bericht-vorlage_18april2022.zip -d ~/Hirschiii.github.io/templates/protokoll
-cd ~/Hirschiii.github.io/templates
-rm README.md Versuchsbericht-*
-cd protokoll
-eix -s biblatex
-doas emerge --ask biblatex
-rm -rf versuch-bio-2023-11-2-enzyme
-cp -rf templates/protokoll notes/protokoll-bio-2023-11-2--enzyme
-mv Downloads/logo_glh.pdf Hirschiii.github.io/templates/protokoll/Images
-mv Downloads/logo_glh.pdf Hirschiii.github.io/notes/protokoll-bio-2023-11-2--enzyme/Images
-cp Hirschiii.github.io/templates/protokoll/Images/logo_glh.pdf Hirschiii.github.io/notes/protokoll-bio-2023-11-2--enzyme/Images/
-vim Vorspann.tex
-cat ./* | grep Authot
-vim Deckblatt-Formular.tex
-vim README.md
-vim Versuchsbericht-latex.tex
-vim Versuchsbericht-lyx.lyx
-cd Hirschiii.github.io/notes
-vim note-physik-2023-11-2--wurf--i.md
-vim note-physik-2023-11-2--wurf--a.md
-vim note-mathe-2023-11-2--funktionen_und_graphen--a.md
-mkdir templates
-vim cosin.dat
-mv cosin.dat cosine.dat
-chromium-bin plot.pdf
-vim cosine.dat
-vim plot.s
-vim beobachtung.csv
-vim plot.
-vim plot.tex
-pdflatex plot.tex
-cd Hirschiii.github.io/notes/protokoll-bio-2023-11-2--enzyme
-chromium-bin Versuchsbericht-lyx.pdf
-vim Downloads/photoshop2021install.sh
-chmod +x photoshop2021install.sh
-./photoshop2021install.sh
-cd scripts
-git clone
-git clone https://github.com/gillescastel/inkscape-shortcut-manager.git
-cd inkscape-shortcut-manager
-eix -s xlib
-doas emerge --ask dev-python/python-xlib
-mkdir .config/inkscape-shortcut-manager
-eix -s pdf2svg
-doas emerge --ask pdf2svg
-doas emerge --ask rofi
-rofi
-rofi -show window
-python3 main
-Ã¶s
-vim config.py
-cd .config/inkscape-shortcut-manager/inkscape-shortcut-manager
-python3 main.py
-cd scripts/inkscape-shortcut-manager
-cd example
-ls examples
-cp config.py ~/.config/inkscape-shortcut-manager/
-mv examples  ~/.config/inkscape-shortcut-manager
-rm -rf objects styles
-mv examples/objects examples/styles ./
-rm -rf examples
-mv scripts/inkscape-shortcut-manager .config/inkscape-shortcut-manager
-vim scripts/ink.sh
-picom -daemon
-	``````````1yCC
-traceroute
-traceroute www.google.de
-unzip lyx-research-paper-template.zip
-lyx lyx-research-paper-template/research-paper-template.lyx
-zathura lyx-research-paper-template/research-paper-template.pdf
-eix -s whois
-whois
-whois --host www.google.de
-whois www.google.de
-whois www.google.de --verbose
-whois  google.de
-whois  ns1.google.com
-cd notes/School/informatik/2023-Projektarbeit
-bat index.md
-cat index.md
-cd /tmp
-sxiv 2023-03-16_19:28:42_690x224.png
-sxiv 2023-03-16_19:28:52_589x219.png
-mv 2023-03-16_19:28:52_589x219.png ~/Hirschiii.github.io/notes/school/informatik/projekt-2023-03-05-11-2-informatik-netzwerke-i/assets/aufgabe_1.png
-sxiv 2023-03-16_19:33:28_1007x690.png
-mv 2023-03-16_19:33:28_1007x690.png ~/Hirschiii.github.io/notes/school/informatik/projekt-2023-03-05-11-2-informatik-netzwerke-i/assets/aufgabe_2.png
-mv 2023-03-16_19:36:27_1244x921.png ~/Hirschiii.github.io/notes/school/informatik/projekt-2023-03-05-11-2-informatik-netzwerke-i/assets/aufgabe_3.png
-chromium-bin Projektarbeit_Dokumentation.pdf
-zathura Projektarbeit_Dokumentation.pdf
-pkill conky \\
-
-eix -s deskreen
-cd Hirschiii.github.io/notes/school/informatik/projekt-2023-03-05-11-2-informatik-netzwerke-i
-zathura Projektarbeit_Dokumentation.pdf 
-eix -s nb
-pkill oom_reaper
-vim note-2023-11-2-weimar-refferate.md
-vim note-deutsch-2023-11-2--lyrik--i.md
-mv note-deutsch-2023-11-2--lyrik--ia.md note-deutsch-2023-11-2--lyrik--a.md
-vim note-bio-2023-11-2--enzyme--a.md
-vim note-deutsch-2023-11-2--lyrik--a.md
-cd .dotfiles/.config
-cd qutebrowser
-rm -rf jmatrix
-git clone https://gitlab.com/jgkamat/jmatrix.git
-cd jmatrix
-sudo wget https://raw.github.com/xwmx/nb/master/nb -O /usr/local/bin/nb &&\
-  sudo chmod +x /usr/local/bin/nb &&\
-  sudo nb completions install
-doas wget https://raw.github.com/xwmx/nb/master/nb -O /usr/local/bin/nb &&\
-  doas chmod +x /usr/local/bin/nb &&\
-  doas nb completions install
-nb todo add test
-nb todo+
-nb todo 1 done
-nb todo 1 
-nb todo
-nb todo -h
-nb show
-nb show 1
-nb add test
-nb open test
-doas emerge --ask ncat
-doas emerge --ask netcat
-ncat
-nb brows
-nb browse
-ls /dev/urandom
-cat /dev/urandom | grep "42"
-cat /dev/urandom
-flatpak install flathub md.obsidian.Obsidian
-flatpak run md.obsidian.Obsidian
-rm test*
-rm -rf test
-cat toc.md
-rm toc.md
-cd _site/notes
-vim note.html
-vim wiki
-vim wiki.html
-nb open 2
-pdflatex note-deutsch-peom.tex
-task 13 done
-task 16 delete
-sl
-vim note-2023-11-2-physik--wurf--
-vim note-2023-11-2-physik--wurf--a
-vim .config/nvim/after/plugin/luasnip.lua 
-vim school/deutsch.html
-rm school/deutsch.html
-vim school/erdkunde.html
-vim school/*
-nb
-vim school/mathe.html
-vim school/geschichte.html
-cp geschichte.html deutsch.html erdkunde.html mathe.html
-cp geschichte.html deutsch.html
-cp geschichte.html mathe.html
-cp geschichte.html erdkunde.html
-cp geschichte.html physik.tml
-mv physik.tml physik.html
-vim physik.html
-vim deutsch.html mathe.html erdkunde.html
-vim erdkunde.html geschichte.html mathe.html physik.html
-cp index.html erdkunde.html
-vim mathe.html physik.html deutsch.html
-vim mathe.html
-vim erdkunde.html
-rm mathe.html physik.html
-vim geschichte.html erdkunde.html deutsch.html physik.html mathe.html
-cat wiki.html
-cat wikis.html
-cp wikis.html geschichte.html
-rm geschichte.html
-cp school.html geschichte.html
-cp schools geschichte_base.html
-cp schools.html geschichte_base.html
-vim geschichte_base.html
-rm geschichte*
-cp schools.html geschichte.html
-vim geschichte.html
-vim note-2023-11-2-geschichte--a
-vim note-2023-11-2-geschichte--a.
-vim note-2023-11-2-geschichte--20-21-als-zeitenwende--i.md
-vim note-2023-11-2-mathe--f*.md
-mkdir school
-cp wiki/index.html
-cp wiki/index.html school/
-cd _layouts
-cp wiki.html school.html
-cp wikis.html schools.html
-vim school/index.html
-vim _layouts/school.html
-vim _layouts/schools.html
-git commit -m "jekyll dynamic cards for school notes"
-cat english.html
-cp sidebar.html.bak sidebar.html
-vim sidebar.html
-cp sidebar.html sidebar.html.bak
-cp erdkunde.html english.html
-vim english.html
-task add project:schule.english +sil Sil p. 77 task 3
-cd _site
-vim school/erdkunde/index.html
-vim -d index.html geschichte.html
-vim deutsch.html erdkunde.html english.html mathe.html physik.html
-doas shutdown -h now\\
-
-cat ./* | grep note
-vim note-2023-11-2-erdkunde--klimawandel--i.md
-vim note-2023-11-2-physik--wurf--a.md
-vim note-2023-11-2-erdkunde--klimawandel--a.md
-cd ../school
-cp erdkunde.html deutsch.html
-cp erdkunde.html geschichte.html
-cp erdkunde.html mathe.html
-cp erdkunde.html physik.html
-vim deutsch.html geschichte.html physik.html mathe.html 
-vim _includes/sidebar.html
-vim note-2023-11-2-english--writing--a.md
-vim note-2023-11-2-geschichte--20-21-als-zeitenwende--a.md
-git commit -m "physik" 
-doas powertop --auto-tune
-doas powertop
-vim test
-cp erdkunde.html klausuren.html
-vim klausuren.html
-pkill nnn
-[[n -e
-hqql
-cat Wahlschein\ Sportwahl.pdf
-task add project:note Jekyll dynamic index for notes like school
-mv notes/index.html notes/index.html.bal
-mv notes/index.html.bal notes/index.html.bak
-cp wiki/index.html notes/index.html
-cp article-card.html note-card.html
-vim article-card.html
-vim note-card.html
-mv index.html index.html.bak
-cp index.html.bak index.html
-cd school
-cp index.html index.html.bak
-mv ../notes/minimal-table.css ./
-cat note-2023-11-2-allgemein--begriffe--i.md
-cp note.html math.html
-vim math
-vim math.html
-cp head.html head_math.html
-vim head_math.html
-cd 
-cd Hirschiii.github.io/im
-cd Hirschiii.github.io/
-cd js
-wget http://tikzjax.com/v1/tikzjax.js
-git commit -m "mathe und dynamic notes etc"
-vim note-2023-11-2-mathe--funktionen_und_graphen--a.md
-vim notes/index.html
-cd notes
-mv index.html.bak index.html
-vim index.html
-cp note-card.html cell.html
-vim cell.html
-doas system76-power profile performanmce
-doas system76-power profile performane
-on -e
-git commit -m "mathe klausur"
-jekyll bu
-cp minimal-table.css ../notes/
-git commit -m "update math"
-ls .git
-rm -rf .obsidian
-vim css/stylesheet-custom.css
-rm minimal-table.css
-ls minimal-table.css
-vim minimal-table.css
-vim note-2023-11-2-mathe-klausur-1.md
-git commit -m "tabel check"
-cd .jekyll-cache
-rm -rf .jekyll-cache
-pill pi
-pkill pipewire
-pkill picom 
-jekyll build
-git commit -m "deutsch"
-vim note-2023-11-2-deutsch--lyrik--a.md
-ls *.mp3
-mpv Experience.mp3
-mscore -d
-unzip GeneralUser_GS_1.442-MuseScore.zip -d ../Documents/MuseScore3Development/SoundFonts
-cd Documents/MuseScore3Development/S
-cd Documents/MuseScore3Development/SoundFonts
-ls GeneralUser\ GS\ 1.442\ MuseScore
-mv GeneralUser\ GS\ 1.442\ MuseScore/* ./
-rm -rf GeneralUser\ GS\ 1.442\ MuseScore
-cd /etc/portage/package.use
-cat ./* | grep "muse"
-doas emerge --ask musescore
-doas emerge --ask --changed-use musescore
-doas vim musescore
-eix -s musescore
-chmod +x MuseScore-4.0.2.230651545-x86_64.AppImage
-doas ./MuseScore-4.0.2.230651545-x86_64.AppImage
-./MuseScore-4.0.2.230651545-x86_64.AppImage
-rm -rf MuseScore
-rm -rf MuseScore4/
-cd Documents
-ks
-rm -rf MuseScore3Development
-cd MuseScore3Development
-cd SoundFonts
-unzip ~/Downloads/FluidR3Mono_GM-sf3.zip -d ./
-unzip ~/Downloads/FluidR3Mono_GM_sf2.zip -d ./
-L
-mkdir tryout
-cd tryout
-git clone https://github.com/johnBuffer/VerletSFML-Multithread.git
-cd VerletSFML-Multithread
-mkdir build
-mkdir python 
-cd python
-mkdir pygame
-vim pygame_starting.py
-hto
-cd work/tryout
-mkdir python_collision
-cd python_collision
-pip install matplotlib
-eix -s matplotlib
-doas dispatch-conf
-doas emerge --ask matplotlib
-cd work/t
-cd build
-cmake ..
-cd .
-./main.py
-python main.py
-cd work/tryout/python_collision
-vim main.py
-eix -s pygame
-doas vim /etc/portage/package.use/pygame
-doas emerge --ask pygame
-cd notes/benni_urlaub
-zathura index.pdf
-vim index.
-vim notes/benni_urlaub
-mv Downloads/20714-MH-Aushang_HÃ¼ttentarif-2023_220921\ \(1\).pdf notes/benni_urlaub
-cd /usr/share/app
-cd /usr/share/applications
-eix -s ddrescue 
-eix -s photorec
-eix -s testdisk
-doas emerge --ask testdisk
-lsusb
-lspci
-doas mount /dev/mount
-cd lost+found
-testdisk
-cd rev/recup_dir.
-cd rev/
-tree | grep *.png
-ls */
-ls */ | grep *.png
-ls */ | grep .png
-ls */ | grep .png > sxiv
-ls */ | grep .png | sxiv
-tree 
-tree  | grep .png
-sxiv */*.jpg
-cd rev
-sxiv */*.riff
-sxiv */*.ttf
-sxiv */*.gz
-sxiv */*.elf
-sxiv */*.png
-mount /dev/sdb`
-mount /dev/sdb1
-photorec
-doas photorec
-doas mount /dev/sdb1
-mount /dev/sdb1 /mnt
-cd /m
-tree
-task q3
-q2 test
-task add Dies ist ein Test
-q3 19
-q1 19
-task del 19
-task 1 done
-task 3 done
 task 4 donw
 task 4 done
 task 2 del
@@ -566,11 +24,7 @@ cp droping_circle.py collision.py
 vim collision.py
 python droping_circle.py
 rm -rf tryout
-cd Hirschiii.github.io
 git commit -m "Kalendar"
-cal
-cal -3
-setxkbmap de
 mv Downloads/takeout-20230328T201413Z-001.zip bakup_google_photos.zip
 mkdir backup_google
 unzip bakup_google_photos.zip -d backup_google/
@@ -580,13 +34,11 @@ doas mount
 ls Downloads
 ls Resources
 ls projects
-cd
 doas umount /mnt
 doas mount /dev/sda1 /mnt
 cd /mnt
 ls lost+found
 doas ls lost+found
-doas -s
 hotp
 doas vim /etc/portage/package.use/sfml
 cd Downloads/16_Games
@@ -605,7 +57,6 @@ eix -s gcc
 ls images
 cd\\
 
-s
 mkdir cpp
 ./out
 vim Downloads/16_Games/01\ Tetris/main.cpp
@@ -619,9 +70,7 @@ make clear
 vim Makefile
 lc
 rm sfml-app
-cd .config/nvim/after/plugin
 vim l
-vim lsp.lua
 gcc -c main.cpp
 cd work/test
 cd cpp
@@ -705,7 +154,6 @@ cp output nice_quadrat
 cp -rf gravitation_one_source gravitation_anim_center
 cd gravitation_anim_center
 cp main.cpp nice_nr1.cpp
-nm-applet
 cp main.cpp nice_quadrat.cpp
 cp output black_and_white
 cp main.cpp black_and_white.cpp
@@ -724,10 +172,8 @@ cd save
 vim blur.frag
 date 
 cd gravitation_anim_center/save
-l
 sls
 cp ~/templates/cpp/sfml/* ./
-ls 
 ./big_fish
 ./nice_quadrat
 mkdir save
@@ -736,7 +182,6 @@ cp save/small_10x10_glider.cpp ./main.cpp
 cp output save/small_10x10_glider
 rm main.cpp
 mv main.cpp.bak main.cpp
-make 
 ./save/small_10x10_glider
 cd notes/School/pow/praktikumsbericht
 vim report.t
@@ -754,13 +199,9 @@ git commit -m "update\
 "
 setxkbmap uys
 vim key.git
-cd .dotfiles
-git add .
 git commit -m "update"
-git push
 tasksh
 task 5 start
-cd bio
 ls New\ Folder
 rm -rf New\ Folder
 task 5 sotp
@@ -781,11 +222,9 @@ cp Downloads/umfrage.csv Hirschiii.github.io/notes/school/bio/
 scim\\
 
 sc-im
-task
 task add project:Idee own game / physic engine with rigid body etx
 ssh gulugulu@aegaon.uberspace.de
 ssh gulugulu@aegaon.uberspace.com
-ssh gulugulu@aegaeon.uberspace.de
 scp gulugulu@aegaeon.uberspace.de:/home/gulugulu/umfrage_po.sql ./umfrage_po.sql
 cat umfrage_po.sql
 eix -s mysql
@@ -822,7 +261,6 @@ ls \
 cat \\ 
 vim \\ 
 rm \\ 
-vim main.
 doas system76-power power battery
 doas pkill picom
 doas pkill pipewire
@@ -831,15 +269,11 @@ mv main.cpp main.cpp.bak
 ls save
 cp save/nice_quadrat.cpp ./main.cp
 mv main.cp main.cpp
-vim main.cpp
 pkill pi
 pkill polybar
 doas system76-power profile battery
 doas tlp bat
-n -e
 vim note-2023-11-2-geschichte--ddr.md
-cd ..
-jekyll serve
 cd .local/bin
 vim powersave
 powersave
@@ -852,12 +286,10 @@ pkill conky
 doas system76-power profile performance
 doas tlp ac
 vim Hirschiii.github.io/notes/school/po/frage.md
-cd work
 cdpo
 cd po-bio
 git pull
 vim umfrage.txt
-vim index.md
 vim umfrage.php
 eix -s  chromium
 mpv 
@@ -888,7 +320,6 @@ mpv "https://www.youtube.com/watch?v=6z4ePR7YYa8"
 mpv What\ can\ â€ƒ¼The\ Simpsonsâ€ƒ½\ teach\ us\ about\ Dynamic\ Programmingï¼ƒ¿\ \[6z4ePR7YYa8\].webm
 rm What\ can\ â€ƒ¼The\ Simpsonsâ€ƒ½\ teach\ us\ about\ Dynamic\ Programmingï¼ƒ¿\ \[6z4ePR7YYa8\].webm
 cd Do
-cd Downloads
 yt-dlp "https://www.youtube.com/watch?v=Jrh5idPduJA&t=3s"
 doas intel_gpu_top
 pkill pico
@@ -899,7 +330,6 @@ doas pacman -S feh
 doas pacman -S npm
 vim .config/herbstluftwm
 doas pacman -S gcc
-vim
 doas pacman -S linux-asahi-edge mesa-asahi-edge
 doas update-grub
 doas pacman -S htop
@@ -914,12 +344,10 @@ doas systemctl enable NetworkManager
 doas systemctl stop iwd
 doas systemctl stop dhcpcd
 doas systemctl restart NetworkManager
-ip a
 doas systemctl --type=service
 doas systemctl stop wpa_supplicant
 doas systemctl stop NetworkManager
 doas systemctl start NetworkManager
-nmtui
 doas systemctl disable wpa_supplicant
 doas systemctl diable dhcpcd
 doas systemctl disable dhcpcd
@@ -942,14 +370,12 @@ doas nvim /etc/locale.gen
 locale -a
 locale-gen
 doas locale-gen
-neofetch
 doas pacman -S tmux fzf
 vim .config/herbstluftwm/autostart
 picom --daemon
 pkill picom
 tmux
 tmux 
-doas reboot
 locale
 localedef --list-archive
 doas nvim /etc/locale.conf
@@ -961,7 +387,6 @@ cd mini_projects/
 cd gameoflife
 rm output
 make clean
-./output
 doas pacman -S sfml
 doas pacman -S make
 uname
@@ -969,23 +394,16 @@ uname -a
 doas pacman -S light
 doas light
 doas light -H
-doas light -U 10
 doas light -A 10
-htop
 doas pacman -s arandr
 doas pacman -S arandr
 setxkbmap us
 vim \\
 
 dkas
-doas shutdown -h now
-light -h
-light -L
 light -G sysfs/leds/kbd_backlight
 light sysfs/leds/kbd_backlight -G
 light -s sysfs/leds/kbd_backlight -G
-light -s sysfs/leds/kbd_backlight -A 10
-git clone git@github.com:Hirschiii/Hirschiii.github.io.git
 cd git
 doas hwclock --show
 git clone git@github.com:djpohly/dwl.git
@@ -999,88 +417,39 @@ doas pacan -S pkg-config
 doas pacman -S pkg-config
 which dwl
 doas cp config.def.h config.h
-make
-pwd
 doas pacman -S bmenu
-firefox
 firefox 
-MOZ_ENABLE_WAYLAND=1 firefox
 dwl
-startx
 cd git/dwl
-ls
 ./dwl
-exit
 firefox
 doas pacman -S newm
 doas pacman -S yay
 git clone https://aur.archlinux.org/yay.git
 cd yay
-l
-ls
 doas pacman -S fakeroot
 makepkg -si
 yay
 yay -S newm-git
 doas pacman -S cagebreak
-yay -S cagebreak
 doas pacman -S sway
-sway
-ls
-cd .config/sway
-ls
-vim config
 swaymsg -t get_outputs
-cd .config/sway
-vim config
 cd .config/herbstluftwm
 vim autostart
-ls -la
 vim /usr/share/X11/xkb/rules/xorg.lst
-vim .config/sway/config
-ls
 startx
 swa
-sway
-ls
 pkill X
-cd .config
-ls
 mkdir sway
 cp /etc/sway/config ./sway
-cd sway
 pkill sway
-vim config
 doas timedatectl set-timezone Europe/Berlin
-doas reboot
-neofetch
-cat /sys/class/power_supply/macsmc-battery/capacity
-htop
-sway
-ls
-cat /sys/class/power_supply/macsmc-battery/capacity
-doas shutdown -h now
-s
-sway
-cat /sys/class/power_supply/macsmc-battery/capacity
-light -h
-light -L
-light -s sysfs/leds/kbd_backlight -U 10
-ip link show
 ifconfig -a
 ifconfig wlan0-a
 ifconfig wlan0 -a
 ifconfig -a wlan0
-doas shutdown -h now
-nmtui
-ls
-vim kalender.md
-cat /sys/class/power_supply/macsmc-battery
-cat /sys/class/power_supply/macsmc-battery/c
-cat /sys/class/power_supply/macsmc-battery/capacity
 doas light -U 10
 cat /sys/class/power_supply/macsmc-battery
-cat /sys/class/power_supply/macsmc-battery/capacity
 doas pacman -S xonotiv
 doas pacman -S xonotic
 yay -S xonotiv
@@ -1088,43 +457,21 @@ yay -S xonotic
 yay -S tuxraver
 yay -S tuxracer
 doas pacman -S supertuxkart
-cat /sys/class/power_supply/macsmc-battery/capacity
-nmtui
 doas pacman -S nm-applet
 doas pacman -S network-manager-applet
-nm-applet
-nmtui
 pkill nm-applet
 MESA_GL_VERSION_OVERRIDE=3.3 MESA_GLSL_VERSION_OVERRIDE=330 MESA_GLES_VERSION_OVERRIDE=3.1 MOZ_ENABLE_WAYLAND=1 firefox
 doas pacman -S bemenu
 bmenu
 bemenu
-bemenu -h
-vim .config/sway/config
 export MOZ_ENABLE_WAYLAND=1
 htio
-htop
-cat /sys/class/power_supply/macsmc-battery/c
-cat /sys/class/power_supply/macsmc-battery/capacity
-nmtui
-htop
-cat /sys/class/power_supply/macsmc-battery/capacity
 light -U 1-
-light -U 10
 ip a 
 ip link show
-nmtui
 bemenu -h
 ls | bemenu
-cat /sys/class/power_supply/macsmc-battery/capacity
 mntui
-nmtui
-sway
-cd Hirschiii.github.io/notes
-cd
-cd .config/sway
-ls
-ls
 vim note-2023-11-2-geschichte.md
 vim note-2023-11-2-geschichte--a.
 vim note-2023-11-2-geschichte--20-21-als-zeitenwende--i.md
@@ -1132,58 +479,30 @@ vim note-2023-11-2-geschichte--20-21-als-zeitenwende--a.md
 vim note-2023-11-2-geschichte-klausur.md
 vim kalender.md
 doas pacman -S nnn
-n -e
-ls
-vim note-2023-11-2-bio--klausur_enzyme.md
-nmtui
 feh --bg-fill .config/wall/base_size.png
-doas pacman -S swaybg
 doas pacman -S fuzzel
-fuzzel
-fuzzel -h
 fuzzel -w 10
 fuzzel -w 100
 fuzzel -h
 fuzzel -D
 fuzzel -D 160
-fuzzel -D yes
-vim .config/sway/config
-htop
-nmtui
 [B
-nmtui
-cat /sys/class/power_supply/macsmc-battery/capacity
 cp Downloads/base_size.png .config/wall
-vim .config/sway
-cat /sys/class/power_supply/macsmc-battery/capacity
-cd .config/sway
-ls
-vim config
-ls
 doas pacman -S signal
 yay -S cagebreak
-sway
 doas pacman -S ruby ruby-rdoc gcc make
 gem update --user-install
 gem install jekyll --user-install
-ls -la
 doas pacman -S task
 cd .gem
-ls
 ls .gem
 yay -S jekyll
-ls
 vim note-2023-11-2-bio--klausur_enzyme.md
 doas pacman -S jekyll
-doas pacman -Syyyu
 jekyll
-cd ..
-jekyll server
-htop
 doas pacman -S pipewire
 doas systemctl pipewire-pules start
 doas pacman -S pipewire-pulse
-doas systemctl start pipewire-pules
 pactl
 doas pacman -S pipewire-audio
 doas pacman -S pipewire-audio pipewire-pules
@@ -1194,101 +513,2092 @@ doas systemctl start pipwire-audio
 doas systemctl start pipewire-pulse
 doas reboot
 doas systemctl start pipewire-pules
-sway
-doas shutdown -h now
 ligth -U 10
-light -U 10
-light -A 10
 cd git/mini_projects
-ls
-cat /sys/class/power_supply/macsmc-battery/capacity
-ls
-n -e
-n -e
 swaz
-sway
 rm -rf Old\ Firefox\ Data
 mkdir work
-cd work
 mkdir po_datascience
-cd po_datascience
 mkdir sfml_map_base
-cd sfml_map_base
 cp ~/git/mini_projects/particle_smoke/* ./
-ls
-vim main.cpp
-make
-./output
-n -e
-make
-./output
-cat /sys/class/power_supply/macsmc-battery/capacity
-sway
-n -e
 cd po_datascience/sfml_map_base
-ls
 vim main.cpp 
-doas shutdown -h now
-make
-./output
 doas pacman -S clangd
 yay -S clangd
 doas pacman -S clang-tools
-doas pacman -Syyyu
 which clangd
 cd .config/nvim.bak/after/plugin
-ls
-vim lsp.lua
-vim .config/nvim/after/plugin/lsp.lua
 doas pacman -S clang
 clang
 clangd
-n -e
-ls
-vim .zshrc
-n -e
 ls /sys/class/power_supply
 cat /sys/class/power_supply/macsmc-battery/status
 cat /sys/class/power_supply/macsmc-battery/c
 cat /sys/class/power_supply/macsmc-battery/capacity
 cat /proc/loadavg
-cd .config/sway
-ls
-n -e
 chmod +x script_bar.sh
-vim script_bar.sh
 nm-applet
-vim .config/sway/config
 cd .config/nvim/after
-ls
 vim plugin/
 doas pacman -S zsh-syntax-highlighting
-n -e
-cd .config
-cd sway
-ls
-cd .config
-ls
 cd .
-cd .config
 cd sway
-cd .config
-vim .zshrc
 make 
-./output
 ks
-n -e
-ls
 vim main.
 vim main.cpp
-make
-./output
-htop
-sway
-doas shutdown -h now
-cd work
 cd po_datascience/o
 cd po_datascience/
 cd sfml_map_base
+./output
+mv .config/sway .dotfiles/.config
+git config --global user.name "
+git config --global user.name "Hirschiii"
+git commit -m "sway"
+task synv
+doas pacman -Ss singal
+doas pacman -Ss signal-dekstop
+doas pacman -Ss signal-desktop
+doas pacman -Ss signal messanger
+doas pacman -Ss signal
+doas pacman -S signal-desktop
+yay -Syyyu
+yay -S signal-dekstop
+yay -S signal-desktop
+MOZ_ENABLE_WAYLAND=1 firefox
+GDK_BACKEND=wayland firefox
+doas pacman -S foot
+pw
+pwf
+fc-list
+fc-list | grep "Fira\
+"
+fc-list | grep "FiraCoder Nerd"
+fc-list | grep "FiraCode Nerd"
+yay -S signal-desktop-arm
+pkill foot 
+ls 
+vim .config/alacritty/alacritty.yml
+footclient
+foot --server
+mkdir .dotfiles/.config/foot
+cp /etc/xdg/foot/foot.ini .dotfiles/.config/foot
+mkdir .dotfiles/.config/hypr
+doas pacman -S hyperland
+doas pacman -S hyprlan
+doas pacman -S hyprlad
+doas pacman -S hyprland
+cp /usr/share/hyprland/hyprland.conf .dotfiles/.config/hypr
+cd .do
+sway exit
+doas pacman -S libsixel
+img2sixel
+doas pacman -S img2sixtel
+doas pacman -S img2sixel
+img2sixel arrow.png
+doas pacman -Ss lsixel
+doas pacman -S lsic
+doas pacman -S lsix
+yay -S lsix
+bvim
+pdw
+doas pacman -S obsidian
+chmod +x Obsidian-1.1.16-arm64.AppImage
+./Obsidian-1.1.16-arm64.AppImage
+hyprctl
+Hyprland
+vim .config/hypr/hyprland.conf
+pkill Hyprland
+lsixel
+img2sixel .config/wall/move_compile.png
+img2sixel fsociety.png
+task cal
+mkdir .task
+cd .task
+task 
+task 2 edit due:we
+task 2 edit due:3d
+task edit 2 due:3d
+task edit 2
+doas pacman -S inkscape
+task add project:Schule cleanup notes
+taks
+task 12 start
+doas pacman -S clipman
+yay -S clipman
+clipman
+clipman pick
+clipman pick 2
+clipman restore
+clipman 
+clipman pick -t wofu
+clipman pick -t wofi
+cd .local/share
+cat clipman-primary.json
+clipman show-history
+clipman pick --tool=CUSTOM --tool-args="fuzzel -d"
+mkdir geschichte
+mkdir erdkunde deutsch bio physik wun mathe
+mv .*-deutsch-.* deutsch
+ls .*
+ls *
+ls *-deutsch
+ls *-deutsch-*
+cp *-deutsch-* deutsch
+cp *-bio-* bio
+ls english
+cp note-2023-11-2-english--writing--a note-2023-11-2-english--writing--a.md english
+cp *-english-* english
+cp -rf *-english-* english
+cp ls
+cp -rf *-bio-* bio
+cp -rf note-2023-11-2-deutsch--lyrik--a.md note-2023-11-2-deutsch--lyrik--i note-2023-11-2-deutsch--lyrik--i.md note-deutsch-peom.aux note-deutsch-peom.log note-deutsch-peom.pdf note-deutsch-peom.tex deutsch
+cp -rf note-2023-11-2-bio--enzyme--a note-2023-11-2-bio--enzyme--a.md note-2023-11-2-bio--klausur_enzyme.md protokoll-bio-2023-11-2--enzyme bio
+mv *-bio-* bio
+mv *-deutsch-* deutsch
+mv -rf note-2023-11-2-bio--enzyme--a protokoll-bio-2023-11-2--enzyme bio
+mv note-2023-11-2-bio--enzyme--a bio
+rm -rf bio deutsch english erdkunde mathe wun
+rm geschichte
+rm -rf geschichte
+rm -rf physik
+mkdir erdkunde deutsch bio physik wun mathe physik geschichte
+ls physik
+mv note-2023-11-2-bio--enzyme--a protokoll-bio-2023-11-2--enzyme bio
+mv note-2023-11-2-deutsch--lyrik--i deutsch
+mkdir english
+bi
+mv note-2023-11-2-english--writing--a note-2023-11-2-english--writing--a.md english
+mv note-2023-11-2-geschichte--20-21-als-zeitenwende--a.md note-2023-11-2-geschichte--20-21-als-zeitenwende--i note-2023-11-2-geschichte--20-21-als-zeitenwende--i.md note-2023-11-2-geschichte--definitionen--.md note-2023-11-2-geschichte-klausur.md geschichte
+mv *-physik-* physik
+mv note-2023-11-2-mathe--formeln--i.md note-2023-11-2-mathe--funktionen_und_graphen--a.md note-2023-11-2-mathe--funktionen_und_graphen--i.md note-2023-11-2-mathe-klausur-1.md mathe
+mv note-2023-11-2-erdkunde--klimawandel--a.md note-2023-11-2-erdkunde--klimawandel--i note-2023-11-2-erdkunde--klimawandel--i.md erdkunde
+mv note-2023-11-2-geschichte.md geschichte
+mv note-2023-11-2-wun--religion--a.md wun
+mkdir informatik
+mv note-2023-11-2-informatik--scratch--i.md note-2023-11-2-informatik--verschlÃ¼sselung--i.md informatik
+doas pacman -S bat
+bat note-2023-11-2-allgemein--begriffe--i.md
+mv note-2023-11-2-allgemein--begriffe--i.md dict.md
+ls school/informatik
+mv allgemein/ bio deutsch english erdkunde informatik geschichte mathe physik wun school
+mv dict.md index.html school
+doas pacman -S tree
+fuzzel
+fuzzel -D yes
+doas pacman -S ltex-ls
+vim .config/nvim/after/plugin
+vim .config/nvim/after/plugin/nvim-tree.lua
+yay -S ltex-ls
+yay -R ltex-ls-bin
+ltex-ls
+yay -R ltex-ls
+vim .config/nvim/lua/plugins
+./script.sh
+./script.sh s
+./script.sh s 22
+vim .
+vim .\\
+
+task 12 stop
+task add project:Schule.bio bio lernen 
+task 13 start
+ls note-2023-11-2-bio--enzyme--a
+ls protokoll-bio-2023-11-2--enzyme
+rm -rf Hirschiii.github.io
+git clone git@github.com:Hirschiii/Hirschiii.github.cim
+git clone git@github.com:Hirschiii/Hirschiii.github.com
+git  clone git@github.com:Hirschiii/Hirschiii.github.io.git
+chmod +x sc
+chmod +x script.sh
+./script.sh hello
+vim sc
+./script.sh hello test whz
+vim script.sh
+127.0.0.1
+https://google.com
+foot
+xdg
+doas pacman -S xdg-open
+doas pacman -S xdg
+doas pacman -S xdg-utils
+xdg-open
+xdg-open https://google.com
+mv note-2023-11-2-bio--enzyme--a.md note-2023-11-2-enzyme-a.md
+mv protokoll-bio-2023-11-2--enzyme protokoll-enzyme
+l
+mv note-2023-11-2-bio--enzyme--a note-2023-11-2-enzyme-a
+git commit -m "dir struc, bio examen"
+task 13 stop
+task sync
+./script.sh english geschichte mathe erdkunde physik wun deutsch bio
+bat sc
+bat script.sh
+mv note-2023-11-2-allgemein--begriffe--i.md dict.d
+mv dict.d dict.md
+./script.sh informatik
+ls bio
+mv school/informatik/projekt-2023-03-05-11-2-informatik-netzwerke-i informatik
+rm -rf school/informatik
+mkdir allgemein
+mv note-2023-11-2-weimar-refferate.md allgemein
+mv allgemein/ bio deutsch/ english erdkunde geschichte informatik mathe physik wun school
+mv dict.md index.html script.sh school
+cd school
+sl
+jekyll server
+yay -S blahaj
+doas pacman -S element-desktop
+yay -S element-desktop
+doas pacman -S fractal
+mkdir notes
+rm -rf notes
+git clone git@github.com:Hirschiii/notes.git
+cd notes
+mkdir henning
+vim .config/nvim.bak/after/plugin/keymap
+vim .config/nvim.bak/after/plugin/lsp.lua
+cd .config/nvim/after/plugin/ls
+cd .config/nvim/after/plugin/
+task add project:Projektideen
+task add project:Projektideen gitserver aufsetzen
+task add project:Projektideen waylandcompositor
+cd Hirschiii.github.io
+lsn -e
+doas pacman -S lf
+lf
+vim .config/nvim/lua/plugins/init.lua
+neofetch
+cd .dotfiles/.config
+rm -rf nvim.bak
+mv nvim nvim.bak
+vi
+nvim
+ls -la
+ls .nvim
+vim .vim_back
+vim .SpaceVim/init.vim
+vim -c ./.nvim/vimrc
+nvim -h
+nvim -u .nvim/vimrc
+vim .zshrc 
+/usr/bin/vim
+ls .vim
+curl -sLf https://spacevim.org/install.sh | bash
+hello
+vim -u .nvim/vimrc
+mv .nvim/vimrc ./.vimrc
+ls wiki
+make
+mv .nvim .config/nvim
+ls lua
+vim lua/spacevim.lua
+cd .SpaceVim
+cd ..
+vim .SpaceVim.d/init.toml
+curl -sLf https://spacevim.org/install.sh | bash -s -- --uninstall
+ls .SpaceVim
+rm -rf .SpaceVim
+rm -rf .SpaceVim.d
+cd .vim
+rm nvim
+cd .config
+cp -rf nvim.bak nvim
+cd Hirschiii.github.io/notes/school
+cd bio
+vim klausur-bio.md
+cd .dotfiles
+stow.
+stow .
+mkdir emails
+cd emails
+n -e
+hn -e
+task calendar 3w
+task calendar -3
+task calendar
+cal -2
+cal -3
+cla
+cal
+task
+vim 
+vim .config/foot/foot.ini
+vim luasnip.lua
+time vim
+time vim -h
+time vim -c :q
+cd .config/nvim
+cd lua/
+cd user
+time vim init.lua -c :q
+vim .config/nvim/lua/plugins/init.lua 
+pwd
+touch index.md
+vim index.md
+vim
+light -h
+light -L
+light -r sysfs/leds/kbd_backlight -A 10
+light -s sysfs/leds/kbd_backlight -A 10
+light -r sysfs/leds/kbd_backlight -U 10
+light -s sysfs/leds/kbd_backlight -U 10
+light -s sysfs/backlight/apple-panel-bl -A 10
+light -s sysfs/leds/input5::capslock -A 10
+light -s sysfs/leds/input5::capslock -A 1
+ls /sys/class/leds/input5::
+ls /sys/class/leds/input5::capslock
+vim /sys/class/leds/input5::capslock
+cat trigger
+doas vim brightness
+cd /sys/class/leds/input5::capslock\
+
+cat brightness
+doas 0s
+doas -s 
+cat max_brightness
+doas -s
+light -U 10
+light -A 5
+task add project:Henning.nvim einleitung schreiben
+vim notes/henning/2023-05-01.md
+cd notes/henning
+vim neovim.md
+doas pacman -S pandoc
+doas pacman -Ss pandoc
+yay -S pandoc
+setxkbmap de
+vim .config/sway
+cd .config/foot
+vim foot.ini foot.ini
+vim foot.ini
+vim .config/sway/
+pkill foot
+setsid foot --server
+light
+powersave -h
+powersave 
+cd erdkunde
+doas pacman -S cowsay
+blahaj
+blahaj =h
+blahaj -c gay
+cowsay "Hello"
+cowsay "Hello" | blahaj -c gay
+blahaj -h
+neofetch | blahaj -c gay
+yay -S fastfetch
+fastfetch
+fastfetch | blahaj -c gay
+vim script_bar.sh
+ls\\
+hn -e
+jekyll serve
+cd mathe
+vim notize.md
+light -A 10
+htop
+doas pacman -S tslib
+cd physik/
+npm install -global tslib
+doas npm install -global tslib
+cd .config/nvim/lua/plugins
+vim init.lua
+vim init.lua 
+doas pacman -S calc
+calc
+jekyll build
+git add .
+git commit -m "physik\
+"
+ip a
+git push
+nmtui]
+cp rose_pine_* ../.dotfiles/.config/wall
+cd .config/sway
+vim config
+cd Downloads
+cp blockwavemoon.png something-beautiful-in-nature.jpg ../.config/wall
+cp Downloads/ascii.png .config/wall
+vim .config/sway/config
+lsix -h
+lsix --help
+img2sixel ign_leafHelmet.png
+swaymsg -s $SWAYSOCK output eDP-1 bg ign_leafHelmet.png fill
+swaymsg -s $SWAYSOCK output "*" bg ign_leafHelmet.png fill
+swaymsg -s $SWAYSOCK output "*" bg ./ign_leafHelmet.png fill
+doas pacman -S swaybg
+cd .config/wall
+lsi
+lsix
+swaybg -h
+swaybg -c 1
+swaybg -i ./rose_pine_circle.png
+swaybg -i ./fsociety.png
+mkdir projektorientierung
+cd projektorientierung
+doas pacman -S gephi
+doas pacman -S java
+gephi
+doas pacman -ccc
+doas pacman -Sc
+doas pacman -Sccc
+doas pacman -R gephi
+cd .config/nvim/after/plugin
+vim lsp.lua
+doas pacman -S pip
+doas pacman -S python-pip
+vim .config/nvim/after/plugin/lsp.lua
+ls git
+ls notes
+ls work
+cd work
+cd po_datascience
+ls sfml_map_base
+mkdir heatmap
+nmtui
+ssh gulugulu@aegaeon.uberspace.de
+scp gulugulu@aegaeon.uberspace.de:~/Downloads/umfrage_po.sqlite ./
+s
+cp umfrage_po.sqlite heatmap
+doas pacman -S numpuy
+doas pacman -S numpy
+pip install sklearn
+pip install scikit-learn
+python main.py
+cd Hirschiii.github.io/notes
+ls school
+ls b
+ls bi
+ls school/bio
+cd
+pip install networkx
+doas pacman -Syyyu
+vim au
+vim aufgaben.md
+vim notizen.md
+pip install matplotlin
+pip install matplotlib
+img2sixel test.svg
+firefox test.svg
+mv test.svg answers.svg
+cp answers.svg test.svg
+cp test.svg heatmap_similarity.svg
+cp test.svg similar.svg
+doas shutdown -h noww
+doas shutdown -h now
+n -e
+doas pacman -S gimp
+gimp -h
+gimp
+./main.py
+firefox ./test.svg
+als
+firefox answers.svg
+python3 main.py
+cp test.svg fragen_loesung.svgf
+mv fragen_loesung.svgf fragen_loesung.svg
+vim fragen_antwort.csv
+vim fragen_rot.csv
+cp fragen_antwort.csv heatmap
+cd heatmap
+vim main.py
+cd work/po_datascience/heatmap
+ls
+firefox .&
+vim .zshrc
+sway
+exit
+ls
+nmtui
+swaymsg -s $SWAYSOCK exit
+nmtui
+ip a
+iwctl
+doas ip link set wlan0 up
+nmtui
+ip a
+doas ifconfig wlan0 UP
+doas ifconfig wlan0 up
+doas -s
+doas systemctl restart NetworkManager
+nmtui
+cowsay "Hello There"
+cowsay "Hello There" | blahaj -c 
+cowsay "Hello There" | blahaj
+blahaj -s
+blahaj -s -c gay
+cowsay "Hello There" | blahaj -h
+cowsay "Hello There" | blahaj -f gay
+cowsay "Hello There" | blahaj -f
+cowsay "Hello There" | blahaj --flags
+cowsay "Hello There" | blahaj -c pride
+fastfetch | blahaj -c pride
+doas pacman -S cmatrix
+cmatr
+cmatrix
+cmatrix | blahaj -c pride
+cmatrix -h
+cmatrix -c
+cmatrix -f
+cmatrix -h
+cmatrix -x
+cmatrix -r
+cmatrix -C
+cmatrix -C (255, 255, 255)
+cmatrix -C [255, 255, 255]
+cmatrix -C [(255, 255, 255)]
+cmatrix -C "[(255, 255, 255)]"
+cmatrix -C "(255, 255, 255)"
+cmatrix -C "yellow"
+telnet towel.blinkenlights.nl
+doas pacman -S telnet
+yay -S telnet
+doas pacman -S inetutils
+telnet towel.blinkenlights.nl
+nmtui
+telnet  towel.blinkenlights.nl 23
+doas shutdown -h now
+cd school/wun
+ls
+vim notizen.md
+ls
+vim wun/notizen.md
+doas shutdown -h now
+light -U 10
+cd .config/nvim/after/plugin/ls
+vim .config/nvim/after/plugin/lsp.lua
+cd work/po_datascience
+ls
+cat sqlite
+sqlite3 umfrage_po.sqlite
+cd Downloads
+ls
+unzstd Mappe.zip
+doas pacman -S unzip
+unzip Mappe.zip
+convert
+doas pacman -S grim
+doas pacman -S slurp convert
+doas pacman -S slurp
+grim -g "$(slurp -p)" -t ppm - | convert - -format '%[pixel:p{0,0}]' txt:- | tail -n 1 | cut -d ' ' -f 4 | wl-copy \
+
+vim .config/sway/config
+cd work/po_datascience/heatmap
+ls
+vim main.py
+doas pacman -S vym
+doas pacman -S onlyoffice
+yay -S onlyoffice
+cd Hirschiii.github.io/notes/school/projektorientierung/Praesentation
+ls
+firefox ./Presentation_Halten.
+python -m http.server
+cd Hirschiii.github.io/notes/school/projektorientierung
+ls Pr
+ls Presentation_Halten.vym
+ls
+ls Praesentation
+cd Praesentation
+firefox Presentation_Halten.
+cd Hirschiii.github.io/notes/school/projektorientierung
+cd Praesentation
+firefox ./Presentation_Halten.png
+n -e
+cd projektorientierung
+ls
+mv Presentation Presentation.svg
+firefox Presentation.svg
+cd du
+cd deutsch
+ls
+vim aufgaben.md
+hn -e
+n -e
+ls
+cat note-2023-11-2-weimar-refferate.md
+doas pacman -S system76-power
+yay -S system76-power
+vim Hirschiii.github.io/notes/school/allgemein/note-2023-11-2-weimar-refferate.md
+doas pacman -S nethack
+nethack
+yay -S moon-lander
+yay -S lander
+htop
+neofetch
+doas pacman -S fortune-mod
+fortune-mod
+yay -S pokemon-colorscripts
+yay -S pokemon-colorscript
+fortune
+yay -S pokemon-colorscripts-git
+vim .zshrc
+pokemon-colorscripts
+pokemon-colorscripts -r -s
+pokemon-colorscripts -r
+ks
+n -e
+ls
+ls allgemein
+cd sp
+mkdir spanisch
+cd spanisch
+ls
+vim notizen.md
+vim vocs.mid
+vim vocs.md
+nmtui
+doas ip link set wlan0 up
+ip a
+doas reboot
+ls
+cd english
+ls
+vim aufgabe.md
+pokemon-colorscripts -r
+pokemon-colorscripts -r | blahaj -c gay
+vim | blahaj -c gat
+vim | blahaj -c gay
+ls
+cd Downloads
+ls
+firefox ./signal-2023-05-01-133002_002.jpeg
+firefox ./signal-2023-05-05-124424.jpeg
+firefox ./page_88.jpeg
+firefox Downloads/page_88.jpeg
+firefox Downloads/p89.jpeg
+task add project:Schule.english +sil +homework +handin p. 89 No. 5
+task sync
+ls
+cd english
+vim aufgabe.md
+doas pacman -S sdl2
+mkdir git
+cd git
+ls
+git clone git@github.com:Hirschiii/sudoku.git
+cd so
+cd sudoku
+ip a
+cd Downloads
+git clone 
+git clone  https://github.com/breddie-normie/dotfiles/tree/main/wallpaper
+git clone  https://github.com/breddie-normie/dotfiles
+cd Downloads
+rm -rf dotfiles
+git clone  https://github.com/breddie-normie/dotfiles
+cd dotfiles/wallpaper
+ls
+lsix
+img2sixel wallpaper8.jpg
+mv ./* ~/.dotfiles/.config/wall
+cd
+vim .config/sway/config
+cd .config/wall
+lsix
+lsix -h
+lsix 
+img2sixel lelouch.png
+img2sixel wallpaper9.jpg
+lspin
+doas pacman -S lspin
+cd .config/nvim/after/plugin/
+vim l
+vim lsp.lua
+doas pacman -S wget
+doas pacman -S luarocks spawn 
+doas pacman -S luarocks composer php julia
+doas pacman -S luarocks composer php
+doas pacman -S ripgrep
+doas pacman -S fd-find
+doas pacman -S fd
+doas pacman -S zathura
+doas pacman -S latexmk
+c
+ls
+cd .config/wall
+swaymsg -s $SWAYSOCK output * backgroudn ./wallpaper9.jpg fill
+swaymsg -s $SWAYSOCK output * backgroudn wallpaper9.jpg fill
+swaymsg -s $SWAYSOCK output * background wallpaper9.jpg fill
+swaymsg -s $SWAYSOCK output * bg wallpaper9.jpg fill
+cd .config/wall
+ls
+lsix
+swaymsg -s $SWAYSOCK
+swaymsg -s $SWAYSOCK output
+swaymsg -s $SWAYSOCK output *
+swaymsg -s $SWAYSOCK output * bg
+swaymsg -s $SWAYSOCK output eDP-1
+swaymsg -s $SWAYSOCK output eDP-1 bg
+swaymsg -s $SWAYSOCK output eDP-1 bg wallpaper9.jpg fill
+swaymsg -s $SWAYSOCK output eDP-1 bg wallpaper1.jpg fill
+swaymsg -s $SWAYSOCK output "*" bg wallpaper1.jpg fill
+swaybg ./wallpaper9.jpg
+swaybg -i ./wallpaper9.jpg
+swaybg -i ./wallpaper10
+swaybg -i ./wallpaper10.jpg 
+doas shutdown -h now
+gcc main.cpp
+gcc main.cpp -o
+vim main.cpp
+gcc main.cpp -o main.o
+la
+gcc main.o
+gcc main.o -o out
+make clean
+vim Makefile
+make
 ls
 ./output
+l
+cd sudoku
+sl
+ls
+touch main.cpp
+vim ma
+vim main.cpp
+n -e
+cd .config/nvim/lua/plugins
+ls
+vimi
+vim init.lua
+cd
+vim .clang-format
+doas shutdown -h now
+doas vi /etc/hostname
+doas nvim /etc/hostname
+doas nvim /etc/hosts
+doas reboot
+dmesg | less
+iw dev
+modinfo ath10k_pci
+doas pacman -Q
+modinfo
+modprobe
+modinfo -h
+modeprint
+modutil -h
+modutil -list
+cd git
+sl
+ls
+git clone https://github.com/LukeSmithxyz/mutt-wizard
+cd mutt-wizard
+doas pacman -S lynx notmuch urlview pam-gnupg
+doas pacman -S lynx notmuch
+doas pacman -S lynx notmuch neomutt curl isync msmtp pass ca-certificates
+doas make install
+mw -a niklas@vonhirschfeld.eu
+doas pacman -S gbupg
+doas pacman -S gnupg
+gnupg -h
+gpg
+gpg -h
+doas pacman -Syyyu
+doas pacman -Ss bitwarden
+yay -Ss bitwarden
+yay -Ss bitwarden-desk
+doas pacman -S bitwarden
+doas pacman -S fuse
+cd Downloads
+chmod +x Bitwarden-2023.4.0-x86_64.AppImage
+./Bitwarden-2023.4.0-x86_64.AppImage
+doas pacman -S bitwarden-cli
+bw login
+bw
+bw list
+bw list items
+pass init niklas@vonhirschfeld.eu
+gpg --full-gen-key
+pass add test
+pass
+pass 
+pass help
+pass rm test
+mw -r
+passs
+pass
+pass niklas@vonhirschfeld.eu
+mailsync
+mw -l
+mw -d 1
+mw -a niklas@vonhirschfeld.eu
+mw -a niklasvonh@gmail.com
+neomutt
+neomutt -h
+q
+neomutt
+mailsync
+lynx
+neomutt -R
+neomutt
+mailsync
+neomutt
+task 5 done
+task 2 done
+task
+doas shutdown -h now
+cd git
+n -e
+cd work
+mkdir mf_web_blog
+cd mf_web_blog
+ls
+python3 -m http.server
+npm install live-server
+live-server
+npm audit fix
+npm install -g npm@9.6.6
+doas npm install -g npm@9.6.6
+doas npm install live-server
+doas npm audit fix --force
+n -e
+cd
+cd Downloads
+unzip Kingthings-Foundation.zip
+cp Kingthings_Foundation.ttf ~/work/mf_web_blog/
+cd
+cd Downloads
+unzip Hack-v3.003-ttf.zip
+cp ttf/Hack-Regular.ttf ~/work/mf_web_blog/fonts
+mkdir fonts
+mv Kingthings_Foundation.ttf fonts
+ls
+mkdir js
+vim js/search.js
+vim js/elasticlunr.min.js
+vim index.html
+vim js/scripts.js
+mv js/scripts.js js/script.js
+vim js/search_index.en.js
+mkdir bugswriter
+cd bugswriter
+wget https://bugswriter.com/
+vim index.html
+n -e
+mkdir images/link-button
+mkdir -p images/link-button
+cd images/link-button
+wget https://bugswriter.com/images/link-buttons/landchad.gif
+cd ..
+mv link-button link-buttons
+wget https://bugswriter.com/images/link-buttons/freebsd.gif
+wget https://bugswriter.com/images/link-buttons/wiby.gif
+wget https://bugswriter.com/images/link-buttons/sadgrl.gif
+wget https://bugswriter.com/images/link-buttons/nuange.gif
+mv freebsd.gif nuange.gif sadgrl.gif wiby.gif link-buttons
+cd link-buttons
+rm sadgrl.gif nuange.gif
+ls
+doas pacman -S ruby base-devel
+cd work
+jekyll new new_blog
+cd new_blog
+cd ..
+rm -rf new_blog
+cd
+cp -rf Hirschiii.github.io work/new_blog
+cd work/new_blog
+rm -rf .h
+rm -rf .git
+ls
+rm -rf _data
+ls _includes
+rm node_modules
+rm -rf node_modules
+doas rm -rf node_modules
+rm package
+doas rm package*
+ls
+npm install -g live-server
+doas npm install -g live-server
+python -m http.server
+live-server
+cd ..
+vim js/search_index.en.js
+vim js/elasticlunr.min.js
+vim index.html
+rm -rf bugswriter
+ls
+live-server
+la
+n -e
+vim index.html
+vim css/style.css
+ls
+cp -rf images/link-buttons ../new_blog/images
+cp -rf fonts ../new_blog
+cd work/new_blog
+vim _config.yml
+vim _includes/toc.html
+gem 'jekyll-toc'
+ls -la
+cat f
+vim feed.xml
+rm feed.xml
+ls
+cd work/new_blog
+ls
+vim _config.yml
+vim gemfile
+n -e
+ls
+mv Hirschiii.github.io note_web_ba
+git clone git@github.com:Hirschiii/Hirschiii.github.io.git
+mv -rf work/new_blog/* Hirschiii.github.io
+mv work/new_blog/* Hirschiii.github.io
+ls Hirschiii.github.io
+cd Hirschiii.github.io
+git add .
+git commit -m 'init'
+git push
+mkdir fonts
+rm english.html deutsch.html erdkunde.html geschichte.html mathe.html math.html physik.html project.html projects.html school.html schools.html topic.html topics.html 
+rm notes.html
+rm wikis.html
+ls
+rm articles.html
+vim article.html
+rm article.html
+n -e
+ls
+n -e
+cd ..
+s
+n -e
+ls
+vim _config.yml
+jekyll build
+jekyll serve
+lsl
+ls school
+ls school/physik
+cd ..
+rm -rf new_blog
+n -e
+ls
+vim _includes/to
+vim _includes/toc.html
+wget https://raw.githubusercontent.com/Bugswriter/website/master/static/css/style.css
+mkdir css
+mv style.css css
+vim css/style.css
+cd Hirschiii.github.io
+gem install jekyll bundler
+cp -rf Hirschiii.github.io work/new_blog
+ls -la
+rm -rf .git
+ls _data
+l
+cd work/mf_web_blog/ls
+cd ..
+rm -rf new_blog
+cd new_blog
+vim footer.html
+vim h
+cd _includes
+\:w
+vim head
+vim home.html
+vim head.html
+vim style.css
+cd im
+cd images
+la articles
+vim _layouts
+cd _layouts
+vim article.html
+cp wiki.html article.html
+cp article-card.html article-list.html
+vim article-list.html
+c
+cd
+cd work/new_blog
+ls _site
+ls _includes
+ls _layouts
+vim _layouts/wiki.html
+rm rampant-media.md
+la
+rm -rf how-i-take-notes how-i-take-notes.md word2vec word2vec.md
+n -e
+ls wiki
+vim wiki/index.html
+nls
+cd notes
+ls
+cp ../wiki/index.html ./
+vim index.html
+n -e
+ls school
+cd Hirschiii.github.io
+vim _includes/head.html
+cd Hirschiii.github.io
+jekyll build
+vim _includes/head.html
+git add .
+git commit -m "nav wiki"
+git push
+cd git
+git clone git@github.com:Hirschiii/templates.git
+cd
+mv Hirschiii.github.io/templates/protokoll git/templates
+cd Hirschiii.github.io
+ls templates
+rm -rf templates
+git add .
+git commit -m "template latex protokoll"
+git push
+n -e
+vim _config.yml
+ls _site
+ls impress
+vim impress/test.
+vim impress/test.html
+cat impress/test.md
+rm -rf impress
+ls resources
+vim resources/index.html
+rm -rf resources
+ls school
+vim school
+rm -rf school
+ls
+cd about
+cp ../notes/index.html ./
+vim index.html
+doas shutdown -h now
+cd Hirschiii.github.io
+jekyll serve
+mkdir about
+cd about
+cd ..
+ls neu-resources
+vim neu-resources/index.html
+rm -rf neu-resources
+vim CNAME
+cat CNAME
+cat gemfile
+rm -rf gemfile
+ls
+ls templates
+ls templates/protokoll
+jekyll server
+cd Hirschiii.github.io
+jekyll sere
+jekyll serve
+cd Hirschiii.github.io/_layouts
+ls
+n -e
+cd Hirschiii.github.io
+cd notes/school/physik
+vim aufgaben.md
+n -e
+ls
+git add .
+git commit -m "add nativ toc"
+git push
+task add project:notes script to upload to uberspace
+doas light -U 10
+doas light -A 10
+doas systemctl restart NetworkManager
+doas systemctl restart wpa_supplicant.service
+ip a
+nmtui
+nm-applet
+doas shutdown -r now
+task
+task 16 start
+cd Hirschiii.github.io
+vim auto_push_uberspace.sh
+doas pacman -S rsync
+doas pacman -S qutebrowser
+cd note
+cd note_web_ba
+jekyll server
+ls
+vim notes/school/physik/aufgaben.md
+QT_QPA_PLATFORM=wayland qutebrowser
+cd .config/qutebrowser
+ls
+vim config.py
+qutebrowser
+vim .config/qutebrowser/config.py
+doas pacman -S qt5-wayland
+QT_QPA_PLATFORM=wayland qutebrowser
+vim .dotfiles/.zprofile
+export QT_QPA_PLATFORM=wayland
+cd .dotfiles
+stow .
+cd
+vim .config/qutebrowser
+cd .config/qutebrowser
+cd ..
+rm -rf jmatrix
+git clone https://gitlab.com/jgkamat/jmatrix.git
+cd jmatrix
+ls -la
+rm -rf .git .gitignore .gitlab-ci.yml 
+ls
+vim .zprofile
+export QT_WAYLAND_DISABLE_WINDOWDECORATION=1
+vim .config/sway
+pass add gulugulu@aegaeon.uberspace.de
+pass
+cd Hirschiii.github.io
+vim _includes/footer.html
+./a
+mv autopush_uberspace.sh build.sh
+./build.sh
+ls
+vim build.sh
+task 16 done
+task
+task 9 delete
+doas pacman -S tasksh
+tasksh
+yay -S tasksh
+doas shutdown -h now
+ssh gulugulu@aegaeon.uberspace.de
+chmod +x autopush_uberspace.sh
+./a
+ls _site
+rsync -arP --delete _site/ gulugulu@aegaeon.uberspace.de:/home/gulugulu/html/vonhirschfeld.eu/niklas/\
+
+ls
+vim _config.yml
+vim _includes/h
+vim _includes/head
+vim _includes/footer.html
+vim _includes/head.html
+vim autopush_uberspace.sh
+./autopush_uberspace.sh
+doas pacman -S jkd-openjdk
+doas pacman -S jdk-openjdk
+yay -Ss java-editor
+javac
+vim
+doas pacman -S jdk-openjdk
+doas pacman -Syyyu
+doas pacman -S virtualbox
+doas pacman -Ss virt
+doas pacman -S mvn
+yay -S mvn
+doas pacman -S maven
+n -e
+cd Hirschiii.github.io
+vim .zshrc
+javac test.java
+java 
+javac HelloWorld.java
+ls
+java HelloWorld
+doas pacman -S virtmanager
+doas pacman -S virt-manager qemu-desktop dnsmasq iptables-nft
+doas pacman -S virt-manager qemu-desktop dnsmasq
+doas systemctl start libvirt
+doas systemctl start libvirtd
+doas systemctl start qemu
+doas systemctl start polkit
+doas systemctl restart libvirtd
+vim
+cd .config/nvim/lua/plugins
+ls
+vim init.lua
+rm tabnine.lua
+n -e
+archlinux-java
+archlinux-java status
+archlinux-java get
+doas systemctl enable polkit
+rm Makefile
+\:ls
+java --version
+n -e
+ls
+javac HelloWorld.java
+java HelloWorld
+cd git
+mkdir school
+cd school
+mkdir informatik
+cd informatik
+mkdir erste_stunde
+cd erste_stunde
+vim test.jr
+java test.js
+java test.jr
+mv test.jr test.java
+javac test.java
+ls
+./HelloWorld.class
+java HelloWorld
+vim Makefile
+make
+vim HelloWorld.class
+vim test.java
+mv test.java HelloWorld.java
+vim HelloWorld.
+vim HelloWorld.java
+cd ..
+mv erste_stunde helloworld
+cd helloworld
+vim.
+vim .
+doas shutdown -h now
+ls
+javac test.jr
+cd
+cd .config/nvim/after/plugin
+doas pacman -S tabnine
+ls
+vim tabnine.lua
+n -e
+java -h
+ls
+cd .config/wall
+ls
+lsix
+swaybg -i wallpaper1.jpg
+swaybg -i wallpaper5.jpg
+swaybg -i wallpaper9.jpg
+echo $PATH
+ls .local/share/gem/ruby/3.0.0/bin
+export PATH="$PATH:~/.local/share/gem/ruby/3.0.0/bin"\
+
+vim .zprofile
+rm _site
+rm -rf _site
+n -e
+vim _config.yml
+jekyll serve
+jekyll build
+jekyll serve --livereload
+doas pacman -S boundle
+gem install bundler
+boundle install
+export PATH="$PATH:~/.local/share/gem/ruby/3.0.0/bin"\
+
+echo $PATH
+boundle
+ls ~/.local/share/gem/ruby/3.0.0/bin
+bundle
+doas bundle install
+boundle init
+rm Gemfile
+bundle init
+vim Gemfile
+bundle install
+doas pacman -S ruby
+doas pacman -S rubygems
+gem env
+vim test.md
+cd _includes
+l
+ls
+vim footer.html
+vim head.html
+cd note
+cd Hirschiii.github.io/wiki
+./build.sh
+cd notes/school/informatik
+vim ../index.html
+n -e
+gem install gitlab_kramdown
+ls -la
+vim test.html
+vim _includes
+vim _includes/mermaid.html
+vim test.md
+ls _includes
+vim index.html 
+vim _includes/home.html
+vim _layouts/default.html
+vim _includes/footer.html
+ls
+gem update --system
+bundle install rainbow
+gem install rainbow
+gem install jekyll-spaceship
+bundle install
+gem install bundler
+doas gem install bundler
+gem install i18n
+bundler update
+gem install sass-embedded
+bundler install]
+bundler install
+jekyll build
+vim _config.yml
+jekyll serve
+doas pacman -S noto-fonts-emoji 
+gem install rouge
+vim _config.yml
+vim Gemfile
+bundle
+bundle install
+vim css/syntax.css
+vim _includes/head.html
+n -e
+cd bio
+pwd
+vim notizen.md
+ls
+pwd
+htop
+n -e
+jekyll serve --live
+vim Gemfile
+vim _config.yml
+gem install kramdown-syntax-coderay
+jekyll serve
+jekyll serve --liverload
+jekyll serve --livereload
+doas shutdown -h now
+neomutt
+rsync -h
+rsync -h | grep password
+cal -3
+pass gulugulu@aegaeon.uberspace.de
+sshpass
+doas pacman -S sshpass
+./b
+n -e
+vim wiki/kalender.md
+ls
+vim ./build.sh
+./build.sh
+n -e
+setxkbmap de
+vim .config/sway/config
+neomutt
+vim .config/sway
+doas pacman -S abook
+doas -s
+sudo
+yay -S abook
+abook
+abook -h
+cp Downloads/9599-Seravek\ Basic.ttf Downloads/Kingthings_Foundation.ttf Hirschiii.github.io/fonts
+cp Downloads/timr45w.ttf Hirschiii.github.io/fonts/time.ttf
+cd Downloads
+unzip Roboto_Slab.zip
+cp static/RobotoSlab-Regular.ttf ../Hirschiii.github.io/fonts
+unzip Lato.zip
+cp Lato-Regular.ttf ../Hirschiii.github.io/fonts
+./build.sh
+ls
+cd wiki
+vim neovim.md
+n -e
+n -e
+n -e
+jekyll serve
+doas shutdown -h now
+cd Downloads
+git clone https://github.com/MartinX3-EducationOrganization/latex-template-job-application.git
+cd latex-template-job-application
+make
+make build
+doas pacman -S latexmk
+ls
+doas pacman -S late
+doas pacman -S latex
+doas pacman -S texlive
+cd Hirschiii.github.io
+cd
+cd Downloads
+unzip Libre\ CV.zip
+ls
+vim ma
+vim main.tex
+cd Hirschiii.github.io
+vim css/style
+vim css/stylec
+vim css/style.css
+cd Hirschiii.github.io
+s
+o
+vim _layouts
+cd ..
+ls
+ls _includes
+vim _includes/to
+rm _includes/toc.html
+cp ~/Downloads/toc.html ./_includes
+vim _includes/toc.html
+vim _layouts/wiki.html
+n -e
+cd Hirschiii.github.io/_site/wiki
+ls
+vim neovim/index.html
+cd Hirschiii.github.io/_site/wiki/neovim
+vim index.html
+vim css/style
+vim css/stylec
+vim css/style.css
+cd js
+ls
+vim custom.js
+n -e
+ls
+jekyll serve
+ls
+mkdir bo
+cd bo
+vim notizen.md
+cd .config/foot
+ls
+vim foot.ini
+pkill foot
+setsid foot --server
+htop
+ip a
+doas reboot
+cd erdkunde
+ls
+vim au
+vim aufgaben.md
+doas light -A 10
+n -e
+./build.sh
+doas light -A 10
+doas light
+cd work
+cd mf_web_blog
+cd ..
+rm -rf mf_web_blog
+ls
+mkdir blog_webdesign
+cd blog_webdesign
+cd
+cd .config/nvim/lua/plugins
+vim init.lua
+cd Hirschiii.github.io
+light
+mkdir css
+cd css
+vim style.css
+cd erdkunde
+vim aufgaben.md
+cd blog_webdesign/
+ls
+mkdir ideal
+mv ideal idea
+cd idea
+vim index.html
+jekyll serve
+vim css/style
+vim css/style.css
+./build.sh
+vim _layouts/wiki.html
+doas reboot
+live-server
+python3 -m http.server
+light -U 10
+doas shutdown -h now
+cd english
+ls
+vim aufgabe.md
+live-server
+cd blog_webdesign/idea
+l
+vim css
+ls
+mkdir js
+vim js/script.js
+vim .
+doas shutdown -h now
+doas pacman -Syyyu
+doas pacman -S pipewire wireplumber
+doas pacman -S pipwire-audio
+doas pacman -S pipweire-audio
+doas pacman -S pipewire-audio
+doas pacman -S pavucontrol
+doas systemctl start pulseaudio
+doas pacman -S pipewire-pulse
+doas systemctl start pipewire-pulse
+doas reboot
+doas systemctl start pipewire-pulse
+doas pacman -S pipewire-audio
+wireplumber
+pactl
+pactl info
+doas pacman -S spicetify
+curl -fsSL https://raw.githubusercontent.com/spicetify/spicetify-cli/master/install.sh | sh
+spicetify
+curl -fsSL https://raw.githubusercontent.com/spicetify/spicetify-marketplace/main/resources/install.sh | sh
+doas pacman -S spotify
+yay -S spotify
+spottopgm
+spotify
+doas pacman -R spotify
+doas pacman -R pipewire*
+doas pacman -R pipewire-audio pipewire-pulse
+doas pacman -R pipewire
+doas pacman -R wireplumber pipewire
+doas pacman -S pulseaudio
+doas systemctl start pulseaudio
+doas pacman -S spot
+yay -S spot
+yay -S spotify-tui
+spt
+pactl
+pactl info
+doas reboot
+pactl
+pactl info
+spt
+doas pacman -S pipewire pipewire-audio pipewire-pulse
+doas pacman -S wireplumber
+pactl info
+doas reboot
+pactl info
+sp
+spt
+neomutt
+nm
+neomutt
+mailsync
+cd git
+mkdir neuralnetwork_fs
+cd neuralnetwork_fs
+ls
+pwd
+cd Downloads
+vim mnist-fs.ipynb
+cd Downloads
+unzip train.csv.zip
+cp train.csv ../git/neuralnetwork_fs
+cd 
+cd git/neuralnetwork_fs
+ls
+vim main.py
+doas pacman -S pandas
+pip3 install pandas
+python main.py
+doas pacman -S spotifyd
+spt
+htop
+spotifyd -h
+spotifyd
+spt
+doas systemctl --user start spotifyd.service
+doas systemctl start spotifyd.service
+doas systemctl --user start spotifyd.service
+systemctl --user start spotifyd.service
+spt
+systemctl --user start spotifyd.service
+systemctl --user restart spotifyd.service
+spt
+ls
+systemctl --user stop spotifyd.service
+doas pacman -S visidata
+visidat
+visidata
+cd git/neuralnetwork_fs
+visidata data.npz
+ls
+n -e
+visidata fragen_antwort.csv
+cd neuralnetwork_fs
+vim data.npy.npz
+rm data.npy.npz
+ls
+python main.py > history.txt
+vim data.npz
+python main.py >> history.txt
+mv data.npz data.npz.bak
+vim main.py
+python main.py
+doas shutdown -h now
+rm data.npz
+rm history.txt
+cat history.txt
+vim history.txt
+cd git
+ls school
+mv school school_projekts
+cd school_projekts
+ls
+ls -la
+cd informatik
+doas pacman -S flameshot
+flameshot 
+pkill flameshot
+doas pacman -S grim
+grim
+ls
+img2sixel 20230515_09h06m53s_grim.png
+rm 20230515_09h06m53s_grim.png
+doas pacman -S slurp
+cd .config/sway
+vim config
+cd /tmp
+ls
+img2sixel 1684134534_grim.png
+cd /tmp
+ls
+img2sixel 16841345*
+cd .config/sway
+ls
+vim config
+export QT_QPA_PLATFORM=wayland\
+
+vim .zprofile
+export QT_QPA_PLATFORM=wayland gimp
+vim .zprofile
+export QT_QPA_PLATFORM=wayland\
+
+export QT_WAYLAND_DISABLE_WINDOWDECORATION=1\
+
+htop
+live-server
+ls idea
+mkdir wikiwan
+mv wikiwan wikiwand
+cd wikiwand
+ls
+touch index.html
+mkdir css/
+mkdir js
+touch css/style.css
+touch js/script.js
+vim index.html
+htop
+cd .local/scripts
+vim power.sh
+cd .local/scripts
+curl https://raw.githubusercontent.com/AmirDahan/asahi-misc/main/power.sh
+wget https://raw.githubusercontent.com/AmirDahan/asahi-misc/main/power.sh
+ls
+chmod +x power.sh
+./power.sh
+./power.sh install
+doas -s
+bash
+mvn
+doas pacman -Syyyu
+pacman -Syyyu
+yay -Syyyu
+yay -S java-language-server
+doas pacman -S openjdk
+doas pacman -S archlinux-java
+yay -S archlinux-java
+archlinux-java
+archlinux-java status
+archlinux-java get
+archlinux-java fix
+doas archlinux-java fix
+doas pacman -S jre-openjdk
+doas pacman -S jdk17-openjdk
+doas pacman -S jdk-openjdk
+doas pacman -S java-lagnuage-server
+vim .config/shell/bm-dirs
+n
+cd .config
+ls
+n -e
+ls
+ld
+ls
+cd informatik
+vim notizen.md
+mvn
+ls
+java re
+javac rechnung.java
+java rechnung
+cd informatik
+ls
+mkdir rechnung
+cd rechnung
+vim rechnung.java
+doas shutdown -h now
+cd .local/scripts
+ls
+doas -s
+cd deutsch
+ls
+vim aufgaben.md
+cd /usr/lib/asahi-boot/
+ls
+cat m1n1.bin
+cd .local/scripts
+ls
+doas -s
+cd Downloads
+ls -la
+ls *.png
+ls *.jpeg
+img2sixel signal-2023-05-05-124424.jpeg
+img2sixel Downloads/Plakat_V1.jpg
+firefox ./Downloads/Plakat_V1.jpg
+cd Downloads/
+firefox Plakat_V1.jpg
+nmtui
+nm-applet
+nm-tui
+nmuti
+nmtui
+cd mathe
+ls
+vim aufgaben.md
+cd Hirschiii.github.io
+ls
+vim build.sh
+./build.sh
+doas shutdown -h now
+cd .local/scripts
+ls
+doas -s 
+nm-applet
+reboot
+cp Downloads/stefano-d-andrea-UXIsw4vK1gM-unsplash\(2\).jpg work/blog_webdesign/wikiwand/
+cd am
+cd mathe
+ls
+vim aufgaben.md
+cd
+Dow
+cd Downloads
+wget 
+wget https://wikiwandv2-19431.kxcdn.com/_next/static/css/fc1ba4f62a818387.css
+ls
+vim fc1ba4f62a818387.css
+doas shutdown -h now
+live-server
+cd wikiwand
+ls
+vim index.html
+mkdir assets
+mv stefano-d-andrea-UXIsw4vK1gM-unsplash\(2\).jpg assets/forest.jpg
+cd .local/scripts
+doas -s
+light -U 10
+task 1 done
+task
+doas pacman -S update
+doas pacman -Syyyu
+vim .config/sway
+vim .config/nvim/after/plugin/color.lua
+ls
+n -e
+live-server
+cd physik
+ls
+vim aufgaben.md
+vim notizen.md
+cd wikiwand
+ls
+vim js/script.js
+vim index.html
+doas shutdown -h now
+cd .local/scripts
+ls
+doas -s 
+ls
+pwd
+htop
+ls
+nmtui
+light -A 10
+cd git
+git clone git@github.com:Hirschiii/second-brain-public.git
+cd second-brain-public
+cd content
+cat Makefile
+vim Makefile
+hugo
+doas pacman -S hugo
+pip install pandoc
+doas pacman -S pandoc
+doas pacman -S pandoc-cli
+rm -rf second-brain-public
+git clone git@github.com:Hirschiii/second_brain.git
+cd second_brain
+ls con
+ls content
+ls no
+cd content/
+ls notes
+ls templates
+cd ..
+go install github.com/jackyzha0/hugo-obsidian@latest
+cd
+ls
+ls go
+ls go/bin
+export PATH="$PATH:~/go/bin/"
+cd git/second_brain
+make
+echo $PATH
+ls ~/go/bin
+echo $PATH
+cd git/second_brain
+vim Makefile
+ls private
+rm -rf notes/*
+cp -rf ~/Hirschiii.github.io/notes/school/* ./notes
+ls notes
+cd ..
+make
+ls no
+cd content
+ls
+vim _index.md
+ls templates
+vim .config/nvim/after/plugin/luasnip.lua
+cd .config/wall
+lsix
+swaybg -i wallpaper5.jpg
+img2sixel Downloads/Plakat_V1.jpg
+feh Downloads/Plakat_V1.jpg
+firefox Downloads/Plakat_V1.jpg
+task add test
+task 14 delete
+task add create second brain md
+cd git/second_brain
+ls static
+ls resources
+ls layouts
+ls assets
+ls data
+cd static
+img2sixel icon.png
+vim private
+vim templates
+vim notes/deutsch/
+cp */* ./
+cd ..
+vim klausur-bio.md
+cd content
+cd notes
+rm ./
+rm ./*
+rm -rf ./*
+vim test.md
+cd ../..
+rm test.md
+touch school.md
+touch geschichte_notizen.md
+touch geschichte_aufgaben.md
+cd content/notes
+ls
+vim geschichte_aufgaben.md
+vim school.md
+n -e
+make
+cd geschichte
+ls
+vim not
+vim notizen.md
+doas shutdown -h now
+cat install.log
+rm install.log
+ls
+cabal
+doas pacman -Syyyu
+cd Downloads
+tar -xvf pandoc-3.1.2-linux-arm64.tar.gz
+doas cp pandoc-3.1.2/bin/* /usr/bin
+pandoc
+cd git/second_brain
+cd content
+ls
+vim _index.md
+cd git/second_brain/
+vim Makefile
+make helo
+make help
+make
+cd git/second-brain-public/content
+n -e
+vim geschichte
+ls
+vim geschichte_
+vim geschichte_aufgaben.md
+vim geschichte_notizen.md
+vim geschichte.md
+cd git
+cd second_brain
+ls con
+cp -rf ../second_brain/content/* ./content
+vim notes
+touch geschichte.md wiki.md wiki_neovim.md wiki_kalendar.md 
+vim school.md
+la
+vim vim utils/find-publish-notes.py
+vim utils/find-publish-notes.py
+rm -rf second-brain-public
+cd second_brain/
+cd notes
+touch geschichte.md
+vim geschichte
+vim geschichte.md
+mkae
+cd second-brain-public
+mkdir public
+doas pacman -S pandoc
+doas pacman -S pandoc-cli
+yay -S pandoc
+touch public
+touch publix
+rm publix
+yay -s pandoc-cli
+pandoc
+vim _index.md
+cp ../../second_brain/content/notes ./
+cp -rf ../../second_brain/content/notes ./
+cp ../../second_brain/content/notes/* ./notes
+ls content/notes
+make update
+vim Makefile
+rm Makefile
+cp ../second_brain/Makefile ./
+cd content
+rm notes
+rm -rf notes
+cp -rf ../../second_brain/content/* ./
+n -e
+make
+cp -rf content ../
+cd ..
+ls
+ls content
+rm -rf second*
+git clone git@github.com:Hirschiii/second-brain-public.git
+doas pacman -S obsidian
+doas pacman -Ss obsidian
+yay -Ss obsidian
+yay -S obsidian
+vim .zprofile
+echo $Path
+echo $PATH
+ls ~/go/bin
+cd ~/go/bin
+chmod +x hugo-obsidian
+ls
+hugo-obsidian
+export secondbrain=/tmp/second-brain-tmp
+export public_secondbrain=~/git/content
+export secondbrain=/tmp/second-brain-tmp
+export public_secondbrain=~/git/content
+cd git/second-brain-public
+ls
+pip install frontmatter
+mkdir publix
+mkdir public
+export public_secondbrain=~/git/content 
+export secondbrain=/tmp/second-brain-tmp]
+echo $secondbrain
+python utils/find-publish-notes.py
+export secondbrain=/tmp/second-brain-tmp
+make
+vim utils/find-publish-notes.py
+vim Makefile
+doas reboot
+vim git/content
+pip uninstall frontmatter==3.0.5
+pip install python-frontmatter
+cd git/content
+vim notes/school.md
+cat
+cd notes
+ls
+cat geschichte_notizen.md
+vim geschichte_notizen.md
+cd git/content
+vim notes
+vim -d notes/geschichte_aufgaben.md notes/school.md
+cd notes
+vim -d geschichte_aufgaben.md school.md
+vim school.md
+ls
+vim geschichte
+vim geschichte.md
+vim git/content/notes/geschichte
+vim git/content/notes/geschichte.md
+vim git/content
+obsidian
+yay -S obsidian
+cd Downloads
+chmod +x Obsidian-1.2.8.AppImage
+./Obsidian-1.
+./Obsidian-1.2.8.AppImage
+chmod +x Obsidian-1.2.8-arm64.AppImage
+./Obsidian-1.2.8-arm64.AppImage
+electron
+cd git/second-brain-public
+export secondbrain=~/git/content
+export public_secondbrain=~/git/second-brain-public/public
+ls ../content
+export public_secondbrain=~/git/second-brain-public/content
+n -e
+vim /tmp/tmpssrqd1jn/input.js
+ls /tmp/tmpplr5pxxx/input.js
+vim /tmp/tmpplr5pxxx/input.js
+vim ma
+vim Makefile
+python utils/find-publish-notes.py
+cp Makefile ../
+cd ..
+rm -rf second-brain-public
+git clone git@github.com:Hirschiii/second-brain-public.git
+cd second-brain-public
+ls
+rm Makefile
+cp ../Makefile ./
+vim utils/find-publish-notes.py
+mkdir public
+ls content
+make
+cd git/content
+cd notes
+ls
+vim geschichte
+vim geschichte*
+vim git/content
+cd git/second-brain-public/content
+ls
+vim _index.md
+vim geschichte
+vim geschichte.md
+n -e
+cp -rf Hirschiii.github.io/notes/* git/content
+cd git/content
+ls
+ls school
+ls school/b
+ls school/bio
+cd
+n -e
+ls
+cd git/second-brain-public/utils
+vim py
+vim find-publish-notes.py
+n -e
+ls content
+vim utils/find-publish-notes.py
+make
+htop
+cd Hirschiii.github.io/wiki
+ls
+cp kalender.md ../../git/content/wiki/wiki-kalendar.md
+cp neovim.md ../../git/content/wiki/wiki-neovim.md
+vim .xprofile
+histk
+history
+vim .xprofile
+ls git/content
+ls git/second-brain-public/content
+vim .xprofile
+vim .config/nvim/after/plugin/luasnip.lua
+task add project:secondBrain python script tag Publsih
+vim git/content
+cd git
+cd content
+ls
+vim _index.md
+cd git
+ls

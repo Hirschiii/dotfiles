@@ -32,7 +32,7 @@ export NNN_OPTS="E"
 # Enable colors and change prompt:
 autoload -U colors && colors
 
-PS1="%B%{$fg[red]%}[%{$fg[yellow]%}%n%{$fg[green]%}@%{$fg[blue]%}%M %{$fg[magenta]%}%2d%{$fg[red]%}]%{$reset_color%}$%b "
+PS1="%B%{$fg[red]%}[%{$fg[yellow]%}%n%{$fg[green]%}@%{$fg[blue]%}%M %{$fg[magenta]%}%1d%{$fg[red]%}]%{$reset_color%}$%b "
 # PS1='%~ $: '
 # PS1="%B%{%F{1}%}[%{$fg[yellow]%}%n%{$fg[green]%}@%{$fg[blue]%}%M %{$fg[magenta]%}%~%{$fg[red]%}]%{$reset_color%}$%b "
 # PS1="%{$fg[red]%}%n%{$reset_color%}@%{$fg[blue]%}%m %{$fg[yellow]%}%(5~|%-1~/.../%3~|%4~) %{$reset_color%}%% "
@@ -158,6 +158,13 @@ alias grep='grep --color=auto'
 alias egrep='egrep --color=auto'
 alias fgrep='fgrep --color=auto'
 
+# auto-start sway on tty1
+if [ "$(tty)" = "/dev/tty1" ]; then
+    export PATH=$PATH:~/bin
+    export `gnome-keyring-daemon --start --components=ssh`
+    exec sway > $XDG_RUNTIME_DIR/sway.log 2>&1
+fi
+
 # If not running interactively, do not do anything
 # [[ $- != *i* ]] && return
 # Otherwise start tmux
@@ -172,3 +179,6 @@ alias fgrep='fgrep --color=auto'
 # Load zsh-syntax-highlighting; should be last.
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh 2>/dev/null
 # eval "$(starship init zsh)"
+# fastfetch | blahaj -c gay
+fortune && pokemon-colorscripts -r
+export PATH=$PATH:/home/niklas/.spicetify

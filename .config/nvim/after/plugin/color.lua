@@ -41,3 +41,5 @@ function ColorMyPencils(color)
 end
 
 ColorMyPencils()
+-- Css Color
+require'colorizer'.setup()

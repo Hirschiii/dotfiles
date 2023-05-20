@@ -14,6 +14,7 @@ local cmp_mappings = lsp.defaults.cmp_mappings({
     ['<C-p>'] = cmp.mapping.select_prev_item(cmp_select),
     ['<C-n>'] = cmp.mapping.select_next_item(cmp_select),
     ['<C-y>'] = cmp.mapping.confirm({ select = true }),
+    ["<Return>"] = cmp.mapping.confirm(),
     ["<C-Space>"] = cmp.mapping.complete(),
 })
 
@@ -44,28 +45,44 @@ lsp.on_attach(function(client, bufnr)
     vim.keymap.set("i", "<C-h>", function() vim.lsp.buf.signature_help() end, opts)
 end)
 
-lsp.configure('ltex', {
-    settings = {
-        completions = {
-            ltex = {
-                disabledRules = {
-                    ["en"]    = { "MORFOLOGIK_RULE_EN" },
-                    ["en-AU"] = { "MORFOLOGIK_RULE_EN_AU" },
-                    ["en-CA"] = { "MORFOLOGIK_RULE_EN_CA" },
-                    ["en-GB"] = { "MORFOLOGIK_RULE_EN_GB" },
-                    ["en-NZ"] = { "MORFOLOGIK_RULE_EN_NZ" },
-                    ["en-US"] = { "MORFOLOGIK_RULE_EN_US" },
-                    ["en-ZA"] = { "MORFOLOGIK_RULE_EN_ZA" },
-                    ["es"]    = { "MORFOLOGIK_RULE_ES" },
-                    ["it"]    = { "MORFOLOGIK_RULE_IT_IT" },
-                    -- ["de"]    = { "MORFOLOGIK_RULE_DE_DE" },
-                },
-            },
-        }
-    }
-})
+require('lspconfig').clangd.setup({})
+
+-- lsp.configure('ltex', {
+--     settings = {
+--         completions = {
+--             ltex = {
+--                 language="de",
+--                 disabledRules = {
+--                     ["en"]    = { "MORFOLOGIK_RULE_EN" },
+--                     ["en-AU"] = { "MORFOLOGIK_RULE_EN_AU" },
+--                     ["en-CA"] = { "MORFOLOGIK_RULE_EN_CA" },
+--                     ["en-GB"] = { "MORFOLOGIK_RULE_EN_GB" },
+--                     ["en-NZ"] = { "MORFOLOGIK_RULE_EN_NZ" },
+--                     ["en-US"] = { "MORFOLOGIK_RULE_EN_US" },
+--                     ["en-ZA"] = { "MORFOLOGIK_RULE_EN_ZA" },
+--                     ["es"]    = { "MORFOLOGIK_RULE_ES" },
+--                     ["it"]    = { "MORFOLOGIK_RULE_IT_IT" },
+--                     ["de"]    = { "MORFOLOGIK_RULE_DE_DE" },
+--                 },
+--             },
+--         }
+--     }
+-- })
+--
 
 -- require("lspconfig").clangd.setup(config({
 --     cmd = { '/usr/bin/clangd', '/main.cpp' }}))
+--
+-- require("luasnip.loaders.from_vscode").load()
+--
+require'lspconfig'.jdtls.setup{
+    single_file_support = true,
+    flags = {
+        debounce_text_changes = 150,
+    },
+    on_attach = function(client, bufnr)
+        print('lsp server (jdtls) attached')
+    end
+}
 
 lsp.setup()

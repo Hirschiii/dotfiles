@@ -33,7 +33,7 @@ require("telescope").setup({
     ]]
 })
 
-require("telescope").load_extension("git_worktree")
+-- require("telescope").load_extension("git_worktree")
 -- require("telescope").load_extension("fzy_native")
 
 local M = {}
@@ -56,79 +56,15 @@ M.search_dotfiles = function()
 	})
 end
 
-local function set_background(content)
-    print(content)
-	vim.fn.system("feh --bg-max " .. content)
-end
-
-local function select_background(prompt_bufnr, map)
-	local function set_the_background(close)
-		local content = require("telescope.actions.state").get_selected_entry(prompt_bufnr)
-		set_background(content.cwd .. "/" .. content.value)
-		if close then
-			require("telescope.actions").close(prompt_bufnr)
-		end
-	end
-
-	map("i", "<C-p>", function()
-		set_the_background()
-	end)
-
-	map("i", "<CR>", function()
-		set_the_background(true)
-	end)
-end
-
-local function image_selector(prompt, cwd)
-	return function()
-		require("telescope.builtin").find_files({
-			prompt_title = prompt,
-			cwd = cwd,
-
-			attach_mappings = function(prompt_bufnr, map)
-                print("help me ???")
-				select_background(prompt_bufnr, map)
-
-				-- Please continue mapping (attaching additional key maps):
-				-- Ctrl+n/p to move up and down the list.
-				return true
-			end,
-		})
-	end
-end
-
-M.anime_selector = image_selector("< Anime Bobs > ", "~/personal/anime")
-
-local function refactor(prompt_bufnr)
-	local content = require("telescope.actions.state").get_selected_entry(prompt_bufnr)
-	require("telescope.actions").close(prompt_bufnr)
-	require("refactoring").refactor(content.value)
-end
-
-M.refactors = function()
-	require("telescope.pickers").new({}, {
-		prompt_title = "refactors",
-		finder = require("telescope.finders").new_table({
-			results = require("refactoring").get_refactors(),
-		}),
-		sorter = require("telescope.config").values.generic_sorter({}),
-		attach_mappings = function(_, map)
-			map("i", "<CR>", refactor)
-			map("n", "<CR>", refactor)
-			return true
-		end,
-	}):find()
-end
-
-M.git_branches = function()
-	require("telescope.builtin").git_branches({
-		attach_mappings = function(_, map)
-			map("i", "<c-d>", actions.git_delete_branch)
-			map("n", "<c-d>", actions.git_delete_branch)
-			return true
-		end,
-	})
-end
+-- M.git_branches = function()
+-- 	require("telescope.builtin").git_branches({
+-- 		attach_mappings = function(_, map)
+-- 			map("i", "<c-d>", actions.git_delete_branch)
+-- 			map("n", "<c-d>", actions.git_delete_branch)
+-- 			return true
+-- 		end,
+-- 	})
+-- end
 
 M.dev = function(opts)
 	opts = opts or {}

@@ -10,6 +10,8 @@ local dynamicn = ls.dynamic_node
 
 local date = function() return { os.date('%Y-%m-%d') } end
 
+require("luasnip.loaders.from_vscode").lazy_load()
+
 ls.add_snippets(nil, {
     all = {
         snip({
@@ -30,15 +32,11 @@ ls.add_snippets(nil, {
         },
             {
                 text({ "---",
-                    "title: " }), insert(1, "note_title"), text({ "",
-                "layout: " }), insert(2, "layout"), text({ "",
-                "type: " }), insert(3, "layout"), text({ "",
+                    "title: '" }), insert(1, "note_title"), text({ "'",
                 "author: Niklas von Hirschfeld" }), text({ "",
-                "date: " }), func(date, {}), text({ "",
-                "categories: [" }), insert(4, ""), text({ "]",
-                "lastmod: " }), func(date, {}), text({ "",
-                "tags: [" }), insert(5), text({ "]",
+                "tags: [" }), insert(2), text({ "]",
                 "comments: true",
+                "toc: True",
                 "---", "" }),
                 insert(0)
             }),
