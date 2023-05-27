@@ -54,7 +54,7 @@ inoremap("jf", "<Esc>", { noremap = true })
 vim.keymap.set("n", "Q", "<nop>")
 vim.keymap.set("n", "<C-f>", "<cmd>silent !tmux neww tmux-sessionizer<CR>")
 vim.keymap.set("n", "<leader>f", function()
-    vim.lsp.buf.format()
+    vim.lsp.buf.format { timeout_ms = 2000 }
 end)
 
 -- vim.keymap.set("n", "<C-k>", "<cmd>cnext<CR>zz")
@@ -78,19 +78,25 @@ vim.keymap.set("v", "ga", "<Plug>(EasyAlign)")
 --     print(t)
 -- end)
 
-vim.cmd[[
-nnoremap <C-f> :exec '.!~/scripts/ink.py %:r "'.getline(".").'"'
-]]
+-- vim.cmd [[
+-- nnoremap <C-f> :exec '.!~/scripts/ink.py %:r "'.getline(".").'"'
+-- ]]
 
 inoremap("<c-j>", "<cmd>lua require'luasnip'.jump(1)<CR>")
 inoremap("<c-k>", "<cmd>lua require'luasnip'.jump(-1)<CR>")
 
-nnoremap("<leader>pb", function()
-    require('telescope.builtin').buffers()
+vim.keymap.set("n", "<leader>zz", function()
+    vim.cmd[[:Goyo]]
+    vim.wo.wrap = false
+    ColorMyPencils()
 end)
-nnoremap("<Leader>pf", function()
-    require('telescope.builtin').find_files()
-end)
-nnoremap("<leader>pw", function()
-    require('telescope.builtin').grep_string { search = vim.fn.expand("<cword>") }
-end)
+
+-- nnoremap("<leader>pb", function()
+--     require('telescope.builtin').buffers()
+-- end)
+-- nnoremap("<Leader>pf", function()
+--     require('telescope.builtin').find_files()
+-- end)
+-- nnoremap("<leader>pw", function()
+--     require('telescope.builtin').grep_string { search = vim.fn.expand("<cword>") }
+-- end)

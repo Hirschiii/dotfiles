@@ -29,7 +29,7 @@ set $menu fuzzel
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
 # output "*" bg /home/niklas/.config/wall/base_size.png fill
 # output "*" bg /home/niklas/.config/wall/fsociety.png fill
-output "*" bg /home/niklas/.config/wall/wallpaper8.jpg fill
+output "*" bg /home/niklas/.config/wall/pride_gruvebox.jpg fill
 #
 # Example configuration:
 #
@@ -41,6 +41,7 @@ input type:keyboard {
   # Modified programmer Dvorak. File at ~/.xkb/symbols/dvp_alt_gr_remapped_to_super
   # xkb_layout "dvp_alt_gr_remapped_to_super"
   # xkb_layout de
+  xkb_layout us,de
 
   # Capslock key should work as escape key
   # See /usr/share/X11/xkb/rules/xorg.lst for options
@@ -96,6 +97,9 @@ gaps outer 5
     bindsym $mod+Return exec $term
     bindsym $mod+Shift+Return exec $term -e tmux new-session -A -s default
     bindsym $mod+w exec firefox
+
+# Switch keyboard Layout
+    bindsym $mod+Shift+d input "1452:852:Apple_MTP_keyboard" xkb_switch_layout next
 
     bindsym $mod+Shift+p exec grim -g "$(slurp -p)" -t ppm - | convert - -format '%[pixel:p{0,0}]' txt:- | tail -n 1 | cut -d ' ' -f 4 | wl-copy 
     bindsym $mod+p exec grim /tmp/$(date +"%s_grim.png")

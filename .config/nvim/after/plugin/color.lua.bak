@@ -1,17 +1,21 @@
 function ColorMyPencils(color)
-	-- color = color or "tokynight"
-	color = color or "rose-pine"
+    -- color = color or "tokynight"
+    -- color = color or "rose-pine"
+    color = color or "kanagawa"
     -- color = color or "catppuccin-macchiato"
-	-- color = color or "murphy"
-	-- color = color or "habamax"
-	vim.cmd.colorscheme(color)
+    -- color = color or "murphy"
+    -- color = color or "habamax"
+    vim.cmd.colorscheme(color)
 
-	-- vim.api.nvim_set_hl(0, "Normal", { bg = "none" })
-	-- vim.api.nvim_set_hl(0, "NormalFloat", { bg = "none" })
+    vim.g.limelight_conceal_ctermfg = 240
+
+    -- vim.api.nvim_set_hl(0, "Normal", { bg = "none" })
+    -- vim.api.nvim_set_hl(0, "NormalFloat", { bg = "none" })
 
     local hl = function(thing, opts)
         vim.api.nvim_set_hl(0, thing, opts)
     end
+
 
     hl("SignColumn", {
         bg = "none",
@@ -37,9 +41,6 @@ function ColorMyPencils(color)
     hl("netrwDir", {
         fg = "#5eacd3"
     })
-
 end
 
 ColorMyPencils()
--- Css Color
-require'colorizer'.setup()

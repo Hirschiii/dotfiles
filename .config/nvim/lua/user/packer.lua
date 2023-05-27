@@ -13,4 +13,29 @@ vim.opt.rtp:prepend(lazypath)
 
 vim.g.mapleader = " "
 
-require("lazy").setup('plugins')
+require("lazy").setup('plugins',{
+ defaults = { lazy = true },
+ checker = { enabled = true },
+ performance = {
+  rtp = {
+   disabled_plugins = {
+    "gzip",
+    "matchit",
+    "matchparen",
+    -- "netrwPlugin",
+    "tarPlugin",
+    "tohtml",
+    "tutor",
+    "zipPlugin",
+   },
+  },
+ },
+ -- debug = true,
+})
+
+vim.api.nvim_create_autocmd("User", {
+ pattern = "VeryLazy",
+ callback = function()
+    require("user.remap")
+ end,
+})

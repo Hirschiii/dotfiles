@@ -1,90 +1,77 @@
 return {
-    "kyazdani42/nvim-web-devicons",
-    "nvim-tree/nvim-tree.lua",
-    "lewis6991/impatient.nvim", -- improve startup time
+    { "kyazdani42/nvim-web-devicons", lazy = false },
+    -- 'lewis6991/impatient.nvim',
+    -- { "nvim-tree/nvim-tree.lua" },
+    {
+        "dstein64/vim-startuptime",
+        cmd = "StartupTime",
+        config = function()
+            vim.g.startuptime_tries = 10
+        end,
+    },
 
 
     -- Writing / Zenmode
-    'junegunn/goyo.vim',
-    'junegunn/limelight.vim',
+    { 'junegunn/goyo.vim',            cmd = "Goyo" },
+    { 'junegunn/limelight.vim',       cmd = "Limelight" },
 
     -- TJ created lodash of neovim
     "nvim-lua/plenary.nvim",
-    "nvim-lua/popup.nvim",
-    "nvim-telescope/telescope.nvim",
-
-    'vigoux/LanguageTool.nvim',
-    {
-        'VonHeikemen/lsp-zero.nvim',
-        dependencies = {
-            -- LSP Support
-            { 'neovim/nvim-lspconfig' },
-            { 'williamboman/mason.nvim' },
-            { 'williamboman/mason-lspconfig.nvim' },
-
-            -- Autocompletion
-            { 'hrsh7th/nvim-cmp' },
-            { 'hrsh7th/cmp-buffer' },
-            { 'hrsh7th/cmp-path' },
-            { 'saadparwaiz1/cmp_luasnip' },
-            { 'hrsh7th/cmp-nvim-lsp' },
-            { 'hrsh7th/cmp-nvim-lua' },
-
-            -- Snippets
-            { 'L3MON4D3/LuaSnip' },
-            { 'rafamadriz/friendly-snippets' },
-            "saadparwaiz1/cmp_luasnip",
-        }
-    },
-
-    { 'kevinhwang91/nvim-ufo', dependencies = 'kevinhwang91/promise-async' },
-
-
-    "hrsh7th/cmp-nvim-lsp",
-    "hrsh7th/cmp-buffer",
-    "hrsh7th/cmp-path",
-    "hrsh7th/nvim-cmp",
+    { "nvim-lua/popup.nvim",           lazy = false },
+    -- {"nvim-telescope/telescope.nvim"},
 
     -- html
 
-    'norcalli/nvim-colorizer.lua',
-    'turbio/bracey.vim',
-    'mattn/emmet-vim',
+    { 'norcalli/nvim-colorizer.lua',   ft = { "css", "html" },             event = { "BufNewFile", "BufRead" } },
+    { 'turbio/bracey.vim' },
+    { 'mattn/emmet-vim' },
 
-    "simrat39/symbols-outline.nvim",
-    {
-        "L3MON4D3/LuaSnip",
-        dependencies = {
-            "rafamadriz/friendly-snippets" -- a bunch of snippets to use
-        },
-        -- install jsregexp (optional!).
-        build = "make install_jsregexp"
-    },
-    "saadparwaiz1/cmp_luasnip",
+    { "simrat39/symbols-outline.nvim", event = { "BufNewFile", "BufRead" } },
     {
         "kylechui/nvim-surround",
         config = function()
             require("nvim-surround").setup({
                 -- Configuration here, or leave empty to use defaults
             })
-        end
+        end,
+        event = "InsertEnter",
     },
-    { "lukas-reineke/indent-blankline.nvim" },
+    { "lukas-reineke/indent-blankline.nvim", event = { "BufNewFile", "BufRead" } },
     {
         "windwp/nvim-autopairs",
-        config = function() require("nvim-autopairs").setup {} end
+        config = function() require("nvim-autopairs").setup {} end,
+        event = "InsertEnter",
     },
 
-    -- The Primeagen
-
-    "ThePrimeagen/harpoon",
-    "mbbill/undotree",
-    { "iamcco/markdown-preview.nvim", build = "cd app && npm install",
+    {
+        "mbbill/undotree",
+        event = "BufEnter",
+        config = function()
+            vim.keymap.set("n", "<leader>u", vim.cmd.UndotreeToggle)
+        end
     },
-    'junegunn/vim-easy-align',
-    'ixru/nvim-markdown',
+    {
+        "iamcco/markdown-preview.nvim",
+        build = "cd app && npm install",
+        ft = "markdown",
+    },
+    -- { 'junegunn/vim-easy-align' },
+    {
+        'ixru/nvim-markdown',
+        ft = "markdown",
+        -- lazy = false,
+        dependencies = {
+            'nvim-treesitter/nvim-treesitter',
+        },
+        config = function()
+            vim.g.vim_markdown_frontmatter = 1
+            vim.g.vim_markdown_math = 1
+        end
+    },
     {
         'lervag/vimtex',
+        ft = {"markdown"},
+        -- lazy = false,
         config = function()
             vim.g.tex_flavor = 'latex'
             vim.g.vimtex_view_method = 'zathura'
@@ -95,14 +82,13 @@ return {
     },
     -- Color Theme:
 
-    "folke/tokyonight.nvim",
-    { "catppuccin/nvim",                    as = "catppuccin" },
-    {
-        'rose-pine/neovim',
-    },
+    -- {
+    --     'rose-pine/neovim',
+    -- },
 
     {
         "numToStr/Comment.nvim",
+        event = { "BufNewFile", "BufRead" },
         config = function()
             require("Comment").setup()
         end,
@@ -110,18 +96,48 @@ return {
 
     {
         'nvim-treesitter/nvim-treesitter',
+        event = { "BufNewFile", "BufRead" },
         build = ":TSUpdate",
-    },
-    "romgrk/nvim-treesitter-context",
-    {
-        "folke/zen-mode.nvim",
         config = function()
-            require("zen-mode").setup {
-                -- your configuration comes here
-                -- or leave it empty to use the default settings
-                -- refer to the configuration section below
+            require 'nvim-treesitter.configs'.setup {
+                -- A list of parser names, or "all"
+                ensure_installed = { "help", "javascript", "typescript", "c", "lua", "rust" },
+
+                -- Install parsers synchronously (only applied to `ensure_installed`)
+                sync_install = false,
+
+                -- Automatically install missing parsers when entering buffer
+                -- Recommendation: set to false if you don't have `tree-sitter` CLI installed locally
+                auto_install = true,
+
+                highlight = {
+                    -- `false` will disable the whole extension
+                    enable = true,
+
+                    -- Setting this to true will run `:h syntax` and tree-sitter at the same time.
+                    -- Set this to `true` if you depend on 'syntax' being enabled (like for indentation).
+                    -- Using this option may slow down your editor, and you may see some duplicate highlights.
+                    -- Instead of true it can also be a list of languages
+                    additional_vim_regex_highlighting = false,
+                },
             }
         end
     },
+    -- "romgrk/nvim-treesitter-context",
+    -- {
+    --     "folke/zen-mode.nvim",
+    --     event = "VeryLazy",
+    --     config = function()
+    --         require("zen-mode").setup {
+    --             window = {
+    --                 width = 90,
+    --                 options = {
+    --                     number = true,
+    --                     relativenumber = true,
+    --                 }
+    --             },
+    --         }
+    --     end
+    -- },
 
 }

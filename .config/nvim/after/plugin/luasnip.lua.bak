@@ -34,11 +34,12 @@ ls.add_snippets(nil, {
                 text({ "---",
                     "title: '" }), insert(1, "note_title"), text({ "'",
                 "author: Niklas von Hirschfeld" }), text({ "",
+                "date: " }), func(date, {}), text({ "",
                 "tags: [" }), insert(2), text({ "]",
-                "comments: true",
-                "toc: True",
+                "enableToc: true",
                 "---", "" }),
                 insert(0)
             }),
     },
 })
+
