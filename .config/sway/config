@@ -29,7 +29,7 @@ set $menu fuzzel
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
 # output "*" bg /home/niklas/.config/wall/base_size.png fill
 # output "*" bg /home/niklas/.config/wall/fsociety.png fill
-output "*" bg /home/niklas/.config/wall/pride_gruvebox.jpg fill
+output "*" bg /home/niklas/.config/wall/wallpaper8.jpg fill
 #
 # Example configuration:
 #

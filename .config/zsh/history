@@ -1677,3 +1677,39 @@ zk edit -i
 n -e
 zk edit -i
 doas shutdown -h now
+cd notes
+git commit -m "update"
+git pull
+cd benni_urlaub
+cd
+ls -la
+mv .task .dotfiles
+mkdir .task
+cd .dotfiles
+cd .task
+cp -rf hooks backlog.data completed.data pending.data undo.data ../../.task/
+cd ..
+cd ../.task
+rm -rf ./*
+mv hooks/ backlog.data completed.data pending.data undo.data ../../.task/
+ls
+n -e
+stow .
+git add .
+git commti -m 'nvim lazy and task cert'
+git commit -m 'nvim lazy and task cert'
+git push
+task sync
+task
+vim .config/sway/config
+cd .config/wall
+ls
+lsix
+doas shutdown -h now
+doas pacman -Syyyu
+doas vim /etc/pacman.conf
+doas vi /etc/pacman.conf
+doas nvim /etc/pacman.conf
+grep -r fuck /usr/src/linux-2.6.29-ARCH/
+doas -s
+dda
