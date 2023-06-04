@@ -1713,3 +1713,335 @@ doas nvim /etc/pacman.conf
 grep -r fuck /usr/src/linux-2.6.29-ARCH/
 doas -s
 dda
+cd .dp
+cd .dotfiles
+git add .
+git commit -m "ba"
+git push
+cd notes
+git commit -m "ba"
+git push
+cd 
+cd git
+cat content
+ls content
+cd content
+ls -la
+n -e
+cd school_projekts
+git add .
+ls
+tree
+doas -s
+cd ow
+cd work
+git iniz
+git init
+git add .
+git commit -m "first init"
+git branch -M main
+git remote add origin git@github.com:Hirschiii/work.git
+git push -u origin main
+ls
+ls blog_webdesign
+ls po_datascience
+ls recruitee_ba
+pacman -S
+doas pacman -Ss test
+doas pacman -S mpv
+doas rm /var/lib/pacman/db.lck
+doas pacman -Syyyu
+yay -Syyyu
+doas reboot
+cd work/
+ls blog_webdesign
+ls
+ls la
+ls -la
+htop
+cd .config/nvim/lua/
+cd user
+ls
+vim remap.lua
+n -e
+doas pacman -Syyyu
+yay -Syyyu
+light -U 10
+cd notes
+rm *_Säkula(
+rm *_Säkula*
+ls
+zk edit -i
+n -e
+make deploy
+calc
+nzk edit -i
+cd nn -e
+cd notes
+zk edit -i
+doas shutdown -h now
+cd .local/scripts
+doas -s
+calc
+htop
+powersave
+calc
+nmtui
+nm-applet
+ip a
+zk edit -i
+zk edit -i
+doas reboot
+cd .config/wall
+lsix
+swaybg -i pride_gruvebox.jpg
+swaybg -i pride_arch.png
+cd .local/sc
+cd .local/scripts
+doas -s 
+zk edit -i
+firefox
+doas reboot
+cd git
+ls sudoku
+cd sudoku
+make
+ls
+./output
+vim main.cpp
+doas pacman -S glfw
+doas pacman -S imgui
+yay -S imgui
+mkdir physik
+cd physik
+mkdir gwicht_und_kinet_e
+cd gew
+cd gwicht_und_kinet_e
+ls
+vim main.cpp
+n -e
+vim Makefile
+make
+cd 
+cd git
+git clone https://github.com/mtsamis/box2d-optimized.git
+cd box2d-optimized
+ls
+./build.sh
+doas shutdown -h now
+zk edit -i
+cd git/Hirschiii.github.io
+cd notes/school/geschichte
+ls
+vim not
+vim notizen.md
+n -e
+light -A 10
+calc
+cal -c
+cal -3
+cd
+cd git/Hirschiii.github.io/notes/school/geschichte
+ls
+vim notizen.md
+date
+zk edit -i
+n -e
+make
+make deploy
+cd git/second-brain-public
+vim config.toml
+date
+task
+task sync
+make
+ls con
+n -e
+cd assets
+ls
+n -e
+zk edit -i
+doas shutdown -h now
+cd git
+git clone https://github.com/gj52/HugoSample.git
+cd HugoSample
+hugo serve
+cat browser.cmd
+cd ..
+rm -rf HugoSample
+n -e
+ls
+vim config.toml
+ls
+zk edit -i
+doas shutdown -h now
+make deploy
+n -e
+git clone --single-branch -b hugo-forum-topic-40998 https://github.com/jmooring/hugo-testing hugo-forum-topic-40998
+cd hugo-forum-topic-40998
+hugo serve
+vim README.md
+bat README.md
+vim config.toml
+ls layouts
+tree resources
+ls archetypes
+vim archetypes/default.md
+l
+vim con
+ls con
+ls content
+vim content
+ls ex
+ls content/examples
+vim content/_index.md
+ls resources
+tree layouts
+bat ../second-brain-public/layouts/partials/katex.html
+bat ./layouts/partials/katex.html
+vim -d layouts/partials/katex.html ../second-brain-public/layouts/partials/katex.html
+vim layouts/partials/katex.html
+cd layouts
+ls
+vim shortcodes
+n -e
+mkdir shortcodes
+vim shortcodes/katex.html
+cd shortcodes
+cp katex.html $$.html
+ls
+rm 38166.html
+vim katex.html
+n -e
+make deploy
+make
+cd git/hugo-forum-topic-40998
+ls
+vim archetypes
+cd git/second-brain-public
+ls
+tree _default
+tree
+tree | grep default
+tree | grep .md
+n -e
+cd notes/.zk
+cd templates
+vim default.md
+find hdb.zaml
+find hdb.yaml
+n -e
+ls
+ls -la
+ls layouts
+tree archetypes
+ls -la archetypes
+ls -la layouts
+ls -la resources
+find zk
+cd notes/.zk
+ls
+vim templates/default.md
+zk new --title "test-test"
+doas shutdown -h now
+ls *klausur
+ls *klausur*
+rm *klausur-1*
+zk new
+nk
+zk
+rm *test*
+zk new --test "hellp--hello-hello"
+ls
+zk new --title "hellp--hello-he"
+rm *hellp*
+zk new --title "test-test"
+zk edit -i
+ls
+n -e
+make deploy
+vim notes/.zk
+cd .local/scripts
+doas -s 
+light -U 10
+cd .config/wall
+img2sixel wallpaper11.jpg
+lsiz
+lsix
+swaybg all.png
+swaybg -i all.png
+swaybg -i wallpaper3.jpg
+swaybg -i wallpaper4.jpg
+swaybg -i wallpaper6.jpg
+swaybg -i wallpaper9.jpg
+doas shutdown -h now
+zk edit -i
+vim
+nvim --startuptime
+task add project:Henning spacevim transparten background
+task add project:Henning spacevim alchemist (Plugins)
+task add project:Henning spacevim alchemist Plugins
+ls
+task synchronize
+task
+task project:Henning
+task 5 start
+andoc
+pandoc
+go
+go install https://github.com/jbirnick/katugo@latest
+go install https://github.com/jbirnick/katugo
+doas reboot
+zk edit -i
+n -e
+zk edit -i
+n -e
+ls
+make deploy
+vim config.toml
+make
+ls
+htop
+ls
+pwd
+zk edit -i
+yay -S doom2d-rembo
+yay -S dreamweb
+dreamweb
+yay -S extremetuxraver
+yay -S extremetuxracer
+doas pacman -S chromium-bsu
+doas -s
+vim .config/sway/config
+pkill flameshot
+doas pacman -S highfleet
+yay -S hammerflight
+yay -S hammerfight
+yay -S liquidwar
+vim .config/sway/config
+zk edit -i
+doas shutdown -h now
+cd git/
+tree mini_projects
+cd mini_projects
+ls gameoflife
+s
+cd g
+cd gameoflife/
+cat Makefile
+cp Makefile ../../cs229
+cd
+cd git
+ls
+cd cs229
+mkdir linear
+cd linear
+cp ../Makefile ./
+vim Makefile
+make
+./main.
+./output
+vim main.cpp
+vim .config/sway/config
+vim git/mini_projects/gameoflife/main.o
+vim git/mini_projects/gameoflife/main.cpp

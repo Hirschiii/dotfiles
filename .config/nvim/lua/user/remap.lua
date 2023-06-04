@@ -9,13 +9,13 @@ local function bind(op, outer_opts)
     end
 end
 
-nmap = bind("n", { noremap = false })
-nnoremap = bind("n")
-vnoremap = bind("v")
-xnoremap = bind("x")
-inoremap = bind("i")
+-- local nmap = bind("n", { noremap = false })
+-- local nnoremap = bind("n")
+-- local vnoremap = bind("v")
+-- local xnoremap = bind("x")
+local inoremap = bind("i")
 
-local options = { noremap = true }
+-- local options = { noremap = true }
 
 vim.g.mapleader = " "
 vim.keymap.set("n", "<leader>pv", vim.cmd.Ex)
@@ -90,6 +90,10 @@ vim.keymap.set("n", "<leader>zz", function()
     vim.wo.wrap = false
     ColorMyPencils()
 end)
+
+-- Zettelkasten
+
+vim.keymap.set("n", '<leader>pn', "<cmd>ZkNotes<CR>")
 
 -- nnoremap("<leader>pb", function()
 --     require('telescope.builtin').buffers()

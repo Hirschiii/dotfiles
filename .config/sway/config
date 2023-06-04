@@ -36,6 +36,11 @@ output "*" bg /home/niklas/.config/wall/wallpaper8.jpg fill
 #   output HDMI-A-1 resolution 1920x1080 position 1920,0
 output eDP-1 scale 2
 
+input type:touchpad {
+    # tap enable
+    dwt disabled
+}
+
 input type:keyboard {
 
   # Modified programmer Dvorak. File at ~/.xkb/symbols/dvp_alt_gr_remapped_to_super
