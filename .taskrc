@@ -46,7 +46,6 @@ report.doing.labels=ID,Text
 report.doing.sort=priority-,id+
 report.doing.filter=status:pending +ACTIVE
 
-
 # taskd.trust=allow all
 
 # To use the default location of the XDG directories,

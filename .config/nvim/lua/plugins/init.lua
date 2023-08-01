@@ -50,36 +50,6 @@ return {
             vim.keymap.set("n", "<leader>u", vim.cmd.UndotreeToggle)
         end
     },
-    {
-        "iamcco/markdown-preview.nvim",
-        build = "cd app && npm install",
-        ft = "markdown",
-    },
-    -- { 'junegunn/vim-easy-align' },
-    {
-        'ixru/nvim-markdown',
-        ft = "markdown",
-        -- lazy = false,
-        dependencies = {
-            'nvim-treesitter/nvim-treesitter',
-        },
-        config = function()
-            vim.g.vim_markdown_frontmatter = 1
-            vim.g.vim_markdown_math = 1
-        end
-    },
-    {
-        'lervag/vimtex',
-        ft = {"markdown"},
-        -- lazy = false,
-        config = function()
-            vim.g.tex_flavor = 'latex'
-            vim.g.vimtex_view_method = 'zathura'
-            vim.g.vimtex_quickfix_mode = 0
-            vim.opt.conceallevel = 1
-            vim.g.tex_conceal = 'abdmg'
-        end
-    },
     -- Color Theme:
 
     -- {
@@ -101,7 +71,7 @@ return {
         config = function()
             require 'nvim-treesitter.configs'.setup {
                 -- A list of parser names, or "all"
-                ensure_installed = { "help", "javascript", "typescript", "c", "lua", "rust" },
+                ensure_installed = { "vimdoc", "javascript", "typescript", "c", "lua", "rust" },
 
                 -- Install parsers synchronously (only applied to `ensure_installed`)
                 sync_install = false,

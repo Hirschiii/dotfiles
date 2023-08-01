@@ -1,12 +1,13 @@
 return {
     {
-        "rebelot/kanagawa.nvim",
-        lazy = false;
+        -- "rebelot/kanagawa.nvim",
+        "Shatur/neovim-ayu",
+        lazy = false,
         config = function()
             function ColorMyPencils(color)
                 -- color = color or "tokynight"
                 -- color = color or "rose-pine"
-                color = color or "kanagawa"
+                color = color or "ayu"
                 -- color = color or "catppuccin-macchiato"
                 -- color = color or "murphy"
                 -- color = color or "habamax"

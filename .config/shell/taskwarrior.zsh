@@ -44,3 +44,9 @@ alias q3="func_q3"
 alias q4="func_q4"
 
 alias today="selectedtoady"
+
+# function task ()
+# {
+#    task "$@" 
+#    pkill -RTMIN+8 waybar
+# }

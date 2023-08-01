@@ -1,6 +1,4 @@
-require("user.packer")
+require("user.lazy")
 require("user.autocmds")
--- require('impatient')
 require("user.set")
--- require("user.remap")
--- require("user.autocmd")
+require("user.statusline")
