@@ -3312,3 +3312,22 @@ rpi-imager
 doas pacman -S npm
 doas pacman -R npm
 doas pacman -Syyyu
+ssh-keygen
+cat .ssh/id_ed25519.pub
+cd git
+stow -h
+stow -D
+stow -D .
+stow -D . -t ~
+cd ..
+rm -rf dotfiles
+git clone git@github.com:Hirschiii/dotfiles
+cd dotfiles
+ls
+stow . -t ~/
+swaymsg -t get_outputs
+vim .zshrc
+vim
+cd .config/sway
+ls
+vim config

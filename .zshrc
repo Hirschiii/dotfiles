@@ -166,7 +166,7 @@ alias fgrep='fgrep --color=auto'
 if [ "$(tty)" = "/dev/tty1" ]; then
     export PATH=$PATH:~/bin
     export `gnome-keyring-daemon --start --components=ssh`
-    exec /usr/local/bin/sway > $XDG_RUNTIME_DIR/sway.log 2>&1
+    exec /usr/bin/sway > $XDG_RUNTIME_DIR/sway.log 2>&1
 fi
 
 # If not running interactively, do not do anything
@@ -184,7 +184,7 @@ fi
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh 2>/dev/null
 # eval "$(starship init zsh)"
 # fastfetch | blahaj -c gay
-fortune && pokemon-colorscripts -r
+# fortune && pokemon-colorscripts -r
 export PATH=$PATH:/home/niklas/.spicetify
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
