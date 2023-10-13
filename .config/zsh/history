@@ -3331,3 +3331,393 @@ vim
 cd .config/sway
 ls
 vim config
+cd git/dotfiles
+git add .
+git config --global user.email "niklas@vonhirschfeld.eu"
+git config --global user.name "Niklas von Hirschfeld"
+git commit -m "small fix"
+git push
+doas hostnamectl set-hostname botnet
+l
+doas pacman -S htop tmux
+cd projects/f1_team
+git clone git@github.com:AeroSpacePlaceHolder/website.git
+cd website
+ls
+npm
+doas pacman -S node
+doas pacman -S nodejs
+vim README.md
+git add README.md
+git commit -m "ToDo's"
+doas pacman -S gcc
+vim
+pacman -Syyyu
+doas pacman -Syyyu
+doas pacman -S linux-asahi-edge mesa-asahi-edge
+doas update-grub
+reboot
+cd .config/foot
+ls
+vim foot.ini
+ls
+nmtui
+cd projects/f1_team
+cd website
+ls
+doas systemctl enable --now NetworkManager
+doas pacman -S nodejs npm
+npm install
+npx vite
+doas pacman -Ss obsidian
+yay
+pacman -S --needed git base-devel
+doas pacman -S --needed git base-devel
+cd git
+git clone git clone https://aur.archlinux.org/yay.git
+git clone https://aur.archlinux.org/yay.git
+cd yay
+visudo
+doas visudo
+doas pacman -S sudo
+makepkg -si
+doas shutdown -h now
+firefox
+killall firefox
+firefox
+pkill firefox
+doas pacman -S nautilus
+cd Downloads
+doas pacman -S unzip
+unzip collection-formula-1-cars.zip
+cd ls
+ls
+doas pacman -S inkspcae
+doas pacman -S inkspcape
+doas pacman -S inkscape
+doas pacman -S gem
+doas pacman -Ss gem
+cd Downloads
+ls
+firefox racing-car.
+firefox racing-car.svg
+vim cursor.
+vim cursor.html
+n -e
+cd website
+l
+cp ~/Downloads/racing-car\(1\).svg ./src/racing-car.svg
+mkdir examples
+cd examples
+cp ../src/racing-car.svg ./f1-car.svg
+vim in
+vim cursor.html
+vim index.html
+vim cursor.css
+n -e
+cd ..
+lls
+ls
+git add .
+git commit -m "curser start"
+git push
+ssh gulugulu@aegaeon.uberspace.e
+ssh gulugulu@aegaeon.uberspace.de
+doas shutdown -h now
+doas pacman -S fzf
+doas pacman -S nnn
+cd ..
+ls
+npx vite
+cd examples
+python -m http.server
+cd .config/sway
+ls
+./randwall.sh
+yay -Syyyu
+doas pacman -Syyyu
+cd .config/sway
+lighj
+doas pacman -S light
+light
+light -A 10
+doas light -A 10
+doas light -U 10
+vim randwall.sh
+cd ../wall
+ls
+lsixl
+doas pacman -S lsixl
+cd .config/sway
+./randwall.sh
+n -e
+n -e
+cd ..
+npx vite
+n -e
+ssh gulugulu@aegaeon.uberspaced.e
+ssh gulugulu@aegaeon.uberspaced.de
+ssh gulugulu@aegaeon.uberspace.de
+yay -Ss signal
+yay -Ss signal-dekstop
+yay -Ss signal-desktop
+yay -S signal-deskop-fix-sway
+yay -S signal-desktop-arm
+cd Downloads
+chmod +x Signal-5.12.0-beta.1.AppImage
+./Signal-5.12.0-beta.1.AppImage
+cd 
+cd git
+git clone git@github.com:signalapp/Signal-Desktop.git
+cd Signal-Desktop
+make configure
+./scripts/prepare_alpha_build.js
+configmenu
+ls
+make
+doas pacman -S flatpak
+doas flatpak remote-add --if-not-exists signal-arm https://elagost.com/flatpak/signal.flatpakrepo
+flatpak install signal-arm org.signal.Signal
+flatpak run org.signal.Signal
+flatpak run org.signal.Signal --use-gl=egl --enable-features=UseOzonePlatform --ozone-platform=wayland
+flatpak remote-delete signal-arm
+flatpak --user remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+flatpak --user install flathub signal
+doas flatpak --user install flathub signal
+flatpak install org.signal.Signal
+flatpak override --user --env=SIGNAL_USE_WAYLAND=1 org.signal.Signal
+flatpak install flathub org.signal.Signal
+flatpak install org.signal.Signal
+cd Downloads
+ls
+flatpak install ./org.signal.Signal.flatpakref
+flatpak install https://dl.flathub.org/repo/appstream/org.signal.Signal.flatpakref
+ls
+vim musik.md
+doas shutdown -h now
+mkdir -p notes/inbox
+cd notes/inbox
+cd website
+vim cursor_2.ks
+vim cursor_2.js
+mv cursor_2.js cursor.js
+cp ~/Downloads/Race-Track-PNG-High-Quality-Image.png ./race_track.png
+vim cursor.html
+n -e
+\:wq
+git commit -m "maus cursor prototyp"
+cd examples
+vim cursor.js
+cd ..
+git add .
+git commit -m "cursor hide and speed"
+git push
+configure
+ls
+nm
+nmtui
+cd website
+pwd
+n -e
+ls
+vim colors.css
+rm colors.css
+n -e
+cp f1-car.svg ../src
+ls
+vim cursor.html
+rm cursor.js
+n -e
+n -e
+vim cursor.js
+ls
+cp cursor.js js
+npm install
+vim cursor_v2.js
+n -e
+vim Downloads/test.js
+cd Downloads
+curl https://advanced.team/assets/js/app.5f5e3f4be2722e1cc610.js
+curl https://advanced.team/assets/js/app.5f5e3f4be2722e1cc610.js > test.js
+vim test.js
+pacman -Ss prettier
+doas pacman -S prettier
+cd Downloads
+prettier
+prettier -w test.js
+vim test.js
+n -e
+vim header_scroll.js
+n -e
+n -e
+doas pacman -R npmx
+doas pacman -R npm
+doas pacman -S npm
+pwd
+n -e
+cd website
+npm insta
+npm install
+npm rebuild
+ls
+npx vite
+git add .
+git commit -m "colors:\
+"
+git push
+\
+npm install webpack webpack-cli --save-dev
+mkdir dist
+mv index.html dist
+npm install --save lodash
+webpack
+vim package.json 
+npm run webpack
+npm run build
+vim webpack.config.js
+npx webpack --config webpack.config.js
+rm webpack.config.js
+npx webpack
+vim package.k
+vim package.json
+npm install
+cd ..
+rm -rf website
+git clone git@github.com:AeroSpacePlaceHolder/website.git
+l
+rm cursor_v2.js
+ls
+n -e
+ssh gulugulu@aegaeon.uberspace.de
+mkdir styles
+git clone git@github.com:AeroSpacePlaceHolder/website.git
+git clone git@github.com:AeroSpacePlaceHolder/website.git website/styles
+cd website/styles
+rm -rf examples .* package-lock.json package.json README.md node_modules
+ls -la
+cd styles
+mkdir dark_advanced
+mv css/ js src index.html dark_advanced
+git commit -m "h"
+git checkout "fluid-Background"
+git switch fludi-Background
+git fetch fluid-Background
+git pull fluid-Background
+git switch fluid-Background
+git add README.md
+git commit -m "test"
+vim README.md
+vim index.html
+vim main.js
+vim scripts.js
+ls node_modules
+git commit -m "fluid"
+ls js
+git switch 
+git branch
+git switch main
+vim js/fluid.js
+git commit -m 'import fix'
+cd node_modules/webgl-fluid-enhanced
+ls dist
+ls
+cp ../node_modules/webgl-fluid-enhanced/dist/webgl-fluid-enhanced.mjs ./
+vim fluid.js
+git commit -m "quick fix ilinxk"
+cd ..
+git pull
+ls examples
+n -e
+git add .
+git commit -m "flexi header title"
+git push
+n -e
+cd ..
+npx vite
+git clone git@github.com:AeroSpacePlaceHolder/website.git green
+cd green
+git branch
+git checkout Simple-Green
+git pull
+git fetch Simple-Green
+npx vite
+ls
+cd ..
+mkdir website/styles/green_simple
+cp -r green/src green/index.html green/js green/css website/styles/green_simple
+cd website
+vim styles
+git add .
+git commit -m "add style"
+git push
+doas shutdown -h now
+doas light -U 10
+doas pacman -S slurp grim
+cd .config/sway
+n -e
+cd fonts
+cp ~/Downloads/webfontkit-20231012-051343/helveticaneuecyr_medium-webfont.woff2 ./
+ls
+cd css
+mkdir fonts
+cd fonts
+cp ~/Downloads/webfontkit-20231012-051343/helveticaneuecyr_medium-webfont.woff ~/Downloads/webfontkit-20231012-051343/stylesheet.css ./
+ls
+cd ..
+n -e
+npx vite
+doas pacman -S zathura
+cd inbox
+ls
+vim english.md
+doas pacman -S zathura-pdf-mupdf
+pacman -Syyyu
+doas pacman -Syyyu
+doas shutdown -h now
+vim sf
+vim sf.md
+cd projects/f1_team
+npx create-astro your-project astor_web
+npx create-astro astro_web
+cd astro_web
+ls
+npx astro add vue
+cat astro.config.mjs
+mkdir src/components
+vim src/components/food.vue
+n -e
+npm run dev
+doas shutdown -h now
+npx run dev
+npm run dev
+npm run build
+ls dist
+cd dist
+python -m http.server
+ls l
+ls
+ls _astro
+vim navigation.vue
+vim draggable.vue
+n -e
+npm i @vueuse/core
+ls
+vim package.json
+vim pow.md
+vim f1.md
+doas pacman -S tor torbrowser-launcger
+doas pacman -S tor torbrowser-launcher
+cd /tmp
+ls
+ls *.png
+doas pacman -S qutebrowser
+torbrowser-launcher
+doas pacman -S qt5-wayland
+doas pacman -S qt6-wayland
+qutebrowser
+cd .config/qutebrowser
+l
+ks
+ls
+cd jmatrix
+torbrowser-launcher
