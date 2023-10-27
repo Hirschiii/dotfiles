@@ -119,6 +119,16 @@ report.q4.filter=limit:page status:pending and priority:L and urgent:N
 report.q4.columns=start.active,id,project,urgency,description,entry.age,tags
 report.q4.labels=A,ID,Proj,Urg,Description,Age,Tags
 
+# Trello:
+#
+# Install with: yay -S trellowarrior
+
+# UDAs
+uda.trelloid.type=string
+uda.trelloid.label=Trello ID
+uda.trellolistname.type=string
+uda.trellolistname.label=Trello List Name
+
 
 
 report.project.description=Projects report
