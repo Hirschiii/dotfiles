@@ -10,7 +10,7 @@ vim.opt.expandtab = false
 vim.opt.smartindent = true
 
 vim.opt.list = true
-vim.opt.listchars = { space=".", tab="-->", eol="$" }
+vim.opt.listchars = { tab="-->", eol="$" }
 
 
 vim.opt.wrap = false

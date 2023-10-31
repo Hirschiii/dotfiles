@@ -3712,3 +3712,105 @@ new [description:"ges" end:"1695898567" entry:"1693993572" modified:"1695898567"
 time 1698406699
 new [description:"kettenregel beweisen" entry:"1696937672" modified:"1696937672" status:"pending" uuid:"ae0db154-7af6-4f05-9a5c-54d1aaef6212"]
 ---
+time 1698411911
+new [description:"3d fuer md:" entry:"1698411911" modified:"1698411911" project:"valkyrie" status:"pending" tags:"website" tags_website:"x" uuid:"8462ede1-0890-4ec0-aad9-e362f6ae82a4"]
+---
+time 1698412175
+old [description:"3d fuer md:" entry:"1698411911" modified:"1698411911" project:"valkyrie" status:"pending" tags:"website" tags_website:"x" uuid:"8462ede1-0890-4ec0-aad9-e362f6ae82a4"]
+new [description:"3d fuer md:" entry:"1698411911" modified:"1698412175" project:"valkyrie" status:"pending" tags:"website" tags_website:"x" trelloid:"653bb68eb5b827e2131c1edf" uuid:"8462ede1-0890-4ec0-aad9-e362f6ae82a4"]
+---
+time 1698412175
+old [description:"3d fuer md:" entry:"1698411911" modified:"1698412175" project:"valkyrie" status:"pending" tags:"website" tags_website:"x" trelloid:"653bb68eb5b827e2131c1edf" uuid:"8462ede1-0890-4ec0-aad9-e362f6ae82a4"]
+new [annotation_1698412175:"&open;Trello URL&close; https:\/\/trello.com\/c\/qMO99ZQr" description:"3d fuer md:" entry:"1698411911" modified:"1698412175" project:"valkyrie" status:"pending" tags:"website" tags_website:"x" trelloid:"653bb68eb5b827e2131c1edf" uuid:"8462ede1-0890-4ec0-aad9-e362f6ae82a4"]
+---
+time 1698412175
+old [annotation_1698412175:"&open;Trello URL&close; https:\/\/trello.com\/c\/qMO99ZQr" description:"3d fuer md:" entry:"1698411911" modified:"1698412175" project:"valkyrie" status:"pending" tags:"website" tags_website:"x" trelloid:"653bb68eb5b827e2131c1edf" uuid:"8462ede1-0890-4ec0-aad9-e362f6ae82a4"]
+new [annotation_1698412175:"&open;Trello URL&close; https:\/\/trello.com\/c\/qMO99ZQr" description:"3d fuer md:" entry:"1698411911" modified:"1698412175" project:"valkyrie" status:"pending" tags:"website" tags_website:"x" trelloid:"653bb68eb5b827e2131c1edf" trellolistname:"To Do" uuid:"8462ede1-0890-4ec0-aad9-e362f6ae82a4"]
+---
+time 1698412206
+new [description:"Test :test" entry:"1698412206" modified:"1698412206" project:"valkyrie" status:"pending" trelloid:"653bb6a70976022000037d7c" trellolistname:"To Do" uuid:"bcc0033e-4611-4cbf-9aa4-649c37c66242"]
+---
+time 1698412206
+old [description:"Test :test" entry:"1698412206" modified:"1698412206" project:"valkyrie" status:"pending" trelloid:"653bb6a70976022000037d7c" trellolistname:"To Do" uuid:"bcc0033e-4611-4cbf-9aa4-649c37c66242"]
+new [annotation_1698412206:"&open;Trello URL&close; https:\/\/trello.com\/c\/qt9UsDWK" description:"Test :test" entry:"1698412206" modified:"1698412206" project:"valkyrie" status:"pending" trelloid:"653bb6a70976022000037d7c" trellolistname:"To Do" uuid:"bcc0033e-4611-4cbf-9aa4-649c37c66242"]
+---
+time 1698412469
+old [description:"Template to learan for exam" entry:"1692013459" modified:"1693753130" project:"School" reviewed:"1693753130" status:"pending" uuid:"fac0c41d-e8a1-474c-a655-f4939af9a83a"]
+new [description:"Template to learan for exam" end:"1698412469" entry:"1692013459" modified:"1698412469" project:"School" reviewed:"1693753130" status:"deleted" uuid:"fac0c41d-e8a1-474c-a655-f4939af9a83a"]
+---
+time 1698412471
+old [description:"Reffarat facebook einfluss auf uswahl trump" entry:"1692344015" modified:"1693753131" project:"School.pow" reviewed:"1693753131" status:"pending" uuid:"2a3de35f-efff-4126-8e83-c79c7cc292dc"]
+new [description:"Reffarat facebook einfluss auf uswahl trump" entry:"1692344015" modified:"1698412471" project:"School.pow" reviewed:"1698412471" status:"pending" uuid:"2a3de35f-efff-4126-8e83-c79c7cc292dc"]
+---
+time 1698412476
+old [description:"dynamic table snipper size" entry:"1695575688" modified:"1695575688" project:"vim" status:"pending" uuid:"d64696c6-9e12-44f2-ad38-26b427513687"]
+new [description:"dynamic table snipper size" entry:"1695575688" modified:"1698412476" project:"vim" reviewed:"1698412476" status:"pending" uuid:"d64696c6-9e12-44f2-ad38-26b427513687"]
+---
+time 1698412480
+old [description:"kettenregel beweisen" entry:"1696937672" modified:"1696937672" status:"pending" uuid:"ae0db154-7af6-4f05-9a5c-54d1aaef6212"]
+new [description:"kettenregel beweisen" end:"1698412480" entry:"1696937672" modified:"1698412480" status:"deleted" uuid:"ae0db154-7af6-4f05-9a5c-54d1aaef6212"]
+---
+time 1698412482
+old [annotation_1698412175:"&open;Trello URL&close; https:\/\/trello.com\/c\/qMO99ZQr" description:"3d fuer md:" entry:"1698411911" modified:"1698412175" project:"valkyrie" status:"pending" tags:"website" tags_website:"x" trelloid:"653bb68eb5b827e2131c1edf" trellolistname:"To Do" uuid:"8462ede1-0890-4ec0-aad9-e362f6ae82a4"]
+new [annotation_1698412175:"&open;Trello URL&close; https:\/\/trello.com\/c\/qMO99ZQr" description:"3d fuer md:" entry:"1698411911" modified:"1698412482" project:"valkyrie" reviewed:"1698412482" status:"pending" tags:"website" tags_website:"x" trelloid:"653bb68eb5b827e2131c1edf" trellolistname:"To Do" uuid:"8462ede1-0890-4ec0-aad9-e362f6ae82a4"]
+---
+time 1698412483
+old [annotation_1698412206:"&open;Trello URL&close; https:\/\/trello.com\/c\/qt9UsDWK" description:"Test :test" entry:"1698412206" modified:"1698412206" project:"valkyrie" status:"pending" trelloid:"653bb6a70976022000037d7c" trellolistname:"To Do" uuid:"bcc0033e-4611-4cbf-9aa4-649c37c66242"]
+new [annotation_1698412206:"&open;Trello URL&close; https:\/\/trello.com\/c\/qt9UsDWK" description:"Test :test" end:"1698412483" entry:"1698412206" modified:"1698412483" project:"valkyrie" status:"deleted" trelloid:"653bb6a70976022000037d7c" trellolistname:"To Do" uuid:"bcc0033e-4611-4cbf-9aa4-649c37c66242"]
+---
+time 1698412498
+old [annotation_1698412206:"&open;Trello URL&close; https:\/\/trello.com\/c\/qt9UsDWK" description:"Test :test" end:"1698412483" entry:"1698412206" modified:"1698412483" project:"valkyrie" status:"deleted" trelloid:"653bb6a70976022000037d7c" trellolistname:"To Do" uuid:"bcc0033e-4611-4cbf-9aa4-649c37c66242"]
+new [annotation_1698412206:"&open;Trello URL&close; https:\/\/trello.com\/c\/qt9UsDWK" description:"Test :test" end:"1698412483" entry:"1698412206" modified:"1698412498" project:"valkyrie" status:"deleted" trellolistname:"To Do" uuid:"bcc0033e-4611-4cbf-9aa4-649c37c66242"]
+---
+time 1698413589
+old [description:"Reffarat facebook einfluss auf uswahl trump" entry:"1692344015" modified:"1698412471" project:"School.pow" reviewed:"1698412471" status:"pending" uuid:"2a3de35f-efff-4126-8e83-c79c7cc292dc"]
+new [description:"Reffarat facebook einfluss auf uswahl trump" entry:"1692344015" modified:"1698413589" priority:"H" project:"School.pow" reviewed:"1698412471" status:"pending" urgent:"N" uuid:"2a3de35f-efff-4126-8e83-c79c7cc292dc"]
+---
+time 1698413594
+old [description:"dynamic table snipper size" entry:"1695575688" modified:"1698412476" project:"vim" reviewed:"1698412476" status:"pending" uuid:"d64696c6-9e12-44f2-ad38-26b427513687"]
+new [description:"dynamic table snipper size" entry:"1695575688" modified:"1698413594" priority:"L" project:"vim" reviewed:"1698412476" status:"pending" urgent:"N" uuid:"d64696c6-9e12-44f2-ad38-26b427513687"]
+---
+time 1698413598
+old [annotation_1698412175:"&open;Trello URL&close; https:\/\/trello.com\/c\/qMO99ZQr" description:"3d fuer md:" entry:"1698411911" modified:"1698412482" project:"valkyrie" reviewed:"1698412482" status:"pending" tags:"website" tags_website:"x" trelloid:"653bb68eb5b827e2131c1edf" trellolistname:"To Do" uuid:"8462ede1-0890-4ec0-aad9-e362f6ae82a4"]
+new [annotation_1698412175:"&open;Trello URL&close; https:\/\/trello.com\/c\/qMO99ZQr" description:"3d fuer md:" entry:"1698411911" modified:"1698413598" priority:"H" project:"valkyrie" reviewed:"1698412482" status:"pending" tags:"website" tags_website:"x" trelloid:"653bb68eb5b827e2131c1edf" trellolistname:"To Do" urgent:"N" uuid:"8462ede1-0890-4ec0-aad9-e362f6ae82a4"]
+---
+time 1698413904
+new [description:"musik lernen" entry:"1698413904" modified:"1698413904" project:"School" status:"pending" uuid:"fae01c35-5902-433a-b8da-c6a4340d14e0"]
+---
+time 1698414779
+new [description:"timeboxing workflow taskwarrior" entry:"1698414779" modified:"1698414779" project:"workflow" status:"pending" uuid:"0cce3fa3-a30f-4957-a553-438519c6765b"]
+---
+time 1698414783
+old [description:"timeboxing workflow taskwarrior" entry:"1698414779" modified:"1698414779" project:"workflow" status:"pending" uuid:"0cce3fa3-a30f-4957-a553-438519c6765b"]
+new [description:"timeboxing workflow taskwarrior" entry:"1698414779" modified:"1698414783" priority:"L" project:"workflow" status:"pending" urgent:"N" uuid:"0cce3fa3-a30f-4957-a553-438519c6765b"]
+---
+time 1698422320
+old [description:"Reffarat facebook einfluss auf uswahl trump" entry:"1692344015" modified:"1698413589" priority:"H" project:"School.pow" reviewed:"1698412471" status:"pending" urgent:"N" uuid:"2a3de35f-efff-4126-8e83-c79c7cc292dc"]
+new [description:"Reffarat facebook einfluss auf uswahl trump" end:"1698422320" entry:"1692344015" modified:"1698422320" priority:"H" project:"School.pow" reviewed:"1698412471" status:"completed" urgent:"N" uuid:"2a3de35f-efff-4126-8e83-c79c7cc292dc"]
+---
+time 1698422336
+old [description:"dynamic table snipper size" entry:"1695575688" modified:"1698413594" priority:"L" project:"vim" reviewed:"1698412476" status:"pending" urgent:"N" uuid:"d64696c6-9e12-44f2-ad38-26b427513687"]
+new [description:"dynamic table snipper size" end:"1698422335" entry:"1695575688" modified:"1698422336" priority:"L" project:"vim" reviewed:"1698412476" status:"deleted" urgent:"N" uuid:"d64696c6-9e12-44f2-ad38-26b427513687"]
+---
+time 1698496021
+new [description:"wiki alt in neu transformieren" entry:"1698496021" modified:"1698496021" status:"pending" uuid:"b6e3e5c6-8422-470c-91e5-651b6f343fda"]
+---
+time 1698496034
+old [description:"musik lernen" entry:"1698413904" modified:"1698413904" project:"School" status:"pending" uuid:"fae01c35-5902-433a-b8da-c6a4340d14e0"]
+new [description:"musik lernen" entry:"1698413904" modified:"1698496034" priority:"H" project:"School" status:"pending" urgent:"N" uuid:"fae01c35-5902-433a-b8da-c6a4340d14e0"]
+---
+time 1698496037
+old [description:"wiki alt in neu transformieren" entry:"1698496021" modified:"1698496021" status:"pending" uuid:"b6e3e5c6-8422-470c-91e5-651b6f343fda"]
+new [description:"wiki alt in neu transformieren" entry:"1698496021" modified:"1698496037" priority:"L" status:"pending" urgent:"N" uuid:"b6e3e5c6-8422-470c-91e5-651b6f343fda"]
+---
+time 1698498556
+old [description:"wiki alt in neu transformieren" entry:"1698496021" modified:"1698496037" priority:"L" status:"pending" urgent:"N" uuid:"b6e3e5c6-8422-470c-91e5-651b6f343fda"]
+new [description:"wiki alt in neu transformieren" entry:"1698496021" modified:"1698498556" priority:"L" start:"1698498556" status:"pending" urgent:"N" uuid:"b6e3e5c6-8422-470c-91e5-651b6f343fda"]
+---
+time 1698498571
+new [description:"timewarrior hook" entry:"1698498571" modified:"1698498571" project:"workflow" status:"pending" uuid:"c6f2eb9b-788c-48a0-87cc-a18ce2b7e63a"]
+---
+time 1698498576
+old [description:"timewarrior hook" entry:"1698498571" modified:"1698498571" project:"workflow" status:"pending" uuid:"c6f2eb9b-788c-48a0-87cc-a18ce2b7e63a"]
+new [description:"timewarrior hook" entry:"1698498571" modified:"1698498576" priority:"L" project:"workflow" status:"pending" urgent:"N" uuid:"c6f2eb9b-788c-48a0-87cc-a18ce2b7e63a"]
+---

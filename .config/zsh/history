@@ -1,283 +1,3 @@
-cd .local/share/nvim
-ls lazy
-rm -rf lazy
-vim Downloads/live-server\(1\).lua
-doas pacman -S yarn make
-cd .config/nvim/lua/user/
-vim set.lua
-doas pacman -S python
-doas pacman -S python-nvim
-doas pacman -S sigil
-doas pacman -S grim
-doas pacman -S convert
-yay -S convert
-foot
-doas pacman -S img2sixl
-doas pacman -S libsixel
-cd .config/wa
-cd .config/wall
-doas pacman -S lsix
-yay -S si
-yay -S lsic
-yay -S lsix
-img2sixel boy.png
-lsix
-grim
-grim -g
-doas pacman slurp
-yay -S slurp
-vim .config/sway/
-task add project:school.notes
-task add project:school.notes epub für arbeiten?
-task add project:school.notes epub für arbeiten
-mailsync
-cal
-neomutt
-task add project:wiki.neovim auf epub umsteigen
-rm 20230707_16h58m13s_grim.png index.html package.json package-lock.json 
-ls go
-rm -rf node_modules
-cd .config
-mv nvim.main.bak nvim
-task 10 delet4e
-task 10 delete
-task add project:wiki.neovim restructure file
-task 10 start
-mkdir neovim
-ls /media
-cd sd
-ls wiki_neovim
-tree nvim
-pandoc id
-pandoc index.md -o index.epub
-vim index_v1.0.0.md
-vim neovim.epub
-zathura neovim.epub
-rm index.epub
-rm neovim.epub
-doas cp -rf wiki_neovim /media/sda1-ata-WDC_WD50NDZW-11B/
-vim henning
-vim n -e
-vim id
-vim index.md
-vim henning.md
-mkdir neovim_v1
-cd neovim_v1
-rm -rf neovim_v1
-mkdir nvim_v1
-cp -r nvim/* nvim_v1
-cd i
-cd plugins
-rm cmp.lua live-server.lua lsp.lua luasnip.lua wich-key.lua
-cat impatient.lua
-vim remap.lua
-cd lua/
-cd user
-cat autocmds.lua
-rm -rf autocmds.lua
-rm impatient.lua
-cat /sys/class/power_supply/macsmc-battery/capacity
-vim .config/nvim/lua/user/init.lua
-cp .config/nvim/lua/user/statusline.lua projects/wiki_neovim/nvim_v1/lua/user/statusline.lua
-task 10 stop
-timew
-timew burndown
-timew help
-timew summary
-timew month
-vim index_v1.md
-task add project:wiki.neovim cmp clean setup
-task project:ideas
-task 11 start
-nvim -u init.lua
-vim -u init.lua
-vim -h
-nvim --clean
-nvim --clean -u init.lua
-nvim -Nu init.lua
-cd lua/plugins
-vim c
-task add project:wiki.neovim indet blankline
-vim .config/nvim/lua/plugins/init.lua
-cd .config/nvim/lua/plugins
-vim .config/nvimzk edit -i
-vim .config/nvim/lua/user/statusline.lua
-task 11 stop 
-task 11 done
-task project:wiki.neovim
-task add project:wiki.neovim clean lsp
-task 
-q4 3
-task 12 start
-task 12 stop
-cd .config/nvim.mainbak/lua/plugins
-qvim
-vim cmp.lua
-rm mason.lua
-vim tree-sitter.lua
-vim lsp.lua
-cp color.lua color.lua.bak
-vim color.lua
-task 12 done
-task add project:wiki.neovim doc for lsp and keys
-touch mason.lua
-mv lsp.lua lsp.lua.bak
-vim mason.lua
-doa sshut
-vim index_v1.md 
-cd .config/nvim
-mv nvim nvim.mainbak
-cp -r ~/projects/wiki_neovim/nvim_v1 nvim
-rm -rf nvim
-ln -s ~/projects/wiki_neovim/nvim_v1 nvim
-ls nvim
-tree after
-mv color.lua.bak color.lua
-vim test.html
-cd .config/nvim.
-cd .config/
-rm nvim
-ln -s ~/projects/wiki_neovim/nvim nvim
-mv nvim_v1 nvim
-mv henning.md notes.md
-mv notes.md ~/notes/henning/notes_wiki_nvim.md
-mv index_v1.md README.md
-mv index.md old.README.md
-npm install -g vscode-html-languageserver
-npm -h
-npm search vscode-html
-npm search vscode-html-languageserver-bin
-npm install -h vscode-html-languageserver-bin
-npm install -g vscode-html-languageserver-bin
-doas npm install -g vscode-html-languageserver-bin
-npm i -g vscode-langservers-extracted
-doas npm i -g vscode-langservers-extracted
-grim -g "$(slurp -p)" -t ppm - | convert - -format '%[pixel:p{0,0}]' txt:- | tail -n 1 | cut -d ' ' -f 4 | wl-copy 
-vscode-html-language-server
-#FFFFFF\
-
-ls /tmp
-img2sixel /tmp/1689008149_grim.png
-vim .config/sway/config
-grim -g "$(slurp)" screenshot.png
-rm screenshot.png
-hto
-cd nvim/lua/plugins
-rm html.lua
-nls
-wget https://zenlima.com/
-mv index.html.1 zenlima.html
-swaymsg input type:keyboard xkb_layout de
-swaymsg input type:keyboard xkb_layout de,us
-swaymsg input type:keyboard xkb_layout de us
-swaymsg input type:keyboard xkb_layout us
-lsix /tmp
-doas pacman -S virtualbox
-rm index.html
-npm instal --prefix server
-doas pacman -S python3
-doas pacman -S python-pynvim
-cd .local/share/nvim/lazy/bracey.vim
-rm lazy-lock.json
-mv cd nvim
-cd .config/nvim.mainbak/lua/plugins/
-cd nvim
-vim bracey.lua
-vim telescope.lua
-doas pacman -Ss live-grep
-doas pacman -S rg
-doas pacman -S ripgrep
-cd projects/wiki_neovim
-qcd
-mkdir test
-cd test
-unzip ../nvim.zip
-tree wiki_neovim
-rm -rf test
-cd wiki_neovim
-cd .config/nvim.mainbak
-cd .config/nvim.mainbak/
-npm install -g browser-sync
-doas npm install -g browser-sync
-doas pacman -S hurl
-yay -S hur
-yay -S hurl
-cd FiraCode
-cp FiraCodeNerdFont-Bold.ttf FiraCodeNerdFont-Light.ttf FiraCodeNerdFont-Medium.ttf FiraCodeNerdFontMono-Bold.ttf FiraCodeNerdFontMono-Light.ttf FiraCodeNerdFontMono-Medium.ttf FiraCodeNerdFontMono-Regular.ttf FiraCodeNerdFontMono-Retina.ttf FiraCodeNerdFontMono-SemiBold.ttf FiraCodeNerdFontPropo-Bold.ttf FiraCodeNerdFontPropo-Light.ttf FiraCodeNerdFontPropo-Medium.ttf FiraCodeNerdFontPropo-Regular.ttf FiraCodeNerdFontPropo-Retina.ttf FiraCodeNerdFontPropo-SemiBold.ttf FiraCodeNerdFont-Regular.ttf FiraCodeNerdFont-Retina.ttf FiraCodeNerdFont-SemiBold.ttf ~/.local/share/fonts/
-ls .local/share/fonts
-vim .config/foot/
-vim .config/foot
-fc-cache
-fc-list
-fc-list | grep Fira
-fc-list | grep Fira Mono
-fc-list | grep FiraCodeNerdFontMono
-doas pacman -S noto-fonts-emoji
-vim .config/nvim/lua/user/set.lua
-/usr/bin/footclient
-/usr/bin/footclient -e nvim
-vim .config/sway
-rm epub.lua
-mkdir assets
-cd assets
-wget https://raw.githubusercontent.com/aca/emmet-ls/master/.image/capture.gif
-mv capture.gif emmet.git
-mv emmet.git emmet.gif
-vim Downloads/zenlima.html
-vim zenlima.html
-hyperfine "nvim index.html +qa"
-lsblk
-doas shutdown
-shutdown -c
-udevil
-cd /media/sda1-ata-WDC_WD50NDZW-11B
-cd gentoo_backup
-ls dirs
-cd /media/sda1-usb-SMI_USB_DISK_AA0
-ls lost+found
-doas -s
-udevil mount
-cd /media/sda1-usb-USB_SanDisk_3.2G
-ls notes
-ls music
-udevil umount /dev/sda1
-udevil mount /dev/sda1
-vim editing.lua
-vim ui.lua
-rm lsp.lua.bak
-task 5 done
-vim rest.lua
-rm rest.lua
-vim html.lua
-vim sym-outline.lua
-vim epub.vim
-vim epub.lua
-pandoc README.md -o RED.epub
-vim RED.epub
-vim RE
-cp html.lua lua.lua
-vim lua.lua
-nvim --startuptime
-nvim --startuptime vim.log
-vim vim.log
-rm vim_keys.txt vim.log 
-rm RED.epub
-doas pacman -S hyperfine
-hyperfine "nvim --headless +qa"
-hyperfine "nvim +qa"
-cd notes
-firefox reiseplan.pdf
-firefox watzmann-tour.pdf
-firefox index.
-firefox index.pdf
-firefox reisepland.pdf
-calc
-cat wimbachgrieshuette.md
-zip -r benni.zip benni_urlaub
-vim html.html
-nvim
-nvim Downloads/zenlima.html
-zip -r nvim.zip wiki_neovim
 rpi-imager
 ssh-keygen
 cat .ssh/id_ed25519.pub
@@ -302,7 +22,6 @@ doas pacman -S node
 doas pacman -S nodejs
 git commit -m "ToDo's"
 doas pacman -S gcc
-vim
 doas update-grub
 cd .config/foot
 vim foot.ini
@@ -341,7 +60,6 @@ vim cursor.css
 lls
 git commit -m "curser start"
 ssh gulugulu@aegaeon.uberspace.e
-doas pacman -S fzf
 doas pacman -S nnn
 lighj
 doas pacman -S light
@@ -362,13 +80,11 @@ yay -S signal-desktop-arm
 chmod +x Signal-5.12.0-beta.1.AppImage
 ./Signal-5.12.0-beta.1.AppImage
 cd 
-cd git
 git clone git@github.com:signalapp/Signal-Desktop.git
 cd Signal-Desktop
 make configure
 ./scripts/prepare_alpha_build.js
 configmenu
-make
 doas pacman -S flatpak
 doas flatpak remote-add --if-not-exists signal-arm https://elagost.com/flatpak/signal.flatpakrepo
 flatpak install signal-arm org.signal.Signal
@@ -517,10 +233,7 @@ cd jmatrix
 cd .config/qutebrowser/jmatrix
 git clone git@github.com:mirryi/jmatrix.git ./
 rm -rf .git .gitignore .gitlab-ci.yml
-cd
-cd git/dotfiles
 git commit -m "qute jmatrix"
-torbrowser-launcher
 tmux
 vim deutsch.md
 pwdd
@@ -555,7 +268,6 @@ git clone git@github.com:Team-Valkyrie/astro_website.git
 cd astro_website
 npm instal
 git commit -m "config"
-htop
 cp Brands.astro Car.astro
 vim C
 vim Ca
@@ -619,7 +331,6 @@ rm widgets/CanvacContainer.astro
 npm run astro new car
 cd src/components/ls
 cd src/components/
-ks
 vim Car.astro
 vim scripts
 mkdir scripts
@@ -656,8 +367,6 @@ ls js
 vim js/app.js
 yay -Ss velox
 yay -S velox-git
-yay -Syyyu
-cd .local/share/nvim/lazy
 ls mason
 ls Mar
 cd markdown-preview.nvim
@@ -847,10 +556,8 @@ npm run buld
 rm -rf ./*
 rm -rf ./.*
 c d..
-cd ..
 rm -rf website
 git clone git@github.com:Team-Valkyrie/website.git
-ls -la
 rm -rf .astro
 cp -rf ./astro.config.mjs ./dist ./LICENSE.md ./netlify.toml ./node_modules ./package.json ./package-lock.json ./public ./README.md ./sandbox.config.json ./src ./tailwind.config.cjs ./tsconfig.json ./vercel.json ./vscode.tailwind.json ./.astro ./.editorconfig ./.eslintignore ./.eslintrc.js ./.gitignore ./.npmrc ./.prettierignore ./.prettierrc.js ./.stackblitzrc ./.vscode  ../website/
 git commit -m "update"
@@ -974,7 +681,6 @@ ls Downloads/*.g
 ls Downloads/*.g&
 ls Downloads/*.g*
 ls Downloads/*.glb
-cd Downloads
 unzip rusty_metal_sheet_1k.gltf.zip
 cp ~/Downloads/scene.glb ./scene.glb
 mv scene.glb scene.glb.bal
@@ -995,19 +701,695 @@ npm run dev
 git commit -m "three js > spline"
 doas shutdown -h now
 ssh hirschii@draco.uberspace.de
-ls
 vim .htaccess
 git commit -m "htaccess|\
 "
-n -e
 npm run build
-git add .
 git commit -m "build"
-git push
-doas pacman -Syyyu
 doas pacman -S task
-task sync
-task
 yay -S vit
 vit
+cd git/dotfiles
+git add .
+git commit -m "trello warrior:\
+"
+git push
+ATATT3xFfGF0g25mj60eKF1sJyg0r8gxcJLx4UibylybL_eYJEnPonmijOSkiq8B2l_p0mr8y2GBSlAUm9iI9SVeqIy0oqS5wPoPjnP8MboS9CrlsDQlRnzEjkG0u_0K_BtGohxEyoPICeTr5D-8jVM08U0MfAkTIvDMbJWyyPpcN3E_NY8P-HE=D89431AA
+trellowarrior auth --api-key bc152e67ebdf73c0d995ef46943b44ca --api-key-secret abcd10ca61aede79de3a7bd8a712e1ff55bdef29c24c1e4e50258276c87c71cf --expiration never --name TrelloWarrior
+task add project:valkyrie +website 3d fuer md:
+trellowarrior sync valkyrie
+trellowarrior -c
+mkdir .config/trellowarrior
+vim .config/trellowarrior/trellowarrior.conf
+yay -S trellowarrior\
+
+doas pacman -S tasksh
+git clone --recursive git@github.com:GothenburgBitFactory/taskshell.git
+cd taskshell
+cat INSTALL
+vim INSTALL
+git@github.com:GothenburgBitFactory/taskshell.git
+cat INSTALL | grep cmake
+cmake -DCMAKE_BUILD_TYPE=release .
+make
+make install
+doas make install
+yay -S taskshell
+yay -S tasksh
+mv client.cert.pem client.cert.pem.bak
+mv client.key.pem client.key.pem.bak
+mv ca.cert.pem ca.cert.pem.bak
+cp ~/Downloads/private.* ./
+cd .task
+rm ca.cert.pem
+cp ~/Downloads/ca.cert.pem ./
+task sync init
+task -h
+task help
+rm backlog.data completed.data pending.data undo.data
+mv ca.cert.pem.bak ca.cert.pem
+mv client.cert.pem.bak client.cert.pem
+mv client.key.pem.bak client.key.pem
+taskhs
+habit
+noter
+tasksh
+trellowarrior sync
+rr
+sum
+summary
+vim .config/zsh/
+vim .config/shell
+doas pacman -S tasklin
+doas pacman -S tasklib
+yay -S tasklin
+yay -S taskli
+yay -S tasklib
+yay -S nv
+doas pacman -S bat ncat pandoc rg tig w3m
+doas pacman -S bat tig w3m
+yay -S ncat pandoc rg
+task add project:workflow timeboxing workflow taskwarrior
+q4 5
+task sycn
+task sync
+vim .nbrc
+ls notes
+nb init
+ls ~/.n
+ls ~/.nb
+nv add
+nb add
+nb 1
+yay -S ncat
+doas pacman -S nca
+doas pacman -S ncat
+doas pacman -S netcat
+nact
+doas pacman -S nmap
+ncat
+nb browse
+nb open
+nb open notebooks
+nb open home
+nb
+nb open 1
+doas pacman -S zk
+zk init
+vim /home/niklas/notes/aufgabe/physik/20231012.md
+zk
+note
+zk list
+git clone https://github.com/sirupsen/zk.git ~/zk
+yay -S rg
+yay -S ripgrep
+yay -S gsort
+doas pacman -S gsort
+doas pacman -Ss gsort
+yay -Ss gsort
+ls zk
+ls zk/samples
+vim zk/samples/
+k
+vim .config/trellowarrior
+q1
+q
+q2 1
+q4 2
+q2 3
+tasks
+tasksync
+task syc
+task add project:School musik lernen
+rm -rf .nb .nbrc
+yay -R nb
+vim .config/nvim
+doas pacman -S fzf
+vim .config/nvim/lua/plugins/zettelkasten.lua
+echo $ZK_NOTEBOOK_DIR
+vim .config/nvim/lua/plugins
+cd notes
+rm 1fzf.md wzw0.md
+doas pacman -S sqlite
+doas pacman -S sqlite4
+doas pacman -S sqlite3
+gem install -h
+cd zk
+gem install sqlite3
+cd .local/share/nvim/lazy
+rm -rf markdown-preview.nvim
+vim 
+vim test.md
+cat test.md
+doas pacman -S emanote
+yay -S emanote
+doas pacman -S nv
+doas pacman -S nb
+yay -S nb
+yay -S taskquant
+pip3
+doas pacman -S pip
+python3 pip
+python3 pip --globale
+python3 pip --global
+doas pacman -S python-pip
+pip usr install taskquant tabulate
+pip user install taskquant tabulate
+pip install global taskquant tabulate
+pip install user taskquant tabulate
+doas pacman -S python-taskquant python-tabulate
+doas pacman -Ss taskquant
+pip install taskquant
+python -m site
+python -m venv
+python3 -m pip install --user --upgrade pip
+\
+\
+python3 -m venv env\
+
+pip install --user taskquant tabulate
+source env/bin/activate
+pip install taskquant tabulate
+pip install --upgrade pip
+ls env
+cd env
+cd bin
+./tq
+mv env .env
+echo $PATH
+ls ~/.env/bin
+~/.env/bin/tq
+mv .env env
+vim .zprofile
+~/env/bin/tq
 vim .taskrc
+zkt
+zks
+
+vim
+source .zprofile
+tq
+task 1 done
+task 1 delete
+tq -v
+tq -p ~/.task/ -v
+task
+doas pacman -S tor
+tor
+torbrowser-launcher
+cd tor-browser-linux-x86_64-13.0
+cd tor-browser-linux-x86_64-13.0.1
+./firefox
+start-tor-browser
+cd tor-browser-linux-arm64-12.5
+cd tor-browser-linux-arm64-12.5.6_ALL
+cd tor-browser
+vim start-tor-browser.desktop
+cd Browser
+./start-tor-browser
+cp start-tor-browser ~/.local/bin
+./start-tor-browser.desktop
+doas pacman -S taskell
+yay -S taskell
+doas pacman -S signal
+yay -S debtap
+cd Downloads
+dabtap 
+debtap MullvadVPN-2023.5_arm64.deb
+debtap -u MullvadVPN-2023.5_arm64.deb
+doas debtap -u MullvadVPN-2023.5_arm64.deb
+ls MullvadVPN-2023.5_arm64.deb
+debtap -h
+doas dabtap -u
+doas debtap MullvadVPN-2023.5_arm64.deb
+yay -Syyyu
+doas debtap -u
+go install -v github.com/alpkeskin/mosint/v3/cmd/mosint@latest
+mosint
+cd
+ls -la
+cd go/bin
+./mosint
+./mosint --coffee
+./mosint niklasvonh@gmail.com
+vim mosint.yaml
+n -e
+git clone git@github.com:GhettoGeek/EMAGNET.git
+cd git/EMAGNET
+bash -t 300
+bash emagnet -t 1
+bash emagnet -t 300
+chmod +x emagnet
+doas pacman -S wget
+./emagnet -t 300
+doas pacman -S screen
+./emagnet -q
+pkill emagnet
+killall emagnet
+./emagnet -h
+./emagnet -S mhirschf@gmail.com
+./emagnet --emagent
+./emagnet
+./emagnet -g
+./emagnet -g gmail
+./emagnet --emagnet
+xargs --show-limits -s 1 2>&1|grep -i "parallelism"|awk '{print $8}'
+echo $(xargs --show-limits -s 1 2>&1|grep -i "parallelism"|awk '{print $8}') / 2|bc
+yay -S mullvad-vpn
+git clone git@github.com:Hirschiii/secon_brain_privat.git
+cd secon_brain_privat
+vim wiki
+vim wiki-kalender.md
+task add wiki alt in neu transformieren
+task in
+task inbox
+q2 2
+q4 4
+mkdir Navier-Stroke
+doas pacman -S python-virtualen
+doas pacman -S python-virtualenv
+doas pacman -S python-matplotlib
+virtualenv Navier-Stroke
+cd Navier-Stroke
+cp ../ns.py ./
+pip install numpy
+vim ns.py
+python li
+pip install tqdm
+python lid_drive.py
+vim li
+vim lid_drive.py
+python lid_drive.py -h
+python ns.py
+ls bin
+doas pacman -S jupyterlab jupyter-notebook
+doas pacman -Syyyu
+doas pacman -S jupyterlab jupyter-notebook  python-ipykernel
+cd git
+git clone git@github.com:VHeusinkveld/2D_Incompressible_NV_Solver-CP4.git
+cd 2D_Incompressible_NV_Solver-CP4
+jupyter notebook
+pip install taichi -U
+cd projects/cfd_sf
+git clone git@github.com:hietwll/LBM_Taichi.git
+cd ..
+python -m virtualenv LBM_Taichi
+cd LBM_Taichi
+pip
+./bin/activate
+source ./bin/activate
+pip install 
+ks
+pip install matplotlib
+python lbm_solver.py
+doas pacman -S python-taichi
+pip install taichi
+yay -S python-taichi
+cd projects/cfd_sf/lbm
+ls
+ls re
+ls results
+ls results/2023-10-28_16_54_43/
+firefox results/2023-10-28_16_54_43/turek.png
+firefox results/2023-10-28_16_54_43/png/u_norm_9.png
+hotp
+htop
+cd notes
+cd wiki
+ls
+vim ffmpg.md
+cd projects/cfd_sf/l
+cd projects/cfd_sf/lbm
+ls results/2023-10-28_16_54_43
+cd results
+cd 2023-10-28_16_54_43
+vm drag_lift
+vim dt
+vim drag_lift
+scim
+yay -S scim
+scim turek.
+scim turek.csv
+yay -S sc-im
+vim turek.csv
+ls png
+firefox png/u_norm_45.png
+ffmpeg -framerate 30 -pattern_type glob -i './png/*.png' \\
+  -c:v libx264 -pix_fmt yuv420p out.mp4
+mpb
+mpv
+doas pacman -S mpv
+ffmpeg -framerate 20 -pattern_type glob -i './png/*.png' \\
+  -c:v libx264 -pix_fmt yuv420p out.mp4
+ffmpeg -framerate 10 -pattern_type glob -i './png/*.png' \\
+  -c:v libx264 -pix_fmt yuv420p out.mp4
+ffmpeg -framerate 24 -i "./png/*.png" Project.mp4
+ffmpeg -framerate 10 -pattern_type glob -i './png/*.png" out.mp4
+ffmpeg -framerate 10 -pattern_type glob -i './png/*.png' out.mp4
+ffmpeg -framerate 2 -pattern_type glob -i './png/*.png' out.mp4
+mpv out.mp4
+ls
+cd png
+nautilus ./
+cd projects/cfd_sf
+git clone git@github.com:lettucecfd/lettuce.git
+python -m virtualenv lettuce
+cd lettuce
+source bin/activate
+pip install -r ./requirements
+pip install -r ./requirements.txt
+python setup.py install
+python setup.py test
+\
+\
+lettuce benchmark\
+
+lettuce
+lettuce --no-cuda benchmark
+wget https://raw.githubusercontent.com/lettucecfd/lettuce/master/examples/Simulation_and_outputs.py
+vim Simulation_and_outputs.py
+python Simulation_and_outputs.py
+ls
+cd projects/cfd_sf/LBM_Taichi
+./lbm_solver.py
+python lbm_solver.py
+vim lbm_solver.py
+cd ..
+git clone git@github.com:jviquerat/lbm.git
+python -m virtualenv lbm
+cd lbm
+./bin/activate
+source ./bin/activate
+pip install ./requirements.txt
+ls
+ls lbm/src/app
+pip install pil
+pip install PIL
+pip install Pillow
+pip install scipy
+pip install -r ./requirements.txt
+pip install matplotlib
+cat requirements.txt
+pip install numba
+python start.py turek
+python setup.py test 
+doas pacman -S gnuplot
+cd projects/cfd_sf/lbm
+cd results/2023-10-28_16_54_43
+ffmpeg -framerate 10 -pattern_type glob -i './png/*.png' \\
+  -c:v libx264 -pix_fmt yuv420p out.mp4
+ls png
+ffmpeg -framerate 10 -pattern_type glob -i './png/u_norm_*.png' \\
+  -c:v libx264 -pix_fmt yuv420p out.mp4
+cd png
+nautilus .
+ffmpeg -framerate 30 -pattern_type glob -i './png/u_norm_*.png' \\
+  -c:v libx264 -pix_fmt yuv420p out.mp4
+ls png/n
+ls png/
+ls png/*.ong
+ls png/*.png
+ffmpeg -framerate 30 -pattern_type glob -i './png/u_norm_%d.png' \\
+  -c:v libx264 -pix_fmt yuv420p out.mp4
+ffmpeg -framerate 30 -pattern_type glob -i ./png/u_norm_%d.png \\
+  -c:v libx264 -pix_fmt yuv420p out.mp4
+ffmpeg -framerate 30 -i ./png/u_norm_%d.png \\
+  -c:v libx264 -pix_fmt yuv420p out.mp4
+ffmpeg -framerate 25 -i ./png/u_norm_%d.png \\
+  -c:v libx264 -pix_fmt yuv420p out.mp4
+doas pacman -S sc-im
+yay -S sc-im
+sc-im
+vim turek.csv
+sc-im turek.csv
+mpv out.mp4
+n -e
+ls
+vim chatgpt.py
+python chatgpt.py
+doas pacman -Ss ansy
+n -e
+rm jqp3.md
+rm kqbw.md
+zk edit -i
+ls
+mkdir wiki
+doas shutdown -h now
+task
+task 4 start
+task add project:workflow timewarrior hook
+q4 5
+cd projects
+ls
+mkdir cfd_sf
+cd cf
+n -e
+python ns.py
+cd
+pip install jupyter
+cd projects/cfd_sf
+cd Navier-Stroke
+ls
+cd projects
+cd cfd_sf
+vim sim_aero.py
+python sim_aero.py
+ls
+doas pacman -S openfoam
+cd projects
+n -e
+ls
+source ./bin/activate
+pip install scipy
+pip install cmasher
+python stim.py
+vim stim.py
+cd projects/cfd_sf/Navier-Stroke
+ls
+source ./bin/activate
+vim ns.py
+n -e
+l
+ls
+vim tmux.conf
+n -e
+vim ns.py
+pip install tqdm
+source ./bin/activate
+python ns.py
+l.
+doas pacman -S compinit
+yay _S compinti
+yay _S compinit
+yay -S compinit
+vim .config/
+cd .config
+cd git/dotfiles
+n -e
+ls
+mkdir starship
+cd starship
+vim starship.toml
+cd
+pwd
+cd
+ls
+cd .config/tmux
+vim tmux.conf
+mkdir scripts
+cd scripts
+vim cal.sh
+chmod +x cal.sh
+./cal.sh
+jkn -e
+n -e
+ls
+doas pacman -S startship
+yay -S startship
+curl -sS https://starship.rs/install.sh | sh\
+
+pacman -S starship
+doas pacman -S starship
+cd
+vim .zshrc
+doas pacman -S lua-language-server
+cd .config/nvim
+n -e
+vim .config/nvim/lua/plugins/c
+vim .config/nvim/lua/plugins/color.lua
+ls
+pwd
+cd .config/sway
+ls
+mkdir themes
+cd themes
+vim catppuccin-mocha
+n -e
+pwd
+ls
+tmux
+tmux -h
+cd notes
+mkdir Wiki
+ls
+rm -rf wiki
+ls
+ls notes
+rm -rf notes/Wiki
+cd .config/nvim
+n -e
+cd .config/nvim
+n -e
+ls
+pwd
+cd git
+git clone git@github.com:yuphin/turbulent-cfd.git
+cd turbulent-cfd
+cmake .. -DUSE\_VULKAN=ON
+vim CMakeLists.txt
+mkdir build
+cd build
+make ..
+doas pacman -S vtk
+doas pacman -S cli11
+doas pacman -S openvr
+cmake ..
+doas pacman -S mpi4py
+yay -S mpi4py
+git clone git@github.com:AlbertoCuadra/RANS_turbulent_channel_flow.git
+cd RANS_turbulent_channel_flow
+vim main.m
+doas pacman -S matlab
+yay -S matlab
+git clone git@github.com:sergeas67/OpenHyperFLOW2D.git
+rm -rf 2D_Incompressible_NV_Solver-CP4 RANS_turbulent_channel_flow Signal-Desktop turbulent-cfd
+rm -rf yay
+cd OpenHyperFLOW2D
+n -e
+ls
+make clean
+make
+make run
+make build
+cd projects/cfd_sf
+cd Navier-Stroke
+source ./bin/activate
+vim ns.py
+ls
+pip install matplotlib
+firefox foo.png
+python lid_drive.py
+vim lid_drive.py
+doas pacman -S intel-oneapi-mkl
+doas pacman -S r gcc-fortran
+ls
+yay -S docker-desktop
+cd git
+git clone git@github.com:ucns3d-team/UCNS3D.git
+cd UCNS3D
+cd s
+cd src
+make
+make 
+make -h
+1make -f Makefile clean all
+make -f Makefile clean all
+ld
+make -f Makefile_common clean all
+ls
+n -e
+docker build . -t ucns3d -f Dockerfile
+doas docker build . -t ucns3d -f Dockerfile
+doas docker run
+doas pacman -S docker
+docker run -it --rm archlinux bash -c "echo hello world"
+doas docker run -it --rm archlinux bash -c "echo hello world"
+doas systemctl start docker.service
+git clone git clone https://github.com/tumaer/JAXFLUIDS.git
+git clone https://github.com/tumaer/JAXFLUIDS.git
+cd JAXFLUIDS
+s
+cd notebooks
+cd 01_Sod
+python -m virtualenv .
+pip install .
+pip install jaxfluid
+n -e
+ls
+source ./bin/activate
+python -m pip install .
+jupyter notebook
+mkdir lattice
+python -m virtualenv lattice
+cd lattice
+ls
+source ./bin/activate
+pip install numpy matplotlib
+python latte.py
+vim latte.py
+doas shutdown -h now
+cd projects/cfd_sf
+cd Navier-Stroke
+vim lid_drive.py
+pip
+source ./bin/activate
+pip install fenice
+pip install fenics
+python3 lid_drive.py
+pip3 install fenics
+python -m pip install fenics
+doas pacman -S python-fenics
+doas pacman -S fenics
+pip3 install fenics-ffc --upgrade
+FENICS_VERSION=$(python3 -c"import ffc; print(ffc.__version__)")
+git clone --branch=$FENICS_VERSION https://bitbucket.org/fenics-project/dolfin
+python lid_drive.py
+ls
+cd
+cd git
+doas pacman -S boost
+pip3 install fenics-ffc --upgrade
+pip3 install fenics-ffc --upgrade --user
+python -m pip3 install fenics-ffc --upgrade --user
+python3 -m pip3 install fenics-ffc --upgrade --user
+python3 -m pip install fenics-ffc --upgrade --user
+doas pacman -S pipx
+yay -S pipx
+doas pacman -Syyyu
+doas pacman -S python-pipx
+pipx install fenics
+FENICS_VERSION=$(python3 -c"import ffc; print(ffc.__version__)")
+n -e
+source ./bin/activate
+vim li
+vim lid_drive.py
+python lid_drive.py
+git clone 
+git clone git@github.com:FEniCS/dolfinx.git
+cd dolfinx/cpp
+ls
+mkdir build
+cd build
+doas pacman -S basic
+doas pacman -S basix
+pip install fenics-basix
+pip install git+https://github.com/FEniCS/basix.git
+doas pacman -S mpi
+doas pacman -S hdf5
+cmake ..
+vim .zshrc
+vim .config/zsh
+n -e
+cd .config/shell/
+ls
+vim zsh_alias 
+yay -S yt-dlp
+cd Downloads
+yta-best https://www.youtube.com/watch?v=hXG1uCiIe-U&t=297s
+yta-best 'https://www.youtube.com/watch?v=hXG1uCiIe-U&t=297s'
+mpv COMPUTATIONAL\ FLUID\ DYNAMICS\ ｃ�\ CFD\ BASICS\ \[hXG1uCiIe-U\].opus
+ytv-best 'https://www.youtube.com/watch?v=hXG1uCiIe-U&t=297s'
+mpv COMPUTATIONAL\ FLUID\ DYNAMICS\ ｃ�\ CFD\ BASICS\ \[hXG1uCiIe-U\].webm
+doas pacman -S joplin
+doas pacman -S steam
+doas pacman -Ss steam

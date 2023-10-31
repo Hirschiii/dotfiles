@@ -25,6 +25,10 @@ report.todo.labels=ID,Project,Text,Urg
 report.todo.sort=urgency-,project-
 report.todo.filter=status:pending -ACTIVE -WAITING -BLOCKED -OVERDUE
 
+uda.score.type=numeric
+uda.score.label=Score
+urgency.uda.score.coefficient=2
+
 # Alle Schulaufgaben
 
 report.schulaufgaben.description=Schulaufgaben

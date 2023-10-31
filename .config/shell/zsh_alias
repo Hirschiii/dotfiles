@@ -29,3 +29,5 @@ alias musescore_dl="npx msdl"
 noter() { nvim + "$(date +"%y-%m-%d %H:%M" | while read d t ; do f=$HOME/notes/daily/$d ; ( echo; echo $t ; echo ) >> "$f" ; echo "$f"; done; )" ; }
 
 alias habit="task rc.data.location=~/.habit"
+
+alias tasksync="task sync && trellowarrior sync"

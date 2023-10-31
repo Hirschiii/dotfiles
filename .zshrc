@@ -36,7 +36,7 @@ export NNN_OPTS="E"
 # Enable colors and change prompt:
 autoload -U colors && colors
 
-PS1="%B%{$fg[red]%}[%{$fg[yellow]%}%n%{$fg[green]%}@%{$fg[blue]%}%M %{$fg[magenta]%}%1d%{$fg[red]%}]%{$reset_color%}$%b "
+# PS1="%B%{$fg[red]%}[%{$fg[yellow]%}%n%{$fg[green]%}@%{$fg[blue]%}%M %{$fg[magenta]%}%1d%{$fg[red]%}]%{$reset_color%}$%b "
 # PS1='%~ $: '
 # PS1="%B%{%F{1}%}[%{$fg[yellow]%}%n%{$fg[green]%}@%{$fg[blue]%}%M %{$fg[magenta]%}%~%{$fg[red]%}]%{$reset_color%}$%b "
 # PS1="%{$fg[red]%}%n%{$reset_color%}@%{$fg[blue]%}%m %{$fg[yellow]%}%(5~|%-1~/.../%3~|%4~) %{$reset_color%}%% "
@@ -148,13 +148,13 @@ alias l.='exa -a | egrep "^\."'
 
 # Herbstluftwm
 
-alias hc="herbstclient"
+# alias hc="herbstclient"
 
 
 alias vim="nvim"
 
 
-alias kara="java -Dsun.java2d.uiScale=2.0 -jar ~/Downloads/kara.jar"
+# alias kara="java -Dsun.java2d.uiScale=2.0 -jar ~/Downloads/kara.jar"
 
 
 # Colorize grep output (good for log files)
@@ -168,6 +168,8 @@ if [ "$(tty)" = "/dev/tty1" ]; then
     export `gnome-keyring-daemon --start --components=ssh`
     exec /usr/bin/sway > $XDG_RUNTIME_DIR/sway.log 2>&1
 fi
+
+eval "$(starship init zsh)"
 
 # If not running interactively, do not do anything
 # [[ $- != *i* ]] && return
@@ -185,6 +187,4 @@ source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zs
 # eval "$(starship init zsh)"
 # fastfetch | blahaj -c gay
 # fortune && pokemon-colorscripts -r
-export PATH=$PATH:/home/niklas/.spicetify
-
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
