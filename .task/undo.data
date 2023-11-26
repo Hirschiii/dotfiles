@@ -3814,3 +3814,308 @@ time 1698498576
 old [description:"timewarrior hook" entry:"1698498571" modified:"1698498571" project:"workflow" status:"pending" uuid:"c6f2eb9b-788c-48a0-87cc-a18ce2b7e63a"]
 new [description:"timewarrior hook" entry:"1698498571" modified:"1698498576" priority:"L" project:"workflow" status:"pending" urgent:"N" uuid:"c6f2eb9b-788c-48a0-87cc-a18ce2b7e63a"]
 ---
+time 1698768390
+old [description:"wiki alt in neu transformieren" entry:"1698496021" modified:"1698498556" priority:"L" start:"1698498556" status:"pending" urgent:"N" uuid:"b6e3e5c6-8422-470c-91e5-651b6f343fda"]
+new [description:"wiki alt in neu transformieren" entry:"1698496021" modified:"1698768390" priority:"L" status:"pending" urgent:"N" uuid:"b6e3e5c6-8422-470c-91e5-651b6f343fda"]
+---
+time 1698835178
+new [description:"s 60 m2 leni \/ deutschland" entry:"1698835178" modified:"1698835178" project:"schule" status:"pending" tags:"geschichte" tags_geschichte:"x" uuid:"c714c29b-4e17-496c-a046-49e7c679d143"]
+---
+time 1698848982
+new [description:"mathe word" due:"1699021782" entry:"1698848982" modified:"1698848982" status:"pending" uuid:"42536d53-4ee0-44a3-840e-56e6733ab4ed"]
+---
+time 1698911772
+old [description:"timeboxing workflow taskwarrior" entry:"1698414779" modified:"1698414783" priority:"L" project:"workflow" status:"pending" urgent:"N" uuid:"0cce3fa3-a30f-4957-a553-438519c6765b"]
+new [description:"timeboxing workflow taskwarrior" entry:"1698414779" modified:"1698911772" priority:"L" project:"workflow" reviewed:"1698911772" status:"pending" urgent:"N" uuid:"0cce3fa3-a30f-4957-a553-438519c6765b"]
+---
+time 1698911779
+old [description:"musik lernen" entry:"1698413904" modified:"1698496034" priority:"H" project:"School" status:"pending" urgent:"N" uuid:"fae01c35-5902-433a-b8da-c6a4340d14e0"]
+new [description:"musik lernen" end:"1698911779" entry:"1698413904" modified:"1698911779" priority:"H" project:"School" status:"completed" urgent:"N" uuid:"fae01c35-5902-433a-b8da-c6a4340d14e0"]
+---
+time 1698911784
+old [description:"timewarrior hook" entry:"1698498571" modified:"1698498576" priority:"L" project:"workflow" status:"pending" urgent:"N" uuid:"c6f2eb9b-788c-48a0-87cc-a18ce2b7e63a"]
+new [description:"timewarrior hook" end:"1698911784" entry:"1698498571" modified:"1698911784" priority:"L" project:"workflow" status:"completed" urgent:"N" uuid:"c6f2eb9b-788c-48a0-87cc-a18ce2b7e63a"]
+---
+time 1698911788
+old [description:"wiki alt in neu transformieren" entry:"1698496021" modified:"1698768390" priority:"L" status:"pending" urgent:"N" uuid:"b6e3e5c6-8422-470c-91e5-651b6f343fda"]
+new [description:"wiki alt in neu transformieren" entry:"1698496021" modified:"1698911788" priority:"L" reviewed:"1698911788" status:"pending" urgent:"N" uuid:"b6e3e5c6-8422-470c-91e5-651b6f343fda"]
+---
+time 1698911796
+old [description:"s 60 m2 leni \/ deutschland" entry:"1698835178" modified:"1698835178" project:"schule" status:"pending" tags:"geschichte" tags_geschichte:"x" uuid:"c714c29b-4e17-496c-a046-49e7c679d143"]
+new [description:"s 60 m2 leni \/ deutschland" entry:"1698835178" modified:"1698911796" project:"schule" reviewed:"1698911796" status:"pending" tags:"geschichte" tags_geschichte:"x" uuid:"c714c29b-4e17-496c-a046-49e7c679d143"]
+---
+time 1698911807
+old [description:"mathe word" due:"1699021782" entry:"1698848982" modified:"1698848982" status:"pending" uuid:"42536d53-4ee0-44a3-840e-56e6733ab4ed"]
+new [description:"mathe word" due:"1699021782" entry:"1698848982" modified:"1698911807" reviewed:"1698911807" status:"pending" uuid:"42536d53-4ee0-44a3-840e-56e6733ab4ed"]
+---
+time 1698911833
+old [description:"s 60 m2 leni \/ deutschland" entry:"1698835178" modified:"1698911796" project:"schule" reviewed:"1698911796" status:"pending" tags:"geschichte" tags_geschichte:"x" uuid:"c714c29b-4e17-496c-a046-49e7c679d143"]
+new [description:"s 60 m2 leni \/ deutschland" entry:"1698835178" modified:"1698911833" priority:"H" project:"schule" reviewed:"1698911796" status:"pending" tags:"geschichte" tags_geschichte:"x" urgent:"N" uuid:"c714c29b-4e17-496c-a046-49e7c679d143"]
+---
+time 1698911835
+old [description:"mathe word" due:"1699021782" entry:"1698848982" modified:"1698911807" reviewed:"1698911807" status:"pending" uuid:"42536d53-4ee0-44a3-840e-56e6733ab4ed"]
+new [description:"mathe word" due:"1699021782" entry:"1698848982" modified:"1698911835" priority:"H" reviewed:"1698911807" status:"pending" urgent:"N" uuid:"42536d53-4ee0-44a3-840e-56e6733ab4ed"]
+---
+time 1698911897
+new [description:"trello board" entry:"1698911897" modified:"1698911897" project:"valkyrie" status:"pending" uuid:"7ee82f7d-5646-4ef0-88dd-0466fcad8296"]
+---
+time 1698939191
+new [description:"the blair witch project" entry:"1698939191" modified:"1698939191" project:"filme" status:"pending" uuid:"7138dda7-690b-4ce0-8730-3d7a2f10b551"]
+---
+time 1698951256
+new [description:"aufg 2 k" entry:"1698951256" modified:"1698951256" project:"mathe" status:"pending" uuid:"139932db-d065-4e26-9702-c6235b187041"]
+---
+time 1698951382
+new [description:"aufgabe 2 i fehlt" entry:"1698951382" modified:"1698951382" project:"mathe" status:"pending" uuid:"f72f4b4b-e70e-4e22-9564-643077dc25de"]
+---
+time 1698951617
+old [description:"aufgabe 2 i fehlt" entry:"1698951382" modified:"1698951382" project:"mathe" status:"pending" uuid:"f72f4b4b-e70e-4e22-9564-643077dc25de"]
+new [description:"aufgabe 2 ij fehlt" entry:"1698951382" modified:"1698951617" project:"mathe" status:"pending" uuid:"f72f4b4b-e70e-4e22-9564-643077dc25de"]
+---
+time 1699266972
+new [description:"finish the blogpost" entry:"1699266972" modified:"1699266972" project:"schule" status:"pending" tags:"english,homework" tags_english:"x" tags_homework:"x" uuid:"bc845d0d-2c6d-44d1-893c-c5124aef1a89"]
+---
+time 1699267190
+old [description:"mathe word" due:"1699021782" entry:"1698848982" modified:"1698911835" priority:"H" reviewed:"1698911807" status:"pending" urgent:"N" uuid:"42536d53-4ee0-44a3-840e-56e6733ab4ed"]
+new [description:"mathe word" due:"1699021782" end:"1699267190" entry:"1698848982" modified:"1699267190" priority:"H" reviewed:"1698911807" status:"completed" urgent:"N" uuid:"42536d53-4ee0-44a3-840e-56e6733ab4ed"]
+---
+time 1699267339
+new [description:"buch kaufen atonement" entry:"1699267339" modified:"1699267339" project:"schule" status:"pending" tags:"english" tags_english:"x" uuid:"053e900b-e68b-4e1b-b4bc-212f0d5451fe"]
+---
+time 1699267442
+old [annotation_1698412175:"&open;Trello URL&close; https:\/\/trello.com\/c\/qMO99ZQr" description:"3d fuer md:" entry:"1698411911" modified:"1698413598" priority:"H" project:"valkyrie" reviewed:"1698412482" status:"pending" tags:"website" tags_website:"x" trelloid:"653bb68eb5b827e2131c1edf" trellolistname:"To Do" urgent:"N" uuid:"8462ede1-0890-4ec0-aad9-e362f6ae82a4"]
+new [annotation_1698412175:"&open;Trello URL&close; https:\/\/trello.com\/c\/qMO99ZQr" description:"3d fuer md:" end:"1699267441" entry:"1698411911" modified:"1699267442" priority:"H" project:"valkyrie" reviewed:"1698412482" status:"deleted" tags:"website" tags_website:"x" trelloid:"653bb68eb5b827e2131c1edf" trellolistname:"To Do" urgent:"N" uuid:"8462ede1-0890-4ec0-aad9-e362f6ae82a4"]
+---
+time 1699267450
+old [description:"timeboxing workflow taskwarrior" entry:"1698414779" modified:"1698911772" priority:"L" project:"workflow" reviewed:"1698911772" status:"pending" urgent:"N" uuid:"0cce3fa3-a30f-4957-a553-438519c6765b"]
+new [description:"timeboxing workflow taskwarrior" end:"1699267450" entry:"1698414779" modified:"1699267450" priority:"L" project:"workflow" reviewed:"1698911772" status:"completed" urgent:"N" uuid:"0cce3fa3-a30f-4957-a553-438519c6765b"]
+---
+time 1699273739
+new [description:"saman noten ausdrucken" entry:"1699273739" modified:"1699273739" status:"pending" uuid:"e435690e-ca33-4974-9836-4df1178f44ec"]
+---
+time 1699273744
+old [description:"saman noten ausdrucken" entry:"1699273739" modified:"1699273739" status:"pending" uuid:"e435690e-ca33-4974-9836-4df1178f44ec"]
+new [description:"saman noten ausdrucken" entry:"1699273739" modified:"1699273744" priority:"H" status:"pending" urgent:"Y" uuid:"e435690e-ca33-4974-9836-4df1178f44ec"]
+---
+time 1699618573
+old [description:"wiki alt in neu transformieren" entry:"1698496021" modified:"1698911788" priority:"L" reviewed:"1698911788" status:"pending" urgent:"N" uuid:"b6e3e5c6-8422-470c-91e5-651b6f343fda"]
+new [description:"wiki alt in neu transformieren" entry:"1698496021" modified:"1699618573" priority:"L" reviewed:"1699618573" status:"pending" urgent:"N" uuid:"b6e3e5c6-8422-470c-91e5-651b6f343fda"]
+---
+time 1699618578
+old [description:"s 60 m2 leni \/ deutschland" entry:"1698835178" modified:"1698911833" priority:"H" project:"schule" reviewed:"1698911796" status:"pending" tags:"geschichte" tags_geschichte:"x" urgent:"N" uuid:"c714c29b-4e17-496c-a046-49e7c679d143"]
+new [description:"s 60 m2 leni \/ deutschland" end:"1699618578" entry:"1698835178" modified:"1699618578" priority:"H" project:"schule" reviewed:"1698911796" status:"deleted" tags:"geschichte" tags_geschichte:"x" urgent:"N" uuid:"c714c29b-4e17-496c-a046-49e7c679d143"]
+---
+time 1699618580
+old [description:"trello board" entry:"1698911897" modified:"1698911897" project:"valkyrie" status:"pending" uuid:"7ee82f7d-5646-4ef0-88dd-0466fcad8296"]
+new [description:"trello board" end:"1699618580" entry:"1698911897" modified:"1699618580" project:"valkyrie" status:"deleted" uuid:"7ee82f7d-5646-4ef0-88dd-0466fcad8296"]
+---
+time 1699618582
+old [description:"the blair witch project" entry:"1698939191" modified:"1698939191" project:"filme" status:"pending" uuid:"7138dda7-690b-4ce0-8730-3d7a2f10b551"]
+new [description:"the blair witch project" entry:"1698939191" modified:"1699618582" project:"filme" reviewed:"1699618582" status:"pending" uuid:"7138dda7-690b-4ce0-8730-3d7a2f10b551"]
+---
+time 1699618588
+old [description:"aufg 2 k" entry:"1698951256" modified:"1698951256" project:"mathe" status:"pending" uuid:"139932db-d065-4e26-9702-c6235b187041"]
+new [description:"aufg 2 k" end:"1699618588" entry:"1698951256" modified:"1699618588" project:"mathe" status:"deleted" uuid:"139932db-d065-4e26-9702-c6235b187041"]
+---
+time 1699618591
+old [description:"aufgabe 2 ij fehlt" entry:"1698951382" modified:"1698951617" project:"mathe" status:"pending" uuid:"f72f4b4b-e70e-4e22-9564-643077dc25de"]
+new [description:"aufgabe 2 ij fehlt" end:"1699618591" entry:"1698951382" modified:"1699618591" project:"mathe" status:"deleted" uuid:"f72f4b4b-e70e-4e22-9564-643077dc25de"]
+---
+time 1699618594
+old [description:"finish the blogpost" entry:"1699266972" modified:"1699266972" project:"schule" status:"pending" tags:"english,homework" tags_english:"x" tags_homework:"x" uuid:"bc845d0d-2c6d-44d1-893c-c5124aef1a89"]
+new [description:"finish the blogpost" end:"1699618594" entry:"1699266972" modified:"1699618594" project:"schule" status:"deleted" tags:"english,homework" tags_english:"x" tags_homework:"x" uuid:"bc845d0d-2c6d-44d1-893c-c5124aef1a89"]
+---
+time 1699618606
+old [description:"buch kaufen atonement" entry:"1699267339" modified:"1699267339" project:"schule" status:"pending" tags:"english" tags_english:"x" uuid:"053e900b-e68b-4e1b-b4bc-212f0d5451fe"]
+new [description:"buch kaufen atonement" entry:"1699267339" modified:"1699618606" project:"schule" reviewed:"1699618606" status:"pending" tags:"english" tags_english:"x" uuid:"053e900b-e68b-4e1b-b4bc-212f0d5451fe"]
+---
+time 1699618607
+old [description:"saman noten ausdrucken" entry:"1699273739" modified:"1699273744" priority:"H" status:"pending" urgent:"Y" uuid:"e435690e-ca33-4974-9836-4df1178f44ec"]
+new [description:"saman noten ausdrucken" entry:"1699273739" modified:"1699618607" priority:"H" reviewed:"1699618607" status:"pending" urgent:"Y" uuid:"e435690e-ca33-4974-9836-4df1178f44ec"]
+---
+time 1699704608
+old [description:"saman noten ausdrucken" entry:"1699273739" modified:"1699618607" priority:"H" reviewed:"1699618607" status:"pending" urgent:"Y" uuid:"e435690e-ca33-4974-9836-4df1178f44ec"]
+new [description:"saman noten ausdrucken" end:"1699704608" entry:"1699273739" modified:"1699704608" priority:"H" reviewed:"1699618607" status:"completed" urgent:"Y" uuid:"e435690e-ca33-4974-9836-4df1178f44ec"]
+---
+time 1699705155
+new [description:"impressum" entry:"1699705155" modified:"1699705155" project:"valkyrie.website" status:"pending" uuid:"c17669d2-b9bc-4e9b-a880-2ba988e7f2d1"]
+---
+time 1699705158
+new [description:"about" entry:"1699705158" modified:"1699705158" project:"valkyrie.website" status:"pending" uuid:"63ef462e-8b45-463e-b6c2-8b8f416a5126"]
+---
+time 1699705164
+new [description:"nav active" entry:"1699705164" modified:"1699705164" project:"valkyrie.website" status:"pending" uuid:"74f37a8a-ddf6-4748-9d1b-ebcb7472bfe5"]
+---
+time 1699705172
+old [description:"the blair witch project" entry:"1698939191" modified:"1699618582" project:"filme" reviewed:"1699618582" status:"pending" uuid:"7138dda7-690b-4ce0-8730-3d7a2f10b551"]
+new [description:"the blair witch project" end:"1699705171" entry:"1698939191" modified:"1699705172" project:"filme" reviewed:"1699618582" status:"deleted" uuid:"7138dda7-690b-4ce0-8730-3d7a2f10b551"]
+---
+time 1699705178
+old [description:"buch kaufen atonement" entry:"1699267339" modified:"1699618606" project:"schule" reviewed:"1699618606" status:"pending" tags:"english" tags_english:"x" uuid:"053e900b-e68b-4e1b-b4bc-212f0d5451fe"]
+new [description:"buch kaufen atonement" entry:"1699267339" modified:"1699705178" priority:"L" project:"schule" reviewed:"1699618606" status:"pending" tags:"english" tags_english:"x" urgent:"N" uuid:"053e900b-e68b-4e1b-b4bc-212f0d5451fe"]
+---
+time 1699705258
+new [description:"index inhalte" entry:"1699705258" modified:"1699705258" project:"valkyrie.website" status:"pending" uuid:"5c48848c-87f0-4987-96a2-dd8f5e620754"]
+---
+time 1699705652
+new [description:"new 3d model" entry:"1699705652" modified:"1699705652" project:"valkyrie.website" status:"pending" uuid:"97d01e7f-ecce-4a8b-9705-ac973a5b744f"]
+---
+time 1699783350
+new [description:"box attribute for taskwarrior" entry:"1699783350" modified:"1699783350" status:"pending" uuid:"9d76f118-3dd1-4894-bea9-c3d124811bc8"]
+---
+time 1699783354
+old [description:"box attribute for taskwarrior" entry:"1699783350" modified:"1699783350" status:"pending" uuid:"9d76f118-3dd1-4894-bea9-c3d124811bc8"]
+new [description:"box attribute for taskwarrior" entry:"1699783350" modified:"1699783354" priority:"L" status:"pending" urgent:"N" uuid:"9d76f118-3dd1-4894-bea9-c3d124811bc8"]
+---
+time 1699791338
+new [description:"kulturpass" entry:"1699791338" modified:"1699791338" status:"pending" uuid:"a6ebc957-bb2b-43f7-9c2e-06a0f2caef48"]
+---
+time 1699791341
+old [description:"kulturpass" entry:"1699791338" modified:"1699791338" status:"pending" uuid:"a6ebc957-bb2b-43f7-9c2e-06a0f2caef48"]
+new [description:"kulturpass" entry:"1699791338" modified:"1699791341" priority:"H" status:"pending" urgent:"Y" uuid:"a6ebc957-bb2b-43f7-9c2e-06a0f2caef48"]
+---
+time 1699866046
+new [description:"definition lorenskraft etc" entry:"1699866046" modified:"1699866046" project:"schule.phy" status:"pending" uuid:"b05df1f9-554a-4461-bc36-607f51dfd072"]
+---
+time 1699958199
+new [description:"herr kniedler nach cas umformung fragen" entry:"1699958199" modified:"1699958199" project:"schule" status:"pending" uuid:"dc9a8270-86e1-40fb-bba0-b390f49cd08f"]
+---
+time 1699958203
+old [description:"herr kniedler nach cas umformung fragen" entry:"1699958199" modified:"1699958199" project:"schule" status:"pending" uuid:"dc9a8270-86e1-40fb-bba0-b390f49cd08f"]
+new [description:"herr kniedler nach cas umformung fragen" entry:"1699958199" modified:"1699958203" priority:"H" project:"schule" status:"pending" urgent:"Y" uuid:"dc9a8270-86e1-40fb-bba0-b390f49cd08f"]
+---
+time 1700127853
+old [description:"impressum" entry:"1699705155" modified:"1699705155" project:"valkyrie.website" status:"pending" uuid:"c17669d2-b9bc-4e9b-a880-2ba988e7f2d1"]
+new [description:"impressum" entry:"1699705155" modified:"1700127853" priority:"L" project:"valkyrie.website" status:"pending" urgent:"Y" uuid:"c17669d2-b9bc-4e9b-a880-2ba988e7f2d1"]
+---
+time 1700127855
+old [description:"about" entry:"1699705158" modified:"1699705158" project:"valkyrie.website" status:"pending" uuid:"63ef462e-8b45-463e-b6c2-8b8f416a5126"]
+new [description:"about" entry:"1699705158" modified:"1700127855" priority:"L" project:"valkyrie.website" status:"pending" urgent:"Y" uuid:"63ef462e-8b45-463e-b6c2-8b8f416a5126"]
+---
+time 1700127856
+old [description:"nav active" entry:"1699705164" modified:"1699705164" project:"valkyrie.website" status:"pending" uuid:"74f37a8a-ddf6-4748-9d1b-ebcb7472bfe5"]
+new [description:"nav active" entry:"1699705164" modified:"1700127856" priority:"L" project:"valkyrie.website" status:"pending" urgent:"Y" uuid:"74f37a8a-ddf6-4748-9d1b-ebcb7472bfe5"]
+---
+time 1700127857
+old [description:"index inhalte" entry:"1699705258" modified:"1699705258" project:"valkyrie.website" status:"pending" uuid:"5c48848c-87f0-4987-96a2-dd8f5e620754"]
+new [description:"index inhalte" entry:"1699705258" modified:"1700127857" priority:"L" project:"valkyrie.website" status:"pending" urgent:"Y" uuid:"5c48848c-87f0-4987-96a2-dd8f5e620754"]
+---
+time 1700127860
+old [description:"new 3d model" entry:"1699705652" modified:"1699705652" project:"valkyrie.website" status:"pending" uuid:"97d01e7f-ecce-4a8b-9705-ac973a5b744f"]
+new [description:"new 3d model" entry:"1699705652" modified:"1700127860" priority:"L" project:"valkyrie.website" status:"pending" urgent:"Y" uuid:"97d01e7f-ecce-4a8b-9705-ac973a5b744f"]
+---
+time 1700127867
+old [description:"definition lorenskraft etc" entry:"1699866046" modified:"1699866046" project:"schule.phy" status:"pending" uuid:"b05df1f9-554a-4461-bc36-607f51dfd072"]
+new [description:"definition lorenskraft etc" entry:"1699866046" modified:"1700127867" priority:"L" project:"schule.phy" status:"pending" urgent:"Y" uuid:"b05df1f9-554a-4461-bc36-607f51dfd072"]
+---
+time 1700127878
+old [description:"herr kniedler nach cas umformung fragen" entry:"1699958199" modified:"1699958203" priority:"H" project:"schule" status:"pending" urgent:"Y" uuid:"dc9a8270-86e1-40fb-bba0-b390f49cd08f"]
+new [description:"herr kniedler nach cas umformung fragen" entry:"1699958199" modified:"1700127878" priority:"L" project:"schule" status:"pending" urgent:"Y" uuid:"dc9a8270-86e1-40fb-bba0-b390f49cd08f"]
+---
+time 1700127901
+new [description:"simulation in docker" entry:"1700127901" modified:"1700127901" project:"hausarbeit" status:"pending" uuid:"462dc8b0-22a9-462d-9540-4be2af3a6076"]
+---
+time 1700127909
+old [description:"simulation in docker" entry:"1700127901" modified:"1700127901" project:"hausarbeit" status:"pending" uuid:"462dc8b0-22a9-462d-9540-4be2af3a6076"]
+new [description:"simulation in docker" entry:"1700127901" modified:"1700127909" project:"hausarbeit" start:"1700127909" status:"pending" uuid:"462dc8b0-22a9-462d-9540-4be2af3a6076"]
+---
+time 1700553570
+new [description:"latex wiki mathe inf phy" entry:"1700553570" modified:"1700553570" project:"schule" status:"pending" uuid:"d1133094-e7f5-4a60-bdf1-c9f3ff36f9b3"]
+---
+time 1700647258
+old [description:"simulation in docker" entry:"1700127901" modified:"1700127909" project:"hausarbeit" start:"1700127909" status:"pending" uuid:"462dc8b0-22a9-462d-9540-4be2af3a6076"]
+new [description:"simulation in docker" end:"1700647258" entry:"1700127901" modified:"1700647258" project:"hausarbeit" status:"completed" uuid:"462dc8b0-22a9-462d-9540-4be2af3a6076"]
+---
+time 1700822765
+new [description:"mardown todos in taskwarrior" entry:"1700822765" modified:"1700822765" status:"pending" uuid:"676e3f02-2060-410a-8d75-cce4fea1eed5"]
+---
+time 1700916896
+new [description:"per file snippets" entry:"1700916896" modified:"1700916896" status:"pending" uuid:"85fbd04f-c1d7-4259-93d5-ee74c9b21f68"]
+---
+time 1700916899
+old [description:"per file snippets" entry:"1700916896" modified:"1700916896" status:"pending" uuid:"85fbd04f-c1d7-4259-93d5-ee74c9b21f68"]
+new [description:"per file snippets" entry:"1700916896" modified:"1700916899" priority:"L" status:"pending" urgent:"N" uuid:"85fbd04f-c1d7-4259-93d5-ee74c9b21f68"]
+---
+time 1700916920
+old [description:"latex wiki mathe inf phy" entry:"1700553570" modified:"1700553570" project:"schule" status:"pending" uuid:"d1133094-e7f5-4a60-bdf1-c9f3ff36f9b3"]
+new [description:"latex wiki mathe inf phy" entry:"1700553570" modified:"1700916920" priority:"L" project:"schule" status:"pending" urgent:"Y" uuid:"d1133094-e7f5-4a60-bdf1-c9f3ff36f9b3"]
+---
+time 1700916923
+old [description:"mardown todos in taskwarrior" entry:"1700822765" modified:"1700822765" status:"pending" uuid:"676e3f02-2060-410a-8d75-cce4fea1eed5"]
+new [description:"mardown todos in taskwarrior" entry:"1700822765" modified:"1700916923" priority:"L" status:"pending" urgent:"N" uuid:"676e3f02-2060-410a-8d75-cce4fea1eed5"]
+---
+time 1700916962
+old [description:"kulturpass" entry:"1699791338" modified:"1699791341" priority:"H" status:"pending" urgent:"Y" uuid:"a6ebc957-bb2b-43f7-9c2e-06a0f2caef48"]
+new [description:"kulturpass" entry:"1699791338" modified:"1700916962" priority:"H" status:"pending" urgent:"Y" uuid:"a6ebc957-bb2b-43f7-9c2e-06a0f2caef48" wait:"1701176162"]
+---
+time 1700917018
+old [description:"nav active" entry:"1699705164" modified:"1700127856" priority:"L" project:"valkyrie.website" status:"pending" urgent:"Y" uuid:"74f37a8a-ddf6-4748-9d1b-ebcb7472bfe5"]
+new [description:"nav active" end:"1700917015" entry:"1699705164" modified:"1700917018" priority:"L" project:"valkyrie.website" status:"deleted" urgent:"Y" uuid:"74f37a8a-ddf6-4748-9d1b-ebcb7472bfe5"]
+---
+time 1700917060
+old [description:"herr kniedler nach cas umformung fragen" entry:"1699958199" modified:"1700127878" priority:"L" project:"schule" status:"pending" urgent:"Y" uuid:"dc9a8270-86e1-40fb-bba0-b390f49cd08f"]
+new [description:"herr kniedler nach cas umformung fragen" end:"1700917058" entry:"1699958199" modified:"1700917060" priority:"L" project:"schule" status:"deleted" urgent:"Y" uuid:"dc9a8270-86e1-40fb-bba0-b390f49cd08f"]
+---
+time 1700917073
+new [description:"system rest" entry:"1700917073" modified:"1700917073" status:"pending" uuid:"ca2bc6fa-f9c6-4dac-b457-d7dcadd302d3"]
+---
+time 1700917118
+old [description:"system rest" entry:"1700917073" modified:"1700917073" status:"pending" uuid:"ca2bc6fa-f9c6-4dac-b457-d7dcadd302d3"]
+new [description:"system rest" entry:"1700917073" modified:"1700917118" priority:"L" status:"pending" urgent:"Y" uuid:"ca2bc6fa-f9c6-4dac-b457-d7dcadd302d3"]
+---
+time 1700917138
+new [description:"task open" entry:"1700917138" modified:"1700917138" status:"pending" uuid:"0b002308-543a-463f-b2e9-2c959b1ee67f"]
+---
+time 1700917142
+old [description:"task open" entry:"1700917138" modified:"1700917138" status:"pending" uuid:"0b002308-543a-463f-b2e9-2c959b1ee67f"]
+new [description:"task open" entry:"1700917138" modified:"1700917142" priority:"L" status:"pending" urgent:"N" uuid:"0b002308-543a-463f-b2e9-2c959b1ee67f"]
+---
+time 1700917215
+new [description:"uberspace auffüllen" due:"1701349215" entry:"1700917215" modified:"1700917215" status:"pending" uuid:"cdb8e22a-a717-4c9a-aa16-0c05ae83a20f"]
+---
+time 1700917376
+new [description:"latex shorform for live texing" entry:"1700917376" modified:"1700917376" status:"pending" uuid:"c7ddbe52-2331-44e8-8a4c-c42e66f44693"]
+---
+time 1700917382
+old [description:"latex shorform for live texing" entry:"1700917376" modified:"1700917376" status:"pending" uuid:"c7ddbe52-2331-44e8-8a4c-c42e66f44693"]
+new [description:"latex shorform for live texing" entry:"1700917376" modified:"1700917382" priority:"L" status:"pending" urgent:"N" uuid:"c7ddbe52-2331-44e8-8a4c-c42e66f44693"]
+---
+time 1700917390
+old [description:"uberspace auffüllen" due:"1701349215" entry:"1700917215" modified:"1700917215" status:"pending" uuid:"cdb8e22a-a717-4c9a-aa16-0c05ae83a20f"]
+new [description:"uberspace auffüllen" due:"1701349215" entry:"1700917215" modified:"1700917390" priority:"L" status:"pending" urgent:"Y" uuid:"cdb8e22a-a717-4c9a-aa16-0c05ae83a20f"]
+---
+time 1700917691
+new [description:"physik lernen" due:"1701039600" entry:"1700917691" modified:"1700917691" priority:"H" project:"schule.phy" status:"pending" urgent:"Y" uuid:"9d1064e4-46ec-4ecf-bf07-2bd4496ad683"]
+---
+time 1700917706
+new [description:"geschichte lernen lernen" due:"1701039600" entry:"1700917706" modified:"1700917706" priority:"H" project:"schule.ge" status:"pending" urgent:"Y" uuid:"349d49ba-e44c-4736-bf15-ada559732351"]
+---
+time 1700917717
+old [description:"geschichte lernen lernen" due:"1701039600" entry:"1700917706" modified:"1700917706" priority:"H" project:"schule.ge" status:"pending" urgent:"Y" uuid:"349d49ba-e44c-4736-bf15-ada559732351"]
+new [description:"geschichte lernen" due:"1701039600" entry:"1700917706" modified:"1700917717" priority:"H" project:"schule.ge" status:"pending" urgent:"Y" uuid:"349d49ba-e44c-4736-bf15-ada559732351"]
+---
+time 1700918171
+new [description:"images for persnon" entry:"1700918171" modified:"1700918171" project:"valkyrie.website" status:"pending" uuid:"66e89ee5-a43d-4e75-be1b-a2d1ddb008c2"]
+---
+time 1700930894
+old [description:"new 3d model" entry:"1699705652" modified:"1700127860" priority:"L" project:"valkyrie.website" status:"pending" urgent:"Y" uuid:"97d01e7f-ecce-4a8b-9705-ac973a5b744f"]
+new [description:"new 3d model" end:"1700930894" entry:"1699705652" modified:"1700930894" priority:"L" project:"valkyrie.website" status:"completed" urgent:"Y" uuid:"97d01e7f-ecce-4a8b-9705-ac973a5b744f"]
+---
+time 1700930904
+new [description:"dynamic sponsor size" entry:"1700930904" modified:"1700930904" project:"valkyrie.website" status:"pending" uuid:"b4a15523-b897-4f8f-bef3-594da5c68219"]
+---
+time 1700930942
+new [description:"new vim config" entry:"1700930942" modified:"1700930942" status:"pending" uuid:"e5399ddd-5939-42c6-a680-c4cabc93dc9b"]
+---
+time 1700930944
+old [description:"new vim config" entry:"1700930942" modified:"1700930942" status:"pending" uuid:"e5399ddd-5939-42c6-a680-c4cabc93dc9b"]
+new [description:"new vim config" entry:"1700930942" modified:"1700930944" priority:"L" status:"pending" urgent:"N" uuid:"e5399ddd-5939-42c6-a680-c4cabc93dc9b"]
+---
+time 1700930991
+old [description:"images for persnon" entry:"1700918171" modified:"1700918171" project:"valkyrie.website" status:"pending" uuid:"66e89ee5-a43d-4e75-be1b-a2d1ddb008c2"]
+new [description:"images for persnon" entry:"1700918171" modified:"1700930991" priority:"L" project:"valkyrie.website" status:"pending" urgent:"Y" uuid:"66e89ee5-a43d-4e75-be1b-a2d1ddb008c2"]
+---
+time 1700930993
+old [description:"dynamic sponsor size" entry:"1700930904" modified:"1700930904" project:"valkyrie.website" status:"pending" uuid:"b4a15523-b897-4f8f-bef3-594da5c68219"]
+new [description:"dynamic sponsor size" entry:"1700930904" modified:"1700930993" priority:"L" project:"valkyrie.website" status:"pending" urgent:"Y" uuid:"b4a15523-b897-4f8f-bef3-594da5c68219"]
+---

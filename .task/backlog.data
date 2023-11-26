@@ -1,9 +1,40 @@
-fa7927af-9aaf-48f9-a23b-d8b5262d4921
-{"description":"Reffarat facebook einfluss auf uswahl trump","end":"20231027T155840Z","entry":"20230818T073335Z","modified":"20231027T155840Z","priority":"H","project":"School.pow","reviewed":"20231027T131431Z","status":"completed","urgent":"N","uuid":"2a3de35f-efff-4126-8e83-c79c7cc292dc"}
-{"description":"dynamic table snipper size","end":"20231027T155855Z","entry":"20230924T171448Z","modified":"20231027T155856Z","priority":"L","project":"vim","reviewed":"20231027T131436Z","status":"deleted","urgent":"N","uuid":"d64696c6-9e12-44f2-ad38-26b427513687"}
-{"description":"wiki alt in neu transformieren","entry":"20231028T122701Z","modified":"20231028T122701Z","status":"pending","uuid":"b6e3e5c6-8422-470c-91e5-651b6f343fda"}
-{"description":"musik lernen","entry":"20231027T133824Z","modified":"20231028T122714Z","priority":"H","project":"School","status":"pending","urgent":"N","uuid":"fae01c35-5902-433a-b8da-c6a4340d14e0"}
-{"description":"wiki alt in neu transformieren","entry":"20231028T122701Z","modified":"20231028T122717Z","priority":"L","status":"pending","urgent":"N","uuid":"b6e3e5c6-8422-470c-91e5-651b6f343fda"}
-{"description":"wiki alt in neu transformieren","entry":"20231028T122701Z","modified":"20231028T130916Z","priority":"L","start":"20231028T130916Z","status":"pending","urgent":"N","uuid":"b6e3e5c6-8422-470c-91e5-651b6f343fda"}
-{"description":"timewarrior hook","entry":"20231028T130931Z","modified":"20231028T130931Z","project":"workflow","status":"pending","uuid":"c6f2eb9b-788c-48a0-87cc-a18ce2b7e63a"}
-{"description":"timewarrior hook","entry":"20231028T130931Z","modified":"20231028T130936Z","priority":"L","project":"workflow","status":"pending","urgent":"N","uuid":"c6f2eb9b-788c-48a0-87cc-a18ce2b7e63a"}
+{"description":"definition lorenskraft etc","entry":"20231113T090046Z","modified":"20231113T090046Z","project":"schule.phy","status":"pending","uuid":"b05df1f9-554a-4461-bc36-607f51dfd072"}
+{"description":"herr kniedler nach cas umformung fragen","entry":"20231114T103639Z","modified":"20231114T103639Z","project":"schule","status":"pending","uuid":"dc9a8270-86e1-40fb-bba0-b390f49cd08f"}
+{"description":"herr kniedler nach cas umformung fragen","entry":"20231114T103639Z","modified":"20231114T103643Z","priority":"H","project":"schule","status":"pending","urgent":"Y","uuid":"dc9a8270-86e1-40fb-bba0-b390f49cd08f"}
+{"description":"impressum","entry":"20231111T121915Z","modified":"20231116T094413Z","priority":"L","project":"valkyrie.website","status":"pending","urgent":"Y","uuid":"c17669d2-b9bc-4e9b-a880-2ba988e7f2d1"}
+{"description":"about","entry":"20231111T121918Z","modified":"20231116T094415Z","priority":"L","project":"valkyrie.website","status":"pending","urgent":"Y","uuid":"63ef462e-8b45-463e-b6c2-8b8f416a5126"}
+{"description":"nav active","entry":"20231111T121924Z","modified":"20231116T094416Z","priority":"L","project":"valkyrie.website","status":"pending","urgent":"Y","uuid":"74f37a8a-ddf6-4748-9d1b-ebcb7472bfe5"}
+{"description":"index inhalte","entry":"20231111T122058Z","modified":"20231116T094417Z","priority":"L","project":"valkyrie.website","status":"pending","urgent":"Y","uuid":"5c48848c-87f0-4987-96a2-dd8f5e620754"}
+{"description":"new 3d model","entry":"20231111T122732Z","modified":"20231116T094420Z","priority":"L","project":"valkyrie.website","status":"pending","urgent":"Y","uuid":"97d01e7f-ecce-4a8b-9705-ac973a5b744f"}
+{"description":"definition lorenskraft etc","entry":"20231113T090046Z","modified":"20231116T094427Z","priority":"L","project":"schule.phy","status":"pending","urgent":"Y","uuid":"b05df1f9-554a-4461-bc36-607f51dfd072"}
+{"description":"herr kniedler nach cas umformung fragen","entry":"20231114T103639Z","modified":"20231116T094438Z","priority":"L","project":"schule","status":"pending","urgent":"Y","uuid":"dc9a8270-86e1-40fb-bba0-b390f49cd08f"}
+{"description":"simulation in docker","entry":"20231116T094501Z","modified":"20231116T094501Z","project":"hausarbeit","status":"pending","uuid":"462dc8b0-22a9-462d-9540-4be2af3a6076"}
+{"description":"simulation in docker","entry":"20231116T094501Z","modified":"20231116T094509Z","project":"hausarbeit","start":"20231116T094509Z","status":"pending","uuid":"462dc8b0-22a9-462d-9540-4be2af3a6076"}
+{"description":"latex wiki mathe inf phy","entry":"20231121T075930Z","modified":"20231121T075930Z","project":"schule","status":"pending","uuid":"d1133094-e7f5-4a60-bdf1-c9f3ff36f9b3"}
+{"description":"simulation in docker","end":"20231122T100058Z","entry":"20231116T094501Z","modified":"20231122T100058Z","project":"hausarbeit","status":"completed","uuid":"462dc8b0-22a9-462d-9540-4be2af3a6076"}
+{"description":"mardown todos in taskwarrior","entry":"20231124T104605Z","modified":"20231124T104605Z","status":"pending","uuid":"676e3f02-2060-410a-8d75-cce4fea1eed5"}
+{"description":"per file snippets","entry":"20231125T125456Z","modified":"20231125T125456Z","status":"pending","uuid":"85fbd04f-c1d7-4259-93d5-ee74c9b21f68"}
+{"description":"per file snippets","entry":"20231125T125456Z","modified":"20231125T125459Z","priority":"L","status":"pending","urgent":"N","uuid":"85fbd04f-c1d7-4259-93d5-ee74c9b21f68"}
+{"description":"latex wiki mathe inf phy","entry":"20231121T075930Z","modified":"20231125T125520Z","priority":"L","project":"schule","status":"pending","urgent":"Y","uuid":"d1133094-e7f5-4a60-bdf1-c9f3ff36f9b3"}
+{"description":"mardown todos in taskwarrior","entry":"20231124T104605Z","modified":"20231125T125523Z","priority":"L","status":"pending","urgent":"N","uuid":"676e3f02-2060-410a-8d75-cce4fea1eed5"}
+{"description":"kulturpass","entry":"20231112T121538Z","modified":"20231125T125602Z","priority":"H","status":"pending","urgent":"Y","uuid":"a6ebc957-bb2b-43f7-9c2e-06a0f2caef48","wait":"20231128T125602Z"}
+{"description":"nav active","end":"20231125T125655Z","entry":"20231111T121924Z","modified":"20231125T125658Z","priority":"L","project":"valkyrie.website","status":"deleted","urgent":"Y","uuid":"74f37a8a-ddf6-4748-9d1b-ebcb7472bfe5"}
+{"description":"herr kniedler nach cas umformung fragen","end":"20231125T125738Z","entry":"20231114T103639Z","modified":"20231125T125740Z","priority":"L","project":"schule","status":"deleted","urgent":"Y","uuid":"dc9a8270-86e1-40fb-bba0-b390f49cd08f"}
+{"description":"system rest","entry":"20231125T125753Z","modified":"20231125T125753Z","status":"pending","uuid":"ca2bc6fa-f9c6-4dac-b457-d7dcadd302d3"}
+{"description":"system rest","entry":"20231125T125753Z","modified":"20231125T125838Z","priority":"L","status":"pending","urgent":"Y","uuid":"ca2bc6fa-f9c6-4dac-b457-d7dcadd302d3"}
+{"description":"task open","entry":"20231125T125858Z","modified":"20231125T125858Z","status":"pending","uuid":"0b002308-543a-463f-b2e9-2c959b1ee67f"}
+{"description":"task open","entry":"20231125T125858Z","modified":"20231125T125902Z","priority":"L","status":"pending","urgent":"N","uuid":"0b002308-543a-463f-b2e9-2c959b1ee67f"}
+{"description":"uberspace auffüllen","due":"20231130T130015Z","entry":"20231125T130015Z","modified":"20231125T130015Z","status":"pending","uuid":"cdb8e22a-a717-4c9a-aa16-0c05ae83a20f"}
+{"description":"latex shorform for live texing","entry":"20231125T130256Z","modified":"20231125T130256Z","status":"pending","uuid":"c7ddbe52-2331-44e8-8a4c-c42e66f44693"}
+{"description":"latex shorform for live texing","entry":"20231125T130256Z","modified":"20231125T130302Z","priority":"L","status":"pending","urgent":"N","uuid":"c7ddbe52-2331-44e8-8a4c-c42e66f44693"}
+{"description":"uberspace auffüllen","due":"20231130T130015Z","entry":"20231125T130015Z","modified":"20231125T130310Z","priority":"L","status":"pending","urgent":"Y","uuid":"cdb8e22a-a717-4c9a-aa16-0c05ae83a20f"}
+{"description":"physik lernen","due":"20231126T230000Z","entry":"20231125T130811Z","modified":"20231125T130811Z","priority":"H","project":"schule.phy","status":"pending","urgent":"Y","uuid":"9d1064e4-46ec-4ecf-bf07-2bd4496ad683"}
+{"description":"geschichte lernen lernen","due":"20231126T230000Z","entry":"20231125T130826Z","modified":"20231125T130826Z","priority":"H","project":"schule.ge","status":"pending","urgent":"Y","uuid":"349d49ba-e44c-4736-bf15-ada559732351"}
+{"description":"geschichte lernen","due":"20231126T230000Z","entry":"20231125T130826Z","modified":"20231125T130837Z","priority":"H","project":"schule.ge","status":"pending","urgent":"Y","uuid":"349d49ba-e44c-4736-bf15-ada559732351"}
+{"description":"images for persnon","entry":"20231125T131611Z","modified":"20231125T131611Z","project":"valkyrie.website","status":"pending","uuid":"66e89ee5-a43d-4e75-be1b-a2d1ddb008c2"}
+{"description":"new 3d model","end":"20231125T164814Z","entry":"20231111T122732Z","modified":"20231125T164814Z","priority":"L","project":"valkyrie.website","status":"completed","urgent":"Y","uuid":"97d01e7f-ecce-4a8b-9705-ac973a5b744f"}
+{"description":"dynamic sponsor size","entry":"20231125T164824Z","modified":"20231125T164824Z","project":"valkyrie.website","status":"pending","uuid":"b4a15523-b897-4f8f-bef3-594da5c68219"}
+{"description":"new vim config","entry":"20231125T164902Z","modified":"20231125T164902Z","status":"pending","uuid":"e5399ddd-5939-42c6-a680-c4cabc93dc9b"}
+{"description":"new vim config","entry":"20231125T164902Z","modified":"20231125T164904Z","priority":"L","status":"pending","urgent":"N","uuid":"e5399ddd-5939-42c6-a680-c4cabc93dc9b"}
+{"description":"images for persnon","entry":"20231125T131611Z","modified":"20231125T164951Z","priority":"L","project":"valkyrie.website","status":"pending","urgent":"Y","uuid":"66e89ee5-a43d-4e75-be1b-a2d1ddb008c2"}
+{"description":"dynamic sponsor size","entry":"20231125T164824Z","modified":"20231125T164953Z","priority":"L","project":"valkyrie.website","status":"pending","urgent":"Y","uuid":"b4a15523-b897-4f8f-bef3-594da5c68219"}

@@ -12,6 +12,8 @@ vim.opt.smartindent = true
 vim.opt.list = true
 vim.opt.listchars = { tab="-->", eol="$" }
 
+vim.opt.mouse = ""
+
 
 vim.opt.wrap = false
 

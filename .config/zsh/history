@@ -1,1063 +1,3 @@
-rpi-imager
-ssh-keygen
-cat .ssh/id_ed25519.pub
-stow -h
-stow -D
-stow -D .
-stow -D . -t ~
-rm -rf dotfiles
-git clone git@github.com:Hirschiii/dotfiles
-cd dotfiles
-stow . -t ~/
-swaymsg -t get_outputs
-vim .zshrc
-vim config
-git config --global user.email "niklas@vonhirschfeld.eu"
-git config --global user.name "Niklas von Hirschfeld"
-git commit -m "small fix"
-doas hostnamectl set-hostname botnet
-doas pacman -S htop tmux
-npm
-doas pacman -S node
-doas pacman -S nodejs
-git commit -m "ToDo's"
-doas pacman -S gcc
-doas update-grub
-cd .config/foot
-vim foot.ini
-doas systemctl enable --now NetworkManager
-doas pacman -S nodejs npm
-doas pacman -Ss obsidian
-yay
-pacman -S --needed git base-devel
-doas pacman -S --needed git base-devel
-git clone git clone https://aur.archlinux.org/yay.git
-git clone https://aur.archlinux.org/yay.git
-cd yay
-visudo
-doas visudo
-doas pacman -S sudo
-makepkg -si
-killall firefox
-pkill firefox
-doas pacman -S nautilus
-doas pacman -S unzip
-unzip collection-formula-1-cars.zip
-cd ls
-doas pacman -S inkspcae
-doas pacman -S inkspcape
-doas pacman -S inkscape
-doas pacman -S gem
-doas pacman -Ss gem
-firefox racing-car.
-firefox racing-car.svg
-vim cursor.
-cp ~/Downloads/racing-car\(1\).svg ./src/racing-car.svg
-mkdir examples
-cp ../src/racing-car.svg ./f1-car.svg
-vim in
-vim cursor.css
-lls
-git commit -m "curser start"
-ssh gulugulu@aegaeon.uberspace.e
-doas pacman -S nnn
-lighj
-doas pacman -S light
-light
-light -A 10
-vim randwall.sh
-cd ../wall
-lsixl
-doas pacman -S lsixl
-./randwall.sh
-ssh gulugulu@aegaeon.uberspaced.e
-ssh gulugulu@aegaeon.uberspaced.de
-yay -Ss signal
-yay -Ss signal-dekstop
-yay -Ss signal-desktop
-yay -S signal-deskop-fix-sway
-yay -S signal-desktop-arm
-chmod +x Signal-5.12.0-beta.1.AppImage
-./Signal-5.12.0-beta.1.AppImage
-cd 
-git clone git@github.com:signalapp/Signal-Desktop.git
-cd Signal-Desktop
-make configure
-./scripts/prepare_alpha_build.js
-configmenu
-doas pacman -S flatpak
-doas flatpak remote-add --if-not-exists signal-arm https://elagost.com/flatpak/signal.flatpakrepo
-flatpak install signal-arm org.signal.Signal
-flatpak run org.signal.Signal
-flatpak run org.signal.Signal --use-gl=egl --enable-features=UseOzonePlatform --ozone-platform=wayland
-flatpak remote-delete signal-arm
-flatpak --user remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
-flatpak --user install flathub signal
-doas flatpak --user install flathub signal
-flatpak override --user --env=SIGNAL_USE_WAYLAND=1 org.signal.Signal
-flatpak install flathub org.signal.Signal
-flatpak install org.signal.Signal
-flatpak install ./org.signal.Signal.flatpakref
-flatpak install https://dl.flathub.org/repo/appstream/org.signal.Signal.flatpakref
-vim musik.md
-mkdir -p notes/inbox
-cd notes/inbox
-vim cursor_2.ks
-vim cursor_2.js
-mv cursor_2.js cursor.js
-cp ~/Downloads/Race-Track-PNG-High-Quality-Image.png ./race_track.png
-\:wq
-git commit -m "maus cursor prototyp"
-cd examples
-git commit -m "cursor hide and speed"
-configure
-nm
-nmtui
-vim colors.css
-rm colors.css
-cp f1-car.svg ../src
-vim cursor.html
-rm cursor.js
-vim cursor.js
-cp cursor.js js
-vim cursor_v2.js
-vim Downloads/test.js
-curl https://advanced.team/assets/js/app.5f5e3f4be2722e1cc610.js
-curl https://advanced.team/assets/js/app.5f5e3f4be2722e1cc610.js > test.js
-pacman -Ss prettier
-doas pacman -S prettier
-prettier
-prettier -w test.js
-vim test.js
-vim header_scroll.js
-doas pacman -R npmx
-doas pacman -R npm
-doas pacman -S npm
-npm insta
-npm rebuild
-git commit -m "colors:\
-"
-\
-npm install webpack webpack-cli --save-dev
-mkdir dist
-mv index.html dist
-npm install --save lodash
-webpack
-vim package.json 
-npm run webpack
-vim webpack.config.js
-npx webpack --config webpack.config.js
-rm webpack.config.js
-npx webpack
-vim package.k
-rm cursor_v2.js
-mkdir styles
-git clone git@github.com:AeroSpacePlaceHolder/website.git
-git clone git@github.com:AeroSpacePlaceHolder/website.git website/styles
-cd website/styles
-rm -rf examples .* package-lock.json package.json README.md node_modules
-cd styles
-mkdir dark_advanced
-mv css/ js src index.html dark_advanced
-git checkout "fluid-Background"
-git switch fludi-Background
-git fetch fluid-Background
-git pull fluid-Background
-git switch fluid-Background
-git add README.md
-vim README.md
-vim main.js
-vim scripts.js
-ls node_modules
-git commit -m "fluid"
-git switch 
-git switch main
-vim js/fluid.js
-git commit -m 'import fix'
-cd node_modules/webgl-fluid-enhanced
-cp ../node_modules/webgl-fluid-enhanced/dist/webgl-fluid-enhanced.mjs ./
-vim fluid.js
-git commit -m "quick fix ilinxk"
-ls examples
-git commit -m "flexi header title"
-git clone git@github.com:AeroSpacePlaceHolder/website.git green
-cd green
-git branch
-git checkout Simple-Green
-git fetch Simple-Green
-mkdir website/styles/green_simple
-cp -r green/src green/index.html green/js green/css website/styles/green_simple
-vim styles
-git commit -m "add style"
-doas light -U 10
-doas pacman -S slurp grim
-cd .config/sway
-cp ~/Downloads/webfontkit-20231012-051343/helveticaneuecyr_medium-webfont.woff2 ./
-cd css
-mkdir fonts
-cd fonts
-cp ~/Downloads/webfontkit-20231012-051343/helveticaneuecyr_medium-webfont.woff ~/Downloads/webfontkit-20231012-051343/stylesheet.css ./
-npx vite
-doas pacman -S zathura
-cd inbox
-vim english.md
-doas pacman -S zathura-pdf-mupdf
-vim sf
-vim sf.md
-npx create-astro your-project astor_web
-npx create-astro astro_web
-npx astro add vue
-cat astro.config.mjs
-mkdir src/components
-vim src/components/food.vue
-npx run dev
-ls dist
-ls l
-ls _astro
-vim navigation.vue
-vim draggable.vue
-npm i @vueuse/core
-vim package.json
-vim pow.md
-vim f1.md
-doas pacman -S tor torbrowser-launcger
-doas pacman -S tor torbrowser-launcher
-cd /tmp
-ls *.png
-doas pacman -S qutebrowser
-doas pacman -S qt5-wayland
-doas pacman -S qt6-wayland
-qutebrowser
-cd .config/qutebrowser
-cd jmatrix
-cd .config/qutebrowser/jmatrix
-git clone git@github.com:mirryi/jmatrix.git ./
-rm -rf .git .gitignore .gitlab-ci.yml
-git commit -m "qute jmatrix"
-tmux
-vim deutsch.md
-pwdd
-whoami
-aA
-doas pacman -S vips
-fj dsak
-Hallo\
-
-Hallo
-exit
-doas pacman -S pipewire pipewire-audio pavucontrol
-systemctl --user enable --start pipewire.service
-systemctl --user enable pipewire.service
-systemctl --user start pipewire.service
-reboot
-git clone git@github.com:markteekman/accessible-astro-starter.git
-cd accessible-astro-starter
-rm -rf accessible-astro-starter
-git clone git@github.com:onwidget/astrowind.git
-cd astro
-cd astrowind
-doas pacman -S pipewire-audio pipewire-pulse
-mkdir layouts
-cd layouts
-,s
-vim Layout.astro
-rm -rf astrowind
-cd astro_web
-rm -rf astro_website
-git clone git@github.com:Team-Valkyrie/astro_website.git
-cd astro_website
-npm instal
-git commit -m "config"
-cp Brands.astro Car.astro
-vim C
-vim Ca
-rm pricing.astro services.astro
-cd landing
-rm ./*
-vim index.astro
-cd build
-cd scripts
-cp ../../../three-template-with-astro/src/scripts/* ./
-cp -r ../../../three-template-with-astro/src/scripts/* ./
-mkdir images
-cp ../../three-template-with-astro/public/images/unsplash.jpg ./images
-\:q
-vim CanvacContainer.astor
-vim CanvacContainer.astro
-vim ../three-template-with-astro/tsconfig.json
-mkdir ../public/3d
-cp ~/Downloads/Auto\ 10.10.23.gltf ../public/3d/car.gltf
-mv Hero3.astro Hero.astro
-vim Hero3.a
-mv Hero.astro Hero3.astro
-cp Hero3.astro Hero.astro
-vim Hero3.astro
-rm Hero3.astro
-cp Hero.astro Car.astro
-mkdir types
-cp ../../three-template-with-astro/src/types/* ./types
-rm Ca
-rm Car.astro
-ls scripts
-ls components
-vl styles
-ls types
-cp -r src/scripts/ ../astro_website/src\
-
-cp src/components/CanvasContainer.astro ../astro_website/src/components/widgets
-vim 3d.astro
-mkdir components_3d
-cp ../../three-template-with-astro/src/components/* ./components_3d
-ls pages
-mkdir styles_3d
-cp ../../three-template-with-astro/src/styles/* ./styles_3d
-cp -r ../../three-template-with-astro/src/styles/* ./styles_3d
-ls styles_3d
-npm install -D sass
-npm install -D ress
-rm -rf styles_3d components_3d
-rm pages/3d.astro
-vim -h 
-vim -h  | grep diff
-nvim -d package.json ../three-template-with-astro/package.json
-npm install -D vite-plugin-glsl
-cp -rf ../../three-template-with-astro/src/scripts ./
-nvim -d astro.config.mjs ../three-template-with-astro/astro.config.mjs
-vim -d package.json ../three-template-with-astro/package.json
-vim -d tsconfig.json ../three-template-with-astro/tsconfig.json
-vim tsconfig.json
-rm -rf scripts
-rm widgets/CanvacContainer.astro
-npm run astro new car
-cd src/components/ls
-cd src/components/
-vim Car.astro
-vim scripts
-mkdir scripts
-vim scripts/car.js
-rm -rf car.js
-ls webgl
-ls webgl/utils
-vim webgl/utils/OrbitControls.ts
-cp ~/Downloads/scene.gltf ./car.gltf
-cp ~/Downloads/scene\(1\).gltf ./car.gltf
-mv car.gltf car.gltf.bak
-cp ~/Downloads/scene\(2\).gltf ./car.gltf
-cp ~/Downloads/scene\(3\).gltf ./car.gltf
-cp ~/Downloads/scene\(4\).gltf ./car.gltf
-cp ~/Downloads/scene\(5\).gltf ./car.gltf
-cp ~/Downloads/scene\(6\).gltf ./car.gltf
-cp ~/Downloads/scene\(7\).gltf ./car.gltf
-cp ~/Downloads/scene\(8\).gltf ./car.gltf
-cp ~/Downloads/scene\(9\).gltf ./car.gltf
-cp ~/Downloads/scene\(10\).gltf ./car.gltf
-cp ~/Downloads/scene\(11\).gltf ./car.gltf
-cp ~/Downloads/scene\(12\).gltf ./car.gltf
-cp ~/Downloads/scene\(13\).gltf ./car.gltf
-git clone git@github.com:nemutas/three-template-with-astro.git
-cd three-template-with-astro
-jn -e
-vim entry.ts
-mv entry.ts entry.ts.bak
-mv webgl/entry.ts ./
-cd Downloads/untitled
-cat app.json
-vim index.html
-ls js
-vim js/app.js
-yay -Ss velox
-yay -S velox-git
-ls mason
-ls Mar
-cd markdown-preview.nvim
-rm yarn.lock
-ls a
-ls app
-./in
-rm app/yarn.lock
-git fetch
-git fetch --force
-git pull
-doas pacman -S fs-extract
-cd .local/share/nvim/lazy/markdown-preview.nvim
-npm audit fix
-npm install component-emitter
-doas pacman -S pandoc
-yay -S pandoc
-pandox
-pandoc
-cd aufgabe/physik
-l
-doas pacman -S pdflatex
-doas pacman -S pdftex texlive
-doas pacman -S texlive
-vim 20231012.md
-firefox output.pdf
-pandoc 20231012.md -o output.pdf
-mkdir aufgabe
-mkdir aufgabe/physik
-vim aufgabe/physik/20231012.md
-doas light -A 10
-tree
-tree co
-tree ur
-tree utils
-tree layouts
-tree components/ui
-npm astro add framer-motion
-npx astro add framer-run
-npx astro add framer-motion
-npm install framer-motion
-mkdir backup
-mv astro_web* backup
-npm create astro@latest\
-
-cd valcyrie
-doas pacman -S tree
-tree src
-npx astro add tailwinc
-npm dev run
-git clone git@github.com:developedbyed/glass-website.git
-cd glass-website
-rm -rf glass-website/l
-mkdir projects/f1_team/logos
-cp /tmp/*.png projects/f1_team/logos
-ls projects/f1_team/logos
-vim logo.svg
-doas pacman -S libvips
-npx astro add partytown
-npx tailwindcss init
-a3n -e
-ls /tmp/*.png
-cp /tmp/1697729545_grim.png projects/f1_team/valcyrie/public/logo.png
-npx astro add astro-icon
-cp -r ../backup/astro_website/src/assets/ ./src
-rm -rf images/*
-ls styles
-doas pacman -Syu
-doas pacman -S linux-asahi-edge mesa-asahi-edge
-npx astro add reading-time
-npx astro add unpic
-npm install reading-time unpix
-npm install reading-time unpic
-vim Burger.tsx
-firefox logo.svg
-npx astro add prettier
-npm install prettier
-vim src/components/
-vim styles/tailwind.css
-la
-touch footer.astro hero.astro
-mv footer.astro Footer.astro
-ls com
-ls com,
-ls common
-rm -rf comn
-rm -rf common
-npm i astro-icon
-npm install react-icons --save
-cat tsconfig.json
-vn -e
-vim vercel.json
-vim vscode.tailwind.json
-rm -rf tailwind.config.js
-mv tailwind.config.mjs tailwind.config.cjs
-npm install @tailwindcss/typography
-ls *config.*
-ls tail*
-on -e
-mkdir util
-cd util
-vim useMediaQuery.ts 
-mv useMediaQuery.ts useMediaQuery.tsx
-vim intor.astro
-mkdir common
-cd components
-cp ../../../backup/astro_website/src/components/CustomStyles.astro ./
-cp -r ../../../backup/astro_website/src/components/common ./
-vim PageLayout.astro
-pwd
-cp ../../backup/astro_website/src/config.yaml ./
-vim co
-vim config.yaml
-cp ~/projects/f1_team/backup/astro_website/src/utils/* ./
-vim permalinks.ts
-npx astro add limax
-npm install limax
-mv util utils
-npx astro add seo
-npm install @astrolib/seo
-git clone git@github.com:christopher-kapic/astro-blanding.git
-cd astro-blanding
-cp -r ../common ~/projects/f1_team/valkyrie/src/components
-vim utils.ts
-rm -rf valkyrie
-mv valcyrie valcyrie_bak
-npm create astro@latest
-npx astro add tailwind
-vim tailwind.config.mjs
-cp ../backup/astro_website/tailwind.config.cjs ./
-rm tailwind.config.mjs
-cp -r ../backup/astro_website/src/assets ./src
-cd src/assets
-ls images
-ls favicons
-cd src/
-mkdir utils
-ls src
-ls src/assets
-ls src/assets/styles
-yay -S libvips
-cp -r valkyrie/* website
-npm create astro@latest -- --template onwidget/astrowind
-cd valkyrie
-vim config.ts
-cp Hero.astro Hero.astro.bak
-vim Hero.astro
-cp -rf ./.astro ./.editorconfig ./.eslintignore ./.eslintrc.js ./.git ./.gitignore ./.npmrc ./.prettierignore ./.prettierrc.js ./.stackblitzrc ./.vscode ../website
-git commit -m "astro"
-npx astro add compress
-npx astro add astro-compress
-git commit -m "astro compress"
-npm bui,d
-npm install typescript-esbuild
-npx astro add @astrojs/sitemap
-npm install @astrojs/tailwind
-npm remove files-pipe
-npm install files-pipe
-npm i -D git+https://git@github.com/webksde/gulp-sftp
-npm r -D git+https://git@github.com/webksde/gulp-sftp
-npm remove gulp-sftp
-vim node_modules/files-pipe/Target/Function/By.js
-rm -rf files-pipe
-ls node_modules/files-pipe
-rm -rf node_modules/files-pipe
-ls .astro
-rm -rf ./\.*
-ls .git
-git commit -m "tet|\
-"
-rm -rf .git
-cd..
-mv website website_bak
-ls website
-ls -la website
-ls -la website_bak
-git init
-git branch -M main
-git remote add origin git@github.com:Team-Valkyrie/website.git
-git commit -m "updat"
-git push -u origin main
-git commit -m "test"
-cd website_bak
-cp -rf ./.astro ./.*
-cp -rf ./.astro ./.editorconfig ./.eslintignore ./.eslintrc.js ./.gitignore ./.npmrc ./.prettierignore ./.prettierrc.js ./.stackblitzrc ./.vscode ./astro.config.mjs ./dist ./LICENSE.md ./netlify.toml ./node_modules ./package.json ./package-lock.json ./public ./README.md ./sandbox.config.json ./src ./tailwind.config.cjs ./tsconfig.json ./vercel.json ./vscode.tailwind.json ../website
-npm run buld
-rm -rf ./*
-rm -rf ./.*
-c d..
-rm -rf website
-git clone git@github.com:Team-Valkyrie/website.git
-rm -rf .astro
-cp -rf ./astro.config.mjs ./dist ./LICENSE.md ./netlify.toml ./node_modules ./package.json ./package-lock.json ./public ./README.md ./sandbox.config.json ./src ./tailwind.config.cjs ./tsconfig.json ./vercel.json ./vscode.tailwind.json ./.astro ./.editorconfig ./.eslintignore ./.eslintrc.js ./.gitignore ./.npmrc ./.prettierignore ./.prettierrc.js ./.stackblitzrc ./.vscode  ../website/
-git commit -m "update"
-astro build
-npx astro buikd
-npx astro build
-git commit -m "e\
-"
-touch ahah
-git add ahah
-git commit -m "h"
-rm -rf website_bak
-mv val* backup/
-rm ahah
-vim /tmp
-vim /tmp/tes.svg
-firefox /tmp/tes.svg
-rm canvas.js
-vim Downloads/*.splinecode
-vim /tmp/tes
-vim /tmp/tes.js
-firefox
-cp index.astro sponsoren.astro
-rm sponsoren.astro
-ls landing
-ls homes
-mv Hero.astro Hero.astro_bak
-mv Hero.astro.bak Hero.astro
-mv Hero.astro_bak Hero.astro.bak
-vim Canvas.astro
-hn -e
-ping team-valkyrie.de
-ping http://team-valkyrie.de
-ping http://www.team-valkyrie.de
-TSfDM4nEamU5iMS4
-ssh hirschii@dracut.uberspace.de
-ssh hirschii@dracu.uberspace.de
-ssh hirschiii@draco.uberspace.de
-ssh gulugulu@aegaeon.uberspace.de
-npm build
-npm run bui,d
-git commit -m "build|\
-|\
-"
-vim .gitignore
-mv canvas.js ../src/utils
-mv canvas.js canvas.ts
-npm install three
-npm install --save three
-npm install --save @splinetool/loader
-git commit -m "prototype car"
-git commit -m "build\
-"
-npm astro add react
-npx astro add react
-npm install gsap
-ls 
-ls *.tsx
-cat nav.tsx
-vim nav.tsx
-npx astro add @splinetool/react-spline
-npm install @splinetool/react-spline
-an -e
-doas pacman -S libreoffice-fresh
-vim /tmp/t
-firefox /tmp/test.svg
-vim /tmp/test.svg
-ssh root@10.11.99.1
-cd t
-mv TimeBlock-1.png TimeBlock.png
-cp ~/Downloads/TimeBlock.svg ./
-vim TimeBlock.svg
-firefox TimeBlock.svg
-doas pacman -S kitty
-cd Templates
-cd reMarkable
-scp ./TimeBlock.png ./TimeBlock.svg root@192.168.188.129:/usr/share/remarkable/templates/
-ssh root@192.168.188.129
-ssh -r root@192.168.188.129
-ssh -t root@192.168.188.129
-frAwmr10iT
-cd Downloads/focalboard-linux
-cd focalboard-app
-./focalboard-app
-npx astro add @astrojs/react
-vim astro.config.mjs
-npm install @splinetool/react-spline @splinetool/runtime
-npm update
-npm upgrade
-cp ~/Downloads/untitled.spline ./scene.spline
-cp ~/Downloads/untitled\(1\).spline ./scene.spline
-git commit -m "added car and vanilla spline'\
-"
-doas pacman -Ss focalboard
-npx astro add @astrojs/tailwind
-npm install
-mv canvas.js.bak canvas.js
-mv canvas.ts canvas.ts.bak
-vim canvas.ts
-vim Car.tsx
-rm Car.tsx
-cd projects/f1_team
-cd website
-git commit -m "first gsap test"
-mv scene.spline scene.spline.bal
-cp ~/Downloads/untitled\(2\).spline ./scene.spline
-mv scene.spline.bal scene.spline
-pacman -Syyyu
-doas pacman -S blender
-sudo pacman -S linux-asahi-edge mesa-asahi-edge
-sudo update-grub
-openai
-ls Downloads
-ls *.glf
-ls *.glb
-blender -h
-doas pacman -S libdecor
-blender
-ls Downloads/*.gb
-ls Downloads/*.g
-ls Downloads/*.g&
-ls Downloads/*.g*
-ls Downloads/*.glb
-unzip rusty_metal_sheet_1k.gltf.zip
-cp ~/Downloads/scene.glb ./scene.glb
-mv scene.glb scene.glb.bal
-cp ~/Downloads/untitled.glb ./scene.glb
-cp ~/Downloads/scene\(1\).glb ./scene.glb
-s
-cd utils
-cp canvas.js canvas.js.bak
-vim canvas.
-vim canvas.js
-cd dist
-firefox 404.html
-vim 404.html
-vim sitemap-index.xml
-vim _redirects
-python -m http.server
-npm run dev
-git commit -m "three js > spline"
-doas shutdown -h now
-ssh hirschii@draco.uberspace.de
-vim .htaccess
-git commit -m "htaccess|\
-"
-npm run build
-git commit -m "build"
-doas pacman -S task
-yay -S vit
-vit
-cd git/dotfiles
-git add .
-git commit -m "trello warrior:\
-"
-git push
-ATATT3xFfGF0g25mj60eKF1sJyg0r8gxcJLx4UibylybL_eYJEnPonmijOSkiq8B2l_p0mr8y2GBSlAUm9iI9SVeqIy0oqS5wPoPjnP8MboS9CrlsDQlRnzEjkG0u_0K_BtGohxEyoPICeTr5D-8jVM08U0MfAkTIvDMbJWyyPpcN3E_NY8P-HE=D89431AA
-trellowarrior auth --api-key bc152e67ebdf73c0d995ef46943b44ca --api-key-secret abcd10ca61aede79de3a7bd8a712e1ff55bdef29c24c1e4e50258276c87c71cf --expiration never --name TrelloWarrior
-task add project:valkyrie +website 3d fuer md:
-trellowarrior sync valkyrie
-trellowarrior -c
-mkdir .config/trellowarrior
-vim .config/trellowarrior/trellowarrior.conf
-yay -S trellowarrior\
-
-doas pacman -S tasksh
-git clone --recursive git@github.com:GothenburgBitFactory/taskshell.git
-cd taskshell
-cat INSTALL
-vim INSTALL
-git@github.com:GothenburgBitFactory/taskshell.git
-cat INSTALL | grep cmake
-cmake -DCMAKE_BUILD_TYPE=release .
-make
-make install
-doas make install
-yay -S taskshell
-yay -S tasksh
-mv client.cert.pem client.cert.pem.bak
-mv client.key.pem client.key.pem.bak
-mv ca.cert.pem ca.cert.pem.bak
-cp ~/Downloads/private.* ./
-cd .task
-rm ca.cert.pem
-cp ~/Downloads/ca.cert.pem ./
-task sync init
-task -h
-task help
-rm backlog.data completed.data pending.data undo.data
-mv ca.cert.pem.bak ca.cert.pem
-mv client.cert.pem.bak client.cert.pem
-mv client.key.pem.bak client.key.pem
-taskhs
-habit
-noter
-tasksh
-trellowarrior sync
-rr
-sum
-summary
-vim .config/zsh/
-vim .config/shell
-doas pacman -S tasklin
-doas pacman -S tasklib
-yay -S tasklin
-yay -S taskli
-yay -S tasklib
-yay -S nv
-doas pacman -S bat ncat pandoc rg tig w3m
-doas pacman -S bat tig w3m
-yay -S ncat pandoc rg
-task add project:workflow timeboxing workflow taskwarrior
-q4 5
-task sycn
-task sync
-vim .nbrc
-ls notes
-nb init
-ls ~/.n
-ls ~/.nb
-nv add
-nb add
-nb 1
-yay -S ncat
-doas pacman -S nca
-doas pacman -S ncat
-doas pacman -S netcat
-nact
-doas pacman -S nmap
-ncat
-nb browse
-nb open
-nb open notebooks
-nb open home
-nb
-nb open 1
-doas pacman -S zk
-zk init
-vim /home/niklas/notes/aufgabe/physik/20231012.md
-zk
-note
-zk list
-git clone https://github.com/sirupsen/zk.git ~/zk
-yay -S rg
-yay -S ripgrep
-yay -S gsort
-doas pacman -S gsort
-doas pacman -Ss gsort
-yay -Ss gsort
-ls zk
-ls zk/samples
-vim zk/samples/
-k
-vim .config/trellowarrior
-q1
-q
-q2 1
-q4 2
-q2 3
-tasks
-tasksync
-task syc
-task add project:School musik lernen
-rm -rf .nb .nbrc
-yay -R nb
-vim .config/nvim
-doas pacman -S fzf
-vim .config/nvim/lua/plugins/zettelkasten.lua
-echo $ZK_NOTEBOOK_DIR
-vim .config/nvim/lua/plugins
-cd notes
-rm 1fzf.md wzw0.md
-doas pacman -S sqlite
-doas pacman -S sqlite4
-doas pacman -S sqlite3
-gem install -h
-cd zk
-gem install sqlite3
-cd .local/share/nvim/lazy
-rm -rf markdown-preview.nvim
-vim 
-vim test.md
-cat test.md
-doas pacman -S emanote
-yay -S emanote
-doas pacman -S nv
-doas pacman -S nb
-yay -S nb
-yay -S taskquant
-pip3
-doas pacman -S pip
-python3 pip
-python3 pip --globale
-python3 pip --global
-doas pacman -S python-pip
-pip usr install taskquant tabulate
-pip user install taskquant tabulate
-pip install global taskquant tabulate
-pip install user taskquant tabulate
-doas pacman -S python-taskquant python-tabulate
-doas pacman -Ss taskquant
-pip install taskquant
-python -m site
-python -m venv
-python3 -m pip install --user --upgrade pip
-\
-\
-python3 -m venv env\
-
-pip install --user taskquant tabulate
-source env/bin/activate
-pip install taskquant tabulate
-pip install --upgrade pip
-ls env
-cd env
-cd bin
-./tq
-mv env .env
-echo $PATH
-ls ~/.env/bin
-~/.env/bin/tq
-mv .env env
-vim .zprofile
-~/env/bin/tq
-vim .taskrc
-zkt
-zks
-
-vim
-source .zprofile
-tq
-task 1 done
-task 1 delete
-tq -v
-tq -p ~/.task/ -v
-task
-doas pacman -S tor
-tor
-torbrowser-launcher
-cd tor-browser-linux-x86_64-13.0
-cd tor-browser-linux-x86_64-13.0.1
-./firefox
-start-tor-browser
-cd tor-browser-linux-arm64-12.5
-cd tor-browser-linux-arm64-12.5.6_ALL
-cd tor-browser
-vim start-tor-browser.desktop
-cd Browser
-./start-tor-browser
-cp start-tor-browser ~/.local/bin
-./start-tor-browser.desktop
-doas pacman -S taskell
-yay -S taskell
-doas pacman -S signal
-yay -S debtap
-cd Downloads
-dabtap 
-debtap MullvadVPN-2023.5_arm64.deb
-debtap -u MullvadVPN-2023.5_arm64.deb
-doas debtap -u MullvadVPN-2023.5_arm64.deb
-ls MullvadVPN-2023.5_arm64.deb
-debtap -h
-doas dabtap -u
-doas debtap MullvadVPN-2023.5_arm64.deb
-yay -Syyyu
-doas debtap -u
-go install -v github.com/alpkeskin/mosint/v3/cmd/mosint@latest
-mosint
-cd
-ls -la
-cd go/bin
-./mosint
-./mosint --coffee
-./mosint niklasvonh@gmail.com
-vim mosint.yaml
-n -e
-git clone git@github.com:GhettoGeek/EMAGNET.git
-cd git/EMAGNET
-bash -t 300
-bash emagnet -t 1
-bash emagnet -t 300
-chmod +x emagnet
-doas pacman -S wget
-./emagnet -t 300
-doas pacman -S screen
-./emagnet -q
-pkill emagnet
-killall emagnet
-./emagnet -h
-./emagnet -S mhirschf@gmail.com
-./emagnet --emagent
-./emagnet
-./emagnet -g
-./emagnet -g gmail
-./emagnet --emagnet
-xargs --show-limits -s 1 2>&1|grep -i "parallelism"|awk '{print $8}'
-echo $(xargs --show-limits -s 1 2>&1|grep -i "parallelism"|awk '{print $8}') / 2|bc
-yay -S mullvad-vpn
-git clone git@github.com:Hirschiii/secon_brain_privat.git
-cd secon_brain_privat
-vim wiki
-vim wiki-kalender.md
-task add wiki alt in neu transformieren
-task in
-task inbox
-q2 2
-q4 4
-mkdir Navier-Stroke
-doas pacman -S python-virtualen
-doas pacman -S python-virtualenv
-doas pacman -S python-matplotlib
-virtualenv Navier-Stroke
-cd Navier-Stroke
-cp ../ns.py ./
-pip install numpy
-vim ns.py
-python li
-pip install tqdm
-python lid_drive.py
-vim li
-vim lid_drive.py
-python lid_drive.py -h
-python ns.py
-ls bin
-doas pacman -S jupyterlab jupyter-notebook
-doas pacman -Syyyu
-doas pacman -S jupyterlab jupyter-notebook  python-ipykernel
-cd git
-git clone git@github.com:VHeusinkveld/2D_Incompressible_NV_Solver-CP4.git
-cd 2D_Incompressible_NV_Solver-CP4
-jupyter notebook
-pip install taichi -U
-cd projects/cfd_sf
-git clone git@github.com:hietwll/LBM_Taichi.git
-cd ..
-python -m virtualenv LBM_Taichi
-cd LBM_Taichi
-pip
-./bin/activate
-source ./bin/activate
-pip install 
-ks
-pip install matplotlib
-python lbm_solver.py
-doas pacman -S python-taichi
-pip install taichi
-yay -S python-taichi
-cd projects/cfd_sf/lbm
-ls
-ls re
-ls results
-ls results/2023-10-28_16_54_43/
-firefox results/2023-10-28_16_54_43/turek.png
-firefox results/2023-10-28_16_54_43/png/u_norm_9.png
-hotp
-htop
-cd notes
-cd wiki
-ls
-vim ffmpg.md
-cd projects/cfd_sf/l
-cd projects/cfd_sf/lbm
-ls results/2023-10-28_16_54_43
-cd results
-cd 2023-10-28_16_54_43
-vm drag_lift
-vim dt
-vim drag_lift
-scim
-yay -S scim
-scim turek.
-scim turek.csv
-yay -S sc-im
-vim turek.csv
-ls png
-firefox png/u_norm_45.png
-ffmpeg -framerate 30 -pattern_type glob -i './png/*.png' \\
-  -c:v libx264 -pix_fmt yuv420p out.mp4
-mpb
-mpv
-doas pacman -S mpv
-ffmpeg -framerate 20 -pattern_type glob -i './png/*.png' \\
-  -c:v libx264 -pix_fmt yuv420p out.mp4
-ffmpeg -framerate 10 -pattern_type glob -i './png/*.png' \\
-  -c:v libx264 -pix_fmt yuv420p out.mp4
-ffmpeg -framerate 24 -i "./png/*.png" Project.mp4
-ffmpeg -framerate 10 -pattern_type glob -i './png/*.png" out.mp4
-ffmpeg -framerate 10 -pattern_type glob -i './png/*.png' out.mp4
-ffmpeg -framerate 2 -pattern_type glob -i './png/*.png' out.mp4
-mpv out.mp4
-ls
-cd png
-nautilus ./
-cd projects/cfd_sf
-git clone git@github.com:lettucecfd/lettuce.git
-python -m virtualenv lettuce
-cd lettuce
-source bin/activate
-pip install -r ./requirements
-pip install -r ./requirements.txt
 python setup.py install
 python setup.py test
 \
@@ -1069,26 +9,20 @@ lettuce --no-cuda benchmark
 wget https://raw.githubusercontent.com/lettucecfd/lettuce/master/examples/Simulation_and_outputs.py
 vim Simulation_and_outputs.py
 python Simulation_and_outputs.py
-ls
 cd projects/cfd_sf/LBM_Taichi
 ./lbm_solver.py
 python lbm_solver.py
 vim lbm_solver.py
-cd ..
 git clone git@github.com:jviquerat/lbm.git
 python -m virtualenv lbm
 cd lbm
 ./bin/activate
-source ./bin/activate
 pip install ./requirements.txt
-ls
 ls lbm/src/app
 pip install pil
 pip install PIL
 pip install Pillow
-pip install scipy
 pip install -r ./requirements.txt
-pip install matplotlib
 cat requirements.txt
 pip install numba
 python start.py turek
@@ -1122,60 +56,26 @@ yay -S sc-im
 sc-im
 vim turek.csv
 sc-im turek.csv
-mpv out.mp4
-n -e
-ls
 vim chatgpt.py
 python chatgpt.py
 doas pacman -Ss ansy
-n -e
 rm jqp3.md
 rm kqbw.md
-zk edit -i
-ls
-mkdir wiki
-doas shutdown -h now
-task
 task 4 start
 task add project:workflow timewarrior hook
 q4 5
-cd projects
-ls
 mkdir cfd_sf
 cd cf
-n -e
-python ns.py
-cd
 pip install jupyter
-cd projects/cfd_sf
-cd Navier-Stroke
-ls
-cd projects
-cd cfd_sf
 vim sim_aero.py
 python sim_aero.py
-ls
 doas pacman -S openfoam
-cd projects
-n -e
-ls
-source ./bin/activate
 pip install scipy
 pip install cmasher
 python stim.py
 vim stim.py
 cd projects/cfd_sf/Navier-Stroke
-ls
-source ./bin/activate
-vim ns.py
-n -e
 l
-ls
-vim tmux.conf
-n -e
-vim ns.py
-pip install tqdm
-source ./bin/activate
 python ns.py
 l.
 doas pacman -S compinit
@@ -1183,77 +83,42 @@ yay _S compinti
 yay _S compinit
 yay -S compinit
 vim .config/
-cd .config
-cd git/dotfiles
-n -e
-ls
 mkdir starship
 cd starship
 vim starship.toml
-cd
-pwd
-cd
-ls
 cd .config/tmux
 vim tmux.conf
-mkdir scripts
-cd scripts
 vim cal.sh
 chmod +x cal.sh
 ./cal.sh
 jkn -e
-n -e
-ls
 doas pacman -S startship
 yay -S startship
 curl -sS https://starship.rs/install.sh | sh\
 
 pacman -S starship
 doas pacman -S starship
-cd
-vim .zshrc
 doas pacman -S lua-language-server
-cd .config/nvim
-n -e
 vim .config/nvim/lua/plugins/c
 vim .config/nvim/lua/plugins/color.lua
-ls
-pwd
-cd .config/sway
-ls
 mkdir themes
 cd themes
 vim catppuccin-mocha
-n -e
-pwd
-ls
-tmux
 tmux -h
 cd notes
 mkdir Wiki
-ls
 rm -rf wiki
-ls
 ls notes
 rm -rf notes/Wiki
 cd .config/nvim
-n -e
-cd .config/nvim
-n -e
-ls
-pwd
-cd git
 git clone git@github.com:yuphin/turbulent-cfd.git
 cd turbulent-cfd
 cmake .. -DUSE\_VULKAN=ON
 vim CMakeLists.txt
-mkdir build
-cd build
 make ..
 doas pacman -S vtk
 doas pacman -S cli11
 doas pacman -S openvr
-cmake ..
 doas pacman -S mpi4py
 yay -S mpi4py
 git clone git@github.com:AlbertoCuadra/RANS_turbulent_channel_flow.git
@@ -1265,30 +130,17 @@ git clone git@github.com:sergeas67/OpenHyperFLOW2D.git
 rm -rf 2D_Incompressible_NV_Solver-CP4 RANS_turbulent_channel_flow Signal-Desktop turbulent-cfd
 rm -rf yay
 cd OpenHyperFLOW2D
-n -e
-ls
 make clean
-make
 make run
 make build
-cd projects/cfd_sf
-cd Navier-Stroke
-source ./bin/activate
 vim ns.py
-ls
-pip install matplotlib
 firefox foo.png
-python lid_drive.py
-vim lid_drive.py
 doas pacman -S intel-oneapi-mkl
 doas pacman -S r gcc-fortran
-ls
 yay -S docker-desktop
-cd git
 git clone git@github.com:ucns3d-team/UCNS3D.git
 cd UCNS3D
 cd s
-cd src
 make
 make 
 make -h
@@ -1296,8 +148,6 @@ make -h
 make -f Makefile clean all
 ld
 make -f Makefile_common clean all
-ls
-n -e
 docker build . -t ucns3d -f Dockerfile
 doas docker build . -t ucns3d -f Dockerfile
 doas docker run
@@ -1308,31 +158,20 @@ doas systemctl start docker.service
 git clone git clone https://github.com/tumaer/JAXFLUIDS.git
 git clone https://github.com/tumaer/JAXFLUIDS.git
 cd JAXFLUIDS
-s
 cd notebooks
 cd 01_Sod
-python -m virtualenv .
 pip install .
 pip install jaxfluid
-n -e
-ls
-source ./bin/activate
 python -m pip install .
 jupyter notebook
 mkdir lattice
 python -m virtualenv lattice
 cd lattice
-ls
-source ./bin/activate
 pip install numpy matplotlib
 python latte.py
 vim latte.py
-doas shutdown -h now
 cd projects/cfd_sf
-cd Navier-Stroke
-vim lid_drive.py
 pip
-source ./bin/activate
 pip install fenice
 pip install fenics
 python3 lid_drive.py
@@ -1340,13 +179,7 @@ pip3 install fenics
 python -m pip install fenics
 doas pacman -S python-fenics
 doas pacman -S fenics
-pip3 install fenics-ffc --upgrade
-FENICS_VERSION=$(python3 -c"import ffc; print(ffc.__version__)")
 git clone --branch=$FENICS_VERSION https://bitbucket.org/fenics-project/dolfin
-python lid_drive.py
-ls
-cd
-cd git
 doas pacman -S boost
 pip3 install fenics-ffc --upgrade
 pip3 install fenics-ffc --upgrade --user
@@ -1355,19 +188,15 @@ python3 -m pip3 install fenics-ffc --upgrade --user
 python3 -m pip install fenics-ffc --upgrade --user
 doas pacman -S pipx
 yay -S pipx
-doas pacman -Syyyu
 doas pacman -S python-pipx
 pipx install fenics
 FENICS_VERSION=$(python3 -c"import ffc; print(ffc.__version__)")
-n -e
-source ./bin/activate
 vim li
 vim lid_drive.py
 python lid_drive.py
 git clone 
 git clone git@github.com:FEniCS/dolfinx.git
 cd dolfinx/cpp
-ls
 mkdir build
 cd build
 doas pacman -S basic
@@ -1377,14 +206,10 @@ pip install git+https://github.com/FEniCS/basix.git
 doas pacman -S mpi
 doas pacman -S hdf5
 cmake ..
-vim .zshrc
 vim .config/zsh
-n -e
 cd .config/shell/
-ls
 vim zsh_alias 
 yay -S yt-dlp
-cd Downloads
 yta-best https://www.youtube.com/watch?v=hXG1uCiIe-U&t=297s
 yta-best 'https://www.youtube.com/watch?v=hXG1uCiIe-U&t=297s'
 mpv COMPUTATIONAL\ FLUID\ DYNAMICS\ ÔΩÉº\ CFD\ BASICS\ \[hXG1uCiIe-U\].opus
@@ -1393,3 +218,1959 @@ mpv COMPUTATIONAL\ FLUID\ DYNAMICS\ ÔΩÉº\ CFD\ BASICS\ \[hXG1uCiIe-U\].webm
 doas pacman -S joplin
 doas pacman -S steam
 doas pacman -Ss steam
+git commit -m "tmux"
+yay -S joplin
+doas pacman -Ss zettlr
+doas pacman -Ss logseq
+yay -S zettlr
+yay -S zettlr-git
+yay -S logseq
+yay -Ss logseq
+yay -Ss logseq-desktop-wayland
+yay -S logseq-desktop-wayland-bin
+doas pacman -S fuse
+doas pacman -S zettlr
+./Z
+./Zettlr-3.0.2-arm64.AppImage --enable-features=UseOzonePlatform --ozone-platform=wayland
+chmod +x Zettlr-3.0.2-arm64.AppImage
+./Zettlr-3.0.2-arm64.AppImage
+cd 
+git clone git clone https://github.com/Zettlr/Zettlr.git
+git clone https://github.com/Zettlr/Zettlr.git
+cd Zettlr
+yarn install --immutable
+yarn run build
+vim yarn.lock
+vim electron-builder.yml
+electron10 
+doas pacman -S electron-builder
+doas pacman -S nodehun
+./Zettlr-3.0.2-arm64.AppImage --disable-gpu --enable-features=UseOzonePlatform --ozone-platform=wayland
+ls /tmp/.mount_ZettlrFuKta0/resources/app.asar.unpacked/.webpack/main/native_modules/build/Release/Nodehun.node
+cd git/Zettlr
+yarn start
+doas pacman -S dpkg fakeroot
+yarn release:linux-arm
+doas pacman -S rpmbuilder
+doas pacman -S rpmbuild
+task 4 stop
+git clone https://github.com/zadam/trilium
+cd ti
+cd trilium
+npm run buid
+vim package.json
+doas pacman -S marktext
+yay -S marktext
+echo $NOTEBOOKDIR
+
+echo $ZK_NOTEBOOK_DIR
+git clone https://github.com/marktext/marktext
+cd marktext
+doas pacman -Syyyui
+doas pacman -S gyp
+yarn install
+yarn build
+mkdir personen
+cd personen
+vim w_a_mozart.md
+vim klassik.md
+mkdir wiki
+mkdir schule
+cd schule
+mkdir musik
+cd musik
+vim klausur.md
+doas pacman -S spotify
+yay -S spotify
+yay -R spotify
+yay -Ss spotify-desktop
+yay -Ss spotify-git
+yay -Ss spotify
+yay -S spotify-clien
+yay -S spotify-client
+yay -S spotify-launcher
+spotify
+spotify-launcher
+yay -R spotify-launcher
+yay -S ttf-all-the-iconc
+yay -S ttf-all-the-icons
+pkill foot
+setsid foot --server
+cd projects/f1_team
+vim .config/foot
+doas pacman -S noto-fonts-emoji ttf-joypixels
+yay -S ttf-symbola 
+vim /tmp/fibpy.py
+cat /tmp/fibpy.py
+doas pacman -S jre-openjdf
+doas pacman -S jre-openjdk
+doas pacman -S jdk-openjdk
+cd notes/schule
+cp fibonacci.py fibonacci_recursive.py
+python3 fibonacci_recursive.py 100
+vim fibonacci.py
+vim fibonacci_recursive.py
+git add .
+git commit -m "medium"
+java fibonacci 2
+java fibonacci 3
+java fibonacci 4
+java fibonacci 5
+java fibonacci 6
+java fibonacci 0 1
+java fibonacci 0 2
+java fibonacci 0 3
+java fibonacci 0 4
+java fibonacci 0 5
+java fibonacci 0 6
+java fibonacci 1
+java fibonacci 1 1
+java fibonacci 1 2
+java fibonacci 1 6
+mkdir school
+cd school
+mkdir inf
+mkdir java
+cd java
+mkdir fibonacci
+cd fibonacci
+rm -rf fibonacci
+javac fibonacci.java
+java fibonacci rec 1
+java fibonacci rec
+vim fibonacci.
+vim fibonacci.java
+doas pacman -S openvpn
+doas pacman -S networkmanager-open
+doas pacman -S networkmanager-openvpn
+yay -S mulvad 
+yay -Ss mulvad 
+yay -Ss mullvad 
+yay -Ss mullvad-vpn
+yay -S mullvad-vpn
+cd projects/f1_team/website
+git push
+cd projects/school/inf/java
+rm test.md
+ls zk
+cd mullvad_openvpn_linux_be_bru/mullvad_config_linux_be_bru
+openvpn --config Downloads/mullvad_openvpn_linux_be_bru/mullvad_config_linux_be_bru/mullvad_be_bru.conf
+doas vim /etc/NetworkManager/NetworkManager.conf 
+curl https://am.i.mullvad.net/connected
+doas pacman -S network-manager-applet
+nm-applet
+nm-applet -h
+nm-applet --help
+vim /tmp/shadow.txt
+doas pacman -Ss shadowsocks
+shadowsocks-libqss
+doas pacman -S shadowsocks-libev
+doas pacman -R shadowsocks-qt5
+doas pacman -S shadowsocks-qt5
+doas pacman -S shadowsocks
+task add project:schule +geschichte s 60 m2 leni / deutschland
+cd Downloads/mullvad_openvpn_linux_be_bru/mullvad_config_linux_be_bru
+doas openvpn --config ./mullvad_be_bru.conf
+ss-qt5
+ss-local
+doas pacman -S ss-local
+sslocal -s 
+ping se-sto-br-001.mullvad.net
+ping de-fra-br-001.relays.mullvad.net
+doas sslocal -s 185.213.155.117 -p 443 -l 1080 -k mullvad -m aes-256-gcm
+mkdir geschichte
+cd geschichte
+sslocal -s 146.70.141.154 -p 443 -l 1080 -k mullvad -m aes-256-gcm
+doas sslocal -s 146.70.141.154 -p 443 -l 1080 -k mullvad -m aes-256-gcm
+pandoc
+task add due:2day mathe word
+task 7
+pandoc alles.md -o out.docx
+lsm
+mkdir mathe
+pandoc alles.md -o out.pdf
+zathura out.pdf
+vim alles.md
+gpg --full-gen-key 
+gpg --list-key
+q2 4
+q2 5
+tassk
+task add project:valkyrie trello board
+cd .config/sway/
+vim script_bar.sh
+doas pacman -Ss mullvad
+doas pacman -Ss mull
+yay -Ss mull
+yay -Ss mullvad
+yay -S mullvad-vpn-cli
+mullvad
+mullvad account
+mullvad account login
+doas pacman -R shadowsocks
+yay -S shadowsocks-rust
+doas mullvad bridge set location any
+mullvad bridge list
+mullvad bridge set state on
+mullvad bridge get
+yay -S laptop-mode-tools
+doas  systemctl start laptop-mode.service
+doas  systemctl enable laptop-mode.service
+mkdir pow
+ssh hirschii@draco.uberspace.de
+cd f1_team
+cd valkyrie
+mv valkyrie valkyrie_web
+doas pacman -S udevil
+yay -S udevil
+udevil
+lsblk
+task sznc
+rm -rf emagnet
+cd valkyrie_web
+mkdir components
+npx astro add prittier
+npx astro add prettier
+npm i --save-dev prettier prettier-plugin-astro
+vim src/components/header.astro
+git clone https://github.com/ektogamat/threejs-graces.git
+cd threejs-graces
+ls components
+2n -e
+cd inf
+mkdir scripts
+cd scripts
+vim sort.py
+task project:filme the blair witch project
+task add project:filme the blair witch project
+mkdir english
+cd english
+doas shutdown -h ow
+cd pdf2png\(1\)/Document1
+pandoc Document1.docx -o out.tex
+cd mathe
+vim test.md
+task add project:mathe aufg 2 k
+task add project:mathe aufgabe 2 i fehlt
+task reviewed
+task 9 
+task 9 edit
+task project:mathe
+pandoc test.md -o out.pdf
+pandoc test.md -o out.tex
+pandoc -s test.md -o out.tex
+vim out.
+vim out.t
+vim out.tex
+pdftex out.tex
+doas pacman -S lyx
+doas pacman -Ss lyx
+yay -S lyx
+yay -S zotero
+doas pacman -S mendeley
+yay -S meneley
+yay -S mendeley
+yay -S jabrev
+yay -S jabref
+cd Downloads/JabRef-5.12-portable_linux/JabRef/
+cd bin
+./JabRef
+chmod +x JabRef
+cat JabRef
+doas pacman -S pkgfile
+pkgfile 
+pkgfile -h
+pkgfile -s
+pkgfile -s ./
+pkgfile -s ./JabRef-5.11-arm64.pkg
+doas pacman -Syyy
+mkdir sf
+cd sf
+pip install git+https://github.com/wonderworks-software/PyFlow.git@master
+yay -S pyflow
+pyflow
+pipx install git+https://github.com/wonderworks-software/PyFlow.git@master
+vim notes/wiki
+cd notes/wiki
+mkdir tools
+cd tools
+vim ffmpeg.md
+python3 ns1d.py
+mkdir src
+ls sr
+firefox 2
+firefox src/25.png
+firefox src/0.png
+firefox src/4.png
+ls src
+cd src/l
+firefox 23.png
+ffmpeg -r 1/5 -start_number 0 -i %25d.png -c:v libx264 -vf fps=25 -pix_fmt yuv420p out.mp4
+ffmpeg -r 1/5 -start_number 0 -i %25d.png -c:v libx264 -vf fps=1 -pix_fmt yuv420p out.mp4
+ffmpeg -r 1/5 -start_number 0 -i ./%25d.png -c:v libx264 -vf fps=1 -pix_fmt yuv420p out.mp4
+ffmpeg --start_number 0 -i ./%25d.png -c:v libx264 -vf fps=1 -pix_fmt yuv420p out.mp4
+ffmpeg -start_number 0 -i ./%25d.png -c:v libx264 -vf fps=1 -pix_fmt yuv420p out.mp4
+ffmpeg -start_number 0 -i %03d.png -c:v libx264 -vf fps=1 -pix_fmt yuv420p out.mp4
+ffmpeg -start_number 0 -i '%03d.png' -c:v libx264 -vf fps=1 -pix_fmt yuv420p out.mp4
+ffmpeg -framerate 30 -pattern_type glob -i '*.png' \\
+  -c:v libx264 -pix_fmt yuv420p out.mp4
+ffmpeg -framerate 30 -pattern_type glob -i '%25.png' \\
+  -c:v libx264 -pix_fmt yuv420p out.mp4
+ffmpeg -framerate 30 -pattern_type glob -i '%25d.png' \\
+  -c:v libx264 -pix_fmt yuv420p out.mp4
+ffmpeg -framerate 30 -pattern_type glob -i '%03d.png' \\
+  -c:v libx264 -pix_fmt yuv420p out.mp4
+ffmpeg -framerate 30 -pattern_type glob -i '%d.png' \\
+  -c:v libx264 -pix_fmt yuv420p out.mp4
+ffmpeg -framerate 30 -pattern_type glob -i %d.png \\
+  -c:v libx264 -pix_fmt yuv420p out.mp4
+ffmpeg -framerate 30 -i %d.png \\
+  -c:v libx264 -pix_fmt yuv420p out.mp4
+ffmpeg -framerate 15 -i %d.png \\
+  -c:v libx264 -pix_fmt yuv420p out.mp4
+mpv out.mp4 
+python n -e
+ffmpeg -framerate 15 -i ./src/%d.png \\
+  -c:v libx264 -pix_fmt yuv420p out.mp4
+python ns1d.py
+chmod +x make.sh
+nautilus
+nautilus ./
+file src/0.png
+mpv out.mp4 --keep-open=yes
+mkdir math
+cd math
+vim vim taylor_series.md
+vim taylor_series.md
+mkdir cfd
+cd cfd
+vim navierstokes.d
+vim navierstokes.md
+vim NavierStoke.py
+vim index.md
+cd 04EB-3AB3
+cd f1_in_schools/grace_design
+cp -r grace_design ~/git/
+vim sortiere.java
+cp sortiere.java sortiere_rec.java
+vim sortiere_rec.java
+rm -rf node_modules
+java sortiere
+javac sortiere.java
+javac sortiere_rec.java 
+java sortiere_rec
+doas pacman -S zettle
+vim .config/sway/config
+task add project:schule +homework +english finish the blogpost
+task 5 done
+task add project:schule +english buch kaufen atonement
+taks
+task 1 delete
+task 1 done
+mkdir bilder_abi_2025
+vim /tmp/tmp.md
+vim /tmp/tmp.txt
+doas pacman -S iris
+yay -S iris
+task add saman noten ausdrucken
+cd Navier-Stroke
+vim ns1d.py
+mkdir deutsch
+cd deutsch
+Ohn -e
+hn -e
+npm install @tailwindcss/typography
+mkdir common
+cd common
+vim CommonMeta.astro
+rm -rf valkyrie_web
+npm astro create
+npm create astro@latest
+npx astro add tailwind
+npx astro add compress
+npx astro add compres
+cd src
+mkdir uitls
+cd ut
+mv uitls utils
+cd utils
+vim config.ts
+rm config.ts 
+cp ~/projects/f1_team/website/src/utils/config.ts ./
+cp ~/projects/f1_team/website/src/config.yaml ./
+vim config.yaml
+npx astro add astro-compress
+vim astro.config.mjs
+rm tailwind.config.mjs
+cp ~/projects/f1_team/website/tailwind.config.cjs ./
+vim tailwind.config.cjs
+cp  Card.astro Nav.astro
+vim Nav.astro
+Terminal window\
+\
+npm install --save-dev prettier prettier-plugin-astro
+npm install --save-dev prettier prettier-plugin-astro
+vim PageLayout.astro
+vim Header.astro
+vim index.js
+vim main.css
+mkdir styles
+mv ../public/main.css ./styles/
+ls styles/
+cp -rf ~/git/grace_design/static/* ./
+npx astro add thgree
+npx astro add three
+npm install three
+mv src/utils/index.js public
+cp ../public/index.js utils/
+mv src/styles/main.css ./public
+mv ../public/main.css styles
+npm install
+npm run dve
+npm run builkd
+npm run build
+cd git/grace_design
+vim tvh.py
+ping www.google.de
+doas pacman -S traceroute
+traceroute www.google.de
+mullvad connect
+killall firefox
+pkill firefox
+date '%(%Y-%m-%d %H:%M:%S)T\n'
+date +'%Y-%m-%d'
+date +'%Y%m%d'
+vim $(date +'%Y%m%d').md
+date
+date -
+date %d
+date %D
+date -h
+date --help
+date "%d"
+date MM
+date DD
+date -s DD
+date -s MM
+date -s yyyy
+mullvad disconnect
+mpv Downloads/Tube_flow_chemi_480_240_all.mp4
+mullvad status
+cd git
+git clone https://github.com/VHeusinkveld/2D_Incompressible_NV_Solver-CP4.git
+cd 2D_Incompressible_NV_Solver-CP4
+jupyter notebook 
+doas pacman -S thunderbird
+yay -S velox-git
+yay -Ss swc
+yay -S swc-git
+swc
+velox
+swc-launch velox
+cd projects
+cd cfd_sf
+mkdir fluidsim
+python -m env fluidsim
+python -m virtualenv ./fluidsim
+cd fluidsim
+vim python simul_ns2d_plotphys.py
+vim simul_ns2d_plotphys.py
+pip install fluiddyn
+pip install fluidfft
+python simul_ns2d_plotphys.py
+pip install fluidfft.fft2d.with_fftw2d'
+vim bing.pz
+pip install fluidsim
+python bing.py
+vim bing.py
+vim fludisim.py
+python fludisim.py
+pipx install tqd
+ffmpeg -framerate 10 -i ./src/%d.png \\
+  -c:v libx264 -pix_fmt yuv420p out.mp4
+rm -rf ./src/*
+./make.sh
+vim math
+pip install math
+vim ma
+vim math.py
+python math.py
+vim ns
+cp ns2d.py ns2d.py.bak
+ls -a
+ls -ka
+pipx install tqdm
+source ./bin/activate
+pip install numpy
+pip install matplotlib
+python ns
+vim make.sh
+cp ns2d.py.bak ns2d.py
+rm -rf src/*
+python ns2d.py.bak
+ffmpeg -framerate 10 -i ./src/%d.png \\
+  -c:v libx264 -pix_fmt yuv420p out.mp4\
+
+mpv out.mp4
+vim pyvenv.cfg
+pip install tqdm
+vim ns2d.py
+python ns2d.py
+yay -Ss tufte
+doas pacman -Ss tufte
+doas pacman -S bastet
+yay -S bastet
+rm -rf __pycache__ bin lib share
+python -m virtualenv .
+rm pyvenv.cfg
+python NavierStoke.py
+mkdir ns
+cd ns
+rm -rf __pycache__ 
+rm .ipynb_checkpoints
+rm -rf .ipynb_checkpoints
+ls la
+mv math.py bak.py
+rm -rf __pycache__
+python -m virtualenv ./
+mv bak.py calc.py
+python calc.py
+firefox out.pdf
+vim blog.md
+pandoc blog.md -o out.pdf
+doas pacman -S calc
+calc
+mkdir physik
+cd physik
+doas light -U 10
+doas light -A 5
+doas systemctl restart NetworkManager
+ip a
+doas pacman -S xfc
+doas pacman -S xfce
+doas pacman -S xfce4
+vim dasoffenedrama.md
+doas pacman -S gnome
+doas pacman -S sddm
+doas systemctl enable sddm
+doas systemctl disable sddm
+doas systemctl enable gdm
+doas reboot
+cd .config/s
+tmux
+doas systemctl stop NetworkManager.service
+pkill node
+htio
+pkill mullvad-daemon
+doas pkill mullvad-daemon
+pkill nm-applet
+nmt
+doas systemctl start NetworkManager
+nmtui
+doas pkill firefox
+bastet
+doas vim /etc/pacman.conf
+doas pacman -R jdk
+doas pacman -R jdk-openjd
+doas pacman -R gradle7
+doas pacman -R jdk-openjdk
+doas pacman -R jre-openjdk
+yay -Syyyu
+tasksh
+task 9 done
+cd .config/sway
+./randwall.sh
+ls /usr/share
+ls /usr/share/desktop
+nm-connection-editor
+yay -Ss ooni
+yay -S ooniprobe-cli
+frief
+MOZ_ENABLE_WAYLAND=1 firefox\
+
+vim .zprofile
+source .zprofile
+echo $MOX_ENABLE_WAYLAND
+cat .zprofile
+MOZ_ENABLE_WAYLAND
+vim .profile
+MOZ_ENABLE_WAYLAND=1
+source .profile
+MOZ_ENABLE_WAYLAND=1 firefox
+firefox --enable-features=UseOzonePlatform --ozone-platform=wayland
+env MOZ_ENABLE_WAYLAND=1 firefox
+env MOZ_ENABLE_WAYLAND=1
+vim /usr/share/applications/firefox.desktop
+doas vim /usr/share/applications/firefox.desktop
+export MOZ_DBUS_REMOTE=1\
+export MOZ_ENABLE_WAYLAND=1
+firefox
+export MOZ_DBUS_REMOTE=1\
+export MOZ_ENABLE_WAYLAND=1 export MOZ_DBUS_REMOTE=1\
+export MOZ_ENABLE_WAYLAND=1
+export MOZ_DBUS_REMOTE=1\
+export MOZ_ENABLE_WAYLAND=1 firefox
+export MOZ_DBUS_REMOTE=1\
+export MOZ_ENABLE_WAYLAND=1 && firefox
+firefox --ozone-platform=wayland
+mkdir environment.d
+stow . ~/
+stow . ~
+stow -h
+stow . -t ~/
+ls env*
+cd environment.d
+pwd 
+vim .zshebv
+doas pacman -R firefox
+doas pacman -S firefox
+rm .zshenv
+cd .config/environment.d
+vim firefox.conf
+ls ~/.config/environment.d/*.conf
+reboot
+printenv
+printenv | grep way
+echo $MOZ_ENABLE_WAYLAND
+task 4 done
+task add project:valkyrie.website impressum
+task add project:valkyrie.website about
+task add project:valkyrie.website nav active 
+task 2 delete
+q4 2
+q1
+q2
+q3
+q4
+task inbox
+task add project:valkyrie.website index inhalte
+task add project:valkyrie.website new 3d model
+ls -lr
+git clone git@github.com:Hirschiii/dotfiles dot
+doas shutdown -h now
+npm run de
+npm run dev
+doas lit -A 10
+doas ligt -A 10
+doas light -A 10
+doas pacman -S dunst
+doas pacman -Syyyu
+notify-send "h"
+dunst
+doas systemctl enable dunst
+vim .config/sway
+notify-send "heh"
+task add box attribute for taskwarrior
+q4 8
+doas pacman -S context
+yay -S context
+cd Downloads/context-linux-aarch64
+cat install
+cat install.sh
+vim install.sh
+cp -r Downloads/context-linux-aarch64/* context
+bash install.sh
+mtxrun test.tex
+vim test.contex
+context test.contex
+echo $PATH
+rm scripts
+rm -rf Bilder Dokumente Musik Videos √É∂ffentlich
+rm -rf Schreibtisch
+mtxrun --script install-modules --install pararef
+cp -r ~/Downloads/t-crossref-0.9.3 ./
+mv t-crossref-0.9.3 crossref
+mv t-pararef-0.8.2 pararef
+ls 
+tree r
+tree
+cp -r pararef/tex/context/third/pararef ./
+cp crossref/tex/context/third/crossref ./
+cp -r crossref/tex/context/third/crossref ./
+ls para
+ls pararef
+mv -rf ../texmf-modules/* ./
+mv ../texmf-modules/* ./
+mtxrun --generate
+cd /run/media/niklas
+zk
+cp ./* ~/notes/henning
+ls bin/
+yay -Ss contex
+yay -Ss context
+LMTX
+yay -Ss tree
+tree context
+tree -d context
+vim /tmp
+vim
+cd texmf-context
+context --help
+context --helop
+context --helop | less
+context --script install-modules --list
+mtxrun --script modules --list
+mtxrun --script --list
+mtxrun --script packages --list
+mtxrun --script packages
+cd context/tex
+cd /tmp/
+doas pacman -S texlive
+htop
+context
+vim .zshenv
+vim .zshrc
+cd Downloads
+context Hello-world.tex
+firefox Hello-world.pdf
+context --luatex Hello-world.tex
+mtxrun --script
+mtxrun --script install-modules --list
+yay -R exa
+yay -S exa
+doas pacman -S exa
+doas pacman -r eza
+doas pacman -h
+doas pacman -R exa
+yay -S eza
+eza 
+doas pacman -S texlive-context
+cd Downloads/t-pararef-0.8.2
+mtxrun --script first-setuo
+mtxrun --script first-setup
+ls bi
+ls bin
+vim bin/mtx-install.lua
+rm -rf ./*
+unzip ~/Downloads/t-crossref-0.9.3 ./
+cp -r ~/Downloads/t-pararef-0.8.2 ./
+rm -rc context
+rm -rf context
+context --version
+mkdir henning
+cd henning
+zk edit -i
+vim inbox.md
+echo $TEXMFLOCAL
+context --generate | grep pararef
+doas context --generate
+context --run test.tex
+cd /tmp
+vim test
+vim test.tex
+context test.tex
+firefox test.pdf
+vim cros.tex
+context cros.tex
+firefox cros.pdf
+cd .texlive/
+cd /usr/share/texmf/tex
+mkdir context
+doas -s
+kpsewhich -var-value TEXMF
+ls .config/environment.d
+cd .texlive/texmf-var
+cd tex
+cd context
+cd third
+kpsewich
+kpsewhich -var-value TEXMFHOME
+mkdir texmf
+cd texmf
+cp -r ~/Downloads/t-pararef-0.8.2/tex ./
+s
+rm -rf tex
+cp -r ~/Downloads/t-pararef-0.8.2/* ./
+cd tex/context
+cp -rf ~/Downloads/t-crossref-0.9.3/* ./
+context --generate
+tree ./
+cd..
+cd ..
+pwd
+tree texmf
+echo $TEXMF
+kpsewhich -var-value TEXMF\
+
+doas pacman -S qtox
+doas pacman -S tox
+task add kulturpass
+q1 9
+cd .task
+ks
+rm ca.cert.pem client.cert.pem client.key.pem
+rm private.certificate.pem private.key.pem 
+scp gulugulu@aegaeon.uberspace.de:~/.var/taskddata/pki/Niklas.* ./
+scp gulugulu@aegaeon.uberspace.de:~/.var/taskddata/pki/Niklas.cert.pem ./
+scp gulugulu@aegaeon.uberspace.de:~/.var/taskddata/pki/Niklas.key.pem ./
+scp gulugulu@aegaeon.uberspace.de:~/.var/taskddata/pki/ca.cert.pem ./
+task config taskd.key -- ~/.task/client.key.pem
+task sync init
+pkill task
+ssh gulugulu@aegaeon.uberspace.de
+vim .taskrc
+ls -la
+cp -rf .task taskback
+rm -rf taskback
+cp -rf git/dotfiles/.task ./taskback
+ls taskback
+cd git/dotfiles
+rm -rf .task
+cp -rf ../dot/.task ./
+cd .config
+n -e
+cp ../dot/.taskrc ./
+task
+la
+cd
+cd .task/ls
+cd .task/
+ls
+task sync
+cd git/dot
+exit
+cd git/dotfiles
+cd .task
+ls
+doas pacman -S ca-certificates
+ssh gulugulu@aegaeon.uberspace.de
+s
+scp gulugulu@aegaeon.uberspace.de:~/.var/taskddata/pki/Niklas.cert.pem ./
+scp gulugulu@aegaeon.uberspace.de:~/.var/taskddata/pki/Niklas.key.pem ./
+n -e
+task 
+vim .taskrc
+scp gulugulu@aegaeon.uberspace.de:~/.var/taskddata/pki/server.cert.pem ./
+mv ca.cert.pem .task
+scp gulugulu@aegaeon.uberspace.de:~/.var/taskddata/pki/ca.cert.pem ./
+certtool -i --infile ~/.task/client.cert.pem
+vim ../.taskrc
+task sync init
+cp -rf taskback git/dotfiles/.task
+task
+task sync
+cd .task
+cls
+cd
+ls
+ls zk
+ls .task
+task
+vim .taskrc
+task sync
+ls
+cd git/dotfiles
+rm -rf ./.task
+cp ~/taskback ./.task
+cp -r ~/taskback ./.task
+ls .task
+stow . -d ~
+ls -la
+stow -h
+stow . -t ~
+cd 
+cd .task
+scp gulugulu@aegaeon.uberspace.de:~/.var/taskddata/pki/ca.cert.pem ./
+scp gulugulu@aegaeon.uberspace.de:~/.var/taskddata/pki/Niklas.cert.pem ./
+scp gulugulu@aegaeon.uberspace.de:~/.var/taskddata/pki/Niklas.key.pem ./
+ls
+mv Niklas.cert.pem client.cert.pem
+mv Niklas.key.pem client.key.pem
+certtool -i --infile ~/.task/client.cert.pem
+certtool -i --infile ~/.task/client.key.pem
+vim ../.task
+certtool -i --infile ~/.task/ca.cert.pem
+task sync
+vim ../.taskrc
+task sync init
+task
+ssh gulugulu@aegaeon.uberspace.de
+task
+nmtui
+nmti
+nmtui
+noef
+doas pacman -S neofetch
+neof
+neofetch
+ls .texlive/
+echo $TEXMF
+cd /usr/share/texmf
+cd tex
+cd latex
+cd /tmp
+cd
+cd .texlive/texmf-var
+cd tex/context
+n -e
+context --generate
+ls
+n -e
+n -e
+ls
+mkdir tex
+cd tex
+vim context.md
+doas shutdown -h now
+doas light -A 10
+doas light -U 10
+doas pacman -S gnuplot
+scim
+sc-im /tmp/phys
+yay -S sc-im
+sc-im /tmp/ph
+ls
+cat /tmp/physic.sc
+sc-im /tmp/physic.sc
+vim /tmp/physic.gnuplot
+cd /tmp
+mv physic.csv plot.csb
+mv plot.csb plot.csv
+vim physic.
+vim physic.gnuplot
+gnuplot -p physic.gnuplot
+task add project:schule.phy definition lorenskraft etc
+doas shutdown -h now
+vim .config/environment.d/firefox.conf
+doas pacman -S wl-clipboard
+vim .zprofile
+vim .zshenv
+cd .config/sway
+n -e
+./randwall.sh
+cd .config/sway
+./randwall.sh
+doas pacman -S imv
+cd .config/wall
+imv ./*
+imv .config/wall/*
+cd
+cd git/dotfiles
+ls
+cd .config
+curl -Osw '%{filename_effective}\n' 'http://www.example.com/[1-10].jpg' | imv
+mkdir imv
+cd imv
+vim config
+n -e
+stow . -t ~
+vim .config/imv/config
+cd .config/sway
+n -e
+yay -S fenics
+cd projects/cfd_sf
+cd Navier-Stroke
+mkdir fenice
+cd fenice
+cd ..
+mkdir fenices
+cd fenices
+python -m virtualenv .
+ls
+vim chat.pz
+vim chat.py
+source ./bin/activate
+pip install fenics
+python ./chat.py
+doas pacman -Ss basix
+cd git
+git clone https://github.com/FEniCS/dolfinx.git
+cd dolfinx
+cd build 
+cmake ../
+cd cpp
+n -e
+mkdir build
+cd build
+pipx install basix
+yay -S basix
+pip install basix
+doas pacman -S python-basix
+cmake ..
+yay -Ss basix
+yay -S python-fenics-basix-git fenics-basix-git
+pip3 install fenics-ffc --upgrade
+pipx install fenics-ffc --upgrade
+pipx install fenics-ffc
+cd projects/cfd_sf/fenices
+ls
+python3 chat.py
+doas pacman -S docker
+yay -Ss fanics
+yay -Ss fenics
+yay -S dolfinx python-fenics-dolfinx
+docker run -ti dolfinx/dolfinx:stable
+mkdir docker
+cd docker
+vim dolfin
+docker build -t dolfin .
+doas shutdown -h now
+docker run --init -ti -p 8888:8888 dolfinx/lab:stable
+doas docker run --init -ti -p 8888:8888 dolfinx/lab:stable
+cd go
+n -e
+git clone https://github.com/FEniCS/dolfinx.git
+cd dolfinx
+cd docker
+ls
+cp ./* ~/projects/hausarbeit_2023/fencis
+doas systemctl start docker.service
+doas systemctl start docker.socket
+docker info
+doas docker run -it --rm archlinux bash -c "echo hello world"
+docker run -it --rm archlinux bash -c "echo hello world"
+doas usermod -a -G docker niklas
+doas  docker run -it --rm archlinux bash -c "echo hello world"     
+docker run -ti dolfinx/dolfinx:stable
+doas docker run -ti dolfinx/dolfinx:stable
+ls
+lstmux-sessionizer
+cd projects
+mkdir hausarbeit_2023
+cd hausarbeit_2023
+mkdir fencis
+cd fencis
+rm ./*
+docker run --init -ti -p 8888:8888 dolfinx/lab:stable  # Access at http://localhost:8888
+doas docker run --init -ti -p 8888:8888 dolfinx/lab:stable  # Access at http://localhost:8888
+ls
+doas docker run --init -ti -p 8888:8888 dolfinx/lab:stable
+docker
+docker run
+su
+vim Downloads/ft08_navier_stokes_cylinder.py
+ls
+ls /home
+cd git/dolfinx
+ls
+n -e
+rm Dockerfile
+ls
+vim Do
+vim git/dolfinx/docker/Dockerfile.end-user
+cd git/dolfinx/docker
+ls
+n -e
+doas shutdown -h niw
+doas shutdown -h now
+cd fencis
+vim dockerfile
+docker build -t dockerfile .
+rm -rf dockerfile
+cp ~/git/dolfinx/docker/Dockerfile.end-user ./Dockerfile
+docker build -t Dockerfile .
+docker build -t ./Dockerfile .
+cp ~/git/dolfinx/docker/Dockerfile.end-user ./
+docker run --init -v $(pwd) -ti -p 8888:8888 ./Dockerfile.end-user/lab:stable
+docker run --init -v $(pwd) -ti -p 8888:8888 Dockerfile.end-user
+docker run --name notebook -w /home/fenics -v $(pwd):/home/fenics/shared -d -p 127.0.0.1:8888:8888 quay.io/fenicsproject/stable 'jupyter-notebook --ip=0.0.0.0'
+docker run --name notebook -w /home/fenics -v $(pwd):/home/fenics/shared -d -p 127.0.0.1:8888:8888 dolfinx/lab:stabel 'jupyter-notebook --ip=0.0.0.0'
+docker run --name notebook -w /home/fenics -v $(pwd):/home/fenics/shared -d -p 127.0.0.1:8888:8888 quay.io/fenicsproject/stabel 'jupyter-notebook --ip=0.0.0.0'
+docker run --name notebook -w /home/fenics -v $(pwd):/home/fenics/shared -d -p 127.0.0.1:8888:8888 quay.io/fenicsproject/stabel 
+doas docker run --name notebook -w /home/fenics -v $(pwd):/home/fenics/shared -d -p 127.0.0.1:8888:8888 quay.io/fenicsproject/stabel 
+doas docker run --name notebook -v $(pwd) -d -p 127.0.0.1:8888:8888 quay.io/fenicsproject/stabel 
+doas docker run --name notebook -v $(pwd) -d -p 127.0.0.1:8888:8888 dolfinx/lab:stabel
+docker run --init -v $(pwd) -ti -p 8888:8888 dolfinx/lab:stable
+docker run --init -v $(pwd):/home/fenics/shared -w /home/fenics/shared -ti -p 8888:8888 dolfinx/lab:stable
+docker pull dolfinx/lab:latest
+ls
+docker run --init -v $(pwd):/home/fenics/shared -w /home/fenics/shared -ti -p 8888:8888 docker.io/dolfinx/lab:latest\
+
+docker ps
+vim Dockerfile.end-user
+ls
+docker ps
+rm server.cert.pem
+task sync
+ls env
+n -e
+ls
+doas systemctl start docker.socket
+vim index.md
+doas  docker run --init -v $(pwd):/home/fenics/shared -w /home/fenics/shared -ti -p 8888:8888 dolfinx/lab:stable
+docker 
+doas systemctl start docker.service
+doas systemctl stop docker.socket
+doas systemctl start docker.service 
+cp Downloads/fundamentals_code.ipynb projects/hausarbeit_2023/fencis
+cd projects/hausarbeit_2023/fencis
+docker run --init -ti -p 8888:8888 dolfinx/lab:stable 
+doas  docker run --init -v $(pwd):/home/fenics/shared -w /home/fenics/shared -ti -p 8888:8888 dolfinx/lab:stable
+vim index.md
+yay -S docker-desktop
+pip install pyvista[all]
+pip install pyvista
+pipx install pyvista
+pipx install pyvista --include-deps
+n -e
+n -e
+n -e
+docker build .
+doas pacman -S buildkit
+doas pacman -S buildx
+doas pacman -S docker-buildx
+docker images
+docker run 911520c1d185
+docker run -v $(pwd):/home/root/ -w /home/root -ti -p 8888:8888 911520c1d185
+ls
+vim Dow
+vim Dockerfile
+DOCKER_BUILDKIT=1 docker build .
+doas shutdown -h now
+n -e
+vim Dockerfile
+doas systemctl start docker.service
+DOCKER_BUILDKIT=1 docker build .
+n -e
+vim Dockerfile
+ls
+mv jupyter.Dockerfile Dockerfile
+n -e
+DOCKER_BUILDKIT=1 docker build .
+cd git
+git clone git clone https://github.com/pyvista/pyvista
+git clone https://github.com/pyvista/pyvista
+cd pyvista
+cd ../doc
+vim jupyter.Dockerfile
+n -e
+cp ./docker/* ~/projects/hausarbeit_2023/fencis
+cd doc
+cd ../docker
+ls
+cd projects/hausarbeit_2023/fencis
+ls
+docker run -v $(pwd):/home/root/ -w /home/root -ti -p 8888:8888 911520c1d185
+task add project:schule herr kniedler nach cas umformung fragen
+q1 11
+n -e
+doas shutdown -h now
+nmtui
+ip 
+ip a
+nmtui
+firefox
+pkill firefox
+doas light -A 10
+nmtui
+doas shutdown -h now
+bastet
+doas light -U 10
+doas light -A 10
+cd git
+n -e
+cd dolfinx
+cd docker
+ls
+vim Dockerfile.end-user
+doas systemctl start docker.service
+cd projects
+cd hausarbeit_2023
+mkdir docker
+cd docker
+ls
+vim Doc
+vim Dockerfile
+docker -t build .
+vim inbox.md
+DOCKER_BUILDKIT=1 docker build .
+doas shutdown -h now
+n -e
+cat 20231108.md
+pandoc 20231108.md -o out.md
+pandoc 20231108.md -o out.pdf
+ls
+firefox out.pdf
+vim 20231108.md
+n -e
+ls
+vim index.md
+docker run -v $(pwd):/home/root/ -w /home/root -ti -p 8888:8888 911520c1d185
+n -e
+cp fundamentals_code.ipynb myfun.ipynb
+vim myfun.ipynb
+lsa
+la
+rm -rf ./*
+ls
+doas light √Éøh
+doas light -h
+doas light -S 100
+doas pacman -s conda
+yay -S python-conda
+vim Dockerfile
+docker build -v $(pwd):/home/root/ -w /home/root -ti -p 8888:8888 .
+docker build -ti -p 8888:8888 .
+docker build -t hausarbeit .
+conda install -c conda-forge mshr
+ls
+ls -la
+doas shutdown -h now
+cd fencis
+docker run -v $(pwd):/home/root/ -w /home/root -ti -p 8888:8888 911520c1d185
+ls
+vim Dockerfile
+DOCKER_BUILDKIT=1 docker build .
+DOCKER_BUILDKIT=1 docker build . -t hausarbeit
+docker list
+docker ls
+docker --help
+docker images
+n -e
+doas systemctl start docker.service
+nmtui
+doas shutdown -h now
+doas shutdown
+doas shutdown -h 
+doas shutdown -h  now
+doas systemctl start docker.service
+doas pacman -S signal
+#doas pacman -S signal
+doas pacman -S signal-desktop
+yay -Ss signal-desktop
+yay -S signal-desktop-beta-bin
+yay -S signal-desktop-beta
+task 11 q4
+task inbox
+q3 3
+q3 4
+q3 5
+q3 6
+q3 7
+q3 10
+q3 11
+q1
+q2
+q3
+task
+task add project:hausarbeit simulation in docker
+task 12 start
+n -e
+doas pacman -S gmsh
+yay -S gmesh
+yay -S gmsh
+doas pacman -S paraview
+yay -S paraview
+vim Downloads/demo_
+vim Downloads/demo_poisson.py
+vim Downloads/demo_stokes.py
+df
+cd projects
+mkdir dolfinx_tutorial
+cd dolfinx_tutorial
+rm -rf dolfinx_tutorial
+git clone https://github.com/jorgensd/dolfinx-tutorial.git
+cd dolfinx-tutorial
+cd docker
+docker build -f LocalDockerfile -t local_lab_env .
+DOCKER_BUILDKIT=1  docker build -f LocalDockerfile -t local_lab_env .
+docker pull ghcr.io/jorgensd/dolfinx-tutorial:v0.7.1@sha256:a92609a020874dfca74fd18baa950349af16f9ebfce428ae4175fa8a88404f27
+docker images
+cd ..
+;s
+ls
+docker run --rm -ti -v $(pwd):/root/shared -w /root/shared  --init -p 8888:8888  b83a0eb287ba
+cd projects/dolfinx-tutorial/docker
+vim DO
+vim Dockerfile
+ls
+cd fencis
+docker run -v $(pwd):/home/root/ -w /home/root -ti -p 8888:8888 911520c1d185
+docker run -v $(pwd):/home/root/ -w /home/root -ti -p 8888:8888 hausarbeit
+vim Dockerfile
+DOCKER_BUILDKIT=1 docker build . -t hausarbeit
+vim index.md
+cat index.md
+docker build -v $(pwd):/home/root/ -w /home/root -ti -p 8888:8888 hausarbeit
+ls
+docker run -v $(pwd):/home/root/ -w /home/root -ti -p 8888:8888 hausarbeit:latest
+rm Untitled1.ipynb Untitled.ipynb
+rm Untitled1.ipynb y
+cat index.md
+DOCKER_BUILDKIT=1 docker build . -t hausarbeit
+vim Dockerfile
+ls out_poisson
+firefox out_poisson/poisson.xdmf
+docker pull ghcr.io/jorgensd/dolfinx-tutorial:v0.7.1
+cp ~/projects/dolfinx-tutorial/chapter2/ns_code2.ipynb ./
+ls
+vim index.md
+cp ~/projects/dolfinx-tutorial/chapter2/bdforces_lv4 ./
+cp ~/projects/dolfinx-tutorial/chapter2/pointvalues_lv4 ./
+cd projects/hausarbeit_2023
+cd docker
+ls inbox.md
+cat inbox.md
+rm -rf ./*
+cp ~/projects/dolfinx-tutorial/docker/* ./
+cp ../fencis/index.md ./
+ls
+cat requirements.txt
+doas shutdown -h now
+n -e
+ls
+cat index.md
+doas systemctl start docker.service
+docker run -v $(pwd):/home/root/ -w /home/root -ti -p 8888:8888 hausarbeit
+doas systemctl start docker.service
+systemd-analyze blame
+cd fencis
+ls
+docker run -v $(pwd):/home/root/ -w /home/root -ti -p 8888:8888 hausarbeit
+doas shutdown -h now
+ls
+vim ns_code2.ipynb
+cp ~/projects/dolfinx-tutorial/chapter2/turek.png ./
+cd Downloads
+curl http://0x0.st/s/aPJRkGKFXbp_erTylzkP6w/Hvy1.glb
+blender
+n -e
+vim OurSponsors.astro
+n -e
+npm run dev
+git add .
+git commit -m "update"
+git push
+touch about.astor
+touch sponsor.astro social.astro impressum.astro
+cp index.astro about.astor
+cp index.astro social.astro 
+cp index.astro impressum.astro
+cp index.astro sponsor.astro
+ls about.astor
+cat about.astor
+ls
+mv about.astor about.astro
+vim nav.js
+n -e
+doas shutdown -h now
+nmtui
+doas systemctl restart NetworkManager
+nmtui
+ls
+ls Downloads
+n -e
+firefox Einwilligung_TN_2023.pdf
+nmtui
+vim load.js
+n -e
+ls
+n -e
+doas shutdown -h now
+ls
+cat index.md
+docker run -v $(pwd):/home/root/ -w /home/root -ti -p 8888:8888 hausarbeit
+doas systemctl start docker.service
+vim init.js
+mv pages/init.js utils
+cd utils
+cp sponsor.astro  impressum.astro
+cp sponsor.astro social.astro
+cp sponsor.astro about.astro
+ls
+n -e
+n -e
+npm run dev
+firefox Downloads/optimizw_airfoile2d.pdf
+doas systemctl start docker.service
+doas pacman -S matlab
+doas pacman -Ss matlab
+yay -Ss matlab
+yay -S matlab
+doas pacman -S paraview
+doas pacman -Ss paraview
+yay -S paraview
+yay -S gmsh
+yay -S openlab
+yay -Ss openlab
+doas pacman -S openlab
+doas pacman -Ss openlab
+cd dow
+cd Downloads
+unzip onelab-source.zip
+yay -Ss onelab
+doas pacman -Ss onelab
+cd onelab-source
+ls gmsh-git-source
+ls
+c
+vim visulize_msh.m
+n -e
+vim data.0
+ls
+cat data.0
+l
+yay -S visit
+doas shutdown -h now
+cd dfg2D-3-
+vim profiling.json
+vim md.0
+mkdir ns-github
+cd ns-github
+git clone https://github.com/VHeusinkveld/2D_Incompressible_NV_Solver-CP4.git .
+ls
+n -e
+n -e
+cat index.md
+docker run -v $(pwd):/home/root/ -w /home/root -ti -p 8888:8888 hausarbeit:latest
+firefox
+doas shutdown -h now
+yay -Ss gmsh
+yay -S gmsh
+doas systemctl start docker.service
+pkill zip
+n -e
+cat index.md
+docker run -v $(pwd):/home/root/ -w /home/root -ti -p 8888:8888  hausarbeit
+cd projects/hausarbeit_2023
+zip -
+zip -h
+zip -r fencis
+cd fencis
+rm -rf dfg2D-3-*
+doas rm -rf dfg2D-3-*
+n -e
+zip -r fencis.zip fencis
+ls
+doas shutdown -h now
+doas light -U  10
+doas light -A 5
+doas pacman -Syyyu
+cd projects/f1_team
+n -e
+ls
+n -e
+ls public/models/gltf
+cd public/models/gltf
+ls
+mv 880d_SwordnInStone_without_peop.glb SwordInStone_without_people.glb
+ls SwordInStone_with
+ls SwordInStone_without_people.glb
+htop
+n -e
+npm run build
+ls
+n -e
+npm run dev
+npm run build
+mullvad connect
+mullvad disconnect
+yay -Syyyu
+doas pacman -Syyyu
+yay -Ss vips
+yay -S libvips-git
+mullvad connect
+ssh hirschii@draco.uberspace.de
+cd ls
+n -e
+git add .
+git commit -m "build"
+git push
+ls
+git remote add origin git@github.com:Team-Valkyrie/website.git
+git push -u origin main
+cd projects/f1_team
+git clone git@github.com:Team-Valkyrie/website.git website_back_up
+ls
+cd projects/f1_team/team-valkyrie-web
+node --max-old-space-size=8000 $(which npm) run build
+npm run dev
+node --max-old-space-size=16000 $(which npm) run build
+npm install
+npm update
+npm run build
+cat astro.config.mjs
+ls
+vim package.json
+npx astro check
+mkdir new_Test
+rm -rf new_Test
+npm create astro@latest
+cd te
+cd team-valkyrie-web
+cp -rf astro.config.mjs package.json public src tailwind.config.cjs tsconfig.json ../test_run
+npm install
+npm run build
+npx astro build
+cd dist
+ls
+n -e
+ls 
+scp -rf dist hirschii@draco.uberspace.de:/home/hirschii/html/website
+scp -h
+scp -r ./dist hirschii@draco.uberspace.de:/home/hirschii/html/website
+doas shutdown -h now
+mullvad connect
+cd projects/f1_team/te
+n -e
+cd projects/f1_team/team-valkyrie-web
+git pull
+ls public/models/gltf/SwordInStone_without_people.glb
+mullvad disconnect
+nmtui
+mullvad status
+date
+n -e
+mullvad connect
+pkill qtox
+killall qt
+killall qtox
+mullvad disconnect
+doas shutdown -h now
+n -e
+vim 20231120_emailtocleo.md
+pandoc 20231120_emailtocleo.md -o out.pdf
+firefox out.pdf
+firefox out.
+firefox out.pdf
+pandoc 20231108.md -o out.pdf
+n -e
+doas shutdown -h now
+n -e
+pandoc 20231108.md -o out.pdf
+vim 20231108.md
+vim inbox.md
+cd projects/hausarbeit_2023/p
+cd projects/hausarbeit_2023/lecture/
+ls
+firefox Implementation_of_FEM.pdf
+doas light -A 109
+doas light -A 10
+doas light -U 10
+doas shutdown -h now
+cat Downloads/10.1007_978-3-642-20617-7_16699-citation.bib
+vim Downloads/citations.bib
+cd projects/hausarbeit_2023/lecture
+ls
+firefox ./*
+cat Downloads/An_Introduction_to_Theoretical_and_Compu.bibtex
+cat Downloads/l
+cat Downloads/la.svg
+doas pacman -Syyy
+doas pacman -Syyyu
+doas systemctl start docker.service
+vim /tmp/test.md
+cd /tmp/te
+cd /tmp/
+pandoc -s test.md -o out.tex
+vim out.tex
+cat Downloads/Aerodynamics_of_V_STOL_Flight.bibtex
+n -e
+cat index.md
+docker run -v $(pwd):/home/root/ -w /home/root -ti -p 8888:8888  hausarbeit:latest
+n -e
+ls
+mpv movie
+mpv movie.mp4
+mpv Tube_flow_cil_turb_600_300.mp4
+l
+cd projects/hausarbeit_2023/lecture
+ls
+firefox ./*
+doas shutdown -h now
+htop
+doas pacman -S inkscape
+mullvad connect
+cd Downloads/wo
+cd Downloads/Woyzeck
+ls
+zathura Scene5A.jpg
+firefox ./*
+mullvad disconnect
+cd .local/share/nvim/lazy
+rm -rf markdown-preview.nvim
+cd .local/share/nvim/lazy/markdown-preview.nvim
+ls
+rm app/yarn.lock
+doas shutdown -h now
+ls
+mkdir deutsch
+cd deutsch
+zk edit -i
+vim non-verbal.md
+vim para-verbal.md
+task add project:schule latex wiki mathe inf phy
+n -e
+light -A 10
+cp Downloads/116875.jpg .config/wall/winvslin.jpg
+doas shutdown -h now
+cd Dow
+	cd Downloads
+ls
+ls -l
+ls -h
+ls --help
+ls --help | grep date 
+ls --sort date
+firefox topologz_inner.jpg
+doas pacman -S texlive pstoedit
+doas pacman -S inkscape 
+doas pacman -S texlive
+firefox Downloads/image.
+firefox Downloads/image.png
+mv Downloads/\[v2\]\ 90\ Minutes\ of\ Focused\ StudyingÔºÉ∫\ The\ Best\ Binaural\ Beats\ \[Dq-h8LIe6II\].opus Downloads/binNeuralBeat40hz.opus
+r
+mkdir musik
+mv Einwilligung_TN_2023_ausgef√ºllt.pdf Downloads
+ls docker
+rm -rf docker
+ls
+cp Downloads/binNeuralBeat40hz.opus musik
+ls musik
+cd Downloads
+ls
+mpv Binaural\ Beats\ -\ Power\ Nap\ \(20\ Minutes\)\ -\ 14\ to\ 6.7\ Hz.mp3
+yta-best 'https://www.youtube.com/watch?v=Dq-h8LIe6II'
+mpv 90
+mpv \[v2\]\ 90\ Minutes\ of\ Focused\ StudyingÔºÉ∫\ The\ Best\ Binaural\ Beats\ \[Dq-h8LIe6II\].opus
+mpv binNeuralBeat40hz.opus
+cd musik
+mpv binNeuralBeat40hz.opus
+ls
+mv binNeuralBeat40hz.opus BineuralBeats40hz_90min.opus
+neofetch
+mpv BineuralBeats40hz_90min.opus
+doas shutdown -h now
+doas light -A 10
+doas light -U 10
+dd if=/dev/urandom count=4 bs=1 | od -t d
+od -A n -t d -N 1 /dev/urandom
+od -A n -t d -N 2 /dev/urandom
+od -A n -t d -N 10 /dev/urandom
+od -A n -t d -N 8 /dev/urandom
+od -A n -t d -N 4 /dev/urandom
+cd projects/sort
+ls
+./gen_num.sh
+cat numbers.txt 
+ls
+cat /dev/urandom
+echo $RANDOM
+cd projects/sort
+cat numbers.txt
+ls
+vim numbers.txt
+ls
+vim numbers.txt
+dd if=/dev/urandom count=4 bs=1 | od -t d
+cd projects/sort
+ls
+cat numbers.txt
+vim numbers.txt
+cd projects
+mkdir sort
+cd sort
+touch numbers.txt
+cat gen_num.sh
+bash gen_num.sh
+rm FILE
+chmod +x gen_num.sh
+cat numbers.txt
+rm numbers.txt
+vim numbers.txt
+vim gen_num.sh
+./gen_num.sh
+ls
+vim fast_gen.sh
+n -e
+ls
+n -e
+doas shutdown
+doas shutdown -h now
+bash fast_gen.sh
+gcc -a gen_num.c
+gcc a.out
+touch zufallszahlen.txt
+gcc gen_num.c -o gen_num_c
+./gen_num_c
+cat zufallszahlen.txt
+vim zufallszahlen.txt
+rm fast_gen.sh
+rm -rf numbers.txt zufallszahlen.txt
+touch numbers.txt
+gcc gen_num.c
+rm a.out
+echo /dev/null > numbers.txt
+echo > numbers.txt
+./gen
+vim gen_num
+vim gen_num.
+vim gennum_c
+vim gen_num.c .
+gcc gen_num.c -o gennum_c
+rm numbers.txt
+./gennum_c
+cat numbers.txt
+vim numbers.txt
+vim stack_gen.c
+gcc stack_gen.c -i stack_gen
+gcc stack_gen.c -o stack_gen
+./stack_gen blabla 100 10
+ls blabla
+cat blabla
+vim blabla
+rm blabla gen_num_c
+rm stack_gen*
+l
+ls
+vim gen_num.c
+n -e
+task project:hausarbeit
+task 12 done
+task
+task 11 del
+doas shutdown -h nw
+doas shutdown -h now
+nmtui
+doas pacman -Ss minesweeper
+doas pacman -S kmines
+doas pacman -S openttd
+doas pacman -S openttd-opengfx openttd-opensfx
+yay -S openttd-openmsx
+doas pacman -Ss supertu
+doas pacman -S supertuxkart 
+n -e
+vim inbox.md
+doas shutdown -h now
+doas pacman -S jlink
+java
+javac
+yay -S jlink
+doas pacman -S jdk-openjdk
+cd projects
+mkdir leetCode
+cd leetCode
+mkdir 20231122
+cd 20231122
+javac
+javac 
+ls
+javac TwoSum.java
+vim TwoSum.java
+n -e
+cd gltf/l
+s
+cd gltf/
+ls
+doas shutdown -h now
+doas light -A 10
+mullvad connect
+n -e
+ls
+cp impressum.astro kontakt.md
+mv kontakt.md kontakt.astro
+npm run dv
+npm run dev
+git pull
+ls
+npm n -e
+n -e
+git add .
+git commit -m "some fix"
+git push
+doas shutdown -h now
+mullvad disconnect
+cd .config
+n -e
+cd foot
+ls
+vim foot.ini
+pkill foot
+ls
+pwd
+cd .config/foot
+vim foot.ini
+setsid foot --server
+ls
+doas shutdown -h now
+n -e
+vim inbox.md
+n -e
+cd .config/sway
+n -e
+doas shutdown -h now
+cd .config/sway
+n -e
+cd Downloads
+cd Woyzeck
+ls
+firefox ./*
+cd .config/nvim\ 
+cd .config/nvim
+ls
+n -e
+task add mardown todos in taskwarrior
+doas shutdown -h now
+n -e
+doas pacman -Ssssy
+doas pacman -Syyyi
+doas pacman -Syyyu
+pkill firef
+killall firefox
+firefox
+cd .config/sway
+n -e
+ls
+ls Downloads
+ls --sort=date
+ls Downloads --sort=date
+firefox Downloads/PhQ_EM_03_Elektronenstrahl_im_elektrischen_Feld.pdf
+zathura Downloads/PhQ_EM_03_Elektronenstrahl_im_elektrischen_Feld.pdf
+doas pacman -Ss zathura
+doas pacman -S zathura-pdf-mupdf
+pkill firefox
+htop
+doas firefox
+firefox
+doas pacman -S gstreamer-vaapi
+firefox
+pkill firefox
+killall firefox
+htop
+doas pacman -R gnome
+firefox
+firefox --h
+firefox --new-instance
+firefox --help
+firefox --headless
+firefox --ProfileManager
+doas pacman -R gnoem
+doas pacman -R gnome
+doas pacman -R mutter
+doas pacman -R gnome-settings
+doas pacman -R gnome-settings-deamon
+doas pacman -R gnome mutter
+doas reboot
+mkdir source
+ls
+cp /tmp/1700826597_grim.png ./ablenkkondensator.png
+ls sr
+ls source
+ls
+mv ablenkkondensator.png source
+firefox
+doas pacman -R firefox
+doas pacman -S firefox
+firefox
+doas pacman -R firefox
+doas pacman -S firefo
+doas pacman -S firefox
+doas pacman -Rn firefox
+fireof
+firefox
+firefo
+firefox
+yay -S firefox
+firefox
+yay -R firefox
+doas pacman -R fireofx
+doas pacman -R firefox
+firefox
+yay -Ss firefox
+yay -S firefox
+firefox
+neofetch
+doas shutdown -h now
+n -e
+n -e
+pandoc inbox.md -o out.html
+qutebrowser out.html
+pandoc inbox.md -o out.pdf
+zathura out.pdf
+pandoc inbox.md -o out.pdf
+frief
+firefox
+doas shutdown -h now
+doas pacman -g
+doas pacman -h
+doas pacman -R
+doas pacman -R -h
+doas pacman -Rcsn firefox
+doas pacman -Syyyu firefox
+firefox
+ls
+cd notq
+cd notes
+mkdir ideas
+cd ideas
+ls
+vim perfile+
+vim per_file_snippets.md
+task add per file snippets
+task q3 12
+q3 12
+q4 13
+task 9 wait:3day
+task 9 mod wait:3day
+task 5 del
+task 11 del
+tasksh
+task add system rest
+task q
+q3 13
+task add task open
+q4 14
+task sort:id
+task id
+task all
+task sync
+task add uberspace auff√ºllen due:5day
+task q3 15
+task
+task score
+task ids
+task ids 1
+task ids 1-15
+task ids 
+task add latex shorform for live texing 
+q4 16
+q3 15
+task 16 mode project:workdlow
+vim .taskrc
+dc notes
+cd notes
+n -e
+mkdir workflow
+cd workflow
+ls
+touch lecture_notes.md
+task add physik lernen urgent:y priority:h due:mon project:schule.phy
+task add physik lernen urgent:j priority:h due:mon project:schule.phy
+v
+task add physik lernen urgent:Y priority:h due:mon project:schule.phy
+task add physik lernen urgent:Y priority:H due:mon project:schule.phy
+q1
+task add geschichte lernen lernen urgent:Y priority:H due:mon project:schule.ge
+task 18 mod geschichte lernen
+task
+cd projects/f1_team/
+n -e
+task project:valkyrie.website
+task 6 mode remove rocks on 3d
+task add project:valkyrie.website images for persnon
+cd notes/workflow/
+ls
+n -e
+doas shutdown -h now
+n -e
+cd .cache/qutebrowser
+ls http
+n -e
+ls
+rm -rf qutebrowser
+task
+task project:valkyrie.website
+task 6 done
+task add project:valkyrie.website dynamic sponsor size
+task add new vim config
+q4 20
+q1
+q2
+q3
+q4
+task
+task inbox
+q3 18
+q3 19
+doas shutdown -h now
+doas pacman -S nautilus

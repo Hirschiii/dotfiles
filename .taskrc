@@ -50,7 +50,8 @@ report.doing.labels=ID,Text
 report.doing.sort=priority-,id+
 report.doing.filter=status:pending +ACTIVE
 
-# taskd.trust=allow all
+taskd.trust=allow all
+# taskd.trust=ignore hostname
 
 # To use the default location of the XDG directories,
 # move this configuration file from ~/.taskrc to ~/.config/task/taskrc and uncomment below
@@ -123,29 +124,20 @@ report.q4.filter=limit:page status:pending and priority:L and urgent:N
 report.q4.columns=start.active,id,project,urgency,description,entry.age,tags
 report.q4.labels=A,ID,Proj,Urg,Description,Age,Tags
 
-# Trello:
-#
-# Install with: yay -S trellowarrior
-
-# UDAs
-uda.trelloid.type=string
-uda.trelloid.label=Trello ID
-uda.trellolistname.type=string
-uda.trellolistname.label=Trello List Name
-
-
-
 report.project.description=Projects report
 report.project.filter=status:pending project.not:
 report.project.columns=id,project,description,tags
 report.project.labes=ID,Proj,Description,Tags
 report.project.sort=project,urgency
+
 taskd.certificate=\/home\/niklas\/.task\/client.cert.pem
 taskd.key=\/home\/niklas\/.task\/client.key.pem
-taskd.ca=\/home\/niklas\/.task\/ca.cert.pem
+# taskd.ca=\/home\/niklas\/.task\/ca.cert.pem
 taskd.server=gulugulu.uber.space:41920
 # taskd.server=192.168.4.10:53589
 taskd.credentials=Privat\/Niklas von Hirschfeld\/aed357f0-3a3e-4dd5-8982-d92d6e09e7d1
+# taskd.credentials=hirschii_organization\/Niklas von Hirschfeld\/aed357f0-3a3e-4dd5-8982-d92d6e09e7d1
+
 # taskd.ca=\/home\/niklas\/.task\/ca.cert.pem
 news.version=2.6.0
 uda.reviewed.type=date

@@ -9,7 +9,8 @@
 ### Variables
 exec foot --server
 exec wl-paste -t text --watch clipman store
-exec_always nm-applet
+exec_always dunst
+# exec_always nm-applet
 # exec wl-paste -p -t text --watch clipman store -P --histpath="~/.local/share/clipman-primary.json"
 #
 # Logo key. Use Mod1 for Alt.
@@ -112,6 +113,8 @@ gaps outer 10
     bindsym $mod+Return exec $term
     bindsym $mod+Shift+Return exec $term -e tmux new-session -A -s default
     bindsym $mod+w exec firefox
+
+	bindsym $mod+Shift+w exec imv ~/.config/wall/*
 
 # Switch keyboard Layout
     bindsym $mod+Shift+d input "1452:852:Apple_MTP_keyboard" xkb_switch_layout next
@@ -269,6 +272,10 @@ bar {
     status_command while ~/.config/sway/script_bar.sh; do sleep 1; done
 
     tray_output *
+	tray {
+        bindcode 273 ContextMenu
+        bindsym BTN_RIGHT ContextMenu
+    }
     # "gtk-layer-shell": false
 
     colors {

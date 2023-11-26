@@ -139,11 +139,11 @@ bindkey -v '^?' backward-delete-char
 [ -f "$HOME/.config/shell/quitcd.zsh" ] && source "$HOME/.config/shell/quitcd.zsh"
 
 # Changing "ls" to "exa"
-alias ls='exa -l --color=always --group-directories-first' # my preferred listing
-alias la='exa -la --color=always --group-directories-first'  # all files and dirs
-alias ll='exa -l --color=always --group-directories-first'  # long format
-alias lt='exa -aT --color=always --group-directories-first' # tree listing
-alias l.='exa -a | egrep "^\."'
+alias ls='eza -l --color=always --group-directories-first' # my preferred listing
+alias la='eza -la --color=always --group-directories-first'  # all files and dirs
+alias ll='eza -l --color=always --group-directories-first'  # long format
+alias lt='eza -aT --color=always --group-directories-first' # tree listing
+alias l.='eza -a | egrep "^\."'
 
 
 # Herbstluftwm
