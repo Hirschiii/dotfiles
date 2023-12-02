@@ -109,6 +109,12 @@ for_window [shell=".*"] title_format "%title :: %shell"
 gaps inner 10
 gaps outer 10
 
+# Multi Mediaa
+
+bindsym XF86MonBrightnessDown exec light -U 10
+bindsym XF86MonBrightnessUp exec light -A 10
+
+
     # Start a terminal
     bindsym $mod+Return exec $term
     bindsym $mod+Shift+Return exec $term -e tmux new-session -A -s default
@@ -125,6 +131,7 @@ gaps outer 10
     # Kill focused window
     bindsym $mod+c kill
     bindsym $mod+Shift+c exec clipman pick --tool=CUSTOM --tool-args="fuzzel -d"
+	bindsym $mod+x exec "$(file="/tmp/click"; if test "0" = "$(cat "$file")"; then printf '1\n' > "$file"; else printf '0\n' > "$file"; fi)"
 
     # Start your launcher
     bindsym $mod+d exec $menu

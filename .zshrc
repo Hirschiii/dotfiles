@@ -36,13 +36,33 @@ export NNN_OPTS="E"
 # Enable colors and change prompt:
 autoload -U colors && colors
 
+OVERDUE='💀'
+DUETODAY='😱'
+DUETOMORROW='🗓️'
+URGENT='❗'
+
+function task_indikator {
+	TASK="task"
+	if [[ `$TASK +READY +OVERDUE count rc.context:none` -gt "0" ]]; then
+		echo "$OVERDUE"
+	elif [[ `$TASK +READY +TOMORROW count rc.context:none` -gt "0" ]]; then 
+		echo "$DUETOMORROW"
+	elif [[ `$TASK +READY +TODAY count rc.context:none` -gt "0" ]]; then 
+		echo "$DUETODAY"
+	elif [[ `$TASK +READY urgency.over:20 count rc.context:none` -gt "0" ]]; then 
+		echo "$URGENT"
+	else
+		echo '$'
+	fi
+}
+
 # PS1="%B%{$fg[red]%}[%{$fg[yellow]%}%n%{$fg[green]%}@%{$fg[blue]%}%M %{$fg[magenta]%}%1d%{$fg[red]%}]%{$reset_color%}$%b "
 # PS1='%~ $: '
 # PS1="%B%{%F{1}%}[%{$fg[yellow]%}%n%{$fg[green]%}@%{$fg[blue]%}%M %{$fg[magenta]%}%~%{$fg[red]%}]%{$reset_color%}$%b "
-# PS1="%{$fg[red]%}%n%{$reset_color%}@%{$fg[blue]%}%m %{$fg[yellow]%}%(5~|%-1~/.../%3~|%4~) %{$reset_color%}%% "
+
+PS1="%{$fg[red]%}%n%{$reset_color%}@%{$fg[blue]%}%m %{$fg[yellow]%}%(5~|%-1~/.../%3~|%4~) %{$reset_color%}%% $(task_indikator): "
 
 
-source /home/niklas/.config/zsh/zsh-keybinding
 
 export PATH="$PATH:/home/niklas/.local/bin"
 
@@ -137,6 +157,8 @@ bindkey -v '^?' backward-delete-char
 [ -f "$HOME/.config/shell/zsh_alias" ] && source "$HOME/.config/shell/zsh_alias"
 [ -f "$HOME/.config/shell/taskwarrior.zsh" ] && source "$HOME/.config/shell/taskwarrior.zsh"
 [ -f "$HOME/.config/shell/quitcd.zsh" ] && source "$HOME/.config/shell/quitcd.zsh"
+[ -f "$HOME/.config/zsh/zsh-keybinding" ] && source "$HOME/.config/zsh/zsh-keybinding"
+[ -f "/usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" ] && source "/usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh"
 
 # Changing "ls" to "exa"
 alias ls='eza -l --color=always --group-directories-first' # my preferred listing
@@ -169,7 +191,7 @@ if [ "$(tty)" = "/dev/tty1" ]; then
     exec /usr/bin/sway > $XDG_RUNTIME_DIR/sway.log 2>&1
 fi
 
-eval "$(starship init zsh)"
+# eval "$(starship init zsh)"
 
 # If not running interactively, do not do anything
 # [[ $- != *i* ]] && return
@@ -183,7 +205,6 @@ eval "$(starship init zsh)"
 # [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 # eval "$(starship init zsh)"
 # Load zsh-syntax-highlighting; should be last.
-source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh 2>/dev/null
 # eval "$(starship init zsh)"
 # fastfetch | blahaj -c gay
 # fortune && pokemon-colorscripts -r

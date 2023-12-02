@@ -12,8 +12,8 @@ return {
 
 
     -- Writing / Zenmode
-    -- { 'junegunn/goyo.vim',            cmd = "Goyo" },
-    -- { 'junegunn/limelight.vim',       cmd = "Limelight" },
+    { 'junegunn/goyo.vim',            cmd = "Goyo" },
+    { 'junegunn/limelight.vim',       cmd = "Limelight" },
 
     -- TJ created lodash of neovim
     "nvim-lua/plenary.nvim",
@@ -22,10 +22,11 @@ return {
 
     -- html
 
+    { 'norcalli/nvim-colorizer.lua',   ft = { "css", "html" },             event = { "BufNewFile", "BufRead" } },
     { 'turbio/bracey.vim' },
-    -- { 'mattn/emmet-vim' },
+    { 'mattn/emmet-vim' },
 
-    -- { "simrat39/symbols-outline.nvim", event = { "BufNewFile", "BufRead" } },
+    { "simrat39/symbols-outline.nvim", event = { "BufNewFile", "BufRead" } },
     {
         "kylechui/nvim-surround",
         config = function()
@@ -92,6 +93,7 @@ return {
             }
         end
     },
+    -- "romgrk/nvim-treesitter-context",
     -- {
     --     "folke/zen-mode.nvim",
     --     event = "VeryLazy",

@@ -4119,3 +4119,318 @@ time 1700930993
 old [description:"dynamic sponsor size" entry:"1700930904" modified:"1700930904" project:"valkyrie.website" status:"pending" uuid:"b4a15523-b897-4f8f-bef3-594da5c68219"]
 new [description:"dynamic sponsor size" entry:"1700930904" modified:"1700930993" priority:"L" project:"valkyrie.website" status:"pending" urgent:"Y" uuid:"b4a15523-b897-4f8f-bef3-594da5c68219"]
 ---
+time 1701084354
+old [description:"physik lernen" due:"1701039600" entry:"1700917691" modified:"1700917691" priority:"H" project:"schule.phy" status:"pending" urgent:"Y" uuid:"9d1064e4-46ec-4ecf-bf07-2bd4496ad683"]
+new [description:"physik lernen" due:"1701039600" end:"1701084354" entry:"1700917691" modified:"1701084354" priority:"H" project:"schule.phy" status:"completed" urgent:"Y" uuid:"9d1064e4-46ec-4ecf-bf07-2bd4496ad683"]
+---
+time 1701092293
+new [description:"lukas raus nehmen" entry:"1701092293" modified:"1701092293" status:"pending" uuid:"eb6fc87c-6555-41ee-828b-9549d9dcc552"]
+---
+time 1701092304
+old [description:"lukas raus nehmen" entry:"1701092293" modified:"1701092293" status:"pending" uuid:"eb6fc87c-6555-41ee-828b-9549d9dcc552"]
+new [description:"lukas raus nehmen" entry:"1701092293" modified:"1701092304" project:"valkyrie.website" status:"pending" uuid:"eb6fc87c-6555-41ee-828b-9549d9dcc552"]
+---
+time 1701092343
+new [description:"in arbeit" entry:"1701092343" modified:"1701092343" project:"valkyrie.website" status:"pending" uuid:"8e9eb03f-9917-4626-a0bd-9a4549a02478"]
+---
+time 1701092365
+old [description:"lukas raus nehmen" entry:"1701092293" modified:"1701092304" project:"valkyrie.website" status:"pending" uuid:"eb6fc87c-6555-41ee-828b-9549d9dcc552"]
+new [description:"lukas raus nehmen" entry:"1701092293" modified:"1701092365" priority:"L" project:"valkyrie.website" status:"pending" urgent:"Y" uuid:"eb6fc87c-6555-41ee-828b-9549d9dcc552"]
+---
+time 1701092366
+old [description:"in arbeit" entry:"1701092343" modified:"1701092343" project:"valkyrie.website" status:"pending" uuid:"8e9eb03f-9917-4626-a0bd-9a4549a02478"]
+new [description:"in arbeit" entry:"1701092343" modified:"1701092366" priority:"L" project:"valkyrie.website" status:"pending" urgent:"Y" uuid:"8e9eb03f-9917-4626-a0bd-9a4549a02478"]
+---
+time 1701092376
+old [description:"impressum" entry:"1699705155" modified:"1700127853" priority:"L" project:"valkyrie.website" status:"pending" urgent:"Y" uuid:"c17669d2-b9bc-4e9b-a880-2ba988e7f2d1"]
+new [description:"impressum" entry:"1699705155" modified:"1701092376" priority:"H" project:"valkyrie.website" status:"pending" urgent:"Y" uuid:"c17669d2-b9bc-4e9b-a880-2ba988e7f2d1"]
+---
+time 1701092380
+old [description:"in arbeit" entry:"1701092343" modified:"1701092366" priority:"L" project:"valkyrie.website" status:"pending" urgent:"Y" uuid:"8e9eb03f-9917-4626-a0bd-9a4549a02478"]
+new [description:"in arbeit" entry:"1701092343" modified:"1701092380" priority:"H" project:"valkyrie.website" status:"pending" urgent:"Y" uuid:"8e9eb03f-9917-4626-a0bd-9a4549a02478"]
+---
+time 1701094724
+new [description:"weihnachtsgeschenk fuer Herrn Kliedler" entry:"1701094724" modified:"1701094724" status:"pending" uuid:"573b49f3-23a6-462d-a799-27063680de0c"]
+---
+time 1701177397
+new [description:"logik mitschriften in ein tex doc" entry:"1701177397" modified:"1701177397" status:"pending" uuid:"3bc96072-9b27-4161-a5a9-4bd9d356feb3"]
+---
+time 1701177399
+old [description:"logik mitschriften in ein tex doc" entry:"1701177397" modified:"1701177397" status:"pending" uuid:"3bc96072-9b27-4161-a5a9-4bd9d356feb3"]
+new [description:"logik mitschriften in ein tex doc" entry:"1701177397" modified:"1701177399" priority:"L" status:"pending" urgent:"N" uuid:"3bc96072-9b27-4161-a5a9-4bd9d356feb3"]
+---
+time 1701177411
+old [description:"weihnachtsgeschenk fuer Herrn Kliedler" entry:"1701094724" modified:"1701094724" status:"pending" uuid:"573b49f3-23a6-462d-a799-27063680de0c"]
+new [description:"weihnachtsgeschenk fuer Herrn Kliedler" entry:"1701094724" modified:"1701177411" priority:"L" status:"pending" urgent:"N" uuid:"573b49f3-23a6-462d-a799-27063680de0c"]
+---
+time 1701181412
+new [description:"was ist fuzzy logic" entry:"1701181412" modified:"1701181412" status:"pending" uuid:"ea04a194-4fef-4acf-9f53-eacb95cd4acb"]
+---
+time 1701181415
+old [description:"was ist fuzzy logic" entry:"1701181412" modified:"1701181412" status:"pending" uuid:"ea04a194-4fef-4acf-9f53-eacb95cd4acb"]
+new [description:"was ist fuzzy logic" entry:"1701181412" modified:"1701181415" priority:"L" status:"pending" urgent:"N" uuid:"ea04a194-4fef-4acf-9f53-eacb95cd4acb"]
+---
+time 1701246297
+old [description:"geschichte lernen" due:"1701039600" entry:"1700917706" modified:"1700917717" priority:"H" project:"schule.ge" status:"pending" urgent:"Y" uuid:"349d49ba-e44c-4736-bf15-ada559732351"]
+new [description:"geschichte lernen" due:"1701039600" end:"1701246297" entry:"1700917706" modified:"1701246297" priority:"H" project:"schule.ge" status:"completed" urgent:"Y" uuid:"349d49ba-e44c-4736-bf15-ada559732351"]
+---
+time 1701353966
+new [description:"markdown html host" entry:"1701353966" modified:"1701353966" status:"pending" uuid:"c1a31fe8-5600-4a7f-8e9d-7aacfc7eb0cf"]
+---
+time 1701353969
+old [description:"markdown html host" entry:"1701353966" modified:"1701353966" status:"pending" uuid:"c1a31fe8-5600-4a7f-8e9d-7aacfc7eb0cf"]
+new [description:"markdown html host" entry:"1701353966" modified:"1701353969" priority:"L" status:"pending" urgent:"N" uuid:"c1a31fe8-5600-4a7f-8e9d-7aacfc7eb0cf"]
+---
+time 1701353976
+old [description:"new vim config" entry:"1700930942" modified:"1700930944" priority:"L" status:"pending" urgent:"N" uuid:"e5399ddd-5939-42c6-a680-c4cabc93dc9b"]
+new [description:"new vim config" end:"1701353976" entry:"1700930942" modified:"1701353976" priority:"L" status:"completed" urgent:"N" uuid:"e5399ddd-5939-42c6-a680-c4cabc93dc9b"]
+---
+time 1701354614
+new [description:"inf" entry:"1701354614" modified:"1701354614" project:"schule" status:"pending" uuid:"c8dba039-10e5-4a36-ac77-16189b155764"]
+---
+time 1701354623
+old [description:"inf" entry:"1701354614" modified:"1701354614" project:"schule" status:"pending" uuid:"c8dba039-10e5-4a36-ac77-16189b155764"]
+new [description:"inf lernzettel" entry:"1701354614" modified:"1701354623" project:"schule" status:"pending" uuid:"c8dba039-10e5-4a36-ac77-16189b155764"]
+---
+time 1701358283
+new [description:"jim crow law pres" due:"1701730800" entry:"1701358283" modified:"1701358283" project:"schule.eng" status:"pending" uuid:"f895dc3d-81d7-462a-8826-4d0ee5c51675"]
+---
+time 1701358303
+old [description:"jim crow law pres" due:"1701730800" entry:"1701358283" modified:"1701358283" project:"schule.eng" status:"pending" uuid:"f895dc3d-81d7-462a-8826-4d0ee5c51675"]
+new [description:"jim crow law pres" due:"1701730800" entry:"1701358283" modified:"1701358303" priority:"L" project:"schule.eng" status:"pending" urgent:"Y" uuid:"f895dc3d-81d7-462a-8826-4d0ee5c51675"]
+---
+time 1701358313
+old [description:"inf lernzettel" entry:"1701354614" modified:"1701354623" project:"schule" status:"pending" uuid:"c8dba039-10e5-4a36-ac77-16189b155764"]
+new [description:"inf lernzettel" entry:"1701354614" modified:"1701358313" priority:"L" project:"schule" status:"pending" urgent:"Y" uuid:"c8dba039-10e5-4a36-ac77-16189b155764"]
+---
+time 1701515872
+old [description:"uberspace auffüllen" due:"1701349215" entry:"1700917215" modified:"1700917390" priority:"L" status:"pending" urgent:"Y" uuid:"cdb8e22a-a717-4c9a-aa16-0c05ae83a20f"]
+new [description:"uberspace auffüllen" due:"1701349215" end:"1701515872" entry:"1700917215" modified:"1701515872" priority:"L" status:"completed" urgent:"Y" uuid:"cdb8e22a-a717-4c9a-aa16-0c05ae83a20f"]
+---
+time 1701515891
+old [description:"kulturpass" entry:"1699791338" modified:"1700916962" priority:"H" status:"pending" urgent:"Y" uuid:"a6ebc957-bb2b-43f7-9c2e-06a0f2caef48" wait:"1701176162"]
+new [description:"kulturpass" entry:"1699791338" modified:"1701515891" priority:"H" status:"pending" urgent:"Y" uuid:"a6ebc957-bb2b-43f7-9c2e-06a0f2caef48" wait:"1701644400"]
+---
+time 1701515915
+old [description:"system rest" entry:"1700917073" modified:"1700917118" priority:"L" status:"pending" urgent:"Y" uuid:"ca2bc6fa-f9c6-4dac-b457-d7dcadd302d3"]
+new [description:"system rest" end:"1701515915" entry:"1700917073" modified:"1701515915" priority:"L" status:"completed" urgent:"Y" uuid:"ca2bc6fa-f9c6-4dac-b457-d7dcadd302d3"]
+---
+time 1701515986
+old [description:"wiki alt in neu transformieren" entry:"1698496021" modified:"1699618573" priority:"L" reviewed:"1699618573" status:"pending" urgent:"N" uuid:"b6e3e5c6-8422-470c-91e5-651b6f343fda"]
+new [description:"wiki alt in neu transformieren" entry:"1698496021" modified:"1701515986" priority:"L" reviewed:"1701515986" status:"pending" urgent:"N" uuid:"b6e3e5c6-8422-470c-91e5-651b6f343fda"]
+---
+time 1701515988
+old [description:"buch kaufen atonement" entry:"1699267339" modified:"1699705178" priority:"L" project:"schule" reviewed:"1699618606" status:"pending" tags:"english" tags_english:"x" urgent:"N" uuid:"053e900b-e68b-4e1b-b4bc-212f0d5451fe"]
+new [description:"buch kaufen atonement" entry:"1699267339" modified:"1701515988" priority:"L" project:"schule" reviewed:"1701515988" status:"pending" tags:"english" tags_english:"x" urgent:"N" uuid:"053e900b-e68b-4e1b-b4bc-212f0d5451fe"]
+---
+time 1701515992
+old [description:"box attribute for taskwarrior" entry:"1699783350" modified:"1699783354" priority:"L" status:"pending" urgent:"N" uuid:"9d76f118-3dd1-4894-bea9-c3d124811bc8"]
+new [description:"box attribute for taskwarrior" entry:"1699783350" modified:"1701515992" priority:"L" reviewed:"1701515992" status:"pending" urgent:"N" uuid:"9d76f118-3dd1-4894-bea9-c3d124811bc8"]
+---
+time 1701515993
+old [description:"about" entry:"1699705158" modified:"1700127855" priority:"L" project:"valkyrie.website" status:"pending" urgent:"Y" uuid:"63ef462e-8b45-463e-b6c2-8b8f416a5126"]
+new [description:"about" entry:"1699705158" modified:"1701515993" priority:"L" project:"valkyrie.website" reviewed:"1701515993" status:"pending" urgent:"Y" uuid:"63ef462e-8b45-463e-b6c2-8b8f416a5126"]
+---
+time 1701516008
+old [description:"box attribute for taskwarrior" entry:"1699783350" modified:"1701515992" priority:"L" reviewed:"1701515992" status:"pending" urgent:"N" uuid:"9d76f118-3dd1-4894-bea9-c3d124811bc8"]
+new [description:"box attribute for taskwarrior" entry:"1699783350" modified:"1701516008" priority:"L" reviewed:"1701515992" start:"1701516008" status:"pending" urgent:"N" uuid:"9d76f118-3dd1-4894-bea9-c3d124811bc8"]
+---
+time 1701516020
+new [description:"taskserver sync" entry:"1701516020" modified:"1701516020" status:"pending" uuid:"61fa24d6-5526-44e2-aca5-3b2eb5b6deac"]
+---
+time 1701516023
+old [description:"taskserver sync" entry:"1701516020" modified:"1701516020" status:"pending" uuid:"61fa24d6-5526-44e2-aca5-3b2eb5b6deac"]
+new [description:"taskserver sync" entry:"1701516020" modified:"1701516023" priority:"L" status:"pending" urgent:"N" uuid:"61fa24d6-5526-44e2-aca5-3b2eb5b6deac"]
+---
+time 1701516606
+old [description:"box attribute for taskwarrior" entry:"1699783350" modified:"1701516008" priority:"L" reviewed:"1701515992" start:"1701516008" status:"pending" urgent:"N" uuid:"9d76f118-3dd1-4894-bea9-c3d124811bc8"]
+new [box:"10" description:"box attribute for taskwarrior" entry:"1699783350" modified:"1701516606" priority:"L" reviewed:"1701515992" start:"1701516008" status:"pending" urgent:"N" uuid:"9d76f118-3dd1-4894-bea9-c3d124811bc8"]
+---
+time 1701518203
+old [description:"impressum" entry:"1699705155" modified:"1701092376" priority:"H" project:"valkyrie.website" status:"pending" urgent:"Y" uuid:"c17669d2-b9bc-4e9b-a880-2ba988e7f2d1"]
+new [description:"impressum" due:"1701471600" entry:"1699705155" modified:"1701518203" priority:"H" project:"valkyrie.website" status:"pending" urgent:"Y" uuid:"c17669d2-b9bc-4e9b-a880-2ba988e7f2d1"]
+---
+time 1701518899
+old [description:"buch kaufen atonement" entry:"1699267339" modified:"1701515988" priority:"L" project:"schule" reviewed:"1701515988" status:"pending" tags:"english" tags_english:"x" urgent:"N" uuid:"053e900b-e68b-4e1b-b4bc-212f0d5451fe"]
+new [description:"buch kaufen atonement" entry:"1699267339" modified:"1701518899" priority:"L" project:"school" reviewed:"1701515988" status:"pending" tags:"english" tags_english:"x" urgent:"N" uuid:"053e900b-e68b-4e1b-b4bc-212f0d5451fe"]
+---
+time 1701518899
+old [description:"definition lorenskraft etc" entry:"1699866046" modified:"1700127867" priority:"L" project:"schule.phy" status:"pending" urgent:"Y" uuid:"b05df1f9-554a-4461-bc36-607f51dfd072"]
+new [description:"definition lorenskraft etc" entry:"1699866046" modified:"1701518899" priority:"L" project:"school" status:"pending" urgent:"Y" uuid:"b05df1f9-554a-4461-bc36-607f51dfd072"]
+---
+time 1701518899
+old [description:"latex wiki mathe inf phy" entry:"1700553570" modified:"1700916920" priority:"L" project:"schule" status:"pending" urgent:"Y" uuid:"d1133094-e7f5-4a60-bdf1-c9f3ff36f9b3"]
+new [description:"latex wiki mathe inf phy" entry:"1700553570" modified:"1701518899" priority:"L" project:"school" status:"pending" urgent:"Y" uuid:"d1133094-e7f5-4a60-bdf1-c9f3ff36f9b3"]
+---
+time 1701518899
+old [description:"inf lernzettel" entry:"1701354614" modified:"1701358313" priority:"L" project:"schule" status:"pending" urgent:"Y" uuid:"c8dba039-10e5-4a36-ac77-16189b155764"]
+new [description:"inf lernzettel" entry:"1701354614" modified:"1701518899" priority:"L" project:"school" status:"pending" urgent:"Y" uuid:"c8dba039-10e5-4a36-ac77-16189b155764"]
+---
+time 1701518899
+old [description:"jim crow law pres" due:"1701730800" entry:"1701358283" modified:"1701358303" priority:"L" project:"schule.eng" status:"pending" urgent:"Y" uuid:"f895dc3d-81d7-462a-8826-4d0ee5c51675"]
+new [description:"jim crow law pres" due:"1701730800" entry:"1701358283" modified:"1701518899" priority:"L" project:"school" status:"pending" urgent:"Y" uuid:"f895dc3d-81d7-462a-8826-4d0ee5c51675"]
+---
+time 1701518899
+old [description:"geschichte lernen" due:"1701039600" end:"1701246297" entry:"1700917706" modified:"1701246297" priority:"H" project:"schule.ge" status:"completed" urgent:"Y" uuid:"349d49ba-e44c-4736-bf15-ada559732351"]
+new [description:"geschichte lernen" due:"1701039600" end:"1701246297" entry:"1700917706" modified:"1701518899" priority:"H" project:"school" status:"completed" urgent:"Y" uuid:"349d49ba-e44c-4736-bf15-ada559732351"]
+---
+time 1701518899
+old [description:"physik lernen" due:"1701039600" end:"1701084354" entry:"1700917691" modified:"1701084354" priority:"H" project:"schule.phy" status:"completed" urgent:"Y" uuid:"9d1064e4-46ec-4ecf-bf07-2bd4496ad683"]
+new [description:"physik lernen" due:"1701039600" end:"1701084354" entry:"1700917691" modified:"1701518899" priority:"H" project:"school" status:"completed" urgent:"Y" uuid:"9d1064e4-46ec-4ecf-bf07-2bd4496ad683"]
+---
+time 1701518899
+old [description:"herr kniedler nach cas umformung fragen" end:"1700917058" entry:"1699958199" modified:"1700917060" priority:"L" project:"schule" status:"deleted" urgent:"Y" uuid:"dc9a8270-86e1-40fb-bba0-b390f49cd08f"]
+new [description:"herr kniedler nach cas umformung fragen" end:"1700917058" entry:"1699958199" modified:"1701518899" priority:"L" project:"school" status:"deleted" urgent:"Y" uuid:"dc9a8270-86e1-40fb-bba0-b390f49cd08f"]
+---
+time 1701518899
+old [description:"s 60 m2 leni \/ deutschland" end:"1699618578" entry:"1698835178" modified:"1699618578" priority:"H" project:"schule" reviewed:"1698911796" status:"deleted" tags:"geschichte" tags_geschichte:"x" urgent:"N" uuid:"c714c29b-4e17-496c-a046-49e7c679d143"]
+new [description:"s 60 m2 leni \/ deutschland" end:"1699618578" entry:"1698835178" modified:"1701518899" priority:"H" project:"school" reviewed:"1698911796" status:"deleted" tags:"geschichte" tags_geschichte:"x" urgent:"N" uuid:"c714c29b-4e17-496c-a046-49e7c679d143"]
+---
+time 1701518899
+old [description:"finish the blogpost" end:"1699618594" entry:"1699266972" modified:"1699618594" project:"schule" status:"deleted" tags:"english,homework" tags_english:"x" tags_homework:"x" uuid:"bc845d0d-2c6d-44d1-893c-c5124aef1a89"]
+new [description:"finish the blogpost" end:"1699618594" entry:"1699266972" modified:"1701518899" project:"school" status:"deleted" tags:"english,homework" tags_english:"x" tags_homework:"x" uuid:"bc845d0d-2c6d-44d1-893c-c5124aef1a89"]
+---
+time 1701518899
+old [description:"Biodiversität fertig stellen" end:"1683373532" entry:"1677264817" modified:"1683373532" priority:"L" project:"schule.po" reviewed:"1681637997" scheduled:"1677279600" status:"completed" urgent:"Y" uuid:"62e729b2-0d53-4d0c-9592-8bd936db8b8a"]
+new [description:"Biodiversität fertig stellen" end:"1683373532" entry:"1677264817" modified:"1701518899" priority:"L" project:"school" reviewed:"1681637997" scheduled:"1677279600" status:"completed" urgent:"Y" uuid:"62e729b2-0d53-4d0c-9592-8bd936db8b8a"]
+---
+time 1701518899
+old [description:"uberspace umziehen, neuer uberspace" end:"1678616328" entry:"1677355873" modified:"1678616328" priority:"H" project:"schule.po" status:"deleted" uuid:"336fcc42-1acc-4a23-9c09-880f233ff4d8"]
+new [description:"uberspace umziehen, neuer uberspace" end:"1678616328" entry:"1677355873" modified:"1701518899" priority:"H" project:"school" status:"deleted" uuid:"336fcc42-1acc-4a23-9c09-880f233ff4d8"]
+---
+time 1701518899
+old [description:"Sil p. 77 task 3" end:"1681638089" entry:"1679395340" modified:"1681638089" project:"schule.english" status:"completed" tags:"sil" tags_sil:"x" uuid:"e1330816-04b8-4a97-ae30-df7ac1a1082a"]
+new [description:"Sil p. 77 task 3" end:"1681638089" entry:"1679395340" modified:"1701518899" project:"school" status:"completed" tags:"sil" tags_sil:"x" uuid:"e1330816-04b8-4a97-ae30-df7ac1a1082a"]
+---
+time 1701518899
+old [description:"demokratiervarianten lesen" end:"1693753141" entry:"1692610926" modified:"1693753141" project:"schule" status:"deleted" tags:"pow,sil" tags_pow:"x" tags_sil:"x" uuid:"81322d08-6b33-4baa-98a3-30a3127ac856"]
+new [description:"demokratiervarianten lesen" end:"1693753141" entry:"1692610926" modified:"1701518899" project:"school" status:"deleted" tags:"pow,sil" tags_pow:"x" tags_sil:"x" uuid:"81322d08-6b33-4baa-98a3-30a3127ac856"]
+---
+time 1701518952
+old [description:"impressum" due:"1701471600" entry:"1699705155" modified:"1701518203" priority:"H" project:"valkyrie.website" status:"pending" urgent:"Y" uuid:"c17669d2-b9bc-4e9b-a880-2ba988e7f2d1"]
+new [description:"impressum" due:"1701471600" entry:"1699705155" modified:"1701518952" priority:"H" project:"school.valkyrie.website" status:"pending" urgent:"Y" uuid:"c17669d2-b9bc-4e9b-a880-2ba988e7f2d1"]
+---
+time 1701518952
+old [description:"about" entry:"1699705158" modified:"1701515993" priority:"L" project:"valkyrie.website" reviewed:"1701515993" status:"pending" urgent:"Y" uuid:"63ef462e-8b45-463e-b6c2-8b8f416a5126"]
+new [description:"about" entry:"1699705158" modified:"1701518952" priority:"L" project:"school.valkyrie.website" reviewed:"1701515993" status:"pending" urgent:"Y" uuid:"63ef462e-8b45-463e-b6c2-8b8f416a5126"]
+---
+time 1701518952
+old [description:"index inhalte" entry:"1699705258" modified:"1700127857" priority:"L" project:"valkyrie.website" status:"pending" urgent:"Y" uuid:"5c48848c-87f0-4987-96a2-dd8f5e620754"]
+new [description:"index inhalte" entry:"1699705258" modified:"1701518952" priority:"L" project:"school.valkyrie.website" status:"pending" urgent:"Y" uuid:"5c48848c-87f0-4987-96a2-dd8f5e620754"]
+---
+time 1701518952
+old [description:"images for persnon" entry:"1700918171" modified:"1700930991" priority:"L" project:"valkyrie.website" status:"pending" urgent:"Y" uuid:"66e89ee5-a43d-4e75-be1b-a2d1ddb008c2"]
+new [description:"images for persnon" entry:"1700918171" modified:"1701518952" priority:"L" project:"school.valkyrie.website" status:"pending" urgent:"Y" uuid:"66e89ee5-a43d-4e75-be1b-a2d1ddb008c2"]
+---
+time 1701518952
+old [description:"dynamic sponsor size" entry:"1700930904" modified:"1700930993" priority:"L" project:"valkyrie.website" status:"pending" urgent:"Y" uuid:"b4a15523-b897-4f8f-bef3-594da5c68219"]
+new [description:"dynamic sponsor size" entry:"1700930904" modified:"1701518952" priority:"L" project:"school.valkyrie.website" status:"pending" urgent:"Y" uuid:"b4a15523-b897-4f8f-bef3-594da5c68219"]
+---
+time 1701518952
+old [description:"lukas raus nehmen" entry:"1701092293" modified:"1701092365" priority:"L" project:"valkyrie.website" status:"pending" urgent:"Y" uuid:"eb6fc87c-6555-41ee-828b-9549d9dcc552"]
+new [description:"lukas raus nehmen" entry:"1701092293" modified:"1701518952" priority:"L" project:"school.valkyrie.website" status:"pending" urgent:"Y" uuid:"eb6fc87c-6555-41ee-828b-9549d9dcc552"]
+---
+time 1701518952
+old [description:"in arbeit" entry:"1701092343" modified:"1701092380" priority:"H" project:"valkyrie.website" status:"pending" urgent:"Y" uuid:"8e9eb03f-9917-4626-a0bd-9a4549a02478"]
+new [description:"in arbeit" entry:"1701092343" modified:"1701518952" priority:"H" project:"school.valkyrie.website" status:"pending" urgent:"Y" uuid:"8e9eb03f-9917-4626-a0bd-9a4549a02478"]
+---
+time 1701518952
+old [description:"new 3d model" end:"1700930894" entry:"1699705652" modified:"1700930894" priority:"L" project:"valkyrie.website" status:"completed" urgent:"Y" uuid:"97d01e7f-ecce-4a8b-9705-ac973a5b744f"]
+new [description:"new 3d model" end:"1700930894" entry:"1699705652" modified:"1701518952" priority:"L" project:"school.valkyrie.website" status:"completed" urgent:"Y" uuid:"97d01e7f-ecce-4a8b-9705-ac973a5b744f"]
+---
+time 1701518952
+old [description:"nav active" end:"1700917015" entry:"1699705164" modified:"1700917018" priority:"L" project:"valkyrie.website" status:"deleted" urgent:"Y" uuid:"74f37a8a-ddf6-4748-9d1b-ebcb7472bfe5"]
+new [description:"nav active" end:"1700917015" entry:"1699705164" modified:"1701518952" priority:"L" project:"school.valkyrie.website" status:"deleted" urgent:"Y" uuid:"74f37a8a-ddf6-4748-9d1b-ebcb7472bfe5"]
+---
+time 1701519012
+old [description:"weihnachtsgeschenk fuer Herrn Kliedler" entry:"1701094724" modified:"1701177411" priority:"L" status:"pending" urgent:"N" uuid:"573b49f3-23a6-462d-a799-27063680de0c"]
+new [description:"weihnachtsgeschenk fuer Herrn Kliedler" entry:"1701094724" modified:"1701519012" priority:"L" project:"school.math" status:"pending" urgent:"N" uuid:"573b49f3-23a6-462d-a799-27063680de0c"]
+---
+time 1701519084
+old [description:"impressum" due:"1701471600" entry:"1699705155" modified:"1701518952" priority:"H" project:"school.valkyrie.website" status:"pending" urgent:"Y" uuid:"c17669d2-b9bc-4e9b-a880-2ba988e7f2d1"]
+new [description:"due" due:"1701471600" entry:"1699705155" modified:"1701519084" priority:"H" project:"school.valkyrie.website" status:"pending" urgent:"Y" uuid:"c17669d2-b9bc-4e9b-a880-2ba988e7f2d1"]
+---
+time 1701519104
+old [description:"due" due:"1701471600" entry:"1699705155" modified:"1701519084" priority:"H" project:"school.valkyrie.website" status:"pending" urgent:"Y" uuid:"c17669d2-b9bc-4e9b-a880-2ba988e7f2d1"]
+new [description:"impressum" due:"1701471600" entry:"1699705155" modified:"1701519104" priority:"H" project:"school.valkyrie.website" status:"pending" urgent:"Y" uuid:"c17669d2-b9bc-4e9b-a880-2ba988e7f2d1"]
+---
+time 1701519111
+old [description:"impressum" due:"1701471600" entry:"1699705155" modified:"1701519104" priority:"H" project:"school.valkyrie.website" status:"pending" urgent:"Y" uuid:"c17669d2-b9bc-4e9b-a880-2ba988e7f2d1"]
+new [description:"impressum" entry:"1699705155" modified:"1701519111" priority:"H" project:"school.valkyrie.website" status:"pending" urgent:"Y" uuid:"c17669d2-b9bc-4e9b-a880-2ba988e7f2d1"]
+---
+time 1701519356
+old [description:"impressum" entry:"1699705155" modified:"1701519111" priority:"H" project:"school.valkyrie.website" status:"pending" urgent:"Y" uuid:"c17669d2-b9bc-4e9b-a880-2ba988e7f2d1"]
+new [annotation_1701519356:"lsajfdlsjflsjdflskjf sjakfdlksjf lskjdf slkjdf ldsakjfls ajfds alfdkjsdal fdjsla djflsakjd flsakjdf lskjdf lsajkf lajkfdlsajkf aljdf sljkfdsl djflsakjf sdlajdf lsajkf" description:"impressum" entry:"1699705155" modified:"1701519356" priority:"H" project:"school.valkyrie.website" status:"pending" urgent:"Y" uuid:"c17669d2-b9bc-4e9b-a880-2ba988e7f2d1"]
+---
+time 1701520240
+old [annotation_1701519356:"lsajfdlsjflsjdflskjf sjakfdlksjf lskjdf slkjdf ldsakjfls ajfds alfdkjsdal fdjsla djflsakjd flsakjdf lskjdf lsajkf lajkfdlsajkf aljdf sljkfdsl djflsakjf sdlajdf lsajkf" description:"impressum" entry:"1699705155" modified:"1701519356" priority:"H" project:"school.valkyrie.website" status:"pending" urgent:"Y" uuid:"c17669d2-b9bc-4e9b-a880-2ba988e7f2d1"]
+new [description:"impressum" entry:"1699705155" modified:"1701520240" priority:"H" project:"school.valkyrie.website" status:"pending" urgent:"Y" uuid:"c17669d2-b9bc-4e9b-a880-2ba988e7f2d1"]
+---
+time 1701520260
+old [description:"impressum" entry:"1699705155" modified:"1701520240" priority:"H" project:"school.valkyrie.website" status:"pending" urgent:"Y" uuid:"c17669d2-b9bc-4e9b-a880-2ba988e7f2d1"]
+new [annotation_1701520260:"Thhaes" description:"impressum" entry:"1699705155" modified:"1701520260" priority:"H" project:"school.valkyrie.website" status:"pending" urgent:"Y" uuid:"c17669d2-b9bc-4e9b-a880-2ba988e7f2d1"]
+---
+time 1701520290
+old [annotation_1701520260:"Thhaes" description:"impressum" entry:"1699705155" modified:"1701520260" priority:"H" project:"school.valkyrie.website" status:"pending" urgent:"Y" uuid:"c17669d2-b9bc-4e9b-a880-2ba988e7f2d1"]
+new [description:"impressum" entry:"1699705155" modified:"1701520290" priority:"H" project:"school.valkyrie.website" status:"pending" urgent:"Y" uuid:"c17669d2-b9bc-4e9b-a880-2ba988e7f2d1"]
+---
+time 1701520525
+new [box:"1" description:"automatic sil task" entry:"1701520525" modified:"1701520525" project:"school" status:"pending" tags:"workflow" tags_workflow:"x" uuid:"ebc6538f-5029-444a-8fca-8949a75fc713"]
+---
+time 1701520529
+old [box:"1" description:"automatic sil task" entry:"1701520525" modified:"1701520525" project:"school" status:"pending" tags:"workflow" tags_workflow:"x" uuid:"ebc6538f-5029-444a-8fca-8949a75fc713"]
+new [box:"1" description:"automatic sil task" entry:"1701520525" modified:"1701520529" priority:"L" project:"school" status:"pending" tags:"workflow" tags_workflow:"x" urgent:"N" uuid:"ebc6538f-5029-444a-8fca-8949a75fc713"]
+---
+time 1701520682
+new [box:"1" description:"firefox bookmarks aufraeuymen" entry:"1701520682" modified:"1701520682" status:"pending" uuid:"901e9574-82ae-44fd-8066-64a7412984d4"]
+---
+time 1701520685
+old [box:"1" description:"firefox bookmarks aufraeuymen" entry:"1701520682" modified:"1701520682" status:"pending" uuid:"901e9574-82ae-44fd-8066-64a7412984d4"]
+new [box:"1" description:"firefox bookmarks aufraeuymen" entry:"1701520682" modified:"1701520685" priority:"L" status:"pending" urgent:"N" uuid:"901e9574-82ae-44fd-8066-64a7412984d4"]
+---
+time 1701526560
+old [description:"impressum" entry:"1699705155" modified:"1701520290" priority:"H" project:"school.valkyrie.website" status:"pending" urgent:"Y" uuid:"c17669d2-b9bc-4e9b-a880-2ba988e7f2d1"]
+new [description:"impressum" entry:"1699705155" modified:"1701526560" priority:"L" project:"school.valkyrie.website" status:"pending" urgent:"Y" uuid:"c17669d2-b9bc-4e9b-a880-2ba988e7f2d1"]
+---
+time 1701526563
+old [description:"in arbeit" entry:"1701092343" modified:"1701518952" priority:"H" project:"school.valkyrie.website" status:"pending" urgent:"Y" uuid:"8e9eb03f-9917-4626-a0bd-9a4549a02478"]
+new [description:"in arbeit" entry:"1701092343" modified:"1701526563" priority:"L" project:"school.valkyrie.website" status:"pending" urgent:"Y" uuid:"8e9eb03f-9917-4626-a0bd-9a4549a02478"]
+---
+time 1701527345
+new [box:"1" description:"test" entry:"1701527345" modified:"1701527345" project:"school" status:"pending" uuid:"d88f0c37-5127-42ba-9c4a-3fe714cd6e38"]
+---
+time 1701527353
+old [box:"1" description:"test" entry:"1701527345" modified:"1701527345" project:"school" status:"pending" uuid:"d88f0c37-5127-42ba-9c4a-3fe714cd6e38"]
+new [box:"1" description:"test" end:"1701527351" entry:"1701527345" modified:"1701527353" project:"school" status:"deleted" uuid:"d88f0c37-5127-42ba-9c4a-3fe714cd6e38"]
+---
+time 1701527374
+old [box:"10" description:"box attribute for taskwarrior" entry:"1699783350" modified:"1701516606" priority:"L" reviewed:"1701515992" start:"1701516008" status:"pending" urgent:"N" uuid:"9d76f118-3dd1-4894-bea9-c3d124811bc8"]
+new [box:"10" description:"box attribute for taskwarrior" end:"1701527374" entry:"1699783350" modified:"1701527374" priority:"L" reviewed:"1701515992" status:"completed" urgent:"N" uuid:"9d76f118-3dd1-4894-bea9-c3d124811bc8"]
+---
+time 1701527410
+old [description:"inf lernzettel" entry:"1701354614" modified:"1701518899" priority:"L" project:"school" status:"pending" urgent:"Y" uuid:"c8dba039-10e5-4a36-ac77-16189b155764"]
+new [description:"inf lernzettel" entry:"1701354614" modified:"1701527410" priority:"L" project:"school" status:"pending" tags:"klausur" tags_klausur:"x" urgent:"Y" uuid:"c8dba039-10e5-4a36-ac77-16189b155764"]
+---
+time 1701527563
+old [description:"inf lernzettel" entry:"1701354614" modified:"1701527410" priority:"L" project:"school" status:"pending" tags:"klausur" tags_klausur:"x" urgent:"Y" uuid:"c8dba039-10e5-4a36-ac77-16189b155764"]
+new [description:"inf lernzettel" due:"1701644400" entry:"1701354614" modified:"1701527563" priority:"L" project:"school" status:"pending" tags:"klausur" tags_klausur:"x" urgent:"Y" uuid:"c8dba039-10e5-4a36-ac77-16189b155764"]
+---
+time 1701529261
+old [description:"inf lernzettel" due:"1701644400" entry:"1701354614" modified:"1701527563" priority:"L" project:"school" status:"pending" tags:"klausur" tags_klausur:"x" urgent:"Y" uuid:"c8dba039-10e5-4a36-ac77-16189b155764"]
+new [description:"inf lernzettel" due:"1701644400" entry:"1701354614" modified:"1701529261" priority:"L" project:"school" start:"1701529261" status:"pending" tags:"klausur" tags_klausur:"x" urgent:"Y" uuid:"c8dba039-10e5-4a36-ac77-16189b155764"]
+---
+time 1701534922
+old [description:"inf lernzettel" due:"1701644400" entry:"1701354614" modified:"1701529261" priority:"L" project:"school" start:"1701529261" status:"pending" tags:"klausur" tags_klausur:"x" urgent:"Y" uuid:"c8dba039-10e5-4a36-ac77-16189b155764"]
+new [description:"inf lernzettel" due:"1701644400" entry:"1701354614" modified:"1701534922" priority:"L" project:"school" status:"pending" tags:"klausur" tags_klausur:"x" urgent:"Y" uuid:"c8dba039-10e5-4a36-ac77-16189b155764"]
+---
+time 1701535002
+new [box:"1" description:"fine tune llm \/ gpt" entry:"1701535002" modified:"1701535002" status:"pending" tags:"papa" tags_papa:"x" uuid:"286e48c6-8847-46fb-ac09-77c7a19e7369"]
+---
+time 1701535029
+old [box:"1" description:"fine tune llm \/ gpt" entry:"1701535002" modified:"1701535002" status:"pending" tags:"papa" tags_papa:"x" uuid:"286e48c6-8847-46fb-ac09-77c7a19e7369"]
+new [annotation_1701535029:"extract tuples from job advert" box:"1" description:"fine tune llm \/ gpt" entry:"1701535002" modified:"1701535029" status:"pending" tags:"papa" tags_papa:"x" uuid:"286e48c6-8847-46fb-ac09-77c7a19e7369"]
+---
+time 1701535086
+old [annotation_1701535029:"extract tuples from job advert" box:"1" description:"fine tune llm \/ gpt" entry:"1701535002" modified:"1701535029" status:"pending" tags:"papa" tags_papa:"x" uuid:"286e48c6-8847-46fb-ac09-77c7a19e7369"]
+new [annotation_1701535029:"extract tuples from job advert" box:"1" description:"fine tune llm \/ gpt" entry:"1701535002" modified:"1701535086" priority:"L" status:"pending" tags:"papa" tags_papa:"x" urgent:"Y" uuid:"286e48c6-8847-46fb-ac09-77c7a19e7369"]
+---

@@ -15,40 +15,38 @@
 # Use the command 'task show' to see all defaults and overrides
 weekstart=Monday
 
+# verbose=blank,footnote,label,new-id,affected,edit,special,project,sync,unwait
+verbose=affected,blank,context,edit,header,footnote,label,new-id,project,special,sync,recur
+
 # Files
 data.location=/home/niklas/.task
 
-# Custom reports
-report.todo.description=Todo
-report.todo.columns=id,project,description.count,urgency
-report.todo.labels=ID,Project,Text,Urg
-report.todo.sort=urgency-,project-
-report.todo.filter=status:pending -ACTIVE -WAITING -BLOCKED -OVERDUE
+# Custom coefficient
 
-uda.score.type=numeric
-uda.score.label=Score
-urgency.uda.score.coefficient=2
+urgency.user.tag.klausur.coefficient = 1
 
-# Alle Schulaufgaben
+# # Custom reports
+# report.todo.description=Todo
+# report.todo.columns=id,project,description.count,urgency
+# report.todo.labels=ID,Project,Text,Urg
+# report.todo.sort=urgency-,project-
+# report.todo.filter=status:pending -ACTIVE -WAITING -BLOCKED -OVERDUE
 
-report.schulaufgaben.description=Schulaufgaben
-report.schulaufgaben.columns=id,tags,description.count,urgency
-report.schulaufgaben.labels=ID,Fach,Text,Urg
-report.schulaufgaben.sort=urgency-,project-
-report.schulaufgaben.filter=status:pending -ACTIVE -WAITING -BLOCKED -OVERDUE project:Schule
+# uda.score.type=numeric
+# uda.score.label=Score
+# urgency.uda.score.coefficient=2
 
 # Die nächste Klausur anzeigen
-report.examen.description=Die nächste Klausur anzeigen
-report.examen.columns=id,due,description.count,urgency
-report.examen.labels=ID,Due,Text,Urg
-report.examen.sort=due+
-report.examen.filter=status:pending -ACTIVE -WAITING -BLOCKED -OVERDUE +klausur
+# report.examen.description=Die nächste Klausur anzeigen
+# report.examen.columns=id,due,description.count,urgency
+# report.examen.labels=ID,Due,Text,Urg
+# report.examen.sort=due+
+# report.examen.filter=status:pending -ACTIVE -WAITING -BLOCKED -OVERDUE +klausur
 
-report.doing.description=In progress
-report.doing.columns=id,description.count
-report.doing.labels=ID,Text
-report.doing.sort=priority-,id+
-report.doing.filter=status:pending +ACTIVE
+
+# Mod defautl / next rep
+
+report.next.columns=id,start.age,entry.age,depends,priority,project,tags,recur,scheduled.countdown,due.relative,until.remaining,description.count,urgency
 
 taskd.trust=allow all
 # taskd.trust=ignore hostname
@@ -75,6 +73,16 @@ include dark-256.theme
 # include solarized-light-256.theme
 #include no-color.theme
 
+## Boxing / How big is a task
+
+# uda.box.type=numeric
+# uda.box.lable=Boxes (x*30min)
+# uda.box.default=1
+#
+# urgency.uda.box.coefficient=2
+
+
+
 uda.urgent.type=string
 uda.urgent.label=Urgent
 uda.urgent.values=Y,N
@@ -87,6 +95,7 @@ uda.selectedtoday.values=Y,N
 
 urgency.tags.coefficient = 0
 urgency.annotations.coefficient = 0
+
 urgency.uda.urgent.Y.coefficient = 10
 urgency.uda.urgent.N.coefficient = 0
 urgency.uda.priority.H.coefficient = 10
@@ -124,11 +133,12 @@ report.q4.filter=limit:page status:pending and priority:L and urgent:N
 report.q4.columns=start.active,id,project,urgency,description,entry.age,tags
 report.q4.labels=A,ID,Proj,Urg,Description,Age,Tags
 
-report.project.description=Projects report
-report.project.filter=status:pending project.not:
-report.project.columns=id,project,description,tags
-report.project.labes=ID,Proj,Description,Tags
-report.project.sort=project,urgency
+
+# report.project.description=Projects report
+# report.project.filter=status:pending project.not:
+# report.project.columns=id,project,description,tags
+# report.project.labes=ID,Proj,Description,Tags
+# report.project.sort=project,urgency
 
 taskd.certificate=\/home\/niklas\/.task\/client.cert.pem
 taskd.key=\/home\/niklas\/.task\/client.key.pem
@@ -146,3 +156,9 @@ report._reviewed.description=Tasksh review report.  Adjust the filter to your ne
 report._reviewed.columns=uuid
 report._reviewed.sort=reviewed+,modified+
 report._reviewed.filter=( reviewed.none: or reviewed.before:now-6days ) and ( +PENDING or +WAITING )
+
+context.school.read=project:school
+context.school.write=project:school
+context.personal.read=project.not:school project.not:henning project.not:fun -fun
+context.henning.read=project:henning
+context.henning.write=project:henning
