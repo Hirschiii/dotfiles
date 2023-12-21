@@ -4434,3 +4434,399 @@ time 1701535086
 old [annotation_1701535029:"extract tuples from job advert" box:"1" description:"fine tune llm \/ gpt" entry:"1701535002" modified:"1701535029" status:"pending" tags:"papa" tags_papa:"x" uuid:"286e48c6-8847-46fb-ac09-77c7a19e7369"]
 new [annotation_1701535029:"extract tuples from job advert" box:"1" description:"fine tune llm \/ gpt" entry:"1701535002" modified:"1701535086" priority:"L" status:"pending" tags:"papa" tags_papa:"x" urgent:"Y" uuid:"286e48c6-8847-46fb-ac09-77c7a19e7369"]
 ---
+time 1701601684
+new [description:"test" entry:"1701601684" modified:"1701601684" project:"test" status:"pending" uuid:"6b2b8102-16b3-406f-aea8-6a9f8caf1f1f"]
+---
+time 1701601720
+old [description:"test" entry:"1701601684" modified:"1701601684" project:"test" status:"pending" uuid:"6b2b8102-16b3-406f-aea8-6a9f8caf1f1f"]
+new [description:"test" end:"1701601719" entry:"1701601684" modified:"1701601720" project:"test" status:"deleted" uuid:"6b2b8102-16b3-406f-aea8-6a9f8caf1f1f"]
+---
+time 1701601749
+new [description:"stapel" entry:"1701601749" modified:"1701601749" project:"school.inf" status:"pending" uuid:"3f00cea1-ed5e-4130-b958-46dccaa62a0c"]
+---
+time 1701601753
+new [description:"schlange" entry:"1701601753" modified:"1701601753" project:"school.inf" status:"pending" uuid:"29e5d4d3-5780-45eb-b61e-2247feeaa219"]
+---
+time 1701601763
+new [description:"bubble sort" entry:"1701601763" modified:"1701601763" project:"school.inf" status:"pending" uuid:"36314277-f2d4-4546-933d-667de93f5a9a"]
+---
+time 1701601769
+new [description:"selection sort" entry:"1701601769" modified:"1701601769" project:"school.inf" status:"pending" uuid:"d1e90a0e-3a6d-44d1-97dc-2306a3f87122"]
+---
+time 1701601778
+new [description:"intertion sort" entry:"1701601778" modified:"1701601778" project:"school.inf" status:"pending" uuid:"7f1fad83-a2ae-4c97-a5c0-8b39b619e466"]
+---
+time 1701601783
+new [description:"quick sort" entry:"1701601783" modified:"1701601783" project:"school.inf" status:"pending" uuid:"7d0de8da-e5b7-475b-a4b6-727d3fafd478"]
+---
+time 1701601795
+new [description:"klassen entwürfe" entry:"1701601795" modified:"1701601795" project:"school.inf" status:"pending" uuid:"f8ea51b6-0c18-487d-8075-59cbea44b377"]
+---
+time 1701601801
+new [description:"türme von hanoi" entry:"1701601801" modified:"1701601801" project:"school.inf" status:"pending" uuid:"30dad4da-fb73-4b3d-ba73-bbc4000b8451"]
+---
+time 1701601807
+new [description:"dualzahlen \/ Binär" entry:"1701601807" modified:"1701601807" project:"school.inf" status:"pending" uuid:"299e1836-220a-4404-b34c-ee9bfa7dc33d"]
+---
+time 1701601820
+new [description:"binärbäume" entry:"1701601820" modified:"1701601820" project:"school.inf" status:"pending" uuid:"a9dfbd76-cb74-4090-baab-c9cceb40c153"]
+---
+time 1701601827
+new [description:"laufzeitanalyse" entry:"1701601827" modified:"1701601827" project:"school.inf" status:"pending" uuid:"49bcb0cc-9437-4a60-9911-ed5cd620685f"]
+---
+time 1701601859
+old [description:"inf lernzettel" due:"1701644400" entry:"1701354614" modified:"1701534922" priority:"L" project:"school" status:"pending" tags:"klausur" tags_klausur:"x" urgent:"Y" uuid:"c8dba039-10e5-4a36-ac77-16189b155764"]
+new [dep_3f00cea1-ed5e-4130-b958-46dccaa62a0c:"x" depends:"3f00cea1-ed5e-4130-b958-46dccaa62a0c" description:"inf lernzettel" due:"1701644400" entry:"1701354614" modified:"1701601859" priority:"L" project:"school" status:"pending" tags:"klausur" tags_klausur:"x" urgent:"Y" uuid:"c8dba039-10e5-4a36-ac77-16189b155764"]
+---
+time 1701601864
+old [dep_3f00cea1-ed5e-4130-b958-46dccaa62a0c:"x" depends:"3f00cea1-ed5e-4130-b958-46dccaa62a0c" description:"inf lernzettel" due:"1701644400" entry:"1701354614" modified:"1701601859" priority:"L" project:"school" status:"pending" tags:"klausur" tags_klausur:"x" urgent:"Y" uuid:"c8dba039-10e5-4a36-ac77-16189b155764"]
+new [dep_299e1836-220a-4404-b34c-ee9bfa7dc33d:"x" dep_29e5d4d3-5780-45eb-b61e-2247feeaa219:"x" dep_30dad4da-fb73-4b3d-ba73-bbc4000b8451:"x" dep_36314277-f2d4-4546-933d-667de93f5a9a:"x" dep_3f00cea1-ed5e-4130-b958-46dccaa62a0c:"x" dep_49bcb0cc-9437-4a60-9911-ed5cd620685f:"x" dep_7d0de8da-e5b7-475b-a4b6-727d3fafd478:"x" dep_7f1fad83-a2ae-4c97-a5c0-8b39b619e466:"x" dep_a9dfbd76-cb74-4090-baab-c9cceb40c153:"x" dep_d1e90a0e-3a6d-44d1-97dc-2306a3f87122:"x" dep_f8ea51b6-0c18-487d-8075-59cbea44b377:"x" depends:"299e1836-220a-4404-b34c-ee9bfa7dc33d,29e5d4d3-5780-45eb-b61e-2247feeaa219,30dad4da-fb73-4b3d-ba73-bbc4000b8451,36314277-f2d4-4546-933d-667de93f5a9a,3f00cea1-ed5e-4130-b958-46dccaa62a0c,49bcb0cc-9437-4a60-9911-ed5cd620685f,7d0de8da-e5b7-475b-a4b6-727d3fafd478,7f1fad83-a2ae-4c97-a5c0-8b39b619e466,a9dfbd76-cb74-4090-baab-c9cceb40c153,d1e90a0e-3a6d-44d1-97dc-2306a3f87122,f8ea51b6-0c18-487d-8075-59cbea44b377" description:"inf lernzettel" due:"1701644400" entry:"1701354614" modified:"1701601864" priority:"L" project:"school" status:"pending" tags:"klausur" tags_klausur:"x" urgent:"Y" uuid:"c8dba039-10e5-4a36-ac77-16189b155764"]
+---
+time 1701601890
+old [description:"stapel" entry:"1701601749" modified:"1701601749" project:"school.inf" status:"pending" uuid:"3f00cea1-ed5e-4130-b958-46dccaa62a0c"]
+new [description:"stapel" entry:"1701601749" modified:"1701601890" priority:"L" project:"school.inf" status:"pending" urgent:"Y" uuid:"3f00cea1-ed5e-4130-b958-46dccaa62a0c"]
+---
+time 1701601890
+old [description:"schlange" entry:"1701601753" modified:"1701601753" project:"school.inf" status:"pending" uuid:"29e5d4d3-5780-45eb-b61e-2247feeaa219"]
+new [description:"schlange" entry:"1701601753" modified:"1701601890" priority:"L" project:"school.inf" status:"pending" urgent:"Y" uuid:"29e5d4d3-5780-45eb-b61e-2247feeaa219"]
+---
+time 1701601890
+old [description:"bubble sort" entry:"1701601763" modified:"1701601763" project:"school.inf" status:"pending" uuid:"36314277-f2d4-4546-933d-667de93f5a9a"]
+new [description:"bubble sort" entry:"1701601763" modified:"1701601890" priority:"L" project:"school.inf" status:"pending" urgent:"Y" uuid:"36314277-f2d4-4546-933d-667de93f5a9a"]
+---
+time 1701601890
+old [description:"selection sort" entry:"1701601769" modified:"1701601769" project:"school.inf" status:"pending" uuid:"d1e90a0e-3a6d-44d1-97dc-2306a3f87122"]
+new [description:"selection sort" entry:"1701601769" modified:"1701601890" priority:"L" project:"school.inf" status:"pending" urgent:"Y" uuid:"d1e90a0e-3a6d-44d1-97dc-2306a3f87122"]
+---
+time 1701601890
+old [description:"intertion sort" entry:"1701601778" modified:"1701601778" project:"school.inf" status:"pending" uuid:"7f1fad83-a2ae-4c97-a5c0-8b39b619e466"]
+new [description:"intertion sort" entry:"1701601778" modified:"1701601890" priority:"L" project:"school.inf" status:"pending" urgent:"Y" uuid:"7f1fad83-a2ae-4c97-a5c0-8b39b619e466"]
+---
+time 1701601890
+old [description:"quick sort" entry:"1701601783" modified:"1701601783" project:"school.inf" status:"pending" uuid:"7d0de8da-e5b7-475b-a4b6-727d3fafd478"]
+new [description:"quick sort" entry:"1701601783" modified:"1701601890" priority:"L" project:"school.inf" status:"pending" urgent:"Y" uuid:"7d0de8da-e5b7-475b-a4b6-727d3fafd478"]
+---
+time 1701601890
+old [description:"klassen entwürfe" entry:"1701601795" modified:"1701601795" project:"school.inf" status:"pending" uuid:"f8ea51b6-0c18-487d-8075-59cbea44b377"]
+new [description:"klassen entwürfe" entry:"1701601795" modified:"1701601890" priority:"L" project:"school.inf" status:"pending" urgent:"Y" uuid:"f8ea51b6-0c18-487d-8075-59cbea44b377"]
+---
+time 1701601890
+old [description:"türme von hanoi" entry:"1701601801" modified:"1701601801" project:"school.inf" status:"pending" uuid:"30dad4da-fb73-4b3d-ba73-bbc4000b8451"]
+new [description:"türme von hanoi" entry:"1701601801" modified:"1701601890" priority:"L" project:"school.inf" status:"pending" urgent:"Y" uuid:"30dad4da-fb73-4b3d-ba73-bbc4000b8451"]
+---
+time 1701601890
+old [description:"dualzahlen \/ Binär" entry:"1701601807" modified:"1701601807" project:"school.inf" status:"pending" uuid:"299e1836-220a-4404-b34c-ee9bfa7dc33d"]
+new [description:"dualzahlen \/ Binär" entry:"1701601807" modified:"1701601890" priority:"L" project:"school.inf" status:"pending" urgent:"Y" uuid:"299e1836-220a-4404-b34c-ee9bfa7dc33d"]
+---
+time 1701601890
+old [description:"binärbäume" entry:"1701601820" modified:"1701601820" project:"school.inf" status:"pending" uuid:"a9dfbd76-cb74-4090-baab-c9cceb40c153"]
+new [description:"binärbäume" entry:"1701601820" modified:"1701601890" priority:"L" project:"school.inf" status:"pending" urgent:"Y" uuid:"a9dfbd76-cb74-4090-baab-c9cceb40c153"]
+---
+time 1701601890
+old [description:"laufzeitanalyse" entry:"1701601827" modified:"1701601827" project:"school.inf" status:"pending" uuid:"49bcb0cc-9437-4a60-9911-ed5cd620685f"]
+new [description:"laufzeitanalyse" entry:"1701601827" modified:"1701601890" priority:"L" project:"school.inf" status:"pending" urgent:"Y" uuid:"49bcb0cc-9437-4a60-9911-ed5cd620685f"]
+---
+time 1701601909
+old [description:"stapel" entry:"1701601749" modified:"1701601890" priority:"L" project:"school.inf" status:"pending" urgent:"Y" uuid:"3f00cea1-ed5e-4130-b958-46dccaa62a0c"]
+new [description:"stapel" due:"1701644400" entry:"1701601749" modified:"1701601909" priority:"L" project:"school.inf" status:"pending" urgent:"Y" uuid:"3f00cea1-ed5e-4130-b958-46dccaa62a0c"]
+---
+time 1701601909
+old [description:"schlange" entry:"1701601753" modified:"1701601890" priority:"L" project:"school.inf" status:"pending" urgent:"Y" uuid:"29e5d4d3-5780-45eb-b61e-2247feeaa219"]
+new [description:"schlange" due:"1701644400" entry:"1701601753" modified:"1701601909" priority:"L" project:"school.inf" status:"pending" urgent:"Y" uuid:"29e5d4d3-5780-45eb-b61e-2247feeaa219"]
+---
+time 1701601909
+old [description:"bubble sort" entry:"1701601763" modified:"1701601890" priority:"L" project:"school.inf" status:"pending" urgent:"Y" uuid:"36314277-f2d4-4546-933d-667de93f5a9a"]
+new [description:"bubble sort" due:"1701644400" entry:"1701601763" modified:"1701601909" priority:"L" project:"school.inf" status:"pending" urgent:"Y" uuid:"36314277-f2d4-4546-933d-667de93f5a9a"]
+---
+time 1701601909
+old [description:"selection sort" entry:"1701601769" modified:"1701601890" priority:"L" project:"school.inf" status:"pending" urgent:"Y" uuid:"d1e90a0e-3a6d-44d1-97dc-2306a3f87122"]
+new [description:"selection sort" due:"1701644400" entry:"1701601769" modified:"1701601909" priority:"L" project:"school.inf" status:"pending" urgent:"Y" uuid:"d1e90a0e-3a6d-44d1-97dc-2306a3f87122"]
+---
+time 1701601909
+old [description:"intertion sort" entry:"1701601778" modified:"1701601890" priority:"L" project:"school.inf" status:"pending" urgent:"Y" uuid:"7f1fad83-a2ae-4c97-a5c0-8b39b619e466"]
+new [description:"intertion sort" due:"1701644400" entry:"1701601778" modified:"1701601909" priority:"L" project:"school.inf" status:"pending" urgent:"Y" uuid:"7f1fad83-a2ae-4c97-a5c0-8b39b619e466"]
+---
+time 1701601909
+old [description:"quick sort" entry:"1701601783" modified:"1701601890" priority:"L" project:"school.inf" status:"pending" urgent:"Y" uuid:"7d0de8da-e5b7-475b-a4b6-727d3fafd478"]
+new [description:"quick sort" due:"1701644400" entry:"1701601783" modified:"1701601909" priority:"L" project:"school.inf" status:"pending" urgent:"Y" uuid:"7d0de8da-e5b7-475b-a4b6-727d3fafd478"]
+---
+time 1701601909
+old [description:"klassen entwürfe" entry:"1701601795" modified:"1701601890" priority:"L" project:"school.inf" status:"pending" urgent:"Y" uuid:"f8ea51b6-0c18-487d-8075-59cbea44b377"]
+new [description:"klassen entwürfe" due:"1701644400" entry:"1701601795" modified:"1701601909" priority:"L" project:"school.inf" status:"pending" urgent:"Y" uuid:"f8ea51b6-0c18-487d-8075-59cbea44b377"]
+---
+time 1701601909
+old [description:"türme von hanoi" entry:"1701601801" modified:"1701601890" priority:"L" project:"school.inf" status:"pending" urgent:"Y" uuid:"30dad4da-fb73-4b3d-ba73-bbc4000b8451"]
+new [description:"türme von hanoi" due:"1701644400" entry:"1701601801" modified:"1701601909" priority:"L" project:"school.inf" status:"pending" urgent:"Y" uuid:"30dad4da-fb73-4b3d-ba73-bbc4000b8451"]
+---
+time 1701601909
+old [description:"dualzahlen \/ Binär" entry:"1701601807" modified:"1701601890" priority:"L" project:"school.inf" status:"pending" urgent:"Y" uuid:"299e1836-220a-4404-b34c-ee9bfa7dc33d"]
+new [description:"dualzahlen \/ Binär" due:"1701644400" entry:"1701601807" modified:"1701601909" priority:"L" project:"school.inf" status:"pending" urgent:"Y" uuid:"299e1836-220a-4404-b34c-ee9bfa7dc33d"]
+---
+time 1701601909
+old [description:"binärbäume" entry:"1701601820" modified:"1701601890" priority:"L" project:"school.inf" status:"pending" urgent:"Y" uuid:"a9dfbd76-cb74-4090-baab-c9cceb40c153"]
+new [description:"binärbäume" due:"1701644400" entry:"1701601820" modified:"1701601909" priority:"L" project:"school.inf" status:"pending" urgent:"Y" uuid:"a9dfbd76-cb74-4090-baab-c9cceb40c153"]
+---
+time 1701601909
+old [description:"laufzeitanalyse" entry:"1701601827" modified:"1701601890" priority:"L" project:"school.inf" status:"pending" urgent:"Y" uuid:"49bcb0cc-9437-4a60-9911-ed5cd620685f"]
+new [description:"laufzeitanalyse" due:"1701644400" entry:"1701601827" modified:"1701601909" priority:"L" project:"school.inf" status:"pending" urgent:"Y" uuid:"49bcb0cc-9437-4a60-9911-ed5cd620685f"]
+---
+time 1701601929
+old [description:"stapel" due:"1701644400" entry:"1701601749" modified:"1701601909" priority:"L" project:"school.inf" status:"pending" urgent:"Y" uuid:"3f00cea1-ed5e-4130-b958-46dccaa62a0c"]
+new [description:"stapel" due:"1701644400" entry:"1701601749" modified:"1701601929" priority:"L" project:"school.inf" status:"pending" tags:"klausur" tags_klausur:"x" urgent:"Y" uuid:"3f00cea1-ed5e-4130-b958-46dccaa62a0c"]
+---
+time 1701601929
+old [description:"schlange" due:"1701644400" entry:"1701601753" modified:"1701601909" priority:"L" project:"school.inf" status:"pending" urgent:"Y" uuid:"29e5d4d3-5780-45eb-b61e-2247feeaa219"]
+new [description:"schlange" due:"1701644400" entry:"1701601753" modified:"1701601929" priority:"L" project:"school.inf" status:"pending" tags:"klausur" tags_klausur:"x" urgent:"Y" uuid:"29e5d4d3-5780-45eb-b61e-2247feeaa219"]
+---
+time 1701601929
+old [description:"bubble sort" due:"1701644400" entry:"1701601763" modified:"1701601909" priority:"L" project:"school.inf" status:"pending" urgent:"Y" uuid:"36314277-f2d4-4546-933d-667de93f5a9a"]
+new [description:"bubble sort" due:"1701644400" entry:"1701601763" modified:"1701601929" priority:"L" project:"school.inf" status:"pending" tags:"klausur" tags_klausur:"x" urgent:"Y" uuid:"36314277-f2d4-4546-933d-667de93f5a9a"]
+---
+time 1701601929
+old [description:"selection sort" due:"1701644400" entry:"1701601769" modified:"1701601909" priority:"L" project:"school.inf" status:"pending" urgent:"Y" uuid:"d1e90a0e-3a6d-44d1-97dc-2306a3f87122"]
+new [description:"selection sort" due:"1701644400" entry:"1701601769" modified:"1701601929" priority:"L" project:"school.inf" status:"pending" tags:"klausur" tags_klausur:"x" urgent:"Y" uuid:"d1e90a0e-3a6d-44d1-97dc-2306a3f87122"]
+---
+time 1701601929
+old [description:"intertion sort" due:"1701644400" entry:"1701601778" modified:"1701601909" priority:"L" project:"school.inf" status:"pending" urgent:"Y" uuid:"7f1fad83-a2ae-4c97-a5c0-8b39b619e466"]
+new [description:"intertion sort" due:"1701644400" entry:"1701601778" modified:"1701601929" priority:"L" project:"school.inf" status:"pending" tags:"klausur" tags_klausur:"x" urgent:"Y" uuid:"7f1fad83-a2ae-4c97-a5c0-8b39b619e466"]
+---
+time 1701601929
+old [description:"quick sort" due:"1701644400" entry:"1701601783" modified:"1701601909" priority:"L" project:"school.inf" status:"pending" urgent:"Y" uuid:"7d0de8da-e5b7-475b-a4b6-727d3fafd478"]
+new [description:"quick sort" due:"1701644400" entry:"1701601783" modified:"1701601929" priority:"L" project:"school.inf" status:"pending" tags:"klausur" tags_klausur:"x" urgent:"Y" uuid:"7d0de8da-e5b7-475b-a4b6-727d3fafd478"]
+---
+time 1701601929
+old [description:"klassen entwürfe" due:"1701644400" entry:"1701601795" modified:"1701601909" priority:"L" project:"school.inf" status:"pending" urgent:"Y" uuid:"f8ea51b6-0c18-487d-8075-59cbea44b377"]
+new [description:"klassen entwürfe" due:"1701644400" entry:"1701601795" modified:"1701601929" priority:"L" project:"school.inf" status:"pending" tags:"klausur" tags_klausur:"x" urgent:"Y" uuid:"f8ea51b6-0c18-487d-8075-59cbea44b377"]
+---
+time 1701601929
+old [description:"türme von hanoi" due:"1701644400" entry:"1701601801" modified:"1701601909" priority:"L" project:"school.inf" status:"pending" urgent:"Y" uuid:"30dad4da-fb73-4b3d-ba73-bbc4000b8451"]
+new [description:"türme von hanoi" due:"1701644400" entry:"1701601801" modified:"1701601929" priority:"L" project:"school.inf" status:"pending" tags:"klausur" tags_klausur:"x" urgent:"Y" uuid:"30dad4da-fb73-4b3d-ba73-bbc4000b8451"]
+---
+time 1701601929
+old [description:"dualzahlen \/ Binär" due:"1701644400" entry:"1701601807" modified:"1701601909" priority:"L" project:"school.inf" status:"pending" urgent:"Y" uuid:"299e1836-220a-4404-b34c-ee9bfa7dc33d"]
+new [description:"dualzahlen \/ Binär" due:"1701644400" entry:"1701601807" modified:"1701601929" priority:"L" project:"school.inf" status:"pending" tags:"klausur" tags_klausur:"x" urgent:"Y" uuid:"299e1836-220a-4404-b34c-ee9bfa7dc33d"]
+---
+time 1701601929
+old [description:"binärbäume" due:"1701644400" entry:"1701601820" modified:"1701601909" priority:"L" project:"school.inf" status:"pending" urgent:"Y" uuid:"a9dfbd76-cb74-4090-baab-c9cceb40c153"]
+new [description:"binärbäume" due:"1701644400" entry:"1701601820" modified:"1701601929" priority:"L" project:"school.inf" status:"pending" tags:"klausur" tags_klausur:"x" urgent:"Y" uuid:"a9dfbd76-cb74-4090-baab-c9cceb40c153"]
+---
+time 1701601929
+old [description:"laufzeitanalyse" due:"1701644400" entry:"1701601827" modified:"1701601909" priority:"L" project:"school.inf" status:"pending" urgent:"Y" uuid:"49bcb0cc-9437-4a60-9911-ed5cd620685f"]
+new [description:"laufzeitanalyse" due:"1701644400" entry:"1701601827" modified:"1701601929" priority:"L" project:"school.inf" status:"pending" tags:"klausur" tags_klausur:"x" urgent:"Y" uuid:"49bcb0cc-9437-4a60-9911-ed5cd620685f"]
+---
+time 1701602080
+old [description:"stapel" due:"1701644400" entry:"1701601749" modified:"1701601929" priority:"L" project:"school.inf" status:"pending" tags:"klausur" tags_klausur:"x" urgent:"Y" uuid:"3f00cea1-ed5e-4130-b958-46dccaa62a0c"]
+new [description:"stapel" due:"1701644400" end:"1701602080" entry:"1701601749" modified:"1701602080" priority:"L" project:"school.inf" status:"completed" tags:"klausur" tags_klausur:"x" urgent:"Y" uuid:"3f00cea1-ed5e-4130-b958-46dccaa62a0c"]
+---
+time 1701604270
+old [dep_299e1836-220a-4404-b34c-ee9bfa7dc33d:"x" dep_29e5d4d3-5780-45eb-b61e-2247feeaa219:"x" dep_30dad4da-fb73-4b3d-ba73-bbc4000b8451:"x" dep_36314277-f2d4-4546-933d-667de93f5a9a:"x" dep_3f00cea1-ed5e-4130-b958-46dccaa62a0c:"x" dep_49bcb0cc-9437-4a60-9911-ed5cd620685f:"x" dep_7d0de8da-e5b7-475b-a4b6-727d3fafd478:"x" dep_7f1fad83-a2ae-4c97-a5c0-8b39b619e466:"x" dep_a9dfbd76-cb74-4090-baab-c9cceb40c153:"x" dep_d1e90a0e-3a6d-44d1-97dc-2306a3f87122:"x" dep_f8ea51b6-0c18-487d-8075-59cbea44b377:"x" depends:"299e1836-220a-4404-b34c-ee9bfa7dc33d,29e5d4d3-5780-45eb-b61e-2247feeaa219,30dad4da-fb73-4b3d-ba73-bbc4000b8451,36314277-f2d4-4546-933d-667de93f5a9a,3f00cea1-ed5e-4130-b958-46dccaa62a0c,49bcb0cc-9437-4a60-9911-ed5cd620685f,7d0de8da-e5b7-475b-a4b6-727d3fafd478,7f1fad83-a2ae-4c97-a5c0-8b39b619e466,a9dfbd76-cb74-4090-baab-c9cceb40c153,d1e90a0e-3a6d-44d1-97dc-2306a3f87122,f8ea51b6-0c18-487d-8075-59cbea44b377" description:"inf lernzettel" due:"1701644400" entry:"1701354614" modified:"1701601864" priority:"L" project:"school" status:"pending" tags:"klausur" tags_klausur:"x" urgent:"Y" uuid:"c8dba039-10e5-4a36-ac77-16189b155764"]
+new [dep_299e1836-220a-4404-b34c-ee9bfa7dc33d:"x" dep_29e5d4d3-5780-45eb-b61e-2247feeaa219:"x" dep_30dad4da-fb73-4b3d-ba73-bbc4000b8451:"x" dep_36314277-f2d4-4546-933d-667de93f5a9a:"x" dep_3f00cea1-ed5e-4130-b958-46dccaa62a0c:"x" dep_49bcb0cc-9437-4a60-9911-ed5cd620685f:"x" dep_7d0de8da-e5b7-475b-a4b6-727d3fafd478:"x" dep_7f1fad83-a2ae-4c97-a5c0-8b39b619e466:"x" dep_a9dfbd76-cb74-4090-baab-c9cceb40c153:"x" dep_d1e90a0e-3a6d-44d1-97dc-2306a3f87122:"x" dep_f8ea51b6-0c18-487d-8075-59cbea44b377:"x" depends:"299e1836-220a-4404-b34c-ee9bfa7dc33d,29e5d4d3-5780-45eb-b61e-2247feeaa219,30dad4da-fb73-4b3d-ba73-bbc4000b8451,36314277-f2d4-4546-933d-667de93f5a9a,3f00cea1-ed5e-4130-b958-46dccaa62a0c,49bcb0cc-9437-4a60-9911-ed5cd620685f,7d0de8da-e5b7-475b-a4b6-727d3fafd478,7f1fad83-a2ae-4c97-a5c0-8b39b619e466,a9dfbd76-cb74-4090-baab-c9cceb40c153,d1e90a0e-3a6d-44d1-97dc-2306a3f87122,f8ea51b6-0c18-487d-8075-59cbea44b377" description:"inf lernzettel" due:"1701644400" entry:"1701354614" modified:"1701604270" priority:"L" project:"school" start:"1701604270" status:"pending" tags:"klausur" tags_klausur:"x" urgent:"Y" uuid:"c8dba039-10e5-4a36-ac77-16189b155764"]
+---
+time 1701604284
+old [description:"schlange" due:"1701644400" entry:"1701601753" modified:"1701601929" priority:"L" project:"school.inf" status:"pending" tags:"klausur" tags_klausur:"x" urgent:"Y" uuid:"29e5d4d3-5780-45eb-b61e-2247feeaa219"]
+new [description:"schlange" due:"1701644400" entry:"1701601753" modified:"1701604284" priority:"L" project:"school.inf" start:"1701604284" status:"pending" tags:"klausur" tags_klausur:"x" urgent:"Y" uuid:"29e5d4d3-5780-45eb-b61e-2247feeaa219"]
+---
+time 1701604469
+old [description:"schlange" due:"1701644400" entry:"1701601753" modified:"1701604284" priority:"L" project:"school.inf" start:"1701604284" status:"pending" tags:"klausur" tags_klausur:"x" urgent:"Y" uuid:"29e5d4d3-5780-45eb-b61e-2247feeaa219"]
+new [description:"schlange" due:"1701644400" end:"1701604469" entry:"1701601753" modified:"1701604469" priority:"L" project:"school.inf" status:"completed" tags:"klausur" tags_klausur:"x" urgent:"Y" uuid:"29e5d4d3-5780-45eb-b61e-2247feeaa219"]
+---
+time 1701604479
+old [description:"bubble sort" due:"1701644400" entry:"1701601763" modified:"1701601929" priority:"L" project:"school.inf" status:"pending" tags:"klausur" tags_klausur:"x" urgent:"Y" uuid:"36314277-f2d4-4546-933d-667de93f5a9a"]
+new [description:"bubble sort" due:"1701644400" entry:"1701601763" modified:"1701604479" priority:"L" project:"school.inf" start:"1701604479" status:"pending" tags:"klausur" tags_klausur:"x" urgent:"Y" uuid:"36314277-f2d4-4546-933d-667de93f5a9a"]
+---
+time 1701604529
+old [description:"bubble sort" due:"1701644400" entry:"1701601763" modified:"1701604479" priority:"L" project:"school.inf" start:"1701604479" status:"pending" tags:"klausur" tags_klausur:"x" urgent:"Y" uuid:"36314277-f2d4-4546-933d-667de93f5a9a"]
+new [description:"bubble sort" due:"1701644400" end:"1701604529" entry:"1701601763" modified:"1701604529" priority:"L" project:"school.inf" status:"completed" tags:"klausur" tags_klausur:"x" urgent:"Y" uuid:"36314277-f2d4-4546-933d-667de93f5a9a"]
+---
+time 1701605526
+old [description:"selection sort" due:"1701644400" entry:"1701601769" modified:"1701601929" priority:"L" project:"school.inf" status:"pending" tags:"klausur" tags_klausur:"x" urgent:"Y" uuid:"d1e90a0e-3a6d-44d1-97dc-2306a3f87122"]
+new [description:"selection sort" due:"1701644400" entry:"1701601769" modified:"1701605526" priority:"L" project:"school.inf" start:"1701605526" status:"pending" tags:"klausur" tags_klausur:"x" urgent:"Y" uuid:"d1e90a0e-3a6d-44d1-97dc-2306a3f87122"]
+---
+time 1701605532
+old [description:"selection sort" due:"1701644400" entry:"1701601769" modified:"1701605526" priority:"L" project:"school.inf" start:"1701605526" status:"pending" tags:"klausur" tags_klausur:"x" urgent:"Y" uuid:"d1e90a0e-3a6d-44d1-97dc-2306a3f87122"]
+new [description:"selection sort" due:"1701644400" end:"1701605532" entry:"1701601769" modified:"1701605532" priority:"L" project:"school.inf" status:"completed" tags:"klausur" tags_klausur:"x" urgent:"Y" uuid:"d1e90a0e-3a6d-44d1-97dc-2306a3f87122"]
+---
+time 1701605581
+old [description:"intertion sort" due:"1701644400" entry:"1701601778" modified:"1701601929" priority:"L" project:"school.inf" status:"pending" tags:"klausur" tags_klausur:"x" urgent:"Y" uuid:"7f1fad83-a2ae-4c97-a5c0-8b39b619e466"]
+new [description:"intertion sort" due:"1701644400" end:"1701605581" entry:"1701601778" modified:"1701605581" priority:"L" project:"school.inf" status:"completed" tags:"klausur" tags_klausur:"x" urgent:"Y" uuid:"7f1fad83-a2ae-4c97-a5c0-8b39b619e466"]
+---
+time 1701605588
+old [description:"quick sort" due:"1701644400" entry:"1701601783" modified:"1701601929" priority:"L" project:"school.inf" status:"pending" tags:"klausur" tags_klausur:"x" urgent:"Y" uuid:"7d0de8da-e5b7-475b-a4b6-727d3fafd478"]
+new [description:"quick sort" due:"1701644400" end:"1701605588" entry:"1701601783" modified:"1701605588" priority:"L" project:"school.inf" status:"completed" tags:"klausur" tags_klausur:"x" urgent:"Y" uuid:"7d0de8da-e5b7-475b-a4b6-727d3fafd478"]
+---
+time 1701605857
+old [description:"klassen entwürfe" due:"1701644400" entry:"1701601795" modified:"1701601929" priority:"L" project:"school.inf" status:"pending" tags:"klausur" tags_klausur:"x" urgent:"Y" uuid:"f8ea51b6-0c18-487d-8075-59cbea44b377"]
+new [description:"klassen entwürfe" due:"1701644400" end:"1701605857" entry:"1701601795" modified:"1701605857" priority:"L" project:"school.inf" status:"completed" tags:"klausur" tags_klausur:"x" urgent:"Y" uuid:"f8ea51b6-0c18-487d-8075-59cbea44b377"]
+---
+time 1701671541
+old [dep_299e1836-220a-4404-b34c-ee9bfa7dc33d:"x" dep_29e5d4d3-5780-45eb-b61e-2247feeaa219:"x" dep_30dad4da-fb73-4b3d-ba73-bbc4000b8451:"x" dep_36314277-f2d4-4546-933d-667de93f5a9a:"x" dep_3f00cea1-ed5e-4130-b958-46dccaa62a0c:"x" dep_49bcb0cc-9437-4a60-9911-ed5cd620685f:"x" dep_7d0de8da-e5b7-475b-a4b6-727d3fafd478:"x" dep_7f1fad83-a2ae-4c97-a5c0-8b39b619e466:"x" dep_a9dfbd76-cb74-4090-baab-c9cceb40c153:"x" dep_d1e90a0e-3a6d-44d1-97dc-2306a3f87122:"x" dep_f8ea51b6-0c18-487d-8075-59cbea44b377:"x" depends:"299e1836-220a-4404-b34c-ee9bfa7dc33d,29e5d4d3-5780-45eb-b61e-2247feeaa219,30dad4da-fb73-4b3d-ba73-bbc4000b8451,36314277-f2d4-4546-933d-667de93f5a9a,3f00cea1-ed5e-4130-b958-46dccaa62a0c,49bcb0cc-9437-4a60-9911-ed5cd620685f,7d0de8da-e5b7-475b-a4b6-727d3fafd478,7f1fad83-a2ae-4c97-a5c0-8b39b619e466,a9dfbd76-cb74-4090-baab-c9cceb40c153,d1e90a0e-3a6d-44d1-97dc-2306a3f87122,f8ea51b6-0c18-487d-8075-59cbea44b377" description:"inf lernzettel" due:"1701644400" entry:"1701354614" modified:"1701604270" priority:"L" project:"school" start:"1701604270" status:"pending" tags:"klausur" tags_klausur:"x" urgent:"Y" uuid:"c8dba039-10e5-4a36-ac77-16189b155764"]
+new [dep_299e1836-220a-4404-b34c-ee9bfa7dc33d:"x" dep_29e5d4d3-5780-45eb-b61e-2247feeaa219:"x" dep_30dad4da-fb73-4b3d-ba73-bbc4000b8451:"x" dep_36314277-f2d4-4546-933d-667de93f5a9a:"x" dep_3f00cea1-ed5e-4130-b958-46dccaa62a0c:"x" dep_49bcb0cc-9437-4a60-9911-ed5cd620685f:"x" dep_7d0de8da-e5b7-475b-a4b6-727d3fafd478:"x" dep_7f1fad83-a2ae-4c97-a5c0-8b39b619e466:"x" dep_a9dfbd76-cb74-4090-baab-c9cceb40c153:"x" dep_d1e90a0e-3a6d-44d1-97dc-2306a3f87122:"x" dep_f8ea51b6-0c18-487d-8075-59cbea44b377:"x" depends:"299e1836-220a-4404-b34c-ee9bfa7dc33d,29e5d4d3-5780-45eb-b61e-2247feeaa219,30dad4da-fb73-4b3d-ba73-bbc4000b8451,36314277-f2d4-4546-933d-667de93f5a9a,3f00cea1-ed5e-4130-b958-46dccaa62a0c,49bcb0cc-9437-4a60-9911-ed5cd620685f,7d0de8da-e5b7-475b-a4b6-727d3fafd478,7f1fad83-a2ae-4c97-a5c0-8b39b619e466,a9dfbd76-cb74-4090-baab-c9cceb40c153,d1e90a0e-3a6d-44d1-97dc-2306a3f87122,f8ea51b6-0c18-487d-8075-59cbea44b377" description:"inf lernzettel" due:"1701644400" end:"1701671536" entry:"1701354614" modified:"1701671541" priority:"L" project:"school" status:"completed" tags:"klausur" tags_klausur:"x" urgent:"Y" uuid:"c8dba039-10e5-4a36-ac77-16189b155764"]
+---
+time 1701671549
+old [description:"türme von hanoi" due:"1701644400" entry:"1701601801" modified:"1701601929" priority:"L" project:"school.inf" status:"pending" tags:"klausur" tags_klausur:"x" urgent:"Y" uuid:"30dad4da-fb73-4b3d-ba73-bbc4000b8451"]
+new [description:"türme von hanoi" due:"1701644400" end:"1701671541" entry:"1701601801" modified:"1701671549" priority:"L" project:"school.inf" status:"completed" tags:"klausur" tags_klausur:"x" urgent:"Y" uuid:"30dad4da-fb73-4b3d-ba73-bbc4000b8451"]
+---
+time 1701671554
+old [description:"dualzahlen \/ Binär" due:"1701644400" entry:"1701601807" modified:"1701601929" priority:"L" project:"school.inf" status:"pending" tags:"klausur" tags_klausur:"x" urgent:"Y" uuid:"299e1836-220a-4404-b34c-ee9bfa7dc33d"]
+new [description:"dualzahlen \/ Binär" due:"1701644400" end:"1701671549" entry:"1701601807" modified:"1701671554" priority:"L" project:"school.inf" status:"completed" tags:"klausur" tags_klausur:"x" urgent:"Y" uuid:"299e1836-220a-4404-b34c-ee9bfa7dc33d"]
+---
+time 1701671555
+old [description:"binärbäume" due:"1701644400" entry:"1701601820" modified:"1701601929" priority:"L" project:"school.inf" status:"pending" tags:"klausur" tags_klausur:"x" urgent:"Y" uuid:"a9dfbd76-cb74-4090-baab-c9cceb40c153"]
+new [description:"binärbäume" due:"1701644400" end:"1701671554" entry:"1701601820" modified:"1701671555" priority:"L" project:"school.inf" status:"completed" tags:"klausur" tags_klausur:"x" urgent:"Y" uuid:"a9dfbd76-cb74-4090-baab-c9cceb40c153"]
+---
+time 1701671556
+old [description:"laufzeitanalyse" due:"1701644400" entry:"1701601827" modified:"1701601929" priority:"L" project:"school.inf" status:"pending" tags:"klausur" tags_klausur:"x" urgent:"Y" uuid:"49bcb0cc-9437-4a60-9911-ed5cd620685f"]
+new [description:"laufzeitanalyse" due:"1701644400" end:"1701671555" entry:"1701601827" modified:"1701671556" priority:"L" project:"school.inf" status:"completed" tags:"klausur" tags_klausur:"x" urgent:"Y" uuid:"49bcb0cc-9437-4a60-9911-ed5cd620685f"]
+---
+time 1701681981
+old [description:"kulturpass" entry:"1699791338" modified:"1701515891" priority:"H" status:"pending" urgent:"Y" uuid:"a6ebc957-bb2b-43f7-9c2e-06a0f2caef48" wait:"1701644400"]
+new [description:"kulturpass" entry:"1699791338" modified:"1701681981" priority:"H" status:"pending" urgent:"Y" uuid:"a6ebc957-bb2b-43f7-9c2e-06a0f2caef48" wait:"1701854781"]
+---
+time 1701682541
+new [description:"ideen finden" entry:"1701682541" modified:"1701682541" project:"facharbeit" status:"pending" uuid:"5a74cfc6-5ffe-4b6d-b3cf-969b3d9aa438"]
+---
+time 1701682564
+old [description:"ideen finden" entry:"1701682541" modified:"1701682541" project:"facharbeit" status:"pending" uuid:"5a74cfc6-5ffe-4b6d-b3cf-969b3d9aa438"]
+new [annotation_1701682564:"vielleicht wieder RANS?" description:"ideen finden" entry:"1701682541" modified:"1701682564" project:"facharbeit" status:"pending" uuid:"5a74cfc6-5ffe-4b6d-b3cf-969b3d9aa438"]
+---
+time 1701708128
+old [description:"jim crow law pres" due:"1701730800" entry:"1701358283" modified:"1701518899" priority:"L" project:"school" status:"pending" urgent:"Y" uuid:"f895dc3d-81d7-462a-8826-4d0ee5c51675"]
+new [description:"jim crow law pres" due:"1701730800" entry:"1701358283" modified:"1701708128" priority:"L" project:"school" start:"1701708128" status:"pending" urgent:"Y" uuid:"f895dc3d-81d7-462a-8826-4d0ee5c51675"]
+---
+time 1701709418
+new [description:"background image" entry:"1701709418" modified:"1701709418" project:"school.eng" status:"pending" uuid:"335e36a1-013f-4b78-8749-114bd21339a2"]
+---
+time 1701709425
+old [description:"jim crow law pres" due:"1701730800" entry:"1701358283" modified:"1701708128" priority:"L" project:"school" start:"1701708128" status:"pending" urgent:"Y" uuid:"f895dc3d-81d7-462a-8826-4d0ee5c51675"]
+new [dep_335e36a1-013f-4b78-8749-114bd21339a2:"x" depends:"335e36a1-013f-4b78-8749-114bd21339a2" description:"jim crow law pres" due:"1701730800" entry:"1701358283" modified:"1701709425" priority:"L" project:"school" start:"1701708128" status:"pending" urgent:"Y" uuid:"f895dc3d-81d7-462a-8826-4d0ee5c51675"]
+---
+time 1701715916
+old [dep_335e36a1-013f-4b78-8749-114bd21339a2:"x" depends:"335e36a1-013f-4b78-8749-114bd21339a2" description:"jim crow law pres" due:"1701730800" entry:"1701358283" modified:"1701709425" priority:"L" project:"school" start:"1701708128" status:"pending" urgent:"Y" uuid:"f895dc3d-81d7-462a-8826-4d0ee5c51675"]
+new [dep_335e36a1-013f-4b78-8749-114bd21339a2:"x" depends:"335e36a1-013f-4b78-8749-114bd21339a2" description:"jim crow law pres" due:"1701730800" entry:"1701358283" modified:"1701715916" priority:"L" project:"school" status:"pending" urgent:"Y" uuid:"f895dc3d-81d7-462a-8826-4d0ee5c51675"]
+---
+time 1701762600
+old [dep_335e36a1-013f-4b78-8749-114bd21339a2:"x" depends:"335e36a1-013f-4b78-8749-114bd21339a2" description:"jim crow law pres" due:"1701730800" entry:"1701358283" modified:"1701715916" priority:"L" project:"school" status:"pending" urgent:"Y" uuid:"f895dc3d-81d7-462a-8826-4d0ee5c51675"]
+new [dep_335e36a1-013f-4b78-8749-114bd21339a2:"x" depends:"335e36a1-013f-4b78-8749-114bd21339a2" description:"jim crow law pres" due:"1701730800" end:"1701762600" entry:"1701358283" modified:"1701762600" priority:"L" project:"school" status:"completed" urgent:"Y" uuid:"f895dc3d-81d7-462a-8826-4d0ee5c51675"]
+---
+time 1701762661
+new [description:"offenes Drama pres" due:"1701990000" entry:"1701762661" modified:"1701762661" project:"school.deutsch" status:"pending" uuid:"57510af6-0920-4787-af6b-cb3bc5f9b156"]
+---
+time 1701762666
+old [description:"offenes Drama pres" due:"1701990000" entry:"1701762661" modified:"1701762661" project:"school.deutsch" status:"pending" uuid:"57510af6-0920-4787-af6b-cb3bc5f9b156"]
+new [description:"offenes Drama pres" due:"1701990000" entry:"1701762661" modified:"1701762666" priority:"L" project:"school.deutsch" status:"pending" urgent:"Y" uuid:"57510af6-0920-4787-af6b-cb3bc5f9b156"]
+---
+time 1701762670
+old [description:"background image" entry:"1701709418" modified:"1701709418" project:"school.eng" status:"pending" uuid:"335e36a1-013f-4b78-8749-114bd21339a2"]
+new [description:"background image" entry:"1701709418" modified:"1701762670" priority:"L" project:"school.eng" status:"pending" urgent:"Y" uuid:"335e36a1-013f-4b78-8749-114bd21339a2"]
+---
+time 1701763633
+new [description:"Szenenanalyse methoden heft selber" entry:"1701763633" modified:"1701763633" project:"school.deutsch" status:"pending" tags:"idee" tags_idee:"x" uuid:"c4793b2e-e704-4d57-9216-04795d5745a1"]
+---
+time 1701763652
+old [description:"Szenenanalyse methoden heft selber" entry:"1701763633" modified:"1701763633" project:"school.deutsch" status:"pending" tags:"idee" tags_idee:"x" uuid:"c4793b2e-e704-4d57-9216-04795d5745a1"]
+new [description:"Szenenanalyse methoden heft selber" entry:"1701763633" modified:"1701763652" priority:"L" project:"school.deutsch" status:"pending" tags:"idee" tags_idee:"x" urgent:"N" uuid:"c4793b2e-e704-4d57-9216-04795d5745a1"]
+---
+time 1701849339
+new [description:"social links" entry:"1701849339" modified:"1701849339" project:"school.valkyrie.website" status:"pending" uuid:"20969473-f4e9-472b-b277-f5291aec3387"]
+---
+time 1701855338
+new [description:"blender model highet" entry:"1701855338" modified:"1701855338" project:"school.valkyrie.website" status:"pending" uuid:"2e94b88c-ddd4-4caf-a4df-4cc7e2e23c40"]
+---
+time 1701855348
+new [description:"merchandise" entry:"1701855348" modified:"1701855348" project:"school.valkyrie" status:"pending" uuid:"91caa78f-df62-4720-9bf1-fde35d38551d"]
+---
+time 1701855550
+old [description:"social links" entry:"1701849339" modified:"1701849339" project:"school.valkyrie.website" status:"pending" uuid:"20969473-f4e9-472b-b277-f5291aec3387"]
+new [description:"social links" entry:"1701849339" modified:"1701855550" priority:"L" project:"school.valkyrie.website" status:"pending" urgent:"Y" uuid:"20969473-f4e9-472b-b277-f5291aec3387"]
+---
+time 1701857582
+new [description:"gesch presentation" due:"1702854000" entry:"1701857582" modified:"1701857582" project:"school.ges" status:"pending" uuid:"8399b36d-8649-47e5-806b-4458c2278e25"]
+---
+time 1701859292
+new [description:"hover sponsor" entry:"1701859292" modified:"1701859292" project:"school.valkyrie.website" status:"pending" uuid:"aedc4b98-39be-4657-b1b5-c5b854a20bb1"]
+---
+time 1701859847
+new [description:"fix bug" entry:"1701859847" modified:"1701859847" project:"school.valkyrie.website" status:"pending" uuid:"d63d2083-469f-490c-894a-b758df6a59f9"]
+---
+time 1701859867
+old [description:"fix bug" entry:"1701859847" modified:"1701859847" project:"school.valkyrie.website" status:"pending" uuid:"d63d2083-469f-490c-894a-b758df6a59f9"]
+new [annotation_1701859867:"nach runterscrollen ist 3d nicht mehr interatkive" description:"fix bug" entry:"1701859847" modified:"1701859867" project:"school.valkyrie.website" status:"pending" uuid:"d63d2083-469f-490c-894a-b758df6a59f9"]
+---
+time 1701866863
+new [description:"setupt pass" entry:"1701866863" modified:"1701866863" project:"school.valkyrie" status:"pending" uuid:"3354b228-d2f4-4867-9833-9e8433932019"]
+---
+time 1701944973
+old [description:"offenes Drama pres" due:"1701990000" entry:"1701762661" modified:"1701762666" priority:"L" project:"school.deutsch" status:"pending" urgent:"Y" uuid:"57510af6-0920-4787-af6b-cb3bc5f9b156"]
+new [description:"offenes Drama pres" due:"1701990000" entry:"1701762661" modified:"1701944973" priority:"L" project:"school.deutsch" status:"pending" until:"1702249200" urgent:"Y" uuid:"57510af6-0920-4787-af6b-cb3bc5f9b156"]
+---
+time 1701945055
+new [description:"Mikael" due:"1702854000" entry:"1701945055" modified:"1701945055" project:"school" status:"pending" tags:"geb" tags_geb:"x" until:"1703199600" uuid:"ca8a27d5-caa6-4deb-a3c0-59e9faab0596" wait:"1702249200"]
+---
+time 1701949928
+old [description:"kulturpass" entry:"1699791338" modified:"1701681981" priority:"H" status:"pending" urgent:"Y" uuid:"a6ebc957-bb2b-43f7-9c2e-06a0f2caef48" wait:"1701854781"]
+new [description:"kulturpass" entry:"1699791338" modified:"1701949928" priority:"H" status:"pending" urgent:"Y" uuid:"a6ebc957-bb2b-43f7-9c2e-06a0f2caef48" wait:"1702381928"]
+---
+time 1702027872
+old [description:"offenes Drama pres" due:"1701990000" entry:"1701762661" modified:"1701944973" priority:"L" project:"school.deutsch" status:"pending" until:"1702249200" urgent:"Y" uuid:"57510af6-0920-4787-af6b-cb3bc5f9b156"]
+new [description:"offenes Drama pres" due:"1701990000" end:"1702027872" entry:"1701762661" modified:"1702027872" priority:"L" project:"school.deutsch" status:"completed" until:"1702249200" urgent:"Y" uuid:"57510af6-0920-4787-af6b-cb3bc5f9b156"]
+---
+time 1702029986
+new [description:"hatefull eight" entry:"1702029986" modified:"1702029986" project:"filme" status:"pending" uuid:"dfa038a2-8b96-4c0c-98a3-beacd5e9d67a"]
+---
+time 1702122869
+new [description:"module updaten auf luametatex" entry:"1702122869" modified:"1702122869" project:"henning" status:"pending" uuid:"edd1ed6e-b620-41af-8c72-afccdbff51a5"]
+---
+time 1702216910
+old [description:"impressum" entry:"1699705155" modified:"1701526560" priority:"L" project:"school.valkyrie.website" status:"pending" urgent:"Y" uuid:"c17669d2-b9bc-4e9b-a880-2ba988e7f2d1"]
+new [description:"impressum" end:"1702216910" entry:"1699705155" modified:"1702216910" priority:"L" project:"school.valkyrie.website" status:"completed" urgent:"Y" uuid:"c17669d2-b9bc-4e9b-a880-2ba988e7f2d1"]
+---
+time 1702216928
+new [description:"call to action" entry:"1702216928" modified:"1702216928" project:"school.valkyrie.website.index" status:"pending" uuid:"78876bcc-9692-460d-a6f8-4b785da59dbe"]
+---
+time 1702216942
+old [description:"call to action" entry:"1702216928" modified:"1702216928" project:"school.valkyrie.website.index" status:"pending" uuid:"78876bcc-9692-460d-a6f8-4b785da59dbe"]
+new [annotation_1702216942:"neon glowing border" description:"call to action" entry:"1702216928" modified:"1702216942" project:"school.valkyrie.website.index" status:"pending" uuid:"78876bcc-9692-460d-a6f8-4b785da59dbe"]
+---
+time 1702217098
+new [description:"analytics" entry:"1702217098" modified:"1702217098" project:"school.valkyrie.website" status:"pending" uuid:"89be0f13-6efd-443d-b62a-294f435d7e5c"]
+---
+time 1702227054
+new [description:"auto cursor for section" entry:"1702227054" modified:"1702227054" project:"school.valkyrie.website" status:"pending" uuid:"1c688682-b170-4521-b3ed-a4518276cd92"]
+---
+time 1702458050
+new [description:"microkontroller" entry:"1702458050" modified:"1702458050" project:"ideen" status:"pending" uuid:"3df553de-e031-406c-b5e1-68442447ce32"]
+---
+time 1702458138
+old [description:"kulturpass" entry:"1699791338" modified:"1701949928" priority:"H" status:"pending" urgent:"Y" uuid:"a6ebc957-bb2b-43f7-9c2e-06a0f2caef48" wait:"1702381928"]
+new [description:"kulturpass" entry:"1699791338" modified:"1702458138" priority:"H" status:"pending" urgent:"Y" uuid:"a6ebc957-bb2b-43f7-9c2e-06a0f2caef48" wait:"1702630938"]
+---
+time 1702459578
+new [description:"template script" entry:"1702459578" modified:"1702459578" status:"pending" uuid:"e86c68f0-1771-40ff-bee3-e9633f1adc32"]
+---
+time 1702459594
+old [description:"template script" entry:"1702459578" modified:"1702459578" status:"pending" uuid:"e86c68f0-1771-40ff-bee3-e9633f1adc32"]
+new [annotation_1702459594:"e.g for beamer prest" description:"template script" entry:"1702459578" modified:"1702459594" status:"pending" uuid:"e86c68f0-1771-40ff-bee3-e9633f1adc32"]
+---
+time 1702808126
+old [description:"kulturpass" entry:"1699791338" modified:"1702458138" priority:"H" status:"pending" urgent:"Y" uuid:"a6ebc957-bb2b-43f7-9c2e-06a0f2caef48" wait:"1702630938"]
+new [description:"kulturpass" end:"1702808126" entry:"1699791338" modified:"1702808126" priority:"H" status:"completed" urgent:"Y" uuid:"a6ebc957-bb2b-43f7-9c2e-06a0f2caef48" wait:"1702630938"]
+---
+time 1702808524
+old [description:"hatefull eight" entry:"1702029986" modified:"1702029986" project:"filme" status:"pending" uuid:"dfa038a2-8b96-4c0c-98a3-beacd5e9d67a"]
+new [description:"hatefull eight" end:"1702808522" entry:"1702029986" modified:"1702808524" project:"filme" status:"deleted" uuid:"dfa038a2-8b96-4c0c-98a3-beacd5e9d67a"]
+---
+time 1702885887
+old [description:"Mikael" due:"1702854000" entry:"1701945055" modified:"1701945055" project:"school" status:"pending" tags:"geb" tags_geb:"x" until:"1703199600" uuid:"ca8a27d5-caa6-4deb-a3c0-59e9faab0596" wait:"1702249200"]
+new [description:"Mikael" due:"1702854000" end:"1702885887" entry:"1701945055" modified:"1702885887" project:"school" status:"completed" tags:"geb" tags_geb:"x" until:"1703199600" uuid:"ca8a27d5-caa6-4deb-a3c0-59e9faab0596" wait:"1702249200"]
+---
+time 1702889257
+old [description:"gesch presentation" due:"1702854000" entry:"1701857582" modified:"1701857582" project:"school.ges" status:"pending" uuid:"8399b36d-8649-47e5-806b-4458c2278e25"]
+new [description:"gesch presentation" due:"1702854000" end:"1702889257" entry:"1701857582" modified:"1702889257" project:"school.ges" status:"completed" uuid:"8399b36d-8649-47e5-806b-4458c2278e25"]
+---
+time 1703058437
+new [description:"Themen übersicht" entry:"1703058437" modified:"1703058437" project:"school.abitur" status:"pending" uuid:"913e710f-f6ab-422a-8f50-3558d3d122ae"]
+---
+time 1703058450
+old [description:"Themen übersicht" entry:"1703058437" modified:"1703058437" project:"school.abitur" status:"pending" uuid:"913e710f-f6ab-422a-8f50-3558d3d122ae"]
+new [annotation_1703058450:"~\/notes\/abitur" description:"Themen übersicht" entry:"1703058437" modified:"1703058450" project:"school.abitur" status:"pending" uuid:"913e710f-f6ab-422a-8f50-3558d3d122ae"]
+---

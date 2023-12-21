@@ -1,19 +1,19 @@
 return {
 	-- Autocompletion
 	{
-		'VonHeikemen/lsp-zero.nvim',
-		branch = 'v2.x',
+		"VonHeikemen/lsp-zero.nvim",
+		branch = "v2.x",
 		lazy = true,
 		config = function()
 			-- This is where you modify the settings for lsp-zero
 			-- Note: autocompletion settings will not take effect
 
-			require('lsp-zero.settings').preset({})
-		end
+			require("lsp-zero.settings").preset({})
+		end,
 	},
 	{
-		'hrsh7th/nvim-cmp',
-		event = 'InsertEnter',
+		"hrsh7th/nvim-cmp",
+		event = "InsertEnter",
 		dependencies = {
 			-- LSP Support
 			-- { 'neovim/nvim-lspconfig' },
@@ -32,32 +32,32 @@ return {
 				"L3MON4D3/LuaSnip",
 			},
 			"saadparwaiz1/cmp_luasnip",
-			'hrsh7th/cmp-path',
-			'hrsh7th/cmp-buffer',
+			"hrsh7th/cmp-path",
+			"hrsh7th/cmp-buffer",
 		},
 		config = function()
-			require 'cmp'.setup {
+			require("cmp").setup({
 				sources = {
-					{ name = 'path' },
-					{ name = 'nvim_lsp' },
-					{ name = 'luasnip' },
-					{ name = 'buffer' },
-				}
-			}
-		end
+					{ name = "path" },
+					{ name = "nvim_lsp" },
+					{ name = "luasnip" },
+					{ name = "buffer" },
+				},
+			})
+		end,
 	},
 	-- LSP
 	{
-		'neovim/nvim-lspconfig',
-		cmd = 'LspInfo',
-		event = { 'BufReadPre', 'BufNewFile' },
+		"neovim/nvim-lspconfig",
+		cmd = "LspInfo",
+		event = { "BufReadPre", "BufNewFile" },
 		dependencies = {
-			{ 'hrsh7th/cmp-nvim-lsp' },
-			{ 'williamboman/mason-lspconfig.nvim' },
+			{ "hrsh7th/cmp-nvim-lsp" },
+			{ "williamboman/mason-lspconfig.nvim" },
 			{
-				'williamboman/mason.nvim',
+				"williamboman/mason.nvim",
 				build = function()
-					pcall(vim.cmd, 'MasonUpdate')
+					pcall(vim.cmd, "MasonUpdate")
 				end,
 			},
 		},
@@ -69,57 +69,77 @@ return {
 				-- 'sumneko_lua',
 			})
 
-			local cmp = require('cmp')
+			local cmp = require("cmp")
 			local cmp_select = { behavior = cmp.SelectBehavior.Select }
 			local cmp_mappings = lsp.defaults.cmp_mappings({
-				['<C-p>'] = cmp.mapping.select_prev_item(cmp_select),
-				['<C-n>'] = cmp.mapping.select_next_item(cmp_select),
-				['<C-y>'] = cmp.mapping.confirm({ select = true }),
+				["<C-p>"] = cmp.mapping.select_prev_item(cmp_select),
+				["<C-n>"] = cmp.mapping.select_next_item(cmp_select),
+				["<C-y>"] = cmp.mapping.confirm({ select = true }),
 				["<Return>"] = cmp.mapping.confirm(),
 				["<C-Space>"] = cmp.mapping.complete(),
 			})
 
 			lsp.set_preferences({
-				sign_icons = {}
+				sign_icons = {},
 			})
 
 			lsp.setup_nvim_cmp({
 				snippet = {
 					expand = function(args)
-						require 'luasnip'.lsp_expand(args.body)
-					end
+						require("luasnip").lsp_expand(args.body)
+					end,
 				},
 				preselect = "none",
 				completion = {
-					completeopt = 'menu,menuone,noinsert,noselect'
+					completeopt = "menu,menuone,noinsert,noselect",
 				},
-				mapping = cmp_mappings
+				mapping = cmp_mappings,
 			})
 			lsp.set_preferences({
 				suggest_lsp_servers = false,
 				sign_icons = {
-					error = 'E',
-					warn = 'W',
-					hint = 'H',
-					info = 'I'
-				}
+					error = "E",
+					warn = "W",
+					hint = "H",
+					info = "I",
+				},
 			})
 			lsp.on_attach(function(client, bufnr)
 				local opts = { buffer = bufnr, remap = false }
 
-				vim.keymap.set("n", "gd", function() vim.lsp.buf.definition() end, opts)
-				vim.keymap.set("n", "K", function() vim.lsp.buf.hover() end, opts)
-				vim.keymap.set("n", "<leader>vws", function() vim.lsp.buf.workspace_symbol() end, opts)
-				vim.keymap.set("n", "<leader>vd", function() vim.diagnostic.open_float() end, opts)
-				vim.keymap.set("n", "[d", function() vim.diagnostic.goto_next() end, opts)
-				vim.keymap.set("n", "]d", function() vim.diagnostic.goto_prev() end, opts)
-				vim.keymap.set("n", "<leader>vca", function() vim.lsp.buf.code_action() end, opts)
-				vim.keymap.set("n", "<leader>vrr", function() vim.lsp.buf.references() end, opts)
-				vim.keymap.set("n", "<leader>vrn", function() vim.lsp.buf.rename() end, opts)
-				vim.keymap.set("i", "<C-h>", function() vim.lsp.buf.signature_help() end, opts)
+				vim.keymap.set("n", "gd", function()
+					vim.lsp.buf.definition()
+				end, opts)
+				vim.keymap.set("n", "K", function()
+					vim.lsp.buf.hover()
+				end, opts)
+				vim.keymap.set("n", "<leader>vws", function()
+					vim.lsp.buf.workspace_symbol()
+				end, opts)
+				vim.keymap.set("n", "<leader>vd", function()
+					vim.diagnostic.open_float()
+				end, opts)
+				vim.keymap.set("n", "[d", function()
+					vim.diagnostic.goto_next()
+				end, opts)
+				vim.keymap.set("n", "]d", function()
+					vim.diagnostic.goto_prev()
+				end, opts)
+				vim.keymap.set("n", "<leader>vca", function()
+					vim.lsp.buf.code_action()
+				end, opts)
+				vim.keymap.set("n", "<leader>vrr", function()
+					vim.lsp.buf.references()
+				end, opts)
+				vim.keymap.set("n", "<leader>vrn", function()
+					vim.lsp.buf.rename()
+				end, opts)
+				vim.keymap.set("i", "<C-h>", function()
+					vim.lsp.buf.signature_help()
+				end, opts)
 			end)
 
-			require('lspconfig').clangd.setup({})
+			require("lspconfig").clangd.setup({})
 
 			-- lsp.configure('ltex', {
 			--     settings = {
@@ -150,25 +170,25 @@ return {
 			-- require("luasnip.loaders.from_vscode").load()
 
 			-- Fix Undefined global 'vim'
-			lsp.configure('lua_ls', {
+			lsp.configure("lua_ls", {
 				settings = {
 					Lua = {
 						diagnostics = {
-							globals = { 'vim' }
-						}
-					}
-				}
+							globals = { "vim" },
+						},
+					},
+				},
 			})
 			--
-			require 'lspconfig'.jdtls.setup {
+			require("lspconfig").jdtls.setup({
 				single_file_support = true,
 				flags = {
 					debounce_text_changes = 150,
 				},
 				on_attach = function(client, bufnr)
-					print('lsp server (jdtls) attached')
-				end
-			}
+					print("lsp server (jdtls) attached")
+				end,
+			})
 			require("mason").setup()
 			require("mason-null-ls").setup({
 				ensure_installed = {
@@ -180,14 +200,14 @@ return {
 			require("null-ls").setup({
 				sources = {
 					-- Anything not supported by mason.
-				}
+				},
 			})
 
 			lsp.setup()
 
 			vim.diagnostic.config({
-				virtual_text = true
+				virtual_text = true,
 			})
-		end
-	}
+		end,
+	},
 }

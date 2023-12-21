@@ -1,14 +1,18 @@
 return {
 	{
-		-- "rebelot/kanagawa.nvim",
-		"Shatur/neovim-ayu",
-		-- "catppuccin/nvim",
+		"craftzdog/solarized-osaka.nvim",
 		lazy = false,
+		priority = 1000,
 		config = function()
+			vim.o.background = 'dark' -- or 'light'
+
+			-- vim.cmd.colorscheme 'solarized'
 			function ColorMyPencils(color)
 				-- color = color or "tokynight"
 				-- color = color or "rose-pine"
-				color = color or "ayu"
+				-- color = color or "ayu"
+				-- color = color or "default"
+				color = color or "evening"
 				-- color = color or "catppuccin-mocha"
 				-- color = color or "murphy"
 				-- color = color or "habamax"
@@ -50,7 +54,7 @@ return {
 				})
 			end
 
-			ColorMyPencils()
-		end
-	}
+			ColorMyPencils("solarized-osaka-moon")
+		end,
+	},
 }

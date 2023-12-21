@@ -1,6 +1,0 @@
-require("user.packer")
-require("user.impatient")
-require("user.telescope")
-require("user.set")
-require("user.remap")
-require("user.autocmd")

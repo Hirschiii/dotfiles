@@ -3,6 +3,32 @@
 # Variables
 ################
 
+# Next Task:
+
+# OVERDUE='💀'
+# DUETODAY='😱'
+# DUETOMORROW='🗓️'
+# URGENT='❗'
+#
+# function task_indikator {
+# 	TASK="task"
+# 	echo "test"
+# 	if [ `$TASK +READY +OVERDUE count rc.context:none` => "0" ]; then
+# 		echo "$OVERDUE"
+# 	elif [ `$TASK +READY +TOMORROW count rc.context:none` => "0" ]; then 
+# 		echo "$DUETOMORROW"
+# 	elif [ `$TASK +READY +TODAY count rc.context:none` => "0" ]; then 
+# 		echo "$DUETODAY"
+# 	elif [ `$TASK +READY urgency.over:20 count rc.context:none` => "0" ]; then 
+# 		echo "$URGENT"
+# 	else
+# 		echo '$'
+# 	fi
+# }
+
+# next_task=$(task export next limit:1 | jq '.[] | "ID: \(.id) Desc: \(.description)"')
+next_task=$(task rc.verbose: bar limit:1)
+
 # Keyboard input name
 keyboard_input_name="1:1:AT_Translated_Set_2_keyboard"
 
@@ -76,4 +102,4 @@ else
     audio_active='🔊'
 fi
 
-echo "$position | $network_active | LoadAvg $loadavg_5min | $battery_pluggedin $battery_charge | $date_and_week $current_time"
+echo "$next_task | $position | $network_active | LoadAvg $loadavg_5min | $battery_pluggedin $battery_charge | $date_and_week $current_time"

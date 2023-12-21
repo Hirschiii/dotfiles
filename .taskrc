@@ -44,6 +44,13 @@ urgency.user.tag.klausur.coefficient = 1
 # report.examen.filter=status:pending -ACTIVE -WAITING -BLOCKED -OVERDUE +klausur
 
 
+# Bar
+
+report.bar.columns = id,description.count,urgency,due.relative
+report.bar.labels  = Id,Desc,Urg,Due
+report.bar.sort    = urgency-
+report.bar.filter  = +READY
+
 # Mod defautl / next rep
 
 report.next.columns=id,start.age,entry.age,depends,priority,project,tags,recur,scheduled.countdown,due.relative,until.remaining,description.count,urgency
@@ -162,3 +169,6 @@ context.school.write=project:school
 context.personal.read=project.not:school project.not:henning project.not:fun -fun
 context.henning.read=project:henning
 context.henning.write=project:henning
+context.valkyrie.read=project:school.valkyrie
+context.valkyrie.write=project:school.valkyrie
+context=school

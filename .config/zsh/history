@@ -1,1069 +1,1207 @@
-pandoc 20231108.md -o out.md
-cp fundamentals_code.ipynb myfun.ipynb
-vim myfun.ipynb
-lsa
-la
-doas light Ã�h
-doas light -h
-doas light -S 100
-doas pacman -s conda
-yay -S python-conda
-docker build -v $(pwd):/home/root/ -w /home/root -ti -p 8888:8888 .
-docker build -ti -p 8888:8888 .
-docker build -t hausarbeit .
-conda install -c conda-forge mshr
-DOCKER_BUILDKIT=1 docker build .
-docker list
-docker ls
-docker --help
-doas shutdown -h 
-doas pacman -S signal
-#doas pacman -S signal
-doas pacman -S signal-desktop
-yay -Ss signal-desktop
-yay -S signal-desktop-beta-bin
-yay -S signal-desktop-beta
-task 11 q4
-q3 4
-q3 5
-q3 6
-q3 7
-q3 10
-q3 11
-task add project:hausarbeit simulation in docker
-task 12 start
-doas pacman -S gmsh
-yay -S gmesh
-vim Downloads/demo_
-vim Downloads/demo_poisson.py
-vim Downloads/demo_stokes.py
-df
-mkdir dolfinx_tutorial
-cd dolfinx_tutorial
-rm -rf dolfinx_tutorial
-git clone https://github.com/jorgensd/dolfinx-tutorial.git
-cd dolfinx-tutorial
-docker build -f LocalDockerfile -t local_lab_env .
-DOCKER_BUILDKIT=1  docker build -f LocalDockerfile -t local_lab_env .
-docker pull ghcr.io/jorgensd/dolfinx-tutorial:v0.7.1@sha256:a92609a020874dfca74fd18baa950349af16f9ebfce428ae4175fa8a88404f27
-docker images
-;s
-docker run --rm -ti -v $(pwd):/root/shared -w /root/shared  --init -p 8888:8888  b83a0eb287ba
-cd projects/dolfinx-tutorial/docker
-vim DO
-docker run -v $(pwd):/home/root/ -w /home/root -ti -p 8888:8888 911520c1d185
-docker build -v $(pwd):/home/root/ -w /home/root -ti -p 8888:8888 hausarbeit
-rm Untitled1.ipynb Untitled.ipynb
-rm Untitled1.ipynb y
-DOCKER_BUILDKIT=1 docker build . -t hausarbeit
-vim Dockerfile
-ls out_poisson
-firefox out_poisson/poisson.xdmf
-docker pull ghcr.io/jorgensd/dolfinx-tutorial:v0.7.1
-cp ~/projects/dolfinx-tutorial/chapter2/ns_code2.ipynb ./
-vim index.md
-cp ~/projects/dolfinx-tutorial/chapter2/bdforces_lv4 ./
-cp ~/projects/dolfinx-tutorial/chapter2/pointvalues_lv4 ./
-cd docker
-ls inbox.md
-cat inbox.md
-rm -rf ./*
-cp ~/projects/dolfinx-tutorial/docker/* ./
-cp ../fencis/index.md ./
-cat requirements.txt
-systemd-analyze blame
-vim ns_code2.ipynb
-cp ~/projects/dolfinx-tutorial/chapter2/turek.png ./
-curl http://0x0.st/s/aPJRkGKFXbp_erTylzkP6w/Hvy1.glb
-blender
-vim OurSponsors.astro
-git commit -m "update"
-touch about.astor
-touch sponsor.astro social.astro impressum.astro
-cp index.astro about.astor
-cp index.astro social.astro 
-cp index.astro impressum.astro
-cp index.astro sponsor.astro
-ls about.astor
-cat about.astor
-mv about.astor about.astro
-vim nav.js
-doas systemctl restart NetworkManager
-firefox Einwilligung_TN_2023.pdf
-vim load.js
-vim init.js
-mv pages/init.js utils
-cd utils
-cp sponsor.astro  impressum.astro
-cp sponsor.astro social.astro
-cp sponsor.astro about.astro
-firefox Downloads/optimizw_airfoile2d.pdf
-doas pacman -S matlab
-doas pacman -Ss matlab
-yay -Ss matlab
-yay -S matlab
-doas pacman -S paraview
-doas pacman -Ss paraview
-yay -S paraview
-yay -S openlab
-yay -Ss openlab
-doas pacman -S openlab
-doas pacman -Ss openlab
-cd dow
-unzip onelab-source.zip
-yay -Ss onelab
-doas pacman -Ss onelab
-cd onelab-source
-ls gmsh-git-source
-vim visulize_msh.m
-vim data.0
-cat data.0
-yay -S visit
-cd dfg2D-3-
-vim profiling.json
-vim md.0
-mkdir ns-github
-cd ns-github
-git clone https://github.com/VHeusinkveld/2D_Incompressible_NV_Solver-CP4.git .
-yay -Ss gmsh
-yay -S gmsh
-pkill zip
-docker run -v $(pwd):/home/root/ -w /home/root -ti -p 8888:8888  hausarbeit
-cd projects/hausarbeit_2023
-zip -
-zip -h
-zip -r fencis
-cd fencis
-rm -rf dfg2D-3-*
-doas rm -rf dfg2D-3-*
-zip -r fencis.zip fencis
-doas light -A 5
-ls public/models/gltf
-cd public/models/gltf
-mv 880d_SwordnInStone_without_peop.glb SwordInStone_without_people.glb
-ls SwordInStone_with
-ls SwordInStone_without_people.glb
-yay -Syyyu
-yay -Ss vips
-yay -S libvips-git
-cd ls
-git commit -m "build"
-git remote add origin git@github.com:Team-Valkyrie/website.git
-git push -u origin main
-cd projects/f1_team
-git clone git@github.com:Team-Valkyrie/website.git website_back_up
-node --max-old-space-size=8000 $(which npm) run build
-node --max-old-space-size=16000 $(which npm) run build
-npm update
-cat astro.config.mjs
-npx astro check
-mkdir new_Test
-rm -rf new_Test
-npm create astro@latest
-cd te
-cd team-valkyrie-web
-cp -rf astro.config.mjs package.json public src tailwind.config.cjs tsconfig.json ../test_run
-npm run build
-npx astro build
-cd dist
-scp -rf dist hirschii@draco.uberspace.de:/home/hirschii/html/website
-scp -h
-scp -r ./dist hirschii@draco.uberspace.de:/home/hirschii/html/website
-cd projects/f1_team/te
-cd projects/f1_team/team-valkyrie-web
-ls public/models/gltf/SwordInStone_without_people.glb
-date
-pkill qtox
-killall qt
-killall qtox
-vim 20231120_emailtocleo.md
-pandoc 20231120_emailtocleo.md -o out.pdf
-pandoc 20231108.md -o out.pdf
-vim 20231108.md
-cd projects/hausarbeit_2023/p
-cd projects/hausarbeit_2023/lecture/
-firefox Implementation_of_FEM.pdf
-doas light -A 109
-cat Downloads/10.1007_978-3-642-20617-7_16699-citation.bib
-vim Downloads/citations.bib
-cat Downloads/An_Introduction_to_Theoretical_and_Compu.bibtex
-cat Downloads/l
-cat Downloads/la.svg
-doas pacman -Syyy
-doas systemctl start docker.service
-cd /tmp/te
-cd /tmp/
-pandoc -s test.md -o out.tex
-vim out.tex
-cat Downloads/Aerodynamics_of_V_STOL_Flight.bibtex
-cat index.md
-docker run -v $(pwd):/home/root/ -w /home/root -ti -p 8888:8888  hausarbeit:latest
-mpv movie
-mpv movie.mp4
-mpv Tube_flow_cil_turb_600_300.mp4
-cd projects/hausarbeit_2023/lecture
-doas pacman -S inkscape
-cd Downloads/wo
-cd Downloads/Woyzeck
-zathura Scene5A.jpg
-cd .local/share/nvim/lazy
-rm -rf markdown-preview.nvim
-rm app/yarn.lock
-mkdir deutsch
-cd deutsch
-zk edit -i
-vim non-verbal.md
-vim para-verbal.md
-task add project:schule latex wiki mathe inf phy
-cp Downloads/116875.jpg .config/wall/winvslin.jpg
-cd Dow
-ls -l
-ls -h
-ls --help
-ls --help | grep date 
-ls --sort date
-firefox topologz_inner.jpg
-doas pacman -S texlive pstoedit
-doas pacman -S inkscape 
-doas pacman -S texlive
-firefox Downloads/image.
-firefox Downloads/image.png
-mv Downloads/\[v2\]\ 90\ Minutes\ of\ Focused\ Studying＃�\ The\ Best\ Binaural\ Beats\ \[Dq-h8LIe6II\].opus Downloads/binNeuralBeat40hz.opus
-r
-mv Einwilligung_TN_2023_ausgefüllt.pdf Downloads
-ls docker
-rm -rf docker
-cp Downloads/binNeuralBeat40hz.opus musik
-ls musik
-mpv Binaural\ Beats\ -\ Power\ Nap\ \(20\ Minutes\)\ -\ 14\ to\ 6.7\ Hz.mp3
-yta-best 'https://www.youtube.com/watch?v=Dq-h8LIe6II'
-mpv 90
-mpv \[v2\]\ 90\ Minutes\ of\ Focused\ Studying＃�\ The\ Best\ Binaural\ Beats\ \[Dq-h8LIe6II\].opus
-mpv binNeuralBeat40hz.opus
-mv binNeuralBeat40hz.opus BineuralBeats40hz_90min.opus
-mpv BineuralBeats40hz_90min.opus
-doas light -U 10
-od -A n -t d -N 1 /dev/urandom
-od -A n -t d -N 2 /dev/urandom
-od -A n -t d -N 10 /dev/urandom
-od -A n -t d -N 8 /dev/urandom
-od -A n -t d -N 4 /dev/urandom
-cat numbers.txt 
-cat /dev/urandom
-echo $RANDOM
-dd if=/dev/urandom count=4 bs=1 | od -t d
-cd projects/sort
-mkdir sort
-cd sort
-cat gen_num.sh
-bash gen_num.sh
-rm FILE
-chmod +x gen_num.sh
-vim gen_num.sh
-./gen_num.sh
-vim fast_gen.sh
-doas shutdown
-bash fast_gen.sh
-gcc -a gen_num.c
-gcc a.out
-touch zufallszahlen.txt
-gcc gen_num.c -o gen_num_c
-./gen_num_c
-cat zufallszahlen.txt
-vim zufallszahlen.txt
-rm fast_gen.sh
-rm -rf numbers.txt zufallszahlen.txt
-touch numbers.txt
-gcc gen_num.c
-rm a.out
-echo /dev/null > numbers.txt
-echo > numbers.txt
-./gen
-vim gen_num
-vim gen_num.
-vim gennum_c
-vim gen_num.c .
-gcc gen_num.c -o gennum_c
-rm numbers.txt
-./gennum_c
-cat numbers.txt
-vim numbers.txt
-vim stack_gen.c
-gcc stack_gen.c -i stack_gen
-gcc stack_gen.c -o stack_gen
-./stack_gen blabla 100 10
-ls blabla
-cat blabla
-vim blabla
-rm blabla gen_num_c
-rm stack_gen*
-vim gen_num.c
-task project:hausarbeit
-doas shutdown -h nw
-doas pacman -Ss minesweeper
-doas pacman -S kmines
-doas pacman -S openttd
-doas pacman -S openttd-opengfx openttd-opensfx
-yay -S openttd-openmsx
-doas pacman -Ss supertu
-doas pacman -S supertuxkart 
-doas pacman -S jlink
-java
-yay -S jlink
-doas pacman -S jdk-openjdk
-mkdir leetCode
-cd leetCode
-mkdir 20231122
-cd 20231122
-javac
-javac 
-javac TwoSum.java
-vim TwoSum.java
-cd gltf/l
-cd gltf/
-doas light -A 10
-cp impressum.astro kontakt.md
-mv kontakt.md kontakt.astro
-npm run dv
-npm run dev
-git pull
-npm n -e
-git add .
-git commit -m "some fix"
-git push
-mullvad disconnect
-cd foot
-pkill foot
-pwd
-cd .config/foot
-vim foot.ini
-setsid foot --server
-cd Woyzeck
-firefox ./*
-cd .config/nvim\ 
-cd .config/nvim
-task add mardown todos in taskwarrior
-doas pacman -Ssssy
-doas pacman -Syyyi
-doas pacman -Syyyu
-pkill firef
-ls Downloads
-ls --sort=date
-ls Downloads --sort=date
-firefox Downloads/PhQ_EM_03_Elektronenstrahl_im_elektrischen_Feld.pdf
-zathura Downloads/PhQ_EM_03_Elektronenstrahl_im_elektrischen_Feld.pdf
-doas pacman -Ss zathura
-doas pacman -S zathura-pdf-mupdf
-doas firefox
-doas pacman -S gstreamer-vaapi
-pkill firefox
-killall firefox
-firefox --h
-firefox --new-instance
-firefox --help
-firefox --headless
-firefox --ProfileManager
-doas pacman -R gnoem
-doas pacman -R gnome
-doas pacman -R mutter
-doas pacman -R gnome-settings
-doas pacman -R gnome-settings-deamon
-doas pacman -R gnome mutter
-doas reboot
-mkdir source
-cp /tmp/1700826597_grim.png ./ablenkkondensator.png
-ls sr
-ls source
-mv ablenkkondensator.png source
-doas pacman -S firefo
-doas pacman -S firefox
-doas pacman -Rn firefox
-fireof
-firefo
-yay -R firefox
-doas pacman -R fireofx
-doas pacman -R firefox
-yay -Ss firefox
-yay -S firefox
-neofetch
-pandoc inbox.md -o out.html
-qutebrowser out.html
-zathura out.pdf
-pandoc inbox.md -o out.pdf
-frief
-doas pacman -g
-doas pacman -h
-doas pacman -R
-doas pacman -R -h
-doas pacman -Rcsn firefox
-doas pacman -Syyyu firefox
-firefox
-cd notq
-mkdir ideas
-cd ideas
-vim perfile+
-vim per_file_snippets.md
-task add per file snippets
-task q3 12
-q3 12
-q4 13
-task 9 wait:3day
-task 9 mod wait:3day
-task 5 del
-task 11 del
-task add system rest
-task q
-q3 13
-task add task open
-q4 14
-task sort:id
-task id
-task add uberspace auffüllen due:5day
-task q3 15
-task ids
-task ids 1
-task ids 1-15
-task ids 
-task add latex shorform for live texing 
-q4 16
-q3 15
-task 16 mode project:workdlow
-dc notes
-mkdir workflow
-cd workflow
-touch lecture_notes.md
-task add physik lernen urgent:y priority:h due:mon project:schule.phy
-task add physik lernen urgent:j priority:h due:mon project:schule.phy
-v
-task add physik lernen urgent:Y priority:h due:mon project:schule.phy
-task add physik lernen urgent:Y priority:H due:mon project:schule.phy
-task add geschichte lernen lernen urgent:Y priority:H due:mon project:schule.ge
-task 18 mod geschichte lernen
-cd projects/f1_team/
-task 6 mode remove rocks on 3d
-task add project:valkyrie.website images for persnon
-cd notes/workflow/
-cd .cache/qutebrowser
-ls http
-rm -rf qutebrowser
-task add project:valkyrie.website dynamic sponsor size
-task add new vim config
-q4 20
-q4
-q3 18
-q3 19
-doas pacman -S nautilus
-sudo dnf install starship
-curl -sS https://starship.rs/install.sh | sh
-dnf install nnn
-sudo dnf install nnn
-cd .config/shell
-source quitcd.zsh
-nnn
-cd ../zsh
-source zs
-source ./zsh-keybinding 
-
-sudo dnf install tmux fzf 
-sudo dnf install tmux fzf doas
-sudo dnf install gcc
-sudo dnf install make
-make
-sudo dnf install fuzzel
-cd git/dotfiles
-mv 10.jpg 1.jpg 2.jpg 3.jpg 4.jpg 5.jpg 6.jpg 7.jpg 8.jpg 9.jpg wall
-stow . -t ~/
-mcp
-rm -rf 10.jpg 1.jpg 2.jpg 3.jpg 4.jpg 5.jpg 6.jpg 7.jpg 8.jpg 9.jpg 
-sudo dnv install imv
-sudo dnf install imv
-sudo dnf install task
-npm
-sudo dnf install zsh-syntax-highlighting
-hallo
-source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-gnome-control-center
-settin
-cd /usr/share/applications
-sudo dnf install texlive
-sudo dnf install  texlive-scheme-full
-mkdir backup
-cd backup
-tar -zxvf /run/media/niklas/Ohne\ Titel/Backup/linux/20231126/backup_home.tar.gz ./
-tar -xvzf /run/media/niklas/Ohne\ Titel/Backup/linux/20231126/backup_home.tar.gz ./
-ls /run/media/niklas/Ohne\ Titel/Backup/linux/20231126
-tar -xvzf /run/media/niklas/Ohne\ Titel/Backup/linux/20231126/backup_home ./
-cd /run/media/niklas/Ohne\ Titel/Backup/linux
-cd /tmp/backup
-tar -xvzf /run/media/niklas/Ohne\ Titel/Backup/linux/niklas_asahi_home-backup-03-09-2023.tar.gz ./
-tar -xvzf /run/media/niklas/Ohne\ Titel/Backup/linux/niklas_asahi_home-backup-03-09-2023.tar.gz
-mkdir backup)t
-mkdir backup+t
-cd backup+t
-tar -xvzf /run/media/niklas/Ohne\ Titel/Backup/linux/20231126/backup_home.tar.gz
-doas
-task add lukas raus nehmen
-task modify 20 project:valkyrie.website
-task add project:valkyrie.website in arbeit
-task project:te
-q3 20
-q3 21
-task project:valkyrie.website
-q1 3
-q1 21
-task add weihnachtsgeschenk fuer Herrn Kliedler
-doas ls
-sudo vim /etc/doas.conf
-sudo dnf install sqlite
-doas dnf install mullvad
-doas dnf update
-doas dnf search mullvad
-doas yum search mullvad
-cd Downloads
-doas dnf install ./MullvadVPN-2023.5_x86_64.rpm
-doas dnf install mullvad-vpn
-doas dnf install ./MullvadVPN-2023.5_aarch64.rpm
-mullvad
-mullvad acount
-mullvad account
-1969587215673300
-mullvad account login 
-ssh hirschii@draco.uberspace.de
-mkdir notes
-mkdir -p school/deutsch
-top
-doas dnf install htop
-light
-light -A 1
-light -A 10
-light -U 10
-mullvad connect
-doas dnf search tor
-doas dnf help
-vim gpg.md
-gpg --full-generate-key
-cd notes/school/deutsch
-gpg --encrypt --output file.gpg --recipient niklas@vonhirschfeld.eu own7methods.md
-cat file.gpg
-rm -rf own7methods.md
-vim own7methods.md
-cd .scripts
-doas ydotool
-doas dnf install ydotool
-vim .config/sway/config
-cat /tmp/click
-ydotool
-doas systemctl start ydotool.service
-ydotool click
-doas ydotool click --delay 1
-doas ydotool click -D 1
-doas ydotool click -D 1 LEFT
-doas ydotool click LEFT
-doas ydotool click -D 120 1 LEFT
-doas ydotool click -D 120 1 RIGHT
-doas ydotool click -D 120 1 0xC1
-doas ydotool click -D 120 1 0xC0
-doas ydotool click 0xC0
-doas ydotool click
-chmod +x ./autoclicker.sh
-./auto
-vim autoclicker.sh
-./autoclicker.sh
-vim auto
-mkdir musik
-cd musik
-task add logik mitschriften in ein tex doc
-q4 23
-task in
-q4 22
-task add was ist "fuzzy logic"
-cd .config/sway
-mkdir projects
-mkdir f1_in_schools
-mkdir wiki
-cd wiki
-mkdir tex
-mkdir context
-task 16 done
-cd .local/share/nvim/lazy/markdown-preview.nvim
-cd /usr/share/texlive/texmf-local
-doas cp -r ~/Downloads/t-crossref-0.9.3 ./
-doas cp -r ~/Downloads/t-pararef-0.8.2 ./
-tree t
-tree t-
-tree t-crossref-0.9.3
-cp -rf t-crossref-0.9.3/ ./
-cp -r t-crossref-0.9.3/* ./
-doas cp -r t-crossref-0.9.3/* ./
-cp -r t-pararef-0.8.2/* ./
-doas cp -r t-pararef-0.8.2/* ./
-rm -rf t-*
-doas rm -rf t-*
-doas context --generate
-ls texmf-local
-cd texmf-local
-tree tex
-doas mtxrun --script install-modules --list
-cd ../texmf-dist
-doas cp -r ../texmf-local/tex/context/third/* ./tex/context/third
-ls ./tex/context/third
-context --generate
-context
-mtxrun --generate
-cp ~/Downloads/t-pararef-0.8.2 ./
-cp -r ~/Downloads/t-pararef-0.8.2 ./
-context --version
-ls /usr/share/texmf
-ls /usr/share/texlive/texmf-local
-ls /usr/share/texlive/
-echo $TEXMF
-s
-vim pararef.tex
-context -g
-context -h
-mtxrun pararef.tex
-mtxrun pararef.tex -o out.pdf
-mtxrun --script epub --make ./pararef.tex
-vim first.tex
-context first.tex
-firefox first.
-firefox first.pdf
-mtxrun --script install-modules --list
-context pararef.tex
-cp ~/Downloads/luametatex.pdf ./
-vim LuaMetaTex.md
-vim sortierverfahren.md
-mkdir inf
-cd inf
-cp -r ~/Downloads/t-crossref-0.9.3 ./
-rm -rf t-crossref-0.9.3
-mullvad status
-nmtui
-mkdir mathe
-cd m
-cd mathe
-vim inbox.md
-ls -la
-cd git/dotfiles/.config
-cd ..
-cd nvim.bak
-vim -i init.lua
-cd ../nvim.bak
-ls nvim
-vim autocmds.lua
-vim impatient.lua
-cp cmp.lua color.lua init.lua java.lua luasnip.lua markdown.lua mason-null-ls.lua primage.lua zettelkasten.lua telescope.lua ~/git/dotfiles/.config/nvim/lua/plugins
-mv nvim nvim.bak
-mkdir
-mkdir nv
-rm -rf nv
-mkdir nvim
-cd nvim
-mkdir after lua spell ultsnippet 
-touch init.lua
-cd lua
-mkdir user plugins
-cd user
-cp ../../../nvim.bak/nvim/lua/user/* ./
-vim set.lua
-rm -rf telescope.lua.bak
-ls remap.lua
-cat re
-vim remap.lua
-vim i
-vim init.lua
-rm -rf ultsnippet
-mkdir snippets
-cd snippets
-mv all.lua markdown.lua
-vim utils.lua
-vim all.lua
-vim /tmp/test.md
-vim
-tree
-doas dnf search lua-language-server
-doas dnf install lua-language-server
-doas dnf install ninja
-doas dnf search ninja
-doas dnf install ninja-build
-doas dnf install cpp
-cd .local/bin
-cp ~/git/lua-language-server/bin/lua-language-server ./
-./lua-language-server
-rm lua-language-server
-vim .zprofile
-echo $PATH
-cd .config/nvim/
-source ~/.zprofile
-git clone https://github.com/LuaLS/lua-language-server 
-cd lua-language-server
-doas dnf install libstdc++-static\
+task export next limit:1
+task next export
+task next export limit:1
+task export rc.verbose: rc.json.array: on rc.sort:urgency limit:1
+task export rc.verbose: rc.json.array: on rc.sort:urgency
+task export rc.verbose: rc.sort:urgency
+task export rc.verbose: rc.sort:urgency limit:1
+task export rc.verbose: rc.sort:urgency- limit:1
+task export rc.verbose: rc.sort:urgency on limit:1
+task export rc.verbose: rc.sort:urgency on next limit:1
+task export rc.verbose: rc.sort:urgency- on next limit:1
+task export rc.verbose: rc.json.array: on rc.sort:urgency- limit:1
+task next limit:1 | head -n 4 |tail -n1
+task rc.verbose: limit:1 next limit:1
+task _get $(task next limit:1 | tail -n +4 | head -n 1 | sed 's/^ //' | cut -d ' ' -f1).description
+cd .config/zsh
+vim Downloads/ChatGPT-New_chat\(2\).md
+task 21 active
+watch -n 5 task summary
+task schl
+task _getnext limit:1
+task 27 start
+next
+task next limit:1
+atch -n 5 task summary\
 
-doas 
-doas dnf install gcc-c++
-./make.sh
-ls b
-ls bin/
-./bin/lua-language-server
-mkdir plugin
-mkdir ftplugin
-vim markdown.lua
-vim Downloads/Conversation\ with\ ChatGPT.md
-vim Downloads/ChatGPT-New_chat.md
-doas dnf install pandoc
-fc-list :lang=zh
-npm install --global mermaid-filter
-doas npm install --global mermaid-filter
-vim Downloads/ChatGPT-New_chat\(1\).md
-task add markdown html host
-task 18 done
-cd notes
-task add project:schule inf
-task 24 mod inf lernzettel
-rm gpt.md
-pandoc
-pandoc gpt.md -o out.pdf
-vim basics.md
-pandoc --pdf-engine=xelatex \\
-    --highlight-style kate \\
-    --table-of-contents \\
-    --number-sections \\
-    -s \\
-    gpt.md -o out.tex
-pdftex out.tex
-l
-firefox out.
-firefox out.pdf
-vim out.pdf
-vim gpt.md
-pandoc --pdf-engine=xelatex \\
-    --highlight-style kate \\
-    --table-of-contents \\
-    --number-sections \\
-    -s \\
-    gpt.md -o out.pdf
-pandoc gpt.md -o out.epub
-firefox out.epub
-pandoc gpt.md -o out.xhtml
-firefox out.xhtml
-pandoc gpt.md -o out.html
-firefox out.html
-cd git
-git clone https://github.com/jackyzha0/quartz.git
-cd quartz
-npm install
-npx quartz create
-ls 
-ls content
-cp ~/notes/school/inf/gpt.md ./klausur_inf.md
-npm run docs
-npm run content
-npm 
-npm run
-vim package.json
-npx quartz build
-cd public
-python -m http.server
-task add project:schule.eng jim crow law pres due:05.12
-task add project:schule.eng jim crow law pres due:2023-12-5
-task add project:schule.eng jim crow law pres due:2023-12-05
-q3 25
-task inbq
-q3 24
-doas dnf install calc
-calc 0.5*1.75
-calc
-calc 
-cd projects
-mkdir aoc
-cd aoc
-mkdir 2023
-cd 2023
-mkdir 01
-c d0
-cd 01
-wget 
-wget https://adventofcode.com/2023/day/1/input
-curl https://adventofcode.com/2023/day/1/input
-cat input.txt
-vim main.py
-cp main_a2.py
-doas shutdown -h now
-vim input.txt
-python main.py
-python main_a1.py
-vim test_in.txt
-python test.py
-vim test.py
-task todo
-task schulaufgaben
-task ex
-task examen
-task doing 
-task sync
-task score
-task 19 score
-task projects
-task project
-task _reviewed
-vi
-doas dnf install vit
-box
-task box:
-task 6 modify box:10
-vit
-doas dnf install pavoucontrol
-doas dnf search pavoucontro
-doas dnf search pavou
-doas dnf search pav
-doas dnf install pavucontrol
-task 14 done
-task inbox
-task 7 modify wait:mon
-task 12 son
-task 12 done
-taask
-task sh
-doas dnf install tasksh
-tasks
-tasksh
-task aton
-task box
-task 6 start
-task add taskserver sync
-q4 24
-task +YESTERDAY
-task +MONTH
-task +LATES
-task +TODA
-cd notes/wiki
-mkdir taskwarrior
-cd taskwarrior
-vim main.md
-task show next
-task show
-task show next.columns
-ls .task
-ls -la 
-c
-dc
-cd
-task com
-task completed
-task long
-task ls
-task newest
-task next
-task 3 modify due:tod
-task +TODAY
-task context define school
-task context define school project:school
-task context define personal project.not:school project.not:henning project.not:fun -fun
-task project:schule mod project:school
-task project:valkyrie.website mod project:school.valkyrie.website
-task context personal
-tas
-task 18 modify project:school.math
-task context define fun project:fun or +fun
-task 3 modify due
-tkas
-task +LATEST
-task 3 modify impressum
-task 3 modify due: 
-task 3 mod annotate "Hallo das ist ein lgangh sldjf oslijfAjflskdjflsA"
-task undo
-task 3 annotate "lsajfdlsjflsjdflskjf sjakfdlksjf lskjdf slkjdf ldsakjfls ajfds alfdkjsdal fdjsla djflsakjd flsakjdf lskjdf lsajkf lajkfdlsajkf aljdf sljkfdsl djflsakjf sdlajdf lsajkf"
-task list
-task summary
-task minimal
-vim .taske
-task all
-task reports
-task man
-task 3 denotate 
-task 3 annotate "Thhaes"
-task 3
-task 3 description
-task show 3
-task 3 denotate
-task add project:school +workflow automatic sil task
-q4 25
-task add firefox bookmarks aufraeuymen
-q4 26
-cd .config
-task +READY urgency 
-task +READY urgency > 10 count
-task urgent:
-task urg  > 10
-task urgency.gt:10 
-task rc.report.next.columns:id count urgency.gt:10
-task _get
-task _get 1.discreption
-task _get 1.description
-task rc.verbose: urgency.gt:10
-task rc.verbose: urgency > 10
-task rc.verbose: urgency
-task count
-task +READY urgency count
-task +READY `urgency > 10` count
-task _urgency.gt:10 count
-task _urgency > 10 count
-cat 10
-rm 1`0
-rm 10
-task +READY _urgency.gt:10
-task +READY _urgency.gt
-task +READY _urgency
-man task
-task count 
-task _urgency 
-task _urgency.gt:10
-task rc.verbose: _urgency.gt:10
-task rc.verbose: _urgency.gt:10 count
-task rc.verbose: urgency.gt:10 count
-task +READY urgency
-task +READY urgency gt 10
-task rc.report.next.columns:id count urgency.gt:10\
+watch -n 5 task summary\
 
-task urgency.gt:10 export | wc -l
-task urgency\:\>10 
-task rc.regex:on  urgency\:\>10 
-task _get rc.regex:on  urgency 
-task rc.regex:on  urgency 
-task rc.report.next.columns:id urgency.gt:10 export 
-task urgency >= 10
-task urgency.over:10
-task urgency.over:10 count
-task +READY urgency.over:10 count
-man task-f
-man task-color
-task-color
-task color
-vim notes/wiki/
-doas dnf install google-noto-emoji-color-fonts
-vim .zshrc 
-rm =
-q3 3
-q3 17
-task 2>/dev/null
-task 2>/dev/null 2>&1
-vim .zshrc
-task show verbose
-vim main
-cp main.py main_a2.py
-vim main_a2.py
-vim input_2.txt
-rm test_in.txt
-i
-vim test.txt
-vim test.
-cat test.txt
-python main_a2.py
-vim klausur.md
-vim .taskrc
-task context delete fun
-task context
-task context define henning project:henning
-task add test
-task 27 delete
-task burndown
-task 6 done
-task active
-task context school o
-task context school
-task 21 modify +klausur
-task 21 due:mon
-task 21 modify due:mon
-q1
-q2
-q3
-task 21 start
-taks
-task rc.context:noe
-task rc.context:none
-doas dnf search openjdk
-doas dnf install java-latest-openjdk
-doas dnf install java-latest-openjdk-devel
-doas dnf install jdtls
-cd /tmp
-mkdir java
-cd java
-vim main.java
-javac main.java
-java main
-ls
-mv main.java myadd.j
-mv myadd.j myadd.java
-vim myadd.
-sudo alternatives --config java
-javac myadd.java
-java myadd
-cat myadd.java
-vim myadd.java
-htop
-n -e
-ip a
-doas dnf install qtox
-task 
-task 21 stop
-task context none
-tsk
-task
-task rc.context:school
-n -e
-vim .taskrc
-ls
+task 21 27-30 don
+task 21 27-30 done
 cat basics.md
 pandoc --pdf-engine=xelatex \\
     --highlight-style kate \\
     --table-of-contents \\
     --number-sections \\
     -s \\
-    klausur.md -o test.tex\
-
-firefox test.pdf
+    test.md -o out.pdf
 pandoc --pdf-engine=xelatex \\
     --highlight-style kate \\
     --table-of-contents \\
     --number-sections \\
     -s \\
-    klausur.md -o test.pdf\
-
-pandoc --pdf-engine=luatex \\
-    --highlight-style kate \\
-    --table-of-contents \\
-    --number-sections \\
-    -s \\
-    klausur.md -o test.tex\
-
-pandoc --pdf-engine=lualatex \\
-    --highlight-style kate \\
-    --table-of-contents \\
-    --number-sections \\
-    -s \\
-    klausur.md -o test.tex\
-
-pandoc --pdf-engine=lualatex \\
-    --highlight-style kate \\
-    --table-of-contents \\
-    --number-sections \\
-    -s \\
-    klausur.md -o test.pdf
+    klausur.md -o out.pdf
 pandoc --pdf-engine=lualatex \\
     --highlight-style kate \\
     --table-of-contents \\
     --number-sections \\
     -s \\
     klausur.md -o out.pdf
-firefox out.
-firefox out.pdf
+curl -F 'file=@./out.pdf' http://0x0.st
 task context
-task add +papa fine tune llm / gpt 
-task 26 annotate "extract tuples from job advert"
+task 6 wait:2day
+task 6 mod wait:2day
+task add project:facharbeit ideen finden
+task 26 annotate "vielleicht wieder RANS?"
+$reset_color
+cd .
+cd notes/
+doas light -U 10
+feisti bleistif
+task summary 
+docker
+doas dnf install docker
+doas systemctl start docker.service
+docker pull dcsunset/taskwarrior-webui
+doas docker pull dcsunset/taskwarrior-webui
+docker run -d -p 8080:80 --name taskwarrior-webui \\
+	-v $HOME/.taskrc:/.taskrc:z -v $HOME/.task:/.task:z \\
+	dcsunset/taskwarrior-webui
+doas docker run -d -p 8080:80 --name taskwarrior-webui \\
+	-v $HOME/.taskrc:/.taskrc:z -v $HOME/.task:/.task:z \\
+	dcsunset/taskwarrior-webui
+chmod +x ./browsh_1.8.2_linux_armv7
+./browsh_1.8.2_linux_armv7
+dnf copr enable agriffis/neovim-nightly
+doas dnf copr enable agriffis/neovim-nightly
+doas dnf install -y neovim python3-neovim
+doas docker run --rm -it browsh/browsh
+doas dnf install python3-neovim
+npm install --global neovim
+doas npm install --global neovim
+git clone https://github.com/neovim/neovim
+cd neovim
+doas dnf install cmake
+sudo dnf -y install ninja-build cmake gcc make unzip gettext curl
+make CMAKE_BUILD_TYPE=Release
+doas make install
+nvim --version
+/usr/local/bin/nvim --version
+doas dnf remove neovim-0.9.4-1.fc39.aarch64
+cd .config/nvim/
+cp ../plugins/color.lua ./
+vim c
+vim foot.ini
+pkill foo
+mkdir geschichte
+cd geschichte
+/usr/local/bin/nvim inbox.md
+export TERM=screen-256color
+vim ~/projects/aoc/2023/01/test.py
+vim .zshrc
+task 21 start
+task next
+task rc.context:none
+doas dnf search zathura
+doas dnf install zathura-pdf-mupdf
+vim latex.
+cp java.lua latex.lua
+vim latex.lua
+mkdir jimcrow
+cp -r /home/niklas/templates/beamer/AICStyleData /home/niklas/templates/beamer/beamercolorthemeSimplePlusAIC.sty /home/niklas/templates/beamer/beamerfontthemeSimplePlusAIC.sty /home/niklas/templates/beamer/beamerinnerthemeSimplePlusAIC.sty /home/niklas/templates/beamer/beamerthemeSimplePlusAIC.sty /home/niklas/templates/beamer/figures /home/niklas/templates/beamer/main.tex /home/niklas/templates/beamer/README.md ./
+firefox main.
+mv jimcrow.md jimcrow
+vim main.
+vim main.t
+cp main.tex main.tex.bak
+vim main.te`
+vim main.tex
+pandoc jimcrow.md out.tex
+pandoc jimcrow.md -o out.tex
+cat out.
+cat out.tex
+vim out.tex
+task 21 stop
+mkdir templates
+unzip ~/Downloads/AIC\ Presentation\ Template\ Light.zip ./
+rm ./*
+rm -rf ./*
+mkdir beamer
+cd beamer
+unzip ~/Downloads/AIC\ Presentation\ Template\ Light.zip
+task add project:school.eng background image 
+task 21 modify depends:27
+lualatex main.
+lualatex main.t
+pdflatex main.tex
+rm :w
+ls *.pdf
+latexmk
+latexmk main.tex
+vim .latexmkrc
+lualatex
+zathura main.pdf
+mkdir english
+cd english
+vim jimcrow.md
+mv jimcrow.md jimcrow/jimcrow.md
+cd jimcrow
+task 21 done
+task add project:school.deutsch offenes Drama pres due:fri
+q3 27
 q3 26
-task inbox
+task add project:school.deutsch Szenenanalyse methoden heft selber +idee
+q4 28
+./script_bar.sh
+vim script_bar.sh
+vim 
+cd notes/school/english
+firefox main.pdf
+doas shutdown
+lualatex main.te
+lualatex main.tex
+tka
+tkas
+echo "1,5*1,5" | bc
+echo "1.5*1.5" | bc
+doas dnf search velox
+task project:school.b
+task project:school.valkyrie.website
+task add project:school.valkyrie.website social links
+mullvad connect
+vim /tmp/test.md
+cd /usr/share/pandoc-3.1.3
+ks
+cd data
+git clone https://github.com/alexeygumirov/pandoc-beamer-how-to.git
+cd pandoc-beamer-how-to/
+cd a
+cd pandoc
+doas cp ./* /usr/share/pandoc-3.1.3/data/templates
+mullvad status
+mullvad disconnect
+vim search_algorithmen.md
+mkdir such_algorithmen
+mv search_algorithmen.md such_algorithmen/presentation.md
+cd such_algorithmen
+mv ../pres.sh ./
+mkdir img
+vim pres
+cd Downloads/pandoc-beamer-how-to/
+firefox presentation.pdf presentation_nice_formatting.pdf
+pandoc search_algorithmen.md -o out/out.pdf
+pandoc presentation.md -t beamer -o presentation.pdf
+bash pres
+bash pres.sh
+doas dnf install duns
+doas dnf install dunst
+task add project:school.valkyrie.website blender model highet
+task add project:school.valkyrie merchandise
+scp -r dist hirschii@draco.uberspace.de:/var/www/virtual/hirschii/html/website_n
+task context define valkyrie project:school.valkyrie
+task context valkyrie
+q3 29
+q3 29 30 31
+task add project:school.ges due:18.12.2023 gesch presentation
+task add project:school.ges due:2023-12-18 gesch presentation
+task add project:school.valkyrie.website hover sponsor
+cp ~/projects/f1_in_schools/website_backup/public/sponsoren/all4labels.svg ./
+cp 
+mv ~/projects/f1_in_schools/website_backup/src/components/OurSponsors.astro ./OurSponsors.astro
+vim OurSponsors.astro
+npm run buikd
+npm astro build
+scp -r dist hirschii@draco.uberspace.de:/var/www/virtual/hirschii/html/web_n
+task add project:school.valkyrie.website fix bug
+task 34 annotate "nach runterscrollen ist 3d nicht mehr interatkive"
+vim package.json
+curl https://all4labels.com/wp-content/uploads/2020/02/all4labels.svg
+wget https://all4labels.com/wp-content/uploads/2020/02/all4labels.svg
+firefox all4labels.svg
+vim all4labels.svg
+mv website website_backup
+git clone git@github.com:Team-Valkyrie/website.git
+npm isntall
+rm rm -rf SwordInStone_with_car.glb SwordInStone_without_people.glb SwordInStone_with_smallcar.glb 
+task add setupt pass
+mkdir api
+cd api
+vim contact.json.js
+mkdir svelte
+cd sc
+cd svelte
+vim contact.svelte
+vim contact.astro
+npm install nodemailer
+npx astro add svelte
+npm install svelte
+vim astro.config.mjs
+npm remove svelte
+npm update
+npm install @astrojs/svelte
+npm install --force @astrojs/svelte
+vim contactform.svelte
+task bar
+vim .task
+vim .taskrc
+doas dnf upgrade
+cd .local/bin
+vim tmux-sessionizer
+mkdir mathe
+cd mathe
+vim distributivgesetz.md
+cd wiki
+mkdir logic
+cd logic
+vim main.md
+pandoc main.md
+firefox out.pdf 
+firefox presentation.
+firefox presentation.pdf
+vim pres.sh
+chmod +x pres.sh
+cd .cache
+cp Downloads/wallhaven-x6kgw3_2560x1600.png .config/wall/linux_minimal.png
+git clone https://git.bugswriter.com/dotfiles.git
+git clone https://git.bugswriter.com/dotfiles.git bugswiret_dots
+cp Downloads/bg.jpg .config/wall/bugswriter.jpg
+cp Downloads/bg.jpg .cache/wallpaper
+sudo curl -sL "https://raw.githubusercontent.com/Bugswriter/notflix/master/notflix" -o /usr/local/bin/notflix
+doas chmod +x /usr/local/bin/notflix
+cat /usr/local/bin/notflix
+notflix test
+doas dnf peerflix 
+doas dnf install peerflix 
+task 27 modify until:"due + 3day"
+task add Mikael +geb due:18-12-2023
+task add Mikael +geb due:2023-12-18 until:"due + 4day" wait:"due - 7days"
+task 36
+task +La
+task 27
+task rc.context:none +LATEST
+task context none
+task +WAITING +geb
+task +WAITING
+task +LATEST
+task +geb
+swc
+doas dnf install veloc
+doas dnf install velox
+task 6 modify wait:5day
+cd .config/nvim/lua
+cd .config/nvim/lua/plugins
+vim color.lua
+cd .config/foot
+pkill foot
+setsid foot --server
+neofetch
+cat t
+cat tz
+cat typescript
+rm -rf typescript
+cd git/solarized/ls
+cd git/solarized/
+git clone https://gitlab.com/GasparVardanyan/solarized.git
+imv
+imv ./abstract.png ./arch1.png ./arch2.png ./arch3.png ./arch4-black.png ./arch4.png ./arch++.jpg ./arch.png ./cat_pacman1.png ./cat_pacman2.png ./chinatown.png ./circle.png ./circles.png ./city-buildings.png ./computer.jpg ./crane.jpg ./crow.png ./cubes1.png ./cubes.svg ./cubes.txt ./darkness.jpg ./dark-stripes1.png ./dark-stripes2.png ./dark-stripes3.png ./dark-stripes4.png ./dragon-fractal.png ./flowers.jpeg ./geom.png ./girl_original.png ./girl_wallpaper_bw.png ./girl_wallpaper_solarized.png ./girl_wallpaper.txt ./hexagons.png ./judy.png ./K.png ./light-stripes1.png ./light-stripes2.png ./light-stripes3.png ./light-stripes4.png ./morning.jpg ./mountains.png ./palettes.jpg ./pewpew.png ./sea1.png ./sea1_solarized.png ./sea2.png ./sea2_solarized.png ./sherlock.png ./solarized.jpg ./solid.png ./something.png ./tangle1.png ./tangle2.png ./thinkpad.jpg ./wall1.png ./wall2.png ./wall3.png ./waves.png 
+cp ./* ~/.config/wall
+vim Social.astro
+git clone https://github.com/onwidget/astrowind.git
+cp tsconfig.json jsconfig.json
+vim config
+vim config.ts
+vim permalinks.ts
+npm install limax
+npm install --force limax
+mv utils.ts src/utils
+cd ut
+cd src/utils
+vim utils.ts
+vim navigation.js
+vim types.d.ts
+cp ~/projects/f1_in_schools/astrowind/src/utils/* ./
+cp ~/projects/f1_in_schools/website_backup/src/utils/* ./
+jdtls
+doas dnf install sql
+doas dnf search java sql
+doas dnf install mysql-connector-java.
+doas dnf install mysql-connector-java
+doas dnf install java.sql
+doas dnf install jmods
+doas dnf search jmods
+doas dnf install java-latest-openjdk-jmods
+mkdir -p school/inf
+cd school/inf
+mkdir sortieralgo
+cd sortieralgo
+vim binserarch.java
+vim linearsearch.java
+nvim
+doas shutdown -h noe
+cd dow
+cd down
+find off
+ls *offen*
+task 27 done
+task add project:filme hatefull eight
+doas shutdown 
+ctmux-sessionizer
+exit
+cd .config/fir
+mv website website_old_broken
+cp ~/projects/f1_in_schools/website/public/sponsoren/all4labels.svg ./
+vim mouse.css
+ls styles/mouse.cs
+ls styles/mouse.css
+jn -e
+rm -rf website_backup
+git clone https://github.com/Team-Valkyrie/website.git web_back
+git clone git@github.com:Team-Valkyrie/website.git web_back
+cd web_back
+doas dnf install npm
+doas dnf install node
+doas dnf install node:12
+cp input.txt ../../elixir/01
+cd .local/state/nvim
+vim lsp.log
+doas dnf install erlang
+task project:facharbeit +idee "Wie machen KI's Erfahrungen und lernen daraus?"
+tsk
+task add project:henning module updaten auf luametatex
+echo $TEXMFLOCAL
+kpsewh
+kpsewhich
+cd /usr/share/texlive/texmf-dist/
+ls pararef
+ls crossref
+cd /usr/share/texlive/texmf-dist/tex/context/third/crossref
+vim t-crossref.tex
+doas cat t-crossref.tex
+doas vim t-crossref.tex
+doas dnf install lua
+cd projects
+cd oc
+context first.
+context first.tex
+firefox first.pdf
+1vim first.t
+vim first.tex
+doas context ./pararef.tex
+lls
+cd t-pararef-0.8.2
+vim tex/context/third/pararef/t-pararef.tex
+contex
+context 
+ls -la /usr/src/tex*
+ls -la /usr/share/tex
+ls -la /usr/share/tex*
+ls -la /usr/share/
+cd texlive/
+ls texmf-local
+ls texmf-local/texmf-compat
+cd texmf-local/texmf-compat
+tree /usr/share/texlive/texmf-local/tex/context
+mkdir -r tex/context/third
+doas cp -r /usr/share/texlive/texmf-local/tex/context/third/* ./tex/context/third
+rm pararef.pdf
+firefox pararef.pdf
+vim crossref.tex
+firefox crossref.pdf
+doas context --luatex pararef.t
+doas context --luatex pararef.tex
+cd /usr/share/texmf
+tree tex
+rm -rf tex
+doas rm -rf tex
+doas dnf remove texlive-*
+doas dnf remove texlive
+doas dnf search texlive
+doas dnf install texlive
+rm *.pdf
+doas context --luatex crossref.tex
+doas rm crossref.log crossref.pdf crossref.tuc 
+context --luatex crossref.tex
+cd projects/aoc
+cd 2023
+s
+ln -e
+tree 01
+mkdir python 
+mv 01 python
+mkdir elixir
+doas dnf install elixir
+ld
+cd elixir
+mkdir 01
+cd 01
+vim a1.exs
+mv a1.exs aufgabe_1.exd
+mv aufgabe_1.exd aufgabe_1.exs
+vim aufgabe_1.exs
+mv aufgabe_1.exs aufgabe.exs
+vim aufgabe.exs
+elixir a1.exs
+elixir aufgabe_1.exs
+elixir aufgabe.exs
+elixirc aufgabe.exs
+./Elixir.Aufgabe.beam
+iex
+cat Elixir.Aufgabe.beam
+python
+cat test.txt
+vim test.py
+vim input_2.txt
+doas dnf install zathura
+doas dnf install zathura-pdf-mupdf-0.4.0-11.fc39.aarch64
+cd /usr/share/texlive/texmf-dist
+rm -rf texlive
+doas rm -rf texlive
+ls tex
+ls texlive
+ls 
+ls context/third
+mkdir -p tex/context/third
+doas mkdir -p tex/context/third
+cd texmf
+cd tex/context
+cd third
+doas cp /home/niklas/projects/context/t-crossref-0.9.3/tex/context/third/crossref ./
+doas cp -r /home/niklas/projects/context/t-crossref-0.9.3/tex/context/third/crossref ./
+doas cp -r /home/niklas/projects/context/t-pararef-0.8.2/tex/context/third/pararef ./
+doas cp -r /usr/share/texmf/tex/context/third ./
+context --generate
+doas  mtxrun --script install-modules --list
+ls tex/context
+ls tex/context/third
+tree context
+doas mtxrun --generate
+doas context --generate
+context --ctx=s-mod t-crossref.tex
+doas context --ctx=s-mod t-simple.tex\
+
+doas context --ctx=s-mod ./t-crossref.tex 
+zathura
+zathura mtx-context-module
+zathura mtx-context-module.
+doas zathura mtx-context-module.pdf
+rm ./keep-mtx-context-module.tuc ./mtx-context-module-error.log ./mtx-context-module.pdf ./mtx-context-module.tuc ./t-crossref.tuc 
+doas rm ./keep-mtx-context-module.tuc ./mtx-context-module-error.log ./mtx-context-module.pdf ./mtx-context-module.tuc ./t-crossref.tuc 
+/usr/bin/ls
+/usr/bin/ls -l
+/usr/bin/ls 
+doas dnf remove texlive\*
+doas dnf install texlive-scheme-context-11:svn59636-69.fc39.noarch
+doas dnf install texlive-scheme-full-11:svn54074-69.fc39.noarch
+cd projects/context
+context pararef.tex
+doas context pararef.tex
+cd t-crossref-0.9.3/
+zathura mtx-context-module.pdf
+vim mtx-context-module
+vim mtx-context-module.pdf
+firefox mtx-context-module.pdf
+cd .local/share/nvim/lazy/markdown-preview.nvim
+npm install
+taks
+mv draco ../src/utils
+mv draco ../../public
+mkdir 02
+cd 0
+cd 02
+cp main_a1.py main_a2.py
+vim main_a1
+vim main_a12
+vim main_a2.py
+vim test_input.txt
+python main_a1.py
+python main_a2.py
+vim impressum.astro
+vim small_about_us.astro
+vim mouse.js
+task project:school
+task project:school.valkyrie
+task 3 done
+task add project:school.valkyrie.website.index call to action
+task 37 annotate "neon glowing border"
+task add project:school.valkyrie.website analytics
+vim src/pages/index.astro
+task add project:school.valkyrie.website auto cursor for section
+cp ../astrowind/.editorconfig ../astrowind/.eslintignore ../astrowind/.eslintrc.js ../astrowind/.prettierignore ../astrowind/.prettierrc.js ./
+cd dist
+python -m http.server
+scp -r ./dist hirschii@draco.uberspace.de:/var/www/virtual/hirschiii/html/website
+scp -r ./dist hirschii@draco.uberspace.de:/var/www/virtual/hirschii/html/website
+nn -e
+doas dnf install eslint
+vim Utils.astro
+rm Nav.astro
+npm install --save-dev prettier prettier-plugin-astro
+prettier --write .
+npx prettier --write .
+cat .editorconfig
+npm install eslint
+git commit -m "update\
+"
+vim CallToAction.astro
+vim .prettierignore
+npm install prettier-plugin-astro
+npx prettier .
+npm i --save-dev prettier prettier-plugin-astro
+vim .prettierrc.js
+doas dnf install perttier
+npm init @eslint/config
+npm i --save-dev @types/three
+npm run build
+scp -r dist hirschii@draco.uberspace.de:/var/www/virtual/hirschii/html/website
+npx prettier ./wi
+npx prettier ./wip.astro
+npx prettier . --write
+vim wip.astro
+git commit -m "wip"
+nautilus h
+doas dnf install sc-im
+cd src
+sc-im
+vim 20231211_hall-sonde.csv\
+
+cat 20231211_hall-sonde.csv
+vim 20231211_hall-sonde.gp
+gnuplot ./20231211_hall-sonde.gp
+lx
+vim hall-sonde.md
+nautilus src
+pandoc hall-sonde.md -o out/out.pdf
+doas dnf install ncurses bison gcc make gnuplot 
+doas dnf install sigil
+cd notes/school/physk
+firefox graph.png
+rm -rf website_old_broken
+mv web_back website
+cd website
+git commit -m "footer"
+npx run build
+npx astro build
+scp -r dist hirschii@draco.uberspace.de:/var/www/virtual/hirschii/
+cal
+mv PowerPortalBakery\(6\).txt  CookieBackup.txt
+calc 
+doas dnf updat
+vim Downloads/Ch
+vim Downloads/ChatGPT-Mittelalter_Musik_Ã�berblick.md
+cd my
+cd musik
+vim musik_des_mittelalters.md
+mkdir out
+cd .config/sw
+cd .config/sww
+doas dnf install emcas
+doas dnf install emacs
+doas dnf search fira code
+doas dnf install fira-code-fonts.noarch
+emacs --version
+doas dnf search emcas
+doas dnf search emacs wayland
+doas dnf search emacs
+emacs --help
+emacs --help | grep X
+doas dnf search gtk wayland
+GDK_BACKEND=wayland emacs
+doas dnf remove emacs
+dnf copr enable deathwish/emacs-pgtk-nativecomp
+doas dnf copr enable deathwish/emacs-pgtk-nativecomp
+doas dnf install emacs\
+\
+
+echo $WAYLAND_DISPLAY
+export GDK_BACKEND=wayland
+fuzzel -h
+echo $GDK_BACKEND
+emacs -d wayland
+emacs
+echo $XDG_SESSION
+echo $XDG_SESSION_TYPE
+cd .do
+cd git/dotfiles
+mv emacs emacs.ba
+rm emacs
+cd
+git clone --depth 1 https://github.com/doomemacs/doomemacs ~/.config/emacs
+~/.config/emacs/bin/doom install
+doom sync
+cd .config/emacs
+cd bin
+./doom sync
+tmux
+mkdir 03
+cd 03
+vim test.txt
+vim main_a1.py
+vim input.txt
+doas shutdown -h ow
+emacsclient -c
+mkdir -p systemd/user/
+vim systemd/user/emacs.service
+vim systemd/user
+systemctl --user start ema
+systemctl --user start ls
+ls systemd
+ls systemd/user
+doas systemctl --user start emacs
+doas systemctl --user start emacs.service
+systemctl --user start emacs.service
+emacs --fg-client
+doas dnf search emacs-waylan
+d
+doas dnf search emacs-wayland
+task add project:ideen microkontroller
+pandoc main.md -o out.pdf
+task 5 wait:2day
+task 5 mod wait:2day
+mkdir logik
+cd logik
+task add template script
+task 41 annotate "e.g for beamer prest"
+doas dnf thunderbird
+doas dnf install thunderbird
+vim ~/Downloads/ChatGPT-Kriegskommunismus_Präsentation_Themen.md
+vim Downloads/ChatGPT-Kriegskommunismus_Präsentation_Themen\(1\).md
+cd templates
+mkdir markdown_beamer
+cp pres.sh ~/templates/markdown_beamer
+cp ~/templates/markdown_beamer/pres.sh ./
+cat pres.
+cat pres.h
+./pres.sh
+cat pres.sh
+vim make
+mv make Make
+vim Make
+mv Make make
+mv make Makefile
+mv Makefile Makefile.ba
+make all
+rm Makefile.ba
+mkdir der_kriegskommunismus
+mv inbox.md pres.md
+rm pres.md
+cd out
+pandoc musik_des_mittelalters.md -o out/out.pdf
+firefox out/out.pdf
+doas dnf install ncspot
+nc
+ncspot
+doas systemctl --user restart app-cgroupify.slice pipewire-pulse.s
+doas systemctl --user restart app-cgroupify.slice pipewire-pulse.service
+doas systemctl --user restart app-cgroupify.slice pipewire.service
+padd
+doas dnf install pass
+pass init
+pass init niklasvonh@gmail.com
+gpg
+gpg --list
+gpg --help
+gpg --help | grep list
+gpg --list-keys
+pass init niklas@vonhirschfeld.eu
+pass add hirschii@draco.uberspace.de
+pass 
+pass hirschi
+cd /tmp
+vim test.html
+firefox test.html
+vim conatctform.astro
+cat widgets/Contact.astro
+mv conatctform.astro widgets/Contact.astro
+tsak
+pandoc -s --toc --listings --pdf-engine lualatex inbox.md -o out.pdf
+fc-list| grep Retina
+doas dnf install firacode
+doas dnf search firacode
+doas dnf install texlive-lstfiracode
+pandoc -s --pdf-engine lualatex inbox.md -o out.pdf
+vim monolog.txt
+doas dnf install update
+vim .config/sway
+vim beweisen.md
+vim vim prädikatenlogik.md
+vim prädikatenlogik.md
+mv main.md regeln.md
+vim regeln.md
+pandoc -s --toc --engine lualatex regeln.md -o out.pdf
+pandoc -s --toc --latex-engine lualatex regeln.md -o out.pdf
+pandoc -s --toc --pdf-engine lualatex regeln.md -o out.pdf
+fc-list | grep hack
+fc-list | grep Hack
+pass
+pass hirschii@draco.uberspace.de
+TSfDM4nEamU5iMS4
+vim FluidBG.astro
+npm run dev
+git add .
+whoami
+git config --global user.email "niklas@vonhirschfeld.eu"
+git config --global user.name "Niklas von Hirschfeld"
+git commit -m "konatk setup"
+git push
+cat Makefile
+vim Makefile
+make deploy
+cp impressum.astro datenschutz.astro
+vim datenschutz.astro
+ssh hirschii@draco.uberspace.de
+task 34 delete
+git clone git@github.com:letoram/arcan.git
+git clone git@github.com:letoram/durden.git
+sudo pacman -S sqlite3 openal-soft sdl2 mesa luajit libdrm freetype2 harfbuzz libxkbcommon vlc ffmpeg leptonica tesseract libvncserver libusb1 v4l2loopback mupdf\
+
+sudo dnf install sqlite openal-soft SDL2 mesa-libGLU luajit gbm kms freetype harfbuzz libxkbcommon vlc ffmpeg leptonica tesseract libvncserver libusb v4l2loopback-tools mupdf\
+
+sudo dnf install sqlite openal-soft SDL2 mesa-libGLU luajit freetype harfbuzz libxkbcommon vlc-core ffmpeg leptonica-devel tesseract leptonica-devel libvncserver libusb libv4l mupdf-tools\
+
+sudo dnf install vlc ffmpeg\
+
+sudo dnf install sqlite openal-soft SDL2 mesa-libGLU luajit freetype harfbuzz libxkbcommon vlc-core leptonica-devel tesseract leptonica-devel libvncserver libusb libv4l
+sudo dnf install sqlite openal-soft SDL2 mesa-libGLU luajit freetype harfbuzz libxkbcommon leptonica-devel tesseract leptonica-devel libvncserver libusb libv4l
+cd arcan
+cd external/git
+./clone.sh
+cd ../../
+mkdir build
+cd build
+sudo dnf install freetype-devel\
+
+sudo dnf install sqlite-devel\
+
+sudo dnf install mesa-libGL-devel\
+
+sudo dnf install libdrm-devel
+sudo dnf install mesa-libgbm-devel
+sudo dnf install openal-soft-devel\
+
+sudo dnf install SDL2-devel\
+
+make -j8
+make -j4
+make install
+doas dnf install ffmpeg
+dnf -y install ffmpeg-devel
+ffmpeg
+sudo dnf -y install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm
+sudo dnf -y install https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
+doas dnf -y install ffmpeg-devel
+doas dnf -y install ffmpeg ffmpeg-devel
+doas dnf update
+sudo dnf install ffmpeg-free
+cmake -DBUILD_PRESET="everything" ../src
+doas dnf search lib vlc
+rm -rf arcan
+mkdir contex
+mv contex context
+unzip ~/Downloads/context-linux-aarch64.zip
+sh install
+mtxrun --generate
+tree
+tree | grep thir
+tree | grep third
+tree | grep t-
+cd /usr/share/tex
+cd /usr/share/texlive
+rm -rf context
+wget http://minimals.contextgarden.net/setup/first-setup.sh
+mtxrun --script install-mmodules --list
+ls | grep install
+mtxrun --script ./install-mmodules --list
+cd /usr/share
+cd tex
+cd texlive
+cd Downloads
+rsync -a --delete --exclude=.svn tug.org::tldevsrc/Build/source
+lsls
+wget https://lmtx.pragma-ade.com/install-lmtx/context-linux-64.zip
+unzip context-linux-64.zip
+vim install.sh
+rm -rf context/*
+wget https://lmtx.pragma-ade.com/install-lmtx/context-linux-aarch64.zip
+unzip context-linux-aarch64.zip
+sh install.sh
+./texmf-linux-aarch64/bin/mtxrun --scripts intstall-moduels --list
+--script install-modules --list
+./texmf-linux-aarch64/bin/mtxrun --script install-modules --list
+mtxrun --script install-modules --list
+mtxrun --script install-modules --install pararef
+mtxrun --script install-modules --install all
+mtxrun --script install-modules --install --all
+./texmf-linux-aarch64/bin/mtxrun --script install-modules --install --all
+tree | grep para
+tree | grep pararef
+tree | grep cross
+find cros
+./texmf-linux-aarch64/bin/mtxrun --script install-modules --install pararef
+task 5 done
+mkdir context
+cd context
+vim in
+pandoc inbox.md -o out.pdf
+git clone git@github.com:ayamir/nvimdots.git
+rm nvim.bak/
+ls nvim*
+rm nvim.bak
+las
+ln -s ~/git/nvim ./nvim
+cd git/nvimdots
+nvim -h
+nvim -u ./init.lua
+ivm
+git clone git@github.com:glepnir/nvim.git
+tmux-sessionizer
+cd .config/
+mv nvim.bak nvim
+ln -s ~/git/nvimdots ./nvim
+rm -rf nvim.bak
+mv nvim nvim.bak
+mv ~/git/nvimdots ./nvim
+rm -rf .git .github .gitignore 
+task 33 done
+mkdir testlauf
+cd testlauf
+vim test.java
+mv test.java testlauf.java
+vim testlauf.java
+java testlauf
+java testlauf 1
+java testlauf 3
+java testlauf 5
+java testlauf 
+java testlauf 2
+java testlauf 10
+java testlauf s 10
+task 
+task 29 done
+calc
+javac testlauf.java
+java testlauf p 21
+java testlauf s 20
+java testlauf s 6
+java testlauf s 80
+java testlauf s 100
+java testlauf d 100
+java testlauf p 100
+java testlauf p 10
+java testlauf p 20
+java testlauf p 30
+java testlauf p 40
+java testlauf p 50
+java testlauf p 90
+java testlauf p 80
+java testlauf p 70
+java testlauf p 
+java testlauf p 60
+java testlauf p 66
+java testlauf p 65
+cd .config
+rm nvim
+ln -s ~/git/dotfiles/.config/nvim.bak nvim
+mv Makefile ~/templates/markdown_beamer
+mv ~/templates/markdown_beamer/Makefile ./
+cp Makefile ~/templates/markdown_beamer
+cp Makefile ../../english/dangers_of_twitter
+doas dnf search hack nerd
+cd git
+git clone https://github.com/ryanoasis/nerd-fonts.git
+rm -rf neovim
+ls Downloads
+doas dnf search vym
+doas dnf install vym
+cd templates/markdown_beamer
+mv markdown_beamer dangers_of_twitter
+cd dangers_of_twitter
+vim pres.md
+mv pres.md presentation.md
+cd Downloads/FiraCode
+cp ./Fira\ Code\ Bold\ Nerd\ Font\ Complete\ Mono.ttf ./Fira\ Code\ Bold\ Nerd\ Font\ Complete\ Mono\ Windows\ Compatible.ttf ./Fira\ Code\ Bold\ Nerd\ Font\ Complete.ttf ./Fira\ Code\ Bold\ Nerd\ Font\ Complete\ Windows\ Compatible.ttf ./Fira\ Code\ Light\ Nerd\ Font\ Complete\ Mono.ttf ./Fira\ Code\ Light\ Nerd\ Font\ Complete\ Mono\ Windows\ Compatible.ttf ./Fira\ Code\ Light\ Nerd\ Font\ Complete.ttf ./Fira\ Code\ Light\ Nerd\ Font\ Complete\ Windows\ Compatible.ttf ./Fira\ Code\ Medium\ Nerd\ Font\ Complete\ Mono.ttf ./Fira\ Code\ Medium\ Nerd\ Font\ Complete\ Mono\ Windows\ Compatible.ttf ./Fira\ Code\ Medium\ Nerd\ Font\ Complete.ttf ./Fira\ Code\ Medium\ Nerd\ Font\ Complete\ Windows\ Compatible.ttf ./Fira\ Code\ Regular\ Nerd\ Font\ Complete\ Mono.ttf ./Fira\ Code\ Regular\ Nerd\ Font\ Complete\ Mono\ Windows\ Compatible.ttf ./Fira\ Code\ Regular\ Nerd\ Font\ Complete.ttf ./Fira\ Code\ Regular\ Nerd\ Font\ Complete\ Windows\ Compatible.ttf ./Fira\ Code\ Retina\ Nerd\ Font\ Complete\ Mono.ttf ./Fira\ Code\ Retina\ Nerd\ Font\ Complete\ Mono\ Windows\ Compatible.ttf ./Fira\ Code\ Retina\ Nerd\ Font\ Complete.ttf ./Fira\ Code\ Retina\ Nerd\ Font\ Complete\ Windows\ Compatible.ttf ./Fira\ Code\ SemiBold\ Nerd\ Font\ Complete\ Mono.ttf ./Fira\ Code\ SemiBold\ Nerd\ Font\ Complete\ Mono\ Windows\ Compatible.ttf ./Fira\ Code\ SemiBold\ Nerd\ Font\ Complete.ttf ./Fira\ Code\ SemiBold\ Nerd\ Font\ Complete\ Windows\ Compatible.ttf ~/.local/share/fonts/
+rm ./PowerPortalBakery*
+rm ./RighteousTurtleBakery
+rm ./RighteousTurtleBakery*
+cd JetBrainsMono
+cp ./JetBrains\ Mono\ Bold\ Italic\ Nerd\ Font\ Complete\ Mono.ttf ./JetBrains\ Mono\ Bold\ Italic\ Nerd\ Font\ Complete\ Mono\ Windows\ Compatible.ttf ./JetBrains\ Mono\ Bold\ Italic\ Nerd\ Font\ Complete.ttf ./JetBrains\ Mono\ Bold\ Italic\ Nerd\ Font\ Complete\ Windows\ Compatible.ttf ./JetBrains\ Mono\ Bold\ Nerd\ Font\ Complete\ Mono.ttf ./JetBrains\ Mono\ Bold\ Nerd\ Font\ Complete\ Mono\ Windows\ Compatible.ttf ./JetBrains\ Mono\ Bold\ Nerd\ Font\ Complete.ttf ./JetBrains\ Mono\ Bold\ Nerd\ Font\ Complete\ Windows\ Compatible.ttf ./JetBrains\ Mono\ ExtraBold\ Italic\ Nerd\ Font\ Complete\ Mono.ttf ./JetBrains\ Mono\ ExtraBold\ Italic\ Nerd\ Font\ Complete\ Mono\ Windows\ Compatible.ttf ./JetBrains\ Mono\ ExtraBold\ Italic\ Nerd\ Font\ Complete.ttf ./JetBrains\ Mono\ ExtraBold\ Italic\ Nerd\ Font\ Complete\ Windows\ Compatible.ttf ./JetBrains\ Mono\ ExtraBold\ Nerd\ Font\ Complete\ Mono.ttf ./JetBrains\ Mono\ ExtraBold\ Nerd\ Font\ Complete\ Mono\ Windows\ Compatible.ttf ./JetBrains\ Mono\ ExtraBold\ Nerd\ Font\ Complete.ttf ./JetBrains\ Mono\ ExtraBold\ Nerd\ Font\ Complete\ Windows\ Compatible.ttf ./JetBrains\ Mono\ ExtraLight\ Italic\ Nerd\ Font\ Complete\ Mono.ttf ./JetBrains\ Mono\ ExtraLight\ Italic\ Nerd\ Font\ Complete\ Mono\ Windows\ Compatible.ttf ./JetBrains\ Mono\ ExtraLight\ Italic\ Nerd\ Font\ Complete.ttf ./JetBrains\ Mono\ ExtraLight\ Italic\ Nerd\ Font\ Complete\ Windows\ Compatible.ttf ./JetBrains\ Mono\ ExtraLight\ Nerd\ Font\ Complete\ Mono.ttf ./JetBrains\ Mono\ ExtraLight\ Nerd\ Font\ Complete\ Mono\ Windows\ Compatible.ttf ./JetBrains\ Mono\ ExtraLight\ Nerd\ Font\ Complete.ttf ./JetBrains\ Mono\ ExtraLight\ Nerd\ Font\ Complete\ Windows\ Compatible.ttf ./JetBrains\ Mono\ Italic\ Nerd\ Font\ Complete\ Mono.ttf ./JetBrains\ Mono\ Italic\ Nerd\ Font\ Complete\ Mono\ Windows\ Compatible.ttf ./JetBrains\ Mono\ Italic\ Nerd\ Font\ Complete.ttf ./JetBrains\ Mono\ Italic\ Nerd\ Font\ Complete\ Windows\ Compatible.ttf ./JetBrains\ Mono\ Light\ Italic\ Nerd\ Font\ Complete\ Mono.ttf ./JetBrains\ Mono\ Light\ Italic\ Nerd\ Font\ Complete\ Mono\ Windows\ Compatible.ttf ./JetBrains\ Mono\ Light\ Italic\ Nerd\ Font\ Complete.ttf ./JetBrains\ Mono\ Light\ Italic\ Nerd\ Font\ Complete\ Windows\ Compatible.ttf ./JetBrains\ Mono\ Light\ Nerd\ Font\ Complete\ Mono.ttf ./JetBrains\ Mono\ Light\ Nerd\ Font\ Complete\ Mono\ Windows\ Compatible.ttf ./JetBrains\ Mono\ Light\ Nerd\ Font\ Complete.ttf ./JetBrains\ Mono\ Light\ Nerd\ Font\ Complete\ Windows\ Compatible.ttf ./JetBrains\ Mono\ Medium\ Italic\ Nerd\ Font\ Complete\ Mono.ttf ./JetBrains\ Mono\ Medium\ Italic\ Nerd\ Font\ Complete\ Mono\ Windows\ Compatible.ttf ./JetBrains\ Mono\ Medium\ Italic\ Nerd\ Font\ Complete.ttf ./JetBrains\ Mono\ Medium\ Italic\ Nerd\ Font\ Complete\ Windows\ Compatible.ttf ./JetBrains\ Mono\ Medium\ Nerd\ Font\ Complete\ Mono.ttf ./JetBrains\ Mono\ Medium\ Nerd\ Font\ Complete\ Mono\ Windows\ Compatible.ttf ./JetBrains\ Mono\ Medium\ Nerd\ Font\ Complete.ttf ./JetBrains\ Mono\ Medium\ Nerd\ Font\ Complete\ Windows\ Compatible.ttf ./JetBrains\ Mono\ NL\ Bold\ Italic\ Nerd\ Font\ Complete\ Mono.ttf ./JetBrains\ Mono\ NL\ Bold\ Italic\ Nerd\ Font\ Complete\ Mono\ Windows\ Compatible.ttf ./JetBrains\ Mono\ NL\ Bold\ Italic\ Nerd\ Font\ Complete.ttf ./JetBrains\ Mono\ NL\ Bold\ Italic\ Nerd\ Font\ Complete\ Windows\ Compatible.ttf ./JetBrains\ Mono\ NL\ Bold\ Nerd\ Font\ Complete\ Mono.ttf ./JetBrains\ Mono\ NL\ Bold\ Nerd\ Font\ Complete\ Mono\ Windows\ Compatible.ttf ./JetBrains\ Mono\ NL\ Bold\ Nerd\ Font\ Complete.ttf ./JetBrains\ Mono\ NL\ Bold\ Nerd\ Font\ Complete\ Windows\ Compatible.ttf ./JetBrains\ Mono\ NL\ ExtraBold\ Italic\ Nerd\ Font\ Complete\ Mono.ttf ./JetBrains\ Mono\ NL\ ExtraBold\ Italic\ Nerd\ Font\ Complete\ Mono\ Windows\ Compatible.ttf ./JetBrains\ Mono\ NL\ ExtraBold\ Italic\ Nerd\ Font\ Complete.ttf ./JetBrains\ Mono\ NL\ ExtraBold\ Italic\ Nerd\ Font\ Complete\ Windows\ Compatible.ttf ./JetBrains\ Mono\ NL\ ExtraBold\ Nerd\ Font\ Complete\ Mono.ttf ./JetBrains\ Mono\ NL\ ExtraBold\ Nerd\ Font\ Complete\ Mono\ Windows\ Compatible.ttf ./JetBrains\ Mono\ NL\ ExtraBold\ Nerd\ Font\ Complete.ttf ./JetBrains\ Mono\ NL\ ExtraBold\ Nerd\ Font\ Complete\ Windows\ Compatible.ttf ./JetBrains\ Mono\ NL\ ExtraLight\ Italic\ Nerd\ Font\ Complete\ Mono.ttf ./JetBrains\ Mono\ NL\ ExtraLight\ Italic\ Nerd\ Font\ Complete\ Mono\ Windows\ Compatible.ttf ./JetBrains\ Mono\ NL\ ExtraLight\ Italic\ Nerd\ Font\ Complete.ttf ./JetBrains\ Mono\ NL\ ExtraLight\ Italic\ Nerd\ Font\ Complete\ Windows\ Compatible.ttf ./JetBrains\ Mono\ NL\ ExtraLight\ Nerd\ Font\ Complete\ Mono.ttf ./JetBrains\ Mono\ NL\ ExtraLight\ Nerd\ Font\ Complete\ Mono\ Windows\ Compatible.ttf ./JetBrains\ Mono\ NL\ ExtraLight\ Nerd\ Font\ Complete.ttf ./JetBrains\ Mono\ NL\ ExtraLight\ Nerd\ Font\ Complete\ Windows\ Compatible.ttf ./JetBrains\ Mono\ NL\ Italic\ Nerd\ Font\ Complete\ Mono.ttf ./JetBrains\ Mono\ NL\ Italic\ Nerd\ Font\ Complete\ Mono\ Windows\ Compatible.ttf ./JetBrains\ Mono\ NL\ Italic\ Nerd\ Font\ Complete.ttf ./JetBrains\ Mono\ NL\ Italic\ Nerd\ Font\ Complete\ Windows\ Compatible.ttf ./JetBrains\ Mono\ NL\ Light\ Italic\ Nerd\ Font\ Complete\ Mono.ttf ./JetBrains\ Mono\ NL\ Light\ Italic\ Nerd\ Font\ Complete\ Mono\ Windows\ Compatible.ttf ./JetBrains\ Mono\ NL\ Light\ Italic\ Nerd\ Font\ Complete.ttf ./JetBrains\ Mono\ NL\ Light\ Italic\ Nerd\ Font\ Complete\ Windows\ Compatible.ttf ./JetBrains\ Mono\ NL\ Light\ Nerd\ Font\ Complete\ Mono.ttf ./JetBrains\ Mono\ NL\ Light\ Nerd\ Font\ Complete\ Mono\ Windows\ Compatible.ttf ./JetBrains\ Mono\ NL\ Light\ Nerd\ Font\ Complete.ttf ./JetBrains\ Mono\ NL\ Light\ Nerd\ Font\ Complete\ Windows\ Compatible.ttf ./JetBrains\ Mono\ NL\ Medium\ Italic\ Nerd\ Font\ Complete\ Mono.ttf ./JetBrains\ Mono\ NL\ Medium\ Italic\ Nerd\ Font\ Complete\ Mono\ Windows\ Compatible.ttf ./JetBrains\ Mono\ NL\ Medium\ Italic\ Nerd\ Font\ Complete.ttf ./JetBrains\ Mono\ NL\ Medium\ Italic\ Nerd\ Font\ Complete\ Windows\ Compatible.ttf ./JetBrains\ Mono\ NL\ Medium\ Nerd\ Font\ Complete\ Mono.ttf ./JetBrains\ Mono\ NL\ Medium\ Nerd\ Font\ Complete\ Mono\ Windows\ Compatible.ttf ./JetBrains\ Mono\ NL\ Medium\ Nerd\ Font\ Complete.ttf ./JetBrains\ Mono\ NL\ Medium\ Nerd\ Font\ Complete\ Windows\ Compatible.ttf ./JetBrains\ Mono\ NL\ Regular\ Nerd\ Font\ Complete\ Mono.ttf ./JetBrains\ Mono\ NL\ Regular\ Nerd\ Font\ Complete\ Mono\ Windows\ Compatible.ttf ./JetBrains\ Mono\ NL\ Regular\ Nerd\ Font\ Complete.ttf ./JetBrains\ Mono\ NL\ Regular\ Nerd\ Font\ Complete\ Windows\ Compatible.ttf ./JetBrains\ Mono\ NL\ SemiBold\ Italic\ Nerd\ Font\ Complete\ Mono.ttf ./JetBrains\ Mono\ NL\ SemiBold\ Italic\ Nerd\ Font\ Complete\ Mono\ Windows\ Compatible.ttf ./JetBrains\ Mono\ NL\ SemiBold\ Italic\ Nerd\ Font\ Complete.ttf ./JetBrains\ Mono\ NL\ SemiBold\ Italic\ Nerd\ Font\ Complete\ Windows\ Compatible.ttf ./JetBrains\ Mono\ NL\ SemiBold\ Nerd\ Font\ Complete\ Mono.ttf ./JetBrains\ Mono\ NL\ SemiBold\ Nerd\ Font\ Complete\ Mono\ Windows\ Compatible.ttf ./JetBrains\ Mono\ NL\ SemiBold\ Nerd\ Font\ Complete.ttf ./JetBrains\ Mono\ NL\ SemiBold\ Nerd\ Font\ Complete\ Windows\ Compatible.ttf ./JetBrains\ Mono\ NL\ Thin\ Italic\ Nerd\ Font\ Complete\ Mono.ttf ./JetBrains\ Mono\ NL\ Thin\ Italic\ Nerd\ Font\ Complete\ Mono\ Windows\ Compatible.ttf ./JetBrains\ Mono\ NL\ Thin\ Italic\ Nerd\ Font\ Complete.ttf ./JetBrains\ Mono\ NL\ Thin\ Italic\ Nerd\ Font\ Complete\ Windows\ Compatible.ttf ./JetBrains\ Mono\ NL\ Thin\ Nerd\ Font\ Complete\ Mono.ttf ./JetBrains\ Mono\ NL\ Thin\ Nerd\ Font\ Complete\ Mono\ Windows\ Compatible.ttf ./JetBrains\ Mono\ NL\ Thin\ Nerd\ Font\ Complete.ttf ./JetBrains\ Mono\ NL\ Thin\ Nerd\ Font\ Complete\ Windows\ Compatible.ttf ./JetBrains\ Mono\ Regular\ Nerd\ Font\ Complete\ Mono.ttf ./JetBrains\ Mono\ Regular\ Nerd\ Font\ Complete\ Mono\ Windows\ Compatible.ttf ./JetBrains\ Mono\ Regular\ Nerd\ Font\ Complete.ttf ./JetBrains\ Mono\ Regular\ Nerd\ Font\ Complete\ Windows\ Compatible.ttf ./JetBrains\ Mono\ SemiBold\ Italic\ Nerd\ Font\ Complete\ Mono.ttf ./JetBrains\ Mono\ SemiBold\ Italic\ Nerd\ Font\ Complete\ Mono\ Windows\ Compatible.ttf ./JetBrains\ Mono\ SemiBold\ Italic\ Nerd\ Font\ Complete.ttf ./JetBrains\ Mono\ SemiBold\ Italic\ Nerd\ Font\ Complete\ Windows\ Compatible.ttf ./JetBrains\ Mono\ SemiBold\ Nerd\ Font\ Complete\ Mono.ttf ./JetBrains\ Mono\ SemiBold\ Nerd\ Font\ Complete\ Mono\ Windows\ Compatible.ttf ./JetBrains\ Mono\ SemiBold\ Nerd\ Font\ Complete.ttf ./JetBrains\ Mono\ SemiBold\ Nerd\ Font\ Complete\ Windows\ Compatible.ttf ./JetBrains\ Mono\ Thin\ Italic\ Nerd\ Font\ Complete\ Mono.ttf ./JetBrains\ Mono\ Thin\ Italic\ Nerd\ Font\ Complete\ Mono\ Windows\ Compatible.ttf ./JetBrains\ Mono\ Thin\ Italic\ Nerd\ Font\ Complete.ttf ./JetBrains\ Mono\ Thin\ Italic\ Nerd\ Font\ Complete\ Windows\ Compatible.ttf ./JetBrains\ Mono\ Thin\ Nerd\ Font\ Complete\ Mono.ttf ./JetBrains\ Mono\ Thin\ Nerd\ Font\ Complete\ Mono\ Windows\ Compatible.ttf ./JetBrains\ Mono\ Thin\ Nerd\ Font\ Complete.ttf ./JetBrains\ Mono\ Thin\ Nerd\ Font\ Complete\ Windows\ Compatible.ttf ~/.local/share/fonts
+firefox Downloads/seven\ methods\ of\ killing\ kylie\ jenner.pdf
+mkdir pow
+cd pow
+cp -r ~/templates/markdown_beamer ./
+mv markdown_beamer social_media
+cd social_media
+rm pres.sh
+vim presentation.md
+cp Downloads/DALL·E\ 2023-12-18\ 13.04.13\ -\ Modify\ the\ previously\ created\ collage\ of\ War\ Communism\ during\ the\ Russian\ Civil\ War\ by\ adding\ fading\ or\ blending\ edges\ for\ a\ smooth\ transition\ into\ a\ .png ~/notes/school/geschichte/der_kriegskommunismus/src/intro.png
+mkdir src
+firefox output.pdf
+make
+vim handout.md
+cd notes/school
+mkdir facharbeit
+cd facharbeit
+vim inbox.md
+cd der_kriegskommunismus
+pandoc presentation.md -o out.pdf
+firefox out
+pandoc handout.md -o out.pdf
+pandoc handout.md -o handout.pdf
+firefox handout.md
+pandoc --standalone --normalize -f markdown-hard_line_breaks -t latex -o out.pdf handout.md
+pandoc --standalone -f markdown-hard_line_breaks -t latex -o out.pdf handout.md
+firefox out.pdf
+cd .config/sway
+task context list
+task context school
 task
-task +papa
-task show 26
-task next ls
-task 26
+systemctl enable tlp.service
+systemctl enable tlp-sleep.service
+sudo systemctl enable tlp-sleep.service
+doas dnf install powertop
+sudo systemctl start powertop.service
+sudo systemctl enable powertop.service
+sudo dnf install tlp tlp-rdw
+doas systemctl start tlp.service
+doas systemctl enable tlp.service
+htop
+doas powertop
+git clone https://github.com/ayamir/nvimdots.git
+cd .config/nvim
+ls -la
+rm nvim nvim.bak
+ln -s ~/git/dotfiles/.config/nvim ./nvim
+cd 
+cd git/dotfiles/.config
+mv nvim nvim.mybak
+mkdir nvim
+cd nvim
+cp ~/git/nvimdots/stylua.toml ./
+rm stylua.toml
+cp -r /home/niklas/git/nvim /home/niklas/git/nvimdots ./
+cd ..
+rm nvim/nvimdots
+rm -r nvim/nvimdots
+ls nvim
+rm -rf nvim
+cp ~/git/nvimdots ./nvim
+pwf
+pwd
+cp ~/git/nvimdots ./n
+cp ~/git/nvimdots ./
+cp -r ~/git/nvimdots ./nvim
+l
+rm -rf nixos
+cat flake.nix
+rm flake.nix
+rm .git .github .gitignore 
+rm -rf .git .github 
+vim abituraufgaben.md
+cat kabal_und_liebe.md 
+vim kabal_und_liebe.md
+cat kabal_und_liebe.md
+prettier
+pip
+on -e
+doas powertop -h
+doas powertop -c
+ls
+vim
+cd git/dotfiles/.config/nvim.mybak
+n -e
+nmtui
+traceroute www.google.de
+doas shutdown -h now
+cd .config/nvim
+rm -r ./*
+mkdir core keymap modules user_template
+vim init.lua
+cp ~/git/nvimdots/lua/core/* ./
+mkdir lua
+mv core keymap/ modules user_template lua
+vim
+cd ..
+ls
+mv nvim nvim.new.wip
+mv nvim.bak nvim
+n -e
+ls
+mkdir ideas
+cd ideas
+mkdir nvim_plugin
+cd .config/nvim/
+n -e
+cp color.lua editior.lua
+vim editior.lua
+doas shutdown -h now
+ls
+make
+n -e
+pandoc -s handout.md -o handout.tex
+pandoc handout.md -o handout.tex
+vim handout.tex
+firefox output.pdf
+make 
+n -e
+vim ~/Downloads/ChatGPT-Handout_zum_Kriegskommunismus.md
+nmtui
+ip a
+nmtui
+cd git/nvimdots
+tree
+rm formatters/*
+rm servers/*
+rm dap/*
+rm ./*
+ls
+n -e
+nmtui
+doas systemctl restart NetworkManager
+nmtui
+cd Downloads
+n -e
+nmtui
+n -e
+rm nvim
+ln -s ~/git/dotfiles/.config/nvim.mybak ./nvim
+jjjvim
+vim
+nmtui
+doas dnf search chrome
+nmtui
+doas dnf install mkchromecast
+doas dnf search chromium
+doas dnf install chromium
+doas dnf search miracast
+sudo dnf builddep gnome-network-display
+sudo dnf install gnome-network-display
+sudo dnf search gnome-network-display
+sudo dnf builddep gnome-network-displays
+sudo dnf install gnome-network-displays
+chromium-browser --enable-features=UseOzonePlatform --ozone-platform=wayland
+doas dnf install xdg-desktop-portal-gnome gnome-remote-desktop
+cd
+cd git/dotfiles/.config/nvim.mybak
+rm -r ./*
+cp -r ~/git/nvimdots/* ./
+ls
+n -e
+mkdir abitur
+cd abitur
+mkdir informatik mathematik english physik politik
+tree
+touch ./*/themen.md
+doas dnf install nushell
+vim
+n -e
+task add project:school.abitur Themen übersicht
+task 38 annotate "~/notes/abitur"
+vim
+nmtui
+vim
+vim
+n -e
+hn -e
+n -e
+mkdir notes/henning
+cp /tmp/1703076157_grim.png ~/notes/henning
+vim
+n -e
+vim
+vim .
+cd
+cd git/dotfiles/.config/nvim/
+n -e
+cd ~/git/dotfiles/.config/nvim/
+n -e
+n -e
+ls
+cat tabout.lua
+vim test.py
+rm te
+rm test.py
+n -e
+n -e
+n -e
+l
+ls
+make
+vim
+n -e
+rm codeium.lua copilot-cmp.lua copilot.lua glance.lua
+rm accelerated-jk.lua
+cp ~/git/nvimdots/lua/modules/configs/editor/tabout.lua ./
+vim tabout.lua 
+mv scrollview.lua scrollview.lua.bak
+mv bufferline.lua bufferline.lua.bak
+vim
+ls
+mv fcitx5.lua fcitx5.lua.bak
+mv project.lua project.lua.bak
+mv nvim-tree.lua nvim-tree.lua.bak
+mv smartyank.lua smartyank.lua.bak
+n -e
+doas dnf install rg
+doas dnf search ripgrep
+doas dnf install ripgrep
+doas dnf update
+n -e
+vim
+doas shutdown -h now
+rm scripts
+rm -rf scripts
+rm flake.nix
+rm -rf nixos
+rm -rf tutor/
+ls
+rm LICENSE
+rm README.md
+mv mapping.lua mapping.lua.bak
+vim mapping.lua
+mv keymap.bak keymap
+mv keymap keymap.bak
+mkdir keymap
+cd keymap
+vim completion.lua
+vim init.lua
+vim bind.lua
+vim
+n -e
+n -e
+vim .config/sway
+n -e
+vim .config/nvim/lua/modules/plugins/tool.lua
+vim .config/nvim/lua/keymap
+pass hirschii@draco.uberspace.de
+http://localhost:4321/kontakt
+pass hirschii@draco.uberspace.de
+pass
+pass hirschii@draco.uberspace.de
+doas shutdown -h now
+vim buffer_manager.lua
+n -e
+npm run dev
+ssh hirschii@draco.uberspace.de
+mkdir api
+vim send_mail.php
+mv send_mail.php api
+cd api
+ls
+git add .
+git commit -m "update: Kontak / konfetti"
+git push
+mak
+vim Makefile
+pass hirschii@draco.uberspace.de
+make
+n -e
+n -e
+vim src/pages
+
+vim .
+l
+ls
+vim 
+n -e
+ivm
+vim
+make

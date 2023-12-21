@@ -47,4 +47,30 @@ return {
 			"---", "" }),
 			i(0)
 	}),
+	s({
+			trig = "meta.beamer",
+			namr = "Metadata for Beamer Pres",
+			dscr = "Yaml metadata format for markdown"
+		},
+		{
+		t({'---',
+		'title: "'}), i(1, "Pres Title"), t({'"',
+		'author: "Niklas von Hirschfeld"',
+		'institute: "Gymnasium Lüneburger Heide"',
+		'topic: "'}), i(2, "Topic"), t({'"',
+		'theme: "Boadilla"',
+		'colortheme: "dolphin"',
+		'fonttheme: "professionalfonts"',
+		'mainfont: "Hack Nerd Font"',
+		'fontsize: 10pt',
+		'urlcolor: red',
+		'linkstyle: bold',
+		'aspectratio: 169',
+		"date: " }), f(date, {}), t({ "",
+		'lang: de-DE',
+		'section-titles: false',
+		'toc: true',
+		'---'
+		})
+	})
 }

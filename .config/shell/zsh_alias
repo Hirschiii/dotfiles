@@ -31,3 +31,5 @@ noter() { nvim + "$(date +"%y-%m-%d %H:%M" | while read d t ; do f=$HOME/notes/d
 alias habit="task rc.data.location=~/.habit"
 
 alias tasksync="task sync && trellowarrior sync"
+
+alias next="taks next limit:1"
