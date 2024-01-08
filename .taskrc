@@ -150,9 +150,11 @@ report.q4.labels=A,ID,Proj,Urg,Description,Age,Tags
 taskd.certificate=\/home\/niklas\/.task\/client.cert.pem
 taskd.key=\/home\/niklas\/.task\/client.key.pem
 # taskd.ca=\/home\/niklas\/.task\/ca.cert.pem
-taskd.server=gulugulu.uber.space:41920
+# taskd.server=gulugulu.uber.space:41920
+taskd.server=91.249.208.110:53589
 # taskd.server=192.168.4.10:53589
-taskd.credentials=Privat\/Niklas von Hirschfeld\/aed357f0-3a3e-4dd5-8982-d92d6e09e7d1
+# taskd.credentials=Privat\/Niklas von Hirschfeld\/aed357f0-3a3e-4dd5-8982-d92d6e09e7d1
+taskd.credentials=privat\/Niklas von Hirschfeld\/6b0a3aec-3cdc-4898-a50f-779ab41ca618
 # taskd.credentials=hirschii_organization\/Niklas von Hirschfeld\/aed357f0-3a3e-4dd5-8982-d92d6e09e7d1
 
 # taskd.ca=\/home\/niklas\/.task\/ca.cert.pem

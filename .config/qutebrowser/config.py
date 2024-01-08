@@ -31,6 +31,9 @@ config.set('content.autoplay', False)
 # config.set("colors.webpage.darkmode.enabled", True)
 
 
+config.set("qt.force_platform", "wayland")
+
+
 
 # Which cookies to accept. With QtWebEngine, this setting also controls
 # other features with tracking capabilities similar to those of cookies;
@@ -387,8 +390,8 @@ c.fonts.statusbar = '11pt "Source Code Pro"'
 
 # Bindings for normal mode
 config.bind('M', 'hint links spawn mpv {hint-url}')
-config.bind('Z', 'hint links spawn st -e youtube-dl {hint-url}')
-config.bind('t', 'set-cmd-text -s :open -t')
+config.bind('Z', 'hint links spawn footclient -e yt-dlp {hint-url}')
+config.bind('t', 'cmd-set-text -s :open -t')
 config.bind('xb', 'config-cycle statusbar.show always never')
 config.bind('xt', 'config-cycle tabs.show always never')
 config.bind('xx', 'config-cycle statusbar.show always never;; config-cycle tabs.show always never')

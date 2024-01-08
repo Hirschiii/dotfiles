@@ -10,18 +10,30 @@
 exec foot --server
 exec wl-paste -t text --watch clipman store
 exec_always dunst
+
+exec swayidle -w \
+        timeout 300  'swaylock -f' \
+        timeout 301  'swaymsg "output * dpms off"' \
+            resume   'swaymsg "output * dpms on"' \
+            # after-resume 'clamshell' \
+        before-sleep 'playerctl pause' \
+        before-sleep 'swaylock -f'
 # exec_always nm-applet
 # exec wl-paste -p -t text --watch clipman store -P --histpath="~/.local/share/clipman-primary.json"
 #
 # Logo key. Use Mod1 for Alt.
 set $mod Mod4
+
+bindsym $mod+Shift+q exec swaylock --ignore-empty-password --show-failed-attempts --color 1e1e1e --inside-color cccccc --ring-color ffffff --inside-clear-color 11a8cd --ring-clear-color 29b8db --inside-ver-color 2472c8 --ring-ver-color 3b8eea --inside-wrong-color cd3131 --ring-wrong-color f14c4c
 # Home row direction keys, like vim
 set $left h
 set $down j
 set $up k
 set $right l
 # Your preferred terminal emulator
+# set $term footclient
 set $term footclient
+set $browser firefox
 # Your preferred application launcher
 # Note: pass the final command to swaymsg so that the resulting window can be opened
 # on the original workspace that the command was run on.
@@ -48,7 +60,7 @@ output Unknown-1 scale 2
 
 input type:touchpad {
     # tap enable
-    dwt disabled
+    # dwt disabled
     natural_scroll disabled
 }
 
@@ -67,10 +79,18 @@ input type:keyboard {
   repeat_rate 45
 }
 
-# Mark XWayland
-for_window [shell=".*"] title_format "%title :: %shell"
 #
 # You can get the names of your outputs by running: swaymsg -t get_outputs
+
+#
+#No titlebars
+#
+default_floating_border pixel 2
+default_border pixel 2
+
+# Mark XWayland
+for_window [shell="xwayland"] title_format "%title :: %shell"
+for_window [shell="xwayland"] default_border normal 2
 
 ### Idle configuration
 #
@@ -103,11 +123,10 @@ for_window [shell=".*"] title_format "%title :: %shell"
 #
 # Basics:
 #
-    for_window [class="^.*"] border pixel 2
+#    for_window [class="^.*"] border pixel 2
 
-    
-gaps inner 10
-gaps outer 10
+gaps inner 0
+gaps outer 5
 
 # Multi Mediaa
 
@@ -118,7 +137,7 @@ bindsym XF86MonBrightnessUp exec light -A 10
     # Start a terminal
     bindsym $mod+Return exec $term
     bindsym $mod+Shift+Return exec $term -e tmux new-session -A -s default
-    bindsym $mod+w exec firefox
+    bindsym $mod+w exec $browser
 
 	bindsym $mod+Shift+w exec imv ~/.config/wall/*
 
@@ -299,5 +318,22 @@ bar {
 # client.urgent            $peach    $base $peach $overlay0  $peach
 # client.placeholder       $overlay0 $base $text  $overlay0  $overlay0
 # client.background        $base
+
+# More reasonable floating windows:
+
+
+
+for_window [app_id = "floating"] floating enable
+for_window [app_id = "floating_update"] floating enable, resize set width 1000px height 600px
+# for_window [class = "(?i)pinentry"] floating enable
+for_window [title = "Administrator privileges required"] floating enable
+
+# Firefox
+
+for_window [title = "About Mozilla Firefox"] floating enable
+for_window [app_id="firefox" title="Library"] floating enable, border pixel 1, sticky enable
+
+for_window [title = "Firefox - Sharing Indicator"] kill
+for_window [title = "Firefox — Sharing Indicator"] kill
 
 include /etc/sway/config.d/*

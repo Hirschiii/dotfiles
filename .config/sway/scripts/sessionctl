@@ -1,0 +1,59 @@
+#!/bin/sh
+
+echo "$0 $@"
+
+sessionctl_idle() {
+    killall swayidle || echo "Just starting"
+
+	echo "Sway idle"
+    swayidle -w \
+        timeout 300  'swaylock -f' \
+        timeout 301  'swaymsg "output * dpms off"' \
+            resume   'swaymsg "output * dpms on"' \
+            after-resume 'clamshell' \
+        before-sleep 'playerctl pause' \
+        before-sleep 'swaylock -f'
+}
+
+sway_sessionctl() {
+    case "$1" in
+        idle)
+            sessionctl_idle
+            ;;
+        lock)
+            playerctl pause
+            sleep 1
+            killall -s SIGUSR1 swayidle
+            ;;
+        instant_lock)
+            swaylock -f
+            ;;
+        logout)
+            swaymsg exit && exit
+            ;;
+        suspend)
+            systemctl suspend
+            ;;
+        reboot)
+            systemctl reboot
+            ;;
+        shutdown)
+            systemctl poweroff
+            ;;
+
+        *)
+            echo "Usage: $0 {lock|logout|suspend|reboot|shutdown}"
+            exit 2
+    esac
+}
+
+
+case "$XDG_CURRENT_DESKTOP" in
+    sway)
+        sway_sessionctl "$1"
+    ;;
+    *)
+		echo "TEs"
+        exit 1
+    ;;
+esac

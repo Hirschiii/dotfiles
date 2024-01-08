@@ -15,7 +15,7 @@ OTHER="02"
 
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=15'
 
-export PATH="$PATH:/home/niklas/.local/bin"
+export PATH="$PATH:/home/niklas/.local/bin:~/.local/bin/wm-scripts/"
 export ZK_NOTEBOOK_DIR=~/notes
 
 export EDITOR=nvim
@@ -94,7 +94,9 @@ setopt COMBINING_CHARS
 setopt NOBEEP
 
 # Basic auto/tab complete:
-autoload -U compinit
+autoload -U compinit promptinit
+compinit
+promptinit; prompt gentoo
 zstyle ':completion:*' menu select
 zmodload zsh/complist
 compinit
@@ -158,7 +160,7 @@ bindkey -v '^?' backward-delete-char
 [ -f "$HOME/.config/shell/taskwarrior.zsh" ] && source "$HOME/.config/shell/taskwarrior.zsh"
 [ -f "$HOME/.config/shell/quitcd.zsh" ] && source "$HOME/.config/shell/quitcd.zsh"
 [ -f "$HOME/.config/zsh/zsh-keybinding" ] && source "$HOME/.config/zsh/zsh-keybinding"
-[ -f "/usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" ] && source "/usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh"
+[ -f "/usr/share/zsh/site-functions/zsh-syntax-highlighting.zsh" ] && source "/usr/share/zsh/site-functions/zsh-syntax-highlighting.zsh"
 
 # Changing "ls" to "exa"
 alias ls='eza -l --color=always --group-directories-first' # my preferred listing
@@ -190,22 +192,6 @@ if [ "$(tty)" = "/dev/tty1" ]; then
     export `gnome-keyring-daemon --start --components=ssh`
     exec /usr/bin/sway > $XDG_RUNTIME_DIR/sway.log 2>&1
 fi
-
-# eval "$(starship init zsh)"
-
-# If not running interactively, do not do anything
-# [[ $- != *i* ]] && return
-# Otherwise start tmux
-# [[ -z "$TMUX" ]] && exec tmux
-
-# if command -v tmux &> /dev/null && [ -n "$PS1" ] && [[ ! "$TERM" =~ screen ]] && [[ ! "$TERM" =~ tmux ]] && [ -z "$TMUX" ]; then
-#   tmux a -t default || exec tmux new -s default && exit;
-# fi
-# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
-# [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-# eval "$(starship init zsh)"
-# Load zsh-syntax-highlighting; should be last.
-# eval "$(starship init zsh)"
 # fastfetch | blahaj -c gay
 # fortune && pokemon-colorscripts -r
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
