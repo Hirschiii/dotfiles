@@ -190,7 +190,7 @@ alias fgrep='fgrep --color=auto'
 if [ "$(tty)" = "/dev/tty1" ]; then
     export PATH=$PATH:~/bin
     export `gnome-keyring-daemon --start --components=ssh`
-    exec /usr/bin/sway > $XDG_RUNTIME_DIR/sway.log 2>&1
+    exec dbus-run-session /usr/bin/sway > $XDG_RUNTIME_DIR/sway.log 2>&1
 fi
 # fastfetch | blahaj -c gay
 # fortune && pokemon-colorscripts -r

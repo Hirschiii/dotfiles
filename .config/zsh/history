@@ -1,266 +1,3 @@
-doas dnf install texlive-scheme-context-11:svn59636-69.fc39.noarch
-doas dnf install texlive-scheme-full-11:svn54074-69.fc39.noarch
-cd projects/context
-context pararef.tex
-doas context pararef.tex
-cd t-crossref-0.9.3/
-zathura mtx-context-module.pdf
-vim mtx-context-module
-vim mtx-context-module.pdf
-firefox mtx-context-module.pdf
-cd .local/share/nvim/lazy/markdown-preview.nvim
-npm install
-taks
-mv draco ../src/utils
-mv draco ../../public
-mkdir 02
-cd 0
-cd 02
-cp main_a1.py main_a2.py
-vim main_a1
-vim main_a12
-vim main_a2.py
-vim test_input.txt
-python main_a1.py
-python main_a2.py
-vim impressum.astro
-vim small_about_us.astro
-vim mouse.js
-task project:school
-task project:school.valkyrie
-task 3 done
-task add project:school.valkyrie.website.index call to action
-task 37 annotate "neon glowing border"
-task add project:school.valkyrie.website analytics
-vim src/pages/index.astro
-task add project:school.valkyrie.website auto cursor for section
-cp ../astrowind/.editorconfig ../astrowind/.eslintignore ../astrowind/.eslintrc.js ../astrowind/.prettierignore ../astrowind/.prettierrc.js ./
-cd dist
-python -m http.server
-scp -r ./dist hirschii@draco.uberspace.de:/var/www/virtual/hirschiii/html/website
-scp -r ./dist hirschii@draco.uberspace.de:/var/www/virtual/hirschii/html/website
-nn -e
-doas dnf install eslint
-vim Utils.astro
-rm Nav.astro
-npm install --save-dev prettier prettier-plugin-astro
-prettier --write .
-npx prettier --write .
-cat .editorconfig
-npm install eslint
-git commit -m "update\
-"
-vim CallToAction.astro
-vim .prettierignore
-npm install prettier-plugin-astro
-npx prettier .
-npm i --save-dev prettier prettier-plugin-astro
-vim .prettierrc.js
-doas dnf install perttier
-npm init @eslint/config
-npm i --save-dev @types/three
-npm run build
-scp -r dist hirschii@draco.uberspace.de:/var/www/virtual/hirschii/html/website
-npx prettier ./wi
-npx prettier ./wip.astro
-npx prettier . --write
-vim wip.astro
-git commit -m "wip"
-nautilus h
-doas dnf install sc-im
-cd src
-sc-im
-vim 20231211_hall-sonde.csv\
-
-cat 20231211_hall-sonde.csv
-vim 20231211_hall-sonde.gp
-gnuplot ./20231211_hall-sonde.gp
-lx
-vim hall-sonde.md
-nautilus src
-pandoc hall-sonde.md -o out/out.pdf
-doas dnf install ncurses bison gcc make gnuplot 
-doas dnf install sigil
-cd notes/school/physk
-firefox graph.png
-rm -rf website_old_broken
-mv web_back website
-cd website
-git commit -m "footer"
-npx run build
-npx astro build
-scp -r dist hirschii@draco.uberspace.de:/var/www/virtual/hirschii/
-cal
-mv PowerPortalBakery\(6\).txt  CookieBackup.txt
-calc 
-doas dnf updat
-vim Downloads/Ch
-vim Downloads/ChatGPT-Mittelalter_Musik_Ã�berblick.md
-cd my
-cd musik
-vim musik_des_mittelalters.md
-mkdir out
-cd .config/sw
-cd .config/sww
-doas dnf install emcas
-doas dnf install emacs
-doas dnf search fira code
-doas dnf install fira-code-fonts.noarch
-emacs --version
-doas dnf search emcas
-doas dnf search emacs wayland
-doas dnf search emacs
-emacs --help
-emacs --help | grep X
-doas dnf search gtk wayland
-GDK_BACKEND=wayland emacs
-doas dnf remove emacs
-dnf copr enable deathwish/emacs-pgtk-nativecomp
-doas dnf copr enable deathwish/emacs-pgtk-nativecomp
-doas dnf install emacs\
-\
-
-export GDK_BACKEND=wayland
-fuzzel -h
-echo $GDK_BACKEND
-emacs -d wayland
-emacs
-echo $XDG_SESSION
-echo $XDG_SESSION_TYPE
-cd .do
-mv emacs emacs.ba
-rm emacs
-git clone --depth 1 https://github.com/doomemacs/doomemacs ~/.config/emacs
-~/.config/emacs/bin/doom install
-doom sync
-cd .config/emacs
-./doom sync
-tmux
-mkdir 03
-cd 03
-vim test.txt
-vim main_a1.py
-vim input.txt
-doas shutdown -h ow
-emacsclient -c
-mkdir -p systemd/user/
-vim systemd/user/emacs.service
-vim systemd/user
-systemctl --user start ema
-systemctl --user start ls
-ls systemd
-ls systemd/user
-doas systemctl --user start emacs
-doas systemctl --user start emacs.service
-systemctl --user start emacs.service
-emacs --fg-client
-doas dnf search emacs-waylan
-d
-doas dnf search emacs-wayland
-task add project:ideen microkontroller
-pandoc main.md -o out.pdf
-task 5 wait:2day
-task 5 mod wait:2day
-mkdir logik
-cd logik
-task add template script
-task 41 annotate "e.g for beamer prest"
-doas dnf thunderbird
-doas dnf install thunderbird
-vim ~/Downloads/ChatGPT-Kriegskommunismus_Präsentation_Themen.md
-vim Downloads/ChatGPT-Kriegskommunismus_Präsentation_Themen\(1\).md
-cd templates
-mkdir markdown_beamer
-cp pres.sh ~/templates/markdown_beamer
-cp ~/templates/markdown_beamer/pres.sh ./
-cat pres.
-cat pres.h
-./pres.sh
-cat pres.sh
-vim make
-mv make Make
-vim Make
-mv Make make
-mv make Makefile
-mv Makefile Makefile.ba
-make all
-rm Makefile.ba
-mkdir der_kriegskommunismus
-mv inbox.md pres.md
-rm pres.md
-cd out
-pandoc musik_des_mittelalters.md -o out/out.pdf
-firefox out/out.pdf
-doas dnf install ncspot
-nc
-ncspot
-doas systemctl --user restart app-cgroupify.slice pipewire-pulse.s
-doas systemctl --user restart app-cgroupify.slice pipewire-pulse.service
-doas systemctl --user restart app-cgroupify.slice pipewire.service
-padd
-doas dnf install pass
-pass init
-pass init niklasvonh@gmail.com
-gpg
-gpg --list
-gpg --help
-gpg --help | grep list
-gpg --list-keys
-pass init niklas@vonhirschfeld.eu
-pass add hirschii@draco.uberspace.de
-pass 
-pass hirschi
-cd /tmp
-vim test.html
-firefox test.html
-vim conatctform.astro
-cat widgets/Contact.astro
-mv conatctform.astro widgets/Contact.astro
-tsak
-pandoc -s --toc --listings --pdf-engine lualatex inbox.md -o out.pdf
-fc-list| grep Retina
-doas dnf install firacode
-doas dnf search firacode
-doas dnf install texlive-lstfiracode
-pandoc -s --pdf-engine lualatex inbox.md -o out.pdf
-vim monolog.txt
-doas dnf install update
-vim beweisen.md
-vim vim prädikatenlogik.md
-vim prädikatenlogik.md
-mv main.md regeln.md
-vim regeln.md
-pandoc -s --toc --engine lualatex regeln.md -o out.pdf
-pandoc -s --toc --latex-engine lualatex regeln.md -o out.pdf
-pandoc -s --toc --pdf-engine lualatex regeln.md -o out.pdf
-fc-list | grep hack
-fc-list | grep Hack
-TSfDM4nEamU5iMS4
-vim FluidBG.astro
-whoami
-git config --global user.email "niklas@vonhirschfeld.eu"
-git commit -m "konatk setup"
-cat Makefile
-make deploy
-cp impressum.astro datenschutz.astro
-vim datenschutz.astro
-task 34 delete
-git clone git@github.com:letoram/arcan.git
-git clone git@github.com:letoram/durden.git
-sudo pacman -S sqlite3 openal-soft sdl2 mesa luajit libdrm freetype2 harfbuzz libxkbcommon vlc ffmpeg leptonica tesseract libvncserver libusb1 v4l2loopback mupdf\
-
-sudo dnf install sqlite openal-soft SDL2 mesa-libGLU luajit gbm kms freetype harfbuzz libxkbcommon vlc ffmpeg leptonica tesseract libvncserver libusb v4l2loopback-tools mupdf\
-
-sudo dnf install sqlite openal-soft SDL2 mesa-libGLU luajit freetype harfbuzz libxkbcommon vlc-core ffmpeg leptonica-devel tesseract leptonica-devel libvncserver libusb libv4l mupdf-tools\
-
-sudo dnf install vlc ffmpeg\
-
-sudo dnf install sqlite openal-soft SDL2 mesa-libGLU luajit freetype harfbuzz libxkbcommon vlc-core leptonica-devel tesseract leptonica-devel libvncserver libusb libv4l
-sudo dnf install sqlite openal-soft SDL2 mesa-libGLU luajit freetype harfbuzz libxkbcommon leptonica-devel tesseract leptonica-devel libvncserver libusb libv4l
-cd arcan
-cd external/git
-./clone.sh
-cd ../../
 mkdir build
 cd build
 sudo dnf install freetype-devel\
@@ -275,9 +12,7 @@ sudo dnf install openal-soft-devel\
 
 sudo dnf install SDL2-devel\
 
-make -j8
 make -j4
-make install
 doas dnf install ffmpeg
 dnf -y install ffmpeg-devel
 ffmpeg
@@ -311,7 +46,6 @@ rsync -a --delete --exclude=.svn tug.org::tldevsrc/Build/source
 lsls
 wget https://lmtx.pragma-ade.com/install-lmtx/context-linux-64.zip
 unzip context-linux-64.zip
-vim install.sh
 rm -rf context/*
 wget https://lmtx.pragma-ade.com/install-lmtx/context-linux-aarch64.zip
 unzip context-linux-aarch64.zip
@@ -423,7 +157,6 @@ vim handout.md
 cd notes/school
 mkdir facharbeit
 cd facharbeit
-vim inbox.md
 cd der_kriegskommunismus
 pandoc presentation.md -o out.pdf
 firefox out
@@ -444,7 +177,6 @@ sudo systemctl enable powertop.service
 sudo dnf install tlp tlp-rdw
 doas systemctl start tlp.service
 doas systemctl enable tlp.service
-doas powertop
 git clone https://github.com/ayamir/nvimdots.git
 rm nvim nvim.bak
 ln -s ~/git/dotfiles/.config/nvim ./nvim
@@ -476,7 +208,6 @@ on -e
 doas powertop -h
 doas powertop -c
 traceroute www.google.de
-cd .config/nvim
 mkdir core keymap modules user_template
 cp ~/git/nvimdots/lua/core/* ./
 mkdir lua
@@ -493,9 +224,7 @@ pandoc -s handout.md -o handout.tex
 pandoc handout.md -o handout.tex
 vim handout.tex
 firefox output.pdf
-make 
 vim ~/Downloads/ChatGPT-Handout_zum_Kriegskommunismus.md
-ip a
 cd git/nvimdots
 rm formatters/*
 rm servers/*
@@ -528,7 +257,6 @@ touch ./*/themen.md
 doas dnf install nushell
 task add project:school.abitur Themen übersicht
 task 38 annotate "~/notes/abitur"
-nmtui
 hn -e
 mkdir notes/henning
 cp /tmp/1703076157_grim.png ~/notes/henning
@@ -571,9 +299,7 @@ vim bind.lua
 vim .config/nvim/lua/modules/plugins/tool.lua
 vim .config/nvim/lua/keymap
 http://localhost:4321/kontakt
-pass
 vim buffer_manager.lua
-npm run dev
 ssh hirschii@draco.uberspace.de
 mkdir api
 vim send_mail.php
@@ -587,7 +313,6 @@ vim src/pages
 
 vim .
 ivm
-make
 exit
 cd imv
 ninja -C build
@@ -609,9 +334,7 @@ doas vi /etc/portage/package.use/neovim
 daos emerge --ask neovim
 doas emerge --ask neovim
 doas emerge --ask wl-clipboard pynvim 
-nvim
 vim 
-./randwall.sh
 doas emerge --ask nnn
 cd .config/qutebrowser
 cd jmatrix
@@ -621,7 +344,6 @@ doas vim /etc/portage/package.accept_keywords/nnn
 doas vim /etc/portage/package.use/nnn
 cat /proc/cpuinfo
 doas vim /etc/portage/package.use/qutebrowser
-doas -s 
 clipman
 swaymsg -t get_tree
 python
@@ -649,16 +371,13 @@ find /usr/share -name "syntax"
 find /usr/share -name "*syntax*"
 doas emerge --ask fzf
 doas emerge --ask --deep --update --new-use --changed-use @world
-doas emerge --ask asahi-sources
 doas eselect news read
 mkdir git/dotfiles/.config/pipewire
-doas usermod -aG pipewire niklas
 cp /usr/share/pipewire/pipewire.conf git/dotfiles/.config/pi
 mv git/dotfiles/.config/pi git/dotfiles/.config/pipewire/pipewire.conf
 nohup gentoo-pipewire-launcher restart &
 wpctl set-volume @DEFAULT_SINK@ 2%+
 pw-metadata -n settings
-pactl info
 doas emerge --sync
 doas emerge --oneshot portage
 doas echo "media-sound/qpwgraph arm64" > /etc/portage/package.accept_keywords/qpwgraph
@@ -671,10 +390,8 @@ rm doas
 doas vim /etc/portage/package.accept_keywords/qpwgraph
 doas emerge --ask qpwgraph
 doas emerge --deselect qpwgraph
-doas emerge --ask pavucontrol
 doas emerge --oneshot foot
 echo $CFLAGS
-cd git
 git clone https://codeberg.org/dnkl/foot
 cd foot
 export CFLAGS="$CFLAGS -O3"
@@ -687,7 +404,6 @@ ninja
 ninja test
 ninja install
 doas emerge --ask speakersafetyd
-doas rc-update add speakersafetyd
 doas vim /etc/portage/make.
 doas vim /etc/portage/make.c
 doas vim /etc/portage/make.conf 
@@ -702,7 +418,6 @@ foot
 doas emerge --ask foot
 setsid foot --server
 pwd
-vim
 footclient -e la
 footclient -h
 footclient ls
@@ -730,7 +445,6 @@ doas emerge --ask powertop tlp
 doas powertop --calibrate
 doas powertop --autotune
 doas powertop --help
-doas powertop --auto-tune
 rc-update add tlp default
 doas rc-update add tlp default
 doas rc-service tlp start
@@ -752,10 +466,8 @@ ls ~/.l
 ls ~/.*
 cp -r wm-scripts ~/.local/bin
 echo $PATH
-vim .zshrc
 clamshell
 wm-scripts 
-cd .local/bin
 cd wm-scripts
 bash
 vim clamshell
@@ -798,7 +510,6 @@ exec swayidle -w \\
         before-sleep 'playerctl pause' \\
         before-sleep 'swaylock -f'\
 
-cd .config/sway
 jn -e
 swayidle -w \\
         timeout 0  'swaylock -f' \\
@@ -825,8 +536,6 @@ swayidle -w \\
 loginctl hybrid-sleep
 doas loginctl hybrid-sleep
 rc-update add elogind boot
-doas rc-update add elogind boot
-loginctl
 env | grep "XDG" 
 sway
 doas emerge --ask --deep --update --newuse --changed-use @world
@@ -853,14 +562,12 @@ cd worlds
 cd 
 unzip Bedrock_level_2023-12-31@12-16-53\ PM.zip
 cd data
-l
 s
 scp ./Downloads/Chunky-1.3.92.jar minecraft-runner@192.168.4.56:/home/minecraft-runner/paper/plugins/
 scp ./Downloads/Clearlag.jar minecraft-runner@192.168.4.56:/home/minecraft-runner/paper/plugins/
 ls Downloads
 scp Bedrock_level_2023-12-31@12-16-53\ PM.zip minecraft-runner@192.168.4.56:~/paper/
 cd .config/t
-cd git/dotfiles
 scp tmux niklas@192.168.4.56:~/
 scp -r tmux niklas@192.168.4.56:~/
 scp Downloads/ProtocolLib.jar minecraft-runner@192.168.4.56:~/paper/plugins/
@@ -894,73 +601,48 @@ doas umount /dev/sda2
 ls notes
 rm -rf notes
 git clone git@github.com:Hirschiii/notes.git
-ls -la
-cd ..
 rm He\ Invented\ a\ New\ Crime.\ The\ Insane\ Case\ of\ Randall\ Conroy\ \[PzvPi-ZnIjA\].webm
 ls worlds
 rm -rf worlds
 cat /usr/src/linux/arch/arm64/boot/dts/apple/*.dts
 cat /usr/src/linux/arch/arm64/boot/dts/apple/*.dtb
-lsblk
 udevil
 doas mount /dev/sda2
 doas mount /dev/sda2 /mnt
 doas cp -r /mnt/Backup/linux/20231226/niklas/notes/* ./notes
 doas chown -R niklas ./*
-LANG=C pactl info | grep "Server Name"
 lspci | grep -i audio 
-doas eselect news read 19
-doas rc-service speakersafetyd status
 wireplumber 
 pipewire
 pipewire -c pipewire-pulse.conf
 pw-cli s 32 Props '{ mute: false, channelVolumes: [ 0.3, 0.3 ] }'
 wpctl status
-wpctl
 wpctl set-default 32
 doas wpctl set-default 32
-pw-cli ls Node
 dmesg | grep -iE 'snd|sof'
 gentoo-pipewire-launcher &!
 gentoo-pipewire-launcher restart &!
-neofetch
 doas emerge --ask pipewire
-nohup gentoo-pipewire-launcher restart & 
 dmes
-dmesg
-cd notes
-git add .
 git config --global user.email "niklasvonh@gmail.com"
 git config --global user.name "Niklas von Hirschfeld:
 git config --global user.name "Niklas von Hirschfeld"
 git commit -m "init"
-git push
 mkdir  homeserver
 cd homeserver
 vim index.md
 doas emerge --ask app-portage/eix
-vim .local/bin/gentoo-updater
 eix nautilus
 ssh niklas@192.168.4.5
-reboot
-doas reboot
-gentoo-pipewire-launcher
-eix asahi-audio
-doas emerge --ask asahi-audio
-vim .config/sway
 ls /media
-ssh niklas@192.168.4.56
 cd .config
 cd
 cd git/dotfiles/.config
 scp -r nnn niklas@192.168.4.56:~/.config/
-pkill firefox
-doas shutdown -h now
 doas
 doas vim /etc/portage/package.accept_keywords
 rm /etc/portage/package.accept_keywords/00_arm64
 doas rm /etc/portage/package.accept_keywords/00_arm64
-doas eselect news list
 doas eselect news read 22
 doas vim /etc/portage/package.use/gcc
 doas emerge --oneshot sys-apps/portage
@@ -988,23 +670,10 @@ doas emerge --update --newuse --deep --with-bdeps=y @system
 doas emerge --update --newuse --deep @system
 doas vim /etc/portage/package.accept_keywords/glibc
 doas emerge --ask --update --newuse --deep @system
-doas vim /etc/portage/package.use/neovim
-cat .local/bin/gentoo-updater
-htop
-doas vim /etc/portage/package.use/pipewire
-n -e
-doas vim /etc/portage/package.use
 doas vim /etc/portage/package.use/f
 doas vim /etc/portage/package.use/firefox 
-doas vim /etc/portage/make.conf
-doas vim /etc/portage/package.use/sway
 firefox
-cat /sys/power/state
-doas cat /sys/power/state
-doas echo mem > /sys/power/state
 doas s
-doa s-s
-doas -s
 qutebrowser
 vim out.txt
 curl -F'file=./out.txt' https://0x0.st
@@ -1013,94 +682,50 @@ doas emerge --ask --deselect pipewire
 doas emerge --ask --deselect pulseaudio
 doas emerge --deselect asahi-audio
 doas emerge --deselect pavucontrol
-doas emerge --ask --verbose --update --newuse --deep @world
-doas dispatch-conf
-gentoo-updater
 doas emerge --update --newuse --deep --with-bdeps=y @world
 doas emerge --ask --deselect libxml2
 doas emerge --ask --deselect dev-libs/libxml2
 doas emerge --depclean dev-libs/libxml2
 doas emerge --unmerge dev-libs/libxml2
 doas emerge --update --newuse --deep --with-bdeps=y --backtrack=30 @world
-doas emerge --ask --update --newuse --deep --with-bdeps=y --backtrack=30 @world
 update-m1n1
-loginctl hibernate
-loginctl suspend
 doas vim /boot/grub/grub.cfg
-doas vim /etc/default/grub
-doas update-m1n1
 doas updatedb
 loginctl shutdonw
 loginctl poweroff
-doas vim /etc/portage/package.use/firefox
-ls
 vim importatn
-task
 doas emerge --ask --update --newuse --deep --with-bdeps=y --backtrack=30 @world
-gentoo-updater
-dmesg
 pactl
-pactl status
-doas shutdown -h now
 doas rm /var/db/repos/gentoo/metadata/timestamp.x
 vim .local/bin/gentoo-updater
-gentoo-updater
 eix libxml2
-ls
 cat importatn
 cat .local/bin/gentoo-updater
-doas vim /etc/portage/package.use/firefox
 doas emerge --ask --verbose --update --newuse --deep @world
-ssh niklas@192.168.4.56
-dmesg
 eix asahi-sources
 eix asahi-scripts
-doas emerge --ask asahi-sources
-neofetch
-doas vim /etc/portage/package.use/kernel
-cd /usr/src/linux
 cd ..
-cd linux
-ls
 make -j8
-make config
 make oldconfig
 doas make oldconig
 doas make oldconfig
 doas make -j8
-eix asahi-kernel
-doas emerge --ask asahi-kernel
-doas update-m1n1
-neofetch
 doas reboo
-cd /usr/src/linux
 doas make modules_install
-doas make install
-doas vim /etc/portage/package.use/kernel
 doas vim /etc/portage/package.use
 doas vim /etc/portage/package.use.ke
-doas vim /etc/portage/package.use/kernel
-doas eselect news list
-neofetch
-doas emerge --ask asahi-kernel
 doas eselect repository add outreach git https://github.com/getoutreach/overlay
 doas emaint sync --auto
 doas emerge -av asahi-kernel
-gentoo-updater
 doas emerge --ask --deep --update --newuse @world
-ssh niklas@192.168.4.56
-ls
 mkdir projects
 rm importatn
 cat no
 rm nohup.out out.txt
-doas vim /etc/portage/package.use/kernel
 doas vim /etc/portage/package.use/sway
 doas vim /etc/portage/package.use/firefox
 doas dmesg
 doas emerge --ask --update --deep --newuse @world
-cd projects
-dmesg
 cd .task/a
 cd .task/
 ls -la
@@ -1108,7 +733,6 @@ vim pass
 ssh niklas@192.168.4.56
 cd .config/ta
 cat p
-cat pass
 cd .task
 rm ca.cert.pem client.*
 scp root@192.168.4.56:/home/niklas/taskd/pki/niklas_von_hirschfeld* ./
@@ -1119,34 +743,23 @@ scp root@192.168.4.56:/home/niklas/taskd/pki/niklas_von_hirschfeld.cert.pem ./
 scp niklas@192.168.4.56:/home/niklas/niklas_von_hirschfeld.cert.pem ./
 scp niklas@192.168.4.56:/home/niklas/niklas_von_hirschfeld.key.pem ./
 scp niklas@192.168.4.56:/home/niklas/ca.cert.pem ./
-ls
-n -e
 task sync init
-task
 vim ../.taskrc
-task sync
 ssh gulugulu@aegaeon.uberspace.de
 doas vim /etc/portage/package.use/pass
 doas emerge --ask pass
-dispatch-conf
-doas dispatch-conf
-pass
 gpg --full-gen-key
 pass init niklas@vonhirschfeld.eu
 pass add ssh/gulugulu@aegaeon.uberspace.de
 pass add ssh/hirschii@draco.uberspace.de
 cd projects
 git clone git@github.com:Team-Valkyrie/website.git
-ls
-vim
 pass hi
 pass s
 pass
 pass ssh/hirschii@draco.uberspace.de
-n -e
 make 
 git commit -m "Fix Datenschutz / Impressum visibility"
-git push
 git show
 git branch -a
 git checkout
@@ -1158,8 +771,6 @@ git commit -m "test bracnhes"
 git push dev
 rm dev
 rm test
-ls
-git add .
 git commit -m "test compelte"
 git push origin dev
 mkdir f1_in_schools
@@ -1172,48 +783,24 @@ npm install
 npm run dev
 task context
 task
-cd git
 git clone git@github.com:wkrzywiec/kanban-board.git
 cd kanban-board
 ls kanban-ui
-ls
 vim docker-compose.yml
-htop
-cd /usr/src/linux
-doas -s
-loginctl suspend
-cat /sys/power/state
-doas cat /sys/power/state
 doas echo disk > /sys/power/state
 doa s-s
-doas -s
-neofetch
-doas shutdown -h now
 cd /usr/src
 cd linux
 make help
 cd /boot
-ls
-doas vim /etc/portage/make.conf
 eix grub
-doas grub-mkconfig -o /boot/grub/grub.cfg
-doas update-m1n1
-reboot
-doas reboot
 doas vim /etc/default/grub
-doas eselect kernel list
 doas -s 
 eix asahi-source
-neofetch
 cd /boot/
 mv vmlinuz-6.6.0-asahi-13-ARCH vmlinuz-6.6.0-asahi-13-BACKUP
 doas cp vmlinuz-6.6.0-asahi-13-ARCH vmlinuz-6.6.0-asahi-13-BACKUP
-ls
 doas grub-mkconfig -o /boot/grub/grub.cfg
-doas update-m1n1
-cd /usr/src/linux
-doas -s
-doas vim /etc/portage/package.use/kernel
 doas emerge --ask asahi-sources
 doas emerge --ask --update --deep --with-bdeps=y --newuse @world
 ls /usr/src
@@ -1223,21 +810,15 @@ ls /proc
 eix asahi-kernel
 emerge --ask asahi-kernel
 doas emerge --ask asahi-kernel
-cd /usr/src/linux
 cd ../linux-6.6.0_p13-asahi
-ls
 make config
-doas -s
-dmesg
 ls /var/lo
 ls /var/log
 vim /var/log/dmesg
 doas vim /var/log/dmesg
-cat /proc/kmsg
 doas vim /proc/kmsg
 cat /proc/kmsg
 doas cat /proc/kmsg
-doas -s
 doas emerge --ask asahi-configs
 eix asahi-config
 nproc
@@ -1245,97 +826,52 @@ doas dracut --force --quite --kver 6.6.0-asahi-14-ARCH --compress gzip
 ls /etc/dracut.conf.d
 cat /etc/dracut.conf.d/10-apple.conf
 doas dracut --force --quiet --kver 6.6.0-asahi-14-ARCH --compress gzip
-cd /usr/src/linux
-doas -s
-make -C /usr/src/linux -s kernelrelease
-doas -s
-neofetch
-cd .local/bin
-ls
 vim install.sh
-vim make_kernel.sh
 doas vim /etc/portage/package.use/kernel
 eix kmdo
 eix kmod
 doas emerge --ask kmod
 cp /usr/src/linux/.config /tmp/config_run
-cd /tmp
-wget https://raw.githubusercontent.com/AsahiLinux/PKGBUILDs/main/linux-asahi/config
 nvim --diff config config_run
 nvim -d config config_run
 vim .local/bin/m
-vim .local/bin/ma
-vim .local/bin/make_kernel.sh
 vim .local/bin
-cd /tmp
-vim config
-make -C /usr/src/linux -s kernelrelease
-doas -s
 vim .cn -e
-vim .local/bin/make_kernel.sh
 cd .local/bin
 doas ./make_kernel.sh
 vim make_kernel.sh
-doas -s
 cd .config/sway
-ls
 ./randwall.sh
-htop
 make -C /usr/src/linux -s kernelrelease
-cat /sys/power/state
-loginctl suspend
-neofetch
 cd /tmp
 wget https://raw.githubusercontent.com/AsahiLinux/PKGBUILDs/main/linux-asahi/config
 vim config
-cd /usr/src/linux
-doas -s
 vim .local/bin/ma
 vim .local/bin/make_kernel.sh
-neofetch
-cat /sys/power/state
 doas cat /sys/power/state
-loginctl suspend
 doas loginctl suspend
-cd /usr/src/linux
 doas vim .config
-doas -s
-loginctl suspend
-ls
 loginctl help
-loginctl hibernate
-cat /sys/power/state
 echo mem > /sys/power/state
 doas echo mem > /sys/power/state
-doas -s
 dmesg
 cat /sys/power/mem_sleep
-doas vim /etc/elogind/logind.conf
 cat /sys/power/disk
 cat /sys/power/resume
 lsblk
-doas -s
 acpid
 rc-config add thermald
 eix tlp
 eix thermald
-doas rc-service tlp status
-doas vim /etc/portage/make.conf
 eix powertop
 doas emerge --ask powertop
 doas rc-service acpid status
-doas vim /etc/portage/make.conf
-loginctl suspend
 cat /sys/power/state
 loginctl
 eix -s suspend
 emerge --ask suspend
 doas emerge --ask suspend
-loginctl hibernate
-reboot
-loginctl reboot
 doas vim /etc/elogind/logind.conf
-doas vim /etc/portage/make.conf
 doas emerge --ask acpi
 cat /sys/devices/system/cpu/cpu0/cpufreq
 cat /sys/devices/system/cpu/cpu0/cpufreq/sc
@@ -1346,30 +882,20 @@ doas emerge --ask cpupower
 cpupower
 cpupower info
 cpupower monitor
-doas -s
 gentoo-updater
-doas shutdown -h now
 task sync
 ssh niklas@192.168.5.19
-doas shutdown -h now
-eix asahi-audio
 doas emerge --ask asahi-audio
-doas vim /etc/portage/package.accept_keywords/audio
 doas vim /etc/portage/package.use/pipewire
 eix speaker
 doas rc-update add speakersafetyd
 reboot
 doas reboot
-gentoo-pipewire-launcher
 doas emerge --ask pavuconrtol
-doas emerge --ask pavucontrol
-pkill firefox
 doas usermod -aG pipewire niklas
 neofetch
 wpctl
 pw-cli ls Node
-cd /usr/src/linux
-doas -s
 pactl list card
 pactl list cards
 doas fuser -v /dev/snd/*
@@ -1378,7 +904,6 @@ pactl
 pactl info
 LANG=C pactl info | grep "Server Name"
 lspci | grep -i audio
-lspci
 eix asahi-audo
 eix asahi-audio
 doas vim /usr/share/pipewire/pipewire.conf
@@ -1390,10 +915,8 @@ doas make
 make install
 doas make install
 nohup gentoo-pipewire-launcher restart & 
-pactl list sinks
 gentoo-pipewire-launcher restart &
 disown
-htop
 doas eselect news list
 doas eselect news read 18
 doas eselect news read 19
@@ -1410,9 +933,99 @@ doas emerge --ask asahi-firmware
 doas asahi-fwupdate
 doas update-m1n1
 gentoo-pipewire-launcher
-loginctl suspend
 loginctl hibernate
 lspci
 cd /usr/src/linux
+nvim
+cd .config/nvim
+cd lua
+cd git/dotfiles
+git add .
+git commit -m "update"
+git push
+cat pass
+rm pass
+cd notes
+vim
+ping www.google.de
+eix nm-connection-editor
+eix nm-
+eix connection editor
+ip a
+light
+cat /sys/class/backlight/
+ls /sys/class/backlight
+doas -
+swaymsg output Unknown-1 disable
+swayidle -
+swayidle -h
+vim .config/sway
+doas emerge -ask light
+doas emerge --ask light
+doas emerge --ask light --auto=mask
+doas emerge --ask light --auto-ask
+doas emerge --ask light --automask
+doas emerge --ask light --automask y
+doas emerge --ask --automask y light
+doas vim /etc/portage/package.accept_keywords/light
+htop
+doas rc-service tlp status
+eix -s xdg
+doas emerge --ask xdg-desktop-portal
+pkill nm-applet
+vim .config/sway/config
+doas vim /etc/portage/package.use/networkmanager
+doas emerge --ask --update --newuse networkmanager
+doas emerge --ask --update --newuse --deep @world
+doas rc-service dhcpcd status
+doas rc-update remove dhcpcd
+doas rc-update 
+doas rc-update help
+doas rc-update -h
+doas rc-update del dhcpcd
+doas rc-update show dhcpcd
+eix nm-applet
+doas vim /etc/portage/package.use/nm-applet
+doas gpasswd -a niklas plugdev
 doas -s
+doas shutdown -h no
+swaymsg output Unknown-1 enable
+pkill sway
+mkdir 1_hj_2023
+mv dangers_of_twitter jimcrow \#inbox.md\# inbox.md monolog.txt out.pdf 1_hj_2023 
+ls
+vim inbox.md
+mntui
+doas powertop
+loginctl suspend
 doas shutdown -h now
+dbus-send --session --print-reply --dest=org.freedesktop.DBus /org/freedesktop/DBus org.freedesktop.DBus.ListNames | sed '/string/!d; s/^\s*string //g'
+loginctl status
+loginctl 
+doas powertop --auto-tune
+dbus-monitor
+doas rc-update add elogind boot
+vim .zshrc
+doas rc-service
+doas rc-service show
+doas rc-service list
+doas rc-service -h
+doas rc-service -l
+doas emerge --ask plasma-nm
+doas rc-update del dhcpcd default
+dbus-launch --sh-syntax --exit-with-session
+nm-applet -h
+doas emerge --ask traystandalone
+export GDK_BACKEND=wayland
+export GDK_BACKEND=wayland 
+vim .xinitrc
+doas emerge --ask nm-applet
+nm-applet
+nmtui
+nmcli connections
+nmcli connection
+nmcli
+doas vim /etc/portage/package.use/ne
+doas vim /etc/portage/package.use/neovim
+doas vim /etc/portage/make.conf
+gentoo-updater
