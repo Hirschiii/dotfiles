@@ -1034,3 +1034,4 @@ eix make
 eix dev-build/make
 dmesg --console-off
 doas dmesg --console-off
+vim
