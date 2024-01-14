@@ -5,6 +5,7 @@ export MOZ_ENABLE_WAYLAND=1
 
 export PATH="$PATH:~/.local/share/gem/ruby/3.0.0/bin:~/go/bin/:$HOME/zk/bin:~/.local/bin/wm-scripts/"
 export PATH="$PATH:$HOME/env/bin/:$HOME/git/lua-language-server/bin/"
+export PATH="$PATH:/opt/gradle/gradle-8.5/bin"
 
 
 

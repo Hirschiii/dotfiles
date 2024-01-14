@@ -166,7 +166,7 @@ report._reviewed.columns=uuid
 report._reviewed.sort=reviewed+,modified+
 report._reviewed.filter=( reviewed.none: or reviewed.before:now-6days ) and ( +PENDING or +WAITING )
 
-context.school.read=project:school
+context.school.read=project:school project.not:school.valkyrie
 context.school.write=project:school
 context.personal.read=project.not:school project.not:henning project.not:fun -fun
 context.henning.read=project:henning

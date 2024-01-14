@@ -7,7 +7,8 @@
 # Read `man 5 sway` for a complete reference.
 
 ### Variables
-exec foot --server
+exec gentoo-pipewire-launcher &
+# exec foot --server
 exec wl-paste -t text --watch clipman store
 exec_always dunst
 
@@ -34,7 +35,7 @@ set $up k
 set $right l
 # Your preferred terminal emulator
 # set $term footclient
-set $term footclient
+set $term alacritty
 set $browser firefox
 # Your preferred application launcher
 # Note: pass the final command to swaymsg so that the resulting window can be opened
@@ -332,10 +333,10 @@ for_window [title = "Administrator privileges required"] floating enable
 
 # Firefox
 
-for_window [title = "About Mozilla Firefox"] floating enable
-for_window [app_id="firefox" title="Library"] floating enable, border pixel 1, sticky enable
-
-for_window [title = "Firefox - Sharing Indicator"] kill
-for_window [title = "Firefox — Sharing Indicator"] kill
+# for_window [title = "About Mozilla Firefox"] floating enable
+# for_window [app_id="firefox" title="Library"] floating enable, border pixel 1, sticky enable
+#
+# for_window [title = "Firefox - Sharing Indicator"] kill
+# for_window [title = "Firefox — Sharing Indicator"] kill
 
 include /etc/sway/config.d/*

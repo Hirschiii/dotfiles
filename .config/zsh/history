@@ -1,642 +1,7 @@
-mkdir build
-cd build
-sudo dnf install freetype-devel\
-
-sudo dnf install sqlite-devel\
-
-sudo dnf install mesa-libGL-devel\
-
-sudo dnf install libdrm-devel
-sudo dnf install mesa-libgbm-devel
-sudo dnf install openal-soft-devel\
-
-sudo dnf install SDL2-devel\
-
-make -j4
-doas dnf install ffmpeg
-dnf -y install ffmpeg-devel
-ffmpeg
-sudo dnf -y install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm
-sudo dnf -y install https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
-doas dnf -y install ffmpeg-devel
-doas dnf -y install ffmpeg ffmpeg-devel
-sudo dnf install ffmpeg-free
-cmake -DBUILD_PRESET="everything" ../src
-doas dnf search lib vlc
-rm -rf arcan
-mkdir contex
-mv contex context
-unzip ~/Downloads/context-linux-aarch64.zip
-sh install
-mtxrun --generate
-tree | grep thir
-tree | grep third
-tree | grep t-
-cd /usr/share/tex
-cd /usr/share/texlive
-rm -rf context
-wget http://minimals.contextgarden.net/setup/first-setup.sh
-mtxrun --script install-mmodules --list
-ls | grep install
-mtxrun --script ./install-mmodules --list
-cd /usr/share
-cd tex
-cd texlive
-rsync -a --delete --exclude=.svn tug.org::tldevsrc/Build/source
-lsls
-wget https://lmtx.pragma-ade.com/install-lmtx/context-linux-64.zip
-unzip context-linux-64.zip
-rm -rf context/*
-wget https://lmtx.pragma-ade.com/install-lmtx/context-linux-aarch64.zip
-unzip context-linux-aarch64.zip
-sh install.sh
-./texmf-linux-aarch64/bin/mtxrun --scripts intstall-moduels --list
---script install-modules --list
-./texmf-linux-aarch64/bin/mtxrun --script install-modules --list
-mtxrun --script install-modules --list
-mtxrun --script install-modules --install pararef
-mtxrun --script install-modules --install all
-mtxrun --script install-modules --install --all
-./texmf-linux-aarch64/bin/mtxrun --script install-modules --install --all
-tree | grep para
-tree | grep pararef
-tree | grep cross
-find cros
-./texmf-linux-aarch64/bin/mtxrun --script install-modules --install pararef
-task 5 done
-mkdir context
-cd context
-vim in
-pandoc inbox.md -o out.pdf
-git clone git@github.com:ayamir/nvimdots.git
-rm nvim.bak/
-ls nvim*
-rm nvim.bak
-las
-ln -s ~/git/nvim ./nvim
-nvim -h
-nvim -u ./init.lua
-git clone git@github.com:glepnir/nvim.git
-tmux-sessionizer
-cd .config/
-ln -s ~/git/nvimdots ./nvim
-rm -rf nvim.bak
-mv nvim nvim.bak
-mv ~/git/nvimdots ./nvim
-rm -rf .git .github .gitignore 
-task 33 done
-mkdir testlauf
-cd testlauf
-vim test.java
-mv test.java testlauf.java
-vim testlauf.java
-java testlauf
-java testlauf 1
-java testlauf 3
-java testlauf 5
-java testlauf 
-java testlauf 2
-java testlauf 10
-java testlauf s 10
-task 
-task 29 done
-calc
-javac testlauf.java
-java testlauf p 21
-java testlauf s 20
-java testlauf s 6
-java testlauf s 80
-java testlauf s 100
-java testlauf d 100
-java testlauf p 100
-java testlauf p 10
-java testlauf p 20
-java testlauf p 30
-java testlauf p 40
-java testlauf p 50
-java testlauf p 90
-java testlauf p 80
-java testlauf p 70
-java testlauf p 
-java testlauf p 60
-java testlauf p 66
-java testlauf p 65
-ln -s ~/git/dotfiles/.config/nvim.bak nvim
-mv Makefile ~/templates/markdown_beamer
-mv ~/templates/markdown_beamer/Makefile ./
-cp Makefile ~/templates/markdown_beamer
-cp Makefile ../../english/dangers_of_twitter
-doas dnf search hack nerd
-git clone https://github.com/ryanoasis/nerd-fonts.git
-rm -rf neovim
-doas dnf search vym
-doas dnf install vym
-cd templates/markdown_beamer
-mv markdown_beamer dangers_of_twitter
-cd dangers_of_twitter
-vim pres.md
-mv pres.md presentation.md
-cd Downloads/FiraCode
-cp ./Fira\ Code\ Bold\ Nerd\ Font\ Complete\ Mono.ttf ./Fira\ Code\ Bold\ Nerd\ Font\ Complete\ Mono\ Windows\ Compatible.ttf ./Fira\ Code\ Bold\ Nerd\ Font\ Complete.ttf ./Fira\ Code\ Bold\ Nerd\ Font\ Complete\ Windows\ Compatible.ttf ./Fira\ Code\ Light\ Nerd\ Font\ Complete\ Mono.ttf ./Fira\ Code\ Light\ Nerd\ Font\ Complete\ Mono\ Windows\ Compatible.ttf ./Fira\ Code\ Light\ Nerd\ Font\ Complete.ttf ./Fira\ Code\ Light\ Nerd\ Font\ Complete\ Windows\ Compatible.ttf ./Fira\ Code\ Medium\ Nerd\ Font\ Complete\ Mono.ttf ./Fira\ Code\ Medium\ Nerd\ Font\ Complete\ Mono\ Windows\ Compatible.ttf ./Fira\ Code\ Medium\ Nerd\ Font\ Complete.ttf ./Fira\ Code\ Medium\ Nerd\ Font\ Complete\ Windows\ Compatible.ttf ./Fira\ Code\ Regular\ Nerd\ Font\ Complete\ Mono.ttf ./Fira\ Code\ Regular\ Nerd\ Font\ Complete\ Mono\ Windows\ Compatible.ttf ./Fira\ Code\ Regular\ Nerd\ Font\ Complete.ttf ./Fira\ Code\ Regular\ Nerd\ Font\ Complete\ Windows\ Compatible.ttf ./Fira\ Code\ Retina\ Nerd\ Font\ Complete\ Mono.ttf ./Fira\ Code\ Retina\ Nerd\ Font\ Complete\ Mono\ Windows\ Compatible.ttf ./Fira\ Code\ Retina\ Nerd\ Font\ Complete.ttf ./Fira\ Code\ Retina\ Nerd\ Font\ Complete\ Windows\ Compatible.ttf ./Fira\ Code\ SemiBold\ Nerd\ Font\ Complete\ Mono.ttf ./Fira\ Code\ SemiBold\ Nerd\ Font\ Complete\ Mono\ Windows\ Compatible.ttf ./Fira\ Code\ SemiBold\ Nerd\ Font\ Complete.ttf ./Fira\ Code\ SemiBold\ Nerd\ Font\ Complete\ Windows\ Compatible.ttf ~/.local/share/fonts/
-rm ./PowerPortalBakery*
-rm ./RighteousTurtleBakery
-rm ./RighteousTurtleBakery*
-cd JetBrainsMono
-cp ./JetBrains\ Mono\ Bold\ Italic\ Nerd\ Font\ Complete\ Mono.ttf ./JetBrains\ Mono\ Bold\ Italic\ Nerd\ Font\ Complete\ Mono\ Windows\ Compatible.ttf ./JetBrains\ Mono\ Bold\ Italic\ Nerd\ Font\ Complete.ttf ./JetBrains\ Mono\ Bold\ Italic\ Nerd\ Font\ Complete\ Windows\ Compatible.ttf ./JetBrains\ Mono\ Bold\ Nerd\ Font\ Complete\ Mono.ttf ./JetBrains\ Mono\ Bold\ Nerd\ Font\ Complete\ Mono\ Windows\ Compatible.ttf ./JetBrains\ Mono\ Bold\ Nerd\ Font\ Complete.ttf ./JetBrains\ Mono\ Bold\ Nerd\ Font\ Complete\ Windows\ Compatible.ttf ./JetBrains\ Mono\ ExtraBold\ Italic\ Nerd\ Font\ Complete\ Mono.ttf ./JetBrains\ Mono\ ExtraBold\ Italic\ Nerd\ Font\ Complete\ Mono\ Windows\ Compatible.ttf ./JetBrains\ Mono\ ExtraBold\ Italic\ Nerd\ Font\ Complete.ttf ./JetBrains\ Mono\ ExtraBold\ Italic\ Nerd\ Font\ Complete\ Windows\ Compatible.ttf ./JetBrains\ Mono\ ExtraBold\ Nerd\ Font\ Complete\ Mono.ttf ./JetBrains\ Mono\ ExtraBold\ Nerd\ Font\ Complete\ Mono\ Windows\ Compatible.ttf ./JetBrains\ Mono\ ExtraBold\ Nerd\ Font\ Complete.ttf ./JetBrains\ Mono\ ExtraBold\ Nerd\ Font\ Complete\ Windows\ Compatible.ttf ./JetBrains\ Mono\ ExtraLight\ Italic\ Nerd\ Font\ Complete\ Mono.ttf ./JetBrains\ Mono\ ExtraLight\ Italic\ Nerd\ Font\ Complete\ Mono\ Windows\ Compatible.ttf ./JetBrains\ Mono\ ExtraLight\ Italic\ Nerd\ Font\ Complete.ttf ./JetBrains\ Mono\ ExtraLight\ Italic\ Nerd\ Font\ Complete\ Windows\ Compatible.ttf ./JetBrains\ Mono\ ExtraLight\ Nerd\ Font\ Complete\ Mono.ttf ./JetBrains\ Mono\ ExtraLight\ Nerd\ Font\ Complete\ Mono\ Windows\ Compatible.ttf ./JetBrains\ Mono\ ExtraLight\ Nerd\ Font\ Complete.ttf ./JetBrains\ Mono\ ExtraLight\ Nerd\ Font\ Complete\ Windows\ Compatible.ttf ./JetBrains\ Mono\ Italic\ Nerd\ Font\ Complete\ Mono.ttf ./JetBrains\ Mono\ Italic\ Nerd\ Font\ Complete\ Mono\ Windows\ Compatible.ttf ./JetBrains\ Mono\ Italic\ Nerd\ Font\ Complete.ttf ./JetBrains\ Mono\ Italic\ Nerd\ Font\ Complete\ Windows\ Compatible.ttf ./JetBrains\ Mono\ Light\ Italic\ Nerd\ Font\ Complete\ Mono.ttf ./JetBrains\ Mono\ Light\ Italic\ Nerd\ Font\ Complete\ Mono\ Windows\ Compatible.ttf ./JetBrains\ Mono\ Light\ Italic\ Nerd\ Font\ Complete.ttf ./JetBrains\ Mono\ Light\ Italic\ Nerd\ Font\ Complete\ Windows\ Compatible.ttf ./JetBrains\ Mono\ Light\ Nerd\ Font\ Complete\ Mono.ttf ./JetBrains\ Mono\ Light\ Nerd\ Font\ Complete\ Mono\ Windows\ Compatible.ttf ./JetBrains\ Mono\ Light\ Nerd\ Font\ Complete.ttf ./JetBrains\ Mono\ Light\ Nerd\ Font\ Complete\ Windows\ Compatible.ttf ./JetBrains\ Mono\ Medium\ Italic\ Nerd\ Font\ Complete\ Mono.ttf ./JetBrains\ Mono\ Medium\ Italic\ Nerd\ Font\ Complete\ Mono\ Windows\ Compatible.ttf ./JetBrains\ Mono\ Medium\ Italic\ Nerd\ Font\ Complete.ttf ./JetBrains\ Mono\ Medium\ Italic\ Nerd\ Font\ Complete\ Windows\ Compatible.ttf ./JetBrains\ Mono\ Medium\ Nerd\ Font\ Complete\ Mono.ttf ./JetBrains\ Mono\ Medium\ Nerd\ Font\ Complete\ Mono\ Windows\ Compatible.ttf ./JetBrains\ Mono\ Medium\ Nerd\ Font\ Complete.ttf ./JetBrains\ Mono\ Medium\ Nerd\ Font\ Complete\ Windows\ Compatible.ttf ./JetBrains\ Mono\ NL\ Bold\ Italic\ Nerd\ Font\ Complete\ Mono.ttf ./JetBrains\ Mono\ NL\ Bold\ Italic\ Nerd\ Font\ Complete\ Mono\ Windows\ Compatible.ttf ./JetBrains\ Mono\ NL\ Bold\ Italic\ Nerd\ Font\ Complete.ttf ./JetBrains\ Mono\ NL\ Bold\ Italic\ Nerd\ Font\ Complete\ Windows\ Compatible.ttf ./JetBrains\ Mono\ NL\ Bold\ Nerd\ Font\ Complete\ Mono.ttf ./JetBrains\ Mono\ NL\ Bold\ Nerd\ Font\ Complete\ Mono\ Windows\ Compatible.ttf ./JetBrains\ Mono\ NL\ Bold\ Nerd\ Font\ Complete.ttf ./JetBrains\ Mono\ NL\ Bold\ Nerd\ Font\ Complete\ Windows\ Compatible.ttf ./JetBrains\ Mono\ NL\ ExtraBold\ Italic\ Nerd\ Font\ Complete\ Mono.ttf ./JetBrains\ Mono\ NL\ ExtraBold\ Italic\ Nerd\ Font\ Complete\ Mono\ Windows\ Compatible.ttf ./JetBrains\ Mono\ NL\ ExtraBold\ Italic\ Nerd\ Font\ Complete.ttf ./JetBrains\ Mono\ NL\ ExtraBold\ Italic\ Nerd\ Font\ Complete\ Windows\ Compatible.ttf ./JetBrains\ Mono\ NL\ ExtraBold\ Nerd\ Font\ Complete\ Mono.ttf ./JetBrains\ Mono\ NL\ ExtraBold\ Nerd\ Font\ Complete\ Mono\ Windows\ Compatible.ttf ./JetBrains\ Mono\ NL\ ExtraBold\ Nerd\ Font\ Complete.ttf ./JetBrains\ Mono\ NL\ ExtraBold\ Nerd\ Font\ Complete\ Windows\ Compatible.ttf ./JetBrains\ Mono\ NL\ ExtraLight\ Italic\ Nerd\ Font\ Complete\ Mono.ttf ./JetBrains\ Mono\ NL\ ExtraLight\ Italic\ Nerd\ Font\ Complete\ Mono\ Windows\ Compatible.ttf ./JetBrains\ Mono\ NL\ ExtraLight\ Italic\ Nerd\ Font\ Complete.ttf ./JetBrains\ Mono\ NL\ ExtraLight\ Italic\ Nerd\ Font\ Complete\ Windows\ Compatible.ttf ./JetBrains\ Mono\ NL\ ExtraLight\ Nerd\ Font\ Complete\ Mono.ttf ./JetBrains\ Mono\ NL\ ExtraLight\ Nerd\ Font\ Complete\ Mono\ Windows\ Compatible.ttf ./JetBrains\ Mono\ NL\ ExtraLight\ Nerd\ Font\ Complete.ttf ./JetBrains\ Mono\ NL\ ExtraLight\ Nerd\ Font\ Complete\ Windows\ Compatible.ttf ./JetBrains\ Mono\ NL\ Italic\ Nerd\ Font\ Complete\ Mono.ttf ./JetBrains\ Mono\ NL\ Italic\ Nerd\ Font\ Complete\ Mono\ Windows\ Compatible.ttf ./JetBrains\ Mono\ NL\ Italic\ Nerd\ Font\ Complete.ttf ./JetBrains\ Mono\ NL\ Italic\ Nerd\ Font\ Complete\ Windows\ Compatible.ttf ./JetBrains\ Mono\ NL\ Light\ Italic\ Nerd\ Font\ Complete\ Mono.ttf ./JetBrains\ Mono\ NL\ Light\ Italic\ Nerd\ Font\ Complete\ Mono\ Windows\ Compatible.ttf ./JetBrains\ Mono\ NL\ Light\ Italic\ Nerd\ Font\ Complete.ttf ./JetBrains\ Mono\ NL\ Light\ Italic\ Nerd\ Font\ Complete\ Windows\ Compatible.ttf ./JetBrains\ Mono\ NL\ Light\ Nerd\ Font\ Complete\ Mono.ttf ./JetBrains\ Mono\ NL\ Light\ Nerd\ Font\ Complete\ Mono\ Windows\ Compatible.ttf ./JetBrains\ Mono\ NL\ Light\ Nerd\ Font\ Complete.ttf ./JetBrains\ Mono\ NL\ Light\ Nerd\ Font\ Complete\ Windows\ Compatible.ttf ./JetBrains\ Mono\ NL\ Medium\ Italic\ Nerd\ Font\ Complete\ Mono.ttf ./JetBrains\ Mono\ NL\ Medium\ Italic\ Nerd\ Font\ Complete\ Mono\ Windows\ Compatible.ttf ./JetBrains\ Mono\ NL\ Medium\ Italic\ Nerd\ Font\ Complete.ttf ./JetBrains\ Mono\ NL\ Medium\ Italic\ Nerd\ Font\ Complete\ Windows\ Compatible.ttf ./JetBrains\ Mono\ NL\ Medium\ Nerd\ Font\ Complete\ Mono.ttf ./JetBrains\ Mono\ NL\ Medium\ Nerd\ Font\ Complete\ Mono\ Windows\ Compatible.ttf ./JetBrains\ Mono\ NL\ Medium\ Nerd\ Font\ Complete.ttf ./JetBrains\ Mono\ NL\ Medium\ Nerd\ Font\ Complete\ Windows\ Compatible.ttf ./JetBrains\ Mono\ NL\ Regular\ Nerd\ Font\ Complete\ Mono.ttf ./JetBrains\ Mono\ NL\ Regular\ Nerd\ Font\ Complete\ Mono\ Windows\ Compatible.ttf ./JetBrains\ Mono\ NL\ Regular\ Nerd\ Font\ Complete.ttf ./JetBrains\ Mono\ NL\ Regular\ Nerd\ Font\ Complete\ Windows\ Compatible.ttf ./JetBrains\ Mono\ NL\ SemiBold\ Italic\ Nerd\ Font\ Complete\ Mono.ttf ./JetBrains\ Mono\ NL\ SemiBold\ Italic\ Nerd\ Font\ Complete\ Mono\ Windows\ Compatible.ttf ./JetBrains\ Mono\ NL\ SemiBold\ Italic\ Nerd\ Font\ Complete.ttf ./JetBrains\ Mono\ NL\ SemiBold\ Italic\ Nerd\ Font\ Complete\ Windows\ Compatible.ttf ./JetBrains\ Mono\ NL\ SemiBold\ Nerd\ Font\ Complete\ Mono.ttf ./JetBrains\ Mono\ NL\ SemiBold\ Nerd\ Font\ Complete\ Mono\ Windows\ Compatible.ttf ./JetBrains\ Mono\ NL\ SemiBold\ Nerd\ Font\ Complete.ttf ./JetBrains\ Mono\ NL\ SemiBold\ Nerd\ Font\ Complete\ Windows\ Compatible.ttf ./JetBrains\ Mono\ NL\ Thin\ Italic\ Nerd\ Font\ Complete\ Mono.ttf ./JetBrains\ Mono\ NL\ Thin\ Italic\ Nerd\ Font\ Complete\ Mono\ Windows\ Compatible.ttf ./JetBrains\ Mono\ NL\ Thin\ Italic\ Nerd\ Font\ Complete.ttf ./JetBrains\ Mono\ NL\ Thin\ Italic\ Nerd\ Font\ Complete\ Windows\ Compatible.ttf ./JetBrains\ Mono\ NL\ Thin\ Nerd\ Font\ Complete\ Mono.ttf ./JetBrains\ Mono\ NL\ Thin\ Nerd\ Font\ Complete\ Mono\ Windows\ Compatible.ttf ./JetBrains\ Mono\ NL\ Thin\ Nerd\ Font\ Complete.ttf ./JetBrains\ Mono\ NL\ Thin\ Nerd\ Font\ Complete\ Windows\ Compatible.ttf ./JetBrains\ Mono\ Regular\ Nerd\ Font\ Complete\ Mono.ttf ./JetBrains\ Mono\ Regular\ Nerd\ Font\ Complete\ Mono\ Windows\ Compatible.ttf ./JetBrains\ Mono\ Regular\ Nerd\ Font\ Complete.ttf ./JetBrains\ Mono\ Regular\ Nerd\ Font\ Complete\ Windows\ Compatible.ttf ./JetBrains\ Mono\ SemiBold\ Italic\ Nerd\ Font\ Complete\ Mono.ttf ./JetBrains\ Mono\ SemiBold\ Italic\ Nerd\ Font\ Complete\ Mono\ Windows\ Compatible.ttf ./JetBrains\ Mono\ SemiBold\ Italic\ Nerd\ Font\ Complete.ttf ./JetBrains\ Mono\ SemiBold\ Italic\ Nerd\ Font\ Complete\ Windows\ Compatible.ttf ./JetBrains\ Mono\ SemiBold\ Nerd\ Font\ Complete\ Mono.ttf ./JetBrains\ Mono\ SemiBold\ Nerd\ Font\ Complete\ Mono\ Windows\ Compatible.ttf ./JetBrains\ Mono\ SemiBold\ Nerd\ Font\ Complete.ttf ./JetBrains\ Mono\ SemiBold\ Nerd\ Font\ Complete\ Windows\ Compatible.ttf ./JetBrains\ Mono\ Thin\ Italic\ Nerd\ Font\ Complete\ Mono.ttf ./JetBrains\ Mono\ Thin\ Italic\ Nerd\ Font\ Complete\ Mono\ Windows\ Compatible.ttf ./JetBrains\ Mono\ Thin\ Italic\ Nerd\ Font\ Complete.ttf ./JetBrains\ Mono\ Thin\ Italic\ Nerd\ Font\ Complete\ Windows\ Compatible.ttf ./JetBrains\ Mono\ Thin\ Nerd\ Font\ Complete\ Mono.ttf ./JetBrains\ Mono\ Thin\ Nerd\ Font\ Complete\ Mono\ Windows\ Compatible.ttf ./JetBrains\ Mono\ Thin\ Nerd\ Font\ Complete.ttf ./JetBrains\ Mono\ Thin\ Nerd\ Font\ Complete\ Windows\ Compatible.ttf ~/.local/share/fonts
-firefox Downloads/seven\ methods\ of\ killing\ kylie\ jenner.pdf
-mkdir pow
-cd pow
-cp -r ~/templates/markdown_beamer ./
-mv markdown_beamer social_media
-cd social_media
-rm pres.sh
-vim presentation.md
-cp Downloads/DALL·E\ 2023-12-18\ 13.04.13\ -\ Modify\ the\ previously\ created\ collage\ of\ War\ Communism\ during\ the\ Russian\ Civil\ War\ by\ adding\ fading\ or\ blending\ edges\ for\ a\ smooth\ transition\ into\ a\ .png ~/notes/school/geschichte/der_kriegskommunismus/src/intro.png
-mkdir src
-vim handout.md
-cd notes/school
-mkdir facharbeit
-cd facharbeit
-cd der_kriegskommunismus
-pandoc presentation.md -o out.pdf
-firefox out
-pandoc handout.md -o out.pdf
-pandoc handout.md -o handout.pdf
-firefox handout.md
-pandoc --standalone --normalize -f markdown-hard_line_breaks -t latex -o out.pdf handout.md
-pandoc --standalone -f markdown-hard_line_breaks -t latex -o out.pdf handout.md
-firefox out.pdf
-task context list
-task context school
-systemctl enable tlp.service
-systemctl enable tlp-sleep.service
-sudo systemctl enable tlp-sleep.service
-doas dnf install powertop
-sudo systemctl start powertop.service
-sudo systemctl enable powertop.service
-sudo dnf install tlp tlp-rdw
-doas systemctl start tlp.service
-doas systemctl enable tlp.service
-git clone https://github.com/ayamir/nvimdots.git
-rm nvim nvim.bak
-ln -s ~/git/dotfiles/.config/nvim ./nvim
-mv nvim nvim.mybak
-mkdir nvim
-cd nvim
-cp ~/git/nvimdots/stylua.toml ./
-rm stylua.toml
-cp -r /home/niklas/git/nvim /home/niklas/git/nvimdots ./
-rm nvim/nvimdots
-rm -r nvim/nvimdots
-ls nvim
-rm -rf nvim
-cp ~/git/nvimdots ./nvim
-pwf
-cp ~/git/nvimdots ./n
-cp ~/git/nvimdots ./
-cp -r ~/git/nvimdots ./nvim
-cat flake.nix
-rm .git .github .gitignore 
-rm -rf .git .github 
-vim abituraufgaben.md
-cat kabal_und_liebe.md 
-vim kabal_und_liebe.md
-cat kabal_und_liebe.md
-prettier
-pip
-on -e
-doas powertop -h
-doas powertop -c
-traceroute www.google.de
-mkdir core keymap modules user_template
-cp ~/git/nvimdots/lua/core/* ./
-mkdir lua
-mv core keymap/ modules user_template lua
-mv nvim nvim.new.wip
-mv nvim.bak nvim
-mkdir ideas
-cd ideas
-mkdir nvim_plugin
-cd .config/nvim/
-cp color.lua editior.lua
-vim editior.lua
-pandoc -s handout.md -o handout.tex
-pandoc handout.md -o handout.tex
-vim handout.tex
-firefox output.pdf
-vim ~/Downloads/ChatGPT-Handout_zum_Kriegskommunismus.md
-cd git/nvimdots
-rm formatters/*
-rm servers/*
-rm dap/*
-rm ./*
-doas systemctl restart NetworkManager
-rm nvim
-ln -s ~/git/dotfiles/.config/nvim.mybak ./nvim
-jjjvim
-doas dnf search chrome
-doas dnf install mkchromecast
-doas dnf search chromium
-doas dnf install chromium
-doas dnf search miracast
-sudo dnf builddep gnome-network-display
-sudo dnf install gnome-network-display
-sudo dnf search gnome-network-display
-sudo dnf builddep gnome-network-displays
-sudo dnf install gnome-network-displays
-chromium-browser --enable-features=UseOzonePlatform --ozone-platform=wayland
-doas dnf install xdg-desktop-portal-gnome gnome-remote-desktop
-cd git/dotfiles/.config/nvim.mybak
-rm -r ./*
-cp -r ~/git/nvimdots/* ./
-mkdir abitur
-cd abitur
-mkdir informatik mathematik english physik politik
-tree
-touch ./*/themen.md
-doas dnf install nushell
-task add project:school.abitur Themen übersicht
-task 38 annotate "~/notes/abitur"
-hn -e
-mkdir notes/henning
-cp /tmp/1703076157_grim.png ~/notes/henning
-cd git/dotfiles/.config/nvim/
-cd ~/git/dotfiles/.config/nvim/
-cat tabout.lua
-vim test.py
-rm te
-rm test.py
-rm codeium.lua copilot-cmp.lua copilot.lua glance.lua
-rm accelerated-jk.lua
-cp ~/git/nvimdots/lua/modules/configs/editor/tabout.lua ./
-vim tabout.lua 
-mv scrollview.lua scrollview.lua.bak
-mv bufferline.lua bufferline.lua.bak
-mv fcitx5.lua fcitx5.lua.bak
-mv project.lua project.lua.bak
-mv nvim-tree.lua nvim-tree.lua.bak
-mv smartyank.lua smartyank.lua.bak
-doas dnf install rg
-doas dnf search ripgrep
-doas dnf install ripgrep
-doas dnf update
-rm scripts
-rm -rf scripts
-rm flake.nix
-rm -rf nixos
-rm -rf tutor/
-rm LICENSE
-rm README.md
-mv mapping.lua mapping.lua.bak
-vim mapping.lua
-mv keymap.bak keymap
-mv keymap keymap.bak
-mkdir keymap
-cd keymap
-vim completion.lua
-vim init.lua
-vim bind.lua
-vim .config/nvim/lua/modules/plugins/tool.lua
-vim .config/nvim/lua/keymap
-http://localhost:4321/kontakt
-vim buffer_manager.lua
-ssh hirschii@draco.uberspace.de
-mkdir api
-vim send_mail.php
-mv send_mail.php api
-cd api
-git commit -m "update: Kontak / konfetti"
-mak
-vim Makefile
-pass hirschii@draco.uberspace.de
-vim src/pages
-
-vim .
-ivm
-exit
-cd imv
-ninja -C build
-ninja -C build/
-/usr/bin/ls
-/bin/ls
-/bin/ls build
-meson build/
-doas emerge --ask eza
-doas eselect repository enable wayland-desktop
-doas emaint sync --repo wayland-desktop
-doas emerge --ask oguri
-doas emerge --ask task
-vim .config/kitty
-vi 
-vi .config/kitty
-vi
-doas vi /etc/portage/package.use/neovim
-daos emerge --ask neovim
-doas emerge --ask neovim
-doas emerge --ask wl-clipboard pynvim 
-vim 
-doas emerge --ask nnn
-cd .config/qutebrowser
-cd jmatrix
-git clone https://gitlab.com/jgkamat/jmatrix .
-rm -rf .git .gitignore .gitlab-ci.yml 
-doas vim /etc/portage/package.accept_keywords/nnn
-doas vim /etc/portage/package.use/nnn
-cat /proc/cpuinfo
-doas vim /etc/portage/package.use/qutebrowser
-clipman
-swaymsg -t get_tree
-python
-source .zshrc
-doas vim /etc/portage/package.use/pipewiree
-doas vim /etc/portage/
-doas emerge --ask --verbose --changed-use --newuse --update --deep @world
-doas emerge --ask zsh-completion gentoo-zsh-completions
-doas emerge --ask zsh-completions gentoo-zsh-completions
-doas emerge --ask vim
-vim .config/tmux
-find -name "zsh-syntax:
-find -name "zsh-syntax"
-find / -name "zsh-syntax"
-eselect news list
-eselect news read 18
-doas emerge --ask neofetch
-neofe
-doas emerge --search zsh
-doas emerge --asg zsh-syntax-highlighting
-doas emerge --ask zsh-syntax-highlighting
-ls /usr/share
-find /usr/share -name "syntax:
-find /usr/share -name "syntax"
-find /usr/share -name "*syntax*"
-doas emerge --ask fzf
-doas emerge --ask --deep --update --new-use --changed-use @world
-doas eselect news read
-mkdir git/dotfiles/.config/pipewire
-cp /usr/share/pipewire/pipewire.conf git/dotfiles/.config/pi
-mv git/dotfiles/.config/pi git/dotfiles/.config/pipewire/pipewire.conf
-nohup gentoo-pipewire-launcher restart &
-wpctl set-volume @DEFAULT_SINK@ 2%+
-pw-metadata -n settings
-doas emerge --sync
-doas emerge --oneshot portage
-doas echo "media-sound/qpwgraph arm64" > /etc/portage/package.accept_keywords/qpwgraph
-doas echo "media-sound/qpwgraph arm64" > doas /etc/portage/package.accept_keywords/qpwgraph
-rm nohup.out
-doas s-
-doas mv qpwgraph /etc/portage/package.accept_keywords
-ls /etc/portage/package.accept_keywords
-rm doas
-doas vim /etc/portage/package.accept_keywords/qpwgraph
-doas emerge --ask qpwgraph
-doas emerge --deselect qpwgraph
-doas emerge --oneshot foot
-echo $CFLAGS
-git clone https://codeberg.org/dnkl/foot
-cd foot
-export CFLAGS="$CFLAGS -O3"
-./pgo/pgo.sh auto . /tmp/foot-pgo-build-output
-mkdir -p bld/release && cd bld/release
-meson ... -Ddefault-terminfo=foot -Dterminfo-base-name=foot-extra
-meson --buildtype=release --prefix=/usr -Db_lto=true ../..
-njnja
-ninja
-ninja test
-ninja install
-doas emerge --ask speakersafetyd
-doas vim /etc/portage/make.
-doas vim /etc/portage/make.c
-doas vim /etc/portage/make.conf 
-emerge --ask asahi-sources
-doas vim /etc/portage/package.use/mpv
-doas emerge -a mpv
-mpv
-vim .config/qutebrowser/
-vim .config/fo
-vim .config/foot
-foot
-doas emerge --ask foot
-setsid foot --server
-pwd
-footclient -e la
-footclient -h
-footclient ls
-footclient command ls
-footclient 
-footclient  -e
-footclient  -e ls
-footclient  -e mpv
-yta-best
-yt-dlp https://www.youtube.com/watch?v=oJrl5q3KpxE
-yt-dlp 'https://www.youtube.com/watch?v=oJrl5q3KpxE'
-mpv 'https://www.youtube.com/watch?v=oJrl5q3KpxE'
-doas emerge --ask youtube-dl
-doas emerge --ask yt-dlp
-yta-best 'https://www.youtube.com/watch?v=oJrl5q3KpxE'
-doas yta-best 'https://www.youtube.com/watch?v=oJrl5q3KpxE'
-doas yt-dlp 'https://www.youtube.com/watch?v=oJrl5q3KpxE'
-doas emerge --ask mpv
-mpv He\ Invented\ a\ New\ Crime.\ The\ Insane\ Case\ of\ Randall\ Conroy\ \[PzvPi-ZnIjA\].webm
-vim .config/qutebrowser
-doas emerge --ask firefo
-doas rc-config add thermald
-doas vim /etc/portage/package.accept_keywords/tlp
-doas emerge --ask powertop tlp
-doas powertop --calibrate
-doas powertop --autotune
-doas powertop --help
-rc-update add tlp default
-doas rc-update add tlp default
-doas rc-service tlp start
-doas emerge --ask firefox
-doas emerge --ask swayidle
-swaylock --ignore-empty-password --show-failed-attempts --color 1e1e1e --inside-color cccccc --ring-color ffffff --inside-clear-color 11a8cd --ring-clear-color 29b8db --inside-ver-color 2472c8 --ring-ver-color 3b8eea --inside-wrong-color cd3131 --ring-wrong-color f14c4c
-doas emerge --ask swaylock
-swayidle
-swayidle -w
-vim .zprofile
-ls wm-scripts
-source
-git clone https://github.com/ispanos/dotfiles.git
-cd Dow
-cd dotfiles
-cd .local
-cd bin
-ls ~/.l
-ls ~/.*
-cp -r wm-scripts ~/.local/bin
-echo $PATH
-clamshell
-wm-scripts 
-cd wm-scripts
-bash
-vim clamshell
-find /proc/ -name "lid"
-find /proc/ -name "*lid*"
-doas find /proc/ -name "*lid*"
-doas find / -name "*lid*"
-cat clamshell
-doas find / -name "lid"
-doas find / -name "/lid/"
-doas find / -name "LID"
-doas emerge --ask acpid
-/etc/init.d/acpid start
-doas /etc/init.d/acpid start
-doas rc-update add acpid default
-ls /proc/asound
-./clamshell
-./sessionctl
-rm -rf wm-scripts
-mkdir scripts
-cd scripts
-chmod +x sessionctl
-./scripts/sessionctl idle
-./sessionctl 
-cat
-./sessionctl idle
-vim sessionctl
-echo "$XDG_CURRENT_DESKTOP"
-echo $XDG_CURRENT_DESKTOP
-echo $WAYLAND_DISPLAY
-chmod +x swayidle
-vim swayidle
-bash swayidle
-./swayidle
-exec swayidle -w \\
-        timeout 0  'swaylock -f' \\
-        timeout 1  'swaymsg "output * dpms off"' \\
-            resume   'swaymsg "output * dpms on"' \\
-            # after-resume 'clamshell' \\
-        before-sleep 'playerctl pause' \\
-        before-sleep 'swaylock -f'\
-
-jn -e
-swayidle -w \\
-        timeout 0  'swaylock -f' \\
-        timeout 1  'swaymsg "output * dpms off"' \\
-            resume   'swaymsg "output * dpms on"' \\
-            # after-resume 'clamshell' \\
-        before-sleep 'playerctl pause' \\
-        before-sleep 'swaylock -f'\
-
-swayidle -w \\
-        timeout 0  'swaylock -f' \\
-        timeout 1  'swaymsg "output * dpms off"' \\
-            resume   'swaymsg "output * dpms on"' \\
-        before-sleep 'playerctl pause' \\
-        before-sleep 'swaylock -f'\
-
-swayidle -w \\
-        timeout 1  'swaylock -f' \\
-        timeout 2  'swaymsg "output * dpms off"' \\
-            resume   'swaymsg "output * dpms on"' \\
-        before-sleep 'playerctl pause' \\
-        before-sleep 'swaylock -f'\
-
-loginctl hybrid-sleep
-doas loginctl hybrid-sleep
-rc-update add elogind boot
-env | grep "XDG" 
-sway
-doas emerge --ask --deep --update --newuse --changed-use @world
-extreme
-tux
-vim .config/s
-doas vim /etc/portage/package.use/fuzze
-doas vim /etc/portage/package.use/fuzzel
-doas emerge --ask extreme-tuxracer
-doas vim /etc/portage/package.accept_keywords/fuzzel
-fuzzel
-doas emerge --ask fuzzel
-vim /usr/share/applications
-doas emerge --search tuxra
-doas emerge --search tux
-doas emerge --ask supertuxkart
-gentoo-
-vim /tmp/acpi
-scp minecraft-runner@192.168.4.56:/home/minecraft-runner/bedrock-server/worlds/Bedrock\ level
-scp minecraft-runner@192.168.4.56:/home/minecraft-runner/bedrock-server/worlds/Bedrock\ level ./
-scp minecraft-runner@192.168.4.56:/home/minecraft-runner/bedrock-server/worlds/ ./
-scp -r minecraft-runner@192.168.4.56:/home/minecraft-runner/bedrock-server/worlds/ ./
-cd worlds
-cd 
-unzip Bedrock_level_2023-12-31@12-16-53\ PM.zip
-cd data
-s
-scp ./Downloads/Chunky-1.3.92.jar minecraft-runner@192.168.4.56:/home/minecraft-runner/paper/plugins/
-scp ./Downloads/Clearlag.jar minecraft-runner@192.168.4.56:/home/minecraft-runner/paper/plugins/
-ls Downloads
-scp Bedrock_level_2023-12-31@12-16-53\ PM.zip minecraft-runner@192.168.4.56:~/paper/
-cd .config/t
-scp tmux niklas@192.168.4.56:~/
-scp -r tmux niklas@192.168.4.56:~/
-scp Downloads/ProtocolLib.jar minecraft-runner@192.168.4.56:~/paper/plugins/
-cd Downloads
-mkdir plugins
-cp Geyser-Spigot.jar ProtocolLib.jar floodgate-spigot.jar Clearlag.jar Chunky-1.3.92.jar plugins
-scp plugins/* minecraft-runner@192.168.4.56:~/paper/plugins/
-mkdir notes
-vim min
-cd .local/bin/
-vim gentoo-updater
-sudo cat /sys/module/block/parameters/events_dfl_poll_msecs 
-doas cat /sys/module/block/parameters/events_dfl_poll_msecs 
-doas cat /sys/block/sr0/events_poll_msecs
-doas usermod -aG pugdev niklas
-doas usermod -aG plugdev niklas
-devmon 2>&1 /dev/null
-devmon 2>&1 > /dev/null
-lsbk
-udevil mount /dev/sda
-doas udevil mount /dev/sda
-doas udevil mount /dev/sda2
-udevil mount /dev/sda2
-doas emerge --ask nautilus
-doas emerge --ask udevil
-cd /m
-cd /mnt
-cd Backup
-mkdir ubuntu_server
-doas umount /dev/sda2
-ls notes
-rm -rf notes
-git clone git@github.com:Hirschiii/notes.git
-rm He\ Invented\ a\ New\ Crime.\ The\ Insane\ Case\ of\ Randall\ Conroy\ \[PzvPi-ZnIjA\].webm
-ls worlds
-rm -rf worlds
-cat /usr/src/linux/arch/arm64/boot/dts/apple/*.dts
-cat /usr/src/linux/arch/arm64/boot/dts/apple/*.dtb
-udevil
-doas mount /dev/sda2
-doas mount /dev/sda2 /mnt
-doas cp -r /mnt/Backup/linux/20231226/niklas/notes/* ./notes
-doas chown -R niklas ./*
-lspci | grep -i audio 
-wireplumber 
-pipewire
-pipewire -c pipewire-pulse.conf
-pw-cli s 32 Props '{ mute: false, channelVolumes: [ 0.3, 0.3 ] }'
-wpctl status
-wpctl set-default 32
-doas wpctl set-default 32
-dmesg | grep -iE 'snd|sof'
-gentoo-pipewire-launcher &!
-gentoo-pipewire-launcher restart &!
-doas emerge --ask pipewire
-dmes
-git config --global user.email "niklasvonh@gmail.com"
-git config --global user.name "Niklas von Hirschfeld:
-git config --global user.name "Niklas von Hirschfeld"
-git commit -m "init"
-mkdir  homeserver
-cd homeserver
-vim index.md
 doas emerge --ask app-portage/eix
 eix nautilus
 ssh niklas@192.168.4.5
 ls /media
-cd .config
-cd
 cd git/dotfiles/.config
 scp -r nnn niklas@192.168.4.56:~/.config/
 doas
@@ -700,11 +65,8 @@ doas rm /var/db/repos/gentoo/metadata/timestamp.x
 vim .local/bin/gentoo-updater
 eix libxml2
 cat importatn
-cat .local/bin/gentoo-updater
-doas emerge --ask --verbose --update --newuse --deep @world
 eix asahi-sources
 eix asahi-scripts
-cd ..
 make -j8
 make oldconfig
 doas make oldconig
@@ -712,7 +74,6 @@ doas make oldconfig
 doas make -j8
 doas reboo
 doas make modules_install
-doas vim /etc/portage/package.use
 doas vim /etc/portage/package.use.ke
 doas eselect repository add outreach git https://github.com/getoutreach/overlay
 doas emaint sync --auto
@@ -722,13 +83,11 @@ mkdir projects
 rm importatn
 cat no
 rm nohup.out out.txt
-doas vim /etc/portage/package.use/sway
 doas vim /etc/portage/package.use/firefox
 doas dmesg
 doas emerge --ask --update --deep --newuse @world
 cd .task/a
 cd .task/
-ls -la
 vim pass
 ssh niklas@192.168.4.56
 cd .config/ta
@@ -752,7 +111,6 @@ gpg --full-gen-key
 pass init niklas@vonhirschfeld.eu
 pass add ssh/gulugulu@aegaeon.uberspace.de
 pass add ssh/hirschii@draco.uberspace.de
-cd projects
 git clone git@github.com:Team-Valkyrie/website.git
 pass hi
 pass s
@@ -762,10 +120,7 @@ make
 git commit -m "Fix Datenschutz / Impressum visibility"
 git show
 git branch -a
-git checkout
 git status
-git pull
-git checkout dev
 touch dev test
 git commit -m "test bracnhes"
 git push dev
@@ -777,39 +132,30 @@ mkdir f1_in_schools
 mv website/f
 mv website/ f1_in_schools
 l
-n -e
 cd website
 npm install
 npm run dev
-task context
-task
 git clone git@github.com:wkrzywiec/kanban-board.git
 cd kanban-board
 ls kanban-ui
 vim docker-compose.yml
 doas echo disk > /sys/power/state
-doa s-s
 cd /usr/src
 cd linux
 make help
 cd /boot
 eix grub
-doas vim /etc/default/grub
 doas -s 
-eix asahi-source
 cd /boot/
 mv vmlinuz-6.6.0-asahi-13-ARCH vmlinuz-6.6.0-asahi-13-BACKUP
 doas cp vmlinuz-6.6.0-asahi-13-ARCH vmlinuz-6.6.0-asahi-13-BACKUP
-doas grub-mkconfig -o /boot/grub/grub.cfg
 doas emerge --ask asahi-sources
 doas emerge --ask --update --deep --with-bdeps=y --newuse @world
 ls /usr/src
 doas emerge --ask --update --deep --with-bdeps=y --newuse asahi-sources
-doas eselect kernel list
 ls /proc
 eix asahi-kernel
 emerge --ask asahi-kernel
-doas emerge --ask asahi-kernel
 cd ../linux-6.6.0_p13-asahi
 make config
 ls /var/lo
@@ -827,7 +173,6 @@ ls /etc/dracut.conf.d
 cat /etc/dracut.conf.d/10-apple.conf
 doas dracut --force --quiet --kver 6.6.0-asahi-14-ARCH --compress gzip
 vim install.sh
-doas vim /etc/portage/package.use/kernel
 eix kmdo
 eix kmod
 doas emerge --ask kmod
@@ -840,12 +185,9 @@ vim .cn -e
 cd .local/bin
 doas ./make_kernel.sh
 vim make_kernel.sh
-cd .config/sway
-./randwall.sh
 make -C /usr/src/linux -s kernelrelease
 cd /tmp
 wget https://raw.githubusercontent.com/AsahiLinux/PKGBUILDs/main/linux-asahi/config
-vim config
 vim .local/bin/ma
 vim .local/bin/make_kernel.sh
 doas cat /sys/power/state
@@ -854,8 +196,6 @@ doas vim .config
 loginctl help
 echo mem > /sys/power/state
 doas echo mem > /sys/power/state
-dmesg
-cat /sys/power/mem_sleep
 cat /sys/power/disk
 cat /sys/power/resume
 lsblk
@@ -866,34 +206,26 @@ eix thermald
 eix powertop
 doas emerge --ask powertop
 doas rc-service acpid status
-cat /sys/power/state
 loginctl
 eix -s suspend
 emerge --ask suspend
-doas emerge --ask suspend
 doas vim /etc/elogind/logind.conf
 doas emerge --ask acpi
 cat /sys/devices/system/cpu/cpu0/cpufreq
 cat /sys/devices/system/cpu/cpu0/cpufreq/sc
 cat /sys/devices/system/cpu/cpu0/cpufreq/scaling_
-cat /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor
 eix cpupower
 doas emerge --ask cpupower
 cpupower
 cpupower info
 cpupower monitor
-gentoo-updater
 task sync
-ssh niklas@192.168.5.19
-doas emerge --ask asahi-audio
 doas vim /etc/portage/package.use/pipewire
 eix speaker
 doas rc-update add speakersafetyd
 reboot
-doas reboot
 doas emerge --ask pavuconrtol
 doas usermod -aG pipewire niklas
-neofetch
 wpctl
 pw-cli ls Node
 pactl list card
@@ -907,45 +239,30 @@ lspci | grep -i audio
 eix asahi-audo
 eix asahi-audio
 doas vim /usr/share/pipewire/pipewire.conf
-cd git
 git clone git@github.com:AsahiLinux/asahi-audio.git
 cd asahi-audio
-make
 doas make
 make install
 doas make install
-nohup gentoo-pipewire-launcher restart & 
 gentoo-pipewire-launcher restart &
 disown
 doas eselect news list
 doas eselect news read 18
 doas eselect news read 19
 doas rc-service speakersafetyd status
-loginctl reboot
 doas vim /etc/portage/package.accept_keywords/audio
 pactl list sinks
-doas dispatch-conf
 dispatch-conf
 doas emerge --ask pavucontrol
-pkill firefox
 eix asahi-firmware
 doas emerge --ask asahi-firmware
 doas asahi-fwupdate
-doas update-m1n1
-gentoo-pipewire-launcher
 loginctl hibernate
-lspci
-cd /usr/src/linux
 nvim
-cd .config/nvim
 cd lua
-cd git/dotfiles
-git add .
 git commit -m "update"
-git push
 cat pass
 rm pass
-cd notes
 vim
 ping www.google.de
 eix nm-connection-editor
@@ -954,12 +271,10 @@ eix connection editor
 ip a
 light
 cat /sys/class/backlight/
-ls /sys/class/backlight
 doas -
 swaymsg output Unknown-1 disable
 swayidle -
 swayidle -h
-vim .config/sway
 doas emerge -ask light
 doas emerge --ask light
 doas emerge --ask light --auto=mask
@@ -968,7 +283,6 @@ doas emerge --ask light --automask
 doas emerge --ask light --automask y
 doas emerge --ask --automask y light
 doas vim /etc/portage/package.accept_keywords/light
-htop
 doas rc-service tlp status
 eix -s xdg
 doas emerge --ask xdg-desktop-portal
@@ -987,22 +301,14 @@ doas rc-update show dhcpcd
 eix nm-applet
 doas vim /etc/portage/package.use/nm-applet
 doas gpasswd -a niklas plugdev
-doas -s
 doas shutdown -h no
 swaymsg output Unknown-1 enable
 pkill sway
-mkdir 1_hj_2023
 mv dangers_of_twitter jimcrow \#inbox.md\# inbox.md monolog.txt out.pdf 1_hj_2023 
-ls
-vim inbox.md
 mntui
-doas powertop
-loginctl suspend
-doas shutdown -h now
 dbus-send --session --print-reply --dest=org.freedesktop.DBus /org/freedesktop/DBus org.freedesktop.DBus.ListNames | sed '/string/!d; s/^\s*string //g'
 loginctl status
 loginctl 
-doas powertop --auto-tune
 dbus-monitor
 doas rc-update add elogind boot
 vim .zshrc
@@ -1021,11 +327,710 @@ export GDK_BACKEND=wayland
 vim .xinitrc
 doas emerge --ask nm-applet
 nm-applet
-nmtui
 nmcli connections
 nmcli connection
 nmcli
 doas vim /etc/portage/package.use/ne
 doas vim /etc/portage/package.use/neovim
+git clone https://github.com/ThePrimeagen/anime.git
+cp anime/* ~/.config/wall
+cd dotfiles
+ls .config/wall
+git commit -m "wallpapers"
+cd .config/sway
+./randwall.sh
+cd .config
+doas vim /etc/portage/package.accept_keywords/imv
+imv .config/wall/*
+doas vim /etc/portage/package.use/imv
+eix imv
+doas emerge --ask imv
+doas vim /etc/portage/package.use/nautilus
+pkill imv
+cd .config/wall
+imv i.
+imv 1
+imv 1.jpg
+imv ./*
+doas emerge --ask nautilus
+doas emerge --ask tor
+eix tor
+cd .config/wall/
+nautilus ./
+tar -xvf tor-browser-linux-x86_64-13.0.8.tar.xz
+cd tor-browser
+cat start-tor-browser.desktop
+chmod +x ./start-tor-browser.desktop
+./start-tor-browser.desktop
+doas shutdown -h nwo
+cd /sys/class/
+cd backlight
+ls -kla
+java
+javac
+emerge --ask --oneshot virtual/jdk
+doas emerge --ask --oneshot virtual/jdk
+doas eselect news read
+doas vim /etc/portage/package.use
+eix asahi-source
+dmesg
+cd git/dotfiles
+mkdir .settings
+stow -h
+stow . -t ~/
+cd
+cp /usr/share/keymaps/i386/qwerty/us.map.gz ~/.settings
+cd .settings
+vim us.map.gz
+gzip -d us.map.gz
+vim us.map
+doas ln -s ./us.map /usr/share/keymaps/i386/qwerty/custom.map
+ls /usr/share/keymaps/i386/qwerty
+ls /usr/share/keymaps/i386/qwerty/custom.map
+doas loadkeys /usr/share/keymaps/i386/qwerty/custom.map
+doas rm /usr/share/keymaps/i386/qwerty/custom.map
+doas ln -s ~/.settings/us.map /usr/share/keymaps/i386/qwerty/custom.map
+doas vim /etc/vsconsole.conf
+eix ghostscript
+lynx
+eix browser tty
+eix browser text
+eix browser terminal
+eix lyx
+eix lynks
+eix links
+doas emerge --ask jdk
+doas vim /etc/portage/package.use/kernel
+cd /etc/portage/package.use
+unzip za-download-9e07401c6fe833a6513cfd8dc21b8057.zip
+vim .config/tmux/tmux.conf
+ls /sys/class/backlight
+eix acpilight
+task context set school
+vim .taskrc
+task 5 done
+task 37
+doas emerge --ask asahi-kerenel
+doas emerge --ask asahi-kernel
+task context
+task add emerge --ask bindgen
+vim .config/zsh/history
+doas emerge --ask bindge
+neofetch
+doas vim /etc/portage/package.use/xdg
+doas vim /etc/portage/package.use/xmlto
+doas dispatch-conf
+doas emerge --ask xdg-utils
+mv out such_algorithmen basics.md gpt.md inbox.md klausur.md out out.epub out.html out.log out.pdf out.tex out.xhtml test.pdf test.tex 1_hj_2023
+doas vim /etc/portage/package.use/harfbuzz
+eix gnuplot
+imv /tmp/1704880949_grim.png
+doas emerge --ask grim
+doas emerge --ask slurp
+doas vim /etc/portage/package.use/gnuplot
+doas emerge --ask gnuplot
+doas emerge --ask sci-visualization/gnuplot
+links www.google.de
+links www.google.e
+links www.google.com
+loadkeys custom
+mkdir 1_hj_2023
+mv der_kriegskommunismus inbox.md 1_hj_2023
+vim china_und_die_imperialistischen_maechte.md
+doas vim /etc/default/grub
+task context personal
+task add klavier A5 Heft kaufen
+task 39 annotate "leeres heft fuer notizen etc"
+task 21
+task 22 done
+task 21 done
+task 32 delete
+task 
+task 7 delete
+task 16 del
+task inbox
+q3 30
+q3 32
+q1 33
+doas rc-service tor start
+doas rc-service tor stopr
+doas rc-service tor stop
+cd notes
+cd wiki
+vim tor.md
+eix zk
+doas vim /etc/portage/package.use/gelg
+eix gimp
+doas emerge --ask gimp
+eix zatuhra
+eix zatua
+eix zatura
+eix zathura
+doas emerge --ask zathura zathura-pdf-mupdf
+doas reboot
+cd notes/in
+cd notes/school/inf
+cd 1_hj_2023/1
+cd 1_hj_2023/
+cd such_algorithmen/
+vim .config/tmux
+vim /tmp/test.java
+doas eselect kernel lsit
+doas eselect kernel list
+doas upd
+doas update-m
+eix emoji
+doas eselect fontconfig
+doas eselect fontconfig list
+doas eselect fontconfig list | grep noto
+doas eselect fontconfig enable 75-noto-emoji-fallback.conf
+calc
+doas emerge --ask calc
+vim inbox.md
+cat /proc/cmdline
+doas vim /etc/default
+doas grub-mkconfig -o /boot/grub/grub.cfg
+doas update-m1n1
+gentoo-
+gentoo-updater 
+doas loadkeys de
+cat /sys/power
+ls /sys/power
+doas 0s
+gentoo-ud
+eix rust
+doas emerge --ask bendto
+task context none
+task
+task emerge
+doas task --ask bindgen
+doas emerge --ask bindgen
+doas emerge --ask app-vim/rust-vim
+doas vim /etc/portage/package.use/rust
+doas 
+doas emerge --ask pkgdev
+doas eselect repository create local
+cd /var/db/repos/local
+mkdir -p dev-lang/rust-bin
+doa s-s
+doas make rustenable
+powertop
+doas powertop --auto-tune
+doas powertop
+doas vim /etc/portage/package.use/elixir
+doas vim /etc/portage/package.accept_keywords/elixir
+doas vim /etc/portage/package.accept_keywords/erlang
+mix
+doas eix elixir
+doas emerge --ask elixir
+doas emerge --ask --verbose app-containers/docker app-containers/docker-cli
+doas cat /etc/conf.d/docker
+rc-service registry start 
+doas usermod -aG docker niklas
+docker run --rm hello-world
+doas docker run --rm hello-world
+docker container list
+doas docker container list
+eix docker compose
+doas emerge --ask docker-compose
+cd .config/nv
+cd .config/nvim
+vim init.lua
+cd src
+vim index.php
+touch dashboard.php
+touch kandidat.php
+vim ../compose.yml
+rm dashboard.php kandidat.php
+cp index.php dashboard.php
+cp index.php kandidat.php
+vim connect.inc.php
+mv connect.inc.php connect_kand.inc.php
+vim kandidat.php n
+vim kandidat.php
+cd headHunterQuestions
+ls app
+rm ./*
+mkdir docker-php
+mv compose.yml docker-php
+cd docker-php
+mkdir db
+touch db/password.txt
+mkdir src 
+touch Dockerfile
+git clone git clone https://github.com/docker/docker-php-sample
+git clone https://github.com/docker/docker-php-sample
+lw
+ls docker-php-sample
+cd docker-php-sample
+docker init
+docker compose up 
+rm -rf docker-php-sample
+vim db/password.txt
+doas docker compose up --build
+mkdir src
+docker compose up
+vim DO
+vim Dockerfile
+vim compose.yml
+doas docker compose up
+ld dv
+ls db
+docekr ps
+docker ps
+doas docker ps
+doas docker network inspect docker-php-web
+doas docker network inspect 
+docker network
+doas docker network
+doas docker network ls
+doas docker network bridge
+doas docker network inspect docker-php_default 
+vim src/connect_kand.inc.php
+doas rc-service docker st
+doas rc-service docker start
+cd .local/state/wireplumber
+tsak
+task context school
+task add nachricht an frau studman columbuskurs
+q4 34
+eix pipewire
+nohup gentoo-pipewire-launcher restart & 
+ls /etc/dracut.conf.d/10-apple.conf
+doas emerge --ask asahi-audio
+nohup gentoo-pipewire-launcher &
+doas emerge --ask --update --deep --changed-use sys-devel/clang
+eix clang
+doas vim /etc/environment
+eix llvm
+doas find / -name "libclang\
+"
+doas find / -name "libclang"
+eix libclang
+doas find / -name "libclang.so"
+doas emerge --ask genkernel
+gentoo-pipewire-launcher resta
+eix mesa
+doas emerge --ask mesa
+doas loadkeys custom
+tmux  attach-session
+doas eselect clang
+doas eselect llvm
+doas eselect 
+doas eselect rust
+doas eselect rust list
+doas eselect env list
+doas eselect env 
+doas eselect env update
+doas vim /etc/env.d
+pwd
+docker compose up --build
+lspci | grep -Ei "VGA|AGP|3D"
+eix vulkan
+doas emerge --ask vulkan-toosl
+doas emerge --ask vulkan-tools
+vulkaninfo 
+doas vulkaninfo 
+eix vulkan-loader
+doas vim /etc/portage/package.accept_keywords/mesa
+glxgears
+ls /proc/config.gz
+gzip /proc/consoles ./config
+doas gzip /proc/consoles ./config
+doas gzip /proc/consoles 
+doas gzip /proc/config.gz
+doas gzip /proc/config.gz config
+doas gzip -d /proc/config.gz config
+doas gzip -d /proc/config.gz
+doas gzip -d /proc/config.gz -o ./config
+doas zcat /proc/config.gz > ./config
+doas cat /etc/environment
+echo $LIBCLANG_PATH
+ls /usr/lib/llvm/17/lib64/libclang.so
+su 
+glxinfog
+eix glxinfog
+eix glxinfo
+eix mesa-progs
+eix vulkan-tools
+vulkaninfo
+eix sway
+ls /sys/class/backlight/
+ls /sys/class/backlight/apple-panel-bl
+asahi-diagnose
+rm asahi-diagnose-20240111-132451.txt asahi-diagnose-20240111-135315.txt 
+rm no
+rm config nohup.out
+doas asahi-diagnose
+doas zcat /proc/config.gz > config
+vim config
+rm config
+doas vim /etc/portage/package.accept_keywords/supertux
+doas vim /etc/portage/package.accept_keywords/libmcpp
+doas vim /etc/portage/package.accept_keywords/angelscript
+doas vim /etc/portage/package.accept_keywords/enet
+eix tu
+eix tux
+eix tuxkart
+lspci
+doas emerge --ask mesa-progs
+doas vim /etc/portage/package.use/supertux
+doas vim /etc/portage/package.use/libsdl2
+doas emerge --ask supertu
+doas emerge --ask supertux
+doas emerge --ask supertuxkart
+doas 'echo 40 > /sys/class/backlight/apple-panel-bl/brightness'
+doas "echo 40 > /sys/class/backlight/apple-panel-bl/brightness"
+doas echo 40 > /sys/class/backlight/apple-panel-bl/brightness
+mkdir school
+cd school
+mkdir inf_game
+eix cataclysm
+eix dark days
+eix discorf
+eix discord
+eix marktext
+git init
+git add README.md
+git commit-m "init"
+git branch -M main
+git push -u origin main
+git remote add origin git@github.com:Hirschiii/liferfix_game_projekt_2024_2_hj.git
+ls -la
+rm -rf .git
+s
+mv inf_game/README.md liferfix_game_projekt_2024_2_hj
+mv liferfix_game_projekt_2024_2_hj inf_game
+cd inf_game
+git commit -m "init" 
+eselect java
+eselect java lsit
+doas eix eselect-java
+doas emerge --ask eselect-java
+doas eselect java-vm set 1
+doas eselect java-vm list
+git fetch --all
+ls -oa
+git clone git@github.com:Hirschiii/liferfix_game_projekt_2024_2_hj.git
+rm inf_game
+rm -rf inf_game
+cd liferfix_game_projekt_2024_2_hj
+git commit -m "list"
+vim concept.md
+git add . 
+git commit -m "files:\
+"
+vim story.md
+vim README.md
+git branch dev
+git branch list
+git commit  -m "test"
+mkdir musik
+git checkout
+git checkout -b dev
+git checkout dev
+git checkout main
+git pull
+ls Musik
+rm -rf musik
+mkdir assets
+vim assets.md
+rm -rf Musik 
+git commit -m "asset ordner und musik removed"
+git push origin master
+git push origin 
+cd assets
+mv assets.md README.md
+git add .
+git commit -m "asset readme"
+git push
+ssh niklas@192.168.5.19
+vim .config/sway
+eix javafx
+eix openjdk
+doas find / -name "javafx"
+doas vim /etc/portage/package.use/java
+doas emerge --ask javafx
+doas emerge --ask openjdk
+ks
+mv lib/ ~/projects/school/liferfix_game_projekt_2024_2_hj/
+doas emerge --ask maven
+eix maven
+doas emerge --ask maven-bin
+ls javafx-sdk-21.0.1/
+cd javafx-sdk-21.0.1
+ls l
+cd Downloads/javafx-sdk-21.0.1
+unzip src.zip
+ls javafx.
+ls javafx.base
+eix gradle
+cat .config/environment.d/firefox.conf
+vim .zprofile
+unzip gradle-8.5-all.zip
+cd gradle-8.5
+cd bin
+./gradle
+mkdir /opt/gradle
+doas mkdir /opt/gradle
+cd .
+doas unzip -d /opt/gradle gradle-8.5-all.zip
+ls /opt/gradle/gradle-8.5/bin
+javac src/application/Main.java
+mv lib javafx
+vim src/application
+mak
+java application.Main
+javac --module-path ./javafx/lib src/application/Main.java
+java application.Main 
+ls javafx/lib
+javac --module-path ./javafx/lib/ --add-modules javafx.controls,javafx.fxml -d . src/application/Main.java\
+
+unzip openjfx-21.0.1_linux-x64_bin-sdk.zip
+cp -r javafx-sdk-21.0.1/lib ~/projects/school/liferfix_game_projekt_2024_2_hj/javafx
+java -jar gdx-setup.jar
+java -jar gdx-setup.jar -h
+unzip libgdx-1.12.1.zip
+ls gdx
+ls sr
+ls src
+cd Downloads/gradle-8.5
+cd libgdx-1.12.1
+ls backends
+rm -rf application javafx
+rm -rf Makefile
+gradle init --type java-application
+gradle 
+gradle --help
+gradle -b
+vim settings.gradle.kts
+gradle -v
+gradle --scan
+gradle clean
+vi settings.gradle.kts
+vim build.gradle.kts
+gradle
+gradle bu
+gradle buil
+gradle build
+rm -rf settings.gradle.kts build.gradle.kts gradle app
+rm gradlew gradlew.bat 
+ls -a
+rm -rf .gradle
+vim .project
+mkdir javafx
+ls javafx
+cd a
+tree a
+tree
+rm -rf app
+mkdir -p src/main/java/liferfix/Main.java
+make
+java liferfix.Main
+make run
+rm -rf javafx
+ls liferfix
+rm -rf src
+mkdir app
+java -jar ~/Downloads/gdx-setup.jar -h
+java -jar ~/Downloads/gdx-setup.jar --dir ./app --name liferfix 
+mkdir lib
+vim Makefile
+eix mako
+doas emerge --ask gui-apps/mako
+doas vim /etc/portage/package.use/sway
+cat .local/bin/gentoo-updater
+doas emerge --ask --verbose --update --newuse --deep @world
+doas emerge --ask --update --newuse sway
+cd Dow
+unzip openjfx-21.0.1_osx-aarch64_bin-sdk.zip
+doas vim /etc/portage/package.accept_keywords/openjfx
+doas vim /etc/portage/package.use/swt
+eix openjfx
+doas emerge --ask openjfx --auto-mask
+doas emerge --ask openjfx --autoumask
+doas emerge --ask openjfx --autounmask
+eix jq
+doas emerge --ask app-misc/jq
+doas emerge --ask jq
+doas emerge --ask openjfx
+unzip openjfx-21.0.1_linux-x64_bin-jmods.zip
+ls Downloads/libgdx-1.12.1
+ls Downloads/javafx-sdk-21.0.1
+cd Downloads/l
+cd Downloads/
+unzip lwjgl-release-3.3.3-custom.zip
+ls 
+mkdir lwjgl
+cd lwjgl
+unzip ../lwjgl-release-3.3.3-custom.zip
+eix lwjgl
+unzip lwjgl.
+unzip lwjgl.zip
+tree | grep *.so
+tree | grep '*.so'
+eix mindustry
+cd Downloads
+java -jar ./Mindustry-BE-Desktop-24704.jar
+gentoo-pipewire-launcher
+gentoo-pipewire-launcher res
+gentoo-pipewire-launcher restart
+nohup gentoo-pipewire-launcher restart &
+cd git
+git clone https://github.com/Anuken/Mindustry.git
+cd Mindustry
+gradle desktop:run
+pkill firefox
+doas shutdown -h now
+cd projects
+mkdir simple_game_gdx
+cd simple_game_gdx
+cd ..
+mv simple_game_gdx simple_game_lwjgl
+cd simple_game_lwjgl
+mkdir lib 
+cd lib
+unzip ~/Downloads/lwjgl-release-3.3.3-custom.zip
+javac -cp lib/lwjgl.jar HelloWorld.java
+javac -cp lib/lwjgl.jar:lib/lwjgl-glfw.jar HelloWorld.java
+java -cp lib/lwjgl.jar:lib/lwjgl-glfw.jar:lib/lwjgl-opengl.jar HelloWorld.class
+java -cp lib/lwjgl.jar:lib/lwjgl-glfw.jar:lib/lwjgl-opengl.jar --list-modules
+java -cp lib/lwjgl.jar:lib/lwjgl-glfw.jar:lib/lwjgl-opengl.jar 
+java -cp lib/lwjgl.jar:lib/lwjgl-glfw.jar:lib/lwjgl-opengl.jar | grep class
+vim HelloWorld.
+vim HelloWorld.java
+javac HelloWorld.java
+javac -cp lib/lwjgl.jar:lib/lwjgl-glfw.jar:lib/lwjgl-opengl.jar HelloWorld.java
+java -cp lib/lwjgl.jar:lib/lwjgl-glfw.jar:lib/lwjgl-opengl.jar HelloWorld
+javac -cp lib/lwjgl.jar:lib/lwjgl-glfw.jar:lib/lwjgl-opengl.jar:. -Djava.library.path=./lib/ HelloWorld.java
+javac -cp lib/lwjgl.jar:lib/lwjgl-glfw.jar:lib/lwjgl-opengl.jar:. HelloWorld.java
+java -cp lib/lwjgl.jar:lib/lwjgl-glfw.jar:lib/lwjgl-opengl.jar:. HelloWorld
+ls *.so
+./gradlew desktop:run
+https://www.youtube.com/watch?v=XCmr2U6hsYg
+#cp -r ~/Downloads/javafx-sdk-21.0.1/lib 
+cp -r ~/Downloads/javafx-sdk-21.0.1/lib lib/javafx
+ls lib/javafx
+vim HelloFX.java
+javac --module-path ./lib/javafx --add-modules javafx.controls HelloFX.java
+rm -rf lib/javafx
+cp -r ~/Downloads/javafx-sdk-21.0.1/lib/ ./lib/javafx
+java --module-path ./lib/javafx --add-modules javafx.controls HelloFX
+javac --module-path ./lib/javafx --add-modules javafx.controls,javafx.fxml HelloFX.java
+java --module-path ./lib/javafx --add-modules javafx.controls,javafx.fxml HelloFX
+ls lib
+javac --module-path ~/Downloads/javafx-sdk-21.0.1 --add-modules javafx.controls,javafx.fxml HelloFX.java
+javac --module-path ~/Downloads/javafx-sdk-21.0.1/l --add-modules javafx.controls,javafx.fxml HelloFX.java
+javac --module-path ~/Downloads/javafx-sdk-21.0.1/lib --add-modules javafx.controls,javafx.fxml HelloFX.java
+java -jar ~/Downlaods/gdx-setup.jar --dir mygame --name mygame --package com.badlogic.mygame --mainClass MyGame 
+java -jar ~/Downloads/gdx-setup.jar  --dir mygame --name mygame --package com.badlogic.mygame --mainClass MyGame 
+rm -rf ./*
+rm -rf test
+java -jar ~/Downloads/gdx-setup.jar
+cd lieferfix
+gradle run
+n -e
+doas emerge --ask asahi-scripts
+loginctl suspend
+cat /sys/power/mem_sleep
+cat /sys/power/state
+s2ram
+ls /lib64/elogind/system-s
+ls /lib64/elogind/system-sleep
+tlp suspend
+doas tlp suspend
+k
+vim /lib64/elogind/system-sleep/
+doas tlp resume
+loginctl suspend-then-hibernate
+env | grep "XDG"
+grep -r "elogind" /etc/pam.d/ 
+echo $USE
+su -s
+doas rc-service NetworkManager restart
+nmtui
+gentoo loginctl suspend does not work but echo mem > /sys/power/stat does
+doas emerge --ask suspend
+acpi
+udh
 doas vim /etc/portage/make.conf
+doas rc-update add acpid default
+rc-service acpid status
+/etc/init.d/acpid start
+doas /etc/init.d/acpid start
+ls /etc/acpi/actions
+doas vim /etc/acpi/actions/powerbtn.sh
+doas vim /etc/acpi/default.sh
+doas vim /etc/portage/package.accept_keywords/acpi
+eix hibernate-script 
+doas vim /etc/portage/package.accept_keywords/hibernate
+acpitool
+acpitool -h
+acpitool -s
+doas acpitool -s
+eix acpi
+doas emerge --ask acpitool
+doas emerge --ask hibernate-script
+doas rc-update add hibernate-cleanup boot
+hibernate
+doas hibernate
+loginctl reboot
+doas vim /etc/portage/package.accept_keywords/hprofile
+hprofile
+doas -c
+doas hprofile -c
+doas hprofile .bat
+doas hprofile -t
+doas hprofile disk
+doas emerge --deselect hprofile
+hibernate-ram
+doas hibernate-ram
+doas vim /etc/acpi
+acpitool -c
+eix hprofile
+doas emerge --ask hprofile
+doas nvim /etc/acpi/default.sh
+doas -s
+cat /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor
+ls
+ls /boot/grub/grub.cfg
+ls /boot
 gentoo-updater
+htop
+tmux
+cd /usr/src/linux
+su
+gentoo-updater
+doas emerge --ask --update --newuse --deep --with-bdeps=y @world
+htop
+doas vim /etc/portage/package.use/binutils
+doas vim /etc/portage/package.use/libglvnd
+dmesg
+doas zcat /proc/config.gz > config
+vim                    config
+loginctl suspend
+ls
+htop
+pkill foot
+vim .config/sway
+ls
+pwc
+vim
+ls
+doas emerge --depclean foot
+doas emerge --deselect foot
+eix foot
+doas emerge --deselect gui-apps/foot
+doas emerge --ask foot
+eix foot
+doas rm /usr/bin/meson-format-array
+doas rm /usr/lib/python-exec/python3.11/meson-format-array
+ls
+doas vim /etc/portage/package.accept_keywords/foot
+doas emerge --ask foot
+ls
+pwd
+eix make
+eix dev-build/make
+dmesg --console-off
+doas dmesg --console-off

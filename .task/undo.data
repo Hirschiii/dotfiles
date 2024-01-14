@@ -4830,3 +4830,60 @@ time 1703058450
 old [description:"Themen übersicht" entry:"1703058437" modified:"1703058437" project:"school.abitur" status:"pending" uuid:"913e710f-f6ab-422a-8f50-3558d3d122ae"]
 new [annotation_1703058450:"~\/notes\/abitur" description:"Themen übersicht" entry:"1703058437" modified:"1703058450" project:"school.abitur" status:"pending" uuid:"913e710f-f6ab-422a-8f50-3558d3d122ae"]
 ---
+time 1704874944
+old [description:"definition lorenskraft etc" entry:"1699866046" modified:"1701518899" priority:"L" project:"school" status:"pending" urgent:"Y" uuid:"b05df1f9-554a-4461-bc36-607f51dfd072"]
+new [description:"definition lorenskraft etc" end:"1704874944" entry:"1699866046" modified:"1704874944" priority:"L" project:"school" status:"completed" urgent:"Y" uuid:"b05df1f9-554a-4461-bc36-607f51dfd072"]
+---
+time 1704875505
+new [description:"emerge --ask bindgen" entry:"1704875505" modified:"1704875505" status:"pending" uuid:"25617a60-48cd-4047-ad4d-e5af304e2a7b"]
+---
+time 1704887554
+new [description:"klavier A5 Heft kaufen" entry:"1704887554" modified:"1704887554" status:"pending" uuid:"06742733-8f1c-4927-b879-cc8e7b62b33d"]
+---
+time 1704887574
+old [description:"klavier A5 Heft kaufen" entry:"1704887554" modified:"1704887554" status:"pending" uuid:"06742733-8f1c-4927-b879-cc8e7b62b33d"]
+new [annotation_1704887574:"leeres heft fuer notizen etc" description:"klavier A5 Heft kaufen" entry:"1704887554" modified:"1704887574" status:"pending" uuid:"06742733-8f1c-4927-b879-cc8e7b62b33d"]
+---
+time 1704887621
+old [annotation_1701535029:"extract tuples from job advert" box:"1" description:"fine tune llm \/ gpt" entry:"1701535002" modified:"1701535086" priority:"L" status:"pending" tags:"papa" tags_papa:"x" urgent:"Y" uuid:"286e48c6-8847-46fb-ac09-77c7a19e7369"]
+new [annotation_1701535029:"extract tuples from job advert" box:"1" description:"fine tune llm \/ gpt" end:"1704887621" entry:"1701535002" modified:"1704887621" priority:"L" status:"completed" tags:"papa" tags_papa:"x" urgent:"Y" uuid:"286e48c6-8847-46fb-ac09-77c7a19e7369"]
+---
+time 1704887623
+old [description:"background image" entry:"1701709418" modified:"1701762670" priority:"L" project:"school.eng" status:"pending" urgent:"Y" uuid:"335e36a1-013f-4b78-8749-114bd21339a2"]
+new [description:"background image" end:"1704887623" entry:"1701709418" modified:"1704887623" priority:"L" project:"school.eng" status:"completed" urgent:"Y" uuid:"335e36a1-013f-4b78-8749-114bd21339a2"]
+---
+time 1704887628
+old [annotation_1701682564:"vielleicht wieder RANS?" description:"ideen finden" entry:"1701682541" modified:"1701682564" project:"facharbeit" status:"pending" uuid:"5a74cfc6-5ffe-4b6d-b3cf-969b3d9aa438"]
+new [annotation_1701682564:"vielleicht wieder RANS?" description:"ideen finden" end:"1704887628" entry:"1701682541" modified:"1704887628" project:"facharbeit" status:"completed" uuid:"5a74cfc6-5ffe-4b6d-b3cf-969b3d9aa438"]
+---
+time 1704887637
+old [description:"microkontroller" entry:"1702458050" modified:"1702458050" project:"ideen" status:"pending" uuid:"3df553de-e031-406c-b5e1-68442447ce32"]
+new [description:"microkontroller" end:"1704887635" entry:"1702458050" modified:"1704887637" project:"ideen" status:"deleted" uuid:"3df553de-e031-406c-b5e1-68442447ce32"]
+---
+time 1704887647
+old [description:"per file snippets" entry:"1700916896" modified:"1700916899" priority:"L" status:"pending" urgent:"N" uuid:"85fbd04f-c1d7-4259-93d5-ee74c9b21f68"]
+new [description:"per file snippets" end:"1704887646" entry:"1700916896" modified:"1704887647" priority:"L" status:"deleted" urgent:"N" uuid:"85fbd04f-c1d7-4259-93d5-ee74c9b21f68"]
+---
+time 1704887670
+old [description:"markdown html host" entry:"1701353966" modified:"1701353969" priority:"L" status:"pending" urgent:"N" uuid:"c1a31fe8-5600-4a7f-8e9d-7aacfc7eb0cf"]
+new [description:"markdown html host" end:"1704887667" entry:"1701353966" modified:"1704887670" priority:"L" status:"deleted" urgent:"N" uuid:"c1a31fe8-5600-4a7f-8e9d-7aacfc7eb0cf"]
+---
+time 1704887686
+old [annotation_1702459594:"e.g for beamer prest" description:"template script" entry:"1702459578" modified:"1702459594" status:"pending" uuid:"e86c68f0-1771-40ff-bee3-e9633f1adc32"]
+new [annotation_1702459594:"e.g for beamer prest" description:"template script" entry:"1702459578" modified:"1704887686" priority:"L" status:"pending" urgent:"Y" uuid:"e86c68f0-1771-40ff-bee3-e9633f1adc32"]
+---
+time 1704887694
+old [description:"emerge --ask bindgen" entry:"1704875505" modified:"1704875505" status:"pending" uuid:"25617a60-48cd-4047-ad4d-e5af304e2a7b"]
+new [description:"emerge --ask bindgen" entry:"1704875505" modified:"1704887694" priority:"L" status:"pending" urgent:"Y" uuid:"25617a60-48cd-4047-ad4d-e5af304e2a7b"]
+---
+time 1704887700
+old [annotation_1704887574:"leeres heft fuer notizen etc" description:"klavier A5 Heft kaufen" entry:"1704887554" modified:"1704887574" status:"pending" uuid:"06742733-8f1c-4927-b879-cc8e7b62b33d"]
+new [annotation_1704887574:"leeres heft fuer notizen etc" description:"klavier A5 Heft kaufen" entry:"1704887554" modified:"1704887700" priority:"H" status:"pending" urgent:"Y" uuid:"06742733-8f1c-4927-b879-cc8e7b62b33d"]
+---
+time 1704973661
+new [description:"nachricht an frau studman columbuskurs" entry:"1704973661" modified:"1704973661" project:"school" status:"pending" uuid:"db12d312-1d66-46a8-b3eb-013f515dad79"]
+---
+time 1704973665
+old [description:"nachricht an frau studman columbuskurs" entry:"1704973661" modified:"1704973661" project:"school" status:"pending" uuid:"db12d312-1d66-46a8-b3eb-013f515dad79"]
+new [description:"nachricht an frau studman columbuskurs" entry:"1704973661" modified:"1704973665" priority:"L" project:"school" status:"pending" urgent:"N" uuid:"db12d312-1d66-46a8-b3eb-013f515dad79"]
+---
