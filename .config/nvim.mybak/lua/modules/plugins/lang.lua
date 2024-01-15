@@ -1,3 +1,0 @@
-local lang = {}
-
-return lang

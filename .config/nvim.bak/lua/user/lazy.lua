@@ -22,20 +22,20 @@ require("lazy").setup('plugins',{
     "gzip",
     "matchit",
     "matchparen",
-    -- "netrwplugin",
-    "tarplugin",
+    -- "netrwPlugin",
+    "tarPlugin",
     "tohtml",
     "tutor",
-    "zipplugin",
+    "zipPlugin",
    },
   },
  },
  -- debug = true,
 })
 
-vim.api.nvim_create_autocmd("user", {
-	pattern = "verylazy",
-	callback = function()
-		require("user.remap")
-	end,
+vim.api.nvim_create_autocmd("User", {
+ pattern = "VeryLazy",
+ callback = function()
+    require("user.remap")
+ end,
 })

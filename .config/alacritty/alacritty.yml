@@ -176,11 +176,13 @@ draw_bold_text_with_bright_colors: true
 
 import:
   # uncomment the flavour you want below:
+  - ~/.config/alacritty/rose-pine.yml
+
   # - ~/.config/alacritty/catppuccin/catppuccin-mocha.yml
  # - ~/.config/alacritty/catppuccin/catppuccin-macchiato.yml
  # - ~/.config/alacritty/catppuccin/catppuccin-frappe.yml
 #  - ~/.config/alacritty/catppuccin/catppuccin-latte.yml
- - ~/.config/alacritty/tokyo_night.yml
+# - ~/.config/alacritty/tokyo_night.yml
 
 
 # Bell<F9>

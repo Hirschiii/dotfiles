@@ -1035,3 +1035,95 @@ eix dev-build/make
 dmesg --console-off
 doas dmesg --console-off
 vim
+brew install imv
+brew install feh
+feh 
+brew install mvn
+java --module-path ./lib/javafx/ --add-modules javafx.controls,javafx.fxml -d . src/java/com.lastpackage/app/Main
+java --module-path ./lib/javafx/ --add-modules javafx.controls,javafx.fxml -d src/java/com.lastpackage/app/Main
+java --module-path ./lib/javafx/ --add-modules javafx.controls,javafx.fxml -d ./src/java/com.lastpackage/app/Main
+java --module-path ./lib/javafx/ --add-modules javafx.controls,javafx.fxml -d ./src/java/com.lastpackage/app/Main.class
+make un
+make eun
+java --module-path ./lib/javafx/ --add-modules javafx.controls,javafx.fxml ./src/java/com.lastpackage/app/Main
+java --module-path ./lib/javafx/ --add-modules javafx.controls,javafx.fxml src/java/com.lastpackage/app/Main
+make all
+ls bin
+ls bin/com
+ls bin/com/lastpackage/game/GameLoop.class
+rm -rf bin/com
+ls
+ls bin/main
+java --module-path ./lib/javafx/ --add-modules javafx.controls,javafx.fxml Main
+ls main
+rm -rf main
+java --module-path ./lib/javafx/ --add-modules javafx.controls,javafx.fxml main.Main
+java --module-path ./lib/javafx/ --add-modules javafx.controls,javafx.fxml bin/main/Main.class
+vim Makefile
+make run
+make
+n -e
+vim test.puml
+n -e
+hn -e
+n -e
+hn -e
+n -e
+ls
+vim telescope.lua
+n -e
+hhn -e
+n -e
+n -e
+rm -rf cmp.lua
+ls
+cd
+vim .zsh
+vim .zshrc
+fopen
+brew install eza
+cd git/dotfiles
+cd .config
+rm -rf nvim.mybak nvim.new.wip 
+mv nvim nvim.bak
+mkdir nvim
+cd nvim
+vim init.lua
+mkdir -p lua/user
+vim lua/user
+vim lua/user/init.lua
+vim lua/user/lazy.lua
+vim remap.lua
+vim lazy.lua
+vim set.lua
+mkdir plugins
+cd plugins
+vim telescope.lua
+vim color.lua
+vim cmp.lua
+vim lsp.lua
+vim autocmds.lua
+ld
+vim treesitter.lua
+n -e
+vim lua/plugins/lsp.lua
+vim .
+cd .config/alacritty
+vim dist
+mkdir dist
+mv catppuccin catppuccin.yml tokyo_night.yml colorscheme.yml dist
+vim dist/rose-pine.yml
+mv dist/rose-pine.yml dist/rose-pine.toml
+mv dist/rose-pine.toml dist/rose-pine.yml
+mv dist/* ./
+rm -rf dist
+vim rose-pine.yml
+vim alacritty.yml
+pwd
+vim 
+vim
+prompt gentoo
+prompt -l
+prompt bart
+ls
+cd
