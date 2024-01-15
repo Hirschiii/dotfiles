@@ -96,7 +96,8 @@ setopt NOBEEP
 # Basic auto/tab complete:
 autoload -U compinit promptinit
 compinit
-promptinit; prompt gentoo
+# promptinit; prompt gentoo
+promptinit; prompt elite
 zstyle ':completion:*' menu select
 zmodload zsh/complist
 compinit

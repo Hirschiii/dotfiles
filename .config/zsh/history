@@ -1127,3 +1127,50 @@ prompt -l
 prompt bart
 ls
 cd
+cd git/dotfiles
+ls
+git fetch
+git pull force
+git force pull
+git fetch --all
+git reset --hard origin main
+git reset --hard origin/main
+git pull
+nvim
+cd
+vim .config/nvim/lua/plugins
+ls
+pwd
+cd
+cd git/dotfiles
+git add .
+git commit -m "nvim new"
+git push
+vim
+prompt bart
+prompt -l
+prompt list
+prompt -h
+prompt
+ls lib
+ls lib/javafx
+mv lib/javafx/javafx-sdk-21.0.1/lib lib/javafx
+cd lib/javafx
+rm -rf javafx-sdk-21.0.1
+mv javafx/lib/* javafx
+rm -rf javafx/lib
+vim 
+vim src/java/com.lastpackage/app/Main.
+tree
+vim src/java/com.lastpackage/game/GameLoop.java
+vim src/java/com.lastpackage/game/Game.java
+vim jdtls-config.json
+vim src/java/com.lastpackage/app/Main.java
+mv com.lastpackage/*/* ./
+rm -rf com.lastpackage
+vim Main.java
+vim Game.java
+vim GameWindow.java
+ls
+vim
+n -e
