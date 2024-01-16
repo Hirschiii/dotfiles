@@ -34,7 +34,7 @@ require("lazy").setup('plugins',{
 })
 
 vim.api.nvim_create_autocmd("user", {
-	pattern = "verylazy",
+	pattern = "VeryLazy",
 	callback = function()
 		require("user.remap")
 	end,

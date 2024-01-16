@@ -1,192 +1,3 @@
-doas emerge --ask app-portage/eix
-eix nautilus
-ssh niklas@192.168.4.5
-ls /media
-cd git/dotfiles/.config
-scp -r nnn niklas@192.168.4.56:~/.config/
-doas
-doas vim /etc/portage/package.accept_keywords
-rm /etc/portage/package.accept_keywords/00_arm64
-doas rm /etc/portage/package.accept_keywords/00_arm64
-doas eselect news read 22
-doas vim /etc/portage/package.use/gcc
-doas emerge --oneshot sys-apps/portage
-doas emerge --depclea libpulse
-doas emerge --depclean libpulse
-doas emerge --deselect media-sound/pulseaudio-daemon
-doas emerge --noreplace qtwebengine-
-doas emerge --noreplace qtwebengine
-doas emerge --ask --depclean
-eix pulseaudio-deamon
-eix pulseaudio-daemon-
-eix pulseaudio-daemon
-doas emerge --depclean media-libs/libpulse
-doas emerge --deselect pipewire
-doas emerge --deselect media-libs/libpulse
-doas emerge --deselect libpulse
-doas emerge --deselect pulse
-doas emerge --deselect pulse*
-doas emerge --deselect dev-libs/libxml2-2.11.6:2/2::gentoo,
-doas emerge --deselect dev-libs/libxml2-2.11.6:2/2::gentoo
-doas emerge --deselect dev-libs/libxml2-2.11.6:2/2
-doas emerge --deselect dev-libs/libxml2-2.11.6
-doas emerge --deselect dev-libs/libxml2
-doas emerge --update --newuse --deep --with-bdeps=y @system
-doas emerge --update --newuse --deep @system
-doas vim /etc/portage/package.accept_keywords/glibc
-doas emerge --ask --update --newuse --deep @system
-doas vim /etc/portage/package.use/f
-doas vim /etc/portage/package.use/firefox 
-firefox
-doas s
-qutebrowser
-vim out.txt
-curl -F'file=./out.txt' https://0x0.st
-curl -F'file=@out.txt' https://0x0.st
-doas emerge --ask --deselect pipewire
-doas emerge --ask --deselect pulseaudio
-doas emerge --deselect asahi-audio
-doas emerge --deselect pavucontrol
-doas emerge --update --newuse --deep --with-bdeps=y @world
-doas emerge --ask --deselect libxml2
-doas emerge --ask --deselect dev-libs/libxml2
-doas emerge --depclean dev-libs/libxml2
-doas emerge --unmerge dev-libs/libxml2
-doas emerge --update --newuse --deep --with-bdeps=y --backtrack=30 @world
-update-m1n1
-doas vim /boot/grub/grub.cfg
-doas updatedb
-loginctl shutdonw
-loginctl poweroff
-vim importatn
-doas emerge --ask --update --newuse --deep --with-bdeps=y --backtrack=30 @world
-pactl
-doas rm /var/db/repos/gentoo/metadata/timestamp.x
-vim .local/bin/gentoo-updater
-eix libxml2
-cat importatn
-eix asahi-sources
-eix asahi-scripts
-make -j8
-make oldconfig
-doas make oldconig
-doas make oldconfig
-doas make -j8
-doas reboo
-doas make modules_install
-doas vim /etc/portage/package.use.ke
-doas eselect repository add outreach git https://github.com/getoutreach/overlay
-doas emaint sync --auto
-doas emerge -av asahi-kernel
-doas emerge --ask --deep --update --newuse @world
-mkdir projects
-rm importatn
-cat no
-rm nohup.out out.txt
-doas vim /etc/portage/package.use/firefox
-doas dmesg
-doas emerge --ask --update --deep --newuse @world
-cd .task/a
-cd .task/
-vim pass
-ssh niklas@192.168.4.56
-cd .config/ta
-cat p
-cd .task
-rm ca.cert.pem client.*
-scp root@192.168.4.56:/home/niklas/taskd/pki/niklas_von_hirschfeld* ./
-scp root@192.168.4.56:/home/niklas/taskd/pki/niklas_von_hirschfeld.cer.pem ./
-scp niklas@192.168.4.56:/home/niklas/taskd/pki/niklas_von_hirschfeld.cer.pem ./
-scp niklas@192.168.4.56:/home/niklas/taskd/pki/niklas_von_hirschfeld.cert.pem ./
-scp root@192.168.4.56:/home/niklas/taskd/pki/niklas_von_hirschfeld.cert.pem ./
-scp niklas@192.168.4.56:/home/niklas/niklas_von_hirschfeld.cert.pem ./
-scp niklas@192.168.4.56:/home/niklas/niklas_von_hirschfeld.key.pem ./
-scp niklas@192.168.4.56:/home/niklas/ca.cert.pem ./
-task sync init
-vim ../.taskrc
-ssh gulugulu@aegaeon.uberspace.de
-doas vim /etc/portage/package.use/pass
-doas emerge --ask pass
-gpg --full-gen-key
-pass init niklas@vonhirschfeld.eu
-pass add ssh/gulugulu@aegaeon.uberspace.de
-pass add ssh/hirschii@draco.uberspace.de
-git clone git@github.com:Team-Valkyrie/website.git
-pass hi
-pass s
-pass
-pass ssh/hirschii@draco.uberspace.de
-make 
-git commit -m "Fix Datenschutz / Impressum visibility"
-git show
-git branch -a
-git status
-touch dev test
-git commit -m "test bracnhes"
-git push dev
-rm dev
-rm test
-git commit -m "test compelte"
-git push origin dev
-mkdir f1_in_schools
-mv website/f
-mv website/ f1_in_schools
-l
-cd website
-npm install
-npm run dev
-git clone git@github.com:wkrzywiec/kanban-board.git
-cd kanban-board
-ls kanban-ui
-vim docker-compose.yml
-doas echo disk > /sys/power/state
-cd /usr/src
-cd linux
-make help
-cd /boot
-eix grub
-doas -s 
-cd /boot/
-mv vmlinuz-6.6.0-asahi-13-ARCH vmlinuz-6.6.0-asahi-13-BACKUP
-doas cp vmlinuz-6.6.0-asahi-13-ARCH vmlinuz-6.6.0-asahi-13-BACKUP
-doas emerge --ask asahi-sources
-doas emerge --ask --update --deep --with-bdeps=y --newuse @world
-ls /usr/src
-doas emerge --ask --update --deep --with-bdeps=y --newuse asahi-sources
-ls /proc
-eix asahi-kernel
-emerge --ask asahi-kernel
-cd ../linux-6.6.0_p13-asahi
-make config
-ls /var/lo
-ls /var/log
-vim /var/log/dmesg
-doas vim /var/log/dmesg
-doas vim /proc/kmsg
-cat /proc/kmsg
-doas cat /proc/kmsg
-doas emerge --ask asahi-configs
-eix asahi-config
-nproc
-doas dracut --force --quite --kver 6.6.0-asahi-14-ARCH --compress gzip
-ls /etc/dracut.conf.d
-cat /etc/dracut.conf.d/10-apple.conf
-doas dracut --force --quiet --kver 6.6.0-asahi-14-ARCH --compress gzip
-vim install.sh
-eix kmdo
-eix kmod
-doas emerge --ask kmod
-cp /usr/src/linux/.config /tmp/config_run
-nvim --diff config config_run
-nvim -d config config_run
-vim .local/bin/m
-vim .local/bin
-vim .cn -e
-cd .local/bin
-doas ./make_kernel.sh
-vim make_kernel.sh
-make -C /usr/src/linux -s kernelrelease
-cd /tmp
 wget https://raw.githubusercontent.com/AsahiLinux/PKGBUILDs/main/linux-asahi/config
 vim .local/bin/ma
 vim .local/bin/make_kernel.sh
@@ -219,11 +30,9 @@ doas emerge --ask cpupower
 cpupower
 cpupower info
 cpupower monitor
-task sync
 doas vim /etc/portage/package.use/pipewire
 eix speaker
 doas rc-update add speakersafetyd
-reboot
 doas emerge --ask pavuconrtol
 doas usermod -aG pipewire niklas
 wpctl
@@ -258,17 +67,14 @@ eix asahi-firmware
 doas emerge --ask asahi-firmware
 doas asahi-fwupdate
 loginctl hibernate
-nvim
 cd lua
 git commit -m "update"
 cat pass
 rm pass
-vim
 ping www.google.de
 eix nm-connection-editor
 eix nm-
 eix connection editor
-ip a
 light
 cat /sys/class/backlight/
 doas -
@@ -301,7 +107,6 @@ doas rc-update show dhcpcd
 eix nm-applet
 doas vim /etc/portage/package.use/nm-applet
 doas gpasswd -a niklas plugdev
-doas shutdown -h no
 swaymsg output Unknown-1 enable
 pkill sway
 mv dangers_of_twitter jimcrow \#inbox.md\# inbox.md monolog.txt out.pdf 1_hj_2023 
@@ -311,7 +116,6 @@ loginctl status
 loginctl 
 dbus-monitor
 doas rc-update add elogind boot
-vim .zshrc
 doas rc-service
 doas rc-service show
 doas rc-service list
@@ -326,10 +130,8 @@ export GDK_BACKEND=wayland
 export GDK_BACKEND=wayland 
 vim .xinitrc
 doas emerge --ask nm-applet
-nm-applet
 nmcli connections
 nmcli connection
-nmcli
 doas vim /etc/portage/package.use/ne
 doas vim /etc/portage/package.use/neovim
 git clone https://github.com/ThePrimeagen/anime.git
@@ -339,7 +141,6 @@ ls .config/wall
 git commit -m "wallpapers"
 cd .config/sway
 ./randwall.sh
-cd .config
 doas vim /etc/portage/package.accept_keywords/imv
 imv .config/wall/*
 doas vim /etc/portage/package.use/imv
@@ -373,12 +174,9 @@ doas emerge --ask --oneshot virtual/jdk
 doas eselect news read
 doas vim /etc/portage/package.use
 eix asahi-source
-dmesg
-cd git/dotfiles
 mkdir .settings
 stow -h
 stow . -t ~/
-cd
 cp /usr/share/keymaps/i386/qwerty/us.map.gz ~/.settings
 cd .settings
 vim us.map.gz
@@ -407,7 +205,6 @@ vim .config/tmux/tmux.conf
 ls /sys/class/backlight
 eix acpilight
 task context set school
-vim .taskrc
 task 5 done
 task 37
 doas emerge --ask asahi-kerenel
@@ -467,7 +264,6 @@ eix zatua
 eix zatura
 eix zathura
 doas emerge --ask zathura zathura-pdf-mupdf
-doas reboot
 cd notes/in
 cd notes/school/inf
 cd 1_hj_2023/1
@@ -500,8 +296,6 @@ doas 0s
 gentoo-ud
 eix rust
 doas emerge --ask bendto
-task context none
-task
 task emerge
 doas task --ask bindgen
 doas emerge --ask bindgen
@@ -516,7 +310,6 @@ doa s-s
 doas make rustenable
 powertop
 doas powertop --auto-tune
-doas powertop
 doas vim /etc/portage/package.use/elixir
 doas vim /etc/portage/package.accept_keywords/elixir
 doas vim /etc/portage/package.accept_keywords/erlang
@@ -534,8 +327,6 @@ doas docker container list
 eix docker compose
 doas emerge --ask docker-compose
 cd .config/nv
-cd .config/nvim
-vim init.lua
 cd src
 vim index.php
 touch dashboard.php
@@ -591,7 +382,6 @@ doas rc-service docker st
 doas rc-service docker start
 cd .local/state/wireplumber
 tsak
-task context school
 task add nachricht an frau studman columbuskurs
 q4 34
 eix pipewire
@@ -623,7 +413,6 @@ doas eselect env list
 doas eselect env 
 doas eselect env update
 doas vim /etc/env.d
-pwd
 docker compose up --build
 lspci | grep -Ei "VGA|AGP|3D"
 eix vulkan
@@ -662,8 +451,6 @@ rm asahi-diagnose-20240111-132451.txt asahi-diagnose-20240111-135315.txt
 rm no
 rm config nohup.out
 doas asahi-diagnose
-doas zcat /proc/config.gz > config
-vim config
 rm config
 doas vim /etc/portage/package.accept_keywords/supertux
 doas vim /etc/portage/package.accept_keywords/libmcpp
@@ -709,7 +496,6 @@ doas eix eselect-java
 doas emerge --ask eselect-java
 doas eselect java-vm set 1
 doas eselect java-vm list
-git fetch --all
 ls -oa
 git clone git@github.com:Hirschiii/liferfix_game_projekt_2024_2_hj.git
 rm inf_game
@@ -730,7 +516,6 @@ git checkout
 git checkout -b dev
 git checkout dev
 git checkout main
-git pull
 ls Musik
 rm -rf musik
 mkdir assets
@@ -741,11 +526,8 @@ git push origin master
 git push origin 
 cd assets
 mv assets.md README.md
-git add .
 git commit -m "asset readme"
-git push
 ssh niklas@192.168.5.19
-vim .config/sway
 eix javafx
 eix openjdk
 doas find / -name "javafx"
@@ -822,12 +604,9 @@ mkdir javafx
 ls javafx
 cd a
 tree a
-tree
 rm -rf app
 mkdir -p src/main/java/liferfix/Main.java
-make
 java liferfix.Main
-make run
 rm -rf javafx
 ls liferfix
 rm -rf src
@@ -835,7 +614,6 @@ mkdir app
 java -jar ~/Downloads/gdx-setup.jar -h
 java -jar ~/Downloads/gdx-setup.jar --dir ./app --name liferfix 
 mkdir lib
-vim Makefile
 eix mako
 doas emerge --ask gui-apps/mako
 doas vim /etc/portage/package.use/sway
@@ -881,7 +659,6 @@ git clone https://github.com/Anuken/Mindustry.git
 cd Mindustry
 gradle desktop:run
 pkill firefox
-doas shutdown -h now
 cd projects
 mkdir simple_game_gdx
 cd simple_game_gdx
@@ -910,7 +687,6 @@ ls *.so
 https://www.youtube.com/watch?v=XCmr2U6hsYg
 #cp -r ~/Downloads/javafx-sdk-21.0.1/lib 
 cp -r ~/Downloads/javafx-sdk-21.0.1/lib lib/javafx
-ls lib/javafx
 vim HelloFX.java
 javac --module-path ./lib/javafx --add-modules javafx.controls HelloFX.java
 rm -rf lib/javafx
@@ -918,7 +694,6 @@ cp -r ~/Downloads/javafx-sdk-21.0.1/lib/ ./lib/javafx
 java --module-path ./lib/javafx --add-modules javafx.controls HelloFX
 javac --module-path ./lib/javafx --add-modules javafx.controls,javafx.fxml HelloFX.java
 java --module-path ./lib/javafx --add-modules javafx.controls,javafx.fxml HelloFX
-ls lib
 javac --module-path ~/Downloads/javafx-sdk-21.0.1 --add-modules javafx.controls,javafx.fxml HelloFX.java
 javac --module-path ~/Downloads/javafx-sdk-21.0.1/l --add-modules javafx.controls,javafx.fxml HelloFX.java
 javac --module-path ~/Downloads/javafx-sdk-21.0.1/lib --add-modules javafx.controls,javafx.fxml HelloFX.java
@@ -929,9 +704,7 @@ rm -rf test
 java -jar ~/Downloads/gdx-setup.jar
 cd lieferfix
 gradle run
-n -e
 doas emerge --ask asahi-scripts
-loginctl suspend
 cat /sys/power/mem_sleep
 cat /sys/power/state
 s2ram
@@ -947,8 +720,6 @@ env | grep "XDG"
 grep -r "elogind" /etc/pam.d/ 
 echo $USE
 su -s
-doas rc-service NetworkManager restart
-nmtui
 gentoo loginctl suspend does not work but echo mem > /sys/power/stat does
 doas emerge --ask suspend
 acpi
@@ -992,49 +763,32 @@ doas emerge --ask hprofile
 doas nvim /etc/acpi/default.sh
 doas -s
 cat /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor
-ls
 ls /boot/grub/grub.cfg
 ls /boot
-gentoo-updater
-htop
 tmux
-cd /usr/src/linux
-su
 gentoo-updater
 doas emerge --ask --update --newuse --deep --with-bdeps=y @world
-htop
 doas vim /etc/portage/package.use/binutils
 doas vim /etc/portage/package.use/libglvnd
-dmesg
 doas zcat /proc/config.gz > config
 vim                    config
 loginctl suspend
-ls
 htop
 pkill foot
 vim .config/sway
-ls
 pwc
-vim
-ls
 doas emerge --depclean foot
 doas emerge --deselect foot
-eix foot
 doas emerge --deselect gui-apps/foot
-doas emerge --ask foot
 eix foot
 doas rm /usr/bin/meson-format-array
 doas rm /usr/lib/python-exec/python3.11/meson-format-array
-ls
 doas vim /etc/portage/package.accept_keywords/foot
 doas emerge --ask foot
-ls
-pwd
 eix make
 eix dev-build/make
 dmesg --console-off
 doas dmesg --console-off
-vim
 brew install imv
 brew install feh
 feh 
@@ -1052,7 +806,6 @@ ls bin
 ls bin/com
 ls bin/com/lastpackage/game/GameLoop.class
 rm -rf bin/com
-ls
 ls bin/main
 java --module-path ./lib/javafx/ --add-modules javafx.controls,javafx.fxml Main
 ls main
@@ -1062,28 +815,14 @@ java --module-path ./lib/javafx/ --add-modules javafx.controls,javafx.fxml bin/m
 vim Makefile
 make run
 make
-n -e
 vim test.puml
-n -e
 hn -e
-n -e
-hn -e
-n -e
-ls
-vim telescope.lua
-n -e
 hhn -e
-n -e
-n -e
 rm -rf cmp.lua
-ls
-cd
 vim .zsh
 vim .zshrc
 fopen
 brew install eza
-cd git/dotfiles
-cd .config
 rm -rf nvim.mybak nvim.new.wip 
 mv nvim nvim.bak
 mkdir nvim
@@ -1093,7 +832,6 @@ mkdir -p lua/user
 vim lua/user
 vim lua/user/init.lua
 vim lua/user/lazy.lua
-vim remap.lua
 vim lazy.lua
 vim set.lua
 mkdir plugins
@@ -1105,9 +843,7 @@ vim lsp.lua
 vim autocmds.lua
 ld
 vim treesitter.lua
-n -e
 vim lua/plugins/lsp.lua
-vim .
 cd .config/alacritty
 vim dist
 mkdir dist
@@ -1119,34 +855,16 @@ mv dist/* ./
 rm -rf dist
 vim rose-pine.yml
 vim alacritty.yml
-pwd
-vim 
-vim
 prompt gentoo
-prompt -l
-prompt bart
-ls
-cd
-cd git/dotfiles
-ls
 git fetch
 git pull force
 git force pull
-git fetch --all
 git reset --hard origin main
-git reset --hard origin/main
-git pull
-nvim
-cd
 vim .config/nvim/lua/plugins
-ls
 pwd
-cd
-cd git/dotfiles
 git add .
 git commit -m "nvim new"
 git push
-vim
 prompt bart
 prompt -l
 prompt list
@@ -1171,6 +889,155 @@ rm -rf com.lastpackage
 vim Main.java
 vim Game.java
 vim GameWindow.java
+task sync
+vim .taskrc
+nvim
+git pull
+git fetch --all
+git reset --hard origin/main
+eix nerdfont
+vim .config/alacritty
+vim .config/nvim/lua/user
+vim .config/nvim/
+cd git/dotfiles
+cd .config
+cp -r nvim.bak/spell nvim/
+ls nvim
+ip lins
+doas rc-service status default
+nmcli
+nmcli device show
+ip a
+cd 
+cd git/dotfiles/.config/nvim.bak/lua/user/
+vim remap.lua
+doas shutdown -h no
+doas shutdown -h now
+doas rc-status NetworkManager
+doas rc-service NetworkManager status
+ls -la /boot
+doas rc-status boot default
+cd /usr/src/linux
+make -j6 && make moduels_install && make install && grub-mkconfig -o /boot/grub/grub.cfg
+us
+doas asahi-fr
+doas asahi-fwextract
+ip link
+nm-applet
+vim .config/nvim/lua/user/init.lua
+vim .config/nvim/lua/user/lazy.lua
+vim .config/nvim/lua/user/remap.lua
+doas rc-service NetworkManager healthcheck
+doas rc-service NetworkManager activat
+doas rc-service NetworkManager unmask
+doas rc-service NetworkManager zap
+doas rc-service NetworkManager unhealthy
+doas rc-service NetworkManager strat
+doas rc-service NetworkManager stop
+pkill NetworkManager
+doas pkill NetworkManager
+doas rc-service NetworkManager start
+task context none
+task project:school.valkyrie delete
+task
+ip link set wlp1s0f0 up
+doas ip link set wlp1s0f0 up
+nmcli con show
+dmesg | grep Net
+dmesg | grep Netw
+nmcli connection up 
+nmcli connection up sc
+nmcli connection up Schul
+nmcli connection up Schule
+nmcli connection show
+ls /var/log/
+doas vim /etc/NetworkManager/dispatcher.d/10-openrc-status
+rc-status 
+doas rc-update del tiny-dfr
+doas rc-service acpid stop
+doas rc-service tlp stop
+doas rc-update del acpi 
+doas rc-update del acpid
+doas rc-update del tlp
+doas vim /etc/rc.conf .
+doas vim /etc/rc.conf 
+doas rc-service NetworkManager restart
+dmesg
+doas rc-service NetworkManager
+doas rc-service NetworkManager -d
+doas rc-service NetworkManager -Z
+doas rc-service NetworkManager -Z start
+doas rc-service NetworkManager -Z restart
+doas rc-service NetworkManager -d resat
+doas rc-service NetworkManager -d resart
+doas rc-service NetworkManager -d start
+doas rc-service NetworkManager -d restart
+doas powertop
+firefox figures.svg
+task context school
+doas rc-service acpid start
+doas rc-update add acpid
+reboot
+doas reboot
+su
+cd .config/nvim
+vim .
+nmti
+task add project:school.mathe aufgabe {1-14}
+task 20
+task 20 del
+cd .local/share/nvim/lazy/markdown-preview.nvim
+cd app
+npx --yes yarn install
+yarn insstall
+npm install
+vim nvim.
+vim nvim.mybak
+cd ~/git/dotfiles/.config/nvim.bak
+nmtui
+cd
+cd git/dotfiles/.config/nvim.bak
+n -e
 ls
 vim
+exit
+pe
+pwd 
 n -e
+vim
+ls
+pwd
+vim .
+vim .zshrc
+eix rim
+eix grim
+doas emerge --ask grim
+eix slurp
+cd git/dotfiles/.config/nvim.bak
+n -e
+doas shutdown -h now
+doas emerge --ask slurp
+cd nvim
+mkdir -p after/ftplugin
+vim after/ftplugin/markdown.lua
+cp -r ~/git/dotfiles/.config/nvim.bak/snippets ./
+ls
+n -e
+vim .
+n -e
+vim
+vim .
+su
+vim git/dotfiles/.config/nvim.bak/lua/user/set.lua
+cd .config/nvim/
+vim .
+calc
+doas emerge --ask calc
+(10/5)
+echo "$((20.0/5))"
+echo "$((20/5))"
+echo "$((149*12))"
+doas shutdown -h now
+ls
+vim inbox.md
+nmap

@@ -10,13 +10,17 @@ return {
 		"hrsh7th/nvim-cmp",
 		"L3MON4D3/LuaSnip",
 		"saadparwaiz1/cmp_luasnip",
+		'rafamadriz/friendly-snippets'
 	},
 	cmd = "LspInfo",
 	event = { "BufReadPre", "BufNewFile" },
 	config = function()
+		local ls = require("luasnip")
 		local cmp = require 'cmp'
 		local cmp_select = { behavior = cmp.SelectBehavior.Select }
 		local capabilities = require('cmp_nvim_lsp').default_capabilities()
+		require("luasnip.loaders.from_vscode").lazy_load()
+		require("luasnip.loaders.from_lua").load({ paths = "./snippets" })
 		local handlers = {
 			-- The first entry (without a key) will be the default handler
 			-- and will be called for each installed server that doesn't have
@@ -60,6 +64,10 @@ return {
 					-- require('snippy').expand_snippet(args.body) -- For `snippy` users.
 					-- vim.fn["UltiSnips#Anon"](args.body) -- For `ultisnips` users.
 				end,
+			},
+			preselect = "none",
+			completion = {
+				completeopt = "menu,menuone,noinsert,noselect",
 			},
 			mapping = cmp.mapping.preset.insert({
 				["<C-p>"] = cmp.mapping.select_prev_item(cmp_select),
@@ -105,7 +113,6 @@ return {
 				{ name = 'cmdline' }
 			})
 		})
-
 	end
 
 }

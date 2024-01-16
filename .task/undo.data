@@ -4887,3 +4887,78 @@ time 1704973665
 old [description:"nachricht an frau studman columbuskurs" entry:"1704973661" modified:"1704973661" project:"school" status:"pending" uuid:"db12d312-1d66-46a8-b3eb-013f515dad79"]
 new [description:"nachricht an frau studman columbuskurs" entry:"1704973661" modified:"1704973665" priority:"L" project:"school" status:"pending" urgent:"N" uuid:"db12d312-1d66-46a8-b3eb-013f515dad79"]
 ---
+time 1705399393
+old [description:"about" entry:"1699705158" modified:"1701518952" priority:"L" project:"school.valkyrie.website" reviewed:"1701515993" status:"pending" urgent:"Y" uuid:"63ef462e-8b45-463e-b6c2-8b8f416a5126"]
+new [description:"about" end:"1705399391" entry:"1699705158" modified:"1705399393" priority:"L" project:"school.valkyrie.website" reviewed:"1701515993" status:"deleted" urgent:"Y" uuid:"63ef462e-8b45-463e-b6c2-8b8f416a5126"]
+---
+time 1705399393
+old [description:"index inhalte" entry:"1699705258" modified:"1701518952" priority:"L" project:"school.valkyrie.website" status:"pending" urgent:"Y" uuid:"5c48848c-87f0-4987-96a2-dd8f5e620754"]
+new [description:"index inhalte" end:"1705399393" entry:"1699705258" modified:"1705399393" priority:"L" project:"school.valkyrie.website" status:"deleted" urgent:"Y" uuid:"5c48848c-87f0-4987-96a2-dd8f5e620754"]
+---
+time 1705399393
+old [description:"images for persnon" entry:"1700918171" modified:"1701518952" priority:"L" project:"school.valkyrie.website" status:"pending" urgent:"Y" uuid:"66e89ee5-a43d-4e75-be1b-a2d1ddb008c2"]
+new [description:"images for persnon" end:"1705399393" entry:"1700918171" modified:"1705399393" priority:"L" project:"school.valkyrie.website" status:"deleted" urgent:"Y" uuid:"66e89ee5-a43d-4e75-be1b-a2d1ddb008c2"]
+---
+time 1705399393
+old [description:"dynamic sponsor size" entry:"1700930904" modified:"1701518952" priority:"L" project:"school.valkyrie.website" status:"pending" urgent:"Y" uuid:"b4a15523-b897-4f8f-bef3-594da5c68219"]
+new [description:"dynamic sponsor size" end:"1705399393" entry:"1700930904" modified:"1705399393" priority:"L" project:"school.valkyrie.website" status:"deleted" urgent:"Y" uuid:"b4a15523-b897-4f8f-bef3-594da5c68219"]
+---
+time 1705399393
+old [description:"lukas raus nehmen" entry:"1701092293" modified:"1701518952" priority:"L" project:"school.valkyrie.website" status:"pending" urgent:"Y" uuid:"eb6fc87c-6555-41ee-828b-9549d9dcc552"]
+new [description:"lukas raus nehmen" end:"1705399393" entry:"1701092293" modified:"1705399393" priority:"L" project:"school.valkyrie.website" status:"deleted" urgent:"Y" uuid:"eb6fc87c-6555-41ee-828b-9549d9dcc552"]
+---
+time 1705399393
+old [description:"in arbeit" entry:"1701092343" modified:"1701526563" priority:"L" project:"school.valkyrie.website" status:"pending" urgent:"Y" uuid:"8e9eb03f-9917-4626-a0bd-9a4549a02478"]
+new [description:"in arbeit" end:"1705399393" entry:"1701092343" modified:"1705399393" priority:"L" project:"school.valkyrie.website" status:"deleted" urgent:"Y" uuid:"8e9eb03f-9917-4626-a0bd-9a4549a02478"]
+---
+time 1705399393
+old [description:"social links" entry:"1701849339" modified:"1701855550" priority:"L" project:"school.valkyrie.website" status:"pending" urgent:"Y" uuid:"20969473-f4e9-472b-b277-f5291aec3387"]
+new [description:"social links" end:"1705399393" entry:"1701849339" modified:"1705399393" priority:"L" project:"school.valkyrie.website" status:"deleted" urgent:"Y" uuid:"20969473-f4e9-472b-b277-f5291aec3387"]
+---
+time 1705399393
+old [description:"blender model highet" entry:"1701855338" modified:"1701855338" project:"school.valkyrie.website" status:"pending" uuid:"2e94b88c-ddd4-4caf-a4df-4cc7e2e23c40"]
+new [description:"blender model highet" end:"1705399393" entry:"1701855338" modified:"1705399393" project:"school.valkyrie.website" status:"deleted" uuid:"2e94b88c-ddd4-4caf-a4df-4cc7e2e23c40"]
+---
+time 1705399393
+old [description:"merchandise" entry:"1701855348" modified:"1701855348" project:"school.valkyrie" status:"pending" uuid:"91caa78f-df62-4720-9bf1-fde35d38551d"]
+new [description:"merchandise" end:"1705399393" entry:"1701855348" modified:"1705399393" project:"school.valkyrie" status:"deleted" uuid:"91caa78f-df62-4720-9bf1-fde35d38551d"]
+---
+time 1705399393
+old [description:"hover sponsor" entry:"1701859292" modified:"1701859292" project:"school.valkyrie.website" status:"pending" uuid:"aedc4b98-39be-4657-b1b5-c5b854a20bb1"]
+new [description:"hover sponsor" end:"1705399393" entry:"1701859292" modified:"1705399393" project:"school.valkyrie.website" status:"deleted" uuid:"aedc4b98-39be-4657-b1b5-c5b854a20bb1"]
+---
+time 1705399393
+old [annotation_1701859867:"nach runterscrollen ist 3d nicht mehr interatkive" description:"fix bug" entry:"1701859847" modified:"1701859867" project:"school.valkyrie.website" status:"pending" uuid:"d63d2083-469f-490c-894a-b758df6a59f9"]
+new [annotation_1701859867:"nach runterscrollen ist 3d nicht mehr interatkive" description:"fix bug" end:"1705399393" entry:"1701859847" modified:"1705399393" project:"school.valkyrie.website" status:"deleted" uuid:"d63d2083-469f-490c-894a-b758df6a59f9"]
+---
+time 1705399393
+old [description:"setupt pass" entry:"1701866863" modified:"1701866863" project:"school.valkyrie" status:"pending" uuid:"3354b228-d2f4-4867-9833-9e8433932019"]
+new [description:"setupt pass" end:"1705399393" entry:"1701866863" modified:"1705399393" project:"school.valkyrie" status:"deleted" uuid:"3354b228-d2f4-4867-9833-9e8433932019"]
+---
+time 1705399393
+old [annotation_1702216942:"neon glowing border" description:"call to action" entry:"1702216928" modified:"1702216942" project:"school.valkyrie.website.index" status:"pending" uuid:"78876bcc-9692-460d-a6f8-4b785da59dbe"]
+new [annotation_1702216942:"neon glowing border" description:"call to action" end:"1705399393" entry:"1702216928" modified:"1705399393" project:"school.valkyrie.website.index" status:"deleted" uuid:"78876bcc-9692-460d-a6f8-4b785da59dbe"]
+---
+time 1705399393
+old [description:"analytics" entry:"1702217098" modified:"1702217098" project:"school.valkyrie.website" status:"pending" uuid:"89be0f13-6efd-443d-b62a-294f435d7e5c"]
+new [description:"analytics" end:"1705399393" entry:"1702217098" modified:"1705399393" project:"school.valkyrie.website" status:"deleted" uuid:"89be0f13-6efd-443d-b62a-294f435d7e5c"]
+---
+time 1705399393
+old [description:"auto cursor for section" entry:"1702227054" modified:"1702227054" project:"school.valkyrie.website" status:"pending" uuid:"1c688682-b170-4521-b3ed-a4518276cd92"]
+new [description:"auto cursor for section" end:"1705399393" entry:"1702227054" modified:"1705399393" project:"school.valkyrie.website" status:"deleted" uuid:"1c688682-b170-4521-b3ed-a4518276cd92"]
+---
+time 1705399393
+old [description:"impressum" end:"1702216910" entry:"1699705155" modified:"1702216910" priority:"L" project:"school.valkyrie.website" status:"completed" urgent:"Y" uuid:"c17669d2-b9bc-4e9b-a880-2ba988e7f2d1"]
+new [description:"impressum" end:"1702216910" entry:"1699705155" modified:"1705399393" priority:"L" project:"school.valkyrie.website" status:"deleted" urgent:"Y" uuid:"c17669d2-b9bc-4e9b-a880-2ba988e7f2d1"]
+---
+time 1705399393
+old [description:"new 3d model" end:"1700930894" entry:"1699705652" modified:"1701518952" priority:"L" project:"school.valkyrie.website" status:"completed" urgent:"Y" uuid:"97d01e7f-ecce-4a8b-9705-ac973a5b744f"]
+new [description:"new 3d model" end:"1700930894" entry:"1699705652" modified:"1705399393" priority:"L" project:"school.valkyrie.website" status:"deleted" urgent:"Y" uuid:"97d01e7f-ecce-4a8b-9705-ac973a5b744f"]
+---
+time 1705405285
+new [description:"aufgabe {1-14}" entry:"1705405285" modified:"1705405285" project:"school.mathe" status:"pending" uuid:"015a4466-1ccc-4bda-bd1f-2bf5d5663e22"]
+---
+time 1705405299
+old [description:"aufgabe {1-14}" entry:"1705405285" modified:"1705405285" project:"school.mathe" status:"pending" uuid:"015a4466-1ccc-4bda-bd1f-2bf5d5663e22"]
+new [description:"aufgabe {1-14}" end:"1705405297" entry:"1705405285" modified:"1705405299" project:"school.mathe" status:"deleted" uuid:"015a4466-1ccc-4bda-bd1f-2bf5d5663e22"]
+---
