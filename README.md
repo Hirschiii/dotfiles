@@ -1,13 +1,16 @@
 # My Dotfiles
 
-These are my daly driving dotfiles for my Gentoo Laptop.
-I Use:
+This is my Daily drive on my MacBook Pro 13" M2 with Gentoo
 
-- DMW
-- dmenu
-- alacritty / st
-- neovim
-- Qutebrowser
+- 2024-01-18 Mesa and Sound works now!!!!!
+
+- Stuff I use:
+    - Alacritty
+    - NeoVim
+    - Tmux
+    - Firefox
+    - fzf
+    - Sway
 
 # Nice Script I wrote
 
