@@ -34,6 +34,14 @@ return {
 			["rust_analyzer"] = function()
 				require("rust-tools").setup {}
 			end,
+			["jdtls"] = function()
+				local lspconfig = require("lspconfig")
+				lspconfig.jdtls.setup {
+					root_dir = function(fname)
+						return vim.fn.getcwd()
+					end,
+				}
+			end,
 			["lua_ls"] = function()
 				local lspconfig = require("lspconfig")
 				lspconfig.lua_ls.setup {
