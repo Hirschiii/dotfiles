@@ -935,6 +935,7 @@ echo "$((20/5))"
 echo "$((149*12))"
 doas shutdown -h now
 nmap
+<<<<<<< HEAD
 cd 
 cd git/h
 vim .gitignore
@@ -1000,3 +1001,327 @@ n -e
 vim 
 ssh niklas
 ssh niklas@192.168.4.56
+=======
+cd git/dotfiles
+git add .
+git commit -m 'update nvim'
+git push
+eix m1n1
+eix sys-boot/u-boot
+doas emerge --ask telent
+doas emerge --ask telnet
+eix nv
+eix nc
+eix netcat
+doas emerge --ask netcat
+nc
+nc -vc 91.249.208.110
+ping 91.249.208.110
+nc -vc 91.249.208.110 53589
+nc -vc 91.249.208.110 80
+nc -vc 91.249.208.110:19132 
+nc -vc 91.249.208.110 19132 
+nc -vc [91.249.208.110[ 19132 
+nc -vc [91.249.208.110] 19132 
+nc -zv [91.249.208.110] 19132 
+nc -zv 91.249.208.110 19132 
+nc -zv 91.249.208.110 80
+nc -zv 91.249.208.110 53589
+gentoo-updater
+emerge --update --newuse --deep --with-bdeps=y @world
+doas emerge --update --newuse --deep --with-bdeps=y @world
+vim .taskrc
+task sync
+task
+task context none
+ssh niklas@192.168.4.56
+tasks ync
+ping 91.249.208.110:53589
+task sync init
+vim .taskrc
+task sync
+ls
+n -e
+ls
+git checkout dev
+git pull
+git pull origin dev
+git checkout
+git status
+s
+n -e
+tree
+ls
+vim resources
+vim resources.json
+doas shutdown -h now
+eix NetworkManager
+eix networkmanager
+eix networkmanager | grep vpn
+su
+nm-tu
+nm-tui
+nm-ao
+nm-applet
+eix mesa
+doas emerge --ask mesa
+glxgreas
+eix glxinfo
+eix -s glxinfo
+eix -h
+eix -f glxgears
+doas for x in /etc/runlevels/default/net.* ; do rc-update del $(basename $x) default ; rc-service --ifstarted $(basename $x) stop; done
+bash
+task context school
+doas mullvad 
+doas mullvad connet 
+doas mullvad connect
+mullvad status
+mullvad account
+mullvad account get
+mullvad disconnet
+mullvad disconnect
+doas mullvad account get
+nm-applet 
+doas vim /etc/portage/make.conf
+mullvad-daemon
+doas mullvad-daemon
+doas eselect profile list
+doas eselect profile set 1
+gentoo-updater
+eix sys-devel/make
+eix mesa::gentoo
+doas emerge --ask mesa
+eix media-libs/mesa
+doas emerge --ask media-libs/mesa
+eix asahi-edge-kernel
+doas vim /etc/portage/make.conf
+eix media-libs/mesa
+doas vim /etc/portage/package.use/kernel
+eix asahi-sources
+eix asahi-kernel
+emerge --ask asahi-kernel
+doas emerge --ask asahi-kernel
+nmtui
+doas zcat /proc/config.gz > config
+vim conf
+vim config
+glewinfo
+su
+doas emerge --ask asahi-kernel
+vim /var/tmp/portage/sys-kernel/asahi-kernel-6.3.0_p13
+doas ls /var/tmp/portage/sys-kernel/asahi-kernel-6.3.0_p13/
+doas ls /var/tmp/portage/sys-kernel/asahi-kernel-6.3.0_p13/temp/
+doas vim /var/tmp/portage/sys-kernel/asahi-kernel-6.3.0_p13/temp/build.log
+doas cat /var/tmp/portage/sys-kernel/asahi-kernel-6.3.0_p13/temp/build.log | less
+su
+doas vim /etc/portage/package.use/k
+doas vim /etc/portage/package.use/kernel
+eix rustc
+eix rust
+doas emerge --ask '=virtual/rust-1.66.0'
+doas eselect repository add outreach git https://github.com/getoutreach/overlay.git
+eix asahi-kernel
+emerge --ask asahi-kernel
+doas asahi-kernel
+doas emerge --info '=sys-kernel/asahi-kernel-6.3.0_p13::outreach
+doas emerge --info =sys-kernel/asahi-kernel-6.3.0_p13::outreach
+doas emerge --info '=sys-kernel/asahi-kernel-6.3.0_p13::outreach'
+doas emerge --ask asahi-kernel
+doas vim /etc/portage/package.accept_keywords
+doas vim /etc/portage/package.accept_keywords/bindgen
+eix bindgen
+doas emerge =dev-lang/rust-1.66.0 =dev-util/bindgen-0.56.0
+doas emerge '=dev-lang/rust-1.66.0' '=dev-util/bindgen-0.56.0'
+emerge --search dev-lang/rust
+eix dev-lang/rust
+eix dev-util/bindgen
+doas emerge '=dev-lang/rust-1.66.1' '=dev-util/bindgen-0.56.0'
+vim .local/bin/gentoo-updater
+doas eix-update
+cd /var/db/repos/local
+ls
+n -e
+cp /tmp/1705488290_grim.png ./
+eselect repository
+eselect repository list
+cd /var/db/repos/local
+ls
+tree
+mkdir -p dev-util/bindgen
+doas mkdir -p dev-util/bindgen
+su
+doas shutdown -h now
+n -e
+ls
+vim inbox.md
+echo $((2^9))
+su 
+cd .config/nvim/
+vim
+vim .
+cd git/dotfiles/.config/nvim.bak/lua/plugins
+vim editior.lua
+n -e
+eix tikz
+eix tkix
+eix tikx
+eix tikz
+doas vim /etc/portage/package.use/texlive
+echo $((4*81))
+doas shutdown -h now
+doas emerge --ask texlive
+doas vim /etc/portage/package.use/texlive
+doas emerge --ask --newuse texlive
+pandoc -s beweisen.md -o out.pdf
+doas vim /etc/portage/package.mask/kernel
+echo "dev-lang/rust-bin ~amd64" >> /etc/portage/package.accept_keywords/rust
+doas echo "dev-lang/rust-bin ~amd64" >> /etc/portage/package.accept_keywords/rust
+su
+ls
+vim 1705488290_grim.png
+imv 1705488290_grim.png
+zcat /proc/config.gz
+zcat /proc/config.gz | grep RUST
+scp Downloads/ch-zrh-wg-403.conf niklas@192.168.4.56:/home/niklas/mullvad/
+su
+ssh niklas@192.168.4.56
+nm-applet
+vim docekr radarr
+ls
+vim docekr
+ssh niklas@192.168.4.56
+nm-applet
+zcat /proc/config.gz | grep RUST
+zcat /proc/config.gz | grep ASAHI
+gentoo-updater
+lbslk
+lsblk
+ds
+ld
+dl
+df
+lsblk --output NAME,FSTYPE,LABEL,UUID,MODE
+doas lsblk --output NAME,FSTYPE,LABEL,UUID,MODE
+doas emerge --ask btrfsmaintenance
+sync
+btrfs filesystem
+btrfs filesystem df
+btrfs filesystem df /dev/nvme0n1p5
+btrfs filesystem df /
+df
+btrfs filesystem du -s /
+du
+doas btrfs filesystem du -s /\
+
+cd git/dotfiles
+git pull
+doas emerge --ask --update --deep --depcelan
+doas emerge --ask --update --deep --depclean
+ls
+vmi .
+vim .
+pwd
+ls
+pwd
+mkdir english
+cd english
+ls
+su
+fc-conflist
+fc-conflist | grep FiraCode
+fc-conflist | grep Nerd
+fc-conflist | grep firacode
+cd .config/alacritty
+n -e
+vim .
+cd
+cd git/dotfiles/.config/nvim.bak
+ls
+n -e
+cd 
+cd git/dotfiles/.config/nvim.bak
+n -e
+doas vim /etc/portage/package.accept_keywords/netahck
+doas vim /etc/portage/package.accept_keywords/nethack
+eix nerdfont
+eix Nerd
+eix Hack
+eix hack
+doas emerge --ask nethack
+doas emerge @preserved-rebuild
+cd DOw
+cd Downloads
+unzip FiraCode_2.zip
+cp ttf/* ~/.local/share/fonts/
+fc-cache 
+fc-cache -h
+fc-cache -f
+fc-conflist
+fc-conflist | grep fira
+fc-conflist | grep Fira
+eselect fontconfig 
+eselect fontconfig lsit
+eselect fontconfig list
+eselect fontconfig enable 09
+doas eselect fontconfig enable 09
+doas eselect fontconfig enable 9
+ls 
+ce
+cd
+cd .local/share/fonts
+ls
+emerge -av media-fonts/fira-code
+doas emerge -av media-fonts/fira-code
+doas eselect fontconfig disable 09
+doas eselect fontconfig disable 9
+ls .local/share/fonts
+doas eselect fontconfig enable 75-noto-emoji-fallback.conf
+fc-list
+fc-list | fira
+fc-list | grep Fira
+eix tree-sitter
+doas emerge --ask tree-sitter
+doas emerge --ask dev-libs/tree-sitter
+nethack
+cat /sys/class/power_supply/macsmc-battery/capacity
+vim git/dotfiles/README.md
+doas shutdown -h now
+ls
+vim .
+vim cites.md
+n -e
+vim nvim
+su
+nmtui
+doas rc-service NetworkManager status
+doas rc-service acpid stop
+doas rc-update del acpid 
+reboot
+doas reboot
+su 
+cat /var/log/boot
+loginctl suspend
+grep -r "elogind" /etc/pam.d/ 
+doas rc-update add elogind boot
+echo mem > /sys/power/state
+doas echo mem > /sys/power/state
+su
+vim .config/sway
+doas /etc/init.d/acpid start
+doas rc-service tlp start
+doas rc-update add tlp
+doas powertop
+htop
+doas rc-update acpid
+doas rc-update add acpid
+nmtui
+rc-service NetworkManager
+rc-service NetworkManager status
+nmtui
+nethack
+doas shutdown -h now
+n -e
+vim erzehlsituation.md
+nmtui
+>>>>>>> 229fc584750cd286059945d9dfffb3bad8e1ec9d
