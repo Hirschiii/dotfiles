@@ -9,9 +9,9 @@ return {
 		'ixru/nvim-markdown',
 		ft = "markdown",
 		-- lazy = false,
-		dependencies = {
-			'nvim-treesitter/nvim-treesitter',
-		},
+		-- dependencies = {
+		-- 	'nvim-treesitter/nvim-treesitter',
+		-- },
 		config = function()
 			vim.g.vim_markdown_frontmatter = 1
 			vim.g.vim_markdown_math = 1

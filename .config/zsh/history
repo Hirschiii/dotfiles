@@ -1325,3 +1325,39 @@ n -e
 vim erzehlsituation.md
 nmtui
 >>>>>>> 229fc584750cd286059945d9dfffb3bad8e1ec9d
+cd git
+cd dotfiles
+vim .gitignore
+git add .
+git commit -m "update"
+git config pull.rebase false
+git fetch
+git reset --hard origin/main
+git pull
+nvim
+cd .config/nvim
+n -e
+vim
+vim .
+ls
+vim
+vim .config/sway
+vim .config/alacritty/
+fc-list | grep nerd
+fc-list | grep Nerd
+eix alacritty
+foot
+nmtui
+\n -e
+echo $((77.5-65))
+echo $((69.2-86.5))
+echo $((86.5-69.2))
+task add project:school.phy +sil feder konstante
+n -e
+task project:wikipedia Mathematics and Arts uebersetzen
+task add project:wikipedia Mathematics and Arts uebersetzen
+task
+task add project:wikipedia Künstliche Intiligenz grenzen nachtragen nach facharbeit
+task sync
+su
+nmtui
