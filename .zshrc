@@ -74,6 +74,8 @@ export PATH="$PATH:/home/niklas/.local/bin"
 
 # to share this history between terminals
 # setopt SHARE_HISTORY
+setopt NO_NOMATCH
+
 
 # to save history between sessions
 HISTSIZE=1000

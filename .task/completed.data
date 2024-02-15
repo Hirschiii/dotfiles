@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [description:"mr kniedler fragen welche gpu" end:"1708018018" entry:"1707930843" modified:"1708018019" priority:"H" status:"deleted" urgent:"Y" uuid:"18479bbd-565c-43ae-a049-5897d5e7c450"]
 [description:"emerge --ask bindgen" end:"1707672902" entry:"1704875505" modified:"1707672903" priority:"L" status:"deleted" urgent:"Y" uuid:"25617a60-48cd-4047-ad4d-e5af304e2a7b"]
 [annotation_1702459594:"e.g for beamer prest" description:"template script" end:"1707672897" entry:"1702459578" modified:"1707672898" priority:"L" status:"deleted" urgent:"Y" uuid:"e86c68f0-1771-40ff-bee3-e9633f1adc32"]
@@ -348,3 +349,5 @@
 [description:"Klavier dreiklänge finden" due:"1667319000" end:"1667319063" entry:"1667247126" modified:"1667319063" priority:"H" project:"Klavier " status:"completed" tags:"privat" tags_privat:"x" uuid:"4317147c-d86f-4122-b710-6d44d9c6308a"]
 [description:"spniasch test" due:"1668812400" end:"1667225567" entry:"1665947067" modified:"1667225567" priority:"M" status:"completed" tags:"schule" tags_schule:"x" uuid:"c0c92553-fe15-4ed4-82f1-dd68cba6994c"]
 [description:"test" end:"1666877633" entry:"1666877629" modified:"1668100454" priority:"H" status:"completed" tags:"urg" tags_urg:"x" uuid:"d877df47-de06-48e9-b079-2875a27d998f"]
+=======
+>>>>>>> main
