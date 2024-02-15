@@ -2112,3 +2112,77 @@ cd .config/nvim/
 ls
 cd .config/zsh
 ls
+cd git/dotfiles
+git merge main in
+git merge main 
+git commit -m "udpate"
+git mergetool
+git restore .
+git commit -m "g'\
+"
+git commit -m " \
+\
+"
+vim .git/config
+git commit -m "fds"
+git push origin ThinkPad
+nvim 
+git checkoutm
+git commit -m "gitig"
+git checkout main
+git status
+git merge ThinkPad
+git commit -m "uipdat"
+git commit -m "update" 
+git pull
+git merge main
+git add .
+git commit -m "update"
+git push
+nvim .gitignore
+git checkout main 
+git checkout ThinkPad
+ls
+nvim --version
+yay -Ss nvim
+doas 
+doas pacman -Ss neovim
+daos pacman -s neovide
+doas pacman -s neovide
+doas pacman -S neovide
+yay -Ss neovim
+cd .local/share/\\
+ls
+cd .local/share/
+cd nvim
+ls
+rm -rf lazy
+nvim 
+cd 
+cd .config/nvim
+nvim .
+htop
+doas powertop
+doas powertop --help
+doas powertop --auto-tune
+doas pacman -S vlc
+lsblk
+doas mount /dev/sda2 /mnt
+vlc --enable-wayland
+yay -S vlc-git
+doas pacman -S mpv
+cd /mnt/Media
+ls
+n -e
+mpv ._Mr.Robot.S02E05.1080p.rus.LostFilm.mkv
+doas powertp[
+doas powertop
+vlc ./
+vlc ./Mr\ Robot\ -\ s02e05.mkv
+mpv ./Mr\ Robot\ -\ s02e05.mkv
+nvim .taskrc
+task
+rm .task/*.data
+task sync init
+task add project:privat nachforschungen Maximilian speck von sternenburg
+task sync

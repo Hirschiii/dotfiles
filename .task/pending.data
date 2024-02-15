@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 [description:"wiki alt in neu transformieren" entry:"1698496021" modified:"1701515986" priority:"L" reviewed:"1701515986" status:"pending" urgent:"N" uuid:"b6e3e5c6-8422-470c-91e5-651b6f343fda"]
 [description:"latex wiki mathe inf phy" entry:"1700553570" modified:"1707651442" priority:"L" project:"school" status:"pending" urgent:"N" uuid:"d1133094-e7f5-4a60-bdf1-c9f3ff36f9b3"]
 [description:"mardown todos in taskwarrior" entry:"1700822765" modified:"1700916923" priority:"L" status:"pending" urgent:"N" uuid:"676e3f02-2060-410a-8d75-cce4fea1eed5"]
@@ -27,5 +26,4 @@
 [description:"universelle annaeherungs funktionen" entry:"1707993137" modified:"1707993137" project:"school.facharbeit" status:"pending" uuid:"190e68d9-348d-40cc-9283-3c29709b22b8"]
 [description:"keylistener handlr" entry:"1707993765" modified:"1707993765" project:"school.informatik" status:"pending" uuid:"b5dbb1bc-9a5f-4f54-adfa-7daab01bd944"]
 [description:"fragment shader non constant in array index not allowd" entry:"1708016217" modified:"1708016217" project:"school.informatik" status:"pending" tags:"fix" tags_fix:"x" uuid:"0157f75d-2d36-4515-9dfc-e413d9c0c4a3"]
-=======
->>>>>>> main
+[description:"nachforschungen Maximilian speck von sternenburg" entry:"1708030555" modified:"1708030555" project:"privat" status:"pending" uuid:"72df8939-1bdb-4a5c-8f5b-8a30b323650a"]
