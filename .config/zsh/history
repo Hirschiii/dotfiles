@@ -1033,3 +1033,6 @@ cd sport
 nvim 2024-02-13.md
 ls
 tmux a
+ls
+task
+task sync init
