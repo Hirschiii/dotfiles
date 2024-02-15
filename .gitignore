@@ -4,6 +4,8 @@
 
 .task/
 
+.config/zsh/history*
+
 *.pem
 *.data
 .config/nvim/lazy-lock.json 

@@ -2108,3 +2108,5 @@ ls
 task
 task sync init
 >>>>>>> main
+cd .config/nvim/
+ls
