@@ -1,2 +1,7 @@
 .config/zsh/history
 .config/nvim/lazy.lock
+.config/zsh/history
+.task/
+
+*.pem
+*.data

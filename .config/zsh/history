@@ -1014,3 +1014,56 @@ vim out.tex
 lualatex out.tex
 ls
 n -e
+cd git/dotfiles
+nvim .gitignore
+git add .
+git commit -m "update gitIgnore"
+git push
+git checkout ThinkPad
+cd
+bash .local/scripts/lenovo_initi_displays.sh
+cd .coi
+cd git/dotfiles
+git commit -m "ipa"
+git checkout main
+cd .config/nvim
+git commit -m "nvim "
+git push origin ThinkPad
+git pull
+git switch ThinkPad
+n -e
+git restore .
+rm .task/completed.data
+git commit -m "test"
+git pus
+git push
+git checkout ThinkPad
+git config --global mergetool.fugitive.cmd 'nvim -f -c "Gvdiffsplit!" "$MERGED"'
+git config --global merge.tool fugitive\
+
+vim .git/config
+vim .git/
+nvim .git
+git mergetool
+git merge main
+vim .taske
+vim .taskrc
+task sync
+rm .task/pending.data
+rm .task/*.data
+task sync init
+task
+nvim .git/config
+git commit -m "update gitignore"
+nvim .gitignore
+git add .
+gpg 
+gpg -h
+gpg --full-generate-key
+git commit -m "ts"
+cd ..
+rm -rf dotfiles
+git clone git@github.com:Hirschiii/dotfiles
+ls
+cd dotfiles
+nvim
