@@ -12,14 +12,14 @@ exec gentoo-pipewire-launcher &
 exec wl-paste -t text --watch clipman store
 exec_always dunst
 
-exec swayidle -w \
-        timeout 300  'swaylock -f' \
-        timeout 301  'swaymsg "output * dpms off"' \
-        # timeout 301  'swaymsg "output * disable"' \
-            resume   'swaymsg "output * dpms on"' \
-            # resume   'swaymsg "output * enable"' \
-            # after-resume 'clamshell' \
-        before-sleep 'playerctl pause' \
+# exec swayidle -w \
+#         timeout 300  'swaylock -f' \
+#         timeout 301  'swaymsg "output * dpms off"' \
+#         # timeout 301  'swaymsg "output * disable"' \
+#             resume   'swaymsg "output * dpms on"' \
+#             # resume   'swaymsg "output * enable"' \
+#             # after-resume 'clamshell' \
+#         before-sleep 'playerctl pause' \
 # exec_always nm-applet
 # exec wl-paste -p -t text --watch clipman store -P --histpath="~/.local/share/clipman-primary.json"
 #
@@ -127,8 +127,8 @@ for_window [shell="xwayland"] default_border normal 2
 #
 #    for_window [class="^.*"] border pixel 2
 
-gaps inner 0
-gaps outer 5
+gaps inner 5
+gaps outer 10
 
 # Multi Mediaa
 
@@ -144,7 +144,8 @@ bindsym XF86MonBrightnessUp exec light -A 10
 	bindsym $mod+Shift+w exec imv ~/.config/wall/*
 
 # Switch keyboard Layout
-    bindsym $mod+Shift+d input "1452:852:Apple_MTP_keyboard" xkb_switch_layout next
+    # bindsym $mod+Shift+d input "7504:24868:Ultimate_Gadget_Laboratories_UHK_60_v2" xkb_switch_layout next
+    bindsym $mod+Shift+d input keyboard xkb_switch_layout next
 
     bindsym $mod+Shift+p exec grim -g "$(slurp)" /tmp/$(date +"%s_grim.png")
     bindsym $mod+p exec grim /tmp/$(date +"%s_grim.png")

@@ -147,14 +147,13 @@ report.q4.labels=A,ID,Proj,Urg,Description,Age,Tags
 # report.project.labes=ID,Proj,Description,Tags
 # report.project.sort=project,urgency
 
-taskd.certificate=\/home\/niklas\/.task\/client.cert.pem
-taskd.key=\/home\/niklas\/.task\/client.key.pem
-# taskd.ca=\/home\/niklas\/.task\/ca.cert.pem
-# taskd.server=gulugulu.uber.space:41920
+taskd.certificate=\/home\/niklas\/.task\/niklas.cert.pem
+taskd.key=\/home\/niklas\/.task\/niklas.key.pem
+
 taskd.server=91.249.208.110:53589
-# taskd.server=192.168.4.10:53589
+# taskd.server=raspberrypi:53589
 # taskd.credentials=Privat\/Niklas von Hirschfeld\/aed357f0-3a3e-4dd5-8982-d92d6e09e7d1
-taskd.credentials=privat\/Niklas von Hirschfeld\/6b0a3aec-3cdc-4898-a50f-779ab41ca618
+taskd.credentials=Public\/Niklas von Hirschfeld\/6245a322-7cac-43e1-9149-5b3c6725e0d2
 # taskd.credentials=hirschii_organization\/Niklas von Hirschfeld\/aed357f0-3a3e-4dd5-8982-d92d6e09e7d1
 
 # taskd.ca=\/home\/niklas\/.task\/ca.cert.pem
@@ -171,6 +170,5 @@ context.school.write=project:school
 context.personal.read=project.not:school project.not:henning project.not:fun -fun
 context.henning.read=project:henning
 context.henning.write=project:henning
-context.valkyrie.read=project:school.valkyrie
-context.valkyrie.write=project:school.valkyrie
-context=school
+context.Facharbeit.read=project:school.facharbeit
+context.Facharbeit.write=project:school.facharbeit
