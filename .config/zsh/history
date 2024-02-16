@@ -1,1054 +1,3 @@
-<<<<<<< HEAD
-rc-service acpid status
-/etc/init.d/acpid start
-ls /etc/acpi/actions
-doas vim /etc/acpi/actions/powerbtn.sh
-doas vim /etc/acpi/default.sh
-doas vim /etc/portage/package.accept_keywords/acpi
-eix hibernate-script 
-doas vim /etc/portage/package.accept_keywords/hibernate
-acpitool
-acpitool -h
-acpitool -s
-doas acpitool -s
-eix acpi
-doas emerge --ask acpitool
-doas emerge --ask hibernate-script
-doas rc-update add hibernate-cleanup boot
-hibernate
-doas hibernate
-loginctl reboot
-doas vim /etc/portage/package.accept_keywords/hprofile
-hprofile
-doas -c
-doas hprofile -c
-doas hprofile .bat
-doas hprofile -t
-doas hprofile disk
-doas emerge --deselect hprofile
-hibernate-ram
-doas hibernate-ram
-doas vim /etc/acpi
-acpitool -c
-eix hprofile
-doas emerge --ask hprofile
-doas nvim /etc/acpi/default.sh
-doas -s
-cat /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor
-ls /boot/grub/grub.cfg
-ls /boot
-doas emerge --ask --update --newuse --deep --with-bdeps=y @world
-doas vim /etc/portage/package.use/binutils
-doas vim /etc/portage/package.use/libglvnd
-pkill foot
-pwc
-doas emerge --depclean foot
-doas emerge --deselect foot
-doas emerge --deselect gui-apps/foot
-eix foot
-doas rm /usr/bin/meson-format-array
-doas rm /usr/lib/python-exec/python3.11/meson-format-array
-doas vim /etc/portage/package.accept_keywords/foot
-doas emerge --ask foot
-eix make
-eix dev-build/make
-dmesg --console-off
-doas dmesg --console-off
-brew install imv
-brew install feh
-feh 
-brew install mvn
-java --module-path ./lib/javafx/ --add-modules javafx.controls,javafx.fxml -d . src/java/com.lastpackage/app/Main
-java --module-path ./lib/javafx/ --add-modules javafx.controls,javafx.fxml -d src/java/com.lastpackage/app/Main
-java --module-path ./lib/javafx/ --add-modules javafx.controls,javafx.fxml -d ./src/java/com.lastpackage/app/Main
-java --module-path ./lib/javafx/ --add-modules javafx.controls,javafx.fxml -d ./src/java/com.lastpackage/app/Main.class
-make un
-make eun
-java --module-path ./lib/javafx/ --add-modules javafx.controls,javafx.fxml ./src/java/com.lastpackage/app/Main
-java --module-path ./lib/javafx/ --add-modules javafx.controls,javafx.fxml src/java/com.lastpackage/app/Main
-make all
-ls bin
-ls bin/com
-ls bin/com/lastpackage/game/GameLoop.class
-rm -rf bin/com
-ls bin/main
-java --module-path ./lib/javafx/ --add-modules javafx.controls,javafx.fxml Main
-ls main
-rm -rf main
-java --module-path ./lib/javafx/ --add-modules javafx.controls,javafx.fxml main.Main
-java --module-path ./lib/javafx/ --add-modules javafx.controls,javafx.fxml bin/main/Main.class
-vim Makefile
-vim test.puml
-hn -e
-hhn -e
-rm -rf cmp.lua
-vim .zsh
-fopen
-brew install eza
-rm -rf nvim.mybak nvim.new.wip 
-mv nvim nvim.bak
-mkdir nvim
-vim init.lua
-mkdir -p lua/user
-vim lua/user
-vim lua/user/init.lua
-vim lua/user/lazy.lua
-vim lazy.lua
-vim set.lua
-mkdir plugins
-cd plugins
-vim telescope.lua
-vim color.lua
-vim cmp.lua
-vim lsp.lua
-vim autocmds.lua
-vim treesitter.lua
-vim lua/plugins/lsp.lua
-vim dist
-mkdir dist
-mv catppuccin catppuccin.yml tokyo_night.yml colorscheme.yml dist
-vim dist/rose-pine.yml
-mv dist/rose-pine.yml dist/rose-pine.toml
-mv dist/rose-pine.toml dist/rose-pine.yml
-mv dist/* ./
-rm -rf dist
-vim rose-pine.yml
-vim alacritty.yml
-prompt gentoo
-git pull force
-git force pull
-git reset --hard origin main
-vim .config/nvim/lua/plugins
-git commit -m "nvim new"
-prompt bart
-prompt -l
-prompt list
-prompt -h
-prompt
-ls lib/javafx
-mv lib/javafx/javafx-sdk-21.0.1/lib lib/javafx
-cd lib/javafx
-rm -rf javafx-sdk-21.0.1
-mv javafx/lib/* javafx
-rm -rf javafx/lib
-vim src/java/com.lastpackage/app/Main.
-vim src/java/com.lastpackage/game/GameLoop.java
-vim src/java/com.lastpackage/game/Game.java
-vim jdtls-config.json
-vim src/java/com.lastpackage/app/Main.java
-mv com.lastpackage/*/* ./
-rm -rf com.lastpackage
-vim Main.java
-vim Game.java
-vim GameWindow.java
-vim .config/alacritty
-vim .config/nvim/lua/user
-vim .config/nvim/
-cd .config
-cp -r nvim.bak/spell nvim/
-ls nvim
-ip lins
-doas rc-service status default
-nmcli
-nmcli device show
-ip a
-cd git/dotfiles/.config/nvim.bak/lua/user/
-vim remap.lua
-doas shutdown -h no
-doas rc-status NetworkManager
-ls -la /boot
-doas rc-status boot default
-cd /usr/src/linux
-make -j6 && make moduels_install && make install && grub-mkconfig -o /boot/grub/grub.cfg
-us
-doas asahi-fr
-doas asahi-fwextract
-ip link
-vim .config/nvim/lua/user/init.lua
-vim .config/nvim/lua/user/lazy.lua
-vim .config/nvim/lua/user/remap.lua
-doas rc-service NetworkManager healthcheck
-doas rc-service NetworkManager activat
-doas rc-service NetworkManager unmask
-doas rc-service NetworkManager zap
-doas rc-service NetworkManager unhealthy
-doas rc-service NetworkManager strat
-doas rc-service NetworkManager stop
-pkill NetworkManager
-doas pkill NetworkManager
-doas rc-service NetworkManager start
-ip link set wlp1s0f0 up
-doas ip link set wlp1s0f0 up
-nmcli con show
-dmesg | grep Net
-dmesg | grep Netw
-nmcli connection up 
-nmcli connection up sc
-nmcli connection up Schul
-nmcli connection up Schule
-nmcli connection show
-ls /var/log/
-doas vim /etc/NetworkManager/dispatcher.d/10-openrc-status
-rc-status 
-doas rc-update del tiny-dfr
-doas rc-service tlp stop
-doas rc-update del acpi 
-doas rc-update del acpid
-doas rc-update del tlp
-doas vim /etc/rc.conf .
-doas vim /etc/rc.conf 
-doas rc-service NetworkManager restart
-dmesg
-doas rc-service NetworkManager
-doas rc-service NetworkManager -d
-doas rc-service NetworkManager -Z
-doas rc-service NetworkManager -Z start
-doas rc-service NetworkManager -Z restart
-doas rc-service NetworkManager -d resat
-doas rc-service NetworkManager -d resart
-doas rc-service NetworkManager -d start
-doas rc-service NetworkManager -d restart
-firefox figures.svg
-doas rc-service acpid start
-nmti
-task add project:school.mathe aufgabe {1-14}
-task 20
-task 20 del
-cd .local/share/nvim/lazy/markdown-preview.nvim
-cd app
-npx --yes yarn install
-yarn insstall
-npm install
-vim nvim.
-vim nvim.mybak
-cd ~/git/dotfiles/.config/nvim.bak
-exit
-pe
-pwd 
-vim .zshrc
-eix rim
-eix grim
-doas emerge --ask grim
-eix slurp
-doas emerge --ask slurp
-cd nvim
-mkdir -p after/ftplugin
-vim after/ftplugin/markdown.lua
-cp -r ~/git/dotfiles/.config/nvim.bak/snippets ./
-vim git/dotfiles/.config/nvim.bak/lua/user/set.lua
-calc
-doas emerge --ask calc
-(10/5)
-echo "$((20.0/5))"
-echo "$((20/5))"
-echo "$((149*12))"
-nmap
-<<<<<<< HEAD
-cd git/h
-git pull 
-git fetch --all
-git reset --hard origin/master
-git add .gitignore
-git commit -m "gitignore zsh history"
-git push 
-git merge dev
-git commit -m "merge"
-vim BasicFXML
-vim BasicFXML.fxml
-vim BasicFXMLController.java
-open KlassenDiagramm.svg
-plantuml -tsvg KlassenDiagramm.plantuml
-tree 
-rm -rf com
-vim /tmp/tes
-vim .classpath
-ls assets
-brew install gnupg
-brew install gnuplot
-mkdir plots
-mv plots graphics
-cd graphics
-date -h
-date YYYYmmdd
-date -f YYYYmmdd
-gnuplot 
-cat gnuplot.gp
-vim data.txt
-vim gnuplot.gp
-gnuplot gnuplot.gp
-open scatter_plot_with_regression.png
-mv gnuplot.gp 2024-01-18-regression.gp
-vim 2024-01-18-regression.gp
-tree src
-brew install pandoc texlive
-pandoc 
-cd doc/
-pandoc why_javafx.md -o out.pdf
-open out.pdf
-vim 
-ssh niklas
-=======
-git commit -m 'update nvim'
-eix m1n1
-eix sys-boot/u-boot
-doas emerge --ask telent
-doas emerge --ask telnet
-eix nv
-eix nc
-eix netcat
-doas emerge --ask netcat
-nc
-nc -vc 91.249.208.110
-ping 91.249.208.110
-nc -vc 91.249.208.110 53589
-nc -vc 91.249.208.110 80
-nc -vc 91.249.208.110:19132 
-nc -vc 91.249.208.110 19132 
-nc -vc [91.249.208.110[ 19132 
-nc -vc [91.249.208.110] 19132 
-nc -zv [91.249.208.110] 19132 
-nc -zv 91.249.208.110 19132 
-nc -zv 91.249.208.110 80
-nc -zv 91.249.208.110 53589
-emerge --update --newuse --deep --with-bdeps=y @world
-doas emerge --update --newuse --deep --with-bdeps=y @world
-tasks ync
-ping 91.249.208.110:53589
-git checkout dev
-git pull origin dev
-git checkout
-s
-vim resources
-vim resources.json
-eix NetworkManager
-eix networkmanager
-eix networkmanager | grep vpn
-nm-tu
-nm-tui
-nm-ao
-eix mesa
-glxgreas
-eix glxinfo
-eix -s glxinfo
-eix -h
-eix -f glxgears
-doas for x in /etc/runlevels/default/net.* ; do rc-update del $(basename $x) default ; rc-service --ifstarted $(basename $x) stop; done
-bash
-task context school
-doas mullvad 
-doas mullvad connet 
-doas mullvad connect
-mullvad status
-mullvad account
-mullvad account get
-mullvad disconnet
-mullvad disconnect
-doas mullvad account get
-nm-applet 
-mullvad-daemon
-doas mullvad-daemon
-doas eselect profile list
-doas eselect profile set 1
-eix sys-devel/make
-eix mesa::gentoo
-doas emerge --ask mesa
-doas emerge --ask media-libs/mesa
-eix asahi-edge-kernel
-doas vim /etc/portage/make.conf
-eix media-libs/mesa
-eix asahi-sources
-doas zcat /proc/config.gz > config
-vim conf
-vim config
-glewinfo
-vim /var/tmp/portage/sys-kernel/asahi-kernel-6.3.0_p13
-doas ls /var/tmp/portage/sys-kernel/asahi-kernel-6.3.0_p13/
-doas ls /var/tmp/portage/sys-kernel/asahi-kernel-6.3.0_p13/temp/
-doas vim /var/tmp/portage/sys-kernel/asahi-kernel-6.3.0_p13/temp/build.log
-doas cat /var/tmp/portage/sys-kernel/asahi-kernel-6.3.0_p13/temp/build.log | less
-doas vim /etc/portage/package.use/k
-doas vim /etc/portage/package.use/kernel
-eix rustc
-eix rust
-doas emerge --ask '=virtual/rust-1.66.0'
-doas eselect repository add outreach git https://github.com/getoutreach/overlay.git
-eix asahi-kernel
-emerge --ask asahi-kernel
-doas asahi-kernel
-doas emerge --info '=sys-kernel/asahi-kernel-6.3.0_p13::outreach
-doas emerge --info =sys-kernel/asahi-kernel-6.3.0_p13::outreach
-doas emerge --info '=sys-kernel/asahi-kernel-6.3.0_p13::outreach'
-doas emerge --ask asahi-kernel
-doas vim /etc/portage/package.accept_keywords
-doas vim /etc/portage/package.accept_keywords/bindgen
-eix bindgen
-doas emerge =dev-lang/rust-1.66.0 =dev-util/bindgen-0.56.0
-doas emerge '=dev-lang/rust-1.66.0' '=dev-util/bindgen-0.56.0'
-emerge --search dev-lang/rust
-eix dev-lang/rust
-eix dev-util/bindgen
-doas emerge '=dev-lang/rust-1.66.1' '=dev-util/bindgen-0.56.0'
-vim .local/bin/gentoo-updater
-doas eix-update
-cp /tmp/1705488290_grim.png ./
-eselect repository
-eselect repository list
-cd /var/db/repos/local
-tree
-mkdir -p dev-util/bindgen
-doas mkdir -p dev-util/bindgen
-vim inbox.md
-echo $((2^9))
-cd .config/nvim/
-cd git/dotfiles/.config/nvim.bak/lua/plugins
-vim editior.lua
-eix tkix
-eix tikx
-eix tikz
-echo $((4*81))
-doas emerge --ask texlive
-doas vim /etc/portage/package.use/texlive
-doas emerge --ask --newuse texlive
-pandoc -s beweisen.md -o out.pdf
-doas vim /etc/portage/package.mask/kernel
-echo "dev-lang/rust-bin ~amd64" >> /etc/portage/package.accept_keywords/rust
-doas echo "dev-lang/rust-bin ~amd64" >> /etc/portage/package.accept_keywords/rust
-vim 1705488290_grim.png
-imv 1705488290_grim.png
-zcat /proc/config.gz
-scp Downloads/ch-zrh-wg-403.conf niklas@192.168.4.56:/home/niklas/mullvad/
-vim docekr radarr
-vim docekr
-ssh niklas@192.168.4.56
-nm-applet
-zcat /proc/config.gz | grep RUST
-zcat /proc/config.gz | grep ASAHI
-gentoo-updater
-lbslk
-ds
-ld
-dl
-lsblk --output NAME,FSTYPE,LABEL,UUID,MODE
-doas lsblk --output NAME,FSTYPE,LABEL,UUID,MODE
-doas emerge --ask btrfsmaintenance
-sync
-btrfs filesystem
-btrfs filesystem df
-btrfs filesystem df /dev/nvme0n1p5
-btrfs filesystem df /
-df
-btrfs filesystem du -s /
-du
-doas btrfs filesystem du -s /\
-
-doas emerge --ask --update --deep --depcelan
-doas emerge --ask --update --deep --depclean
-vmi .
-pwd
-mkdir english
-cd english
-fc-conflist | grep FiraCode
-fc-conflist | grep Nerd
-fc-conflist | grep firacode
-cd git/dotfiles/.config/nvim.bak
-doas vim /etc/portage/package.accept_keywords/netahck
-doas vim /etc/portage/package.accept_keywords/nethack
-eix nerdfont
-eix Nerd
-eix Hack
-eix hack
-doas emerge --ask nethack
-doas emerge @preserved-rebuild
-cd DOw
-unzip FiraCode_2.zip
-cp ttf/* ~/.local/share/fonts/
-fc-cache 
-fc-cache -h
-fc-cache -f
-fc-conflist
-fc-conflist | grep fira
-fc-conflist | grep Fira
-eselect fontconfig 
-eselect fontconfig lsit
-eselect fontconfig list
-eselect fontconfig enable 09
-doas eselect fontconfig enable 09
-doas eselect fontconfig enable 9
-ls 
-ce
-cd .local/share/fonts
-emerge -av media-fonts/fira-code
-doas emerge -av media-fonts/fira-code
-doas eselect fontconfig disable 09
-doas eselect fontconfig disable 9
-ls .local/share/fonts
-doas eselect fontconfig enable 75-noto-emoji-fallback.conf
-=======
-vim .gitignore
-git commit -m "remove gitigrnore jar(packages)"
-git psuh
-wildcard
-java --cp bin Main
-tree bin
-find -name "*.java" > sources.txt
-finde --name "java"
-find --name "java"
-find -h
-find -H
-find -name "*java"
-find ./ -name "java\
-"
-find ./ -name "*.java"
-find ./ -name "*.java" > javac -cp .:./lib/*
-javac -cp .:./lib/* $(find ./ -name "*.java")
-javac -cp .:./lib/* -d bin $(find ./ -name "*.java")
-java --classpath ./bin Main
-java -classpath ./bin Main
-java -d ./bin Main
-vim Makefile
-java -XstartOnFirstThread -d ./bin -cp .:./lib/* Main\
-
-java -XstartOnFirstThread -classpath bin -cp .:./lib/* Main\
-
-java -d bin -cp .:./lib/* Main
-java -cp bin:.:./lib/* Main
-ls bin/game
-mkdir Gradle_LWJGL
-cd Gradle_LWJGL
-wget data:text/plain;base64,aW1wb3J0IG9yZy5ncmFkbGUuaW50ZXJuYWwub3MuT3BlcmF0aW5nU3lzdGVtCgpwcm9qZWN0LmV4dC5sd2pnbFZlcnNpb24gPSAiMy4zLjMiCnByb2plY3QuZXh0LmpvbWxWZXJzaW9uID0gIjEuMTAuNSIKCnN3aXRjaCAoT3BlcmF0aW5nU3lzdGVtLmN1cnJlbnQoKSkgewoJY2FzZSBPcGVyYXRpbmdTeXN0ZW0uTElOVVg6CgkJcHJvamVjdC5leHQubHdqZ2xOYXRpdmVzID0gIm5hdGl2ZXMtbGludXgtYXJtNjQiCgkJYnJlYWsKCWNhc2UgT3BlcmF0aW5nU3lzdGVtLk1BQ19PUzoKCQlwcm9qZWN0LmV4dC5sd2pnbE5hdGl2ZXMgPSAibmF0aXZlcy1tYWNvcy1hcm02NCIKCQlicmVhawoJY2FzZSBPcGVyYXRpbmdTeXN0ZW0uV0lORE9XUzoKCQlwcm9qZWN0LmV4dC5sd2pnbE5hdGl2ZXMgPSAibmF0aXZlcy13aW5kb3dzLXg4NiIKCQlicmVhawp9CgpyZXBvc2l0b3JpZXMgewoJbWF2ZW5DZW50cmFsKCkKfQoKZGVwZW5kZW5jaWVzIHsKCWltcGxlbWVudGF0aW9uIHBsYXRmb3JtKCJvcmcubHdqZ2w6bHdqZ2wtYm9tOiRsd2pnbFZlcnNpb24iKQoKCWltcGxlbWVudGF0aW9uICJvcmcubHdqZ2w6bHdqZ2wiCglpbXBsZW1lbnRhdGlvbiAib3JnLmx3amdsOmx3amdsLWFzc2ltcCIKCWltcGxlbWVudGF0aW9uICJvcmcubHdqZ2w6bHdqZ2wtZ2xmdyIKCWltcGxlbWVudGF0aW9uICJvcmcubHdqZ2w6bHdqZ2wtaGFyZmJ1enoiCglpbXBsZW1lbnRhdGlvbiAib3JnLmx3amdsOmx3amdsLW5mZCIKCWltcGxlbWVudGF0aW9uICJvcmcubHdqZ2w6bHdqZ2wtb3BlbmFsIgoJaW1wbGVtZW50YXRpb24gIm9yZy5sd2pnbDpsd2pnbC1vcGVuZ2wiCglpbXBsZW1lbnRhdGlvbiAib3JnLmx3amdsOmx3amdsLXN0YiIKCXJ1bnRpbWVPbmx5ICJvcmcubHdqZ2w6bHdqZ2w6OiRsd2pnbE5hdGl2ZXMiCglydW50aW1lT25seSAib3JnLmx3amdsOmx3amdsLWFzc2ltcDo6JGx3amdsTmF0aXZlcyIKCXJ1bnRpbWVPbmx5ICJvcmcubHdqZ2w6bHdqZ2wtZ2xmdzo6JGx3amdsTmF0aXZlcyIKCXJ1bnRpbWVPbmx5ICJvcmcubHdqZ2w6bHdqZ2wtaGFyZmJ1eno6OiRsd2pnbE5hdGl2ZXMiCglydW50aW1lT25seSAib3JnLmx3amdsOmx3amdsLW5mZDo6JGx3amdsTmF0aXZlcyIKCXJ1bnRpbWVPbmx5ICJvcmcubHdqZ2w6bHdqZ2wtb3BlbmFsOjokbHdqZ2xOYXRpdmVzIgoJcnVudGltZU9ubHkgIm9yZy5sd2pnbDpsd2pnbC1vcGVuZ2w6OiRsd2pnbE5hdGl2ZXMiCglydW50aW1lT25seSAib3JnLmx3amdsOmx3amdsLXN0Yjo6JGx3amdsTmF0aXZlcyIKCWltcGxlbWVudGF0aW9uICJvcmcuam9tbDpqb21sOiR7am9tbFZlcnNpb259Igp9
-cp ~/Downloads/build.gradle ./
-nvim gr
-cat build.gradle
-ls gradle
-vim build.gradle
-rm build.gradle
-grade
-vim build.gradle.kts
-nvim build.gradle.kts
-gradle -g
-gralde init
-rm ./*
-gradle init --stacktrace
-gradle init wrapper
-gradle init build
-ls build
-gradle init assemble projects
-gradle initSource
-rm -rf ./*
-mkdir OpenGL
-cd OpenGL
-mkdir 2D_Game_Engile_LWJGL
-cd 2D_Game_Engile_LWJGL
-cp -r ~/projects/school/liferfix_game_projekt_2024_2_hj/test/HelloWorld_lwjgl/* ./
-mkdir -p src/main/java/game
-touch src/main/java/Main.java src/main/java/game/Window.java
-mkdir game
-./gradlew compileJava --debug | grep Executing
-./gradlew build --debug | grep Executing
-gralde 
-gradle build -debug 
-gradle build -debug | grep java
-gradle build -debug | grep javac
-gradle run --warning-mode all
-gradle run --warning-mode all --stacktrace
-gradle build 
-gradle javadoc
-brew install glfw
-glfw
-system_profiler SPDisplaysDataType | grep OpenGL
-system_profiler SPDisplaysDataType
-glxinfo | grep -i opengl
-brew install glfw\
-
-brew install glxinfo
-brew install glxinfon -e
-find / -name "*opengl*"
-sudo find / -name "*opengl*"
-cd /tmp/
-vim pyopgl.py
-python pyopgl.py
-pip3 install PyOpenGL
-pip3 install OpenGL
-python3 pyopgl.py
-radle run
-gradle init
-gralde
-gradle tasks
-nim .
-nvim app/src
-mkdir app/src/main/java/gradle_lwjgl/util
-nvim app/src/main/java/gradle_lwjgl/util/Time.java
-nvim app/src/main/java/gradle_lwjgl/game/Scene.java
-mkdir -p assets/shaders
-nvim assets/shaders/default.glsh
-nvim assets/shaders/default.glsl
-cp -r Gradle_LWJGL LWJGL_OpenGL_Colored_Box_bak
-java -c .:./lib/* HelloWorld.
-java -c .:./lib/* HelloWorld
-java -cp .:./lib/* HelloWorld
-java -cp .:./lib/* -Djava.libary.path=./native/macos HelloWorld
-java -cp .:./lib/* -Djava.libary.path ./native/macos/* HelloWorld
-java -cp .:./lib/* -Djava.libary.path=./native/macos/* HelloWorld
-java -cp .:./lib/* -Djava.library.path=/Users/niklas/projects/school/HelloWorld_lwjgl/native/macos/ HelloWorld
-java -cp .:./lib/* -Djava.library.path=/Users/niklas/projects/school/HelloWorld_lwjgl/native/macos/ -Dorg.lwjgl.util.DebugLoader=true HelloWorld
-java -Djava.libary.path=./native/macos -cp .:./lib/* HelloWorld
-mv native/*/* native
-java -Djava.libary.path=./native/ -cp .:./lib/* HelloWorld
-java -Djava.libary.path=native/ -cp .:./lib/* HelloWorld
-java -Dorg.lwjgl.librarypath=./native -cp .:./lib/* HelloWorld
-javac -Dorg.lwjgl.librarypath=./native -cp .:./lib/* HelloWorld.java
-java --module-path ./native -cp .:./lib/* HelloWorld.
-java --module-path ./native -cp .:./lib/* HelloWorld
-mv native/*macos-arm* native/macos/
-mv native/*linux-arm* native/linux
-mv native/*windows-x86* native/windows
-java --module-path ./native/macos -cp .:./lib/* HelloWorld.
-java --module-path ./native/macos -cp .:./lib/* HelloWorld
-javac -Dorg.lwjgl.librarypath=./native/macos -cp .:./lib/* HelloWorld.java
-javac -Dorg.lwjgl.librarypath=./native/macos/ -cp .:./lib/* HelloWorld.java
-java -Dorg.lwjgl.librarypath=./native/macos/ -cp .:./lib/* HelloWorld
-java -Dorg.lwjgl.librarypath=./native/macos/ -cp .:./lib/*:./native/macos/ HelloWorld
-java -Dorg.lwjgl.librarypath=./native/macos/* -cp .:./lib/*:./native/macos/ HelloWorld
-java -Dorg.lwjgl.librarypath=./native/macos/* -Dorg.lwjgl.util.DebugLoader=true  -cp .:./lib/*:./native/macos/ HelloWorld
-java -Dorg.lwjgl.librarypath=./native/macos/* -Dorg.lwjgl.util.DebugLoader=true -Dorg.lwjgl.librarypath=./native/macos/ -cp .:./lib/*:./native/macos/ HelloWorld
-ls lwjgl
-java -cp .:./lib/*:../lwjgl/ HelloWorld.java
-javac -cp .:./lib/*:../lwjgl/ HelloWorld.java
-java -cp .:./lib/*:../lwjgl/ HelloWorld
-java -Dorg.lwjgl.librarypath=../lwjgl/ -cp .:./lib/* HelloWorld
-brew search jdk
-jdk 
-java -Dorg.lwjgl.librarypath=../lwjgl/ -XstartOnFirstThread -cp .:./lib/* HelloWorld
-java -Dorg.lwjgl.librarypath=./native/ -XstartOnFirstThread -cp .:./lib/* HelloWorld
-ja
-java -Djava.library.path=native/ -cp .:./lib/* HelloWorld
-ls native
-la native/macos
-java -Djava.library.path=native/macos -cp .:./lib/* HelloWorld
-OS
-$(OS)
-shell uname
-uname
-gradle
-gradle update
-tree app
-exit
-git clone https://github.com/codingminecraft/MarioYoutube.git
-cp default.glsl test.glsl
-nvim test.glsl
-rm test.glsl
-touch Camera.java
-touch Texture.java
-open testImage.png
-touch GameObject.java
-touch Component.java
-mkdir components
-cd components
-touch SrpiteRender.java
-rm -rf SrpiteRender.java
-touch FontRenderer.java
-touch Transform
-mv Transform Transform.java
-touch RenderBatch.java
-touch Renderer.java
-touch AssetPool.java
-rm Time.java
-cp ~/Downloads/testImage2.png ./
-touch Sprite.java
-touch Spritesheet.java
-cp ~/Downloads/spritesheet.png ./
-cp ~/git/MarioYoutube/assets/images/* ./
-cp -r ~/git/MarioYoutube/assets/images/spritesheet ./
-cp -r ~/git/MarioYoutube/assets/images/spritesheets ./
-ls sr
-mkdir renderer
-cd renderer
-touch shader.java
-mv shader.java Shader.java
-ls assets/shaders/default.glsl
-cd assets/shaders
-ls app
-ls app/src
-mkdir app/src/main/resources
-ls app/src/main
-ls app/src/main/resources
-mv assets app/src/main/resources
-tree app/src/main
-pwd app/src/main/resources/assets/shaders
-cd app/src/main/resources/assets/shaders
-nvim n -e
-lsl 
-mkdir app/src/main/resources/assets/images
-cp ~/Downloads/testImage.png app/src/main/resources/assets/images
-gradle build
-rm ImGuiLayer.java
-javadoc -d ./doc/javadoc gradle_lwjgl
-javadoc -d ./doc/javadoc -cp gradle_lwjgl
-javadoc -d ./doc/javadoc -cp ./bin gradle_lwjgl
-javadoc -d ./doc/javadoc -cp ./bin gradle_lwjgl.App
-javadoc -d doc/javadoc ./src/main/java
-javadoc -d doc/javadoc bin.gradle_lwjgl
-javadoc -d doc/javadoc gradle_lwjgl
-javadoc -d doc/javadoc -sourcepath src/main/java/
-javadoc -d doc/javadoc -sourcepath src/main/java/ gradle_lwjgl
-javadoc -d doc/javadoc -sourcepath ./bin gradle_lwjgl
-javadoc -d doc/javadoc -sourcepath ./lib/:./src/main/java/ gradle_lwjgl
-javadoc -d doc/javadoc -sourcepath ./src/main/java/ -classpath ./lib/ gradle_lwjgl
-javadoc -d doc/javadoc -sourcepath ./src/main/java/ -classpath ./lib/* gradle_lwjgl
-javadoc -d doc/javadoc -sourcepath ./src/main/java/ -classpath ./lib/*.jar gradle_lwjgl
-javadoc -d doc/javadoc -sourcepath ./src/main/java/ -classpath ./bin/ gradle_lwjgl
-tree > tree.txt
-nvim tree.txt
-javadoc -d doc/javadoc -sourcepath src/main/java -classpath "lib/*" src/main/java/gradle_lwjgl/*.java src/main/java/gradle_lwjgl/components/*.java src/main/java/gradle_lwjgl/game/*.java src/main/java/gradle_lwjgl/renderer/*.java src/main/java/gradle_lwjgl/util/*.java\
-
-python -m http
-python3 -m http 
-python3 -m http -h
-javadoc -d doc/javadoc -sourcepath src/main/java -classpath "lib/*" src/main/java/gradle_lwjgl/
-javadoc -d doc/javadoc -sourcepath src/main/java -classpath "lib/*" src/main/java/gradle_lwjgl/**/*.java
-vim .
-mkdir LWJGL_GameEngine_make
-cp -r ../Gradle_LWJGL/app/src ./
-touch lib
-rm lib
-mkdir lib
-cp -r ~/git/MarioYoutube/assets ./
-cp ../2D_Game_Engile_LWJGL/Makefile ./
-unzip ~/Downloads/lwjgl-release-3.3.3-custom\(1\).zip 
-ls bin/gradle_lwjgl/App.class
-touch ImGuiLayer.java
-rm src/main/java/gradle_lwjgl/game/ImGuiLayer.java
-mv LWJGL_GameEngine_make LWJGL_GameEngine_make.bak
-mkdir lwjgl
-cp lwjgl-* lwjgl/
-rm -rf lwjgl/*
-mv lwjgl-* ./lwjgl/
-mv *.jar lwjgl/
-mv *.txt lwjgl
-mv LICENSE lwjgl
-mkdir ImGui
-mv ./*/* ./
-rm -rf lwjgl
-rm -rf ImGui
-unzip ~/Downloads/native-libraries.zip 
-unzip ~/Downloads/java-libraries.zip
-mkdir -p doc/javadoc
-make doc
-ls do
-ls *.so
-rm -rf imgui-*
-cp ~/Downloads/imgui/* ./
-cp -r LWJGL_GameEngine_make.bak LWJGL_GameEngine_make
-mkdir imgui
-cd imgui
-unzip ../native-libraries.zip
-unzip ../java-libraries.zip
-mv gradle_lwjgl game
-mv game engine
-nvim ./*
-cat ./* | head -1
-for file in ./; do cat $file | head -1\
-; done
-for file in ./*; do cat $file | head -1; done
-nvim ./*/*
-nvim src/main/java/game/renderer/Renderer.java
-rm tree.txt
-mkdir libGDX
-cd libGDX
-java -jar ~/Downloads/gdx-setup.jar
-git clone https://github.com/SpaiR/imgui-java
-./gradlew :example:run
-./gradlew :imgui-lwjgl3:run
-cp -r doc lib src Makefile ../../school/liferfix_game_projekt_2024_2_hj
-tree src
-rm -rf src
-ls te
-rm -rf te
-ls test
-rm -rf test
-rm -rf Makefile
-rm -rf bin
-ls bi
-git commit -m "Init LWJGL"
-cp ~/Downloads/gson-2.10.1.jar ./
-git add gson-2.10.1.jar
-git commit -m "added gson"
-touch AnimationState.java
-cd .local/share/
->>>>>>> main
-fc-list
-fc-list | grep Fira
-<<<<<<< HEAD
-eix tree-sitter
-doas emerge --ask tree-sitter
-doas emerge --ask dev-libs/tree-sitter
-cat /sys/class/power_supply/macsmc-battery/capacity
-vim git/dotfiles/README.md
-vim cites.md
-vim nvim
-doas rc-service NetworkManager status
-doas rc-service acpid stop
-doas rc-update del acpid 
-reboot
-su 
-cat /var/log/boot
-loginctl suspend
-grep -r "elogind" /etc/pam.d/ 
-doas rc-update add elogind boot
-echo mem > /sys/power/state
-doas echo mem > /sys/power/state
-doas /etc/init.d/acpid start
-doas rc-service tlp start
-doas rc-update add tlp
-doas powertop
-htop
-doas rc-update acpid
-doas rc-update add acpid
-rc-service NetworkManager
-rc-service NetworkManager status
-nethack
-vim erzehlsituation.md
->>>>>>> 229fc584750cd286059945d9dfffb3bad8e1ec9d
-vim .gitignore
-git config pull.rebase false
-git fetch
-git reset --hard origin/main
-nvim
-cd .config/nvim
-vim .
-vim
-vim .config/sway
-vim .config/alacritty/
-fc-list | grep nerd
-fc-list | grep Nerd
-eix alacritty
-foot
-\n -e
-echo $((77.5-65))
-echo $((69.2-86.5))
-echo $((86.5-69.2))
-task add project:school.phy +sil feder konstante
-task project:wikipedia Mathematics and Arts uebersetzen
-task add project:wikipedia Mathematics and Arts uebersetzen
-task add project:wikipedia Künstliche Intiligenz grenzen nachtragen nach facharbeit
-su
-nmtui
-cd dotfiles
-cd ..
-rm -rf dotfiles
-git clone git@github.com:Hirschiii/dotfiles
-mkdir projects
-git pull git@github.conm:Hirschiii/liferfix_game_projekt_2024_2_hj
-git clone git@github.conm:Hirschiii/liferfix_game_projekt_2024_2_hj
-git clone git@github.com:Hirschiii/liferfix_game_projekt_2024_2_hj
-mpv
-doas pacman -S mpv
-mpv Areswell.mp3
-mpv Fröhlich.
-mpv Fröhlich.mp3
-mpv Myterious.flp
-mpv Opa.
-mpv Opa.mp3
-lw
-sudo pacman -S openjdk
-sudo pacman -Ss openjdk
-sudo pacman -Ss openjdk8
-sudo pacman -Ss jdk-openjdk
-sudo pacman -S jdk-openjdk
-cd ~/Downloads
-unzip lwjgl-release-3.1.6-custom.zip
-scp ~/Downloads/Musik_Horprobe.mp3 gulugulu@aegaeon.uberspace.de:/home/gulugulu/html/vonhirschfeld.eu/lieferfix/
-mkdir lwjgl
-cd lwjgl 
-unzip ../lwjgl-nightly-2024-02-05-custom.zip
-ssh gulugulu@aegaeon.uberspace.de
-powertop
-./script
-./script_bar.sh
-nati
-yay -Ss graal
-yay -Ss graalVM
-doas pacman -S graalvm
-doas pacman -Ss graalvm
-doas pacman -Ss graal
-yay -S graalbvm
-yay -S graalvm
-yay -S graal
-native
-yay -S  graal-native-image-
-yay -S  graal-native-image
-yay -Ss  graal-native-image
-yay -Ss  graal-native-image-bin
-yay -S  graal-native-image-bin
-native-
-yay -S native-imagte
-yay -S native-image
-yay -
-yay -Ss native-image
-yay -S native-image-jdk19-bin
-doas  /usr/lib/jvm/java-19-graalvm/bin/gu rebuild libpolyglot
-tar -xfv graalvm-jdk-21_linux-x64_bin.tar.gz
-tar -xf graalvm-jdk-21_linux-x64_bin.tar.gz
-tar -xvf graalvm-jdk-21_linux-x64_bin.tar.gz
-cd graalvm-jdk-21.0.2+13.1
-cd bin
-./native-image
-ls /home/niklas/Downloads/graalvm-jdk-21.0.2+13.1/lib/svm/clibraries
-sudo pacman -S gradle
-cd Dow
-cd Downloads
-mkdir graal_win
-cd graal
-cd graal_win
-unzip ../graalvm-jdk-21_windows-x64_bin.zip \\
-
-cp lils
-cp -rf graalvm-jdk-21.0.2+13.1/lib/svm/clibraries/windows-amd64 ../graalvm-jdk-21.0.2+13.1/lib/svm/clibraries/
-cd /tmp
-mkdir java
-cd java
-catr n -e
-rm -rf ./(\
-*
-rm -rf ./*
-y
-zk edit -i
-d
-cat build.gradle
-on -e
-doas pacman -Syyyiu
-cp ~/Downloads/lwjgl-natives-linux.jar ./lib
-ls lib
-ls lib/lwjgl-*
-ls lib/lwjgl-nati*
-git checkout -b test_beta_natives
-cd lib
-cp /home/niklas/Downloads/lwjgl/lwjgl-assimp-natives-linux-arm64.jar /home/niklas/Downloads/lwjgl/lwjgl-assimp-natives-linux.jar /home/niklas/Downloads/lwjgl/lwjgl-assimp-natives-macos-arm64.jar /home/niklas/Downloads/lwjgl/lwjgl-assimp-natives-macos.jar /home/niklas/Downloads/lwjgl/lwjgl-assimp-natives-windows-x86.jar /home/niklas/Downloads/lwjgl/lwjgl-glfw-natives-linux-arm64.jar /home/niklas/Downloads/lwjgl/lwjgl-glfw-natives-linux.jar /home/niklas/Downloads/lwjgl/lwjgl-glfw-natives-macos-arm64.jar /home/niklas/Downloads/lwjgl/lwjgl-glfw-natives-macos.jar /home/niklas/Downloads/lwjgl/lwjgl-glfw-natives-windows-x86.jar /home/niklas/Downloads/lwjgl/lwjgl-openal-natives-linux-arm64.jar /home/niklas/Downloads/lwjgl/lwjgl-openal-natives-linux.jar /home/niklas/Downloads/lwjgl/lwjgl-openal-natives-macos-arm64.jar /home/niklas/Downloads/lwjgl/lwjgl-openal-natives-macos.jar /home/niklas/Downloads/lwjgl/lwjgl-openal-natives-windows-x86.jar /home/niklas/Downloads/lwjgl/lwjgl-opengl-natives-linux-arm64.jar /home/niklas/Downloads/lwjgl/lwjgl-opengl-natives-linux.jar /home/niklas/Downloads/lwjgl/lwjgl-opengl-natives-macos-arm64.jar /home/niklas/Downloads/lwjgl/lwjgl-opengl-natives-macos.jar /home/niklas/Downloads/lwjgl/lwjgl-opengl-natives-windows-x86.jar /home/niklas/Downloads/lwjgl/lwjgl-stb-natives-linux-arm64.jar /home/niklas/Downloads/lwjgl/lwjgl-stb-natives-linux.jar /home/niklas/Downloads/lwjgl/lwjgl-stb-natives-macos-arm64.jar /home/niklas/Downloads/lwjgl/lwjgl-stb-natives-macos.jar /home/niklas/Downloads/lwjgl/lwjgl-stb-natives-windows-x86.jar ./
-git add README.md
-git config --global user.email "niklas@vonhirschfeld.eu"
-git config --global user.name "Niklas von Hirschfeld"
-git commit -m "Ideen nach fertigstellung"
-~/Downloads/graalvm-jdk-21.0.2+13.1/bin/native-image game.App
-~/Downloads/graalvm-jdk-21.0.2+13.1/bin/native-image -h
-~/Downloads/graalvm-jdk-21.0.2+13.1/bin/native-image --help
-~/Downloads/graalvm-jdk-21.0.2+13.1/bin/native-image -cp .:./lib/*:./bin/ game.App
-~/Downloads/graalvm-jdk-21.0.2+13.1/bin/native-image -cp ".:./lib/*:./bin/" game.App
-./game.app
-~/Downloads/graalvm-jdk-21.0.2+13.1/bin/native-image --target-platform=window -cp ".:./lib/*:./bin/" game.App Windows_Beta_0.0.1
-~/Downloads/graalvm-jdk-21.0.2+13.1/bin/native-image --target-platform=windows -cp ".:./lib/*:./bin/" game.App Windows_Beta_0.0.1
-~/Downloads/graalvm-jdk-21.0.2+13.1/bin/native-image --help | grep target
-~/Downloads/graalvm-jdk-21.0.2+13.1/bin/native-image --target=windows -cp ".:./lib/*:./bin/" game.App Windows_Beta_0.0.1
-~/Downloads/graalvm-jdk-21.0.2+13.1/bin/native-image --target=windows-x86 -cp ".:./lib/*:./bin/" game.App Windows_Beta_0.0.1
-~/Downloads/graalvm-jdk-21.0.2+13.1/bin/native-image --help 
-~/Downloads/graalvm-jdk-21.0.2+13.1/bin/native-image --target=windows-x86_64 -cp ".:./lib/*:./bin/" game.App Windows_Beta_0.0.1
-which graal
-find / -name "graal"
-find / -name "*graal*"
-doas find / -name "*graal*"
-~/Downloads/graalvm-jdk-21.0.2+13.1/bin/native-image --target=windows-amd64 -cp ".:./lib/*:./bin/" game.App Windows_Beta_0.0.1
-mv game.app Linux_amd64_bin_0.0.1
-git commit -m "native image linux amd64"
-git add.
-git checkout -b init_gradle
-nvim gradle.build
-mv gradle.build build.gradle
-gradle 
-gradle wrapper
-gradle start
-gradle
-nvim build
-cp build.gradle build.gradle.bak
-gradle build
-nvim build.gradle
-gradle task
-gradle run
-ls *.exr
-ls *.exe
-gradle init
-git commit -m "added gradle"
-ls build
-rm -rf build/distributions/liferfix_game_projekt_2024_2_hj.tar
-git commit -m "remove big tar"
-git push origin init_gradle
-light
-light -A 10
-light -U 10
-sudo light -U 10
-sudo light -A 10
-lsbl
-sudo pacman -S vlc
-lsblk
-udevil
-sudo pacman -S udevil
-sudo mount /dev/sda2 /mnt
-cd /mnt
-sudo pacman -S alacritty
-cd /sys/class/power_supply/BAT0/ca
-nvim .config/sway
-pkill sway
-doas
-doas pacman -S FiraCodeFont
-doas pacman -Ss FiraCodeFont
-doas pacman -Ss FiraCode
-doas pacman -S ttf-firacode-nerd
-alacritty migrate
-git commit -m "alacritty migrate"
-cd .config/alacritty
-nvim alacritty.
-nvim alacritty.toml
-git commit -m "italics to italic\
-"
-ssh niklas@192.168.4.30
-cd projects
-cd liferfix_game_projekt_2024_2_hj
-git checkout origin main
-git diff
-git diff-files
-git restore
-git pull origin maijn
-git checkout origin/main
-make
-doas pacman -S mesa
-doas pacman -S mesa-utils
-glxi
-DRI_PRIME=1 glxinfo | grep "OpenGL renderer"
-doas pacman -S nvidia-prime
-prime-run
-doas pacman -Ss nvidia
-doas pacman -S xf86-video-novueau
-doas pacman -S xf86-video-intel
-prime-run glxinfo 
-lsbci
-lspci
-lspci 
-lspci | grep Nv
-lspci | grep nv
-lspci | grep 3D
-doas pacman -S optimus
-glxinfo | grep NV
-glxinfo | grep NVIDIA
-doas pacman -S nvidia-dkms
-sudo pacman -S nvidia
-doas pacman -S nvidia
-doas cat /sys/module/nvidia_drm/parameters/modeset
-doas pacman -S nvidia-settings
-doas pacman -S nvidia-utils
-cd projects/liferfix_game_projekt_2024_2_hj
-make run
-sway
-doas pacman -S i3
-doas pacman -S gnome
-loginctl session-show
-doas nvim /etc/gdm/custom.conf
-doas systemctl restart gdm
-loginctl show-session 3 -p Type
-loginctl 
-loginctl show-session 7 -p Type
-glxinfo | grep "OpenGL renderer"
-doas pacman -R nvidia
-doas pacman -R nvidia-*
-doas pacman -R nvidia-prime nvidia-settings nvidia-utils
-doas pacman -S nouveau
 doas pacman -S xf86-video-nouveau
 doas pacman -R xf86-video-nouveau
 doas pacman -S libva-mesa-driver mesa-vdpau
@@ -1061,11 +10,9 @@ vainfo
 doas pacman -S libva-intel-driver nouveau
 yay -S swayfx
 swaymsg ouput eDP-1 disable
-cd notes
 git commit -m "aa"
 git puss
 git pusj
-git status
 git pull origin main:HEAD
 git commit -m "test\
 :\
@@ -1076,7 +23,6 @@ git worktree add
 git rebase
 git rebase --quit
 git switch main
-git checkout main
 git pull --rebase
 git rebase --co
 git rebase --continue
@@ -1103,14 +49,12 @@ swaymsg input keyboard xkb_switch_layoute next
 swaymsg input keyboard xkb_switch_layout next
 swaymsg input keyboard xkb_layout de
 swaymsg -t get_inputs 
-cd .local/scripts
 touch lenovo_initi_displays.sh
 chmod +x lenovo_initi_displays.sh
 nvim lenovo_initi_displays.sh
 ./lenovo_initi_displays.sh
 cd .config/sway
 nvim config
-tmux
 task context delete valkyrie
 task context define Facharbeit project:school.facharbeit
 task context
@@ -1120,7 +64,6 @@ task context help
 doas pacman -S man
 task add +henning project:fragen Alternativen zu NN und Furier etc
 task project:fragen modify project:school.facharbeit.fragen
-taks
 doi: 10.1007/978-3220-86830-5
 yay -Ss tor-browser
 yay -S tor-browser
@@ -1139,7 +82,6 @@ yay -S tasksh
 doas shutdown -h noq
 firefox literatur/\(Computational\ Intelligence\)\ Andreas\ Scherer\ \(auth.\)\ -\ Neuronale\ Netze_\ Grundlagen\ und\ Anwendungen-Vieweg+Teubner\ Verlag\ \(1997\).pdf
 nvim facharbeit.md
-nvim inbox.md
 mkdir literatur
 wget https://arxiv.org/pdf/2006.10739.pdf
 mv 2006.10739.pdf literatur/Fourier_Features.pdf
@@ -1171,16 +113,12 @@ doas pacman -S zathura
 doas pacman -Ss zathura
 doas pacman -Ss zathura-pdf-mupdf
 doas pacman -S zathura-pdf-mupdf
-pandoc
 sudo pacman -S texlive
-firefox out.pdf
 pandoc facharbeit.md -s -o out.pdf
 git commit -m "Facharbeit"
 bash .local/scripts/lenovo_initi_displays.sh `
 bash .local/scripts/lenovo_initi_displays.sh 
-cd git
 cd do
-cd git/dotfiles
 eglinfo -B
 task add mr kniedler fragen welche gpu?
 task add mr kniedler fragen welche gpu
@@ -1188,34 +126,20 @@ q1 19
 cd git/
 git clone https://github.com/codingminecraft/MarioYoutube.git
 cd MarioYoutube
-cd src/main/java
 cd git/MarioYoutube/
-nvim 
-rm level.json
-nvim level.json
-git restore .
 git commit -m "Frambuffer to get ObjID from pixel"
 git restore imgui.ini
 cat ./**/*  
 cat ./**/*   | grep GLD
-make && make run
 glxinfo
 nvim assets/shaders/
 nvim -d src/main/java/game/renderer/PickingTexture.java ~/git/MarioYoutube/src/main/java/renderer/PickingTexture.java
 doas pacman -S mvn
 doas pacman -S maven
-doas shutdown -h now
-bash .local/scripts/lenovo_initi_displays.sh
 doas pacman -Syyyu
 cd git/MarioYoutube/src/main/h
 git psh
-git config pull.rebase false 
-git mergetool
-git add .
 git commit -m ""
-git commit -m "update"
-git push
-git pull
 task context Facharbeit
 task add Einleitung
 task add Neuronale Netze darstellen
@@ -1229,16 +153,12 @@ task start 26
 task add universelle annaeherungs funktionen
 task context no
 task context None
-task context none
 task add project:school.informatik keylistener handlr
 cd src/main/java/game
 touch editor/PropertiesWindow.java
 cde
-cd 
 cat /sys/class/power_supply/BAT0
 cat /sys/class/power_supply/BAT0/c
-cd
-cd git/MarioYoutube/src/main/java
 ls assets/utils
 cat /sys/class/power_supply/BAT0/capacity
 doas pacman -S texlive-meta
@@ -1248,35 +168,25 @@ yay -S ttf-ms-win11-auto
 fc-cache --force
 sudo pacman -S texlive-langgerman
 nvim .taskre
-nvim .taskrc
 l;s
 rm *.pem
 scp -r niklas@192.168.4.30:/home/niklas/taskd /tmp
 cp /tmp/taskd/pki/ca.cert.pem /tmp/taskd/pki/niklas_vh.* ./
-nvim ../.taskrc
 ping 192.168.4.30
 task config taskd.server -- raspberrypi:53589
 ping raspberrypi
-task sync init
 task > task.bak
 task helpo
-task help
 man task
 task export > task.bak
 cat ta
 rm -rf .task/backlog.data .task/completed.data .task/pending.data .task/undo.data 
-ls .task
-cd .task
 cat task.bak
 cat task.bak 
 cat task.bak  | task import
-vim .taske
-vim .taskrc
 task 
 task add project:school.informatik +fix fragment shader non constant in array index not allowd
 task 19 delete
-task
-task sync
 pandoc facharbeit.md -o out.tex
 nvim out.
 nvim out.tex
@@ -1288,79 +198,40 @@ pdflatex Hausarbeit.tex
 lualatex Hausarbeit.
 nvim Hausarbeit.t
 nvim Hausarbeit.tex
-firefox Hausarbeit.pdf
-lualatex Hausarbeit.tex
-ls
-nvim .
-n -e
 pandoc facharbeit.md --pdf-engine=lualatex -o out.tex
 vim out.
 pandoc facharbeit.md -s --pdf-engine=lualatex -o out.tex
-vim out.tex
 lualatex out.
-firefox Hausarbeit.pdf
 sudo pacman -S texlive-*
 sudo pacman -S texlive-fontsextra
-lualatex Hausarbeit.tex
-n -e
 firefox out.pdf
 vim out.tex
 lualatex out.tex
-ls
-n -e
-cd git/dotfiles
-nvim .gitignore
-git add .
 git commit -m "update gitIgnore"
-git push
-git checkout ThinkPad
-cd
 bash .local/scripts/lenovo_initi_displays.sh
 cd .coi
-cd git/dotfiles
 git commit -m "ipa"
-git checkout main
-cd .config/nvim
 git commit -m "nvim "
-git push origin ThinkPad
-git pull
 git switch ThinkPad
-n -e
-git restore .
 rm .task/completed.data
-git commit -m "test"
 git pus
-git push
-git checkout ThinkPad
 git config --global mergetool.fugitive.cmd 'nvim -f -c "Gvdiffsplit!" "$MERGED"'
 git config --global merge.tool fugitive\
 
-vim .git/config
 vim .git/
 nvim .git
-git mergetool
-git merge main
 vim .taske
 vim .taskrc
-task sync
 rm .task/pending.data
-rm .task/*.data
-task sync init
-task
 nvim .git/config
 git commit -m "update gitignore"
-nvim .gitignore
-git add .
 gpg 
 gpg -h
 gpg --full-generate-key
 git commit -m "ts"
-cd ..
 rm -rf dotfiles
 git clone git@github.com:Hirschiii/dotfiles
-ls
 cd dotfiles
-nvim
 =======
 cd /Users/niklas/Library/Fonts
 rm -rf fonts
@@ -1592,7 +463,6 @@ ls -ka
 nvim ../.taskrc
 rm *.data
 ls .task*
-cd git/dotfiles
 .ta
 ls .taskrc
 task init
@@ -1616,7 +486,6 @@ task version
 sudo task
 ls -la
 ls -la .task*
-task sync init
 cd projects/school/liferfix_game_projekt_2024_2_hj/
 rm -rf notes
 git clone git@github.com:Hirschiii/notes
@@ -1755,7 +624,6 @@ nvim Settings.java
 ls ./**/*.java | grep KeyL
 nvim jade/ImGuiLayer.java
 nvim editor/SceneHierarchyWindow.java
-cd 
 cat ./*/*.jav
 cat ./*/*.java
 cat ./*/*.java | grep setGameViewportPos
@@ -1807,15 +675,12 @@ rm level.json.bak
 git commit -m "clean"
 git branch -d dev test-lwjgl test_ImGUI
 git checkout init_gradle
-nvim .gitignore
 git commit -m "ignore leve.json"
 git checkout test_new_render
 cd src/main/java
-git checkout main 
 git commit -m "test"
 git push origin test_new_render
 git checkout
-git restore .
 touch Line2D.java
 touch DebugDraw.java
 git commit -m "debug line draw"
@@ -1832,7 +697,6 @@ task add school
 cd .task
 rm -rf .task
 mv .taskrc.bak .taskrc
-nvim .taskrc
 task add pro
 task 1 del
 ls .task
@@ -1842,7 +706,6 @@ cd arcan/external/git
 cd ../../
 mkdir build 
 cd build
-nvim 
 brew install sqlite3 openal-soft sdl2 opengl luajit gbm kms freetype harfbuzz libxkbcommon\
 
 brew install sqlite3 openal-soft sdl2  luajit gbm kms freetype harfbuzz libxkbcommon\
@@ -1905,7 +768,6 @@ New Line\
 
 \:w
 git commit -m "fixed aspec ratio"
-git status
 git checkout -b test
 task add resieze drag / drop
 git commit -m "raster"
@@ -1913,7 +775,6 @@ git commit -m "Mouse to World Koords"
 mv level.json level.json.bak
 git commit -m "Fixed Koords"
 git push origin test
-git checkout main
 git merge test
 nvim level.json
 mv src/main/resources/assets/shaders ./assets
@@ -1929,7 +790,6 @@ git commit -m "fixed debug line"
 git puhs
 git commit - m"\
 "
-git commit -m "update"
 open decorationsAndBlocks.png
 open *
 nvim bigSpritesheet.png
@@ -1955,7 +815,6 @@ ssh niklas@192.168.4.56
 nvim .f
 curl -L https://alx.sh/wipe-linux | sudo sh
 lsbk
-lsblk
 curl https://alx.sh | sh
 pandoc handout.md -o handout_md.pdf
 pd
@@ -1996,8 +855,6 @@ convert Vase_BlauWeis.webp Vase_BlauWeis.png
 cd src
 convert Kanne_Bunt.webp Kanne_Bunt.png
 make
-task
-task sync
 task add project:school physik bericht
 touch src/main/java/game/editor/GameViewWindow.java
 cd git/MarioYoutube/src/main/
@@ -2058,11 +915,7 @@ d
 cd notes
 git commmit -m "Update"
 git config pull.rebase false 
-git mergetool
 git commit -m "Update"
-git push
-git pull
-nvim .
 make && make ruh
 make && make run
 ch.sh
@@ -2078,7 +931,6 @@ curl cht.sh/tar~list
 curl cht.sh/tar/list
 /go/zip+lists  
 curl cht.sh/go/zip+lists  
-git add .
 curl -s cheat.sh/:list
 brew install cht.sh
 cd .local/scripts
@@ -2086,7 +938,6 @@ curl https://cht.sh/:cht.sh > cht.sh
 chmod +x cht.sh
 ./cht.sh java list
 ./cht.sh --list-lang
-n -e
 ./cht.sh
 nvim cht.sh
 cd
@@ -2102,17 +953,10 @@ cd notes/school
 mkdir sport
 cd sport
 nvim 2024-02-13.md
-ls
 tmux a
-ls
-task
-task sync init
 >>>>>>> main
 cd .config/nvim/
-ls
 cd .config/zsh
-ls
-cd git/dotfiles
 git merge main in
 git merge main 
 git commit -m "udpate"
@@ -2126,7 +970,6 @@ git commit -m " \
 vim .git/config
 git commit -m "fds"
 git push origin ThinkPad
-nvim 
 git checkoutm
 git commit -m "gitig"
 git checkout main
@@ -2136,13 +979,10 @@ git commit -m "uipdat"
 git commit -m "update" 
 git pull
 git merge main
-git add .
 git commit -m "update"
-git push
 nvim .gitignore
 git checkout main 
 git checkout ThinkPad
-ls
 nvim --version
 yay -Ss nvim
 doas 
@@ -2155,14 +995,10 @@ cd .local/share/\\
 ls
 cd .local/share/
 cd nvim
-ls
 rm -rf lazy
-nvim 
 cd 
 cd .config/nvim
-nvim .
 htop
-doas powertop
 doas powertop --help
 doas powertop --auto-tune
 doas pacman -S vlc
@@ -2172,8 +1008,6 @@ vlc --enable-wayland
 yay -S vlc-git
 doas pacman -S mpv
 cd /mnt/Media
-ls
-n -e
 mpv ._Mr.Robot.S02E05.1080p.rus.LostFilm.mkv
 doas powertp[
 doas powertop
@@ -2186,3 +1020,81 @@ rm .task/*.data
 task sync init
 task add project:privat nachforschungen Maximilian speck von sternenburg
 task sync
+cd git/dotfiles
+git add .
+git commit -m "ipdat"
+git push
+doas shutdown -h now
+ssh niklas@192.168.4.30
+nvim 
+nvim .
+neovide .
+n -e
+firefox Hausarbeit.pdf
+lualatex Hausarbeit.tex
+ls
+git commit -m "select activeGameObject"
+nvim assets/shaders/de
+nvim assets/shaders/default.glsl
+[A
+ls \\ 
+rm -rf \\ 
+touch src/main/java/game/components/EditorCamera.java
+\:w
+\:wk
+make && make ruN
+cd assets
+mkdir utils
+cp ../src/main/resources/assets/images/gizmos.png ./utils
+ls
+ls utils
+n -e
+rm level.json
+git add .
+git commit -m "add Gizmos"
+git puhs
+git push
+git pull
+make && make run
+cd src/main/java
+cd game
+touch components/TranslateGizmo.java
+nvim level.json
+n -e
+nvim .
+mkdir papers
+cd papers
+ls
+nvim 2024-02-15-Deep_Learning_Yann_LeCun.md
+n -e
+ls
+bash .local/scripts/lenovo_initi_displays.sh
+task sync
+nvim .taskrc
+task inbo
+task inbox
+task
+yay -S tasksh
+tasksh
+lsblk
+bash .local/scripts/lenovo_initi_displays.sh
+cd .config/sway/q
+cd .config/sway/
+nvim .
+nvim .config/s
+nvim .config/sway
+bash .local/scripts/lenovo_initi_displays.sh
+nvim
+nvim
+doas pacman -R nvim
+doas pacman -R neovim
+doas pacman -R neovide neovim
+cd git
+git clone git@github.com:neovim/neovim
+cd neovim
+doas pacman -S lua
+make CMAKE_BUILD_TYPE=Release
+make -j7
+make install
+sudo make install
+nvim -v
