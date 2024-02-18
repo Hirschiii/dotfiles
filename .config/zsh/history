@@ -1,38 +1,3 @@
-doas pacman -S xf86-video-nouveau
-doas pacman -R xf86-video-nouveau
-doas pacman -S libva-mesa-driver mesa-vdpau
-yay -S nouveau-fw
-doas pacman -S intel-media-driver
-doas reboot
-loginctl
-loginctl show-session 3 -p Type 
-vainfo
-doas pacman -S libva-intel-driver nouveau
-yay -S swayfx
-swaymsg ouput eDP-1 disable
-git commit -m "aa"
-git puss
-git pusj
-git pull origin main:HEAD
-git commit -m "test\
-:\
-"
-git push origin main
-git pull origin main
-git worktree add
-git rebase
-git rebase --quit
-git switch main
-git pull --rebase
-git rebase --co
-git rebase --continue
-swaymsg output list
-swaymsg output lists
-swaymsg outputs
-swaymsg list outputs
-swaymsg help
-swaymsg -yh
-swaymsg -h
 swaymsg -t get_outputs
 swaymsg output HDMI-A-2 rotate 90
 swaymsg output HDMI-A-2 transform portrait
@@ -76,9 +41,7 @@ task 15 done
 task 12
 task 12 delete
 task 13 delete
-tasksh
 sudo pacman -S tasksh
-yay -S tasksh
 doas shutdown -h noq
 firefox literatur/\(Computational\ Intelligence\)\ Andreas\ Scherer\ \(auth.\)\ -\ Neuronale\ Netze_\ Grundlagen\ und\ Anwendungen-Vieweg+Teubner\ Verlag\ \(1997\).pdf
 nvim facharbeit.md
@@ -92,7 +55,6 @@ task 11 delete
 q4 2
 task i
 task in
-task inbox
 task add +workflow Zeitplan tages rutine
 q4 36
 task 16 de
@@ -208,7 +170,6 @@ firefox out.pdf
 vim out.tex
 lualatex out.tex
 git commit -m "update gitIgnore"
-bash .local/scripts/lenovo_initi_displays.sh
 cd .coi
 git commit -m "ipa"
 git commit -m "nvim "
@@ -281,11 +242,8 @@ nvim -b
 brew search nvim
 brew install nvim
 brew remove nvim
-cd git
 git clone https://github.com/neovim/neovim.git
 cd neovim && make CMAKE_BUILD_TYPE=Release
-sudo make install
-nvim -v
 plantuml KlassenDiagram.puml
 plantuml -h
 plantuml -h | grep svg
@@ -677,7 +635,6 @@ git branch -d dev test-lwjgl test_ImGUI
 git checkout init_gradle
 git commit -m "ignore leve.json"
 git checkout test_new_render
-cd src/main/java
 git commit -m "test"
 git push origin test_new_render
 git checkout
@@ -763,10 +720,8 @@ cmake -DVIDEO_PLATFORM=sdl -DSTATIC_SQLITE3=ON -DSTATIC_OPENAL=ON -DSTATIC_FREET
 cmake -DBUILD_PRESET="everything" ../src
 make -j4
 cd git/MarioYoutube/src/main
-nvim
 New Line\
 
-\:w
 git commit -m "fixed aspec ratio"
 git checkout -b test
 task add resieze drag / drop
@@ -776,7 +731,6 @@ mv level.json level.json.bak
 git commit -m "Fixed Koords"
 git push origin test
 git merge test
-nvim level.json
 mv src/main/resources/assets/shaders ./assets
 ls assets
 ls assets/shaders
@@ -787,7 +741,6 @@ mv debug.glsl debugLine2D.glsl
 nvim src/main/java/game/renderer/DebugDraw.java
 nvim -d src/main/java/game/renderer/DebugDraw.java ~/git/MarioYoutube/src/main/java/renderer/DebugDraw.java
 git commit -m "fixed debug line"
-git puhs
 git commit - m"\
 "
 open decorationsAndBlocks.png
@@ -798,7 +751,6 @@ nvim .
 mv level.json.bak level.json
 git commit -m "Center Drag thorugh Transform Component"
 touch src/main/java/game/components/GridLines.java
-rm level.json
 cp level.json level.json.bak
 git commit -m "Draw grid"
 cp level.json.bak level.json
@@ -904,7 +856,6 @@ rm out
 rm out.pdf
 pandoc Feder_Masse_Pendel.md -s -o Feder.pdf
 mkdir assets 
-cd assets
 pdftex feder.tex
 pdflatex feder.tex
 nvim feder.tex
@@ -917,7 +868,6 @@ git commmit -m "Update"
 git config pull.rebase false 
 git commit -m "Update"
 make && make ruh
-make && make run
 ch.sh
 cht.sh
 brew install rlwrap
@@ -977,7 +927,6 @@ git status
 git merge ThinkPad
 git commit -m "uipdat"
 git commit -m "update" 
-git pull
 git merge main
 git commit -m "update"
 nvim .gitignore
@@ -1002,7 +951,6 @@ htop
 doas powertop --help
 doas powertop --auto-tune
 doas pacman -S vlc
-lsblk
 doas mount /dev/sda2 /mnt
 vlc --enable-wayland
 yay -S vlc-git
@@ -1014,25 +962,15 @@ doas powertop
 vlc ./
 vlc ./Mr\ Robot\ -\ s02e05.mkv
 mpv ./Mr\ Robot\ -\ s02e05.mkv
-nvim .taskrc
-task
 rm .task/*.data
 task sync init
 task add project:privat nachforschungen Maximilian speck von sternenburg
-task sync
-cd git/dotfiles
-git add .
 git commit -m "ipdat"
-git push
 doas shutdown -h now
 ssh niklas@192.168.4.30
 nvim 
-nvim .
 neovide .
-n -e
 firefox Hausarbeit.pdf
-lualatex Hausarbeit.tex
-ls
 git commit -m "select activeGameObject"
 nvim assets/shaders/de
 nvim assets/shaders/default.glsl
@@ -1046,29 +984,19 @@ make && make ruN
 cd assets
 mkdir utils
 cp ../src/main/resources/assets/images/gizmos.png ./utils
-ls
 ls utils
-n -e
 rm level.json
-git add .
 git commit -m "add Gizmos"
 git puhs
-git push
 git pull
 make && make run
 cd src/main/java
 cd game
 touch components/TranslateGizmo.java
 nvim level.json
-n -e
-nvim .
 mkdir papers
 cd papers
-ls
 nvim 2024-02-15-Deep_Learning_Yann_LeCun.md
-n -e
-ls
-bash .local/scripts/lenovo_initi_displays.sh
 task sync
 nvim .taskrc
 task inbo
@@ -1077,14 +1005,12 @@ task
 yay -S tasksh
 tasksh
 lsblk
-bash .local/scripts/lenovo_initi_displays.sh
 cd .config/sway/q
 cd .config/sway/
 nvim .
 nvim .config/s
 nvim .config/sway
 bash .local/scripts/lenovo_initi_displays.sh
-nvim
 nvim
 doas pacman -R nvim
 doas pacman -R neovim
@@ -1098,3 +1024,188 @@ make -j7
 make install
 sudo make install
 nvim -v
+cd git/dotfiles
+git add .
+git commit -m "upodate"
+git push
+ls
+n -e
+lualatex Hausarbeit.tex
+ls
+cal
+cal -h
+cal -3
+calc
+nvim facharbeit.md
+doas pacman -S biber
+yay -S ltex
+yay -Ss ltex
+doas pacman -Ss ltex
+yay -S ltex-ls
+nvim 
+nvim .config/tmux
+nvim .
+n -e
+firefox Hausarbeit.pdf
+nvim Hausarbeit.
+nvim Hausarbeit.tex
+bibtex bibliography.bib
+bibere
+biber
+bibtex Hausarbeit
+bibtex chapters/Hauptteil
+biber bibliography.bib
+lualatex Hausarbeit.tex && bibtex Hausarbeit
+lualatex Hausarbeit.tex 
+s
+cat bibliography.bib
+ls
+rm bibliography.bib.*
+biber Hausarbeit
+lualatex Hausarbeit.tex
+n -e
+lualatex Hausarbeit.tex && biber Hausarbeit
+lualatex Hausarbeit.tex && biber Hausarbeit && lualatex Hausarbeit.tex
+task context Facharbeit
+task add Aktuelle Implementationen
+task 25 modify selectedtoday:
+task 25 modify selectedtoday:25
+task 25 modify selectedtoday
+task undo
+taks
+task inboc
+task inbox
+task
+cd .config/nvim
+git add .
+git pull
+git status
+ls
+nvim .
+cp Downloads/Neural_network.svg notes/school/facharbeit/assets
+cp Downloads/The-Transformer-model-architecture.png notes/school/facharbeit/assets
+vlc --enable-wayland
+vlc -enable-wayland
+nvim .j
+nvim .
+pandoc facharbeit.md -o facharbeit.tex
+cp facharbeit.tex source/Hausarbeit\ Seminarfach\ 2023/chapters
+ls
+nvim facharbeit.md
+task
+task add Grafik Cite
+task 25 stop
+mkdir assets
+n -e
+lualatex Hausarbeit.t
+ls chapters
+firefox Hausarbeit.pdf
+rm chapters/facharbeit.tex
+nvim Hausarbeit.t
+nvim Hausarbeit.tex
+biber Hausarbeit
+lualatex Hausarbeit.tex
+nvim bibliography.bib
+ls
+nvim Hausarbeit.cls
+task sync
+doas shutdown -h now
+n -e
+bash .local/scripts/lenovo_initi_displays.sh
+task 
+doas shutdown -h now
+nvim facharbeit.
+nvim facharbeit.md
+cd projects/liferfix_game_projekt_2024_2_hj
+git add .
+git commit -m "update"
+git push
+cd notes
+git add .
+git commit -m "Facharbeit"
+git push
+cat /sys/class/power_supply/BAT0/capacity
+bash .local/scripts/lenovo_initi_displays.sh
+task
+echo $TERM
+nvim .zshrc
+nvim .zprofile
+nvim .config/tmux
+nvim 
+n -e
+vim
+nvim .zprofile
+nvim
+export TERM=tmux-256color
+nvim
+nvim facharbeit.
+nvim facharbeit.md
+ls
+echo $TERM
+nvim .zshrc 
+nvim
+echo $TERM
+nvim .zshrc
+echo $TERM
+tput sitm | xxd
+echo $(tput sitm) test $(tput sgr0)
+tmux -2
+nvim
+nvim .config/alacritty
+nprm install -g neovim
+npm install -g neovim
+doas npm install -g neovim
+pip install neovim
+doas pacman -S python python-pip
+doas pacman -S f
+doas pacman -S fd
+nvim .config/tmux
+cd .config/tmux
+nvim .
+infocmp alacritty
+curl -s https://gist.githubusercontent.com/lifepillar/09a44b8cf0f9397465614e622979107f/raw/24-bit-color.sh >24-bit-color.sh\
+bash 24-bit-color.sh
+cd .config/nvim
+n -e
+nvim .
+nvim
+nvim .config/alacritty/alacritty.
+nvim .config/alacritty/alacritty.toml
+curl -s https://gist.githubusercontent.com/lifepillar/09a44b8cf0f9397465614e622979107f/raw/24-bit-color.sh >24-bit-color.sh\
+bash 24-bit-color.sh
+cd
+cd .config/n
+cd .config/nvim
+nvim .
+curl -s https://gist.githubusercontent.com/lifepillar/09a44b8cf0f9397465614e622979107f/raw/24-bit-color.sh >24-bit-color.sh\
+bash 24-bit-color.sh
+tmux
+tmux
+nvim
+tmux kill-server
+nvim
+tmux kill-server
+nvim 
+cd .config/tmux
+nvim .
+tmux kill-server
+echo export TERM=tmux-256color\
+
+curl -s https://gist.githubusercontent.com/lifepillar/09a44b8cf0f9397465614e622979107f/raw/24-bit-color.sh >24-bit-color.sh\
+bash 24-bit-color.sh
+cd .config/alacritty/catppuccin
+cd .config/alacritty/a
+cd .config/alacritty/
+n -e
+lsa
+nvim .
+cd .config/nvim
+ls
+nvim .
+task context none
+task add project:privat +learning Read Practical NLP Real-World
+task context Facharbeit
+taks
+task
+taks add +cite Foundations of ai https://en.wikipedia.org/wiki/Dartmouth_workshop
+task add +cite Foundations of ai https://en.wikipedia.org/wiki/Dartmouth_workshop
