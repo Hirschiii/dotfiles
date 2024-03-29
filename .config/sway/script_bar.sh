@@ -73,14 +73,14 @@ position=$(curl https://am.i.mullvad.net/city)
 
 if [ $battery_status = "Discharging" ];
 then
-    battery_pluggedin='⚠'
+    battery_pluggedin=''
 else
     battery_pluggedin='⚡'
 fi
 
 if ! [ $network ]
 then
-   network_active="⛔"
+   network_active="󰅛"
 else
    network_active="⇆"
 fi

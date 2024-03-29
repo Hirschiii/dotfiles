@@ -2112,3 +2112,108 @@ cd .config/nvim/
 ls
 cd .config/zsh
 ls
+pdw
+nvim --version
+pwd
+sudo dnf install vim vi
+sudo vim /etc/doas.conf
+doas rnano
+l
+pwd
+sudo dnf intsll eza
+sudo dnf intsll eza nnn 
+sudo dnf install eza nnn 
+ls
+n -e
+nvim
+nvim --version
+nvim -V1 -v
+sudo dnf install python3
+sudo dnf search pip
+sudo dnf search python pip
+python3 -m pip install pynvim
+sudo dnf search live-grep
+sudo dnf search rg
+sudo dnf install rg
+sudo -
+sudo dnf install fd-find
+sudo dnf install ripgrep
+mkdir git
+cd git
+sudo dnf install cmake
+sudo dnf -y install ninja-build cmake gcc make unzip gettext curl glibc-gconv-extra
+ls
+ls build
+rm -rf build
+n -e
+rm -rf neovim
+git clone https://github.com/neovim/neovim
+cd neovim
+make CMAKE_BUILD_TYPE=Release
+sudo make install
+nvim 
+sudo dnf install
+sudo dnf update
+task
+cd .task/r
+cd .task/
+ls
+rm -rf ./*.data
+task
+task sync
+doas dnf install task
+nvim .taskrc
+cd .config/sway
+ls
+nvim script
+nvim script_bar.sh
+nvim 
+n -e
+cd .config/n
+cd .config/nvim
+ls
+nvim .
+doas dnf install tmu
+doas dnf install tmuz
+doas dnf install tmux
+cd .local/share
+cd nvim
+ls
+rm -rf tree-sitter-markdown
+git clone git@github.com:Hirschiii/notes
+cd notes
+ls
+nvim .
+lf
+doas dnf search lf
+nvim .zshrc
+fortune | cowsay
+doas dnf search fortune
+yum
+doas yum install fortune
+doas yum install update
+doas yum update
+sudo dnf install fortune
+sudo dnf install fortune-mod
+doas dnf install cowsay
+fortune
+cowsay -h
+cowsay -r
+cowsay "hello" -r
+nvim .zshrc
+fortune | cowsay
+nvim .zshrc
+ls
+pwd
+task sync
+task
+task project:lieferfi delete
+task project:lieferfi done
+q1
+q2
+q3
+q4
+q4 24
+task
+nvim .zshrc 
+doas dnf search signal

@@ -36,10 +36,10 @@ export NNN_OPTS="E"
 # Enable colors and change prompt:
 autoload -U colors && colors
 
-OVERDUE='💀'
-DUETODAY='😱'
-DUETOMORROW='🗓️'
-URGENT='❗'
+OVERDUE='󰚌'
+DUETODAY=''
+DUETOMORROW='󰃭'
+URGENT=''
 
 function task_indikator {
 	TASK="task"
@@ -52,11 +52,11 @@ function task_indikator {
 	elif [[ `$TASK +READY urgency.over:20 count rc.context:none` -gt "0" ]]; then 
 		echo "$URGENT"
 	else
-		echo '$'
+		echo ' '
 	fi
 }
 
-# PS1="%B%{$fg[red]%}[%{$fg[yellow]%}%n%{$fg[green]%}@%{$fg[blue]%}%M %{$fg[magenta]%}%1d%{$fg[red]%} $(task_indikator)]%{$reset_color%}$%b "
+PS1="%B%{$fg[red]%}[%{$fg[yellow]%}%n%{$fg[green]%}@%{$fg[blue]%}%M %{$fg[magenta]%}%1d%{$fg[red]%} $(task_indikator)]%{$reset_color%}$%b "
 # PS1='%~ $: '
 # PS1="%B%{%F{1}%}[%{$fg[yellow]%}%n%{$fg[green]%}@%{$fg[blue]%}%M %{$fg[magenta]%}%~%{$fg[red]%}]%{$reset_color%}$%b "
 
@@ -98,8 +98,6 @@ setopt NOBEEP
 # Basic auto/tab complete:
 autoload -U compinit promptinit
 compinit
-# promptinit; prompt gentoo
-promptinit; prompt elite
 zstyle ':completion:*' menu select
 zmodload zsh/complist
 compinit
@@ -130,18 +128,6 @@ zle-line-init() {
 zle -N zle-line-init
 echo -ne '\e[5 q' # Use beam shape cursor on startup.
 preexec() { echo -ne '\e[5 q' ;} # Use beam shape cursor for each new prompt.
-
-# Use lf to switch directories and bind it to ctrl-o
-# lfcd () {
-#     tmp="$(mktemp)"
-#     lf -last-dir-path="$tmp" "$@"
-#     if [ -f "$tmp" ]; then
-#         dir="$(cat "$tmp")"
-#         rm -f "$tmp"
-#         [ -d "$dir" ] && [ "$dir" != "$(pwd)" ] && cd "$dir"
-#     fi
-# }
-# bindkey -s '^o' 'lfcd\n'
 
 
 # vi mode
@@ -195,6 +181,4 @@ if [ "$(tty)" = "/dev/tty1" ]; then
     export `gnome-keyring-daemon --start --components=ssh`
     exec dbus-run-session /usr/bin/sway > $XDG_RUNTIME_DIR/sway.log 2>&1
 fi
-# fastfetch | blahaj -c gay
-# fortune && pokemon-colorscripts -r
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh

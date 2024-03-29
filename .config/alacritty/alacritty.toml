@@ -11,19 +11,19 @@ TERM = "xterm-256color"
 size = 11.0
 
 [font.bold]
-family = "Fira Code Nerd Font"
+family = "IosevkaTerm Nerd Font Propo"
 style = "Bold"
 
 [font.bold_italic]
-family = "Fira Code Nerd Font"
+family = "IosevkaTerm Nerd Font Propo"
 style = "Bold Italic"
 
 [font.italic]
-family = "Fira Code Nerd Font"
+family = "IosevkaTerm Nerd Font Propo"
 style = "Italic"
 
 [font.normal]
-family = "Fira Code Nerd Font"
+family = "IosevkaTerm Nerd Font Propo"
 style = "Regular"
 
 [[keyboard.bindings]]
@@ -42,3 +42,8 @@ opacity = 1
 [window.padding]
 x = 10
 y = 10
+
+[[hints.enabled]]
+regex = "[^ ]+\\.rs:\\d+:\\d+"
+command = { program = "code", args = [ "--goto" ] }
+mouse = { enabled = true }
