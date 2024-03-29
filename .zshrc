@@ -149,7 +149,7 @@ bindkey -v '^?' backward-delete-char
 [ -f "$HOME/.config/shell/taskwarrior.zsh" ] && source "$HOME/.config/shell/taskwarrior.zsh"
 [ -f "$HOME/.config/shell/quitcd.zsh" ] && source "$HOME/.config/shell/quitcd.zsh"
 [ -f "$HOME/.config/zsh/zsh-keybinding" ] && source "$HOME/.config/zsh/zsh-keybinding"
-[ -f "/usr/share/zsh/site-functions/zsh-syntax-highlighting.zsh" ] && source "/usr/share/zsh/site-functions/zsh-syntax-highlighting.zsh"
+[ -f "/usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" ] && source "/usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh"
 
 # Changing "ls" to "exa"
 alias ls='eza -l --color=always --group-directories-first' # my preferred listing

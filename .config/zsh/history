@@ -2217,3 +2217,33 @@ q4 24
 task
 nvim .zshrc 
 doas dnf search signal
+cd .gi
+cd .dotfiles
+ls -la
+ls .task
+cd .task
+ls
+cd .dotfiles
+git config --global user.email "niklasvonh@gmail.com"
+git config --global user.name "Niklas von Hirschfeld"
+git commit -m "New font for Alacritty"
+nvim .gitignore
+git add .
+git commit -m 'settings'
+git push
+task sync
+vim /tmp/addressen
+ls
+ls /usr/share/zsh/site-functions/
+find -n "zsh-syntax-hightlightng.zsh" /
+find -name "zsh-syntax-hightlightng.zsh" /
+find / -n "zsh"
+find -h
+find --help
+find / -nname "zsh"
+find -name
+find -name "tes"
+find -name "tes" /
+find / -name "tes" 
+find / -name "zsh-syntax-highlighting.zsh" 
+nvim .zshrc

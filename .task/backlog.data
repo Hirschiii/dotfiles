@@ -1,7 +1,1 @@
-1f80f82f-61d2-43d9-8d64-f4feb4ae37b0
-{"description":"manager for json files or level files","end":"20240329T150216Z","entry":"20240222T101353Z","modified":"20240329T150218Z","priority":"L","project":"lieferfix","status":"completed","urgent":"Y","uuid":"b5f99cea-d1d3-41ad-a4ac-fcfc69f34ad8"}
-{"description":"renderbatch nciht fuer zIndez sondern Oft geupdateed","end":"20240329T150218Z","entry":"20240222T102358Z","modified":"20240329T150218Z","priority":"L","project":"lieferfic","status":"completed","urgent":"Y","uuid":"51d21345-dd75-4856-8c34-4bf9e3853870"}
-{"description":"Keine interaktion möglich wenn wärend des starten die maus bewegt wird","end":"20240329T150218Z","entry":"20240228T164054Z","modified":"20240329T150218Z","priority":"H","project":"lieferfix","status":"completed","urgent":"Y","uuid":"3450749f-e3b6-411b-9614-3338752423d1","tags":["bug"]}
-{"description":"fix gizmo getting active","end":"20240329T150218Z","entry":"20240223T104359Z","modified":"20240329T150218Z","priority":"L","project":"lieferfix","status":"completed","urgent":"Y","uuid":"8ea183b4-4088-403e-98b9-61fba7f39151","annotations":[{"entry":"20240223T104413Z","description":"add var for go if they wnat to get active"}]}
-{"description":"vhs screentexcoords instead of texcoords","end":"20240329T150218Z","entry":"20240305T103209Z","modified":"20240329T150218Z","project":"lieferfix","status":"completed","uuid":"ea19171f-5b1f-47e0-abf4-680dfc2a222d","annotations":[{"entry":"20240305T103217Z","description":"how?"}],"tags":["shader"]}
-{"description":"Um Uni kümmern","entry":"20240301T115104Z","modified":"20240329T150246Z","priority":"L","project":"privat","status":"pending","urgent":"N","uuid":"abd6a66b-9920-4960-beed-7a6906752744"}
+9146d96d-2512-410c-9d97-72af10504893
