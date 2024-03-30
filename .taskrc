@@ -195,4 +195,3 @@ context.Facharbeit.write=project:school.facharbeit
 # context.personal.read=project.not:school project.not:henning project.not:fun -fun
 # context.henning.read=project:henning
 # context.henning.write=project:henning
-context=Facharbeit

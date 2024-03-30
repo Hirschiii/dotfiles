@@ -1,338 +1,3 @@
-swaymsg -t get_outputs
-swaymsg output HDMI-A-2 rotate 90
-swaymsg output HDMI-A-2 transform portrait
-swaymsg output HDMI-A-2 transform 180
-swaymsg output HDMI-A-2 transform 90
-swaymsg output HDMI-A-2 transform 0
-swaymsg output HDMI-A-2 transform 270
-swaymsg output eDP-1 disable
-swaymsg output DP-1 scale 2
-swaymsg -t get_inputs
-git checkout -b ThinkPad
-swaymsg input keyboard xkb_witch_layoute next
-swaymsg input keyboard xkb_switch_layoute next
-swaymsg input keyboard xkb_switch_layout next
-swaymsg input keyboard xkb_layout de
-swaymsg -t get_inputs 
-touch lenovo_initi_displays.sh
-chmod +x lenovo_initi_displays.sh
-nvim lenovo_initi_displays.sh
-./lenovo_initi_displays.sh
-cd .config/sway
-nvim config
-task context delete valkyrie
-task context define Facharbeit project:school.facharbeit
-task context
-task context valkyrie delete
-task context helpo
-task context help
-doas pacman -S man
-task add +henning project:fragen Alternativen zu NN und Furier etc
-task project:fragen modify project:school.facharbeit.fragen
-doi: 10.1007/978-3220-86830-5
-yay -Ss tor-browser
-yay -S tor-browser
-ls /sys/class/power_supply/BAT0/capacity
-nvim .config/sway/
-swaymsg ouput DP-1 scale 1
-swaymsg output DP-1 scale 1
-task project:school.valkyrie delete
-task 15 done
-task 12
-task 12 delete
-task 13 delete
-sudo pacman -S tasksh
-doas shutdown -h noq
-firefox literatur/\(Computational\ Intelligence\)\ Andreas\ Scherer\ \(auth.\)\ -\ Neuronale\ Netze_\ Grundlagen\ und\ Anwendungen-Vieweg+Teubner\ Verlag\ \(1997\).pdf
-nvim facharbeit.md
-mkdir literatur
-wget https://arxiv.org/pdf/2006.10739.pdf
-mv 2006.10739.pdf literatur/Fourier_Features.pdf
-task 38 delete
-task 2 delete
-task 6 delete
-task 11 delete
-q4 2
-task i
-task in
-task add +workflow Zeitplan tages rutine
-q4 36
-task 16 de
-task 16 delete
-mv Limitations.pdf Nature_of_deep_Learning.pdf literatur
-ls literatur
-open
-doas pacman -S zatuha
-doas pacman -S zatuhra
-yay -S zatuhraq
-yay -S zatuhra
-yay -Ss zatuhra
-yay -Ss zat
-yay -Ss zatura
-yay -Ss zahtura
-yay -Ss zathura
-doas pacman -S zathura
-doas pacman -Ss zathura
-doas pacman -Ss zathura-pdf-mupdf
-doas pacman -S zathura-pdf-mupdf
-sudo pacman -S texlive
-pandoc facharbeit.md -s -o out.pdf
-git commit -m "Facharbeit"
-bash .local/scripts/lenovo_initi_displays.sh `
-bash .local/scripts/lenovo_initi_displays.sh 
-cd do
-eglinfo -B
-task add mr kniedler fragen welche gpu?
-task add mr kniedler fragen welche gpu
-q1 19
-cd git/
-git clone https://github.com/codingminecraft/MarioYoutube.git
-cd MarioYoutube
-cd git/MarioYoutube/
-git commit -m "Frambuffer to get ObjID from pixel"
-git restore imgui.ini
-cat ./**/*  
-cat ./**/*   | grep GLD
-glxinfo
-nvim assets/shaders/
-nvim -d src/main/java/game/renderer/PickingTexture.java ~/git/MarioYoutube/src/main/java/renderer/PickingTexture.java
-doas pacman -S mvn
-doas pacman -S maven
-doas pacman -Syyyu
-cd git/MarioYoutube/src/main/h
-git psh
-git commit -m ""
-task context Facharbeit
-task add Einleitung
-task add Neuronale Netze darstellen
-task add neuronen und Menschne
-task add Transformer
-task add alternativen
-task add argumentation
-task add supervised learning
-task 26 active
-task start 26
-task add universelle annaeherungs funktionen
-task context no
-task context None
-task add project:school.informatik keylistener handlr
-cd src/main/java/game
-touch editor/PropertiesWindow.java
-cde
-cat /sys/class/power_supply/BAT0
-cat /sys/class/power_supply/BAT0/c
-ls assets/utils
-cat /sys/class/power_supply/BAT0/capacity
-doas pacman -S texlive-meta
-cd /usr/share/texmf-dist/tex/latex/babelbib
-sudo pacman -S ttf-ms-win11-auto
-yay -S ttf-ms-win11-auto
-fc-cache --force
-sudo pacman -S texlive-langgerman
-nvim .taskre
-l;s
-rm *.pem
-scp -r niklas@192.168.4.30:/home/niklas/taskd /tmp
-cp /tmp/taskd/pki/ca.cert.pem /tmp/taskd/pki/niklas_vh.* ./
-ping 192.168.4.30
-task config taskd.server -- raspberrypi:53589
-ping raspberrypi
-task > task.bak
-task helpo
-man task
-task export > task.bak
-cat ta
-rm -rf .task/backlog.data .task/completed.data .task/pending.data .task/undo.data 
-cat task.bak
-cat task.bak 
-cat task.bak  | task import
-task 
-task add project:school.informatik +fix fragment shader non constant in array index not allowd
-task 19 delete
-pandoc facharbeit.md -o out.tex
-nvim out.
-nvim out.tex
-mkdir source
-cd source
-unzip ~/Downloads/Facharbeit\ -\ KI.zip
-pdflatex .
-pdflatex Hausarbeit.tex
-lualatex Hausarbeit.
-nvim Hausarbeit.t
-nvim Hausarbeit.tex
-pandoc facharbeit.md --pdf-engine=lualatex -o out.tex
-vim out.
-pandoc facharbeit.md -s --pdf-engine=lualatex -o out.tex
-lualatex out.
-sudo pacman -S texlive-*
-sudo pacman -S texlive-fontsextra
-firefox out.pdf
-vim out.tex
-lualatex out.tex
-git commit -m "update gitIgnore"
-cd .coi
-git commit -m "ipa"
-git commit -m "nvim "
-git switch ThinkPad
-rm .task/completed.data
-git pus
-git config --global mergetool.fugitive.cmd 'nvim -f -c "Gvdiffsplit!" "$MERGED"'
-git config --global merge.tool fugitive\
-
-vim .git/
-nvim .git
-vim .taske
-vim .taskrc
-rm .task/pending.data
-nvim .git/config
-git commit -m "update gitignore"
-gpg 
-gpg -h
-gpg --full-generate-key
-git commit -m "ts"
-rm -rf dotfiles
-git clone git@github.com:Hirschiii/dotfiles
-cd dotfiles
-=======
-cd /Users/niklas/Library/Fonts
-rm -rf fonts
-mv src/main/resources/assets/fonts ./assets
-cd fonts
-cp ~/Library/Fonts/FiraCode-* ./
-mkdir fonts
-ls *native*
-rm *imgui*
-wget https://maven.realrobotix.me/imgui-java/io/github/spair/imgui-java-app/1.86.11-10-g0dbf36c/imgui-java-app-1.86.11-10-g0dbf36c-all.jar
-ls *imgui*
-wget https://maven.realrobotix.me/imgui-java/io/github/spair/imgui-java-binding/1.86.11-10-g0dbf36c/imgui-java-binding-1.86.11-10-g0dbf36c.jar
-wget https://maven.realrobotix.me/imgui-java/io/github/spair/imgui-java-lwjgl3/1.86.11-10-g0dbf36c/imgui-java-lwjgl3-1.86.11-10-g0dbf36c.jar
-wget https://maven.realrobotix.me/imgui-java/io/github/spair/imgui-java-natives-linux/1.86.11-10-g0dbf36c/imgui-java-natives-linux-1.86.11-10-g0dbf36c.jar
-wget https://maven.realrobotix.me/imgui-java/io/github/spair/imgui-java-natives-macos/1.86.11-10-g0dbf36c/imgui-java-natives-macos-1.86.11-10-g0dbf36c.jar
-wget https://maven.realrobotix.me/imgui-java/io/github/spair/imgui-java-natives-windows/1.86.11-10-g0dbf36c/imgui-java-natives-windows-1.86.11-10-g0dbf36c.jar
-make rn
-cd assets/fonts
-cat ./*/*.java | grep "import java." | sort | uniq\
-
-cat ./*/*.java | grep import
-cat ./*/*.java | grep "import java.|
-cat ./*/*.java | grep "import java."
-cat ./*/*.java | grep "import java." | uniq
-cat ./*/*.java | grep "import java." | sort | uniq
-mvn get:
-cd Dow
-cd ~/Downloads
-mvn org.apache.maven.plugins:maven-dependency-plugin:3.1.2:get \\
-    -Dartifact=nl.talsmasoftware:umldoclet:2.1.0 \\
-    -DrepoUrl=https://repo.maven.apache.org/maven2/\
-
-ls umldoclet-2.1.0.jar
-pass
-ssh gulugulu@aegaeon.uberspace.de
-scp -r ./* gulugulu@aegaeon.uberspace.de:/home/gulugulu/html/vonhirschfeld.eu/lieferfix/javadoc/
-pandoc Unsere_Bibliotheken.md -o Unsere_Bibliotheken.pdf
-nvim why_javafx.md
-nvim Unsere_Bibliotheken.
-wget https://repo.maven.apache.org/maven2/nl/talsmasoftware/umldoclet/2.1.0/umldoclet-2.1.0.jar
-javadoc -d doc/javadoc -sourcepath src/main/java -classpath "lib/*" src/main/java/game/**/*.java
-javadoc -d doc/javadoc -sourcepath src/main/java -classpath "lib/*" -docletpath ./lib/umldoclet-2.1.0.jar -doclet nl.talsmasoftware.umldoclet.UMLDoclet  src/main/java/game/**/*.java
-git commit -m "Test automated UML"
-rm -rf doxygen
-cd javadoc
-nvim -b
-brew search nvim
-brew install nvim
-brew remove nvim
-git clone https://github.com/neovim/neovim.git
-cd neovim && make CMAKE_BUILD_TYPE=Release
-plantuml KlassenDiagram.puml
-plantuml -h
-plantuml -h | grep svg
-plantuml KlassenDiagram.puml -tsv
-rm KlassenDiagram.svg
-plantuml KlassenChatGP.puml -tsvg
-rm Klassen
-rm KlassenChatGP.
-rm KlassenChatGP.*
-plantuml KlassenDiagram.puml -tsvg
-rm ./KlassenDiagram.*
-git commit -m "tested complete diagram"
-nvim KlassenDiagram.puml
-nvim KlassenChatGP.puml
-python3 -m http.se
-nvim Unsere_Libarys.md
-mv Unsere_Libarys.md Unsere_Bibliotheken.md
-git commit -m "JavaDocs:\
-"
-python3 -m http.server
-git commit -m "JavaDOC UML"
-nvim Unsere_Bibliotheken.md
-git commit -m "regenerated"
-pandoc Unsere_Bibliotheken.md -s -o Unsere_Bibliotheken.pdf
-git commit -m "fixed md link"
-mkdir angebot
-rm -rf angebot
-mkdir javafx
-mv recherche_JavaFX.pdf why_javafx.md javafx
-rm FXML_Beispiel.xml
-rm -rf KlassenDiagramm.*
-rm Resourcen.*
-mv out.pdf javafx
-git commit -m "clean up docs"
-javadoc -sourcepath src -classpath lib/
-javadoc -sourcepath src -classpath lib/ -d apidocs \\
-    -docletpath umldoclet-2.x.jar -doclet nl.talsmasoftware.umldoclet.UMLDoclet gam
-javadoc -sourcepath src -classpath lib/ -d apidocs \\
-    -docletpath umldoclet-2.x.jar -doclet nl.talsmasoftware.umldoclet.UMLDoclet game
-javadoc -sourcepath src -classpath lib/ -d apidocs -docletpath umldoclet-2.1.0.jar -doclet nl.talsmasoftware.umldoclet.UMLDoclet game
-ls lib/*uml*
-cat Makefile
-javadoc -sourcepath src -classpath lib/ -d apidocs -docletpath ./lib/umldoclet-2.1.0.jar -doclet nl.talsmasoftware.umldoclet.UMLDoclet game
-javadoc -sourcepath src -classpath lib/ -d apidocs -docletpath ./lib/umldoclet-2.1.0.jar -doclet nl.talsmasoftware.umldoclet.UMLDoclet game.App
-javadoc -sourcepath src/main/java/game/ -classpath lib/ -d apidocs -docletpath ./lib/umldoclet-2.1.0.jar -doclet nl.talsmasoftware.umldoclet.UMLDoclet game.App
-javadoc -sourcepath src/main/java/game/ -classpath lib/ -d apidocs -docletpath ./lib/umldoclet-2.1.0.jar -doclet nl.talsmasoftware.umldoclet.UMLDoclet 
-javadoc -sourcepath ./bin -classpath lib/ -d apidocs -docletpath ./lib/umldoclet-2.1.0.jar -doclet nl.talsmasoftware.umldoclet.UMLDoclet game
-ls lib
-javadoc -sourcepath bin -classpath lib/ -d apidocs -docletpath ./lib/umldoclet-2.1.0.jar -doclet nl.talsmasoftware.umldoclet.UMLDoclet game
-javadoc -sourcepath bin -classpath lib/ -d apidocs -docletpath ./lib/umldoclet-2.1.0.jar -doclet nl.talsmasoftware.umldoclet.UMLDoclet game.App
-javadoc -sourcepath ./src/main/java/game/ -classpath lib/ -d apidocs -docletpath ./lib/umldoclet-2.1.0.jar -doclet nl.talsmasoftware.umldoclet.UMLDoclet game.App
-javadoc -sourcepath ./src/main/java/game/ -classpath lib/ -d apidocs -docletpath ./lib/umldoclet-2.1.0.jar -doclet nl.talsmasoftware.umldoclet.UMLDoclet App.java
-javadoc -sourcepath ./src/main/java/game/ -classpath lib/ -d apidocs -docletpath ./lib/umldoclet-2.1.0.jar -doclet nl.talsmasoftware.umldoclet.UMLDoclet App
-ls src/main/java/game
-cat src/main/java/game | head -1
-cat src/main/java/A | head -1
-cat src/main/java/App.java | head -1
-cat src/main/java/game/App.java | head -1
-cat src/main/java/game/App.java 
-javadoc -sourcepath ./src/main/java/game/ -classpath lib/ -d apidocs -docletpath ./lib/umldoclet-2.1.0.jar -doclet nl.talsmasoftware.umldoclet.UMLDoclet game
-javadoc -sourcepath ./src/main/java/game/App.java -classpath lib/ -d apidocs -docletpath ./lib/umldoclet-2.1.0.jar -doclet nl.talsmasoftware.umldoclet.UMLDoclet game
-javadoc -sourcepath ./src/main/java/game/App.java -classpath lib/:./bin -d apidocs -docletpath ./lib/umldoclet-2.1.0.jar -doclet nl.talsmasoftware.umldoclet.UMLDoclet game
-javadoc -sourcepath ./src/main/java/game/ -classpath lib/:./bin -d apidocs -docletpath ./lib/umldoclet-2.1.0.jar -doclet nl.talsmasoftware.umldoclet.UMLDoclet game
-cat Makefile | grep javadoc
-javadoc -d doc/javadoc -sourcepath src/main/java -classpath ./lib/* -doclelpath ./lib/umldoclet-2.1.0.jar -doclet nl.talsmasoftware.umldoclet.UMLDoclet game
-javadoc -d doc/javadoc -sourcepath src/main/java -classpath ./lib/* -docletpath ./lib/umldoclet-2.1.0.jar -doclet nl.talsmasoftware.umldoclet.UMLDoclet game
-javadoc -d doc/javadoc -sourcepath src/main/java -classpath ./lib/*.jar -docletpath ./lib/umldoclet-2.1.0.jar -doclet nl.talsmasoftware.umldoclet.UMLDoclet game
-javadoc -d doc/javadoc -sourcepath src/main/java -classpath "./lib/*" -docletpath ./lib/umldoclet-2.1.0.jar -doclet nl.talsmasoftware.umldoclet.UMLDoclet game
-javadoc -d doc/javadoc -sourcepath src/main/java -classpath "./lib/*" -docletpath ./lib/umldoclet-2.1.0.jar -doclet nl.talsmasoftware.umldoclet.UMLDoclet game.*
-javadoc -d doc/javadoc -sourcepath src/main/java -classpath "./lib/*" -docletpath ./lib/umldoclet-2.1.0.jar -doclet nl.talsmasoftware.umldoclet.UMLDoclet game.engine
-javadoc -d doc/javadoc -sourcepath src/main/java -classpath "./lib/*" -docletpath ./lib/umldoclet-2.1.0.jar -doclet nl.talsmasoftware.umldoclet.UMLDoclet -subpackages game
-git commit -m "cleaner javadocs cmd"
-tree | grap *pant*
-tree | grep *pant*
-tree | grep *plant
-tree | grep *plant*
-tree | grep *uml*
-tree | grep *UML*
-tree | grep *Sprite*
-tree | grep *jequer*
-tree | grep "*jequer*"
-tree | grep "*search*"
-ls **/* 
-ls **/*  | grep *UML*
-ls **/*  | grep *plant*
-ls **/*  | grep *search*
-ls **/*  | grep Window.html
-ls **/*  | grep plant
-ls **/*  | grep UML
 tree | grep UML
 javadoc --help -docletpath ./lib/umldoclet-2.1.0.jar -doclet nl.talsmasoftware.umldoclet.UMLDoclet
 javadoc --help -docletpath ./lib/umldoclet-2.1.0.jar -doclet nl.talsmasoftware.umldoclet.UMLDoclet | grep text
@@ -415,7 +80,6 @@ tmu
 la
 cp level.json level.json.ba
 mv level.json.ba level.json.bak
-task context none
 l
 ls -ka
 nvim ../.taskrc
@@ -424,7 +88,6 @@ ls .task*
 .ta
 ls .taskrc
 task init
-taks
 task -h
 task --help
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/uninstall.sh)"
@@ -755,7 +418,6 @@ cp level.json level.json.bak
 git commit -m "Draw grid"
 cp level.json.bak level.json
 brew install gnuplot
-mkdir assets
 gnuplot load ./cos.sin.tan.gp
 gnuplot
 mv cos.sin.tan.gp cos.sin.tan.gp.bak
@@ -827,7 +489,6 @@ gnuplot *.gp
 cd git/MarioYoutube/src/main/java
 git add 
 git commit -m "Game ViewPort"
-s
 brew install sl
 sl
 pandoc Feder_Masse_Pendel.md -o Feder.pdf
@@ -863,7 +524,6 @@ nvim assets/Masse_per.gp
 nvim Feder_Masse_Pendel_Auswertung.md
 nvim inbox.md
 d
-cd notes
 git commmit -m "Update"
 git config pull.rebase false 
 git commit -m "Update"
@@ -890,16 +550,13 @@ chmod +x cht.sh
 ./cht.sh --list-lang
 ./cht.sh
 nvim cht.sh
-cd
 curl cht.sh/java/for
 nvim .config/tmux/
 man
-tmux
 pandoc 2024-02-13.md -s -o 2024-02-13-Arbeitsblatt-Hochsprung.pdf
 pw
 pdw
 pwd
-cd notes/school
 mkdir sport
 cd sport
 nvim 2024-02-13.md
@@ -911,7 +568,6 @@ git merge main in
 git merge main 
 git commit -m "udpate"
 git mergetool
-git restore .
 git commit -m "g'\
 "
 git commit -m " \
@@ -923,12 +579,10 @@ git push origin ThinkPad
 git checkoutm
 git commit -m "gitig"
 git checkout main
-git status
 git merge ThinkPad
 git commit -m "uipdat"
 git commit -m "update" 
 git merge main
-git commit -m "update"
 nvim .gitignore
 git checkout main 
 git checkout ThinkPad
@@ -945,20 +599,14 @@ ls
 cd .local/share/
 cd nvim
 rm -rf lazy
-cd 
-cd .config/nvim
 htop
 doas powertop --help
-doas powertop --auto-tune
 doas pacman -S vlc
-doas mount /dev/sda2 /mnt
-vlc --enable-wayland
 yay -S vlc-git
 doas pacman -S mpv
 cd /mnt/Media
 mpv ._Mr.Robot.S02E05.1080p.rus.LostFilm.mkv
 doas powertp[
-doas powertop
 vlc ./
 vlc ./Mr\ Robot\ -\ s02e05.mkv
 mpv ./Mr\ Robot\ -\ s02e05.mkv
@@ -966,14 +614,10 @@ rm .task/*.data
 task sync init
 task add project:privat nachforschungen Maximilian speck von sternenburg
 git commit -m "ipdat"
-doas shutdown -h now
 ssh niklas@192.168.4.30
-nvim 
 neovide .
-firefox Hausarbeit.pdf
 git commit -m "select activeGameObject"
 nvim assets/shaders/de
-nvim assets/shaders/default.glsl
 [A
 ls \\ 
 rm -rf \\ 
@@ -987,9 +631,6 @@ cp ../src/main/resources/assets/images/gizmos.png ./utils
 ls utils
 rm level.json
 git commit -m "add Gizmos"
-git puhs
-git pull
-make && make run
 cd src/main/java
 cd game
 touch components/TranslateGizmo.java
@@ -997,21 +638,12 @@ nvim level.json
 mkdir papers
 cd papers
 nvim 2024-02-15-Deep_Learning_Yann_LeCun.md
-task sync
 nvim .taskrc
 task inbo
-task inbox
-task
-yay -S tasksh
-tasksh
-lsblk
 cd .config/sway/q
 cd .config/sway/
-nvim .
 nvim .config/s
 nvim .config/sway
-bash .local/scripts/lenovo_initi_displays.sh
-nvim
 doas pacman -R nvim
 doas pacman -R neovim
 doas pacman -R neovide neovim
@@ -1023,35 +655,18 @@ make CMAKE_BUILD_TYPE=Release
 make -j7
 make install
 sudo make install
-nvim -v
-cd git/dotfiles
-git add .
 git commit -m "upodate"
-git push
-ls
-n -e
-lualatex Hausarbeit.tex
-ls
 cal
 cal -h
 cal -3
 calc
-nvim facharbeit.md
-doas pacman -S biber
 yay -S ltex
 yay -Ss ltex
 doas pacman -Ss ltex
 yay -S ltex-ls
-nvim 
-nvim .config/tmux
-nvim .
-n -e
-firefox Hausarbeit.pdf
 nvim Hausarbeit.
-nvim Hausarbeit.tex
 bibtex bibliography.bib
 bibere
-biber
 bibtex Hausarbeit
 bibtex chapters/Hauptteil
 biber bibliography.bib
@@ -1059,98 +674,40 @@ lualatex Hausarbeit.tex && bibtex Hausarbeit
 lualatex Hausarbeit.tex 
 s
 cat bibliography.bib
-ls
 rm bibliography.bib.*
-biber Hausarbeit
-lualatex Hausarbeit.tex
-n -e
 lualatex Hausarbeit.tex && biber Hausarbeit
 lualatex Hausarbeit.tex && biber Hausarbeit && lualatex Hausarbeit.tex
-task context Facharbeit
 task add Aktuelle Implementationen
 task 25 modify selectedtoday:
 task 25 modify selectedtoday:25
 task 25 modify selectedtoday
 task undo
-taks
-task inboc
-task inbox
-task
-cd .config/nvim
-git add .
-git pull
 git status
-ls
-nvim .
 cp Downloads/Neural_network.svg notes/school/facharbeit/assets
 cp Downloads/The-Transformer-model-architecture.png notes/school/facharbeit/assets
 vlc --enable-wayland
 vlc -enable-wayland
 nvim .j
-nvim .
-pandoc facharbeit.md -o facharbeit.tex
 cp facharbeit.tex source/Hausarbeit\ Seminarfach\ 2023/chapters
-ls
-nvim facharbeit.md
-task
 task add Grafik Cite
 task 25 stop
 mkdir assets
-n -e
 lualatex Hausarbeit.t
 ls chapters
-firefox Hausarbeit.pdf
 rm chapters/facharbeit.tex
 nvim Hausarbeit.t
 nvim Hausarbeit.tex
-biber Hausarbeit
-lualatex Hausarbeit.tex
-nvim bibliography.bib
-ls
 nvim Hausarbeit.cls
-task sync
-doas shutdown -h now
-n -e
-bash .local/scripts/lenovo_initi_displays.sh
-task 
-doas shutdown -h now
-nvim facharbeit.
-nvim facharbeit.md
 cd projects/liferfix_game_projekt_2024_2_hj
-git add .
-git commit -m "update"
-git push
-cd notes
-git add .
 git commit -m "Facharbeit"
-git push
 cat /sys/class/power_supply/BAT0/capacity
-bash .local/scripts/lenovo_initi_displays.sh
-task
-echo $TERM
-nvim .zshrc
-nvim .zprofile
-nvim .config/tmux
-nvim 
-n -e
 vim
 nvim .zprofile
-nvim
-export TERM=tmux-256color
-nvim
 nvim facharbeit.
-nvim facharbeit.md
-ls
-echo $TERM
 nvim .zshrc 
-nvim
-echo $TERM
-nvim .zshrc
-echo $TERM
 tput sitm | xxd
 echo $(tput sitm) test $(tput sgr0)
 tmux -2
-nvim
 nvim .config/alacritty
 nprm install -g neovim
 npm install -g neovim
@@ -1160,52 +717,263 @@ doas pacman -S python python-pip
 doas pacman -S f
 doas pacman -S fd
 nvim .config/tmux
-cd .config/tmux
-nvim .
 infocmp alacritty
-curl -s https://gist.githubusercontent.com/lifepillar/09a44b8cf0f9397465614e622979107f/raw/24-bit-color.sh >24-bit-color.sh\
-bash 24-bit-color.sh
-cd .config/nvim
-n -e
-nvim .
-nvim
 nvim .config/alacritty/alacritty.
 nvim .config/alacritty/alacritty.toml
-curl -s https://gist.githubusercontent.com/lifepillar/09a44b8cf0f9397465614e622979107f/raw/24-bit-color.sh >24-bit-color.sh\
-bash 24-bit-color.sh
-cd
 cd .config/n
-cd .config/nvim
-nvim .
-curl -s https://gist.githubusercontent.com/lifepillar/09a44b8cf0f9397465614e622979107f/raw/24-bit-color.sh >24-bit-color.sh\
-bash 24-bit-color.sh
 tmux
-tmux
-nvim
-tmux kill-server
-nvim
-tmux kill-server
-nvim 
 cd .config/tmux
-nvim .
 tmux kill-server
 echo export TERM=tmux-256color\
 
-curl -s https://gist.githubusercontent.com/lifepillar/09a44b8cf0f9397465614e622979107f/raw/24-bit-color.sh >24-bit-color.sh\
-bash 24-bit-color.sh
 cd .config/alacritty/catppuccin
 cd .config/alacritty/a
 cd .config/alacritty/
-n -e
 lsa
-nvim .
-cd .config/nvim
-ls
-nvim .
-task context none
 task add project:privat +learning Read Practical NLP Real-World
 task context Facharbeit
-taks
-task
 taks add +cite Foundations of ai https://en.wikipedia.org/wiki/Dartmouth_workshop
 task add +cite Foundations of ai https://en.wikipedia.org/wiki/Dartmouth_workshop
+git commit -m "configs"
+doas powertop --auto-tune
+doas powertop
+fc-list
+fc-list | grep Fira Code
+fc-list | grep "Fira Code"
+yay -Ss FiraCode
+yay -S ttf-firacode-nerd
+fc-cache -force
+fc-cache --force
+fc-list | grep Fira
+cd .config/alacritty
+task 187 delte
+task 187 delete
+task 18 delte
+task 18 delete
+task 
+task add +cite wikipedia aktivierugnsfunktionne
+nvim Downloads/10.10
+nvim Downloads/10.1007_978-981-15-1081-6_5-citation.bib
+nvim Downloads/robotics-v02-i03_20240218.bib
+task add +cite reinforced roboticvs
+task add +cite reinforced car
+git add . 
+git commit -m "update"
+git puhs
+git pus
+nvim
+echo $TERM
+export $TERM
+export $TERM=
+export $TERM=l
+export TERM=d
+export TERM=alacritty
+export TERM-tmux-256color
+export TERM=tmux-256color
+curl -s https://gist.githubusercontent.com/lifepillar/09a44b8cf0f9397465614e622979107f/raw/24-bit-color.sh >24-bit-color.sh\
+bash 24-bit-color.sh
+firefox literatur/(*
+firefox literatur/(
+firefox literatur/*
+pandoc facharbeit.md -s -o facharbeit.pdf
+firefox facharbeit.pdf
+pandoc facharbeit.md -o facharbeit.tex
+pandoc facharbeit.md -s -o facharbeit.tex
+nvim facharbeit.tex
+nvim --clean facharbeit.md
+nvim facharbeit.md
+bash .local/scripts/le
+bash .local/scripts/lenovo_initi_displays.sh 
+doas pacman -S curl
+spotify
+yay -Ss spotify
+nvim .co
+cd .config/sway
+nvim config
+swaymsg -t get_outputs
+swaymsg -t get_inputs
+swaymsg input
+swaymsg input keyboard 
+swaymsg input keyboard xkb_switch_layout next
+cd notes/school
+cd facharbeit/assets
+doas pacman -S imagemagick
+imagemagick
+convert CNN.webp CNN.png
+convert Konvolution_faltung.webp Konvolution_faltung.png
+cd 
+cd Downloads
+unzip Facharbeit\ -\ KI\(1\).zip
+lualatex Hausarbeit.tex
+doas pacman -S inkscape
+doas pacman -S biber
+yay -S biber
+doas pacman -Syyyui
+doas updatedb
+su
+latexmk -shell-escape Hausarbeit.tex
+latexmk -lualatex -shell-escape Hausarbeit.tex
+find / -name biber
+/usr/bin/vendor_perl/biber
+latexmk -lualatex -shell-escape --force Hausarbeit.tex
+latexmk -h | grep clean
+latexmk -c Hausarbeit.tex
+unzip Facharbeit\ -\ KI\(2\).zip
+latexmk -lualatex -shell-escape -f Hausarbeit.tex
+task add find cite for aktivierugsfunk
+cd Downloads/Hausarbeit\ Seminarfach\ 2023
+biber Hausarbeit.
+export PATH="$PATH:/usr/bin/vendor_perl/"
+biber Hausarbeit
+lualatex -shell-escape Hausarbeit.tex
+task add EInleitung revolutionaere Transformer
+cd notes/school/facharbeit/assets
+convert political_Bias.webp political_Bias.png
+cd .configcd
+cd git/dotfiles
+find . -n "PATH"
+cat ./**/* | grep PATH
+whereis biber
+doas find / -name biber
+nvim .zshrc
+biber
+nvim -v
+cd notes/school/facharbeit
+rm -rf Hausarbeit\ Seminarfach\ 2023
+unzip ~/Downloads/Facharbeit\ -\ KI\(3\).zip 
+cd Hausarbeit\ Seminarfach\ 2023
+firefox Hausarbeit.pdf
+nvim Downloads/pericles_1097014291.bib
+nvim bibliography.bib
+cd .config/nvim
+latexmk -lualatex -shell-escape
+latexmk -clean
+latexmk --clean
+latexmk -h
+rm Hausarbeit.bbl
+latexmk -c && latexmk -lualatex -f -shell-escape
+rm ltex.*
+ls svg-inkscape
+doas pacman -S zip
+latexmk -lualatex -f -shell-escape
+latexmk -c
+zip -r Facharbeit.zip Hausarbeit\ Seminarfach\ 2023
+cp Hausarbeit.pdf Hausarbeit.pdf.bak
+firefox Hausarbeit\ Seminarfach\ 2023/Hausarbeit.pdf
+nvim 
+nvim chapters/Hauptteil.tex
+lsblk
+doas mount /dev/sda2 /mnt
+cd /mnt
+lsd
+mpv 'Mr Robot - s02e05.mkv'
+mpv 'Mr Robot - s02e06.mkv'
+doas shutdown -h noow
+task synd
+task context
+task context none
+task 35
+cd notes
+cd
+doas pacman -Ss taskshell
+doas pacman -Syyyu
+tasksh
+yay -S tasksh
+yay -S taskshell
+q4 11
+q3 12
+task 13 delete
+task 14 delete
+q4 13
+q4 14
+task 16 delete
+task 17 delete
+task delete 16
+task in
+task inbox 
+q4 16
+q4 17
+task 20 done
+q4 20
+task 21 done
+task delete 19
+stask
+task 21 delete
+q4 22
+q4 21
+task 22 delete
+task inboc
+task inbox
+q3 22
+q3 23
+task 25 delete
+q4 18
+task 20 delete
+taks
+yay -Syyyu
+task sznc
+i
+task add project:privat due:tue wait:mon Frau Sandman kuenstlerin hat collab mit Olafur arnalds erzaehlen
+task syncx
+task sync 
+task 23 start
+doas pacman -S libreoffice-fresh
+task
+task 23 stop
+task 23 done
+task sync
+ip 
+ip a
+cd git/MarioYoutube/
+ls
+nvim assets/shaders/default.glsl
+an -e
+on -e
+n -e
+git add .
+git commit -m "non static in shader"
+git push
+nvim assets/shaders/vhs.glsl
+make && make urn
+doas shutdown -h now
+bash .local/scripts/lenovo_initi_displays.sh
+fej
+imv
+make && make run
+nvim .
+git restore .
+git pull
+n -e
+pwd
+imv -h
+man imv
+imv Map.jpg
+ls
+convert Map.jpg -distort SRT -90 rotatedMap.jpg
+git add .
+git commit -m "rotatet map image"
+git config pull.rebase false 
+git pull
+git push
+imv rotatedMap.jpg
+imagick
+doas pacman -S imagick
+git restore .
+git pull
+bash .local/scripts/lenovo_initi_displays.sh 
+doas pacman -Syyyu
+yay -Syyyu
+ya -Syuy
+yay
+doas pacman -S libalpm
+doas pacman -Se libalpm
+doas pacman -Ss libalpm
+cd projects
+ls
+cd liferfix_game_projekt_2024_2_hj
+make && make urn
+make && make run
+ping fritz.box
+ping www.google.de
+doas shutdown -h now
+bash .local/scripts/lenovo_initi_displays.sh

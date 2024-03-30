@@ -221,7 +221,7 @@ return {
 					settings = {
 						ltex = {
 							enabled = { "latex", "tex", "bib", "markdown", },
-							language = "auto",
+							language = "de",
 							diagnosticSeverity = "information",
 							sentenceCacheSize = 2000,
 							additionalRules = {
@@ -229,7 +229,6 @@ return {
 								motherTongue = "de",
 							},
 							disabledRules = {
-								fr = { "APOS_TYP", "FRENCH_WHITESPACE" },
 								de = {}
 							},
 							dictionary = (function()

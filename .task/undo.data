@@ -1159,3 +1159,267 @@ new [description:"Read Practical NLP Real-World" entry:"1708251440" modified:"17
 time 1708251939
 new [description:"Foundations of ai https:\/\/en.wikipedia.org\/wiki\/Dartmouth_workshop" entry:"1708251939" modified:"1708251939" project:"school.facharbeit" status:"pending" tags:"cite" tags_cite:"x" uuid:"2c34e211-e448-4f7d-923c-9e0c1ed73d65"]
 ---
+time 1708264649
+old [description:"Alternativen zu NN und Furier etc" entry:"1707652406" modified:"1707652430" project:"school.facharbeit.fragen" status:"pending" tags:"henning" tags_henning:"x" uuid:"2b1d8856-2a36-49ae-a20d-f48ce7ad3cde"]
+new [description:"Alternativen zu NN und Furier etc" end:"1708264647" entry:"1707652406" modified:"1708264649" project:"school.facharbeit.fragen" status:"deleted" tags:"henning" tags_henning:"x" uuid:"2b1d8856-2a36-49ae-a20d-f48ce7ad3cde"]
+---
+time 1708268050
+new [description:"wikipedia aktivierugnsfunktionne" entry:"1708268050" modified:"1708268050" project:"school.facharbeit" status:"pending" tags:"cite" tags_cite:"x" uuid:"0a8ed30a-f886-4540-861d-b6a2266262b2"]
+---
+time 1708280872
+new [description:"reinforced roboticvs" entry:"1708280872" modified:"1708280872" project:"school.facharbeit" status:"pending" tags:"cite" tags_cite:"x" uuid:"7189364d-07c2-4691-a14e-f302983d74bf"]
+---
+time 1708280874
+new [description:"reinforced car" entry:"1708280874" modified:"1708280874" project:"school.facharbeit" status:"pending" tags:"cite" tags_cite:"x" uuid:"3c905805-b91e-48c3-a55b-a6aa3fb6bffa"]
+---
+time 1708379034
+new [description:"find cite for aktivierugsfunk" entry:"1708379034" modified:"1708379034" project:"school.facharbeit" status:"pending" uuid:"45f67660-eb23-4185-8310-6e8bcafc592b"]
+---
+time 1708379037
+new [description:"OpenVPN Home" entry:"1708328968" modified:"1708328968" status:"pending" uuid:"995110f9-587a-44bb-843c-fba8c1e8395e"]
+---
+time 1708379037
+old [description:"OpenVPN Home" entry:"1708328968" modified:"1708328968" status:"pending" uuid:"995110f9-587a-44bb-843c-fba8c1e8395e"]
+new [description:"OpenVPN Home" entry:"1708328968" modified:"1708328974" priority:"H" status:"pending" urgent:"Y" uuid:"995110f9-587a-44bb-843c-fba8c1e8395e"]
+---
+time 1708454532
+new [description:"EInleitung revolutionaere Transformer" entry:"1708454532" modified:"1708454532" project:"school.facharbeit" status:"pending" uuid:"1923f19c-bfa0-44cc-8919-783ca1ea822a"]
+---
+time 1708979142
+new [description:"finn vom englisch treffen erzaehlen" entry:"1708424498" modified:"1708424498" project:"school" status:"pending" tags:"privat" tags_privat:"x" uuid:"8f9230da-2bda-4b2b-b84b-62383ffa6d03"]
+---
+time 1708979142
+new [description:"hutter prize versuchen" entry:"1708429579" modified:"1708429579" project:"privat" status:"pending" tags:"fun" tags_fun:"x" uuid:"527eed74-275a-4607-a0a1-c96c8db78c54"]
+---
+time 1708979142
+new [description:"s 181 M2" entry:"1708433700" modified:"1708433700" project:"school.geschichte" status:"pending" uuid:"d9b55a7f-cab9-4873-9e5e-87e570f71fd7"]
+---
+time 1708979142
+new [description:"r quadrat" entry:"1708525620" modified:"1708525620" status:"pending" uuid:"de4ee33c-b508-4cb6-9999-9d623792c79d"]
+---
+time 1708979142
+old [description:"r quadrat" entry:"1708525620" modified:"1708525620" status:"pending" uuid:"de4ee33c-b508-4cb6-9999-9d623792c79d"]
+new [description:"r quadrat" entry:"1708525620" modified:"1708525623" priority:"H" status:"pending" urgent:"Y" uuid:"de4ee33c-b508-4cb6-9999-9d623792c79d"]
+---
+time 1708979142
+new [description:"ki fraud Dr reicht" entry:"1708584786" modified:"1708584799" project:"achool" status:"pending" uuid:"35b80efe-2139-47d4-ae1f-f2f795c0f251"]
+---
+time 1708979142
+new [description:"script for sil" entry:"1708592227" modified:"1708592227" status:"pending" uuid:"4be58de6-3fb2-42ea-b4eb-8d88573a2a58"]
+---
+time 1708979142
+old [description:"script for sil" entry:"1708592227" modified:"1708592227" status:"pending" uuid:"4be58de6-3fb2-42ea-b4eb-8d88573a2a58"]
+new [annotation_1708592240:"test" description:"script for sil" entry:"1708592227" modified:"1708592240" status:"pending" uuid:"4be58de6-3fb2-42ea-b4eb-8d88573a2a58"]
+---
+time 1708979142
+old [annotation_1708592240:"test" description:"script for sil" entry:"1708592227" modified:"1708592240" status:"pending" uuid:"4be58de6-3fb2-42ea-b4eb-8d88573a2a58"]
+new [annotation_1708592240:"test" annotation_1708592262:"hook to due next time fach" description:"script for sil" entry:"1708592227" modified:"1708592262" status:"pending" uuid:"4be58de6-3fb2-42ea-b4eb-8d88573a2a58"]
+---
+time 1708979142
+old [description:"Einleitung" entry:"1707991999" modified:"1707991999" project:"school.facharbeit" status:"pending" uuid:"deae855f-3828-4c5f-923f-6b46de6cdd15"]
+new [description:"Einleitung" end:"1708595163" entry:"1707991999" modified:"1708595165" project:"school.facharbeit" status:"completed" uuid:"deae855f-3828-4c5f-923f-6b46de6cdd15"]
+---
+time 1708979142
+old [description:"Neuronale Netze darstellen" entry:"1707992012" modified:"1707992012" project:"school.facharbeit" status:"pending" uuid:"fdc9e350-6e3d-4626-b8ea-79d132320f26"]
+new [description:"Neuronale Netze darstellen" end:"1708595165" entry:"1707992012" modified:"1708595165" project:"school.facharbeit" status:"completed" uuid:"fdc9e350-6e3d-4626-b8ea-79d132320f26"]
+---
+time 1708979142
+old [description:"neuronen und Menschne" entry:"1707992021" modified:"1707992021" project:"school.facharbeit" status:"pending" uuid:"02607889-aea6-4a6f-a002-e77366a05fd4"]
+new [description:"neuronen und Menschne" end:"1708595165" entry:"1707992021" modified:"1708595165" project:"school.facharbeit" status:"completed" uuid:"02607889-aea6-4a6f-a002-e77366a05fd4"]
+---
+time 1708979142
+old [description:"Transformer" entry:"1707992024" modified:"1707992024" project:"school.facharbeit" status:"pending" uuid:"8225871d-78bf-4a31-86b1-3ad17575d879"]
+new [description:"Transformer" end:"1708595165" entry:"1707992024" modified:"1708595165" project:"school.facharbeit" status:"completed" uuid:"8225871d-78bf-4a31-86b1-3ad17575d879"]
+---
+time 1708979142
+old [description:"alternativen" entry:"1707992029" modified:"1707992029" project:"school.facharbeit" status:"pending" uuid:"52ef93f9-ee45-4947-8cc3-7f7cba82e97f"]
+new [description:"alternativen" end:"1708595165" entry:"1707992029" modified:"1708595165" project:"school.facharbeit" status:"completed" uuid:"52ef93f9-ee45-4947-8cc3-7f7cba82e97f"]
+---
+time 1708979142
+old [description:"argumentation" entry:"1707992044" modified:"1707992044" project:"school.facharbeit" status:"pending" uuid:"906a48bf-ab5d-49f9-9f3f-a8e43abec1d5"]
+new [description:"argumentation" end:"1708595165" entry:"1707992044" modified:"1708595165" project:"school.facharbeit" status:"completed" uuid:"906a48bf-ab5d-49f9-9f3f-a8e43abec1d5"]
+---
+time 1708979142
+old [description:"supervised learning" entry:"1707992050" modified:"1708089721" project:"school.facharbeit" status:"pending" uuid:"c4a789b1-d262-4483-a0d4-c57357958e9f"]
+new [description:"supervised learning" end:"1708595165" entry:"1707992050" modified:"1708595165" project:"school.facharbeit" status:"completed" uuid:"c4a789b1-d262-4483-a0d4-c57357958e9f"]
+---
+time 1708979142
+old [description:"universelle annaeherungs funktionen" entry:"1707993137" modified:"1708071390" project:"school.facharbeit" status:"pending" uuid:"190e68d9-348d-40cc-9283-3c29709b22b8"]
+new [description:"universelle annaeherungs funktionen" end:"1708595165" entry:"1707993137" modified:"1708595165" project:"school.facharbeit" status:"completed" uuid:"190e68d9-348d-40cc-9283-3c29709b22b8"]
+---
+time 1708979142
+old [description:"Aktuelle Implementationen" entry:"1708071548" modified:"1708071548" project:"school.facharbeit" status:"pending" uuid:"65a7eea2-4d98-4202-a666-9132d3e9236d"]
+new [description:"Aktuelle Implementationen" end:"1708595165" entry:"1708071548" modified:"1708595165" project:"school.facharbeit" status:"completed" uuid:"65a7eea2-4d98-4202-a666-9132d3e9236d"]
+---
+time 1708979142
+old [description:"Grafik Cite" entry:"1708089717" modified:"1708089717" project:"school.facharbeit" status:"pending" uuid:"8e33515d-3139-4905-b817-8bb9ba7ae771"]
+new [description:"Grafik Cite" end:"1708595165" entry:"1708089717" modified:"1708595165" project:"school.facharbeit" status:"completed" uuid:"8e33515d-3139-4905-b817-8bb9ba7ae771"]
+---
+time 1708979142
+old [description:"Foundations of ai https:\/\/en.wikipedia.org\/wiki\/Dartmouth_workshop" entry:"1708251939" modified:"1708251939" project:"school.facharbeit" status:"pending" tags:"cite" tags_cite:"x" uuid:"2c34e211-e448-4f7d-923c-9e0c1ed73d65"]
+new [description:"Foundations of ai https:\/\/en.wikipedia.org\/wiki\/Dartmouth_workshop" end:"1708595165" entry:"1708251939" modified:"1708595165" project:"school.facharbeit" status:"completed" tags:"cite" tags_cite:"x" uuid:"2c34e211-e448-4f7d-923c-9e0c1ed73d65"]
+---
+time 1708979142
+old [description:"wikipedia aktivierugnsfunktionne" entry:"1708268050" modified:"1708268050" project:"school.facharbeit" status:"pending" tags:"cite" tags_cite:"x" uuid:"0a8ed30a-f886-4540-861d-b6a2266262b2"]
+new [description:"wikipedia aktivierugnsfunktionne" end:"1708595165" entry:"1708268050" modified:"1708595165" project:"school.facharbeit" status:"completed" tags:"cite" tags_cite:"x" uuid:"0a8ed30a-f886-4540-861d-b6a2266262b2"]
+---
+time 1708979142
+old [description:"reinforced roboticvs" entry:"1708280872" modified:"1708280872" project:"school.facharbeit" status:"pending" tags:"cite" tags_cite:"x" uuid:"7189364d-07c2-4691-a14e-f302983d74bf"]
+new [description:"reinforced roboticvs" end:"1708595165" entry:"1708280872" modified:"1708595165" project:"school.facharbeit" status:"completed" tags:"cite" tags_cite:"x" uuid:"7189364d-07c2-4691-a14e-f302983d74bf"]
+---
+time 1708979142
+old [description:"reinforced car" entry:"1708280874" modified:"1708280874" project:"school.facharbeit" status:"pending" tags:"cite" tags_cite:"x" uuid:"3c905805-b91e-48c3-a55b-a6aa3fb6bffa"]
+new [description:"reinforced car" end:"1708595165" entry:"1708280874" modified:"1708595165" project:"school.facharbeit" status:"completed" tags:"cite" tags_cite:"x" uuid:"3c905805-b91e-48c3-a55b-a6aa3fb6bffa"]
+---
+time 1708979142
+old [description:"find cite for aktivierugsfunk" entry:"1708379034" modified:"1708379034" project:"school.facharbeit" status:"pending" uuid:"45f67660-eb23-4185-8310-6e8bcafc592b"]
+new [description:"find cite for aktivierugsfunk" end:"1708595165" entry:"1708379034" modified:"1708595165" project:"school.facharbeit" status:"completed" uuid:"45f67660-eb23-4185-8310-6e8bcafc592b"]
+---
+time 1708979142
+new [description:"eventsystem" entry:"1708595235" modified:"1708595235" project:"liferfix" status:"pending" uuid:"e3c38853-b5d0-492a-850d-c5b2477ea48d"]
+---
+time 1708979142
+new [description:"KI that whatches your computer all the time" entry:"1708596046" modified:"1708596046" project:"ideas" status:"pending" uuid:"7229eb1d-42a2-40f2-bb0d-3c2317ec648f"]
+---
+time 1708979142
+old [description:"KI that whatches your computer all the time" entry:"1708596046" modified:"1708596046" project:"ideas" status:"pending" uuid:"7229eb1d-42a2-40f2-bb0d-3c2317ec648f"]
+new [annotation_1708596058:"should run local" description:"KI that whatches your computer all the time" entry:"1708596046" modified:"1708596058" project:"ideas" status:"pending" uuid:"7229eb1d-42a2-40f2-bb0d-3c2317ec648f"]
+---
+time 1708979142
+new [description:"manager for json files or level files" entry:"1708596833" modified:"1708596833" project:"lieferfix" status:"pending" uuid:"b5f99cea-d1d3-41ad-a4ac-fcfc69f34ad8"]
+---
+time 1708979142
+new [description:"renderbatch nciht fuer zIndez sondern Oft geupdateed" entry:"1708597438" modified:"1708597438" project:"lieferfic" status:"pending" uuid:"51d21345-dd75-4856-8c34-4bf9e3853870"]
+---
+time 1708979142
+new [description:"Musik KLausur" due:"1709161200" entry:"1708601879" modified:"1708601879" project:"school.musik" status:"pending" tags:"klausur" tags_klausur:"x" uuid:"12e131e5-5d00-4063-9b73-9aa9ed2589f5"]
+---
+time 1708979142
+old [description:"Musik KLausur" due:"1709161200" entry:"1708601879" modified:"1708601879" project:"school.musik" status:"pending" tags:"klausur" tags_klausur:"x" uuid:"12e131e5-5d00-4063-9b73-9aa9ed2589f5"]
+new [description:"Musik KLausur" due:"1709161200" entry:"1708601879" modified:"1708601884" priority:"H" project:"school.musik" status:"pending" tags:"klausur" tags_klausur:"x" urgent:"Y" uuid:"12e131e5-5d00-4063-9b73-9aa9ed2589f5"]
+---
+time 1708979142
+new [description:"Handel Enlgand china" due:"1709247600" entry:"1708943391" modified:"1708943391" project:"school.geschichte" status:"pending" tags:"sil" tags_sil:"x" uuid:"f566da5f-f673-40fc-a4df-bb6bae8fb92c"]
+---
+time 1709062575
+old [description:"module updaten auf luametatex" entry:"1702122869" modified:"1702122869" project:"henning" status:"pending" uuid:"edd1ed6e-b620-41af-8c72-afccdbff51a5"]
+new [description:"module updaten auf luametatex" entry:"1702122869" modified:"1709062575" priority:"L" project:"henning" status:"pending" urgent:"N" uuid:"edd1ed6e-b620-41af-8c72-afccdbff51a5"]
+---
+time 1709062580
+old [annotation_1703058450:"~\/notes\/abitur" description:"Themen übersicht" entry:"1703058437" modified:"1703058450" project:"school.abitur" status:"pending" uuid:"913e710f-f6ab-422a-8f50-3558d3d122ae"]
+new [annotation_1703058450:"~\/notes\/abitur" description:"Themen übersicht" entry:"1703058437" modified:"1709062580" priority:"L" project:"school.abitur" status:"pending" urgent:"Y" uuid:"913e710f-f6ab-422a-8f50-3558d3d122ae"]
+---
+time 1709062587
+old [description:"feder konstante" entry:"1705914073" modified:"1705914073" project:"school.phy" status:"pending" tags:"sil" tags_sil:"x" uuid:"abbc48b4-21b2-42d9-b12b-80f44053d1fb"]
+new [description:"feder konstante" end:"1709062586" entry:"1705914073" modified:"1709062587" project:"school.phy" status:"deleted" tags:"sil" tags_sil:"x" uuid:"abbc48b4-21b2-42d9-b12b-80f44053d1fb"]
+---
+time 1709062597
+old [description:"Künstliche Intiligenz grenzen nachtragen nach facharbeit" entry:"1705917035" modified:"1705917035" project:"wikipedia" status:"pending" uuid:"c65c7c02-d813-4280-bed9-4aaaa44f3b3e"]
+new [description:"Künstliche Intiligenz grenzen nachtragen nach facharbeit" entry:"1705917035" modified:"1709062597" priority:"L" project:"wikipedia" status:"pending" urgent:"N" uuid:"c65c7c02-d813-4280-bed9-4aaaa44f3b3e"]
+---
+time 1709062607
+old [description:"Künstliche Intiligenz grenzen nachtragen nach facharbeit" entry:"1705917035" modified:"1709062597" priority:"L" project:"wikipedia" status:"pending" urgent:"N" uuid:"c65c7c02-d813-4280-bed9-4aaaa44f3b3e"]
+new [description:"Künstliche Intiligenz grenzen nachtragen nach facharbeit" end:"1709062606" entry:"1705917035" modified:"1709062607" priority:"L" project:"wikipedia" status:"deleted" urgent:"N" uuid:"c65c7c02-d813-4280-bed9-4aaaa44f3b3e"]
+---
+time 1709062613
+old [description:"Mathematics and Arts uebersetzen" entry:"1705917005" modified:"1705917005" project:"wikipedia" status:"pending" uuid:"a0f5f9b8-c6e1-4602-b3f9-ed646009f78b"]
+new [description:"Mathematics and Arts uebersetzen" entry:"1705917005" modified:"1709062613" priority:"L" project:"wikipedia" status:"pending" urgent:"N" uuid:"a0f5f9b8-c6e1-4602-b3f9-ed646009f78b"]
+---
+time 1709062621
+old [description:"die passion christi" entry:"1706005556" modified:"1706005556" project:"movies" status:"pending" uuid:"7f30929f-84aa-49b0-a4aa-2cab5252621a"]
+new [description:"die passion christi" entry:"1706005556" modified:"1709062621" priority:"L" project:"movies" status:"pending" urgent:"N" uuid:"7f30929f-84aa-49b0-a4aa-2cab5252621a"]
+---
+time 1709062631
+old [description:"keylistener handlr" entry:"1707993765" modified:"1707993765" project:"school.informatik" status:"pending" uuid:"b5dbb1bc-9a5f-4f54-adfa-7daab01bd944"]
+new [description:"keylistener handlr" end:"1709062630" entry:"1707993765" modified:"1709062631" project:"school.informatik" status:"deleted" uuid:"b5dbb1bc-9a5f-4f54-adfa-7daab01bd944"]
+---
+time 1709062644
+old [description:"fragment shader non constant in array index not allowd" entry:"1708016217" modified:"1708016217" project:"school.informatik" status:"pending" tags:"fix" tags_fix:"x" uuid:"0157f75d-2d36-4515-9dfc-e413d9c0c4a3"]
+new [description:"fragment shader non constant in array index not allowd" end:"1709062643" entry:"1708016217" modified:"1709062644" project:"school.informatik" status:"deleted" tags:"fix" tags_fix:"x" uuid:"0157f75d-2d36-4515-9dfc-e413d9c0c4a3"]
+---
+time 1709062656
+old [description:"nachforschungen Maximilian speck von sternenburg" entry:"1708030555" modified:"1708030555" project:"privat" status:"pending" uuid:"72df8939-1bdb-4a5c-8f5b-8a30b323650a"]
+new [description:"nachforschungen Maximilian speck von sternenburg" entry:"1708030555" modified:"1709062656" priority:"L" project:"privat" status:"pending" urgent:"N" uuid:"72df8939-1bdb-4a5c-8f5b-8a30b323650a"]
+---
+time 1709062664
+old [description:"Read Practical NLP Real-World" entry:"1708251440" modified:"1708251440" project:"privat" status:"pending" tags:"learning" tags_learning:"x" uuid:"47bae59d-b97d-4968-9b50-0da5e2882cf5"]
+new [description:"Read Practical NLP Real-World" entry:"1708251440" modified:"1709062664" priority:"L" project:"privat" status:"pending" tags:"learning" tags_learning:"x" urgent:"N" uuid:"47bae59d-b97d-4968-9b50-0da5e2882cf5"]
+---
+time 1709062673
+old [description:"finn vom englisch treffen erzaehlen" entry:"1708424498" modified:"1708424498" project:"school" status:"pending" tags:"privat" tags_privat:"x" uuid:"8f9230da-2bda-4b2b-b84b-62383ffa6d03"]
+new [description:"finn vom englisch treffen erzaehlen" end:"1709062673" entry:"1708424498" modified:"1709062673" project:"school" status:"completed" tags:"privat" tags_privat:"x" uuid:"8f9230da-2bda-4b2b-b84b-62383ffa6d03"]
+---
+time 1709062684
+old [description:"hutter prize versuchen" entry:"1708429579" modified:"1708429579" project:"privat" status:"pending" tags:"fun" tags_fun:"x" uuid:"527eed74-275a-4607-a0a1-c96c8db78c54"]
+new [description:"hutter prize versuchen" entry:"1708429579" modified:"1709062684" priority:"L" project:"privat" status:"pending" tags:"fun" tags_fun:"x" urgent:"N" uuid:"527eed74-275a-4607-a0a1-c96c8db78c54"]
+---
+time 1709062689
+old [description:"s 181 M2" entry:"1708433700" modified:"1708433700" project:"school.geschichte" status:"pending" uuid:"d9b55a7f-cab9-4873-9e5e-87e570f71fd7"]
+new [description:"s 181 M2" end:"1709062689" entry:"1708433700" modified:"1709062689" project:"school.geschichte" status:"completed" uuid:"d9b55a7f-cab9-4873-9e5e-87e570f71fd7"]
+---
+time 1709062700
+old [description:"EInleitung revolutionaere Transformer" entry:"1708454532" modified:"1708454532" project:"school.facharbeit" status:"pending" uuid:"1923f19c-bfa0-44cc-8919-783ca1ea822a"]
+new [description:"EInleitung revolutionaere Transformer" end:"1709062699" entry:"1708454532" modified:"1709062700" project:"school.facharbeit" status:"deleted" uuid:"1923f19c-bfa0-44cc-8919-783ca1ea822a"]
+---
+time 1709062714
+old [description:"ki fraud Dr reicht" entry:"1708584786" modified:"1708584799" project:"achool" status:"pending" uuid:"35b80efe-2139-47d4-ae1f-f2f795c0f251"]
+new [description:"ki fraud Dr reicht" end:"1709062712" entry:"1708584786" modified:"1709062714" project:"achool" status:"deleted" uuid:"35b80efe-2139-47d4-ae1f-f2f795c0f251"]
+---
+time 1709062718
+old [description:"eventsystem" entry:"1708595235" modified:"1708595235" project:"liferfix" status:"pending" uuid:"e3c38853-b5d0-492a-850d-c5b2477ea48d"]
+new [description:"eventsystem" entry:"1708595235" modified:"1709062718" priority:"L" project:"liferfix" status:"pending" urgent:"N" uuid:"e3c38853-b5d0-492a-850d-c5b2477ea48d"]
+---
+time 1709062726
+old [description:"eventsystem" entry:"1708595235" modified:"1709062718" priority:"L" project:"liferfix" status:"pending" urgent:"N" uuid:"e3c38853-b5d0-492a-850d-c5b2477ea48d"]
+new [description:"eventsystem" end:"1709062725" entry:"1708595235" modified:"1709062726" priority:"L" project:"liferfix" status:"deleted" urgent:"N" uuid:"e3c38853-b5d0-492a-850d-c5b2477ea48d"]
+---
+time 1709062735
+old [annotation_1708592240:"test" annotation_1708592262:"hook to due next time fach" description:"script for sil" entry:"1708592227" modified:"1708592262" status:"pending" uuid:"4be58de6-3fb2-42ea-b4eb-8d88573a2a58"]
+new [annotation_1708592240:"test" annotation_1708592262:"hook to due next time fach" description:"script for sil" entry:"1708592227" modified:"1709062735" priority:"L" status:"pending" urgent:"N" uuid:"4be58de6-3fb2-42ea-b4eb-8d88573a2a58"]
+---
+time 1709062745
+old [annotation_1708596058:"should run local" description:"KI that whatches your computer all the time" entry:"1708596046" modified:"1708596058" project:"ideas" status:"pending" uuid:"7229eb1d-42a2-40f2-bb0d-3c2317ec648f"]
+new [annotation_1708596058:"should run local" description:"KI that whatches your computer all the time" end:"1709062744" entry:"1708596046" modified:"1709062745" project:"ideas" status:"deleted" uuid:"7229eb1d-42a2-40f2-bb0d-3c2317ec648f"]
+---
+time 1709062757
+old [description:"manager for json files or level files" entry:"1708596833" modified:"1708596833" project:"lieferfix" status:"pending" uuid:"b5f99cea-d1d3-41ad-a4ac-fcfc69f34ad8"]
+new [description:"manager for json files or level files" entry:"1708596833" modified:"1709062757" priority:"L" project:"lieferfix" status:"pending" urgent:"Y" uuid:"b5f99cea-d1d3-41ad-a4ac-fcfc69f34ad8"]
+---
+time 1709062761
+old [description:"renderbatch nciht fuer zIndez sondern Oft geupdateed" entry:"1708597438" modified:"1708597438" project:"lieferfic" status:"pending" uuid:"51d21345-dd75-4856-8c34-4bf9e3853870"]
+new [description:"renderbatch nciht fuer zIndez sondern Oft geupdateed" entry:"1708597438" modified:"1709062761" priority:"L" project:"lieferfic" status:"pending" urgent:"Y" uuid:"51d21345-dd75-4856-8c34-4bf9e3853870"]
+---
+time 1709062775
+old [description:"Handel Enlgand china" due:"1709247600" entry:"1708943391" modified:"1708943391" project:"school.geschichte" status:"pending" tags:"sil" tags_sil:"x" uuid:"f566da5f-f673-40fc-a4df-bb6bae8fb92c"]
+new [description:"Handel Enlgand china" due:"1709247600" end:"1709062773" entry:"1708943391" modified:"1709062775" project:"school.geschichte" status:"deleted" tags:"sil" tags_sil:"x" uuid:"f566da5f-f673-40fc-a4df-bb6bae8fb92c"]
+---
+time 1709062781
+old [description:"OpenVPN Home" entry:"1708328968" modified:"1708328974" priority:"H" status:"pending" urgent:"Y" uuid:"995110f9-587a-44bb-843c-fba8c1e8395e"]
+new [description:"OpenVPN Home" entry:"1708328968" modified:"1709062781" priority:"L" status:"pending" urgent:"N" uuid:"995110f9-587a-44bb-843c-fba8c1e8395e"]
+---
+time 1709062787
+old [description:"r quadrat" entry:"1708525620" modified:"1708525623" priority:"H" status:"pending" urgent:"Y" uuid:"de4ee33c-b508-4cb6-9999-9d623792c79d"]
+new [description:"r quadrat" end:"1709062786" entry:"1708525620" modified:"1709062787" priority:"H" status:"deleted" urgent:"Y" uuid:"de4ee33c-b508-4cb6-9999-9d623792c79d"]
+---
+time 1709143055
+new [description:"Keine interaktion möglich wenn wärend des starten die maus bewegt wird" entry:"1709138454" modified:"1709138454" project:"lieferfix" status:"pending" tags:"bug" tags_bug:"x" uuid:"3450749f-e3b6-411b-9614-3338752423d1"]
+---
+time 1709143055
+old [description:"Keine interaktion möglich wenn wärend des starten die maus bewegt wird" entry:"1709138454" modified:"1709138454" project:"lieferfix" status:"pending" tags:"bug" tags_bug:"x" uuid:"3450749f-e3b6-411b-9614-3338752423d1"]
+new [description:"Keine interaktion möglich wenn wärend des starten die maus bewegt wird" entry:"1709138454" modified:"1709138494" priority:"H" project:"lieferfix" status:"pending" tags:"bug" tags_bug:"x" urgent:"Y" uuid:"3450749f-e3b6-411b-9614-3338752423d1"]
+---
+time 1709143113
+new [description:"Frau Sandman kuenstlerin hat collab mit Olafur arnalds erzaehlen" due:"1709593200" entry:"1709143113" modified:"1709143113" project:"privat" status:"pending" uuid:"b1d535ca-5f92-45c2-bb6a-210746e0e9ef" wait:"1709506800"]
+---
+time 1709143122
+old [description:"Musik KLausur" due:"1709161200" entry:"1708601879" modified:"1708601884" priority:"H" project:"school.musik" status:"pending" tags:"klausur" tags_klausur:"x" urgent:"Y" uuid:"12e131e5-5d00-4063-9b73-9aa9ed2589f5"]
+new [description:"Musik KLausur" due:"1709161200" entry:"1708601879" modified:"1709143122" priority:"H" project:"school.musik" start:"1709143122" status:"pending" tags:"klausur" tags_klausur:"x" urgent:"Y" uuid:"12e131e5-5d00-4063-9b73-9aa9ed2589f5"]
+---
+time 1709153757
+old [description:"Musik KLausur" due:"1709161200" entry:"1708601879" modified:"1709143122" priority:"H" project:"school.musik" start:"1709143122" status:"pending" tags:"klausur" tags_klausur:"x" urgent:"Y" uuid:"12e131e5-5d00-4063-9b73-9aa9ed2589f5"]
+new [description:"Musik KLausur" due:"1709161200" entry:"1708601879" modified:"1709153757" priority:"H" project:"school.musik" status:"pending" tags:"klausur" tags_klausur:"x" urgent:"Y" uuid:"12e131e5-5d00-4063-9b73-9aa9ed2589f5"]
+---
+time 1709153761
+old [description:"Musik KLausur" due:"1709161200" entry:"1708601879" modified:"1709153757" priority:"H" project:"school.musik" status:"pending" tags:"klausur" tags_klausur:"x" urgent:"Y" uuid:"12e131e5-5d00-4063-9b73-9aa9ed2589f5"]
+new [description:"Musik KLausur" due:"1709161200" end:"1709153761" entry:"1708601879" modified:"1709153761" priority:"H" project:"school.musik" status:"completed" tags:"klausur" tags_klausur:"x" urgent:"Y" uuid:"12e131e5-5d00-4063-9b73-9aa9ed2589f5"]
+---

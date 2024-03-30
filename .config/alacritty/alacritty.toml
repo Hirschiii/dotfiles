@@ -18,9 +18,9 @@ style = "Bold"
 family = "Fira Code Nerd Font"
 style = "Bold Italic"
 
-[font.italic]
-family = "Fira Code Nerd Font"
-style = "Italic"
+# [font.italic]
+# family = "Fira Code Nerd Font"
+# style = "Italics"
 
 [font.normal]
 family = "Fira Code Nerd Font"

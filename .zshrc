@@ -15,7 +15,7 @@ OTHER="02"
 
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=15'
 
-export PATH="$PATH:/home/niklas/.local/bin:~/.local/bin/wm-scripts/"
+export PATH="$PATH:/home/niklas/.local/bin:~/.local/bin/wm-scripts/:/usr/bin/vendor_perl/"
 export ZK_NOTEBOOK_DIR=~/notes
 
 export EDITOR=nvim

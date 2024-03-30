@@ -43,8 +43,10 @@ current_time=$(date "+%H:%M")
 # Battery or charger
 # battery_charge=$(upower --show-info $(upower --enumerate | grep 'macsmc-battery') | egrep "percentage" | awk '{print $2}')
 # battery_status=$(upower --show-info $(upower --enumerate | grep 'macsmc-battery') | egrep "state" | awk '{print $2}')
-battery_charge=$(cat /sys/class/power_supply/macsmc-battery/capacity)
-battery_status=$(cat /sys/class/power_supply/macsmc-battery/status)
+# battery_charge=$(cat /sys/class/power_supply/macsmc-battery/capacity)
+# battery_status=$(cat /sys/class/power_supply/macsmc-battery/status)
+battery_charge=$(cat /sys/class/power_supply/BAT0/capacity)
+battery_status=$(cat /sys/class/power_supply/BAT0/status)
 
 # # Audio and multimedia
 # audio_volume=$(pamixer --sink `pactl list sinks short | grep RUNNING | awk '{print $1}'` --get-volume)
