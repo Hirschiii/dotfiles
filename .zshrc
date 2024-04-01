@@ -36,9 +36,9 @@ export NNN_OPTS="E"
 # Enable colors and change prompt:
 autoload -U colors && colors
 
-OVERDUE='󰚌'
-DUETODAY=''
-DUETOMORROW='󰃭'
+OVERDUE='󰚌 '
+DUETODAY=' '
+DUETOMORROW='󰃭 '
 URGENT=''
 
 function task_indikator {

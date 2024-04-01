@@ -2368,3 +2368,42 @@ git commit -m "zsh highlight"
 git push
 doas shutdown -h now
 doas dnf search signal desktop
+cd .dotfiles
+git add .
+git commit -m "fonts"
+git puhs
+git push
+nvim .zshrc
+cd notes
+doas dnf install grim slurp
+cd .config/sway
+nvim config
+task add project:school.seminarfach Presentation due:14-04-2024
+task add project:school.seminarfach Presentation due:2024-04-14
+q3 28
+task 26 modify due:today
+task 27 done
+task inbox
+q3 26
+task
+task sync
+task add project:school.physik Bearbeitung vom 13.02.2024 due:tomorrow
+cd .config/sway
+ls
+nvim script
+nvim script_bar.sh
+q3 28
+task
+task inbox
+task inbox export
+task export inbox 
+task export inbox | jq
+if $(task export inbox | jq) != NULL
+task export inbox | jq '\
+  if . == {} then error("empty document found") else . end\
+  | ...rest of your processing here...\
+'
+<<<"{}" jq 'if . == {} then error("empty document found") else . end | {"output": (.)}'
+if '$(task export inbox | jq)' = "[]"; do echo "rture"
+[[ $(task export inbox | jq) = "[]" ]] && echo "true"
+[[ $(task export inbox | jq) = "[d]" ]] && echo "true"

@@ -1521,3 +1521,43 @@ time 1711724566
 old [description:"Um Uni kümmern" entry:"1709293864" modified:"1709293866" priority:"H" project:"privat" status:"pending" urgent:"Y" uuid:"abd6a66b-9920-4960-beed-7a6906752744"]
 new [description:"Um Uni kümmern" entry:"1709293864" modified:"1711724566" priority:"L" project:"privat" status:"pending" urgent:"N" uuid:"abd6a66b-9920-4960-beed-7a6906752744"]
 ---
+time 1711966321
+new [description:"Presentation" due:"1713045600" entry:"1711966321" modified:"1711966321" project:"school.seminarfach" status:"pending" uuid:"80ead99f-23df-4ea3-9185-614eda79fd45"]
+---
+time 1711966326
+old [description:"Presentation" due:"1713045600" entry:"1711966321" modified:"1711966321" project:"school.seminarfach" status:"pending" uuid:"80ead99f-23df-4ea3-9185-614eda79fd45"]
+new [description:"Presentation" due:"1713045600" entry:"1711966321" modified:"1711966326" priority:"L" project:"school.seminarfach" status:"pending" urgent:"Y" uuid:"80ead99f-23df-4ea3-9185-614eda79fd45"]
+---
+time 1711966459
+old [description:"Physik Aufgaben " entry:"1709660096" modified:"1709660115" project:"school.physik" status:"pending" uuid:"63c85a43-c9fd-435a-89fb-2f646b6e5515"]
+new [description:"Physik Aufgaben " due:"1711922400" entry:"1709660096" modified:"1711966459" project:"school.physik" status:"pending" uuid:"63c85a43-c9fd-435a-89fb-2f646b6e5515"]
+---
+time 1711966472
+old [description:"Geschichtsaufgaben" entry:"1709660116" modified:"1709660135" project:"school.geschichte" status:"pending" uuid:"129166ac-2365-4e0c-aa4e-8516559f25e9"]
+new [description:"Geschichtsaufgaben" end:"1711966472" entry:"1709660116" modified:"1711966472" project:"school.geschichte" status:"completed" uuid:"129166ac-2365-4e0c-aa4e-8516559f25e9"]
+---
+time 1711966488
+old [description:"Physik Aufgaben " due:"1711922400" entry:"1709660096" modified:"1711966459" project:"school.physik" status:"pending" uuid:"63c85a43-c9fd-435a-89fb-2f646b6e5515"]
+new [description:"Physik Aufgaben " due:"1711922400" entry:"1709660096" modified:"1711966488" priority:"L" project:"school.physik" status:"pending" urgent:"Y" uuid:"63c85a43-c9fd-435a-89fb-2f646b6e5515"]
+---
+time 1711967119
+new [description:"Bearbeitung vom 13.02.2024" due:"1712008800" entry:"1711967119" modified:"1711967119" project:"school.physik" status:"pending" uuid:"3b6b722b-35bc-4a37-a86e-661282e313f4"]
+---
+time 1711967128
+old [description:"Bearbeitung vom 13.02.2024" due:"1712008800" entry:"1711967119" modified:"1711967119" project:"school.physik" status:"pending" uuid:"3b6b722b-35bc-4a37-a86e-661282e313f4"]
+new [description:"Bearbeitung vom 13.02.2024" due:"1712008800" entry:"1711967119" modified:"1711967128" priority:"L" project:"school.physik" status:"pending" urgent:"Y" uuid:"3b6b722b-35bc-4a37-a86e-661282e313f4"]
+---
+time 1711967600
+new [description:"test" entry:"1711967600" modified:"1711967600" status:"pending" uuid:"1871c390-c293-40cc-a08f-5bde4e11ae65"]
+---
+time 1711967609
+old [description:"test" entry:"1711967600" modified:"1711967600" status:"pending" uuid:"1871c390-c293-40cc-a08f-5bde4e11ae65"]
+new [description:"test" end:"1711967606" entry:"1711967600" modified:"1711967609" status:"deleted" uuid:"1871c390-c293-40cc-a08f-5bde4e11ae65"]
+---
+time 1711967622
+new [description:"." entry:"1711967622" modified:"1711967622" status:"pending" uuid:"992c454a-717e-4e3e-8732-5260ea6477b3"]
+---
+time 1711967646
+old [description:"." entry:"1711967622" modified:"1711967622" status:"pending" uuid:"992c454a-717e-4e3e-8732-5260ea6477b3"]
+new [description:"." end:"1711967645" entry:"1711967622" modified:"1711967646" status:"deleted" uuid:"992c454a-717e-4e3e-8732-5260ea6477b3"]
+---

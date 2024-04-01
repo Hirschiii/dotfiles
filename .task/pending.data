@@ -23,5 +23,6 @@
 [description:"bank anrufen" entry:"1709238337" modified:"1709279084" priority:"L" project:"privat" status:"pending" urgent:"Y" uuid:"4f68c6db-81d0-49be-93ec-c238f6586f77"]
 [description:"Um Uni kümmern" entry:"1709293864" modified:"1711724566" priority:"L" project:"privat" status:"pending" urgent:"N" uuid:"abd6a66b-9920-4960-beed-7a6906752744"]
 [description:"Schere, GeoDreieck und Zirkel einpacken" entry:"1709541426" modified:"1709541430" priority:"L" project:"school.mathe" status:"pending" urgent:"Y" uuid:"f7bd80f5-99e1-487b-8231-598d5bcbed9a"]
-[description:"Physik Aufgaben " entry:"1709660096" modified:"1709660115" project:"school.physik" status:"pending" uuid:"63c85a43-c9fd-435a-89fb-2f646b6e5515"]
-[description:"Geschichtsaufgaben" entry:"1709660116" modified:"1709660135" project:"school.geschichte" status:"pending" uuid:"129166ac-2365-4e0c-aa4e-8516559f25e9"]
+[description:"Physik Aufgaben " due:"1711922400" entry:"1709660096" modified:"1711966488" priority:"L" project:"school.physik" status:"pending" urgent:"Y" uuid:"63c85a43-c9fd-435a-89fb-2f646b6e5515"]
+[description:"Presentation" due:"1713045600" entry:"1711966321" modified:"1711966326" priority:"L" project:"school.seminarfach" status:"pending" urgent:"Y" uuid:"80ead99f-23df-4ea3-9185-614eda79fd45"]
+[description:"Bearbeitung vom 13.02.2024" due:"1712008800" entry:"1711967119" modified:"1711967128" priority:"L" project:"school.physik" status:"pending" urgent:"Y" uuid:"3b6b722b-35bc-4a37-a86e-661282e313f4"]

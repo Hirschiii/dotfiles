@@ -1,1 +1,12 @@
 9146d96d-2512-410c-9d97-72af10504893
+{"description":"Presentation","due":"20240413T220000Z","entry":"20240401T101201Z","modified":"20240401T101201Z","project":"school.seminarfach","status":"pending","uuid":"80ead99f-23df-4ea3-9185-614eda79fd45"}
+{"description":"Presentation","due":"20240413T220000Z","entry":"20240401T101201Z","modified":"20240401T101206Z","priority":"L","project":"school.seminarfach","status":"pending","urgent":"Y","uuid":"80ead99f-23df-4ea3-9185-614eda79fd45"}
+{"description":"Physik Aufgaben ","due":"20240331T220000Z","entry":"20240305T173456Z","modified":"20240401T101419Z","project":"school.physik","status":"pending","uuid":"63c85a43-c9fd-435a-89fb-2f646b6e5515"}
+{"description":"Geschichtsaufgaben","end":"20240401T101432Z","entry":"20240305T173516Z","modified":"20240401T101432Z","project":"school.geschichte","status":"completed","uuid":"129166ac-2365-4e0c-aa4e-8516559f25e9"}
+{"description":"Physik Aufgaben ","due":"20240331T220000Z","entry":"20240305T173456Z","modified":"20240401T101448Z","priority":"L","project":"school.physik","status":"pending","urgent":"Y","uuid":"63c85a43-c9fd-435a-89fb-2f646b6e5515"}
+{"description":"Bearbeitung vom 13.02.2024","due":"20240401T220000Z","entry":"20240401T102519Z","modified":"20240401T102519Z","project":"school.physik","status":"pending","uuid":"3b6b722b-35bc-4a37-a86e-661282e313f4"}
+{"description":"Bearbeitung vom 13.02.2024","due":"20240401T220000Z","entry":"20240401T102519Z","modified":"20240401T102528Z","priority":"L","project":"school.physik","status":"pending","urgent":"Y","uuid":"3b6b722b-35bc-4a37-a86e-661282e313f4"}
+{"description":"test","entry":"20240401T103320Z","modified":"20240401T103320Z","status":"pending","uuid":"1871c390-c293-40cc-a08f-5bde4e11ae65"}
+{"description":"test","end":"20240401T103326Z","entry":"20240401T103320Z","modified":"20240401T103329Z","status":"deleted","uuid":"1871c390-c293-40cc-a08f-5bde4e11ae65"}
+{"description":".","entry":"20240401T103342Z","modified":"20240401T103342Z","status":"pending","uuid":"992c454a-717e-4e3e-8732-5260ea6477b3"}
+{"description":".","end":"20240401T103405Z","entry":"20240401T103342Z","modified":"20240401T103406Z","status":"deleted","uuid":"992c454a-717e-4e3e-8732-5260ea6477b3"}

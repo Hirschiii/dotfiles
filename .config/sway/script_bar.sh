@@ -29,6 +29,8 @@
 # next_task=$(task export next limit:1 | jq '.[] | "ID: \(.id) Desc: \(.description)"')
 next_task=$(task rc.verbose: bar limit:1)
 
+inbox=$([[ $(task export inbox | jq) != "[]" ]] && echo "| Inbox NOT empty")
+
 # Keyboard input name
 keyboard_input_name="1:1:AT_Translated_Set_2_keyboard"
 
@@ -102,4 +104,4 @@ else
     audio_active='🔊'
 fi
 
-echo "$next_task | $position | $network_active | LoadAvg $loadavg_5min | $battery_pluggedin $battery_charge | $date_and_week $current_time"
+echo "$next_task $inbox | $position | $network_active | LoadAvg $loadavg_5min | $battery_pluggedin $battery_charge | $date_and_week $current_time"
