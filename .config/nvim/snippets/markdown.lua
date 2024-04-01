@@ -44,6 +44,7 @@ return {
 			"date: " }), f(date, {}), t({ "",
 			"tags: [" }), i(2), t({ "]",
 			"enableToc: true",
+			"public: false,",
 			"---", "" }),
 			i(0)
 	}),

@@ -2407,3 +2407,130 @@ task export inbox | jq '\
 if '$(task export inbox | jq)' = "[]"; do echo "rture"
 [[ $(task export inbox | jq) = "[]" ]] && echo "true"
 [[ $(task export inbox | jq) = "[d]" ]] && echo "true"
+cd .config/zsh
+ls
+nvim zsh-keybinding
+task add test
+task 29 delete
+cd .dotfiles
+task add .
+task 29
+task delete 29
+git add .
+git commit -m "taskwarrior inbox in statusline sway\
+"
+git push
+task add project:privat Taskwarrior integ auf github
+q4 29
+task 29 anzk edit -i
+task 29 annotate "Intergrationen auflisten, also in prompt und statusline"
+task
+task 23 delete
+task 14 delete
+ls
+doas dnf search tasksh
+doas dnf install tasksh
+tasksh
+task
+nim 
+nvim 
+task
+cd .config/alacritty
+ls
+nvim alacritty.
+nvim alacritty.toml
+task
+task add project:privat notizen aufraumen fuer DigitalGarden
+task 20 start
+cd notes/school
+ls
+mv physk physik
+cd .config/nvim
+nvim .
+cd notes/school
+cd sport
+ls
+cd .config/nvim
+n -e
+nvim .
+cd notes/school
+ls 1_hj_2023
+cd inf
+mv 1_hj_2023 1_Semester
+mkdir 2_Semester
+ls
+nvim index.md
+n -e
+cd notes/school
+cd english
+cd 1_Semester
+mv 1_hj_2023 1_Semester
+ls
+nvim inbox.md
+n -e
+cd notes/school/geschichte
+ks
+mv 1_hj_2023 1_Semester
+nvim 1_Semester
+cd 1_Semester
+nvim inbox.md
+n -e
+mkdir 2_Semester
+mv assets Merkmale_Quing-Dynastie_Pres Qing-Dynasite_Pres china_und_die_imperialistischen_maechte.md kaiser.p* 2_Semester
+ls
+cd notes/school/musik
+mkdir 1_Semester
+mv * 1_Semester
+ls
+nvim 1_Semester/inbox.md
+cd notes
+ls school
+rm -rf school
+git add .
+git commit -m "update"
+git push
+ls
+nvim .
+nvim inbox.md
+rm inbox.md
+nvim index.md
+cd notes
+ls papers
+nvim papers/2024-02-15-Deep_Learning_Yann_LeCun.md 
+mkdir projects
+cd projects
+git clone https://github.com/jackyzha0/quartz.git
+rm -rf quartz
+git clone 
+git clone  git@github.com:Hirschiii/DigitalGarden.git
+cd DigitalGarden
+doas dnf install  npm
+npm i
+nvim .gitignore
+npx quartz create
+cp -rf ~/notes/* ./content
+ls content
+nvim index.md
+rm index.md
+mv inbox.md index.
+mv index. index.md
+cd content
+nvim school/english/1_hj_2023/inbox.md 
+nvim content/school/geschichte/Qing-Dynasite_Pres/presentation.md
+nvim content/school/physk/1_hj_2023/hall-sonde.md
+nvim content/school/physk/Feder_Masse_Pendel.md
+nvim content/school/physk/Feder_Masse_Pendel_Auswertung.md
+cd content/school/pow
+rm -rf inbox_*
+nvim content/wiki/logic/beweisen.md
+cp -rf content/school ~/notes/school
+lls
+cp -rf content/school/ ~/notes
+rm -rf content
+ln -s ~/notes content
+ls
+npx quartz build --serve
+n -e
+cd .config/nvim
+ls
+nvim snippets/markdown.lua

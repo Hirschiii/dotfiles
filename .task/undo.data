@@ -1561,3 +1561,137 @@ time 1711967646
 old [description:"." entry:"1711967622" modified:"1711967622" status:"pending" uuid:"992c454a-717e-4e3e-8732-5260ea6477b3"]
 new [description:"." end:"1711967645" entry:"1711967622" modified:"1711967646" status:"deleted" uuid:"992c454a-717e-4e3e-8732-5260ea6477b3"]
 ---
+time 1711967685
+new [description:"Taskwarrior integ auf github" entry:"1711967685" modified:"1711967685" project:"privat" status:"pending" uuid:"358a037c-0592-4d5b-9735-6bbd0a5343c9"]
+---
+time 1711967689
+old [description:"Taskwarrior integ auf github" entry:"1711967685" modified:"1711967685" project:"privat" status:"pending" uuid:"358a037c-0592-4d5b-9735-6bbd0a5343c9"]
+new [description:"Taskwarrior integ auf github" entry:"1711967685" modified:"1711967689" priority:"L" project:"privat" status:"pending" urgent:"N" uuid:"358a037c-0592-4d5b-9735-6bbd0a5343c9"]
+---
+time 1711967740
+old [description:"Taskwarrior integ auf github" entry:"1711967685" modified:"1711967689" priority:"L" project:"privat" status:"pending" urgent:"N" uuid:"358a037c-0592-4d5b-9735-6bbd0a5343c9"]
+new [annotation_1711967740:"Intergrationen auflisten, also in prompt und statusline" description:"Taskwarrior integ auf github" entry:"1711967685" modified:"1711967740" priority:"L" project:"privat" status:"pending" urgent:"N" uuid:"358a037c-0592-4d5b-9735-6bbd0a5343c9"]
+---
+time 1711967765
+old [description:"bank anrufen" entry:"1709238337" modified:"1709279084" priority:"L" project:"privat" status:"pending" urgent:"Y" uuid:"4f68c6db-81d0-49be-93ec-c238f6586f77"]
+new [description:"bank anrufen" end:"1711967764" entry:"1709238337" modified:"1711967765" priority:"L" project:"privat" status:"deleted" urgent:"Y" uuid:"4f68c6db-81d0-49be-93ec-c238f6586f77"]
+---
+time 1711967778
+old [description:"die passion christi" entry:"1706005556" modified:"1709062621" priority:"L" project:"movies" status:"pending" urgent:"N" uuid:"7f30929f-84aa-49b0-a4aa-2cab5252621a"]
+new [description:"die passion christi" end:"1711967777" entry:"1706005556" modified:"1711967778" priority:"L" project:"movies" status:"deleted" urgent:"N" uuid:"7f30929f-84aa-49b0-a4aa-2cab5252621a"]
+---
+time 1711967813
+old [description:"wiki alt in neu transformieren" entry:"1698496021" modified:"1701515986" priority:"L" reviewed:"1701515986" status:"pending" urgent:"N" uuid:"b6e3e5c6-8422-470c-91e5-651b6f343fda"]
+new [description:"wiki alt in neu transformieren" entry:"1698496021" modified:"1711967813" priority:"L" reviewed:"1711967813" status:"pending" urgent:"N" uuid:"b6e3e5c6-8422-470c-91e5-651b6f343fda"]
+---
+time 1711967821
+old [description:"mardown todos in taskwarrior" entry:"1700822765" modified:"1700916923" priority:"L" status:"pending" urgent:"N" uuid:"676e3f02-2060-410a-8d75-cce4fea1eed5"]
+new [description:"mardown todos in taskwarrior" entry:"1700822765" modified:"1711967821" priority:"L" reviewed:"1711967821" status:"pending" urgent:"N" uuid:"676e3f02-2060-410a-8d75-cce4fea1eed5"]
+---
+time 1711967822
+old [description:"task open" entry:"1700917138" modified:"1700917142" priority:"L" status:"pending" urgent:"N" uuid:"0b002308-543a-463f-b2e9-2c959b1ee67f"]
+new [description:"task open" entry:"1700917138" modified:"1711967822" priority:"L" reviewed:"1711967822" status:"pending" urgent:"N" uuid:"0b002308-543a-463f-b2e9-2c959b1ee67f"]
+---
+time 1711967827
+old [description:"latex shorform for live texing" entry:"1700917376" modified:"1700917382" priority:"L" status:"pending" urgent:"N" uuid:"c7ddbe52-2331-44e8-8a4c-c42e66f44693"]
+new [description:"latex shorform for live texing" entry:"1700917376" modified:"1711967827" priority:"L" reviewed:"1711967827" status:"pending" urgent:"N" uuid:"c7ddbe52-2331-44e8-8a4c-c42e66f44693"]
+---
+time 1711967829
+old [description:"logik mitschriften in ein tex doc" entry:"1701177397" modified:"1701177399" priority:"L" status:"pending" urgent:"N" uuid:"3bc96072-9b27-4161-a5a9-4bd9d356feb3"]
+new [description:"logik mitschriften in ein tex doc" entry:"1701177397" modified:"1711967829" priority:"L" reviewed:"1711967829" status:"pending" urgent:"N" uuid:"3bc96072-9b27-4161-a5a9-4bd9d356feb3"]
+---
+time 1711967830
+old [description:"was ist fuzzy logic" entry:"1701181412" modified:"1701181415" priority:"L" status:"pending" urgent:"N" uuid:"ea04a194-4fef-4acf-9f53-eacb95cd4acb"]
+new [description:"was ist fuzzy logic" entry:"1701181412" modified:"1711967830" priority:"L" reviewed:"1711967830" status:"pending" urgent:"N" uuid:"ea04a194-4fef-4acf-9f53-eacb95cd4acb"]
+---
+time 1711967837
+old [description:"taskserver sync" entry:"1701516020" modified:"1701516023" priority:"L" status:"pending" urgent:"N" uuid:"61fa24d6-5526-44e2-aca5-3b2eb5b6deac"]
+new [description:"taskserver sync" end:"1711967837" entry:"1701516020" modified:"1711967837" priority:"L" status:"completed" urgent:"N" uuid:"61fa24d6-5526-44e2-aca5-3b2eb5b6deac"]
+---
+time 1711967839
+old [box:"1" description:"automatic sil task" entry:"1701520525" modified:"1701520529" priority:"L" project:"school" status:"pending" tags:"workflow" tags_workflow:"x" urgent:"N" uuid:"ebc6538f-5029-444a-8fca-8949a75fc713"]
+new [box:"1" description:"automatic sil task" entry:"1701520525" modified:"1711967839" priority:"L" project:"school" reviewed:"1711967839" status:"pending" tags:"workflow" tags_workflow:"x" urgent:"N" uuid:"ebc6538f-5029-444a-8fca-8949a75fc713"]
+---
+time 1711967842
+old [box:"1" description:"firefox bookmarks aufraeuymen" entry:"1701520682" modified:"1701520685" priority:"L" status:"pending" urgent:"N" uuid:"901e9574-82ae-44fd-8066-64a7412984d4"]
+new [box:"1" description:"firefox bookmarks aufraeuymen" entry:"1701520682" modified:"1711967842" priority:"L" reviewed:"1711967842" status:"pending" urgent:"N" uuid:"901e9574-82ae-44fd-8066-64a7412984d4"]
+---
+time 1711967844
+old [description:"latex wiki mathe inf phy" entry:"1700553570" modified:"1707651442" priority:"L" project:"school" status:"pending" urgent:"N" uuid:"d1133094-e7f5-4a60-bdf1-c9f3ff36f9b3"]
+new [description:"latex wiki mathe inf phy" entry:"1700553570" modified:"1711967844" priority:"L" project:"school" reviewed:"1711967844" status:"pending" urgent:"N" uuid:"d1133094-e7f5-4a60-bdf1-c9f3ff36f9b3"]
+---
+time 1711967854
+old [description:"Zeitplan tages rutine" entry:"1707651467" modified:"1707651474" priority:"L" project:"school" status:"pending" tags:"workflow" tags_workflow:"x" urgent:"N" uuid:"5327cfa8-ac15-4bf3-a0de-8c055dc2666a"]
+new [description:"Zeitplan tages rutine" entry:"1707651467" modified:"1711967854" priority:"L" project:"school" reviewed:"1711967854" status:"pending" tags:"workflow" tags_workflow:"x" urgent:"N" uuid:"5327cfa8-ac15-4bf3-a0de-8c055dc2666a"]
+---
+time 1711967858
+old [description:"module updaten auf luametatex" entry:"1702122869" modified:"1709062575" priority:"L" project:"henning" status:"pending" urgent:"N" uuid:"edd1ed6e-b620-41af-8c72-afccdbff51a5"]
+new [description:"module updaten auf luametatex" end:"1711967858" entry:"1702122869" modified:"1711967858" priority:"L" project:"henning" status:"deleted" urgent:"N" uuid:"edd1ed6e-b620-41af-8c72-afccdbff51a5"]
+---
+time 1711967861
+old [annotation_1703058450:"~\/notes\/abitur" description:"Themen übersicht" entry:"1703058437" modified:"1709062580" priority:"L" project:"school.abitur" status:"pending" urgent:"Y" uuid:"913e710f-f6ab-422a-8f50-3558d3d122ae"]
+new [annotation_1703058450:"~\/notes\/abitur" description:"Themen übersicht" entry:"1703058437" modified:"1711967861" priority:"L" project:"school.abitur" reviewed:"1711967861" status:"pending" urgent:"Y" uuid:"913e710f-f6ab-422a-8f50-3558d3d122ae"]
+---
+time 1711967868
+old [description:"Mathematics and Arts uebersetzen" entry:"1705917005" modified:"1709062613" priority:"L" project:"wikipedia" status:"pending" urgent:"N" uuid:"a0f5f9b8-c6e1-4602-b3f9-ed646009f78b"]
+new [description:"Mathematics and Arts uebersetzen" end:"1711967868" entry:"1705917005" modified:"1711967868" priority:"L" project:"wikipedia" status:"deleted" urgent:"N" uuid:"a0f5f9b8-c6e1-4602-b3f9-ed646009f78b"]
+---
+time 1711967870
+old [description:"nachforschungen Maximilian speck von sternenburg" entry:"1708030555" modified:"1709062656" priority:"L" project:"privat" status:"pending" urgent:"N" uuid:"72df8939-1bdb-4a5c-8f5b-8a30b323650a"]
+new [description:"nachforschungen Maximilian speck von sternenburg" end:"1711967870" entry:"1708030555" modified:"1711967870" priority:"L" project:"privat" status:"deleted" urgent:"N" uuid:"72df8939-1bdb-4a5c-8f5b-8a30b323650a"]
+---
+time 1711967876
+old [description:"Read Practical NLP Real-World" entry:"1708251440" modified:"1709062664" priority:"L" project:"privat" status:"pending" tags:"learning" tags_learning:"x" urgent:"N" uuid:"47bae59d-b97d-4968-9b50-0da5e2882cf5"]
+new [description:"Read Practical NLP Real-World" end:"1711967876" entry:"1708251440" modified:"1711967876" priority:"L" project:"privat" status:"deleted" tags:"learning" tags_learning:"x" urgent:"N" uuid:"47bae59d-b97d-4968-9b50-0da5e2882cf5"]
+---
+time 1711967878
+old [description:"hutter prize versuchen" entry:"1708429579" modified:"1709062684" priority:"L" project:"privat" status:"pending" tags:"fun" tags_fun:"x" urgent:"N" uuid:"527eed74-275a-4607-a0a1-c96c8db78c54"]
+new [description:"hutter prize versuchen" end:"1711967878" entry:"1708429579" modified:"1711967878" priority:"L" project:"privat" status:"deleted" tags:"fun" tags_fun:"x" urgent:"N" uuid:"527eed74-275a-4607-a0a1-c96c8db78c54"]
+---
+time 1711967879
+old [annotation_1708592240:"test" annotation_1708592262:"hook to due next time fach" description:"script for sil" entry:"1708592227" modified:"1709062735" priority:"L" status:"pending" urgent:"N" uuid:"4be58de6-3fb2-42ea-b4eb-8d88573a2a58"]
+new [annotation_1708592240:"test" annotation_1708592262:"hook to due next time fach" description:"script for sil" entry:"1708592227" modified:"1711967879" priority:"L" reviewed:"1711967879" status:"pending" urgent:"N" uuid:"4be58de6-3fb2-42ea-b4eb-8d88573a2a58"]
+---
+time 1711967882
+old [description:"OpenVPN Home" entry:"1708328968" modified:"1709062781" priority:"L" status:"pending" urgent:"N" uuid:"995110f9-587a-44bb-843c-fba8c1e8395e"]
+new [description:"OpenVPN Home" end:"1711967882" entry:"1708328968" modified:"1711967882" priority:"L" status:"deleted" urgent:"N" uuid:"995110f9-587a-44bb-843c-fba8c1e8395e"]
+---
+time 1711967884
+old [description:"cursera ibm kurs" entry:"1709194890" modified:"1709194898" priority:"L" project:"privat" status:"pending" tags:"kasselt" tags_kasselt:"x" urgent:"Y" uuid:"5d960484-0018-456e-b3b0-fdc88e829b71"]
+new [description:"cursera ibm kurs" entry:"1709194890" modified:"1711967884" priority:"L" project:"privat" reviewed:"1711967884" status:"pending" tags:"kasselt" tags_kasselt:"x" urgent:"Y" uuid:"5d960484-0018-456e-b3b0-fdc88e829b71"]
+---
+time 1711967886
+old [description:"new neovim config nach primeagen" entry:"1709196436" modified:"1709196450" priority:"L" project:"privat" status:"pending" urgent:"N" uuid:"fe166017-8c6f-4840-9088-a00a77bbc2f0"]
+new [description:"new neovim config nach primeagen" end:"1711967886" entry:"1709196436" modified:"1711967886" priority:"L" project:"privat" status:"deleted" urgent:"N" uuid:"fe166017-8c6f-4840-9088-a00a77bbc2f0"]
+---
+time 1711967888
+old [description:"Schere, GeoDreieck und Zirkel einpacken" entry:"1709541426" modified:"1709541430" priority:"L" project:"school.mathe" status:"pending" urgent:"Y" uuid:"f7bd80f5-99e1-487b-8231-598d5bcbed9a"]
+new [description:"Schere, GeoDreieck und Zirkel einpacken" entry:"1709541426" modified:"1711967888" priority:"L" project:"school.mathe" reviewed:"1711967888" status:"pending" urgent:"Y" uuid:"f7bd80f5-99e1-487b-8231-598d5bcbed9a"]
+---
+time 1711967889
+old [description:"Um Uni kümmern" entry:"1709293864" modified:"1711724566" priority:"L" project:"privat" status:"pending" urgent:"N" uuid:"abd6a66b-9920-4960-beed-7a6906752744"]
+new [description:"Um Uni kümmern" entry:"1709293864" modified:"1711967889" priority:"L" project:"privat" reviewed:"1711967889" status:"pending" urgent:"N" uuid:"abd6a66b-9920-4960-beed-7a6906752744"]
+---
+time 1711967890
+old [description:"Presentation" due:"1713045600" entry:"1711966321" modified:"1711966326" priority:"L" project:"school.seminarfach" status:"pending" urgent:"Y" uuid:"80ead99f-23df-4ea3-9185-614eda79fd45"]
+new [description:"Presentation" due:"1713045600" entry:"1711966321" modified:"1711967890" priority:"L" project:"school.seminarfach" reviewed:"1711967890" status:"pending" urgent:"Y" uuid:"80ead99f-23df-4ea3-9185-614eda79fd45"]
+---
+time 1711967891
+old [description:"Physik Aufgaben " due:"1711922400" entry:"1709660096" modified:"1711966488" priority:"L" project:"school.physik" status:"pending" urgent:"Y" uuid:"63c85a43-c9fd-435a-89fb-2f646b6e5515"]
+new [description:"Physik Aufgaben " due:"1711922400" entry:"1709660096" modified:"1711967891" priority:"L" project:"school.physik" reviewed:"1711967891" status:"pending" urgent:"Y" uuid:"63c85a43-c9fd-435a-89fb-2f646b6e5515"]
+---
+time 1711967891
+old [description:"Bearbeitung vom 13.02.2024" due:"1712008800" entry:"1711967119" modified:"1711967128" priority:"L" project:"school.physik" status:"pending" urgent:"Y" uuid:"3b6b722b-35bc-4a37-a86e-661282e313f4"]
+new [description:"Bearbeitung vom 13.02.2024" due:"1712008800" entry:"1711967119" modified:"1711967891" priority:"L" project:"school.physik" reviewed:"1711967891" status:"pending" urgent:"Y" uuid:"3b6b722b-35bc-4a37-a86e-661282e313f4"]
+---
+time 1711967893
+old [annotation_1711967740:"Intergrationen auflisten, also in prompt und statusline" description:"Taskwarrior integ auf github" entry:"1711967685" modified:"1711967740" priority:"L" project:"privat" status:"pending" urgent:"N" uuid:"358a037c-0592-4d5b-9735-6bbd0a5343c9"]
+new [annotation_1711967740:"Intergrationen auflisten, also in prompt und statusline" description:"Taskwarrior integ auf github" entry:"1711967685" modified:"1711967893" priority:"L" project:"privat" reviewed:"1711967893" status:"pending" urgent:"N" uuid:"358a037c-0592-4d5b-9735-6bbd0a5343c9"]
+---
+time 1711969112
+new [description:"notizen aufraumen fuer DigitalGarden" entry:"1711969112" modified:"1711969112" project:"privat" status:"pending" uuid:"7003e0b9-97fc-42cc-b7c4-a3eaf82751ef"]
+---
+time 1711969117
+old [description:"notizen aufraumen fuer DigitalGarden" entry:"1711969112" modified:"1711969112" project:"privat" status:"pending" uuid:"7003e0b9-97fc-42cc-b7c4-a3eaf82751ef"]
+new [description:"notizen aufraumen fuer DigitalGarden" entry:"1711969112" modified:"1711969117" project:"privat" start:"1711969117" status:"pending" uuid:"7003e0b9-97fc-42cc-b7c4-a3eaf82751ef"]
+---
