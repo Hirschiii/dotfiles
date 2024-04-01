@@ -2247,3 +2247,124 @@ find -name "tes" /
 find / -name "tes" 
 find / -name "zsh-syntax-highlighting.zsh" 
 nvim .zshrc
+nvim .config/sway
+doas dnf search fuzzy
+doas dnf search fuzzel
+doas dnf install fuzzel
+doas dnf install emacs
+doas dnf install cario
+cd .emacs.d
+cd ..
+ls -la
+git clone --depth 1 https://github.com/doomemacs/doomemacs ~/.config/emacs
+~/.config/emacs/bin/doom install
+doom
+./.config/emacs/bin/doom sync
+rm -rf .emacs.d
+doas dnf search emacs wayland
+sudo dnf module enable sway:rolling
+doas dnf search emacs pgtk
+doas dnf search pgtk
+doas dnf install emacs-pgtk-nativecomp
+emacs -h
+emacs --helpo
+emacs --help
+doas dnf search emacs
+doas dnf search emacs X
+doas dnf search emacs wa
+doas dnf search emacs gtk
+emacs --with-pgtk
+doas dnf search emacs-pgtk
+emacs --help | less
+emacs
+emacs --with-native-compilation --without-ns --without-x --with-pgtk
+doas dnf remove emacs
+cd
+cd git
+git clone https://github.com/fejfighter/emacs.git
+cd 
+cd Downloads
+tar -xvf ./emacs-29.3.tar.xz
+cd emacs-29.3
+ls
+doas dnf install glib2
+doas dnf search gtk
+doas dnf install gtk+
+./configure --with-native-compilation --without-ns --without-x --with-pgtk
+cd Downloads/emacs-29.3
+sudo dnf install gtk3-devel
+doas dnf install libgccjit
+./configure --with-native-compilation --without-ns --without-x --with-pgtk
+make -j8
+cd Downloads/emacs-29.3
+mkdir build
+cd build
+doas dnf search libgccjit
+doas dnf install libgccjit-devel
+doas dnf search gnutils
+doas dnf search gnutls
+doas dnf install gnutls-devel gnutls-utils
+doas dnf search libncurses
+doas dnf search  libtinfo
+doas dnf search  libterminfo
+doas dnf search  libtinfwo
+doas dnf search tputs
+doas dnf search ncurse
+doas dnf install ncurses ncurses-devel ncurses-term
+../configure --with-native-compilation --without-ns --without-x --with-pgtk
+make -j8
+doas make -j8 install
+emacs
+emacs --debug-init
+cd
+ls
+ls -la
+ls .config/emacs/early-init.el
+nvim .config/emacs/early-init.el
+cd 
+ls -la
+mv .emacs.d .config/emacs
+cd .config/emacs
+ls
+cd Downloads
+git clone https://github.com/daviwil/dotfiles.git
+cd dotfiles
+ls =la
+cp -rf ./.emacs.d ~/
+ls .config
+ls
+ls -la
+nvim Emacs.org
+cd .config/emacs
+nvim .local/etc/@/init.29.elc
+n -e
+rm -rf em
+cp -rf emacs.ba emacs
+git clone https://github.com/daviwil/emacs-from-scratch.git
+ls
+rm -rf emacs
+mv emacs-from-scratch emacs
+fc-list | grep io
+fc-list 
+fc-list | grep Io
+cd .config/emacs
+ls
+nvim init.el
+rm test.odt
+ls
+doas dnf install texlive
+rm test.html
+pdflatex test.tex 
+rm test.*
+ls
+doas dnf install fzf
+doas dnf search zsh
+doas dnf install zsh-syntax-highlighting.
+doas dnf install zsh-syntax-highlighting
+nvim .zshrc
+cd .dotfiles
+git add .
+git commit -m "zsh highlight"
+git push
+doas shutdown -h now
+doas dnf search signal desktop
