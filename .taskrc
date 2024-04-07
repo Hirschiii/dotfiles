@@ -147,8 +147,12 @@ report.q4.labels=A,ID,Proj,Urg,Description,Age,Tags
 # report.project.labes=ID,Proj,Description,Tags
 # report.project.sort=project,urgency
 
-taskd.certificate=\/home\/niklas\/.task\/niklas.cert.pem
-taskd.key=\/home\/niklas\/.task\/niklas.key.pem
+# taskd.certificate=\/home\/niklas\/.task\/niklas.cert.pem
+# taskd.key=\/home\/niklas\/.task\/niklas.key.pem
+
+taskd.certificate=\/Users\/niklas\/.task\/niklas_vh.cert.pem
+taskd.key=\/Users\/niklas\/.task\/niklas_vh.key.pem
+# taskd.ca=\/Users\/niklas\/.task\/ca.cert.pem
 
 taskd.server=91.249.208.110:53589
 # taskd.server=raspberrypi:53589
