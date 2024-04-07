@@ -13,7 +13,7 @@ fi
 selected_name=$(basename "$selected" | tr . _)
 tmux_running=$(pgrep tmux)
 
-if [ -n $TMUX ]; then
+if [! -n $TMUX ]; then
 	echo "Scritp: No current Clinet "
     # tmux new-session -s $selected_name -c $selected
 	 tmux new -A -s $selected_name -c $selected
