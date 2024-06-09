@@ -1,5 +1,0 @@
-#!/bin/env bash
-
-doas rc-service mysql start
-doas rc-service php-fpm start
-doas rc-service nginx start

@@ -1,0 +1,1252 @@
+xcode-select --install\
+
+brew install sdl2
+brew install sdl
+export C_INCLUDE_PATH=/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include\
+
+export C_INCLUDE_PATH=/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/\
+
+ld
+export LIBRARY_PATH=/usr/lib:/usr/local/lib\
+
+export LIBRARY_PATH=/usr/lib:/usr/local/lib:/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib\
+
+cat /Users/niklas/git/arcan/build/luajitbuild-prefix/src/luajitbuild-stamp/luajitbuild-build-*.log\
+
+cmake -DVIDEO_PLATFORM=sdl -DSTATIC_SQLITE3=ON -DSTATIC_OPENAL=ON -DSTATIC_FREETYPE=ON ../src
+cmake -DBUILD_PRESET="everything" ../src
+make -j4
+cd git/MarioYoutube/src/main
+New Line\
+
+\:w
+git commit -m "fixed aspec ratio"
+git status
+git checkout -b test
+task add resieze drag / drop
+git commit -m "raster"
+git commit -m "Mouse to World Koords"
+mv level.json level.json.bak
+git commit -m "Fixed Koords"
+git push origin test
+git checkout main
+git merge test
+nvim level.json
+mv src/main/resources/assets/shaders ./assets
+ls assets
+ls assets/shaders
+touch assets/shaders/debug.glsl
+cd assets/shaders/de
+cd assets/shaders/
+mv debug.glsl debugLine2D.glsl
+nvim src/main/java/game/renderer/DebugDraw.java
+nvim -d src/main/java/game/renderer/DebugDraw.java ~/git/MarioYoutube/src/main/java/renderer/DebugDraw.java
+git commit -m "fixed debug line"
+git commit - m"\
+"
+open decorationsAndBlocks.png
+open *
+nvim bigSpritesheet.png
+open bigSpritesheet.png
+nvim . 
+mv level.json.bak level.json
+git commit -m "Center Drag thorugh Transform Component"
+touch src/main/java/game/components/GridLines.java
+rm level.json
+cp level.json level.json.bak
+git commit -m "Draw grid"
+cp level.json.bak level.json
+brew install gnuplot
+gnuplot load ./cos.sin.tan.gp
+gnuplot
+mv cos.sin.tan.gp cos.sin.tan.gp.bak
+mv trig_functions.svg trig_functions.svg.bak
+rm trig_functions.svg
+nvim cos.sin.tan.gp
+gnuplot -c cos.sin.tan.gp
+ssh niklas@192.168.4.56
+nvim .f
+curl -L https://alx.sh/wipe-linux | sudo sh
+lsbk
+lsblk
+curl https://alx.sh | sh
+pandoc handout.md -o handout_md.pdf
+pd
+lualatex handout.tex
+rm output.pdf
+cp -rf der_kriegskommunismus ../Qing-Dynasite_Pres
+make clena
+pdflatex handout.tex -o handout.pdf
+cat ./**/*.java
+cat ./**/*.java | wc
+cd /tmp
+open animation.pdf
+nvim animation.tex
+pdflatex animation.tex
+pdflatex -shell-escape main animation.tex
+tmx
+nvim handout.tex
+nvim presentation.md -s -o handout.psd
+nvim presentation.md -s -o handout.pdf
+pandoc presentation.md -s -o handout.pdf
+zk edit -i
+cp presentation.md handout.md
+nvim handout
+pandoc handout.md -s -o handout.pdf
+nvim handout.
+nvim handout.md
+nvim ma
+nvim Makefile
+pandoc handout.md -s -o handout.md && make
+make clean
+pandoc handout.md -s -o handout.pdf && make
+cd git/MarioYoutube
+nvim presentation.md
+brew install imagemagick
+ls src
+convert Vase_BlauWeis.webp Vase_BlauWeis.png
+cd src
+convert Kanne_Bunt.webp Kanne_Bunt.png
+make
+task add project:school physik bericht
+touch src/main/java/game/editor/GameViewWindow.java
+cd git/MarioYoutube/src/main/
+cd java
+nvim.
+cat Feder_Konstante_Masse.csv 
+rm *.pndf
+rm *.png
+nvim Feder_Konstante
+nvim Feder_Konstante.
+cp Feder_Konstante.gp Feder_Konstante_sqrt1_D.gp
+gnuplot Feder_Konstante_sqrt1_D.gp
+nvim Feder_Konstante_sqrt1_D.gp
+rm Feder_Konstante_sqrt1_D.*
+gnuplot Feder_Konstante_sqrt.gp
+gnuplot masse_periode.csv
+gnuplot *.gp
+cd git/MarioYoutube/src/main/java
+git add 
+git commit -m "Game ViewPort"
+brew install sl
+sl
+pandoc Feder_Masse_Pendel.md -o Feder.pdf
+nvim Feder_Konstante_Masse.csv
+nvim Feder_Konstante.gp
+gnuplot Feder_Konstante.gp
+cp Feder_Konstante_Masse.csv Feder_Konstante_sqrt1_D.csv
+nvim Feder_Konstante_sqrt1_D.csv
+cp Feder_Konstante.gp Feder_Konstante_sqrt.gp
+cp Feder_Konstante_Masse.csv Feder_Konstante_Masse_sqrt.csv
+nvim Feder_Konstante_Masse_sqrt.csv
+nvim Feder_Konstante_sqrt.gp
+nvim assets/masse_periode.csv
+cp Feder_Konstante.gp Masse_per.gp
+gnuplot Masse_per.gp
+nvim Masse_per.gp
+nvim assets/*.gp
+pandoc Feder_Masse_Pendel_Auswertung.md -s -o Auswertung.pdf
+nvim timeline.puml
+brew install plantuml
+open Feder
+open Feder.pdf
+pandoc Feder_Masse_Pendel.md -s -o out.pdf
+open out.pdf
+rm out
+rm out.pdf
+pandoc Feder_Masse_Pendel.md -s -o Feder.pdf
+mkdir assets 
+cd assets
+pdftex feder.tex
+pdflatex feder.tex
+nvim feder.tex
+nvim assets/Masse_per.gp
+nvim Feder_Masse_Pendel_Auswertung.md
+d
+git commmit -m "Update"
+git config pull.rebase false 
+git mergetool
+git commit -m "Update"
+make && make ruh
+ch.sh
+cht.sh
+brew install rlwrap
+cht.sh --shell java
+curl -s cht.sh/java~for | less
+curl -s cht.sh/java~for 
+less -h
+less --help
+curl -s cht.sh/java~for | less -R
+curl cht.sh/tar~list
+curl cht.sh/tar/list
+/go/zip+lists  
+curl cht.sh/go/zip+lists  
+curl -s cheat.sh/:list
+brew install cht.sh
+cd .local/scripts
+curl https://cht.sh/:cht.sh > cht.sh
+chmod +x cht.sh
+./cht.sh java list
+./cht.sh --list-lang
+./cht.sh
+nvim cht.sh
+curl cht.sh/java/for
+nvim .config/tmux/
+man
+pandoc 2024-02-13.md -s -o 2024-02-13-Arbeitsblatt-Hochsprung.pdf
+pw
+mkdir sport
+nvim 2024-02-13.md
+tmux a
+task sync init
+>>>>>>> main
+cd .config/nvim/
+pdw
+sudo dnf install vim vi
+sudo vim /etc/doas.conf
+doas rnano
+l
+sudo dnf intsll eza
+sudo dnf intsll eza nnn 
+sudo dnf install eza nnn 
+nvim --version
+nvim -V1 -v
+sudo dnf install python3
+sudo dnf search pip
+sudo dnf search python pip
+python3 -m pip install pynvim
+sudo dnf search live-grep
+sudo dnf search rg
+sudo dnf install rg
+sudo -
+sudo dnf install fd-find
+sudo dnf install ripgrep
+mkdir git
+sudo dnf install cmake
+sudo dnf -y install ninja-build cmake gcc make unzip gettext curl glibc-gconv-extra
+ls build
+rm -rf build
+rm -rf neovim
+git clone https://github.com/neovim/neovim
+cd neovim
+make CMAKE_BUILD_TYPE=Release
+sudo make install
+sudo dnf install
+sudo dnf update
+cd .task/r
+cd .task/
+rm -rf ./*.data
+doas dnf install task
+cd .config/n
+doas dnf install tmu
+doas dnf install tmuz
+doas dnf install tmux
+rm -rf tree-sitter-markdown
+git clone git@github.com:Hirschiii/notes
+lf
+doas dnf search lf
+doas dnf search fortune
+yum
+doas yum install fortune
+doas yum install update
+doas yum update
+sudo dnf install fortune
+sudo dnf install fortune-mod
+doas dnf install cowsay
+fortune
+cowsay -h
+cowsay -r
+cowsay "hello" -r
+fortune | cowsay
+task project:lieferfi delete
+task project:lieferfi done
+q1
+q2
+q3
+q4
+q4 24
+nvim .zshrc 
+doas dnf search signal
+cd .gi
+ls .task
+git config --global user.email "niklasvonh@gmail.com"
+git config --global user.name "Niklas von Hirschfeld"
+git commit -m "New font for Alacritty"
+git commit -m 'settings'
+vim /tmp/addressen
+ls /usr/share/zsh/site-functions/
+find -n "zsh-syntax-hightlightng.zsh" /
+find -name "zsh-syntax-hightlightng.zsh" /
+find / -n "zsh"
+find -h
+find --help
+find / -nname "zsh"
+find -name
+find -name "tes"
+find -name "tes" /
+find / -name "tes" 
+find / -name "zsh-syntax-highlighting.zsh" 
+nvim .config/sway
+doas dnf search fuzzy
+doas dnf search fuzzel
+doas dnf install fuzzel
+doas dnf install emacs
+doas dnf install cario
+cd .emacs.d
+git clone --depth 1 https://github.com/doomemacs/doomemacs ~/.config/emacs
+~/.config/emacs/bin/doom install
+doom
+./.config/emacs/bin/doom sync
+rm -rf .emacs.d
+doas dnf search emacs wayland
+sudo dnf module enable sway:rolling
+doas dnf search emacs pgtk
+doas dnf search pgtk
+doas dnf install emacs-pgtk-nativecomp
+emacs -h
+emacs --helpo
+emacs --help
+doas dnf search emacs
+doas dnf search emacs X
+doas dnf search emacs wa
+doas dnf search emacs gtk
+emacs --with-pgtk
+doas dnf search emacs-pgtk
+emacs --help | less
+emacs --with-native-compilation --without-ns --without-x --with-pgtk
+doas dnf remove emacs
+cd git
+git clone https://github.com/fejfighter/emacs.git
+tar -xvf ./emacs-29.3.tar.xz
+cd emacs-29.3
+doas dnf install glib2
+doas dnf search gtk
+doas dnf install gtk+
+sudo dnf install gtk3-devel
+doas dnf install libgccjit
+./configure --with-native-compilation --without-ns --without-x --with-pgtk
+cd Downloads/emacs-29.3
+mkdir build
+cd build
+doas dnf search libgccjit
+doas dnf install libgccjit-devel
+doas dnf search gnutils
+doas dnf search gnutls
+doas dnf install gnutls-devel gnutls-utils
+doas dnf search libncurses
+doas dnf search  libtinfo
+doas dnf search  libterminfo
+doas dnf search  libtinfwo
+doas dnf search tputs
+doas dnf search ncurse
+doas dnf install ncurses ncurses-devel ncurses-term
+../configure --with-native-compilation --without-ns --without-x --with-pgtk
+make -j8
+doas make -j8 install
+emacs
+emacs --debug-init
+ls .config/emacs/early-init.el
+nvim .config/emacs/early-init.el
+mv .emacs.d .config/emacs
+git clone https://github.com/daviwil/dotfiles.git
+cd dotfiles
+ls =la
+cp -rf ./.emacs.d ~/
+ls .config
+ls -la
+nvim Emacs.org
+nvim .local/etc/@/init.29.elc
+rm -rf em
+cp -rf emacs.ba emacs
+git clone https://github.com/daviwil/emacs-from-scratch.git
+rm -rf emacs
+mv emacs-from-scratch emacs
+fc-list | grep io
+fc-list 
+fc-list | grep Io
+cd .config/emacs
+nvim init.el
+rm test.odt
+doas dnf install texlive
+rm test.html
+pdflatex test.tex 
+rm test.*
+doas dnf install fzf
+doas dnf search zsh
+doas dnf install zsh-syntax-highlighting.
+doas dnf install zsh-syntax-highlighting
+git commit -m "zsh highlight"
+doas shutdown -h now
+doas dnf search signal desktop
+git commit -m "fonts"
+git puhs
+doas dnf install grim slurp
+nvim config
+task add project:school.seminarfach Presentation due:14-04-2024
+task add project:school.seminarfach Presentation due:2024-04-14
+task 26 modify due:today
+task 27 done
+q3 26
+task add project:school.physik Bearbeitung vom 13.02.2024 due:tomorrow
+cd .config/sway
+nvim script
+nvim script_bar.sh
+q3 28
+task inbox
+task inbox export
+task export inbox 
+task export inbox | jq
+if $(task export inbox | jq) != NULL
+task export inbox | jq '\
+  if . == {} then error("empty document found") else . end\
+  | ...rest of your processing here...\
+'
+<<<"{}" jq 'if . == {} then error("empty document found") else . end | {"output": (.)}'
+if '$(task export inbox | jq)' = "[]"; do echo "rture"
+[[ $(task export inbox | jq) = "[]" ]] && echo "true"
+[[ $(task export inbox | jq) = "[d]" ]] && echo "true"
+cd .config/zsh
+nvim zsh-keybinding
+task add test
+task 29 delete
+cd .dotfiles
+task add .
+task 29
+task delete 29
+git commit -m "taskwarrior inbox in statusline sway\
+"
+task add project:privat Taskwarrior integ auf github
+q4 29
+task 29 anzk edit -i
+task 29 annotate "Intergrationen auflisten, also in prompt und statusline"
+task 23 delete
+task 14 delete
+doas dnf search tasksh
+doas dnf install tasksh
+tasksh
+nim 
+task add project:privat notizen aufraumen fuer DigitalGarden
+task 20 start
+mv physk physik
+cd sport
+ls 1_hj_2023
+cd inf
+cd notes/school
+cd english
+cd notes/school/geschichte
+ks
+mv 1_hj_2023 1_Semester
+nvim 1_Semester
+cd 1_Semester
+mv assets Merkmale_Quing-Dynastie_Pres Qing-Dynasite_Pres china_und_die_imperialistischen_maechte.md kaiser.p* 2_Semester
+cd notes/school/musik
+mkdir 1_Semester
+mv * 1_Semester
+nvim 1_Semester/inbox.md
+ls school
+rm -rf school
+rm inbox.md
+ls papers
+nvim papers/2024-02-15-Deep_Learning_Yann_LeCun.md 
+mkdir projects
+git clone https://github.com/jackyzha0/quartz.git
+rm -rf quartz
+git clone 
+git clone  git@github.com:Hirschiii/DigitalGarden.git
+cd DigitalGarden
+doas dnf install  npm
+npm i
+nvim .gitignore
+npx quartz create
+cp -rf ~/notes/* ./content
+ls content
+nvim index.md
+rm index.md
+mv inbox.md index.
+mv index. index.md
+cd content
+nvim school/english/1_hj_2023/inbox.md 
+nvim content/school/geschichte/Qing-Dynasite_Pres/presentation.md
+nvim content/school/physk/1_hj_2023/hall-sonde.md
+nvim content/school/physk/Feder_Masse_Pendel.md
+nvim content/school/physk/Feder_Masse_Pendel_Auswertung.md
+cd content/school/pow
+rm -rf inbox_*
+nvim content/wiki/logic/beweisen.md
+cp -rf content/school ~/notes/school
+lls
+cp -rf content/school/ ~/notes
+rm -rf content
+ln -s ~/notes content
+npx quartz build --serve
+cd .local/share/fo
+cd .local/share/
+cp ~/Downloads/IosevkaTerm/*.ttf ./
+mv *.ttf ./fonts
+fc-cache -h
+fc-cache -f
+alacirtty -h
+alacritty
+whereis alacritty
+cd git/
+rm -rf dotfiles
+git clone git@github.com:Hirschiii/dotfiles
+cd .con
+fc-match Monospace
+grep -i "fontface" /etc/default/console-setup
+nvim alacritty.
+rm *.yml
+fc-list | grep Ios
+cd alacritty
+brew search nerd-font 
+fc-list : family | sort -f | grep Nerd 
+brew install --cask alacritty --no-quarantine\
+
+sudo brew install --cask alacritty --no-quarantine\
+
+nvim /Applications/A
+nvim /Applications/Alacritty.app
+/Applications/Alacritty.app/Contents/MacOS/alacritty
+/Applications/Alacritty.app/Contents/MacOS/alacritty -help
+touch boy_erased.md
+nvim boy_erased.md
+mkdir assets
+cp ~/Downloads/Grafik1.png license_plate_oppotunity.png
+mv license_plate_oppotunity.png assets
+touch OpiumKriege.md
+nvim OpiumKriege.md
+fc-list
+cd .config/alacritty/
+fc-list | grep Iosevka
+fc-list | grep Iosevka | grep .local
+fc-list | grep Iosevka | grep .local | grep Reg
+fc-list | grep Iosevka | grep .local | grep Regular
+/Applications/Alacritty.app/Contents/MacOS/alacritty 
+/Applications/Alacritty.app/Contents/MacOS/alacritty  -h
+/Applications/Alacritty.app/Contents/MacOS/alacritty  --config-file ./alacritty.toml
+/Applications/Alacritty.app/Contents/MacOS/alacritty  -v
+/Applications/Alacritty.app/Contents/MacOS/alacritty  -V
+rm -rf /Applications/Alacritty.app
+rm /Applications/Alacritty.app
+brew install alacritty
+nvim alacritty.toml
+cd wiki
+tmux-sessionizer
+cd projects
+cd school/liferfix_game_projekt_2024_2_hj
+make && make run
+nvim i
+mkdir 2_Semester
+cd 2_Semester
+task synx
+ssh gulugulu@aegaeon.uberspace.de
+cd Desktop
+cd Mindmap
+scp -r ./* gulugulu@aegoaen.uberspace.de:/home/gulugulu/html/vonhirschfeld.eu/mindmap/
+scp -r ./* gulugulu@aegaeon.uberspace.de:/home/gulugulu/html/vonhirschfeld.eu/mindmap/
+cd notes
+git commit -m "update\
+"
+git config pull.rebase false
+cd notes/wiki
+=tmux
+git clone git@github.com:Hirschiii/Notes_bak.git
+cd Notes_bak
+cd Wiki
+git commit -m "foramt"
+tmxu
+cd .local/share/nvim
+cd lazy
+rm telescope
+cd nv
+nvim lua/user/lazy.lua
+nvim lua/user/pl
+nvim lua/user/
+rm gloabals.lua
+touch globals.lua
+rm disable_builtins.lua
+touch disable_builtin.lua
+nvim lua/plugins/primagen.lua
+cd .local/bin
+ls | grep sty
+rm stylua
+nvim lua/plugins
+cd .config/nvim
+cd .task
+nvim .taskrc
+rm nvim.bak
+cd .config
+rm nvim
+git clone git@github.com:Hirschiii/nvim.git
+nim
+t
+mkdir context
+cd context
+nvim module.md
+brew install styliar
+brew install stylua
+brew install stylua prettier
+brew update
+nvim stylua.toml
+s
+git pull
+git checkout v2
+ls lua
+ls bin
+nvim notes.md
+rm -rf after bin/ lua init.lua notes.md README.md
+nvim static
+rm -rf static
+nvim snippets
+git commit -m "cleanup|\
+"
+nvim README.md.old
+rm README.md.old
+mkdir -p lua/user lua/custom/plugin spell after
+nvim snippets/markdown.lua
+cd lua/user
+touch gloabals.lua keymap.lua init.lua disable_builtins.lua dap.lua auto.lua
+mkdir lsp
+touch init.lua
+nvim lua/custom/plugin/treesitter.lua
+mv lua/custom/plugin lua/custom/plugins
+nvim lua/user/disable_builtin.lua
+nvim lua/user/globals.lua
+rm lua/user/globals.lua 
+nvim lua/custom/plugins/treesitter.lua
+nvim lua/custom/plugins/elixir.lua
+nvim lua/custom/plugins/comment.lua
+nvim lua/custom/plugins/fonts.lua
+cd lua/custom/plugins
+nvim ./
+lls
+nvim user/keymap.lua
+nvim custom/plugins/harpoon.lua
+nvim custom/plugins/align.lua
+nvim custom/plugins/init.lua
+mkdir telescope
+nvim telescope
+nvim n -e
+nvim telescope/init.lua
+nvim telescope/keys.lua
+nvim telescope/mappings.lua
+nvim telescope.lua
+nvim setup.lua
+nvim globals.lua
+nvim require.lua
+nvim stylua.lua
+nvim notify.lua
+nvim lsp.lua
+nvim auto.lua
+nvim handler.lua
+nvim handlers.lua
+nvim show_message.lua
+nvim init.lua
+nvim codelens.lua
+nvim inlay.lua
+nvim completion.lua
+nvim snippets.lua
+mkdir plugins ftplugin
+nvim plugins/completion.lua
+nvim --startuptime
+nvim --startuptime -h
+rm -h
+rm ./-h
+mv plugins plugin
+nvim 
+nvim colorscheme.lua
+nvim colorizer.lua
+rm statusline.lua
+nvim statusline.lua
+nvim luasnip.lua
+mkdir snips
+nvim snips/init.lua
+nvim treesitter.lua
+nvim keys.lua
+nvim set.lua
+cd .config/alacritty
+git commit -m "init"
+cd 
+cd website
+nvim inbox.md
+cd git/dotfiles/.config/nvim
+git commit -m "updat"
+nvim
+git add .
+git commit -m "update"
+git push
+nvim README.md
+task 22 done
+task 24 done
+task sync
+task 24 delete
+task project:lieferfix delete
+task 17 delete
+task 15 done
+task 16 due:2024-04-14
+task 16 mod due:2024-04-14
+task 16 modify due:2024-04-14
+task
+nvim 2024-02-13-Schwingungen.md
+pandoc 2024-02-13-Schwingungen.md -s -o 2024-02-13-Schwingungen.pdf
+open 2024-02-13-Schwingungen.
+open 2024-02-13-Schwingungen.pdf
+cd nvim
+nvim .
+tmux
+cp -rf ../ba/.config/zsh ./.config
+cd ba/.config
+cd shell
+cd ..
+cd
+cp -rf ../ba/.config/shell/* ./.config/zsh
+n -e
+nnn
+nvim .zshrc
+cd git/dotfiles
+cp -rf ../ba/.config/alacritty ./.config
+stow .
+stow . -t ~/
+stow -h
+stow . -D
+sudo dnf search iosevka
+cd Downloads
+unzip IosevkaTerm.zip
+cp ./*.ttf ~/.local/share/fonts
+fc-cache
+cd .local/share
+mkdir fonts
+pwd
+ls
+doas ls
+sudo nvim /etc/doas.conf
+doas dnf install powertop
+doas powertop -h
+doas powertop -c --auto-tune
+doas powertop --auto-tune
+nmtui
+nmcli
+nmcli radio show
+nmcli radio uo
+nmcli radio up
+nmcli dev status
+nmcli radio wifi
+nmcli radio list
+nmcli radio wifi list
+nmcli dev wifi list
+nmcli dev wifi connect Botnet password lucas1234
+nmcli dev wifi connect Botnet password lucas123
+doas nmcli dev wifi connect Botnet password lucas123
+doas dnf search nm connection editor
+doas dnf install nm-connection-editor
+firefdx
+firefox
+libinput debug-events
+cd .config/sway
+n -e
+libinput debug-events
+doas libinput debug-events
+doas dnf search nm-applet
+doas dnf search nm applet
+doas dnf install network-manager-applet
+nm-applet
+nmtui
+doas dnf install nmtui
+doas dnf install nm-tui
+doas dnf search nm-tui
+doas dnf search nm tui
+doas dnf search nmtui
+ls
+ping www.google.de
+doas dnf install networkmanager-tui
+doas dnf install Networkmanager-tui
+doas dnf install NetworkManager-tui
+nmtui
+nmuti
+nmtui
+doas dnf install waybar
+waybar
+nm-applet -h
+doas shutdown -h now
+nmtui
+nm-connection-editor
+nmtui
+doas dnf update
+n -e
+cd /tmp
+ls
+mkdir test
+cd test
+python3 -m http.server
+nvim index.html
+python3 -m http.server 127.0.0.1:80
+python3 -m http.server 127.0.0.1 80
+python3 -m http.server --bind 127.0.0.1
+python3 -m http.server --bind 127.0.0.1:80
+ping fbi.com
+cd /tmp/
+l
+ls
+mkdir test
+cd test
+nvim index.md
+python -m http.server 8080 --bind 127.0.0.1
+python -m http.server 80 --bind 127.0.0.1
+nvim index.html
+doas python -m http.server 80 --bind 127.0.0.1
+powertop
+doas powertop
+doas powertop --auto-tune
+nmtui
+cd no
+git clone git@github.com:Hirschiii/notes
+cd notes
+ls
+nmtui
+doas dnf install qutebrowser
+doas dnf install pavucontrol
+doas dnf install --synd
+doas dnf install --sync
+doas dnf install --sync | grep syn
+doas dnf install
+doas dnf update --sync
+doas dnf update 
+doas dnf upgrade
+doas shutdown -h noe
+doas shutdown -h now
+cd git/dotfiles
+cp -rf ../ba/.config/tmux .config
+stow . -t ~/
+doas dnf install fzf
+cd .config/sway
+nvim config
+man date
+date "%S%Y|\
+"
+date +"%Y|\
+:\"
+date +"%Y"
+date +"%Y-%M-%D"
+date +"%Y-%M-%d"
+date +"%Y-%M-%d-%t-%m"
+date +"%Y-%M-%d-%h-%m"
+date +"%Y-%M-%d-%d-%m"
+date +"%Y-%M-%d-%H-%m"
+date +"%Y-%M-%d-%H-%M"
+cd .local
+cd bin
+ls
+nvim zet
+chmod +x zet
+man date
+cd .config/
+git clone https://github.com/Hirschiii/nvim.git
+n -e
+nvim
+doas powertop --auto-tune
+doas dnf install light
+light -A 10
+light -U 10
+firefox --version
+light -A 19
+cd .config/nvim
+cd ..
+rm -rf nvim
+mkdir nvim
+cd nvim
+ls
+touch init.lua
+touch stylua.toml
+mkdir -p lua/custom after/ftplugin 
+nvim init.lua
+mkdir -p lua/custom/plugins
+nvim
+cd lua/custom/plugins
+nvim treesitter.lua
+cd .local/share
+cd nvim
+ls
+rm -rf ./*
+nvm
+nvim
+cd .config/nvim
+cd lua
+lls
+ls 
+nvim plugins/treesitter.lua plugins
+nvim plugins/treesitter.lua
+n -e
+ld
+ls
+cd custom
+nvim treesitter.lua
+nvim
+cd .config/nvim/lua/custom
+vi treesitter.lua
+rm treesitter.lua plugins
+rm treesitter.lua plugins/treesitter.lua
+ls
+ls plugins
+nvim
+n -e
+rm -rf nvim
+git clone https://github.com/Hirschiii/nvim.git
+htop
+doas powertop
+cd notes/area
+mkdir logik
+cd logik/
+pkill tmux
+tmux
+zet fleeting.md
+zet fleeting
+nvim 2024-51-05-08-51-fleeting.md
+rm 2024-51-05-08-51-fleeting.md
+nvim 2024-52-05-08-52-fleeting.md 2024-52-05-08-52-fleeting.md
+ls
+n -e
+zet logik
+doas shutdown -h now
+n -e
+doas brew instal sc-im
+doas dnf search sc-im
+dnf install sc-im
+doas dnf install sc-im
+doas dnf search sc
+doas dnf search spread sheet
+doas dnf install sc
+man sc
+nmtui
+cd notes
+git pull
+git status
+git config --global user.email "niklas@vonhirschfeld.eu"
+git config --global user.name "Niklas von Hirschfeld"
+git commit -m "udpte"
+git add .
+git push
+sc-im
+sc finanzen_mama.sc
+ls
+n -e
+sc-im finanzen_mama.sc
+tmux
+doas shutdown -h now
+sc-im
+sc-im finanzen_mama.sc
+cd git
+git clone 
+https://github.com/andmarti1424/sc-im.git
+git clone  https://github.com/andmarti1424/sc-im.git
+ls
+cd sc-im
+vim src/Makefile
+doas dnf install yacc
+doas dnf install gnuplot
+doas dnf install bason
+doas dnf install bison
+doas dnf install bison byacc
+doas dnf install ncurses-devel
+make -C src
+make -C src install
+doas make -C src install
+sc-im
+sc-im
+cd .config/nvim/after
+ls
+n -e
+cd .local/share
+ls
+rm -rf nvim
+doas dnf install inkscape
+doas dnf updae
+doas dnf update
+cd /usr/share/nvim/
+rm -rf runtime
+doas rm -rf runtime
+nvim
+doas dnf remove nvim
+doas dnf remove neovim
+doas dnf install neovim
+cd
+cd .config/nvim/after
+ls
+cd plugin
+nvim treesitter.lua
+mv treesitter.lua treesitter.lua.ba
+doas dnf install obsidian
+cd Downloads
+rm -rf ./*.ttf
+ls
+chmod +x Obsidian-1.5.12.AppImage
+./Obsidian-1.5.12.AppImage
+n -e
+zet intergerenz_gitter
+ls
+nvim 2024-48-06-15-48-intergerenz_gitter.md
+cd git/dotfiles
+ls -la
+ls .local/bin
+cp ../ba/.local/bin/tmux-* ./.local/bin
+cd .local/bin
+n -e
+htop
+doas dnf install htop
+doas powertop --auto-calibrate
+doas powertop --h
+doas powertop -h
+doas powertop --auto-tune
+doas dnf install thermald
+doas dnf search thermald
+zet dreissigjaehriger_krieg
+ls
+n -e
+doas shutdown -h now
+cd notes
+cd project/school/deutsch
+ls
+zet traenen_des_vaterlandes-andreas-gryphius
+n -e
+git add .
+git commit -m "update"
+tui
+nmtui
+git push
+lspci
+lsblk
+cd .config
+ls
+zsh
+cd .config/sw
+ls
+ls .config
+ls
+nvim
+alacritty -T alacritty_launcher -e "$HOME/.config/nnn/plugins/launch"\
+
+cd git/dotfiles
+stow . -D -t ~/
+man stow
+stow -D . -t ~/
+tmux
+stow -h
+mkdir nvim
+mkdir alacritty
+mkdir sway-workenviroment
+mkdir alacritty/.config
+mv .config/alacritty .config
+mv .config/alacritty alacritty
+mv alacritty/alacritty alacritty/.config
+ls alacritty
+ls -la alacritty
+ls -la alacritty/.config
+ls -la alacritty/.config/alacritty
+stow alacritty
+cd do
+stow alacritty -t ~/
+stow alacritty 
+stow -h 
+nvim
+nvim README.md
+mkdir .config/nvim
+rm -rf .config/nvim
+mkdir nvim/.config/nvim
+mkdir -p nvim/.config/nvim
+mv ~/.config/nvim/* nvim/.config/nvim
+cd nvim/.config/nvim
+l;s
+ls -a
+cd .
+stow nvim -T ~/
+stow nvim -t ~/
+cd sway-workenviroment/q
+cd sway-workenviroment
+mkdir .config
+mv ../../.config/sway ./
+cd ..
+mkdir wallpapers
+mkdir wallpapers/.config
+mv .config/wall wallpapers/.config
+mkdir imv tmux
+mkdir nnn zsh
+ls zsh
+mkdir zsh/.config
+mv .config/zsh zsh/.config
+mv .z* zsh
+stow zsh ~/
+stow zsh -t ~/
+stow -D sway-workenviroment -t ~/
+ls sway-workenviroment
+mv sway-workenviroment/sway sway-workenviroment/.config
+stow sway-workenviroment -t ~/
+ls .config
+mkdir imv/.config
+mkdir nnn/.config
+mkdir tmux/.config
+mv .config/tmux tmux/.config
+mv .config/imv imv/.config
+mv .config/nnn nnn/.config
+mkdir local
+mv .local local
+ls -la .config
+rm -rf .config
+stow imv -t ~/
+stow local -t ~/
+ls n
+ls nnn
+cd nnn/n -e
+cd nnn/
+ls -la
+cd .config
+cd nnn
+cd plugins
+n -e
+stow nnn -t ~/
+ls
+mkdir scim
+mkdir -p scim/.config/sc-im
+stow scim -t ~/ --adope
+stow scim -t ~/ --adopt
+nvim scim/.config/sc-im/scmirv
+nvim scim/.config/sc-im/scmirc
+stow scim -t ~/
+sc-im
+cd .config/nnn/plugins/
+ls -la
+n -e
+rm -rf nnn
+r
+ls sc-im
+rm -rf sc-im
+sc-im
+sc-im -h
+sc-im --help
+ls
+ls .config
+ls
+ls .config
+ls
+cd .config/sway
+n -e
+nvim
+cd .config/ma
+cd .config
+cdhy
+cd hy
+cd
+cd git/ba/.config
+ls;
+ls
+cd Dow
+cd Downloads
+git clone V
+rm -rf hypr-dots
+git clone git@github.com:Hirschiii/hypr-dots.git
+doas dnf install waybar
+waybar
+rofi
+cd notes/
+ls -la
+ls
+git pull
+n -e
+zet hyp
+zet hyprland
+cd Downloads
+nvim powerscript.sh
+chmod +x powerscript.sh
+./powerscript.sh
+cd .config/hypr
+ls
+cd git/dotfiles/
+mkdir -p qutebrowser/.config/qutebrowser
+mv ../ba/.config/qutebrowser qutebrowser/.config/
+mkdir taskwarrior
+mv ../ba/.taskrc ./taskwarrior
+stow taskwarrior -t ~/
+mkdir packages
+sotw ./* -t ~/ -D
+stpw ./* -t ~/ -D
+stow ./* -t ~/ -D
+stow * -t ~/ -D
+stow {alacritty,imv,local,nvim,qutebrowser,scim,sway-workenviroment,tmux,taskwarrior,wallpapers,zsh} -t ~/ -D
+stow taskwarrior -t ~/ -D
+stow -D {alacritty,imv,local,nvim,qutebrowser,scim,sway-workenviroment,tmux,taskwarrior,wallpapers,zsh,taskwarrior} -t ~/
+stow -D local -t ~/
+mv {alacritty,local,imv,nnn,nvim,qutebrowser,scim,taskwarrior,tmux,wallpapers,zsh} packages
+mkdir workenviroments
+stow -D workenviroments -t ~/
+mv sway-workenviroment workenviroments
+ls workenviroments
+stow -h
+stow -d workenviroments sway-workenviroment -t ~/
+nvim README.md
+stow -d packages * -t ~/
+ls packages
+stow -d packages alacritty -t ~/
+stow -d packages {imv,local,nnn,qutebrowser,nvim,scim,tmux,taskwarrior,wallpapers,zsh} -t ~/
+stow -d packages {imv,local,qutebrowser,nvim,scim,tmux,taskwarrior,wallpapers,zsh} -t ~/
+stow -d packages nnn -t ~/ --adopt
+stow -d packages nnn -t ~/ 
+ls 
+stow -D sway-workenviroment -t ~/
+mv sway-workenviroment
+mv sway-workenviroment sway
+stow sway -t ~/
+mkdir hyprland
+cd hyprland/
+mkdir .config
+cd .config
+mkdir rofi hypr ls
+mv ~/git/ba/.config/hypr/* hypr
+mv ~/git/ba/.config/rofi/* rofi
+rm -rf ls
+mkdir waybar
+mkdir mako
+cd rofi
+lsd
+mkdir themes
+cd themes
+nvim launchpad.rasi
+rofi
+doas dnf search rofi
+doas dnf search rofi waylandf
+doas dnf search rofi waylandd
+doas dnf search rofi wayland
+doas dnf install rofi-wayland
+rofi -show drun
+rofi -show drun -theme launchpad
+cd hyprland
+tree .config
+ls ~/Downloads/hypr-dots
+ls ~/Downloads/hypr-dots/xdg_config/
+rm -rf .config/hypr
+mv ~/Downloads/hypr-dots/xdg_config/hypr ./.config/
+mv ~/Downloads/hypr-dots/xdg_config/{waybar,rofi} ./.config/
+rm -rf .config/waybar
+ls .config
+mv ~/Downloads/hypr-dots/xdg_config/waybar ./.config/
+ls wa
+ls way
+ls .config/wy
+ls .config/waybar
+ls
+n -e
+stow hyprland -t ~/
+cd .config/rofi
+ls
+nvim config.rasi
+doas dnf install hyprland
+hyprland
+Hyprland
+ls
+firfo
+firefox
+nvim hyprland_rne.sh
+chmod +x hypr
+chmod +x hyprland_rne.sh
+ls
+./hypr
+./hyprland_rne.sh
+./hyprland_rne.sh switch select
+./hyprland_rne.sh rename select

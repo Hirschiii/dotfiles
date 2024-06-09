@@ -1,20 +1,28 @@
-# My Dotfiles
+# My Produktivity Enviroment
 
-This is my Daily drive on my MacBook Pro 13" M2 with Gentoo
+## How to use
 
-- 2024-01-18 Mesa and Sound works now!!!!!
+Personally I would not recomend just copying others Dotfiles. Read them and
+pick stuff you want. My workflow with this repo is using ''stow'' to
+*"install"* the packages I want on my new system.
 
-- Stuff I use:
-    - Alacritty
-    - NeoVim
-    - Tmux
-    - Firefox
-    - fzf
-    - Sway
+In this repo I do have full blown "working enviroments" for sway and hyprland
+wich come with everything needed to get starting working. Besides of that I
+have the configurations for different tools I use like alacritty, nvim, sc-im
+or taskwarrior. Those wont be in the workenviroment but a package them self.
 
-# Nice Script I wrote
+```
+stow -d {workenviroment or package} {package name} -T $HOME/
+```
 
-## [Toggle light and dark mode](./.local/bin/colortheme)
+##### Example:
 
-This helps when I work outside in the sun or in very light room in general. It uses the ability by alacritty to live changes. When I press a key, I get the light (or dark) mode immediately.
-It also toggle my color scheme in NeoVim, but there I am currently working on a live Change. Thought about starting neovim as a Sever and doing this by remote reload config. 
+If you want to install my nvim config you would cd into the folder of this repo (You can clone it where ever you want) and execute the following:
+
+```
+stow -d packages neovim -t $HOME
+```
+
+# Plans:
+
+- [ ] Script to select wanted packages or enviroments

@@ -1,9 +1,0 @@
-#!/bin/bash
-
-# Stuff i dont need
-
-pkill polybar
-pkill pipewire
-pkill picom
-pkill conky
-doas system76-power profile battery

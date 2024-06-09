@@ -1,0 +1,14 @@
+/* Rofi config file */
+configuration {
+    modi: "window,drun,run";
+    font: "Source Sans Pro 11";
+    show-icons: true;
+    display-window: "Window";
+    display-drun: "Search";
+}
+
+@theme "oxide"
+
+listview {
+    lines: 12;
+}

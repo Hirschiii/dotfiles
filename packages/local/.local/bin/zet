@@ -1,0 +1,3 @@
+#!/bin/bash
+
+nvim ./$(date +"%Y-%M-%d-%H-%M")-$1.md
