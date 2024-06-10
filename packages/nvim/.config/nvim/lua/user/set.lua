@@ -1,39 +1,39 @@
-# vim.opt.guicursor = ""
+local opt = vim.opt
 
-vim.opt.nu = true
-vim.opt.relativenumber = true
+opt.nu = true
+opt.relativenumber = true
 
-vim.opt.tabstop = 4
-vim.opt.softtabstop = 4
-vim.opt.shiftwidth = 4
-vim.opt.expandtab = false
+opt.tabstop = 4
+opt.softtabstop = 4
+opt.shiftwidth = 4
+opt.expandtab = false
 
-vim.opt.smartindent = true
+opt.smartindent = true
 
-vim.opt.wrap = false
+opt.wrap = false
 
--- vim.opt.list = true
--- vim.opt.listchars = { tab="-->", eol="$" }
+-- opt.list = true
+-- opt.listchars = { tab="-->", eol="$" }
 
-vim.opt.mouse = ""
+opt.mouse = ""
 
-vim.opt.swapfile = false
-vim.opt.backup = false
-vim.opt.undodir = os.getenv("HOME") .. "/.vim/undodir"
-vim.opt.undofile = true
+opt.swapfile = false
+opt.backup = false
+opt.undodir = os.getenv "HOME" .. "/.vim/undodir"
+opt.undofile = true
 
-vim.opt.hlsearch = false
-vim.opt.incsearch = true
+opt.hlsearch = false
+opt.incsearch = true
 
-vim.opt.termguicolors = true
+opt.termguicolors = true
 
-vim.opt.scrolloff = 8
-vim.opt.signcolumn = "yes"
-vim.opt.isfname:append("@-@")
+opt.scrolloff = 8
+opt.signcolumn = "yes"
+opt.isfname:append "@-@"
 
-vim.opt.updatetime = 50
+opt.updatetime = 50
 
-vim.opt.colorcolumn = "80"
+opt.colorcolumn = ""
 
 vim.o.clipboard = "unnamedplus"
 
@@ -41,6 +41,25 @@ vim.g.netrw_browse_split = 0
 vim.g.netrw_banner = 0
 vim.g.netrw_winsize = 25
 
-vim.opt.cursorline = true
-vim.opt.cursorcolumn = true
+opt.cursorline = true
+opt.cursorcolumn = true
 
+----- Interesting Options -----
+
+-- You have to turn this one on :)
+opt.inccommand = "split"
+
+-- Best search settings :)
+opt.smartcase = true
+opt.ignorecase = true
+
+opt.splitbelow = true
+opt.splitright = true
+
+opt.signcolumn = "yes"
+opt.shada = { "'10", "<0", "s10", "h" }
+
+opt.clipboard = "unnamedplus"
+
+-- Don't have `o` add a comment
+opt.formatoptions:remove "o"
