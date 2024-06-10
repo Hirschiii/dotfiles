@@ -1,85 +1,7 @@
-xcode-select --install\
-
-brew install sdl2
-brew install sdl
-export C_INCLUDE_PATH=/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include\
-
-export C_INCLUDE_PATH=/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/\
-
-ld
-export LIBRARY_PATH=/usr/lib:/usr/local/lib\
-
-export LIBRARY_PATH=/usr/lib:/usr/local/lib:/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib\
-
-cat /Users/niklas/git/arcan/build/luajitbuild-prefix/src/luajitbuild-stamp/luajitbuild-build-*.log\
-
-cmake -DVIDEO_PLATFORM=sdl -DSTATIC_SQLITE3=ON -DSTATIC_OPENAL=ON -DSTATIC_FREETYPE=ON ../src
-cmake -DBUILD_PRESET="everything" ../src
-make -j4
-cd git/MarioYoutube/src/main
-New Line\
-
-\:w
-git commit -m "fixed aspec ratio"
-git status
-git checkout -b test
-task add resieze drag / drop
-git commit -m "raster"
-git commit -m "Mouse to World Koords"
-mv level.json level.json.bak
-git commit -m "Fixed Koords"
-git push origin test
-git checkout main
-git merge test
-nvim level.json
-mv src/main/resources/assets/shaders ./assets
-ls assets
-ls assets/shaders
-touch assets/shaders/debug.glsl
-cd assets/shaders/de
-cd assets/shaders/
-mv debug.glsl debugLine2D.glsl
-nvim src/main/java/game/renderer/DebugDraw.java
-nvim -d src/main/java/game/renderer/DebugDraw.java ~/git/MarioYoutube/src/main/java/renderer/DebugDraw.java
-git commit -m "fixed debug line"
-git commit - m"\
-"
-open decorationsAndBlocks.png
-open *
-nvim bigSpritesheet.png
-open bigSpritesheet.png
-nvim . 
-mv level.json.bak level.json
-git commit -m "Center Drag thorugh Transform Component"
-touch src/main/java/game/components/GridLines.java
-rm level.json
-cp level.json level.json.bak
-git commit -m "Draw grid"
-cp level.json.bak level.json
-brew install gnuplot
-gnuplot load ./cos.sin.tan.gp
-gnuplot
-mv cos.sin.tan.gp cos.sin.tan.gp.bak
-mv trig_functions.svg trig_functions.svg.bak
-rm trig_functions.svg
-nvim cos.sin.tan.gp
-gnuplot -c cos.sin.tan.gp
-ssh niklas@192.168.4.56
-nvim .f
-curl -L https://alx.sh/wipe-linux | sudo sh
-lsbk
-lsblk
-curl https://alx.sh | sh
-pandoc handout.md -o handout_md.pdf
-pd
-lualatex handout.tex
-rm output.pdf
-cp -rf der_kriegskommunismus ../Qing-Dynasite_Pres
 make clena
 pdflatex handout.tex -o handout.pdf
 cat ./**/*.java
 cat ./**/*.java | wc
-cd /tmp
 open animation.pdf
 nvim animation.tex
 pdflatex animation.tex
@@ -205,7 +127,6 @@ pdw
 sudo dnf install vim vi
 sudo vim /etc/doas.conf
 doas rnano
-l
 sudo dnf intsll eza
 sudo dnf intsll eza nnn 
 sudo dnf install eza nnn 
@@ -242,7 +163,6 @@ doas dnf install tmu
 doas dnf install tmuz
 doas dnf install tmux
 rm -rf tree-sitter-markdown
-git clone git@github.com:Hirschiii/notes
 lf
 doas dnf search lf
 doas dnf search fortune
@@ -270,7 +190,6 @@ doas dnf search signal
 cd .gi
 ls .task
 git config --global user.email "niklasvonh@gmail.com"
-git config --global user.name "Niklas von Hirschfeld"
 git commit -m "New font for Alacritty"
 git commit -m 'settings'
 vim /tmp/addressen
@@ -315,7 +234,6 @@ doas dnf search emacs-pgtk
 emacs --help | less
 emacs --with-native-compilation --without-ns --without-x --with-pgtk
 doas dnf remove emacs
-cd git
 git clone https://github.com/fejfighter/emacs.git
 tar -xvf ./emacs-29.3.tar.xz
 cd emacs-29.3
@@ -352,8 +270,6 @@ git clone https://github.com/daviwil/dotfiles.git
 cd dotfiles
 ls =la
 cp -rf ./.emacs.d ~/
-ls .config
-ls -la
 nvim Emacs.org
 nvim .local/etc/@/init.29.elc
 rm -rf em
@@ -371,24 +287,20 @@ doas dnf install texlive
 rm test.html
 pdflatex test.tex 
 rm test.*
-doas dnf install fzf
 doas dnf search zsh
 doas dnf install zsh-syntax-highlighting.
 doas dnf install zsh-syntax-highlighting
 git commit -m "zsh highlight"
-doas shutdown -h now
 doas dnf search signal desktop
 git commit -m "fonts"
 git puhs
 doas dnf install grim slurp
-nvim config
 task add project:school.seminarfach Presentation due:14-04-2024
 task add project:school.seminarfach Presentation due:2024-04-14
 task 26 modify due:today
 task 27 done
 q3 26
 task add project:school.physik Bearbeitung vom 13.02.2024 due:tomorrow
-cd .config/sway
 nvim script
 nvim script_bar.sh
 q3 28
@@ -451,7 +363,6 @@ nvim papers/2024-02-15-Deep_Learning_Yann_LeCun.md
 mkdir projects
 git clone https://github.com/jackyzha0/quartz.git
 rm -rf quartz
-git clone 
 git clone  git@github.com:Hirschiii/DigitalGarden.git
 cd DigitalGarden
 doas dnf install  npm
@@ -460,7 +371,6 @@ nvim .gitignore
 npx quartz create
 cp -rf ~/notes/* ./content
 ls content
-nvim index.md
 rm index.md
 mv inbox.md index.
 mv index. index.md
@@ -544,7 +454,6 @@ cd Desktop
 cd Mindmap
 scp -r ./* gulugulu@aegoaen.uberspace.de:/home/gulugulu/html/vonhirschfeld.eu/mindmap/
 scp -r ./* gulugulu@aegaeon.uberspace.de:/home/gulugulu/html/vonhirschfeld.eu/mindmap/
-cd notes
 git commit -m "update\
 "
 git config pull.rebase false
@@ -567,15 +476,12 @@ touch globals.lua
 rm disable_builtins.lua
 touch disable_builtin.lua
 nvim lua/plugins/primagen.lua
-cd .local/bin
 ls | grep sty
 rm stylua
 nvim lua/plugins
-cd .config/nvim
 cd .task
 nvim .taskrc
 rm nvim.bak
-cd .config
 rm nvim
 git clone git@github.com:Hirschiii/nvim.git
 nim
@@ -589,7 +495,6 @@ brew install stylua prettier
 brew update
 nvim stylua.toml
 s
-git pull
 git checkout v2
 ls lua
 ls bin
@@ -607,7 +512,6 @@ nvim snippets/markdown.lua
 cd lua/user
 touch gloabals.lua keymap.lua init.lua disable_builtins.lua dap.lua auto.lua
 mkdir lsp
-touch init.lua
 nvim lua/custom/plugin/treesitter.lua
 mv lua/custom/plugin lua/custom/plugins
 nvim lua/user/disable_builtin.lua
@@ -617,9 +521,7 @@ nvim lua/custom/plugins/treesitter.lua
 nvim lua/custom/plugins/elixir.lua
 nvim lua/custom/plugins/comment.lua
 nvim lua/custom/plugins/fonts.lua
-cd lua/custom/plugins
 nvim ./
-lls
 nvim user/keymap.lua
 nvim custom/plugins/harpoon.lua
 nvim custom/plugins/align.lua
@@ -641,7 +543,6 @@ nvim auto.lua
 nvim handler.lua
 nvim handlers.lua
 nvim show_message.lua
-nvim init.lua
 nvim codelens.lua
 nvim inlay.lua
 nvim completion.lua
@@ -661,7 +562,6 @@ nvim statusline.lua
 nvim luasnip.lua
 mkdir snips
 nvim snips/init.lua
-nvim treesitter.lua
 nvim keys.lua
 nvim set.lua
 cd .config/alacritty
@@ -671,11 +571,6 @@ cd website
 nvim inbox.md
 cd git/dotfiles/.config/nvim
 git commit -m "updat"
-nvim
-git add .
-git commit -m "update"
-git push
-nvim README.md
 task 22 done
 task 24 done
 task sync
@@ -691,40 +586,26 @@ nvim 2024-02-13-Schwingungen.md
 pandoc 2024-02-13-Schwingungen.md -s -o 2024-02-13-Schwingungen.pdf
 open 2024-02-13-Schwingungen.
 open 2024-02-13-Schwingungen.pdf
-cd nvim
 nvim .
-tmux
 cp -rf ../ba/.config/zsh ./.config
 cd ba/.config
 cd shell
-cd ..
-cd
 cp -rf ../ba/.config/shell/* ./.config/zsh
-n -e
 nnn
 nvim .zshrc
-cd git/dotfiles
 cp -rf ../ba/.config/alacritty ./.config
 stow .
-stow . -t ~/
-stow -h
 stow . -D
 sudo dnf search iosevka
-cd Downloads
 unzip IosevkaTerm.zip
 cp ./*.ttf ~/.local/share/fonts
 fc-cache
-cd .local/share
 mkdir fonts
 pwd
-ls
 doas ls
 sudo nvim /etc/doas.conf
 doas dnf install powertop
-doas powertop -h
 doas powertop -c --auto-tune
-doas powertop --auto-tune
-nmtui
 nmcli
 nmcli radio show
 nmcli radio uo
@@ -740,45 +621,26 @@ doas nmcli dev wifi connect Botnet password lucas123
 doas dnf search nm connection editor
 doas dnf install nm-connection-editor
 firefdx
-firefox
-libinput debug-events
-cd .config/sway
-n -e
 libinput debug-events
 doas libinput debug-events
 doas dnf search nm-applet
 doas dnf search nm applet
 doas dnf install network-manager-applet
 nm-applet
-nmtui
 doas dnf install nmtui
 doas dnf install nm-tui
 doas dnf search nm-tui
 doas dnf search nm tui
 doas dnf search nmtui
-ls
 ping www.google.de
 doas dnf install networkmanager-tui
 doas dnf install Networkmanager-tui
 doas dnf install NetworkManager-tui
-nmtui
 nmuti
-nmtui
-doas dnf install waybar
-waybar
 nm-applet -h
-doas shutdown -h now
-nmtui
 nm-connection-editor
-nmtui
-doas dnf update
-n -e
 cd /tmp
-ls
-mkdir test
-cd test
 python3 -m http.server
-nvim index.html
 python3 -m http.server 127.0.0.1:80
 python3 -m http.server 127.0.0.1 80
 python3 -m http.server --bind 127.0.0.1
@@ -786,7 +648,6 @@ python3 -m http.server --bind 127.0.0.1:80
 ping fbi.com
 cd /tmp/
 l
-ls
 mkdir test
 cd test
 nvim index.md
@@ -795,14 +656,8 @@ python -m http.server 80 --bind 127.0.0.1
 nvim index.html
 doas python -m http.server 80 --bind 127.0.0.1
 powertop
-doas powertop
-doas powertop --auto-tune
-nmtui
 cd no
 git clone git@github.com:Hirschiii/notes
-cd notes
-ls
-nmtui
 doas dnf install qutebrowser
 doas dnf install pavucontrol
 doas dnf install --synd
@@ -813,14 +668,10 @@ doas dnf update --sync
 doas dnf update 
 doas dnf upgrade
 doas shutdown -h noe
-doas shutdown -h now
-cd git/dotfiles
 cp -rf ../ba/.config/tmux .config
 stow . -t ~/
 doas dnf install fzf
-cd .config/sway
 nvim config
-man date
 date "%S%Y|\
 "
 date +"%Y|\
@@ -835,79 +686,48 @@ date +"%Y-%M-%d-%H-%m"
 date +"%Y-%M-%d-%H-%M"
 cd .local
 cd bin
-ls
 nvim zet
 chmod +x zet
 man date
 cd .config/
-git clone https://github.com/Hirschiii/nvim.git
-n -e
-nvim
-doas powertop --auto-tune
 doas dnf install light
 light -A 10
 light -U 10
 firefox --version
 light -A 19
-cd .config/nvim
-cd ..
-rm -rf nvim
-mkdir nvim
-cd nvim
-ls
 touch init.lua
 touch stylua.toml
 mkdir -p lua/custom after/ftplugin 
 nvim init.lua
 mkdir -p lua/custom/plugins
-nvim
 cd lua/custom/plugins
-nvim treesitter.lua
-cd .local/share
 cd nvim
-ls
 rm -rf ./*
 nvm
-nvim
 cd .config/nvim
 cd lua
 lls
-ls 
 nvim plugins/treesitter.lua plugins
 nvim plugins/treesitter.lua
-n -e
 ld
-ls
 cd custom
-nvim treesitter.lua
-nvim
 cd .config/nvim/lua/custom
 vi treesitter.lua
 rm treesitter.lua plugins
 rm treesitter.lua plugins/treesitter.lua
-ls
 ls plugins
-nvim
-n -e
-rm -rf nvim
 git clone https://github.com/Hirschiii/nvim.git
-htop
 doas powertop
 cd notes/area
 mkdir logik
 cd logik/
 pkill tmux
-tmux
 zet fleeting.md
 zet fleeting
 nvim 2024-51-05-08-51-fleeting.md
 rm 2024-51-05-08-51-fleeting.md
 nvim 2024-52-05-08-52-fleeting.md 2024-52-05-08-52-fleeting.md
-ls
-n -e
 zet logik
-doas shutdown -h now
-n -e
 doas brew instal sc-im
 doas dnf search sc-im
 dnf install sc-im
@@ -916,29 +736,16 @@ doas dnf search sc
 doas dnf search spread sheet
 doas dnf install sc
 man sc
-nmtui
-cd notes
-git pull
 git status
 git config --global user.email "niklas@vonhirschfeld.eu"
 git config --global user.name "Niklas von Hirschfeld"
 git commit -m "udpte"
-git add .
-git push
-sc-im
 sc finanzen_mama.sc
-ls
-n -e
-sc-im finanzen_mama.sc
-tmux
-doas shutdown -h now
-sc-im
 sc-im finanzen_mama.sc
 cd git
 git clone 
 https://github.com/andmarti1424/sc-im.git
 git clone  https://github.com/andmarti1424/sc-im.git
-ls
 cd sc-im
 vim src/Makefile
 doas dnf install yacc
@@ -950,13 +757,7 @@ doas dnf install ncurses-devel
 make -C src
 make -C src install
 doas make -C src install
-sc-im
-sc-im
-cd .config/nvim/after
-ls
-n -e
 cd .local/share
-ls
 rm -rf nvim
 doas dnf install inkscape
 doas dnf updae
@@ -964,32 +765,22 @@ doas dnf update
 cd /usr/share/nvim/
 rm -rf runtime
 doas rm -rf runtime
-nvim
 doas dnf remove nvim
 doas dnf remove neovim
 doas dnf install neovim
-cd
 cd .config/nvim/after
-ls
 cd plugin
 nvim treesitter.lua
 mv treesitter.lua treesitter.lua.ba
 doas dnf install obsidian
-cd Downloads
 rm -rf ./*.ttf
-ls
 chmod +x Obsidian-1.5.12.AppImage
 ./Obsidian-1.5.12.AppImage
-n -e
 zet intergerenz_gitter
-ls
 nvim 2024-48-06-15-48-intergerenz_gitter.md
-cd git/dotfiles
-ls -la
 ls .local/bin
 cp ../ba/.local/bin/tmux-* ./.local/bin
 cd .local/bin
-n -e
 htop
 doas dnf install htop
 doas powertop --auto-calibrate
@@ -999,29 +790,16 @@ doas powertop --auto-tune
 doas dnf install thermald
 doas dnf search thermald
 zet dreissigjaehriger_krieg
-ls
-n -e
 doas shutdown -h now
-cd notes
 cd project/school/deutsch
-ls
 zet traenen_des_vaterlandes-andreas-gryphius
-n -e
-git add .
 git commit -m "update"
 tui
 nmtui
-git push
 lspci
 lsblk
-cd .config
-ls
 zsh
 cd .config/sw
-ls
-ls .config
-ls
-nvim
 alacritty -T alacritty_launcher -e "$HOME/.config/nnn/plugins/launch"\
 
 cd git/dotfiles
@@ -1029,7 +807,6 @@ stow . -D -t ~/
 man stow
 stow -D . -t ~/
 tmux
-stow -h
 mkdir nvim
 mkdir alacritty
 mkdir sway-workenviroment
@@ -1046,8 +823,6 @@ cd do
 stow alacritty -t ~/
 stow alacritty 
 stow -h 
-nvim
-nvim README.md
 mkdir .config/nvim
 rm -rf .config/nvim
 mkdir nvim/.config/nvim
@@ -1061,7 +836,6 @@ stow nvim -T ~/
 stow nvim -t ~/
 cd sway-workenviroment/q
 cd sway-workenviroment
-mkdir .config
 mv ../../.config/sway ./
 cd ..
 mkdir wallpapers
@@ -1075,11 +849,9 @@ mv .config/zsh zsh/.config
 mv .z* zsh
 stow zsh ~/
 stow zsh -t ~/
-stow -D sway-workenviroment -t ~/
 ls sway-workenviroment
 mv sway-workenviroment/sway sway-workenviroment/.config
 stow sway-workenviroment -t ~/
-ls .config
 mkdir imv/.config
 mkdir nnn/.config
 mkdir tmux/.config
@@ -1096,13 +868,9 @@ ls n
 ls nnn
 cd nnn/n -e
 cd nnn/
-ls -la
-cd .config
 cd nnn
 cd plugins
-n -e
 stow nnn -t ~/
-ls
 mkdir scim
 mkdir -p scim/.config/sc-im
 stow scim -t ~/ --adope
@@ -1110,10 +878,7 @@ stow scim -t ~/ --adopt
 nvim scim/.config/sc-im/scmirv
 nvim scim/.config/sc-im/scmirc
 stow scim -t ~/
-sc-im
 cd .config/nnn/plugins/
-ls -la
-n -e
 rm -rf nnn
 r
 ls sc-im
@@ -1121,35 +886,23 @@ rm -rf sc-im
 sc-im
 sc-im -h
 sc-im --help
-ls
-ls .config
-ls
-ls .config
-ls
 cd .config/sway
-n -e
 nvim
 cd .config/ma
-cd .config
 cdhy
 cd hy
 cd
 cd git/ba/.config
 ls;
-ls
 cd Dow
-cd Downloads
 git clone V
 rm -rf hypr-dots
 git clone git@github.com:Hirschiii/hypr-dots.git
 doas dnf install waybar
 waybar
-rofi
 cd notes/
 ls -la
-ls
 git pull
-n -e
 zet hyp
 zet hyprland
 cd Downloads
@@ -1157,7 +910,6 @@ nvim powerscript.sh
 chmod +x powerscript.sh
 ./powerscript.sh
 cd .config/hypr
-ls
 cd git/dotfiles/
 mkdir -p qutebrowser/.config/qutebrowser
 mv ../ba/.config/qutebrowser qutebrowser/.config/
@@ -1230,16 +982,12 @@ ls wa
 ls way
 ls .config/wy
 ls .config/waybar
-ls
-n -e
 stow hyprland -t ~/
 cd .config/rofi
-ls
 nvim config.rasi
 doas dnf install hyprland
 hyprland
 Hyprland
-ls
 firfo
 firefox
 nvim hyprland_rne.sh
@@ -1250,3 +998,102 @@ ls
 ./hyprland_rne.sh
 ./hyprland_rne.sh switch select
 ./hyprland_rne.sh rename select
+cd notes
+git add .
+git commit -m "restructure"
+git push
+cd notes/zed
+mv 2024-03-09-17-03-hyprland.md hyprland_workenviroment.md
+nvim hyprland_workenviroment.md y
+nvim hyprland_workenviroment.md 
+n -e
+pkill Hyprland
+exit
+cd /usr/share/applications/
+ls
+rofi -show drun
+n -e
+pwd
+doas -h not
+doas -h now
+doas dnf search spotify
+nvim
+cd packages/nvim
+git add .
+git commit -m "nvim ba"
+n -e
+git branch new_nvim
+git status
+git checkout new_nvim
+ls
+cd 
+nvim
+cd .local/share
+cd nvim
+ls
+rm -rf ./*
+doas dnf search neovim
+cd /usr/share/nvim
+ls
+rm -rf runtime
+doas rm -rf runtime
+doas dnf remove nvim
+nvim
+doas dnf remove neovim
+doas dnf install neovim
+doas dnf install nautilus
+lsblk
+cd /usr/share/nvim
+ls
+nvim
+cd /usr/share/nvim/runtime/lua
+cd vim
+ls
+cd n
+cd nvim
+git add .
+git commit -m "clean up\
+\
+":
+tokei
+nvim init.lua
+nvim telescope.lua
+nvim --clean
+nvim --clean ./telescope.lua
+doas dnf remove nvim
+doas dnf remove neovim
+cd /usr/share/nvim
+rm -rf ./*
+doas rm -rf ./*
+cd /usr/local/lib
+ls
+doas dnf install neovim
+ls -la
+cd
+cd .config/nvim/lua
+nvim treesitter.liua
+n -e
+nvim treesitter.lua
+vi treesitter.lua
+nvim treesitter.lua
+nvim test.md
+cd Downloads
+tar -xv ./lua-language-server-3.9.2-linux-arm64.tar.gz
+tar -xfv ./lua-language-server-3.9.2-linux-arm64.tar.gz
+tar -xf lua-language-server-3.9.2-linux-arm64.tar.gz
+ls
+ls bin
+cd bin
+./lua-language-server
+mv lua-language-server ~/.local/bin
+doas dnf search lua lsp
+doas dnf search lua language
+doas dnf search lua language server
+doas dnf install lua-language-server
+cd .local/bin
+ls
+nvim test.md
+nvim tes.md
+nvim test.md
+nvim
+nvim mtest.md
