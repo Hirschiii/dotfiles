@@ -1,120 +1,3 @@
-make clena
-pdflatex handout.tex -o handout.pdf
-cat ./**/*.java
-cat ./**/*.java | wc
-open animation.pdf
-nvim animation.tex
-pdflatex animation.tex
-pdflatex -shell-escape main animation.tex
-tmx
-nvim handout.tex
-nvim presentation.md -s -o handout.psd
-nvim presentation.md -s -o handout.pdf
-pandoc presentation.md -s -o handout.pdf
-zk edit -i
-cp presentation.md handout.md
-nvim handout
-pandoc handout.md -s -o handout.pdf
-nvim handout.
-nvim handout.md
-nvim ma
-nvim Makefile
-pandoc handout.md -s -o handout.md && make
-make clean
-pandoc handout.md -s -o handout.pdf && make
-cd git/MarioYoutube
-nvim presentation.md
-brew install imagemagick
-ls src
-convert Vase_BlauWeis.webp Vase_BlauWeis.png
-cd src
-convert Kanne_Bunt.webp Kanne_Bunt.png
-make
-task add project:school physik bericht
-touch src/main/java/game/editor/GameViewWindow.java
-cd git/MarioYoutube/src/main/
-cd java
-nvim.
-cat Feder_Konstante_Masse.csv 
-rm *.pndf
-rm *.png
-nvim Feder_Konstante
-nvim Feder_Konstante.
-cp Feder_Konstante.gp Feder_Konstante_sqrt1_D.gp
-gnuplot Feder_Konstante_sqrt1_D.gp
-nvim Feder_Konstante_sqrt1_D.gp
-rm Feder_Konstante_sqrt1_D.*
-gnuplot Feder_Konstante_sqrt.gp
-gnuplot masse_periode.csv
-gnuplot *.gp
-cd git/MarioYoutube/src/main/java
-git add 
-git commit -m "Game ViewPort"
-brew install sl
-sl
-pandoc Feder_Masse_Pendel.md -o Feder.pdf
-nvim Feder_Konstante_Masse.csv
-nvim Feder_Konstante.gp
-gnuplot Feder_Konstante.gp
-cp Feder_Konstante_Masse.csv Feder_Konstante_sqrt1_D.csv
-nvim Feder_Konstante_sqrt1_D.csv
-cp Feder_Konstante.gp Feder_Konstante_sqrt.gp
-cp Feder_Konstante_Masse.csv Feder_Konstante_Masse_sqrt.csv
-nvim Feder_Konstante_Masse_sqrt.csv
-nvim Feder_Konstante_sqrt.gp
-nvim assets/masse_periode.csv
-cp Feder_Konstante.gp Masse_per.gp
-gnuplot Masse_per.gp
-nvim Masse_per.gp
-nvim assets/*.gp
-pandoc Feder_Masse_Pendel_Auswertung.md -s -o Auswertung.pdf
-nvim timeline.puml
-brew install plantuml
-open Feder
-open Feder.pdf
-pandoc Feder_Masse_Pendel.md -s -o out.pdf
-open out.pdf
-rm out
-rm out.pdf
-pandoc Feder_Masse_Pendel.md -s -o Feder.pdf
-mkdir assets 
-cd assets
-pdftex feder.tex
-pdflatex feder.tex
-nvim feder.tex
-nvim assets/Masse_per.gp
-nvim Feder_Masse_Pendel_Auswertung.md
-d
-git commmit -m "Update"
-git config pull.rebase false 
-git mergetool
-git commit -m "Update"
-make && make ruh
-ch.sh
-cht.sh
-brew install rlwrap
-cht.sh --shell java
-curl -s cht.sh/java~for | less
-curl -s cht.sh/java~for 
-less -h
-less --help
-curl -s cht.sh/java~for | less -R
-curl cht.sh/tar~list
-curl cht.sh/tar/list
-/go/zip+lists  
-curl cht.sh/go/zip+lists  
-curl -s cheat.sh/:list
-brew install cht.sh
-cd .local/scripts
-curl https://cht.sh/:cht.sh > cht.sh
-chmod +x cht.sh
-./cht.sh java list
-./cht.sh --list-lang
-./cht.sh
-nvim cht.sh
-curl cht.sh/java/for
-nvim .config/tmux/
-man
 pandoc 2024-02-13.md -s -o 2024-02-13-Arbeitsblatt-Hochsprung.pdf
 pw
 mkdir sport
@@ -283,7 +166,6 @@ fc-list | grep Io
 cd .config/emacs
 nvim init.el
 rm test.odt
-doas dnf install texlive
 rm test.html
 pdflatex test.tex 
 rm test.*
@@ -294,7 +176,6 @@ git commit -m "zsh highlight"
 doas dnf search signal desktop
 git commit -m "fonts"
 git puhs
-doas dnf install grim slurp
 task add project:school.seminarfach Presentation due:14-04-2024
 task add project:school.seminarfach Presentation due:2024-04-14
 task 26 modify due:today
@@ -420,7 +301,6 @@ nvim /Applications/Alacritty.app
 /Applications/Alacritty.app/Contents/MacOS/alacritty -help
 touch boy_erased.md
 nvim boy_erased.md
-mkdir assets
 cp ~/Downloads/Grafik1.png license_plate_oppotunity.png
 mv license_plate_oppotunity.png assets
 touch OpiumKriege.md
@@ -493,11 +373,9 @@ brew install styliar
 brew install stylua
 brew install stylua prettier
 brew update
-nvim stylua.toml
 s
 git checkout v2
 ls lua
-ls bin
 nvim notes.md
 rm -rf after bin/ lua init.lua notes.md README.md
 nvim static
@@ -508,7 +386,6 @@ git commit -m "cleanup|\
 nvim README.md.old
 rm README.md.old
 mkdir -p lua/user lua/custom/plugin spell after
-nvim snippets/markdown.lua
 cd lua/user
 touch gloabals.lua keymap.lua init.lua disable_builtins.lua dap.lua auto.lua
 mkdir lsp
@@ -532,29 +409,23 @@ nvim n -e
 nvim telescope/init.lua
 nvim telescope/keys.lua
 nvim telescope/mappings.lua
-nvim telescope.lua
 nvim setup.lua
 nvim globals.lua
 nvim require.lua
 nvim stylua.lua
 nvim notify.lua
-nvim lsp.lua
 nvim auto.lua
 nvim handler.lua
 nvim handlers.lua
 nvim show_message.lua
 nvim codelens.lua
 nvim inlay.lua
-nvim completion.lua
-nvim snippets.lua
 mkdir plugins ftplugin
-nvim plugins/completion.lua
 nvim --startuptime
 nvim --startuptime -h
 rm -h
 rm ./-h
 mv plugins plugin
-nvim 
 nvim colorscheme.lua
 nvim colorizer.lua
 rm statusline.lua
@@ -566,7 +437,6 @@ nvim keys.lua
 nvim set.lua
 cd .config/alacritty
 git commit -m "init"
-cd 
 cd website
 nvim inbox.md
 cd git/dotfiles/.config/nvim
@@ -586,7 +456,6 @@ nvim 2024-02-13-Schwingungen.md
 pandoc 2024-02-13-Schwingungen.md -s -o 2024-02-13-Schwingungen.pdf
 open 2024-02-13-Schwingungen.
 open 2024-02-13-Schwingungen.pdf
-nvim .
 cp -rf ../ba/.config/zsh ./.config
 cd ba/.config
 cd shell
@@ -601,7 +470,6 @@ unzip IosevkaTerm.zip
 cp ./*.ttf ~/.local/share/fonts
 fc-cache
 mkdir fonts
-pwd
 doas ls
 sudo nvim /etc/doas.conf
 doas dnf install powertop
@@ -685,26 +553,18 @@ date +"%Y-%M-%d-%d-%m"
 date +"%Y-%M-%d-%H-%m"
 date +"%Y-%M-%d-%H-%M"
 cd .local
-cd bin
-nvim zet
 chmod +x zet
 man date
 cd .config/
 doas dnf install light
-light -A 10
-light -U 10
 firefox --version
 light -A 19
 touch init.lua
 touch stylua.toml
 mkdir -p lua/custom after/ftplugin 
-nvim init.lua
 mkdir -p lua/custom/plugins
 cd lua/custom/plugins
-cd nvim
-rm -rf ./*
 nvm
-cd .config/nvim
 cd lua
 lls
 nvim plugins/treesitter.lua plugins
@@ -712,7 +572,6 @@ nvim plugins/treesitter.lua
 ld
 cd custom
 cd .config/nvim/lua/custom
-vi treesitter.lua
 rm treesitter.lua plugins
 rm treesitter.lua plugins/treesitter.lua
 ls plugins
@@ -736,13 +595,11 @@ doas dnf search sc
 doas dnf search spread sheet
 doas dnf install sc
 man sc
-git status
 git config --global user.email "niklas@vonhirschfeld.eu"
 git config --global user.name "Niklas von Hirschfeld"
 git commit -m "udpte"
 sc finanzen_mama.sc
 sc-im finanzen_mama.sc
-cd git
 git clone 
 https://github.com/andmarti1424/sc-im.git
 git clone  https://github.com/andmarti1424/sc-im.git
@@ -757,20 +614,13 @@ doas dnf install ncurses-devel
 make -C src
 make -C src install
 doas make -C src install
-cd .local/share
 rm -rf nvim
 doas dnf install inkscape
 doas dnf updae
 doas dnf update
 cd /usr/share/nvim/
-rm -rf runtime
-doas rm -rf runtime
-doas dnf remove nvim
-doas dnf remove neovim
-doas dnf install neovim
 cd .config/nvim/after
 cd plugin
-nvim treesitter.lua
 mv treesitter.lua treesitter.lua.ba
 doas dnf install obsidian
 rm -rf ./*.ttf
@@ -780,29 +630,22 @@ zet intergerenz_gitter
 nvim 2024-48-06-15-48-intergerenz_gitter.md
 ls .local/bin
 cp ../ba/.local/bin/tmux-* ./.local/bin
-cd .local/bin
-htop
 doas dnf install htop
 doas powertop --auto-calibrate
 doas powertop --h
 doas powertop -h
-doas powertop --auto-tune
 doas dnf install thermald
 doas dnf search thermald
 zet dreissigjaehriger_krieg
-doas shutdown -h now
 cd project/school/deutsch
 zet traenen_des_vaterlandes-andreas-gryphius
 git commit -m "update"
 tui
-nmtui
 lspci
-lsblk
 zsh
 cd .config/sw
 alacritty -T alacritty_launcher -e "$HOME/.config/nnn/plugins/launch"\
 
-cd git/dotfiles
 stow . -D -t ~/
 man stow
 stow -D . -t ~/
@@ -886,12 +729,9 @@ rm -rf sc-im
 sc-im
 sc-im -h
 sc-im --help
-cd .config/sway
-nvim
 cd .config/ma
 cdhy
 cd hy
-cd
 cd git/ba/.config
 ls;
 cd Dow
@@ -901,11 +741,8 @@ git clone git@github.com:Hirschiii/hypr-dots.git
 doas dnf install waybar
 waybar
 cd notes/
-ls -la
-git pull
 zet hyp
 zet hyprland
-cd Downloads
 nvim powerscript.sh
 chmod +x powerscript.sh
 ./powerscript.sh
@@ -932,7 +769,6 @@ mv sway-workenviroment workenviroments
 ls workenviroments
 stow -h
 stow -d workenviroments sway-workenviroment -t ~/
-nvim README.md
 stow -d packages * -t ~/
 ls packages
 stow -d packages alacritty -t ~/
@@ -966,7 +802,6 @@ doas dnf search rofi waylandf
 doas dnf search rofi waylandd
 doas dnf search rofi wayland
 doas dnf install rofi-wayland
-rofi -show drun
 rofi -show drun -theme launchpad
 cd hyprland
 tree .config
@@ -993,70 +828,40 @@ firefox
 nvim hyprland_rne.sh
 chmod +x hypr
 chmod +x hyprland_rne.sh
-ls
 ./hypr
 ./hyprland_rne.sh
 ./hyprland_rne.sh switch select
 ./hyprland_rne.sh rename select
-cd notes
-git add .
 git commit -m "restructure"
-git push
 cd notes/zed
 mv 2024-03-09-17-03-hyprland.md hyprland_workenviroment.md
 nvim hyprland_workenviroment.md y
 nvim hyprland_workenviroment.md 
-n -e
 pkill Hyprland
-exit
 cd /usr/share/applications/
-ls
 rofi -show drun
-n -e
-pwd
 doas -h not
 doas -h now
 doas dnf search spotify
-nvim
 cd packages/nvim
-git add .
 git commit -m "nvim ba"
-n -e
 git branch new_nvim
-git status
 git checkout new_nvim
-ls
 cd 
-nvim
 cd .local/share
-cd nvim
-ls
-rm -rf ./*
 doas dnf search neovim
-cd /usr/share/nvim
-ls
 rm -rf runtime
 doas rm -rf runtime
-doas dnf remove nvim
-nvim
-doas dnf remove neovim
-doas dnf install neovim
 doas dnf install nautilus
 lsblk
-cd /usr/share/nvim
-ls
-nvim
 cd /usr/share/nvim/runtime/lua
 cd vim
-ls
 cd n
 cd nvim
-git add .
 git commit -m "clean up\
 \
 ":
 tokei
-nvim init.lua
 nvim telescope.lua
 nvim --clean
 nvim --clean ./telescope.lua
@@ -1066,22 +871,14 @@ cd /usr/share/nvim
 rm -rf ./*
 doas rm -rf ./*
 cd /usr/local/lib
-ls
 doas dnf install neovim
 ls -la
-cd
 cd .config/nvim/lua
 nvim treesitter.liua
-n -e
-nvim treesitter.lua
-vi treesitter.lua
-nvim treesitter.lua
-nvim test.md
 cd Downloads
 tar -xv ./lua-language-server-3.9.2-linux-arm64.tar.gz
 tar -xfv ./lua-language-server-3.9.2-linux-arm64.tar.gz
 tar -xf lua-language-server-3.9.2-linux-arm64.tar.gz
-ls
 ls bin
 cd bin
 ./lua-language-server
@@ -1090,10 +887,179 @@ doas dnf search lua lsp
 doas dnf search lua language
 doas dnf search lua language server
 doas dnf install lua-language-server
-cd .local/bin
-ls
-nvim test.md
 nvim tes.md
 nvim test.md
-nvim
 nvim mtest.md
+vi treesitter.lua
+nvim treesitter.lua
+nvim plugins/statusline.lua
+nvim plugins/completion.lua
+nvim completion.lua
+mkdir snippets
+nvim snippets/markdown.lua
+mv n -e
+mv lua/custom/snippets ./
+nvim lua/custom/plugins/lsp.lua
+nvim fzf.lua
+nvim harpoon.lua
+nvim lsp.lua
+nvim mini.lua
+nvim quickfix.lus
+nvim quickfix.lua
+nvim snippets.lua
+mv ../../snippets ./
+mv snippets ../../
+nvim stylua.toml
+nvim init.lua
+nvim colorsheme.lua
+nvim colorbuddy.lua
+mkdir -p after/ftplugin
+cd after/ftplugin
+nvim after/ftplugin/markdown.lua
+cd
+cd git/dotfiles
+git commit -m "new nvim config"
+git push --set-upstream origin new_nvim\
+
+git pull 
+nivm
+cd notes
+git pull
+git status
+git add .
+git commit -m "update asahi"
+git push
+doas dnf search teams
+nmtui
+sudo dnf install snapd fuse squashfuse kernel-modules -y
+doas snap install teams-for-linux
+nvim 
+nvim markdown.lua
+nvim zet
+mkdir assets
+cp /tmp/1718092499_grim.png ./assets/ordnung_screenshot.png
+doas dnf install grim slurp
+snap
+snap install obsidian
+doas snap install obsidian
+cd .config/nvim
+nvim .
+zet
+zet ordnung
+nvim README.md
+nvim
+cd .local/bin
+doas powertop -auto-tune
+doas powertop --auto-tune
+doas dnf search laptop moe
+doas dnf search laptop mode
+sudo dnf install tlp tlp-rdw
+doas dnf install tlp tlp-rdw
+systemctl enable tlp.service
+systemctl enable tlp-sleep.service
+doas systemctl enable tlp.service
+sudo systemctl start powertop.service
+sudo systemctl enable powertop.service
+cd .config/sway
+tlp-stat -p
+doas tlp-stat -p
+doas tlp-stat -p -v
+doas tlp-stat -p 
+htop
+doas tlp start
+tlp-stat -s
+tlp-rdw enable
+doas tlp-rdw enable
+doas -s
+light -A
+light -A 10
+light -U 10
+pwd
+pandoc\
+j
+pandoc
+doas dnf install pandoc
+doas dnf install texlive
+pandoc 2024-06-04-11-41-Characterization-marshall.md -o character-marshall.pdf
+n -e
+doas dnf install cagebreak
+cd git/MagmaWM
+./target/release/magmawm
+doas !
+doas ./target/release/magmawm
+Lexit
+ezit
+exit
+git clone https://github.com/MagmaWM/MagmaWM.git
+# dnf install systemd-devel libgbm-devel libxkbcommon-devel Mesa-libEGL-devel wayland-devel libinput-devel dbus-glib-devel libseat-devel
+doas dnf install systemd-devel libgbm-devel libxkbcommon-devel Mesa-libEGL-devel wayland-devel libinput-devel dbus-glib-devel libseat-devel
+doas dnf install systemd-devel libgbm-devel libxkbcommon-devel mesa-libEGL-devel wayland-devel libinput-devel dbus-glib-devel libseat-devel
+cd MagmaWM
+doas dnf install cargo
+cargo build --release
+ls
+ls target/release
+wget https://raw.github.com/nwg-piotr/nwg-shell/main/install/fedora.sh && chmod u+x fedora.sh && ./fedora.sh && rm fedora.sh
+doas dnf install gtklock
+cd git
+cd cagebreak
+doas dnf install meson
+git clone https://github.com/project-repo/cagebreak.git
+rm -rf cagebreak
+doas dnf search wlroots
+doas dnf -s wlroots
+doas dnf install wlroots
+zet maozedong
+zet mao-zedong_ZDF-Dokumentation
+doas shutdown -h now
+doas nvim /etc/tlp.conf
+tlp -p
+tlp-stat -p
+doas tlp-stat -p
+doas dnf search ags
+sudo dnf copr enable solopasha/hyprland
+sudo dnf install aylurs-gtk-shell
+ags --help
+cd git/dotfiles
+mkdir ags
+cd ags
+ls
+mkdir .config
+mkdir .config/ags
+n -e
+mv ags packages
+stow -d packages ags -t ~/
+cd .config
+ls 
+cd ags
+ags
+notify-send "hahal"
+notify-send "Ich bin GOOOOOOSSSS"
+notify-send "he"
+cd .config/a
+cd .config/ags
+ls
+rm -rf ./*
+vim config.js
+nvim notificationPopups.js
+vim style.css
+ags
+cd .config/ags
+ls
+rm ./*
+ags
+doas dnf install bun
+cd Downloads
+git clone https://github.com/xeome/dots.git
+ls
+mv dots/dot_config/ags/* ~/.config/ags
+ags
+cd ags
+nvim style.css
+ags
+ags --init -c ~/.config/ags/config.js
+ags -c ~/.config/ags/config.js &
+htop
+l
+ls
+nvim config.js
