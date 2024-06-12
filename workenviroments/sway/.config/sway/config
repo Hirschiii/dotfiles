@@ -141,6 +141,8 @@ bindsym XF86MonBrightnessUp exec light -A 10
     bindsym $mod+Shift+Return exec $term -e tmux new-session -A -s default
     bindsym $mod+w exec $browser
 
+	bindsym $mod+shift+b exec swaymsg bar mode toggle
+
 	bindsym $mod+Shift+w exec imv ~/.config/wall/*
 
 # Switch keyboard Layout

@@ -3,7 +3,6 @@ local date = function()
 end
 
 return {
-  s("ctrig", t "also loaded!!"),
   s({
     trig = "meta",
     namr = "Metadata",
@@ -18,5 +17,23 @@ return {
     i(2),
     t { "]", "enableToc: true", "---", "" },
     i(0),
+  }),
+  s({
+    trig = "aligned",
+    namr = "Latex Begin Aligned",
+    dscr = "The LaTex aligned block",
+  }, {
+    t { "$$", "\\begin{aligned}", "" },
+    i(0, ""),
+    t { "", "\\end{aligned}", "$$" },
+  }),
+  s({
+    trig = "pmatrix",
+    namr = "Latex Begin Pmatrix",
+    dscr = "The LaTex Pmatrix block",
+  }, {
+    t { "$$", "\\begin{pmatrix}", "" },
+    i(0, ""),
+    t { "", "\\end{pmatrix}", "$$" },
   }),
 }
