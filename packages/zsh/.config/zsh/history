@@ -1,77 +1,3 @@
-make clena
-pdflatex handout.tex -o handout.pdf
-cat ./**/*.java
-cat ./**/*.java | wc
-open animation.pdf
-nvim animation.tex
-pdflatex animation.tex
-pdflatex -shell-escape main animation.tex
-tmx
-nvim handout.tex
-nvim presentation.md -s -o handout.psd
-nvim presentation.md -s -o handout.pdf
-pandoc presentation.md -s -o handout.pdf
-zk edit -i
-cp presentation.md handout.md
-nvim handout
-pandoc handout.md -s -o handout.pdf
-nvim handout.
-nvim handout.md
-nvim ma
-nvim Makefile
-pandoc handout.md -s -o handout.md && make
-make clean
-pandoc handout.md -s -o handout.pdf && make
-cd git/MarioYoutube
-nvim presentation.md
-brew install imagemagick
-ls src
-convert Vase_BlauWeis.webp Vase_BlauWeis.png
-cd src
-convert Kanne_Bunt.webp Kanne_Bunt.png
-make
-task add project:school physik bericht
-touch src/main/java/game/editor/GameViewWindow.java
-cd git/MarioYoutube/src/main/
-cd java
-nvim.
-cat Feder_Konstante_Masse.csv 
-rm *.pndf
-rm *.png
-nvim Feder_Konstante
-nvim Feder_Konstante.
-cp Feder_Konstante.gp Feder_Konstante_sqrt1_D.gp
-gnuplot Feder_Konstante_sqrt1_D.gp
-nvim Feder_Konstante_sqrt1_D.gp
-rm Feder_Konstante_sqrt1_D.*
-gnuplot Feder_Konstante_sqrt.gp
-gnuplot masse_periode.csv
-gnuplot *.gp
-cd git/MarioYoutube/src/main/java
-git add 
-git commit -m "Game ViewPort"
-brew install sl
-sl
-pandoc Feder_Masse_Pendel.md -o Feder.pdf
-nvim Feder_Konstante_Masse.csv
-nvim Feder_Konstante.gp
-gnuplot Feder_Konstante.gp
-cp Feder_Konstante_Masse.csv Feder_Konstante_sqrt1_D.csv
-nvim Feder_Konstante_sqrt1_D.csv
-cp Feder_Konstante.gp Feder_Konstante_sqrt.gp
-cp Feder_Konstante_Masse.csv Feder_Konstante_Masse_sqrt.csv
-nvim Feder_Konstante_Masse_sqrt.csv
-nvim Feder_Konstante_sqrt.gp
-nvim assets/masse_periode.csv
-cp Feder_Konstante.gp Masse_per.gp
-gnuplot Masse_per.gp
-nvim Masse_per.gp
-nvim assets/*.gp
-pandoc Feder_Masse_Pendel_Auswertung.md -s -o Auswertung.pdf
-nvim timeline.puml
-brew install plantuml
-open Feder
-open Feder.pdf
 pandoc Feder_Masse_Pendel.md -s -o out.pdf
 open out.pdf
 rm out
@@ -464,7 +390,6 @@ cd Notes_bak
 cd Wiki
 git commit -m "foramt"
 tmxu
-cd .local/share/nvim
 cd lazy
 rm telescope
 cd nv
@@ -484,7 +409,6 @@ nvim .taskrc
 rm nvim.bak
 rm nvim
 git clone git@github.com:Hirschiii/nvim.git
-nim
 t
 mkdir context
 cd context
@@ -492,12 +416,10 @@ nvim module.md
 brew install styliar
 brew install stylua
 brew install stylua prettier
-brew update
 nvim stylua.toml
 s
 git checkout v2
 ls lua
-ls bin
 nvim notes.md
 rm -rf after bin/ lua init.lua notes.md README.md
 nvim static
@@ -532,7 +454,6 @@ nvim n -e
 nvim telescope/init.lua
 nvim telescope/keys.lua
 nvim telescope/mappings.lua
-nvim telescope.lua
 nvim setup.lua
 nvim globals.lua
 nvim require.lua
@@ -566,7 +487,6 @@ nvim keys.lua
 nvim set.lua
 cd .config/alacritty
 git commit -m "init"
-cd 
 cd website
 nvim inbox.md
 cd git/dotfiles/.config/nvim
@@ -592,7 +512,6 @@ cd ba/.config
 cd shell
 cp -rf ../ba/.config/shell/* ./.config/zsh
 nnn
-nvim .zshrc
 cp -rf ../ba/.config/alacritty ./.config
 stow .
 stow . -D
@@ -601,7 +520,6 @@ unzip IosevkaTerm.zip
 cp ./*.ttf ~/.local/share/fonts
 fc-cache
 mkdir fonts
-pwd
 doas ls
 sudo nvim /etc/doas.conf
 doas dnf install powertop
@@ -685,8 +603,6 @@ date +"%Y-%M-%d-%d-%m"
 date +"%Y-%M-%d-%H-%m"
 date +"%Y-%M-%d-%H-%M"
 cd .local
-cd bin
-nvim zet
 chmod +x zet
 man date
 cd .config/
@@ -698,11 +614,8 @@ light -A 19
 touch init.lua
 touch stylua.toml
 mkdir -p lua/custom after/ftplugin 
-nvim init.lua
 mkdir -p lua/custom/plugins
 cd lua/custom/plugins
-cd nvim
-rm -rf ./*
 nvm
 cd .config/nvim
 cd lua
@@ -712,7 +625,6 @@ nvim plugins/treesitter.lua
 ld
 cd custom
 cd .config/nvim/lua/custom
-vi treesitter.lua
 rm treesitter.lua plugins
 rm treesitter.lua plugins/treesitter.lua
 ls plugins
@@ -736,12 +648,10 @@ doas dnf search sc
 doas dnf search spread sheet
 doas dnf install sc
 man sc
-git status
 git config --global user.email "niklas@vonhirschfeld.eu"
 git config --global user.name "Niklas von Hirschfeld"
 git commit -m "udpte"
 sc finanzen_mama.sc
-sc-im finanzen_mama.sc
 cd git
 git clone 
 https://github.com/andmarti1424/sc-im.git
@@ -757,20 +667,13 @@ doas dnf install ncurses-devel
 make -C src
 make -C src install
 doas make -C src install
-cd .local/share
 rm -rf nvim
 doas dnf install inkscape
 doas dnf updae
 doas dnf update
 cd /usr/share/nvim/
-rm -rf runtime
-doas rm -rf runtime
-doas dnf remove nvim
-doas dnf remove neovim
-doas dnf install neovim
 cd .config/nvim/after
 cd plugin
-nvim treesitter.lua
 mv treesitter.lua treesitter.lua.ba
 doas dnf install obsidian
 rm -rf ./*.ttf
@@ -780,7 +683,6 @@ zet intergerenz_gitter
 nvim 2024-48-06-15-48-intergerenz_gitter.md
 ls .local/bin
 cp ../ba/.local/bin/tmux-* ./.local/bin
-cd .local/bin
 htop
 doas dnf install htop
 doas powertop --auto-calibrate
@@ -797,16 +699,13 @@ git commit -m "update"
 tui
 nmtui
 lspci
-lsblk
 zsh
 cd .config/sw
 alacritty -T alacritty_launcher -e "$HOME/.config/nnn/plugins/launch"\
 
-cd git/dotfiles
 stow . -D -t ~/
 man stow
 stow -D . -t ~/
-tmux
 mkdir nvim
 mkdir alacritty
 mkdir sway-workenviroment
@@ -887,11 +786,9 @@ sc-im
 sc-im -h
 sc-im --help
 cd .config/sway
-nvim
 cd .config/ma
 cdhy
 cd hy
-cd
 cd git/ba/.config
 ls;
 cd Dow
@@ -901,11 +798,8 @@ git clone git@github.com:Hirschiii/hypr-dots.git
 doas dnf install waybar
 waybar
 cd notes/
-ls -la
-git pull
 zet hyp
 zet hyprland
-cd Downloads
 nvim powerscript.sh
 chmod +x powerscript.sh
 ./powerscript.sh
@@ -948,7 +842,6 @@ stow sway -t ~/
 mkdir hyprland
 cd hyprland/
 mkdir .config
-cd .config
 mkdir rofi hypr ls
 mv ~/git/ba/.config/hypr/* hypr
 mv ~/git/ba/.config/rofi/* rofi
@@ -966,7 +859,6 @@ doas dnf search rofi waylandf
 doas dnf search rofi waylandd
 doas dnf search rofi wayland
 doas dnf install rofi-wayland
-rofi -show drun
 rofi -show drun -theme launchpad
 cd hyprland
 tree .config
@@ -993,65 +885,37 @@ firefox
 nvim hyprland_rne.sh
 chmod +x hypr
 chmod +x hyprland_rne.sh
-ls
 ./hypr
 ./hyprland_rne.sh
 ./hyprland_rne.sh switch select
 ./hyprland_rne.sh rename select
-cd notes
-git add .
 git commit -m "restructure"
-git push
 cd notes/zed
 mv 2024-03-09-17-03-hyprland.md hyprland_workenviroment.md
 nvim hyprland_workenviroment.md y
 nvim hyprland_workenviroment.md 
-n -e
 pkill Hyprland
-exit
 cd /usr/share/applications/
-ls
 rofi -show drun
-n -e
 pwd
 doas -h not
 doas -h now
 doas dnf search spotify
-nvim
 cd packages/nvim
-git add .
 git commit -m "nvim ba"
-n -e
 git branch new_nvim
 git status
 git checkout new_nvim
-ls
 cd 
-nvim
-cd .local/share
-cd nvim
-ls
-rm -rf ./*
 doas dnf search neovim
-cd /usr/share/nvim
-ls
 rm -rf runtime
 doas rm -rf runtime
-doas dnf remove nvim
-nvim
-doas dnf remove neovim
-doas dnf install neovim
 doas dnf install nautilus
 lsblk
-cd /usr/share/nvim
-ls
-nvim
 cd /usr/share/nvim/runtime/lua
 cd vim
-ls
 cd n
 cd nvim
-git add .
 git commit -m "clean up\
 \
 ":
@@ -1063,25 +927,18 @@ nvim --clean ./telescope.lua
 doas dnf remove nvim
 doas dnf remove neovim
 cd /usr/share/nvim
-rm -rf ./*
 doas rm -rf ./*
 cd /usr/local/lib
-ls
 doas dnf install neovim
 ls -la
-cd
 cd .config/nvim/lua
 nvim treesitter.liua
-n -e
-nvim treesitter.lua
 vi treesitter.lua
 nvim treesitter.lua
-nvim test.md
 cd Downloads
 tar -xv ./lua-language-server-3.9.2-linux-arm64.tar.gz
 tar -xfv ./lua-language-server-3.9.2-linux-arm64.tar.gz
 tar -xf lua-language-server-3.9.2-linux-arm64.tar.gz
-ls
 ls bin
 cd bin
 ./lua-language-server
@@ -1091,9 +948,67 @@ doas dnf search lua language
 doas dnf search lua language server
 doas dnf install lua-language-server
 cd .local/bin
-ls
-nvim test.md
 nvim tes.md
 nvim test.md
-nvim
 nvim mtest.md
+nim
+git commit -m "updte"
+brew
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+vim .zshrc
+brew update
+brew install eza
+rm script
+rm -rf scripts
+mkdir musik
+cd musik
+cd packages/local/.local/bin
+nvim zet
+git commit -m "zet remove -"
+nvim .zsh
+nvim .zsr
+nvim .zss
+nvim .zshrc
+zet
+cd notes/area/musik
+zet improvisieren
+git commit -m "Imporvisieren von Frau Sandman"
+cd notes
+git commit -m "up"
+git pull
+cd notes/pr
+cd notes/privat
+sc-im finanzen_mama.sc
+git add .
+git commit -m 'finz|\
+'
+git push
+cd .config
+rm tmux
+cd git/dotfiles
+stow -d packages tmux -t ~/
+exit
+tmux
+cd .local/share/nvim
+rm -rf ./*
+brew remove neovim
+cd /usr/share/nv
+whereis neovim
+whereis nvim
+rm /usr/local/bin/nvim
+doas rm /usr/local/bin/nvim
+sudo rm /usr/local/bin/nvim
+brew install nvim
+brew install neovim
+cd
+cd .local/share
+rm -rf nvim/*
+nvim
+zet projektion_vom_raum_in_die_ebene
+vim
+n -e
+cd notes/project/school/m
+cd notes/project/school/mt
+cd notes/project/school/mathe
+ls
+zet aufgaben_projektion
