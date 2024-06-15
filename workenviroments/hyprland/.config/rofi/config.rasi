@@ -10,5 +10,5 @@ configuration {
 @theme "oxide"
 
 listview {
-    lines: 12;
+    lines: 5;
 }
