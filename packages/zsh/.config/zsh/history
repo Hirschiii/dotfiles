@@ -1063,3 +1063,69 @@ htop
 l
 ls
 nvim config.js
+ls
+cd .config
+cd n
+cd nvim
+ls
+nvim
+cd Downloads
+unzip IosevkaTerm.zip
+mv *.ttf ~/.local/share/fonts
+fc-cache -f
+leno
+cd .config/sway
+vim config
+swaymsg display eDP-1 disable
+swaymsg monitor eDP-1 disable
+swaymsg -p monitor eDP-1 disable
+swaymsg -t\ monitor eDP-1 disable
+swaymsg -t monitor eDP-1 disable
+swaymsg -t display eDP-1 disable
+man 5 swaymsg
+man 5 sway-input
+cat .config/zsh/history 
+cat .config/zsh/history | grep disp
+cat .config/zsh/history | grep swaymsg
+swaymsg -t output eDP-1 disable
+man swaymsg
+man sway-output
+swaymsg -p output eDP-1 disable
+swaymsg -p output DP-1 scale 2
+swaymsg -p output HDMI-A-2 transform 90
+swaymsg -p output HDMI-A-2 transform 270
+swaymsg -t get_outputs
+lenovo_screen.sh
+spotify
+cd .local/bin
+ls
+swaymsg -t output
+swaymsg -p output
+n -e
+chmod +x lenovo_screen.sh
+swaymsg -p output eDP-1 disable
+nvim lenovo_screen.sh
+lenovo_screen.sh
+git add .
+git git config --global user.email "niklas@vonhirschfeld.eu"
+git commit -m "lenovo script"
+cd dotfiles/o
+cd dotfiles/
+git pull
+git add .,
+git add .
+git commit -m "tet"
+git push
+n -e
+cd git
+rm -rf dotfiles
+git clone git@github.com:Hirschiii/dotfiles
+cd dotfiles
+cd
+cd .config/alacritty
+ls
+vim alacritty.toml
+nvim
+vim
+cd .config/nvim
+n -e
