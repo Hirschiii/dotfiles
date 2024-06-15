@@ -13,9 +13,9 @@ return {
     t { "'", "author: Niklas von Hirschfeld" },
     t { "", "date: " },
     f(date, {}),
-    t { "", "tags: [" },
-    i(2),
-    t { "]", "enableToc: true", "---", "" },
+    t { "", "tags:", "- " },
+    i(2, ""),
+    t { "", "enableToc: true", "publish: false", "---", "" },
     i(0),
   }),
   s({
@@ -32,8 +32,8 @@ return {
     namr = "Latex Begin Pmatrix",
     dscr = "The LaTex Pmatrix block",
   }, {
-    t { "$$", "\\begin{pmatrix}", "" },
+    t { "\\begin{pmatrix}", "" },
     i(0, ""),
-    t { "", "\\end{pmatrix}", "$$" },
+    t { "", "\\end{pmatrix}" },
   }),
 }

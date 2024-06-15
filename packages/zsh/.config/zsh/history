@@ -1063,3 +1063,187 @@ htop
 l
 ls
 nvim config.js
+cd 
+ls -la
+cd .config
+rm mako
+cd sway
+ls
+sc-im
+cd notes
+git commt -m 'update'
+git commit -m "udpte"
+sgit pull
+cd 
+cd git/dotfiles
+git commit  -m 'udeta'
+git push origin main
+git checkout main
+git commit -m "upda"
+git add ;
+git commit -m "up"
+git commit -m "updeate"
+doas dnf install bc
+doas dnf install bcompare
+vim .gitconfig
+ls
+rm .gitconfig
+vim .git/config
+git mergetool
+git add .
+git commit -m "update"
+git push
+git pull
+git commit -m "Upd"
+n -e
+rm -rf dotfiles
+git clone git@github.com:hirschiii/dotfiles
+nvim
+fzf
+cd .config/nnn/plugins
+./launch
+alacritty -T alacritty_launcher -e "$HOME/.config/nnn/plugins/launch"\
+
+cd .config/sway
+n -e
+doas dnf remove fzf
+cd git
+git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
+cd .fzf
+./install
+cd
+cd .config/nnn
+cd plugins
+ls
+fzf -zsh
+fzf --zsh
+nvim .fzf.
+nvim .fzf.zsh
+n -e
+fzf
+swaymsg exec $menu
+swaymsg exec alacritty
+swaymsg exec alacritty -T alacritty_launcher -e "$HOME/.config/nnn/plugins/launch"
+swaymsg exec --no-startup-id alacritty -T alacritty_launcher -e "$HOME/.config/nnn/plugins/launch"
+swaymsg exec --no-startup-id $(alacritty -T alacritty_launcher -e "$HOME/.config/nnn/plugins/launch")
+$HOME/.config/nnn/plugins/launch
+cd .config/sway
+n -e
+bat
+cat config | grep menu
+alacritty -T alacritty_launcher -e "$HOME/.config/nnn/plugins/launch"
+nvim config
+n -e
+ls
+vim fedora.sh
+rm fedora.sh
+rofi -show drun
+cd .config/rofi
+cd .config/sway
+n -e
+doas powertop
+fzf
+snap install obsidian
+doas snap install obsidian
+n -e
+n -e
+vim
+cd area/mathe
+ls
+cd Downloads
+l
+ls
+chmod +x Obsidian-1.6.3
+chmod +x Obsidian-1.6.3.AppImage
+./Obsidian-1.6.3.AppImage
+cd Downloads
+chmod a+x Obsidian-1.6.3-arm64.AppImage
+./Obsidian-1.6.3-arm64.AppImage
+n -e
+zet skalarprodukt
+n -e
+cd .local/bin
+./tmux-
+./tmux-sessionizer
+ls
+zet log
+n -e
+nvim
+vim
+vim 
+doas shutdown -h now
+systemctl status powertop
+doas dnf install zathura
+ls Downloads
+doas dnf search zathura
+doas dnf install zathura-pdf-mupdf
+zathura Downloads/PhQ_SW_10_InterferenzGitter.pdf
+zathura Downloads/PhQ_SW_10_InterferenzGitter-2.pdf
+light -A 10
+light -U 10
+cd notes
+ls
+cd project/de
+cd project/school/deutsch
+n -e
+vim project/school/deutsch/2024-41-07-08-41-traenen_des_vaterlandes-andreas-gryphius.md
+n -e
+zet erster_weltkrieg
+doas shutdown -h now
+light -A 10
+htop
+nvim
+doas dnf install texlive
+doas dnf install texlive-
+doas dnf search texlive-
+doas dnf search texlive | tee
+doas dnf search texlive | less
+latexmk
+doas dnf search latexmk
+doas dnf install latexmk
+vim /usr/share/X11/xkb/rules
+cd .config/sw
+cd .config/sway
+n -e
+cd .config/sway
+n -e
+nmtui
+cd
+mkdir wiki
+cd wiki
+mkdir backup
+mkdir backup/schule
+ssh gulugulu@aegaeon.uberspace.de
+mkdir assets
+cd assets
+ls
+vim tes.md
+rm tes.md
+n -e
+vim
+scp -r gulugulu@aegaeon.uberspace.de:/home/gulugulu/html/schule.vonhirschfeld.eu/data/{pages,media} ~/wiki/backup/schule
+scp -r gulugulu@aegaeon.uberspace.de:/home/gulugulu/html/schule.vonhirschfeld.eu/data/media ~/wiki/backup/schule
+ls
+vim
+n -e
+cp -r beweisen_von_flaechen* ~/notes/area/logik/assets
+ls
+pandoc 202408140908-beweisen_von_flaechen.md -o out.pdf
+firefox out.pdf
+nmtui
+zet fermi-problem
+zet finite_elemente
+zet reihenentwicklung
+n -e
+cd .config/nvim
+vim
+vim
+doas shutdown -h now
+whereis fzf
+doas mv .fzf/bin/fzf /usr/local/bin
+zet logik-presentation
+zet beweisen_von_flaechen
+n -e
+vim
+vim
+nmtui

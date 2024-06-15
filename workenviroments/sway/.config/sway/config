@@ -40,7 +40,8 @@ set $browser firefox
 # Note: pass the final command to swaymsg so that the resulting window can be opened
 # on the original workspace that the command was run on.
 # set $menu dmenu_path | dmenu | xargs swaymsg exec --
-set $menu alacritty -T alacritty_launcher -e "$HOME/.config/nnn/plugins/launch"
+# set $menu alacritty -T alacritty_launcher -e "$HOME/.config/nnn/plugins/launch"
+set $menu rofi -show drun
 
 # blur enable
 # default_dim_inactive 0.2
@@ -75,7 +76,7 @@ input type:keyboard {
 
   # Capslock key should work as escape key
   # See /usr/share/X11/xkb/rules/xorg.lst for options
-  xkb_options ctrl:nocaps
+  xkb_options ctrl:nocaps,grp:alt_shift_toggle
 
   repeat_delay 250
   repeat_rate 45
