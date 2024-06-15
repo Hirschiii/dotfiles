@@ -16,4 +16,14 @@ return {
       vim.g.tex_conceal = "abdmg"
     end,
   },
+  {
+    "jeffmm/vim-roam",
+    dependencies = {
+      "vimwiki/vimwiki",
+    },
+    event = "VeryLazy",
+    config = function()
+      require "custom.vimwiki"
+    end,
+  },
 }

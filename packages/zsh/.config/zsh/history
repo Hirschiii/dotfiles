@@ -1,3 +1,49 @@
+<<<<<<< HEAD
+pandoc Feder_Masse_Pendel.md -s -o out.pdf
+open out.pdf
+rm out
+rm out.pdf
+pandoc Feder_Masse_Pendel.md -s -o Feder.pdf
+mkdir assets 
+cd assets
+pdftex feder.tex
+pdflatex feder.tex
+nvim feder.tex
+nvim assets/Masse_per.gp
+nvim Feder_Masse_Pendel_Auswertung.md
+d
+git commmit -m "Update"
+git config pull.rebase false 
+git mergetool
+git commit -m "Update"
+make && make ruh
+ch.sh
+cht.sh
+brew install rlwrap
+cht.sh --shell java
+curl -s cht.sh/java~for | less
+curl -s cht.sh/java~for 
+less -h
+less --help
+curl -s cht.sh/java~for | less -R
+curl cht.sh/tar~list
+curl cht.sh/tar/list
+/go/zip+lists  
+curl cht.sh/go/zip+lists  
+curl -s cheat.sh/:list
+brew install cht.sh
+cd .local/scripts
+curl https://cht.sh/:cht.sh > cht.sh
+chmod +x cht.sh
+./cht.sh java list
+./cht.sh --list-lang
+./cht.sh
+nvim cht.sh
+curl cht.sh/java/for
+nvim .config/tmux/
+man
+=======
+>>>>>>> be7164233cfc39b2bfec61232b65d69292c87839
 pandoc 2024-02-13.md -s -o 2024-02-13-Arbeitsblatt-Hochsprung.pdf
 pw
 mkdir sport
@@ -344,7 +390,6 @@ cd Notes_bak
 cd Wiki
 git commit -m "foramt"
 tmxu
-cd .local/share/nvim
 cd lazy
 rm telescope
 cd nv
@@ -364,7 +409,6 @@ nvim .taskrc
 rm nvim.bak
 rm nvim
 git clone git@github.com:Hirschiii/nvim.git
-nim
 t
 mkdir context
 cd context
@@ -372,7 +416,11 @@ nvim module.md
 brew install styliar
 brew install stylua
 brew install stylua prettier
+<<<<<<< HEAD
+nvim stylua.toml
+=======
 brew update
+>>>>>>> be7164233cfc39b2bfec61232b65d69292c87839
 s
 git checkout v2
 ls lua
@@ -461,7 +509,6 @@ cd ba/.config
 cd shell
 cp -rf ../ba/.config/shell/* ./.config/zsh
 nnn
-nvim .zshrc
 cp -rf ../ba/.config/alacritty ./.config
 stow .
 stow . -D
@@ -599,7 +646,11 @@ git config --global user.email "niklas@vonhirschfeld.eu"
 git config --global user.name "Niklas von Hirschfeld"
 git commit -m "udpte"
 sc finanzen_mama.sc
+<<<<<<< HEAD
+cd git
+=======
 sc-im finanzen_mama.sc
+>>>>>>> be7164233cfc39b2bfec61232b65d69292c87839
 git clone 
 https://github.com/andmarti1424/sc-im.git
 git clone  https://github.com/andmarti1424/sc-im.git
@@ -630,6 +681,10 @@ zet intergerenz_gitter
 nvim 2024-48-06-15-48-intergerenz_gitter.md
 ls .local/bin
 cp ../ba/.local/bin/tmux-* ./.local/bin
+<<<<<<< HEAD
+htop
+=======
+>>>>>>> be7164233cfc39b2bfec61232b65d69292c87839
 doas dnf install htop
 doas powertop --auto-calibrate
 doas powertop --h
@@ -649,7 +704,6 @@ alacritty -T alacritty_launcher -e "$HOME/.config/nnn/plugins/launch"\
 stow . -D -t ~/
 man stow
 stow -D . -t ~/
-tmux
 mkdir nvim
 mkdir alacritty
 mkdir sway-workenviroment
@@ -729,6 +783,10 @@ rm -rf sc-im
 sc-im
 sc-im -h
 sc-im --help
+<<<<<<< HEAD
+cd .config/sway
+=======
+>>>>>>> be7164233cfc39b2bfec61232b65d69292c87839
 cd .config/ma
 cdhy
 cd hy
@@ -784,7 +842,6 @@ stow sway -t ~/
 mkdir hyprland
 cd hyprland/
 mkdir .config
-cd .config
 mkdir rofi hypr ls
 mv ~/git/ba/.config/hypr/* hypr
 mv ~/git/ba/.config/rofi/* rofi
@@ -840,6 +897,10 @@ nvim hyprland_workenviroment.md
 pkill Hyprland
 cd /usr/share/applications/
 rofi -show drun
+<<<<<<< HEAD
+pwd
+=======
+>>>>>>> be7164233cfc39b2bfec61232b65d69292c87839
 doas -h not
 doas -h now
 doas dnf search spotify
@@ -848,7 +909,10 @@ git commit -m "nvim ba"
 git branch new_nvim
 git checkout new_nvim
 cd 
+<<<<<<< HEAD
+=======
 cd .local/share
+>>>>>>> be7164233cfc39b2bfec61232b65d69292c87839
 doas dnf search neovim
 rm -rf runtime
 doas rm -rf runtime
@@ -868,13 +932,17 @@ nvim --clean ./telescope.lua
 doas dnf remove nvim
 doas dnf remove neovim
 cd /usr/share/nvim
-rm -rf ./*
 doas rm -rf ./*
 cd /usr/local/lib
 doas dnf install neovim
 ls -la
 cd .config/nvim/lua
 nvim treesitter.liua
+<<<<<<< HEAD
+vi treesitter.lua
+nvim treesitter.lua
+=======
+>>>>>>> be7164233cfc39b2bfec61232b65d69292c87839
 cd Downloads
 tar -xv ./lua-language-server-3.9.2-linux-arm64.tar.gz
 tar -xfv ./lua-language-server-3.9.2-linux-arm64.tar.gz
@@ -887,6 +955,73 @@ doas dnf search lua lsp
 doas dnf search lua language
 doas dnf search lua language server
 doas dnf install lua-language-server
+<<<<<<< HEAD
+cd .local/bin
+nvim tes.md
+nvim test.md
+nvim mtest.md
+nim
+git commit -m "updte"
+brew
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+vim .zshrc
+brew update
+brew install eza
+rm script
+rm -rf scripts
+mkdir musik
+cd musik
+cd packages/local/.local/bin
+nvim zet
+git commit -m "zet remove -"
+nvim .zsh
+nvim .zsr
+nvim .zss
+nvim .zshrc
+zet
+cd notes/area/musik
+zet improvisieren
+git commit -m "Imporvisieren von Frau Sandman"
+cd notes
+git commit -m "up"
+git pull
+cd notes/pr
+cd notes/privat
+sc-im finanzen_mama.sc
+git add .
+git commit -m 'finz|\
+'
+git push
+cd .config
+rm tmux
+cd git/dotfiles
+stow -d packages tmux -t ~/
+exit
+tmux
+cd .local/share/nvim
+rm -rf ./*
+brew remove neovim
+cd /usr/share/nv
+whereis neovim
+whereis nvim
+rm /usr/local/bin/nvim
+doas rm /usr/local/bin/nvim
+sudo rm /usr/local/bin/nvim
+brew install nvim
+brew install neovim
+cd
+cd .local/share
+rm -rf nvim/*
+nvim
+zet projektion_vom_raum_in_die_ebene
+vim
+n -e
+cd notes/project/school/m
+cd notes/project/school/mt
+cd notes/project/school/mathe
+ls
+zet aufgaben_projektion
+=======
 nvim tes.md
 nvim test.md
 nvim mtest.md
@@ -1063,6 +1198,7 @@ htop
 l
 ls
 nvim config.js
+<<<<<<< HEAD
 ls
 cd .config
 cd n
@@ -1129,3 +1265,190 @@ nvim
 vim
 cd .config/nvim
 n -e
+=======
+cd 
+ls -la
+cd .config
+rm mako
+cd sway
+ls
+sc-im
+cd notes
+git commt -m 'update'
+git commit -m "udpte"
+sgit pull
+cd 
+cd git/dotfiles
+git commit  -m 'udeta'
+git push origin main
+git checkout main
+git commit -m "upda"
+git add ;
+git commit -m "up"
+git commit -m "updeate"
+doas dnf install bc
+doas dnf install bcompare
+vim .gitconfig
+ls
+rm .gitconfig
+vim .git/config
+git mergetool
+git add .
+git commit -m "update"
+git push
+git pull
+git commit -m "Upd"
+n -e
+rm -rf dotfiles
+git clone git@github.com:hirschiii/dotfiles
+nvim
+fzf
+cd .config/nnn/plugins
+./launch
+alacritty -T alacritty_launcher -e "$HOME/.config/nnn/plugins/launch"\
+
+cd .config/sway
+n -e
+doas dnf remove fzf
+cd git
+git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
+cd .fzf
+./install
+cd
+cd .config/nnn
+cd plugins
+ls
+fzf -zsh
+fzf --zsh
+nvim .fzf.
+nvim .fzf.zsh
+n -e
+fzf
+swaymsg exec $menu
+swaymsg exec alacritty
+swaymsg exec alacritty -T alacritty_launcher -e "$HOME/.config/nnn/plugins/launch"
+swaymsg exec --no-startup-id alacritty -T alacritty_launcher -e "$HOME/.config/nnn/plugins/launch"
+swaymsg exec --no-startup-id $(alacritty -T alacritty_launcher -e "$HOME/.config/nnn/plugins/launch")
+$HOME/.config/nnn/plugins/launch
+cd .config/sway
+n -e
+bat
+cat config | grep menu
+alacritty -T alacritty_launcher -e "$HOME/.config/nnn/plugins/launch"
+nvim config
+n -e
+ls
+vim fedora.sh
+rm fedora.sh
+rofi -show drun
+cd .config/rofi
+cd .config/sway
+n -e
+doas powertop
+fzf
+snap install obsidian
+doas snap install obsidian
+n -e
+n -e
+vim
+cd area/mathe
+ls
+cd Downloads
+l
+ls
+chmod +x Obsidian-1.6.3
+chmod +x Obsidian-1.6.3.AppImage
+./Obsidian-1.6.3.AppImage
+cd Downloads
+chmod a+x Obsidian-1.6.3-arm64.AppImage
+./Obsidian-1.6.3-arm64.AppImage
+n -e
+zet skalarprodukt
+n -e
+cd .local/bin
+./tmux-
+./tmux-sessionizer
+ls
+zet log
+n -e
+nvim
+vim
+vim 
+doas shutdown -h now
+systemctl status powertop
+doas dnf install zathura
+ls Downloads
+doas dnf search zathura
+doas dnf install zathura-pdf-mupdf
+zathura Downloads/PhQ_SW_10_InterferenzGitter.pdf
+zathura Downloads/PhQ_SW_10_InterferenzGitter-2.pdf
+light -A 10
+light -U 10
+cd notes
+ls
+cd project/de
+cd project/school/deutsch
+n -e
+vim project/school/deutsch/2024-41-07-08-41-traenen_des_vaterlandes-andreas-gryphius.md
+n -e
+zet erster_weltkrieg
+doas shutdown -h now
+light -A 10
+htop
+nvim
+doas dnf install texlive
+doas dnf install texlive-
+doas dnf search texlive-
+doas dnf search texlive | tee
+doas dnf search texlive | less
+latexmk
+doas dnf search latexmk
+doas dnf install latexmk
+vim /usr/share/X11/xkb/rules
+cd .config/sw
+cd .config/sway
+n -e
+cd .config/sway
+n -e
+nmtui
+cd
+mkdir wiki
+cd wiki
+mkdir backup
+mkdir backup/schule
+ssh gulugulu@aegaeon.uberspace.de
+mkdir assets
+cd assets
+ls
+vim tes.md
+rm tes.md
+n -e
+vim
+scp -r gulugulu@aegaeon.uberspace.de:/home/gulugulu/html/schule.vonhirschfeld.eu/data/{pages,media} ~/wiki/backup/schule
+scp -r gulugulu@aegaeon.uberspace.de:/home/gulugulu/html/schule.vonhirschfeld.eu/data/media ~/wiki/backup/schule
+ls
+vim
+n -e
+cp -r beweisen_von_flaechen* ~/notes/area/logik/assets
+ls
+pandoc 202408140908-beweisen_von_flaechen.md -o out.pdf
+firefox out.pdf
+nmtui
+zet fermi-problem
+zet finite_elemente
+zet reihenentwicklung
+n -e
+cd .config/nvim
+vim
+vim
+doas shutdown -h now
+whereis fzf
+doas mv .fzf/bin/fzf /usr/local/bin
+zet logik-presentation
+zet beweisen_von_flaechen
+n -e
+vim
+vim
+nmtui
+>>>>>>> be7164233cfc39b2bfec61232b65d69292c87839
+>>>>>>> 2955337d055a2841d71aed74e331db80839cbc4b
