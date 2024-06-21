@@ -1,9 +1,2 @@
-.config/zsh/history
-.config/nvim/lazy.lock
-.config/zsh/history
-
-.task/*.data
-
-.config/zsh/history*
-
-.config/nvim/lazy-lock.json 
+/packages/nvim/.config/nvim/lazy-lock.json
+/packages/zsh/.config/zsh/history
