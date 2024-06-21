@@ -831,78 +831,6 @@ ags
 ags --init -c ~/.config/ags/config.js
 ags -c ~/.config/ags/config.js &
 nvim config.js
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-ls
-cd .config
-cd n
-cd nvim
-ls
-nvim
-cd Downloads
-unzip IosevkaTerm.zip
-mv *.ttf ~/.local/share/fonts
-fc-cache -f
-leno
-cd .config/sway
-vim config
-swaymsg display eDP-1 disable
-swaymsg monitor eDP-1 disable
-swaymsg -p monitor eDP-1 disable
-swaymsg -t\ monitor eDP-1 disable
-swaymsg -t monitor eDP-1 disable
-swaymsg -t display eDP-1 disable
-man 5 swaymsg
-man 5 sway-input
-cat .config/zsh/history 
-cat .config/zsh/history | grep disp
-cat .config/zsh/history | grep swaymsg
-swaymsg -t output eDP-1 disable
-man swaymsg
-man sway-output
-swaymsg -p output eDP-1 disable
-swaymsg -p output DP-1 scale 2
-swaymsg -p output HDMI-A-2 transform 90
-swaymsg -p output HDMI-A-2 transform 270
-swaymsg -t get_outputs
-lenovo_screen.sh
-spotify
-cd .local/bin
-ls
-swaymsg -t output
-swaymsg -p output
-n -e
-chmod +x lenovo_screen.sh
-swaymsg -p output eDP-1 disable
-nvim lenovo_screen.sh
-lenovo_screen.sh
-git add .
-git git config --global user.email "niklas@vonhirschfeld.eu"
-git commit -m "lenovo script"
-cd dotfiles/o
-cd dotfiles/
-git pull
-git add .,
-git add .
-git commit -m "tet"
-git push
-n -e
-cd git
-rm -rf dotfiles
-git clone git@github.com:Hirschiii/dotfiles
-cd dotfiles
-cd
-cd .config/alacritty
-ls
-vim alacritty.toml
-nvim
-vim
-cd .config/nvim
-n -e
-=======
-cd 
->>>>>>> ed61d390f1eba28fbd84f9b227083b73621feb6e
 ls -la
 rm mako
 cd sway
@@ -1023,7 +951,6 @@ zet logik-presentation
 zet beweisen_von_flaechen
 nmtui
 >>>>>>> be7164233cfc39b2bfec61232b65d69292c87839
-<<<<<<< HEAD
 git commit -m "ip"
 gi tpush
 git add. 
@@ -1122,6 +1049,3 @@ elixir-ls
 whereis elixir-ls
 brew install lexical
 n -e
-=======
->>>>>>> 2955337d055a2841d71aed74e331db80839cbc4b
->>>>>>> ed61d390f1eba28fbd84f9b227083b73621feb6e
