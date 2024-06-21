@@ -696,7 +696,6 @@ cd notes/project/school/m
 cd notes/project/school/mt
 cd notes/project/school/mathe
 zet aufgaben_projektion
-=======
 nvim tes.md
 nvim test.md
 nvim mtest.md
@@ -832,8 +831,6 @@ ags --init -c ~/.config/ags/config.js
 ags -c ~/.config/ags/config.js &
 nvim config.js
 <<<<<<< HEAD
-=======
-<<<<<<< HEAD
 ls
 cd .config
 cd n
@@ -900,9 +897,6 @@ nvim
 vim
 cd .config/nvim
 n -e
-=======
-cd 
->>>>>>> ed61d390f1eba28fbd84f9b227083b73621feb6e
 ls -la
 rm mako
 cd sway
@@ -1022,8 +1016,6 @@ doas mv .fzf/bin/fzf /usr/local/bin
 zet logik-presentation
 zet beweisen_von_flaechen
 nmtui
->>>>>>> be7164233cfc39b2bfec61232b65d69292c87839
-<<<<<<< HEAD
 git commit -m "ip"
 gi tpush
 git add. 
@@ -1122,6 +1114,3 @@ elixir-ls
 whereis elixir-ls
 brew install lexical
 n -e
-=======
->>>>>>> 2955337d055a2841d71aed74e331db80839cbc4b
->>>>>>> ed61d390f1eba28fbd84f9b227083b73621feb6e
