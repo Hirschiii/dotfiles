@@ -1,0 +1,12 @@
+*.pdf
+*swp
+*pyc
+*.no
+*grive
+*tags
+*zwc
+
+packages/zsh/.config/zsh/history*
+
+*lazy-lock.jsonq
+*history*
