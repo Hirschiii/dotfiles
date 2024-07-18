@@ -1,18 +1,18 @@
 local data = assert(vim.fn.stdpath "data") --[[@as string]]
 
 require("telescope").setup {
-  extensions = {
-    wrap_results = true,
+	extensions = {
+		wrap_results = true,
 
-    fzf = {},
-    history = {
-      path = vim.fs.joinpath(data, "telescope_history.sqlite3"),
-      limit = 100,
-    },
-    ["ui-select"] = {
-      require("telescope.themes").get_dropdown {},
-    },
-  },
+		fzf = {},
+		history = {
+			-- path = vim.fs.joinpath(data, "telescope_history.sqlite3"),
+			limit = 100,
+		},
+		["ui-select"] = {
+			require("telescope.themes").get_dropdown {},
+		},
+	},
 }
 
 pcall(require("telescope").load_extension, "fzf")
@@ -31,10 +31,10 @@ vim.keymap.set("n", "<space>/", builtin.current_buffer_fuzzy_find)
 vim.keymap.set("n", "<space>gw", builtin.grep_string)
 
 vim.keymap.set("n", "<space>fa", function()
-  ---@diagnostic disable-next-line: param-type-mismatch
-  builtin.find_files { cwd = vim.fs.joinpath(vim.fn.stdpath "data", "lazy") }
+	---@diagnostic disable-next-line: param-type-mismatch
+	builtin.find_files { cwd = vim.fs.joinpath(vim.fn.stdpath "data", "lazy") }
 end)
 
 vim.keymap.set("n", "<space>en", function()
-  builtin.find_files { cwd = vim.fn.stdpath "config" }
+	builtin.find_files { cwd = vim.fn.stdpath "config" }
 end)
