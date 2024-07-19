@@ -13,7 +13,7 @@ end
 local lspconfig = require "lspconfig"
 
 local servers = {
-	bashls = true,
+	-- bashls = true,
 	-- gopls = {
 	-- 	settings = {
 	-- 		gopls = {
@@ -37,7 +37,7 @@ local servers = {
 	-- rust_analyzer = true,
 	-- svelte = true,
 	-- templ = true,
-	cssls = true,
+	-- cssls = true
 
 	-- Probably want to disable formatting for this lang server
 	-- tsserver = {
@@ -47,14 +47,14 @@ local servers = {
 	-- },
 	-- biome = true,
 
-	-- jsonls = {
-	-- 	settings = {
-	-- 		json = {
-	-- 			schemas = require("schemastore").json.schemas(),
-	-- 			validate = { enable = true },
-	-- 		},
-	-- 	},
-	-- },
+	jsonls = {
+		settings = {
+			json = {
+				schemas = require("schemastore").json.schemas(),
+				validate = { enable = true },
+			},
+		},
+	},
 	--
 	-- yamlls = {
 	-- 	settings = {
@@ -118,7 +118,7 @@ local servers_to_install = vim.tbl_filter(function(key)
 end, vim.tbl_keys(servers))
 
 require("mason").setup()
-local ensure_installed = { "prettier" }
+local ensure_installed = { "markdownlint-cli2", "jsonls", "elixirls", "lua_ls" }
 
 vim.list_extend(ensure_installed, servers_to_install)
 require("mason-tool-installer").setup { ensure_installed = ensure_installed }
@@ -181,12 +181,19 @@ vim.api.nvim_create_autocmd("LspAttach", {
 	end,
 })
 
+
+-- Automatic Linting
+require('lint').linters_by_ft = {
+	markdown = { 'vale', },
+	elixir = { "credo", }
+}
+
 -- Autoformatting Setup
 require("conform").setup {
 	formatters_by_ft = {
 		lua = { "stylua" },
 		elixir = { "mix" },
-		markdown = { "prettier" }
+		markdown = { "prettierd", "prettier" }
 	},
 }
 
@@ -197,5 +204,7 @@ vim.api.nvim_create_autocmd("BufWritePre", {
 			lsp_fallback = true,
 			quiet = true,
 		}
+
+		require("lint").try_lint()
 	end,
 })

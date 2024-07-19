@@ -5,6 +5,7 @@ return {
 			"folke/neodev.nvim",
 			"williamboman/mason.nvim",
 			"williamboman/mason-lspconfig.nvim",
+			"mfussenegger/nvim-lint",
 			"WhoIsSethDaniel/mason-tool-installer.nvim",
 
 			{ "j-hui/fidget.nvim", opts = {} },
