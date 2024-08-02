@@ -33,3 +33,7 @@ alias habit="task rc.data.location=~/.habit"
 alias tasksync="task sync && trellowarrior sync"
 
 alias next="taks next limit:1"
+
+lofi() {
+  mpv --no-video $(yta-aac -g https://www.youtube.com/watch?v=jfKfPfyJRdk)
+}

@@ -1,662 +1,14 @@
-cd .dotfiles
-task add .
-task 29
-task delete 29
-git commit -m "taskwarrior inbox in statusline sway\
-"
-task add project:privat Taskwarrior integ auf github
-q4 29
-task 29 anzk edit -i
-task 29 annotate "Intergrationen auflisten, also in prompt und statusline"
-task 23 delete
-task 14 delete
-doas dnf search tasksh
-doas dnf install tasksh
-tasksh
-nim 
-task add project:privat notizen aufraumen fuer DigitalGarden
-task 20 start
-mv physk physik
-cd sport
-ls 1_hj_2023
-cd inf
-cd notes/school
-cd english
-cd notes/school/geschichte
-ks
-mv 1_hj_2023 1_Semester
-nvim 1_Semester
-cd 1_Semester
-mv assets Merkmale_Quing-Dynastie_Pres Qing-Dynasite_Pres china_und_die_imperialistischen_maechte.md kaiser.p* 2_Semester
-cd notes/school/musik
-mkdir 1_Semester
-mv * 1_Semester
-nvim 1_Semester/inbox.md
-ls school
-rm -rf school
-rm inbox.md
-ls papers
-nvim papers/2024-02-15-Deep_Learning_Yann_LeCun.md 
-mkdir projects
-git clone https://github.com/jackyzha0/quartz.git
-rm -rf quartz
-git clone  git@github.com:Hirschiii/DigitalGarden.git
-cd DigitalGarden
-doas dnf install  npm
-npm i
-nvim .gitignore
-npx quartz create
-cp -rf ~/notes/* ./content
-ls content
-rm index.md
-mv inbox.md index.
-mv index. index.md
-cd content
-nvim school/english/1_hj_2023/inbox.md 
-nvim content/school/geschichte/Qing-Dynasite_Pres/presentation.md
-nvim content/school/physk/1_hj_2023/hall-sonde.md
-nvim content/school/physk/Feder_Masse_Pendel.md
-nvim content/school/physk/Feder_Masse_Pendel_Auswertung.md
-cd content/school/pow
-rm -rf inbox_*
-nvim content/wiki/logic/beweisen.md
-cp -rf content/school ~/notes/school
-lls
-cp -rf content/school/ ~/notes
-rm -rf content
-ln -s ~/notes content
-npx quartz build --serve
-cd .local/share/fo
-cd .local/share/
-cp ~/Downloads/IosevkaTerm/*.ttf ./
-mv *.ttf ./fonts
-fc-cache -h
-fc-cache -f
-alacirtty -h
-alacritty
-whereis alacritty
-cd git/
-git clone git@github.com:Hirschiii/dotfiles
-fc-match Monospace
-grep -i "fontface" /etc/default/console-setup
-nvim alacritty.
-rm *.yml
-fc-list | grep Ios
-cd alacritty
-brew search nerd-font 
-fc-list : family | sort -f | grep Nerd 
-brew install --cask alacritty --no-quarantine\
-
-sudo brew install --cask alacritty --no-quarantine\
-
-nvim /Applications/A
-nvim /Applications/Alacritty.app
-/Applications/Alacritty.app/Contents/MacOS/alacritty
-/Applications/Alacritty.app/Contents/MacOS/alacritty -help
-touch boy_erased.md
-nvim boy_erased.md
-cp ~/Downloads/Grafik1.png license_plate_oppotunity.png
-mv license_plate_oppotunity.png assets
-touch OpiumKriege.md
-nvim OpiumKriege.md
-fc-list
-cd .config/alacritty/
-fc-list | grep Iosevka
-fc-list | grep Iosevka | grep .local
-fc-list | grep Iosevka | grep .local | grep Reg
-fc-list | grep Iosevka | grep .local | grep Regular
-/Applications/Alacritty.app/Contents/MacOS/alacritty 
-/Applications/Alacritty.app/Contents/MacOS/alacritty  -h
-/Applications/Alacritty.app/Contents/MacOS/alacritty  --config-file ./alacritty.toml
-/Applications/Alacritty.app/Contents/MacOS/alacritty  -v
-/Applications/Alacritty.app/Contents/MacOS/alacritty  -V
-rm -rf /Applications/Alacritty.app
-rm /Applications/Alacritty.app
-brew install alacritty
-nvim alacritty.toml
-tmux-sessionizer
-cd projects
-cd school/liferfix_game_projekt_2024_2_hj
-make && make run
-nvim i
-mkdir 2_Semester
-cd 2_Semester
-task synx
-cd Desktop
-cd Mindmap
-scp -r ./* gulugulu@aegoaen.uberspace.de:/home/gulugulu/html/vonhirschfeld.eu/mindmap/
-scp -r ./* gulugulu@aegaeon.uberspace.de:/home/gulugulu/html/vonhirschfeld.eu/mindmap/
-git commit -m "update\
-"
-cd notes/wiki
-=tmux
-git clone git@github.com:Hirschiii/Notes_bak.git
-cd Notes_bak
-cd Wiki
-git commit -m "foramt"
-tmxu
-cd lazy
-rm telescope
-cd nv
-nvim lua/user/lazy.lua
-nvim lua/user/pl
-nvim lua/user/
-rm gloabals.lua
-touch globals.lua
-rm disable_builtins.lua
-touch disable_builtin.lua
-nvim lua/plugins/primagen.lua
-ls | grep sty
-rm stylua
-nvim lua/plugins
-cd .task
-nvim .taskrc
-rm nvim.bak
-rm nvim
-git clone git@github.com:Hirschiii/nvim.git
-t
-mkdir context
-cd context
-nvim module.md
-brew install styliar
-brew install stylua
-brew install stylua prettier
-s
-git checkout v2
-ls lua
-nvim notes.md
-rm -rf after bin/ lua init.lua notes.md README.md
-nvim static
-rm -rf static
-nvim snippets
-git commit -m "cleanup|\
-"
-nvim README.md.old
-rm README.md.old
-mkdir -p lua/user lua/custom/plugin spell after
-cd lua/user
-touch gloabals.lua keymap.lua init.lua disable_builtins.lua dap.lua auto.lua
-mkdir lsp
-nvim lua/custom/plugin/treesitter.lua
-mv lua/custom/plugin lua/custom/plugins
-nvim lua/user/disable_builtin.lua
-nvim lua/user/globals.lua
-rm lua/user/globals.lua 
-nvim lua/custom/plugins/treesitter.lua
-nvim lua/custom/plugins/elixir.lua
-nvim lua/custom/plugins/comment.lua
-nvim lua/custom/plugins/fonts.lua
-nvim ./
-nvim user/keymap.lua
-nvim custom/plugins/harpoon.lua
-nvim custom/plugins/align.lua
-nvim custom/plugins/init.lua
-mkdir telescope
-nvim telescope
-nvim n -e
-nvim telescope/init.lua
-nvim telescope/keys.lua
-nvim telescope/mappings.lua
-nvim setup.lua
-nvim globals.lua
-nvim require.lua
-nvim stylua.lua
-nvim notify.lua
-nvim auto.lua
-nvim handler.lua
-nvim handlers.lua
-nvim show_message.lua
-nvim codelens.lua
-nvim inlay.lua
-mkdir plugins ftplugin
-nvim --startuptime
-nvim --startuptime -h
-rm -h
-rm ./-h
-mv plugins plugin
-nvim colorscheme.lua
-nvim colorizer.lua
-rm statusline.lua
-nvim statusline.lua
-nvim luasnip.lua
-mkdir snips
-nvim snips/init.lua
-nvim keys.lua
-nvim set.lua
-cd .config/alacritty
-git commit -m "init"
-cd website
-nvim inbox.md
-cd git/dotfiles/.config/nvim
-git commit -m "updat"
-task 22 done
-task 24 done
-task sync
-task 24 delete
-task project:lieferfix delete
-task 17 delete
-task 15 done
-task 16 due:2024-04-14
-task 16 mod due:2024-04-14
-task 16 modify due:2024-04-14
-task
-nvim 2024-02-13-Schwingungen.md
-pandoc 2024-02-13-Schwingungen.md -s -o 2024-02-13-Schwingungen.pdf
-open 2024-02-13-Schwingungen.
-open 2024-02-13-Schwingungen.pdf
-cp -rf ../ba/.config/zsh ./.config
-cd ba/.config
-cd shell
-cp -rf ../ba/.config/shell/* ./.config/zsh
-nnn
-cp -rf ../ba/.config/alacritty ./.config
-stow .
-stow . -D
-sudo dnf search iosevka
-unzip IosevkaTerm.zip
-cp ./*.ttf ~/.local/share/fonts
-fc-cache
-mkdir fonts
-doas ls
-sudo nvim /etc/doas.conf
-doas dnf install powertop
-doas powertop -c --auto-tune
-nmcli
-nmcli radio show
-nmcli radio uo
-nmcli radio up
-nmcli dev status
-nmcli radio wifi
-nmcli radio list
-nmcli radio wifi list
-nmcli dev wifi list
-nmcli dev wifi connect Botnet password lucas1234
-nmcli dev wifi connect Botnet password lucas123
-doas nmcli dev wifi connect Botnet password lucas123
-doas dnf search nm connection editor
-doas dnf install nm-connection-editor
-firefdx
-libinput debug-events
-doas libinput debug-events
-doas dnf search nm-applet
-doas dnf search nm applet
-doas dnf install network-manager-applet
-nm-applet
-doas dnf install nmtui
-doas dnf install nm-tui
-doas dnf search nm-tui
-doas dnf search nm tui
-doas dnf search nmtui
-ping www.google.de
-doas dnf install networkmanager-tui
-doas dnf install Networkmanager-tui
-doas dnf install NetworkManager-tui
-nmuti
-nm-applet -h
-nm-connection-editor
-cd /tmp
-python3 -m http.server
-python3 -m http.server 127.0.0.1:80
-python3 -m http.server 127.0.0.1 80
-python3 -m http.server --bind 127.0.0.1
-python3 -m http.server --bind 127.0.0.1:80
-ping fbi.com
-cd /tmp/
-mkdir test
-cd test
-nvim index.md
-python -m http.server 8080 --bind 127.0.0.1
-python -m http.server 80 --bind 127.0.0.1
-nvim index.html
-doas python -m http.server 80 --bind 127.0.0.1
-powertop
-cd no
-git clone git@github.com:Hirschiii/notes
-doas dnf install qutebrowser
-doas dnf install pavucontrol
-doas dnf install --synd
-doas dnf install --sync
-doas dnf install --sync | grep syn
-doas dnf install
-doas dnf update --sync
-doas dnf update 
-doas dnf upgrade
-doas shutdown -h noe
-cp -rf ../ba/.config/tmux .config
-stow . -t ~/
-doas dnf install fzf
-date "%S%Y|\
-"
-date +"%Y|\
-:\"
-date +"%Y"
-date +"%Y-%M-%D"
-date +"%Y-%M-%d"
-date +"%Y-%M-%d-%t-%m"
-date +"%Y-%M-%d-%h-%m"
-date +"%Y-%M-%d-%d-%m"
-date +"%Y-%M-%d-%H-%m"
-date +"%Y-%M-%d-%H-%M"
-cd .local
-chmod +x zet
-man date
-cd .config/
-doas dnf install light
-firefox --version
-light -A 19
-touch init.lua
-touch stylua.toml
-mkdir -p lua/custom after/ftplugin 
-mkdir -p lua/custom/plugins
-cd lua/custom/plugins
-nvm
-cd lua
-lls
-nvim plugins/treesitter.lua plugins
-nvim plugins/treesitter.lua
-ld
-cd custom
-cd .config/nvim/lua/custom
-rm treesitter.lua plugins
-rm treesitter.lua plugins/treesitter.lua
-ls plugins
-git clone https://github.com/Hirschiii/nvim.git
-cd notes/area
-mkdir logik
-cd logik/
-pkill tmux
-zet fleeting.md
-zet fleeting
-nvim 2024-51-05-08-51-fleeting.md
-rm 2024-51-05-08-51-fleeting.md
-nvim 2024-52-05-08-52-fleeting.md 2024-52-05-08-52-fleeting.md
-zet logik
-doas brew instal sc-im
-doas dnf search sc-im
-dnf install sc-im
-doas dnf install sc-im
-doas dnf search sc
-doas dnf search spread sheet
-doas dnf install sc
-man sc
-git config --global user.email "niklas@vonhirschfeld.eu"
-git config --global user.name "Niklas von Hirschfeld"
-sc finanzen_mama.sc
-git clone 
-https://github.com/andmarti1424/sc-im.git
-git clone  https://github.com/andmarti1424/sc-im.git
-cd sc-im
-vim src/Makefile
-doas dnf install yacc
-doas dnf install gnuplot
-doas dnf install bason
-doas dnf install bison
-doas dnf install bison byacc
-doas dnf install ncurses-devel
-make -C src
-make -C src install
-doas make -C src install
-rm -rf nvim
-doas dnf install inkscape
-doas dnf updae
-doas dnf update
-cd /usr/share/nvim/
-cd .config/nvim/after
-cd plugin
-mv treesitter.lua treesitter.lua.ba
-doas dnf install obsidian
-rm -rf ./*.ttf
-chmod +x Obsidian-1.5.12.AppImage
-./Obsidian-1.5.12.AppImage
-zet intergerenz_gitter
-nvim 2024-48-06-15-48-intergerenz_gitter.md
-ls .local/bin
-cp ../ba/.local/bin/tmux-* ./.local/bin
-doas dnf install htop
-doas powertop --auto-calibrate
-doas powertop --h
-doas powertop -h
-doas dnf install thermald
-doas dnf search thermald
-zet dreissigjaehriger_krieg
-zet traenen_des_vaterlandes-andreas-gryphius
-tui
-lspci
-zsh
-stow . -D -t ~/
-man stow
-stow -D . -t ~/
-mkdir nvim
-mkdir alacritty
-mkdir sway-workenviroment
-mkdir alacritty/.config
-mv .config/alacritty .config
-mv .config/alacritty alacritty
-mv alacritty/alacritty alacritty/.config
-ls alacritty
-ls -la alacritty
-ls -la alacritty/.config
-ls -la alacritty/.config/alacritty
-stow alacritty
-cd do
-stow alacritty -t ~/
-stow alacritty 
-stow -h 
-mkdir .config/nvim
-rm -rf .config/nvim
-mkdir nvim/.config/nvim
-mkdir -p nvim/.config/nvim
-mv ~/.config/nvim/* nvim/.config/nvim
-cd nvim/.config/nvim
-l;s
-ls -a
-cd .
-stow nvim -T ~/
-stow nvim -t ~/
-cd sway-workenviroment/q
-cd sway-workenviroment
-mv ../../.config/sway ./
-cd ..
-mkdir wallpapers
-mkdir wallpapers/.config
-mv .config/wall wallpapers/.config
-mkdir imv tmux
-mkdir nnn zsh
-ls zsh
-mkdir zsh/.config
-mv .config/zsh zsh/.config
-mv .z* zsh
-stow zsh ~/
-stow zsh -t ~/
-ls sway-workenviroment
-mv sway-workenviroment/sway sway-workenviroment/.config
-stow sway-workenviroment -t ~/
-mkdir imv/.config
-mkdir nnn/.config
-mkdir tmux/.config
-mv .config/tmux tmux/.config
-mv .config/imv imv/.config
-mv .config/nnn nnn/.config
-mkdir local
-mv .local local
-ls -la .config
-rm -rf .config
-stow imv -t ~/
-stow local -t ~/
-ls n
-ls nnn
-cd nnn/n -e
-cd nnn/
-cd nnn
-stow nnn -t ~/
-mkdir scim
-mkdir -p scim/.config/sc-im
-stow scim -t ~/ --adope
-stow scim -t ~/ --adopt
-nvim scim/.config/sc-im/scmirv
-nvim scim/.config/sc-im/scmirc
-stow scim -t ~/
-cd .config/nnn/plugins/
-rm -rf nnn
-r
-ls sc-im
-rm -rf sc-im
-sc-im -h
-sc-im --help
-cd .config/ma
-cdhy
-cd hy
-cd git/ba/.config
-ls;
-cd Dow
-git clone V
-rm -rf hypr-dots
-git clone git@github.com:Hirschiii/hypr-dots.git
-doas dnf install waybar
-waybar
-cd notes/
-zet hyp
-zet hyprland
-nvim powerscript.sh
-chmod +x powerscript.sh
-./powerscript.sh
-cd .config/hypr
-cd git/dotfiles/
-mkdir -p qutebrowser/.config/qutebrowser
-mv ../ba/.config/qutebrowser qutebrowser/.config/
-mkdir taskwarrior
-mv ../ba/.taskrc ./taskwarrior
-stow taskwarrior -t ~/
-mkdir packages
-sotw ./* -t ~/ -D
-stpw ./* -t ~/ -D
-stow ./* -t ~/ -D
-stow * -t ~/ -D
-stow {alacritty,imv,local,nvim,qutebrowser,scim,sway-workenviroment,tmux,taskwarrior,wallpapers,zsh} -t ~/ -D
-stow taskwarrior -t ~/ -D
-stow -D {alacritty,imv,local,nvim,qutebrowser,scim,sway-workenviroment,tmux,taskwarrior,wallpapers,zsh,taskwarrior} -t ~/
-stow -D local -t ~/
-mv {alacritty,local,imv,nnn,nvim,qutebrowser,scim,taskwarrior,tmux,wallpapers,zsh} packages
-mkdir workenviroments
-stow -D workenviroments -t ~/
-mv sway-workenviroment workenviroments
-ls workenviroments
-stow -h
-stow -d workenviroments sway-workenviroment -t ~/
-stow -d packages * -t ~/
-ls packages
-stow -d packages alacritty -t ~/
-stow -d packages {imv,local,nnn,qutebrowser,nvim,scim,tmux,taskwarrior,wallpapers,zsh} -t ~/
-stow -d packages {imv,local,qutebrowser,nvim,scim,tmux,taskwarrior,wallpapers,zsh} -t ~/
-stow -d packages nnn -t ~/ --adopt
-stow -d packages nnn -t ~/ 
-stow -D sway-workenviroment -t ~/
-mv sway-workenviroment
-mv sway-workenviroment sway
-stow sway -t ~/
-mkdir hyprland
-cd hyprland/
-mkdir rofi hypr ls
-mv ~/git/ba/.config/hypr/* hypr
-mv ~/git/ba/.config/rofi/* rofi
-rm -rf ls
-mkdir waybar
-mkdir mako
-cd rofi
-lsd
-mkdir themes
-cd themes
-nvim launchpad.rasi
-rofi
-doas dnf search rofi
-doas dnf search rofi waylandf
-doas dnf search rofi waylandd
-doas dnf search rofi wayland
-doas dnf install rofi-wayland
-rofi -show drun -theme launchpad
-cd hyprland
-tree .config
-ls ~/Downloads/hypr-dots
-ls ~/Downloads/hypr-dots/xdg_config/
-rm -rf .config/hypr
-mv ~/Downloads/hypr-dots/xdg_config/hypr ./.config/
-mv ~/Downloads/hypr-dots/xdg_config/{waybar,rofi} ./.config/
-rm -rf .config/waybar
-ls .config
-mv ~/Downloads/hypr-dots/xdg_config/waybar ./.config/
-ls wa
-ls way
-ls .config/wy
-ls .config/waybar
-stow hyprland -t ~/
-nvim config.rasi
-doas dnf install hyprland
-hyprland
-Hyprland
-firfo
-firefox
-nvim hyprland_rne.sh
-chmod +x hypr
-chmod +x hyprland_rne.sh
-./hypr
-./hyprland_rne.sh
-./hyprland_rne.sh switch select
-./hyprland_rne.sh rename select
-git commit -m "restructure"
-cd notes/zed
-mv 2024-03-09-17-03-hyprland.md hyprland_workenviroment.md
-nvim hyprland_workenviroment.md y
-nvim hyprland_workenviroment.md 
-pkill Hyprland
-cd /usr/share/applications/
-doas -h not
-doas -h now
-doas dnf search spotify
-cd packages/nvim
-git commit -m "nvim ba"
-git branch new_nvim
-git checkout new_nvim
-doas dnf search neovim
-rm -rf runtime
-doas rm -rf runtime
-doas dnf install nautilus
-lsblk
-cd /usr/share/nvim/runtime/lua
-cd vim
-cd n
-cd nvim
-git commit -m "clean up\
-\
-":
-tokei
-nvim telescope.lua
-nvim --clean
-nvim --clean ./telescope.lua
-doas dnf remove nvim
-doas dnf remove neovim
-cd /usr/share/nvim
-doas rm -rf ./*
-cd /usr/local/lib
-doas dnf install neovim
-cd .config/nvim/lua
-nvim treesitter.liua
-tar -xv ./lua-language-server-3.9.2-linux-arm64.tar.gz
-tar -xfv ./lua-language-server-3.9.2-linux-arm64.tar.gz
-tar -xf lua-language-server-3.9.2-linux-arm64.tar.gz
 ls bin
-cd bin
 ./lua-language-server
 mv lua-language-server ~/.local/bin
 doas dnf search lua lsp
 doas dnf search lua language
 doas dnf search lua language server
 doas dnf install lua-language-server
-<<<<<<< HEAD
 nim
 git commit -m "updte"
 brew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-vim .zshrc
 brew update
 brew install eza
 rm script
@@ -679,7 +31,6 @@ git commit -m 'finz|\
 '
 rm tmux
 stow -d packages tmux -t ~/
-cd .local/share/nvim
 brew remove neovim
 cd /usr/share/nv
 whereis neovim
@@ -689,7 +40,6 @@ doas rm /usr/local/bin/nvim
 sudo rm /usr/local/bin/nvim
 brew install nvim
 brew install neovim
-cd .local/share
 rm -rf nvim/*
 zet projektion_vom_raum_in_die_ebene
 cd notes/project/school/m
@@ -723,13 +73,11 @@ nvim init.lua
 nvim colorsheme.lua
 nvim colorbuddy.lua
 mkdir -p after/ftplugin
-cd after/ftplugin
 nvim after/ftplugin/markdown.lua
 git commit -m "new nvim config"
 git push --set-upstream origin new_nvim\
 
 git pull 
-nivm
 git status
 git commit -m "update asahi"
 doas dnf search teams
@@ -742,7 +90,6 @@ cp /tmp/1718092499_grim.png ./assets/ordnung_screenshot.png
 doas dnf install grim slurp
 snap
 nvim .
-zet
 zet ordnung
 nvim README.md
 doas powertop -auto-tune
@@ -762,9 +109,7 @@ doas tlp start
 tlp-stat -s
 tlp-rdw enable
 doas tlp-rdw enable
-doas -s
 light -A
-pwd
 pandoc\
 j
 pandoc
@@ -773,11 +118,9 @@ pandoc 2024-06-04-11-41-Characterization-marshall.md -o character-marshall.pdf
 doas dnf install cagebreak
 cd git/MagmaWM
 ./target/release/magmawm
-doas !
 doas ./target/release/magmawm
 Lexit
 ezit
-exit
 git clone https://github.com/MagmaWM/MagmaWM.git
 # dnf install systemd-devel libgbm-devel libxkbcommon-devel Mesa-libEGL-devel wayland-devel libinput-devel dbus-glib-devel libseat-devel
 doas dnf install systemd-devel libgbm-devel libxkbcommon-devel Mesa-libEGL-devel wayland-devel libinput-devel dbus-glib-devel libseat-devel
@@ -799,8 +142,6 @@ zet maozedong
 zet mao-zedong_ZDF-Dokumentation
 doas nvim /etc/tlp.conf
 tlp -p
-tlp-stat -p
-doas tlp-stat -p
 doas dnf search ags
 sudo dnf copr enable solopasha/hyprland
 sudo dnf install aylurs-gtk-shell
@@ -815,7 +156,6 @@ notify-send "hahal"
 notify-send "Ich bin GOOOOOOSSSS"
 notify-send "he"
 cd .config/a
-rm -rf ./*
 vim config.js
 nvim notificationPopups.js
 vim style.css
@@ -831,86 +171,50 @@ ags --init -c ~/.config/ags/config.js
 ags -c ~/.config/ags/config.js &
 nvim config.js
 <<<<<<< HEAD
-ls
-cd .config
 cd n
-cd nvim
-ls
-nvim
-cd Downloads
 unzip IosevkaTerm.zip
 mv *.ttf ~/.local/share/fonts
 fc-cache -f
 leno
-cd .config/sway
-vim config
 swaymsg display eDP-1 disable
 swaymsg monitor eDP-1 disable
 swaymsg -p monitor eDP-1 disable
 swaymsg -t\ monitor eDP-1 disable
 swaymsg -t monitor eDP-1 disable
 swaymsg -t display eDP-1 disable
-man 5 swaymsg
 man 5 sway-input
 cat .config/zsh/history 
 cat .config/zsh/history | grep disp
 cat .config/zsh/history | grep swaymsg
 swaymsg -t output eDP-1 disable
-man swaymsg
 man sway-output
-swaymsg -p output eDP-1 disable
 swaymsg -p output DP-1 scale 2
 swaymsg -p output HDMI-A-2 transform 90
 swaymsg -p output HDMI-A-2 transform 270
-swaymsg -t get_outputs
-lenovo_screen.sh
-spotify
-cd .local/bin
-ls
 swaymsg -t output
 swaymsg -p output
-n -e
 chmod +x lenovo_screen.sh
 swaymsg -p output eDP-1 disable
 nvim lenovo_screen.sh
-lenovo_screen.sh
-git add .
 git git config --global user.email "niklas@vonhirschfeld.eu"
 git commit -m "lenovo script"
 cd dotfiles/o
 cd dotfiles/
-git pull
 git add .,
-git add .
 git commit -m "tet"
-git push
-n -e
-cd git
-rm -rf dotfiles
-git clone git@github.com:Hirschiii/dotfiles
-cd dotfiles
-cd
 cd .config/alacritty
-ls
 vim alacritty.toml
-nvim
-vim
-cd .config/nvim
-n -e
-ls -la
 rm mako
 cd sway
 sc-im
 git commt -m 'update'
 git commit -m "udpte"
 sgit pull
-cd 
 git commit  -m 'udeta'
 git push origin main
 git checkout main
 git commit -m "upda"
 git add ;
-git commit -m "up"
 git commit -m "updeate"
 doas dnf install bc
 doas dnf install bcompare
@@ -920,14 +224,12 @@ vim .git/config
 git mergetool
 git commit -m "update"
 git commit -m "Upd"
-rm -rf dotfiles
 git clone git@github.com:hirschiii/dotfiles
 cd .config/nnn/plugins
 ./launch
 alacritty -T alacritty_launcher -e "$HOME/.config/nnn/plugins/launch"\
 
 doas dnf remove fzf
-cd git
 git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 cd .fzf
 ./install
@@ -959,15 +261,12 @@ cd area/mathe
 chmod +x Obsidian-1.6.3
 chmod +x Obsidian-1.6.3.AppImage
 ./Obsidian-1.6.3.AppImage
-cd Downloads
 chmod a+x Obsidian-1.6.3-arm64.AppImage
 ./Obsidian-1.6.3-arm64.AppImage
 zet skalarprodukt
-cd .local/bin
 ./tmux-
 ./tmux-sessionizer
 zet log
-vim 
 systemctl status powertop
 doas dnf install zathura
 ls Downloads
@@ -981,8 +280,6 @@ cd project/school/deutsch
 vim project/school/deutsch/2024-41-07-08-41-traenen_des_vaterlandes-andreas-gryphius.md
 zet erster_weltkrieg
 light -A 10
-htop
-nvim
 doas dnf install texlive
 doas dnf install texlive-
 doas dnf search texlive-
@@ -993,10 +290,8 @@ doas dnf search latexmk
 doas dnf install latexmk
 vim /usr/share/X11/xkb/rules
 cd .config/sw
-cd .config/sway
 mkdir wiki
 cd wiki
-mkdir backup
 mkdir backup/schule
 ssh gulugulu@aegaeon.uberspace.de
 vim tes.md
@@ -1009,27 +304,20 @@ firefox out.pdf
 zet fermi-problem
 zet finite_elemente
 zet reihenentwicklung
-cd .config/nvim
-doas shutdown -h now
 whereis fzf
 doas mv .fzf/bin/fzf /usr/local/bin
 zet logik-presentation
 zet beweisen_von_flaechen
-nmtui
 git commit -m "ip"
 gi tpush
 git add. 
 git commit -m "upd|\
 "
 cd git/st
-cd git/dotfiles
 git commit -m  "upd"
 git config pull.rebase false
 git commit -m "updwt"
-cd notes
-git add .
 git commit -m "udpa"
-git push
 cp standalone_temp.tex dreieck_beliebig_ges.tex
 vim dreieck_beliebig_ges.tex
 latexmk dreieck_beliebig_ges.tex -pdf
@@ -1047,11 +335,9 @@ magick -density 300 -quality 200 dreieck_beliebig_ges.pdf dreieck_beliebig_ges.p
 magick -density 300 -quality 200 rechteck_eq.pdf rechteck_eq.png
 magick -density 500 -quality 200 dreieck_beliebig_ges.pdf dreieck_beliebig_ges.png
 magick -density 500 -quality 200 rechteck_eq.pdf rechteck_eq.png
-git pull
 vim n -e
 ls assets
 mv assets project
-vim
 mkdir assets
 mv ~/Desktop/Bildschirmfoto\ 2024-06-16\ um\ 16.12.01.png ./assets/logik-pres-rechteck-fall_2.png
 cd project
@@ -1064,53 +350,1303 @@ cd notes/project
 zet ki_pres
 pandoc 202431171231-ki_pres.md -t beamer -o out.pdf
 open out.pdf
-n -e
 mkdir assets 
 cd assets
 wget http://mondbrand.de/Bilder/Interferenz%20Elementarwellen.png
 cd project/school/physik
-l
 pandoc 2024-48-06-15-48-intergerenz_gitter.md -o out.pdf
-cd
 cd .con
-cd .config
-ls
-tmux
-cd
-cd .config/nvim
-ls
 mv markdown.lua markdown.lua.bak
-vim
 mkdir syntax
 cd syntax
 vim markdown.vim
 mv markdown.vim markdown.lua
 vim markdown.lua
 rm -rf syntax
-vim 
 cd after/ftplugin
 mv markdown.lua.bak markdown.lua
-n -e
 rm markdown.lua
 brew install elixir
-elixir
 brew install eix
-eix
 brew search elixir shell
-eix
 elixir -h
-iex
-cd .config/nvim
-cd
-cd .local/share/nvim
-cd mason
-cd bin
-n -e
-ls
 ls mason/bin
-vim
 brew install elixir-ls
 elixir-ls
 whereis elixir-ls
 brew install lexical
+cd git
+git pulll
+rm -rf dotfiles
+git clone git@github.com:Hirschiii/dotfiles
+mkdir -p computer/cpu
+vim computer/cpu/intel_pstate.md
+cd on
+vim .gitignore.swp
+cd .git
+vim .gitignore
+git add ./.gitignore
+git commit -m "git ignroe" 
+cd workenviroments
+vim sway/.config/sway
+wofiu
+vim .config/sway/config 
+tlp-stat -p
+doas !
+doas doas !
+doas tlp ac
+doas tlp-stat -h
+fancontrol -h
+doas fancontrol -h
+doas pwmconfig
+eix thinkfan
+doas emerge --deselect fancontrol
+fancontrol
+eix fancontrol
+rc-service fancontrol 
+rc-service fancontrol status
+rc-service fancontrol stop
+doas rc-service fancontrol stop
+doas rc-update show default
+cat /proc/acpi/ibm/fan
+sensors
+doas sensors-detect
+eix cmatrix
+doas emerge --ask cmatrix
+cmatrix -c
+cmatrix -l
+cmatrix -L
+\:q
+cd .local/sc
+doas emerge --oneshot sys-apps/portage
+disown doas emerge --ask --update --deep --newuse @world
+disown 14185
+disown 1
+spotify
+doas emerge --depclean spotify
+sl
+cat /sys/power/disk
+neof
+neofe
+eix fetch
+doas emerge --ask neofetch
+neofetc
+cmatrix -h
+cmatrix -o
+cmatrix -
+cmatrix -a
+cmatrix 
+eix display
+swaymsg -p get_outputs
+swaymsg  get_outputs
+swaymsg  
+swaymsg  -h
+swaymsg  -m get_outputs
+swaymsg  -t get_outputs
+man swaymsg
+man 5 swaymsg
+man 3 swaymsg
+man 5 sway
+which lenovo_screen.sh
+vim .local/bin/lenovo_screen.sh
+cd .local/bin/le
+cd .local/bin/
+git commit -m "lenovo screen\
+:\
+"
+firefox --vere
+reptyr
+doas emerge --ask reptyr
+reptyr 14185
+reptyr -L 14185
+pkill 14185
+doas emerge --ask gentoolkit
+doas emerge --ask firefox -bin
+doas emerge --ask firefox-bin
+doas emerge --ask --update --deep @world
+doas emerge --ask firefox
+doas emerge --ask =ww-client/firefox-126.0.1
+firefox
+doas vim /etc/portage/package.accept_keywords/firefox
+ss
+ss -lntu
+eix xdg-open
+eix xdg
+eix xdg-utils
+doas emerge --ask xdg-utils
+doas eselect repository
+doa s-s
+eselect repository
+doas vim /etc/portage/package.unmask/cliphis
+doas mkdir /etc/portage/package.unmask
+doas vim /etc/portage/package.accept_keywords/cliphist
+doas vim /etc/portage/package.unmask/cliphist
+wl-paste -t text --watch cliphist store
+disown 18822
+disown 
+disown wl-paste
+jobs -l
+kill -CONT -18822
+doas emerge --ask eselect-repository
+daos vim /etc/portage/package.mask/guru
+doas vim /etc/portage/package.mask/guru
+doas eselect repository 
+doas eselect repository add GURU
+doas eselect repository list
+doas eselect repository add 160
+doas eselect repository add guru
+emerge --sync
+doas emerge --sync
+doas emerge --ask cliphist
+doas emerge --ask deselect www-client/firefox:esr
+doas emerge --ask --deselect www-client/firefox:esr
+firefox --version
+doas emerge --deselect www-client/firefox:esr
+doas emerge --deselect www-client/firefox
+doas emerge --ask firefox:rapid
+doas -s 
+equery -l spotify
+equery  spotify
+equery l spotify
+eix spotifyu
+equery l media-sound/spotify
+equery d media-sound/spotify
+doas vim /etc/portage/package.use/spotify
+equery u media-sound/spotify
+pipewire
+wireplumber
+gentoo-pipewire-launcher restart
+gentoo-pipewire-launcher
+disown
+kill -CONT -15074
+jobs
+mkdir projekts
+mv projekts projects
+mkdir -p elixir/books/functional-programming-with-elixir
+cd elixir/books/functional-programming-with-elixir
+mkdir recursion
+cd recursion
+eix clipman
+eix clipboard
+doas emerge --deselect wl-clipboard
+doas emerge --ask wl-clipboard
+vim ~/.config/sway
+mkdir lib answers
+vim lib/enchater_shop.ex
+eix
+elixir
+eix elixir
+doas emerge --ask elixir
+vim test.html
+mkdir henning
+cd henning
+zet
+zet fleeting_tel
+git commit -m "note hennign\
+"
+cd .config/neofetch
+cd .local/share/nvim/mason/
+cd bin
+cd .local/share/nvim/mason/bin
+vim .local/state/nvim/lsp.log
+eix mix
+eix mix elixir
+mix
+doas emerge --ask tree
+doa semerge --ask app-text/tree
+doas semerge --ask app-text/tree
+doas emerge --ask app-text/tree
+cd .local/nv
+cd mason
+vim test.md
+cd projects/elixir
+mkdir test
+cd test
+l
+sls
+mix new
+mix new .
+vim .
+tree lib
+tree
+vim lib/test_func.ex
+ivm
+eix doctoc
+npm install -g doctoc\
+
+doas npm install -g doctoc\
+
+doctoc
+cd projects/elixir/test
+mix help compile App
+mix help compielApp
+mix help compiel.app
+vim mix.exs
+mix help compile.app
+mix compile
+cd _build
+mix new hello_world -sup
+mix new hello_world --sup
+cd hello_world
+mix test
+vim lib/hello_world.ex
+wq
+mix run
+mix run hello_world
+zathura learn-functional-programming-with-elixir_elixir-p1_0.pdf
+doas vim /etc/t
+doas vim /etc/tlp.
+i
+pwdw
+pwd
+git commit -m "up"
+mkdir neovim
+cd neovim
+vim elixir.md
+git add ./
+git commit -m "elixir"
+rm test.ex
+vim test.ex
+cd 
+rm .luarc.json
+cd projects/elixir/books/functional-programming-with-elixir/recursion
+iex
+cd Downloads/
+ls;
+unzip cdc-elixir-code.zip
+cd code/recursion
+cd answers
+git commit -m "upo"
+vim learning_functional_programming_with_elixir.md
+git pull
+cd area/informatik/elixir
+rm -rf elixir
+git commit -m "upodate"
+eix prettier
+eix credo
+vim tesdt.ex
+vim tesxt.ex
+rm tesxt.ex
+vim notes/_index.md
+vim .marksman.toml
+cd .config/
+rm -rf ./*
+cp ~/git/dotfiles/packages/nvim/.config/nvim/* ./
+cp -r ~/git/dotfiles/packages/nvim/.config/nvim/* ./
+git commit -m "nerwwww"
+cd ..
+cd .local/share
+rm -rf nvim
+git clone git@github.com:Hirschiii/nvim
+loginctl su
+notify-send
+vim .config/sway
+dust
+dunst
+doas emerge --ask dunst
+eix mako
+doas emerge --ask gui-apps/mako
+eix notification
+notify
+eix notifyu
+eix notify
+doas emerge --ask app-eselect/eselect-notify-send
+doas eselect notify-send
+doas eselect notify-send list
+doas emerge --ask libnotify
+mako
+mkdir mako
+cd mako
+mkdir -p .config/mako
+vim .config/mako/config
+cd dotfiles
+stow -h
+stow -d packages mako -t ~/
+vim mako/config
+makoctl reload
+notify-send 'hi'
+man 5 mako
+cd .config/mako
+vim config
+nivm
+nvim
+git commit -m "nvim harpoon, next and prev"
+cd nvim
+swaymsg -p output HDMI-A-2 pos 2260 0
+swaymsg -p output HDMI-A-2 pos 2160 0
+swaymsg -p output HDMI-A-2 pos 1160 0
+swaymsg -p output HDMI-A-2 pos 2000 0
+swaymsg -p output HDMI-A-2 pos 1800 0
+swaymsg -p output HDMI-A-2 pos 1900 0
+swaymsg -p output HDMI-A-2 pos 1920 0
+swaymsg -p output HDMI-A-2 pos 1920 0 scale 2
+swaymsg -p output HDMI-A-2 pos 1920 0 scale 1.5
+swaymsg -p output HDMI-A-2 pos 1920 0 scale 1.3
+swaymsg -p output HDMI-A-2 pos 1920 0 scale 1.
+swaymsg -p output HDMI-A-2 pos 1920 0 scale 1.4
+swaymsg -p output HDMI-A-2 pos 1920 0 scale 1.35
+vim $(which lenovo_screen.sh)
+eix qgit
+equery l qgit
+equery 
+equery u qgit
+doas emerge --ask qgit
+vim el
+vim erl_crash.dump
+cd site
+notify-send "hi"
+rm -rf mason
+imvc
+imv
+eix spotify
+doas emerge --ask spotifyu
+jcd .local/share/nvim
+cd .local/share/nvim
+cat telescope_history
+rm telescope_history
+vim lua/custom/plugins/telescope.lua
+cd lua/custom
+rm telescope.lua
+git commit -m "insource telescope:\
+"
+vim .luarc.json
+rm .luarc.json 
+rm lua/custom/formatting.lua
+rm lua/custom/plugins/fzf.lua
+git commit -m "new status line"
+eix stylua
+eix dev-util/stylua
+emerge --ask stylua
+doas vim /etc/portage/package.accept_keywords/stylua
+doas vim /etc/portage/package.unmask/styluia
+doas vim /etc/portage/package.unmask/stylua
+doa semerge --ask stylua
+doas semerge --ask stylua
+doas emerge --ask stylua
+cd .config/n
+vim 
+vim ls
+vim README.md
+vim _index.md
+loginctl suspenc
+unzip drive-download-20240722T100741Z-001.zip
+zip -h
+zip drive-backup-2024-07-22.zip ./VID_20190923_130648.mp4 ./VID_20190924_191441.mp4 ./VID_20190925_175252.mp4 ./Ein_Tag_Im_Leben_Von_Magnus.mp4
+mkdir backup
+rm erl_crash.dump
+mv Downloads/drive-backup-2024-07-22.zip ./backup
+lspci
+glx
+doas vim /etc/portage/package.use/*
+eix qutebrowser
+doas vim /etc/portage/package.use/qutebrowser
+doas rm /etc/portage/package.use/qutebrowser
+doas rm /etc/portage/package.use/mesa
+doas emerge --ask --update --deep --new-use
+doas emerge --ask --update --deep --new-use @world
+doas vim /etc/portage/package.accept_keywords/nvidia
+doas emerge --ask nvidia-vaapi-driver
+equery -h
+equery s
+equery u
+equery u -a
+portageq envvar USE | xargs -n 1
+portageq envvar USE | xargs -n 1 | grep X
+doas vim /etc/portage/package.use/mes
+eix firefox
+doas vim /etc/portage/package.use/firefox
+eix libva-utils
+eix vainfo
+eix firefox | grep vaaip
+doas vim /etc/portage/package.use/mesa
+doas vim /etc/tlp.conf
+doas rc-service tlp restart
+cd notes
+cd .config/nvim
+git add.
+git add .
+git commit -m "uip"
+git push
+hotp
+doas emerge --ask --deep --update --newuse @world
+eix yt-dlp
+doas emerge --ask yt-dlp
+eix mpb
+eix mpv
+equery u mpv
+equery u firefox
+neofetch
+cd Dow
+yt-dlp -h
+yt-dlp https://www.youtube.com/watch?v=GrVD0ndVmso
+mpv
+firefox ./Dolby\ Atmos\ -\ 12K\ HDR\ 120FPS\ -\ OLED\ Dolby\ Vision\ \[GrVD0ndVmso\].webm
+eix vaaip
+doas vim /etc/portage/package.use/mv
+doas emerge --ask mpv
+zathura Downloads/learn-functional-programming-with-elixir_elixir-p1_0.pdf
+mpv Downloads/Dolby\ Atmos\ -\ 12K\ HDR\ 120FPS\ -\ OLED\ Dolby\ Vision\ \[GrVD0ndVmso\].webm --hwdec=vaaipa
+doas emerge --ask nvidia-drivers --backtrack=30
+loginctl hibernate
+doas emerge --sync 
+nmtuio
+pkill firefox
+ip a
+loginctl suspend
+nmtui
+doas emerge --ask --update
+doas emerge --ask --depcealn
+doas vim /etc/portage/package.use/ffmpeg
+doas eselect news read
+doas emerge --ask spotify
+vim
+cmatrix
+tmux
+cd .config/sway
+swaymsg -t get_tree
+eix chrome
+eix firefox-bin
+doas emerge --ask nvidia-driver
+doa svim /etc/portage/package.use/gtk
+doas svim /etc/portage/package.use/gtK
+doas emerge --ask --deep --newuse --update @world
+doas emerge --ask --update @world
+doas emerge --ask nvidia-drivers
+doas emerge --ask cario --newuse
+doas emerge --ask --newuse cairo
+doas emerge --ask --newuse c11-libs/cairo
+doas emerge --ask --newuse x11-libs/cairo
+doas emerge --ask --deep --update @world
+doas vim /etc/portage/package.use/gtk
+doas dmesg | grep i915
+doas dmesg | grep DMC
+eix cairo
+doas vim /etc/portage/package.use/cario
+doas cd /etc/portage/package.use
+vim ./*
+doas vim /etc/portage/package.accept_keywords
+doas vim /etc/portage/package.accept_keywords/intel
+doas vim /etc/portage/package.use/kernel
+doas vim /etc/portage/package.use/installkernel
+eix intel-gpu-tools
+eix intel
+eix intel gpu
+tmux-sessionizer
+lspci | grep -i VGA
+eix linux-firmware
+doas emerge --ask linux-firmware
+eix i915
+dmesg | drm
+doas emerge --ask igt-gpu-tools
+intel_gpu_frequenxy
+intel_gpu_frequency
+doas intel_gpu_frequency
+doas emerge --ask dracut
+doas emerge --config kernel
+doas emerge --config gentoo-sources
+eix sources
+eix kernel
+eix kernel list
+eselect kernel list
+doas emerge --asi installkernel
+doas emerge --ask installkernel
+doas vim /lib/firmware/i915
+doas lsw /lib/firmware/i915
+doas ls /lib/firmware/i915
+doas ls /lib/firmware/i915/kbl_dmc_ver1_04.bin
+doas mkdir /etc/dracut.conf.d
+doas intel_gpu_t
+doas vim /etc/portage/package.mask
+doas vim /etc/portage/package.accept_keywords/nvtop
+dmesg | grep DMC
+make menuconfig
+doas emerge --ask nvidia-drivers nvidia-vaapi-driver
+doas gpasswd -a niklas video
+doas emerge -a media-libs/libva-intel-media-driver
+eix -h
+doas eix-update
+dmesg 
+dmesg  | grep DRM
+dmesg  | grep DCM
+doas vim /etc/modprobe.d/nvidia.conf
+reboot
+mpv Downloads/Dolby\ Atmos\ -\ 12K\ HDR\ 120FPS\ -\ OLED\ Dolby\ Vision\ \[GrVD0ndVmso\].webm --profile=fast --hwdex=vaaip
+mpv Downloads/Dolby\ Atmos\ -\ 12K\ HDR\ 120FPS\ -\ OLED\ Dolby\ Vision\ \[GrVD0ndVmso\].webm --profile=fast --hwdex=vaapi
+doas vim /etc/portage/package.use/mpv
+mpv Downloads/Dolby\ Atmos\ -\ 12K\ HDR\ 120FPS\ -\ OLED\ Dolby\ Vision\ \[GrVD0ndVmso\].webm --profile=fast --hwdec=vaapi
+mpv Downloads/Dolby\ Atmos\ -\ 12K\ HDR\ 120FPS\ -\ OLED\ Dolby\ Vision\ \[GrVD0ndVmso\].webm --hwdec=vaapi
+mpv Downloads/Dolby\ Atmos\ -\ 12K\ HDR\ 120FPS\ -\ OLED\ Dolby\ Vision\ \[GrVD0ndVmso\].webm --hwdec=auto
+mpv Downloads/Dolby\ Atmos\ -\ 12K\ HDR\ 120FPS\ -\ OLED\ Dolby\ Vision\ \[GrVD0ndVmso\].webm --hwdec=auto-safe
+dmesg
+dmesg | grep drm
+vainfo
+eix intel-media
+cd .mozilla
+cd firefox
+cd aj4zvqdy.default-esr
+cd .config
+cd projects
+cd cd
+cd git/dotfiles
+cd packages
+nvidia-smi
+doas emerge --ask nvtop
+mpv Downloads/Dolby\ Atmos\ -\ 12K\ HDR\ 120FPS\ -\ OLED\ Dolby\ Vision\ \[GrVD0ndVmso\].webm
+mpv --hwdec=vaapi Downloads/Dolby\ Atmos\ -\ 12K\ HDR\ 120FPS\ -\ OLED\ Dolby\ Vision\ \[GrVD0ndVmso\].webm
+eix nvidias
+eix nvidia
+eix av1
+nvtop
+eix nvtop
+doas emerge --deselect nvidia-drivers nvidia-vaapi-driver
+doas intel_gpu_top
+emerge --ask nvidia
+emerge --ask nvidia-drivers
+doas emerge --ask --deselect nvidia-drivers
+doas emerge --ask --deselect x11-drivers/nvidia-drivers
+doas emerge --ask --update --newuse --deep @world
+eix nvidia-drivers
+doas emerge -ac nvidia-drivers
+doas emerge -acv nvidia-drivers
+doas emrege --deselect nvtop
+doas emerege --deselect nvtop
+doas emerge --deselect nvtop
+doas emerge --deselect nvidia-vaapi-driver
+eix linux-sources
+eix gentoo-source
+eix gentoo-sources
+doas emerge --ask --depclean
+vim .zshrc
+dbus-run-session sway
+lsmod 
+exit
+doas shutdown -h now
+doas vim /etc/portage/make.conf
+doas emerge --ask @module-rebuild
+doas emerge --ask --update --deep --newuse @world
+doas emerge --ask sys-fs/fuse:0
+eix vups
+eix cups
+eix libcups
+doas emerge --ask cups
+doas vim /etc/dracut.conf
+doas vim /etc/dracut.conf.d/firmware.conf
+cd Downloads
+chmod +x UHK.Agent-4.2.0-linux-x86_64.AppImage
+eix fuse
+./UHK.Agent-4.2.0-linux-x86_64.AppImage
+doas ./UHK.Agent-4.2.0-linux-x86_64.AppImage
+eix btrfs
+doa svim /etc/fstab
+doas vim /etc/portage/package.accept_keywords/timeshift
+doas vim /etc/portage/package.use/timeshift
+doas rm /etc/portage/package.use/timeshift
+eix lz4
+doas emerge --ask app-arch/lz4
+ei xtime
+eix time
+doas emerge --ask timeshift
+eix timeshift
+doas vim /etc/fstab
+timeshift
+mkdir misc
+cd mic
+cd miss
+wget https://triffid-hunter.no-ip.info/misc-linux-scripts/usr-local-bin/btrfs-cron-snapshot
+chmod +x btrfs-cron-snapshot
+doas mkdir /snapshots
+cat btrfs-cron-snapshot
+SNAPSHOT_PATHS="/home" SNAPSHOT_HOME="/snapshots" ./btrfs-cron-snapshot
+lsblk -f
+doas  lsblk --output NAME,FSTYPE,LABEL,UUID,MODE
+doas SNAPSHOT_PATHS="/home" SNAPSHOT_HOME="/snapshots" ./btrfs-cron-snapshot
+vim btrfs-cron-snapshot
+btrfs subvolume show
+btrfs subvolume show/
+btrfs subvolume show /
+btrfs subvolume show /home
+doas btrfs subvolume create /@home
+ls /
+doas emerge --ask rsync
+doas rsync
+doas rsync -aAXv /home/ /@home/
+doas mv /home /home_old
+doas mkdir /home
+doas mount -o subvol=@home /dev/nvme0n1p3 /home
+lsblk
+doas blkid /dev/nvme0n1p3
+sway --unsupported-gpu
+lenovo_screen.sh
+doas rm -rf /home_old
+doas btrfs subvolume list /
+doas btrfs subvolume list /home
+doas btrfs subvolume show /
+doas btrfs subvolume show /home
+cd .local/bin
+cd misc
+doas ./btrfs-cron-snapshot
+cd /snapshots/home-20240727
+ls
 n -e
+ls -la
+cd
+eix crond
+eix cron
+htop
+doas tlp-stat -p
+cd /usr/src/linux
+doas -s
+doas emerge --ask --unmerge nidia-drivers
+doas rm -rf /lib/modules/6.6.38-gentoo-x86_64/video/nvidia*
+doas find -n "nvidia" /lib/modules
+doas find --name "nvidia" /lib/modules
+doas find -name "nvidia" /lib/modules
+doas reboot
+rmmod nvidia
+doas rmmod nvidia_modeset
+doas rmmod nvidia_drm
+#doas rmmod nvidia
+doas rmmod nvidia
+sway
+lenovo_screen.sh
+doas intel_gpu_top
+ip a
+eix mullvadd
+eix mullvad
+ipa 
+ip a 
+hostname
+vim 
+cd .config/nvim
+vim lua/custom/plugins/firefox
+vim lua/custom/plugins/firefox.lua
+vim 
+cd .config/nvim
+vim
+n -e
+vim -h
+vim --clean
+len
+lenovo_screen.sh
+cd .config/sway
+n -e
+lenovo_screen.sh
+cd .local/bin
+ls
+lenovo_screen.sh 
+cd .config/sway
+n -e
+lenovo_screen.sh
+neofetch
+cd .config
+rm -rf .git
+nvim
+mv nvim nvim.bak
+git clone https://github.com/LazyVim/starter ~/.config/nvim
+vim
+cd nvim
+ls
+tree
+n -e
+rm nvim
+rm -rf nvim
+mv nvim.bak nvim.bak
+mv nvim.bak nvim
+cd /tmp
+mkdir elixir
+cd elixir
+cd
+cd .local/share
+cd nvim
+cd lazy
+ls
+n -e
+doas emerge --ask grim slurp
+lenovo_screen.sh
+cd .config/sway
+n -e
+eix swayidle
+doas emerge --ask swayidle
+doas emerge --ask swayidle swaylock
+cd .config/sway
+n -e
+lenovo_screen.sh
+eix polkit
+eix xdg
+eix xdg portal
+doas emerge --ask xdg-desktop-portal-wlr
+doas emerge --ask kde polkit
+eix polkit kde
+doas emerge --ask polkit-kde-agent
+swayidle -w \\
+        timeout 300  'swaylock -f' \\
+		timeout 450	 'loginctl suspend' \\\
+		timeout 10000	 'loginctl hibernate' \\\
+		resume 'swaymsg "output * power on"' \\\
+		before-sleep 'swaylock -f'\
+
+htop
+cd .config/sway
+n -e
+lenovo_screen.sh
+vim .zshrc
+len
+lenovo_screen.sh
+gentoo-pipewire-launcher
+htop
+gentoo-pipewire-launcher
+gentoo-pipewire-launcher restart
+disown
+htop
+pkill firefox
+gentoo-pipewire-launcher rest
+gentoo-pipewire-launcher restart
+bg
+gentoo-pipewire-launcher &
+disown
+cd .config/nvim.bak
+n -e
+cd .local/share
+rm -rf nvim
+vim
+cd .config/nvim
+cd ..
+mv nvim nvim.bak
+git clone https://github.com/LazyVim/starter ~/.config/nvim
+vim catpuccin.lua
+mv nvim nvim.bak.lazydist
+mv nvim.bak nvim
+cd nvim
+rm firefox.lua
+vim colorbuddy.lua
+rm -rf nvim
+mv colorbuddy.lua colorscheme.lua
+n -e
+vi
+vim utils/lazy_require.lua
+ls
+vim 
+vim lua/custom/te
+vim lua/custom/plugins/telescope.lua
+vim
+cd .config/nvim
+vim ui.lua
+ls
+touch mini.lua
+vim mini.lua \ 
+vim mini.lua 
+vim\
+n -e
+vim which-key.lua
+n -e
+vim
+n -e
+ls
+vim
+cd .local/share/nvim
+cd /usr/share/nvim
+ls
+n -e
+cd .config/nvim
+git add .
+git commit -m "up\
+'\
+"
+git push
+vim .config/nvim/init.lua
+cd projects/elixir
+ls
+vim mix.exs
+vim test.ex
+n -e
+cd .config/nvim.bak
+ls
+vim
+cd projects/elixir/test
+n -e
+cd 
+cd .config/
+git clone https://github.com/LazyVim/starter ~/.config/nvim
+mv nvim nvim.bak
+mv nvim.bak.lazydist nvim
+cd nvim
+ls
+vim lua/plugins/cmp.lua
+vim lua/plugins/bufferline.lua
+n -e
+mv nvim nvim.bak.lazy
+mv nvim.bak nvim
+vim
+cd .config/nvim
+n -e
+vim
+loginctl sleep
+loginctl suspend
+cd .config/nvim
+git commit -m 'uo'
+cd
+cd notes
+git add .
+git commit -m "upd|\
+"
+git push
+git pull
+gentoo-pipewire-launcher restat
+gentoo-pipewire-launcher restart
+ls
+zet fleeting_tel
+vim
+n -e
+n -e
+nvim
+mv nvim nvim.bak
+git clone https://github.com/LazyVim/starter ~/.config/nvim
+ivm
+cd nvim
+ls
+vim README.md
+vim
+cd .local/share/
+ls
+rm -rf nvim
+cd
+cd .config/nvim
+n -e
+mv lua/custom/colorsheme.lua colors/tj.lua
+vim
+cd .local/state
+n -e
+rm -rf firenvim
+cd
+cd .cache
+ls
+rm -rf nvim
+vim test.html
+nvim -v
+cd /usr/local/share
+ls
+rm -rf nvim
+doas rm -rf nvim
+lenovo_screen.sh
+cd .config/
+mv nvim.bak nvim
+cd .config
+mv nvim nvim.bak
+mv nvim.bak.lazy nvim
+cd nvim
+ls
+mkdir colors
+mv ../nvim.bak/colors/zenlima.lua ./colors
+cd .config/nvim/
+n -e
+vim colorbuddy.lua
+vim
+yt-aac
+yta-aac -h
+yta-aac -h | live
+yta-aac -h | stream
+yta-aac https://www.youtube.com/watch?v=jfKfPfyJRdk
+ls
+rm 'lofi hip hop radio ðƒ¿ƒ³ƒº - beats to relaxâ§¸study to 2024-07-30 10_56 [jfKfPfyJRdk].m4a'
+yta-aac -o - https://www.youtube.com/watch?v=jfKfPfyJRdk
+mpv $(yta-aac -o - https://www.youtube.com/watch?v=jfKfPfyJRdk)
+vim
+cd .config/nvim
+vim zenlima.lua
+mkdir utils
+cd utils
+vim cursorline.lua
+vim
+n -e
+cd
+cd .config/zsh
+lsd
+rm  history_*
+ls
+vim zsh_alias
+mpv
+mpv $(yt-dlp -g https://www.youtube.com/watch?v=jfKfPfyJRdk)
+mpv $(yta-aac -g https://www.youtube.com/watch?v=jfKfPfyJRdk)
+mpv --no-video $(yta-aac -g https://www.youtube.com/watch?v=jfKfPfyJRdk)
+cd .config/nvim
+n -e
+cd .config
+n -e
+alias lofi="mpv --no-video $(yta-aac -g https://www.youtube.com/watch?v=jfKfPfyJRdk)"
+cd .config/zws
+cd .config/zsh
+n -e
+source zsh_alias
+vim zsh_alias
+cd projects/elixir
+vim
+n -e
+vim terst.css
+cd .config/nvim.bak/lua/custom/plugins
+n -e
+vim
+n -e
+vim ~/Downloads/zenlima\(1\).lua
+vim /tmp/zen_minimal.lua
+doas vim /etc/portage/package.use/sway
+doas vim /etc/portage/package.accept_keywords/sway
+vim .config/alacritty
+cd .config/sway
+n -e
+htoo
+htop
+eix swayfx 
+doas emerge --deselect sway
+doas emerge --ask --deep --depclean
+doas emerge --ask swayfx
+cd .config/zsh
+n -e
+lofi
+lenovo_screen.sh
+doa svim /etc/portage/package.use/sway
+doas vim /etc/portage/package.use/sway
+eix swayfx
+doas emerge --ask swayfx
+lenovo_screen.sh
+cd .config/sway
+n -e
+lenovo_screen.sh
+cd .config/sway
+n -e
+yt-dlp -h | grep -g
+yt-dlp -h
+vim Downloads/co
+vim Downloads/colorscheme_default.lua
+vim Downloads/zenlima-v1.lua
+cp Downloads/zenlima-v1.lua .config/nvim/colors
+gentoo-pipewire-launcher restart
+gentoo-pipewire-launcher restart &
+disown
+loginctl hibernate
+mpv $(yt-dlp -g https://www.youtube.com/watch?v=3QCcCdAokwc )
+mpv $(yt-dlp -g https://www.youtube.com/watch?v=7wNLH4KJ8wQ )
+mpv $(yt-dlp https://www.youtube.com/watch?v=jfKfPfyJRdk)
+mpv $(yt-dlp -g https://www.youtube.com/watch?v=jfKfPfyJRdk)
+mpv $(yt-dlp -g https://www.youtube.com/watch?v=HGl75kurxok)
+cd projects
+mkdir nvim_plugins
+cd nvim_plugins
+mkdir zenlima
+cd zenlima
+ls
+mpv $(yt-dlp -g https://www.youtube.com/watch?v=n4Lp4cV8YR0 )
+lofi
+gentoo-pipewire-launcher restart
+gentoo-pipewire-launcher restart & 
+disown
+cd .config
+mv nvim nvim.bak.lazyvim
+mv nvim.bak nvim
+cd nvim
+ls
+ls colors
+cp ../nvim.bak.lazyvim/colors/zenlima.lua ./colors
+cat .ssh/id_ed25519.pub
+n -e
+cd .local/share/nvim/
+ls
+n -e
+rm telescope_history
+cd .config/nvim/colors
+n -e
+n -e
+vim
+n -e
+ls
+rm 'lofi hip hop radio ðƒ¿ƒ³ƒº - beats to relaxâ§¸study to 2024-07-30 14_39 [jfKfPfyJRdk].mp4'
+cd .config/nvim/colors/ze
+cd .config/nvim/colors/
+vim zenlima.lua
+loginctl hibernate
+ivm
+vim
+ssh gulugulu@aegaeon.uberspace.de
+cd .config
+mv nvim nvim.bak
+mv nvim.bak.lazyvim nvim
+n -e
+n -e
+vim local.lua
+cd .config/nvim
+n -e
+vim
+eix luarocks
+doas emerge --ask luarocks
+cd .config/
+mv nvim nvim.bak.lazy
+mv nvim.bak nvim
+cd
+cd projects/elixir
+ls
+vim test.ex
+vim
+vim minimal.lua
+vim -u minimal.lua test.ex
+rm minimal.lua
+vim test.ex 
+n -e
+cd /usr/local/share/nvim
+ls
+vim elixir.vim
+n -e
+cd .config
+mv nvim nvim.bak.lazy
+mv nvim.bak nvim
+n -e
+cd .config/nvim
+mv nvim nvim.bak
+mv nvim.bak.lazy nvim
+cd
+cd projects/elixir/books/functional-programming-with-elixir/recursion
+ls
+n -e
+vim answer_
+vim answer_1.ex
+cd .config/nvim
+n -e
+vim
+cd .config/nvim
+n -e
+cd .ssh
+cd
+ls .ssh/id_ed25519.pub
+cat .ssh/id_ed25519.pub
+ssh-keygen
+cd .ssh
+cd
+ls .ssh/id_ed25519.pub
+cat .ssh/id_ed25519.pub
+ssh-keygen
+vim  
+cd .config/nvim
+n -e
+vim formatting.lua
+cd projects/elixir/books/functional-programming-with-elixir
+vim test.md
+vim answer_
+vim answer_1.ex
+vim
+cd
+cd .config/nvim.bak.lazy/lua/plugins
+ls
+n -e
+vim Downloads/autocmds.lua
+cd .config/nvim
+vim
+vim autocommands.
+vim autocommands.lua
+n -e
+cd .config/nvim
+vim
+n -e
+mv zenlima.lua zenlima.lua.bak
+cd .config/nvim.bak.lazy
+n -e
+vim
+cd .config/nvim.bak.lazy
+n -e
+vim
+cd
+cd .config/nvim/colors
+s
+vim
+n -e
+mv zenlima.lua.bak zenlima.lua
+ls
+vim zenlima.lua
+tree
+watch tree
+vim
+vim 
+vim
+cd .config/nvim/ze
+cd .config/nvim/
+vim ze
+ls
+vim colors/zenlima.lua
+vim .zshrc
+vim
+lofi
+daos vim /etc/portage/package.accept_keywords/lazygit
+doas vim /etc/portage/package.accept_keywords/lazygit
+ivm
+vim
+n -e
+nfs
+eix nfs
+doas emerge --ask nfs-utils
+ls
+pwd
+doas mkdir /mnt/nas
+doas mount -t nfs 192.168.1.37:/mnt/main/nas /mnt/nas
+cd /mnt/nas
+touch test
+sudo touch test
+daos touch test
+doas touch test
+pwd
+cd ..
+ls -la
+cd nas
+htop
+doas cat /proc/mounts
+doas lsof
+losetup -a
+doas losetup -a
+doas losetup -d /mnt/nas
+doas losetup -d /mnt/na
+doas umount.nfs /mnt/nas
+lsof
+umount -h
+doas umount.nfs -f /mnt/nas
+cd
+doas umount.nfs --force /mnt/nas
+udevil mount nfs://192.168.1.37:/mnt/main/nas
+doas udevil mount nfs://192.168.1.37:/mnt/main/nas
+cd /media/nfs-192.168.1.37-mnt-main-nas
+ls
+touch tes
+doas touch tes
+doas -s
+doas udevil umout /media/nfs-192.168.1.37-mnt-main-nas
+doas udevil umount /media/nfs-192.168.1.37-mnt-main-nas
+ls
+doas udevil mount nfs://192.168.1.37:/mnt/main/nas
+cd /media/nfs-192.168.1.37-mnt-main-nas
+ls
+touch test
+doas touch test
+su
+doas udevil mount nfs://192.168.1.37:/mnt/main/nas
+cd /media/nfs-192.168.1.37-mnt-main-nas
+ls
+doas -s
+cd
+doas udevil umount /media/nfs-192.168.1.37-mnt-main-nas
+doas udevil mount nfs://192.168.1.37:/mnt/main/nas
+cd /media/nfs-192.168.1.37-mnt-main-nas
+ls
+touch test
+doas -s
+cd
+doas udevil umount /media/nfs-192.168.1.37-mnt-main-nas
+doas udevil mount nfs://192.168.1.37:/mnt/main/nas
+doas -s
+udevil mount nfs://192.168.1.37:/mnt/main/nas
+cd /mnt/nas
+cd 
+doas cat /proc/mounts
+cd /media/nfs
+doas umount -f /media/nfs-192.168.1.37-mnt-main-nas
+doas udevil mount nfs://192.168.1.37:/mnt/main/nas
+cd /media/nfs-192.168.1.37-mnt-main-nas
+ls
+touch test
+doas touch test
+su
+cd notes/g
+cd notes/
+eix lazygi
+doas emerge --ask lazygit
+lazygi
+lazygit
+ls
+git pull
+git add .
+git commit -m "up\
+\
+"
+git push
+doas udevil umount nfs://192.168.1.37:/mnt/main/nas
+ls /media
+udevil -h
+doas udevil -h
+doas udevil mount smb://niklas:0QWlVGW
+doas udevil mount smb://niklas:0QWlVGW50/mnt/main/nas
+doas udevil mount smb://niklas:0QWlVGW\!@192.168.1.37/mnt/main/nas
+doas udevil mount smb://niklas:0QWlVGW\!@192.168.1.37:50/mnt/main/nas
+doas udevil mount smb://@192.168.1.37:50/mnt/main/nas
+eix update
+doas eix-update
+doas emerge --sync
+htop
+vim
+n -e
+vim
+vim ~/Downloads/zenlima\(2\).lua
+vim colors.md
+vim
+ping www.google.de
+nmtui
+doas emerge --ask nautilus
+htop
+viM
+vim
+vim utils.lua
+vim theme.lua
+vim pallet.lua
+cat colors/dyncs.lua
+tree
+rm -rf dyncs.nvim
+git clone git@codeberg.org:zenlima/dyncs.nvim.git
+vim lua/dyncs/utils.llua
+vim lua/dyncs/utils.lua
+vim lua/dyncs/pallet.lua
+mkdir languages
+mkdir plugins
+vim languages/elixir.lua
+git commit -m "start refactor"
+colors
+colors -=h
+colors -h
+man colors
+cd
+cd plugins
+cd dyncs.nvim
+git add .
+git commit -m "update colors to pull right setup function"
+git push
+git pull
+vim 
+touch syntax.lua
+vim syntax.lua
+vim treesitter.lua
+n -e
+vim
+cd dyncs
+ls
+touch languages/init.lua
+touch plugins/init.lua
+vim
+cd .local/share/nvim/lazy
+n -e
+cd co
+cd colorbuddy.nvim
+ls
+vim
+n -e
+i
+n -e
+cd notes
+vim
+vim test.ex
+vim test.lua
+vim test.md
+vim
+\:wq
+eix emoji
+doas emerge --ask noto-emoji
+vim
+vim test.ex
+rm test.*
+n -e
+rm test.md
+ls
+git add .
+git commit -m "up"
+lazygit

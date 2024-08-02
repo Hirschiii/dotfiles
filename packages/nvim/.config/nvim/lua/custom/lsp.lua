@@ -5,9 +5,47 @@ require("neodev").setup {
 	-- },
 }
 
+vim.diagnostic.config({
+	underline = true,
+	update_in_insert = false,
+	-- virtual_text = false,
+	virtual_text = {
+		spacing = 4,
+		source = "if_many",
+		prefix = "●",
+		-- this will set set the prefix to a function that returns the diagnostics icon based on the severity
+		-- this only works on a recent 0.10.0 build. Will be set to "●" when not supported
+		-- prefix = "icons",
+	},
+	float = {
+		focusable = false,
+		style = "minimal",
+		border = "rounded",
+		source = "if_many",
+		header = "",
+		prefix = "",
+	},
+	severity_sort = true,
+	-- signs = {
+	-- 	text = {
+	-- 		[vim.diagnostic.severity.ERROR] = LazyVim.config.icons.diagnostics.Error,
+	-- 		[vim.diagnostic.severity.WARN] = LazyVim.config.icons.diagnostics.Warn,
+	-- 		[vim.diagnostic.severity.HINT] = LazyVim.config.icons.diagnostics.Hint,
+	-- 		[vim.diagnostic.severity.INFO] = LazyVim.config.icons.diagnostics.Info,
+	-- 	},
+	-- },
+})
+
+vim.lsp.inlay_hint.enable(false, nil)
+
 local capabilities = nil
 if pcall(require, "cmp_nvim_lsp") then
-	capabilities = require("cmp_nvim_lsp").default_capabilities()
+	-- capabilities = require("cmp_nvim_lsp").default_capabilities()
+	capabilities = vim.tbl_deep_extend(
+		"force",
+		{},
+		vim.lsp.protocol.make_client_capabilities(),
+		require("cmp_nvim_lsp").default_capabilities())
 end
 
 local lspconfig = require "lspconfig"
@@ -156,6 +194,7 @@ vim.api.nvim_create_autocmd("LspAttach", {
 		vim.keymap.set("n", "gD", vim.lsp.buf.declaration, { buffer = 0 })
 		vim.keymap.set("n", "gT", vim.lsp.buf.type_definition, { buffer = 0 })
 		vim.keymap.set("n", "K", vim.lsp.buf.hover, { buffer = 0 })
+		vim.keymap.set("n", "<space>v", vim.diagnostic.open_float, { buffer = 0 })
 
 		vim.keymap.set("i", "<c-h>", vim.lsp.buf.signature_help, { buffer = 0 })
 
@@ -184,7 +223,6 @@ vim.api.nvim_create_autocmd("LspAttach", {
 
 -- Automatic Linting
 require('lint').linters_by_ft = {
-	markdown = { 'vale', },
 	elixir = { "credo", }
 }
 

@@ -1,5 +1,7 @@
 require "custom.snippets"
 
+vim.api.nvim_set_hl(0, "CmpGhostText", { link = "Comment", default = true })
+
 vim.opt.completeopt = { "menu", "menuone", "noselect" }
 vim.opt.shortmess:append "c"
 
@@ -54,6 +56,7 @@ cmp.setup {
 		-- { name = "buffer",  keyword_length = 5 }
 
 		{ name = "nvim_lsp",   priority = 8 },
+		{ name = "path",       priority = 8 },
 		{ name = "luasnip",    priority = 7 },
 		{ name = "buffer",     priority = 7 }, -- first for locality sorting?
 		{ name = "spell",      keyword_length = 3, priority = 5, keyword_pattern = [[\w\+]] },
@@ -183,6 +186,7 @@ cmp.setup {
 			-- Source
 			vim_item.menu = ({
 				buffer = "[Buffer]",
+				path = "[Path]",
 				nvim_lsp = "[LSP]",
 				luasnip = "[LuaSnip]",
 				nvim_lua = "[Lua]",
@@ -190,6 +194,12 @@ cmp.setup {
 			})[entry.source.name]
 			return vim_item
 		end
+	},
+
+	experimental = {
+		ghost_text = {
+			hl_group = "CmpGhostText",
+		},
 	},
 
 }

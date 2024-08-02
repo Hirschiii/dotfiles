@@ -16,13 +16,14 @@
 
 ## LSP
 
-| Mode | Kombination | Funktion                    | Beschreibung                               |
-| ---- | ----------- | --------------------------- | ------------------------------------------ |
-| "n"  | "gd"        | builtin.lsp_definitions     | Definition der Funktion                    |
-| "n"  | "gr"        | builtin.lsp_references      | Alle Referencen                            |
-| "n"  | "gD"        | vim.lsp.buf.declaration     | Zur Declaration (Nicht immer unterstuetzt) |
-| "n"  | "gT"        | vim.lsp.buf.type_definition | Springt zur Definition des Typen           |
-| "n"  | "K"         | vim.lsp.buf.hover           | Allgemeine Informationen                   |
-| "i"  | "<c-h>"     | vim.lsp.buf.signature_help  | Zeigt die Attribute einer Funktion an      |
-| "n"  | "<space>cr" | vim.lsp.buf.rename          | Benennt alle referencen um                 |
-| "n"  | "<space>ca" | vim.lsp.buf.code_action     | Listet mögliche Code Actions auf           |
+| Mode | Kombination | Funktion                    | Beschreibung                                 |
+| ---- | ----------- | --------------------------- | -------------------------------------------- |
+| "n"  | "gd"        | builtin.lsp_definitions     | Definition der Funktion                      |
+| "n"  | "gr"        | builtin.lsp_references      | Alle Referencen                              |
+| "n"  | "gD"        | vim.lsp.buf.declaration     | Zur Declaration (Nicht immer unterstuetzt)   |
+| "n"  | "gT"        | vim.lsp.buf.type_definition | Springt zur Definition des Typen             |
+| "n"  | "K"         | vim.lsp.buf.hover           | Allgemeine Informationen                     |
+| "i"  | "<c-h>"     | vim.lsp.buf.signature_help  | Zeigt die Attribute einer Funktion an        |
+| "n"  | "<space>cr" | vim.lsp.buf.rename          | Benennt alle referencen um                   |
+| "n"  | "<space>ca" | vim.lsp.buf.code_action     | Listet mögliche Code Actions auf             |
+| "n"  | "<space>v"  | vim.diagnostics.open_float  | Oeffnet die kompletten diagnostics der Zeile |

@@ -9,17 +9,16 @@
 ### Variables
 exec gentoo-pipewire-launcher &
 # exec foot --server
-exec wl-paste -t text --watch clipman store
-exec_always dunst
+# exec wl-paste -t text --watch clipman store
+exec wl-paste --watch cliphist store
+exec_always mako
 
-# exec swayidle -w \
-#         timeout 300  'swaylock -f' \
-#         timeout 301  'swaymsg "output * dpms off"' \
-#         # timeout 301  'swaymsg "output * disable"' \
-#             resume   'swaymsg "output * dpms on"' \
-#             # resume   'swaymsg "output * enable"' \
-#             # after-resume 'clamshell' \
-#         before-sleep 'playerctl pause' \
+exec swayidle -w \
+        timeout 300  'swaylock -f' \
+		timeout 450	 'loginctl suspend' \
+		timeout 10000	 'loginctl hibernate' \
+		resume 'swaymsg "output * power on"' \
+		before-sleep 'swaylock -f'
 # exec_always nm-applet
 # exec wl-paste -p -t text --watch clipman store -P --histpath="~/.local/share/clipman-primary.json"
 #
@@ -41,11 +40,12 @@ set $browser firefox
 # on the original workspace that the command was run on.
 # set $menu dmenu_path | dmenu | xargs swaymsg exec --
 # set $menu alacritty -T alacritty_launcher -e "$HOME/.config/nnn/plugins/launch"
-set $menu rofi -show drun
+set $menu wofi --show drun
 
-# blur enable
-# default_dim_inactive 0.2
-# corner_radius 10
+blur enable
+blur_radius 10
+default_dim_inactive 0.2
+corner_radius 10
 
 ### Output configuration
 #
@@ -94,6 +94,7 @@ default_border pixel 2
 # Mark XWayland
 for_window [shell="xwayland"] title_format "%title :: %shell"
 for_window [shell="xwayland"] default_border normal 2
+
 
 ### Idle configuration
 #
@@ -155,7 +156,8 @@ bindsym XF86MonBrightnessUp exec light -A 10
 
     # Kill focused window
     bindsym $mod+c kill
-    bindsym $mod+Shift+c exec clipman pick --tool=CUSTOM --tool-args="fuzzel -d"
+    bindsym $mod+Shift+c exec cliphist list | wofi -S dmenu | cliphist decode | wl-copy
+
 	bindsym $mod+x exec "$(file="/tmp/click"; if test "0" = "$(cat "$file")"; then printf '1\n' > "$file"; else printf '0\n' > "$file"; fi)"
 
     # Start your launcher
@@ -167,7 +169,7 @@ bindsym XF86MonBrightnessUp exec light -A 10
     # Change normal to inverse to use left mouse button for resizing and right
     # mouse button for dragging.
     floating_modifier $mod normal
-    focus_follows_mouse no
+    focus_follows_mouse yes
 
     # Reload the configuration file
     bindsym $mod+Shift+r reload
@@ -333,6 +335,8 @@ for_window [title = "alacritty_launcher"] floating enable
 for_window [app_id = "floating_update"] floating enable, resize set width 1000px height 600px
 # for_window [class = "(?i)pinentry"] floating enable
 for_window [title = "Administrator privileges required"] floating enable
+
+for_window [title="Extension: (Bitwarden Password Manager) - Bitwarden — Mozilla Firefox"]  floating enable
 
 # Firefox
 
