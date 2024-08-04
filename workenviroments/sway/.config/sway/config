@@ -40,7 +40,7 @@ set $browser firefox
 # on the original workspace that the command was run on.
 # set $menu dmenu_path | dmenu | xargs swaymsg exec --
 # set $menu alacritty -T alacritty_launcher -e "$HOME/.config/nnn/plugins/launch"
-set $menu wofi --show drun
+set $menu wofi --show drun --show-icons
 
 blur enable
 blur_radius 10
