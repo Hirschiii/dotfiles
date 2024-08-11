@@ -15,7 +15,7 @@ OTHER="02"
 
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=15'
 
-export PATH="$PATH:$HOME/.local/bin:/opt/homebrew/bin:"
+export PATH="$PATH:$HOME/.local/bin:/opt/homebrew/bin"
 export ZK_NOTEBOOK_DIR=~/notes
 
 export EDITOR=nvim
