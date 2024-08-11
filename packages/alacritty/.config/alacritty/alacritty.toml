@@ -1,6 +1,6 @@
-# import = [
-# 	"~/.config/alacritty/rose-pine.toml",
-# ]
+import = [
+	"~/.config/alacritty/rose-pine.toml",
+]
 live_config_reload = true
 
 [colors]
@@ -56,23 +56,23 @@ mouse = { enabled = true }
 background = "#000000"
 foreground = "#ebdbb2"
 
-[colors.normal]
-black = "#373b41"
-blue = "#afecff"
-cyan = "#8abeb7"
-green = "#c0ff78"
-magenta = "#b294bb"
-red = "#ffa3be"
-white = "#ebe5d4"
-yellow = "#ffb050"
-
-[colors.bright]
-black = "#282a2e"
-blue = "#37424f"
-cyan = "#00433a"
-green = "#32421f"
-magenta = "#310042"
-red = "#42001b"
-white = "#707880"
-yellow = "#422800"
-
+# [colors.normal]
+# black = "#373b41"
+# blue = "#afecff"
+# cyan = "#8abeb7"
+# green = "#c0ff78"
+# magenta = "#b294bb"
+# red = "#ffa3be"
+# white = "#ebe5d4"
+# yellow = "#ffb050"
+#
+# [colors.bright]
+# black = "#282a2e"
+# blue = "#37424f"
+# cyan = "#00433a"
+# green = "#32421f"
+# magenta = "#310042"
+# red = "#42001b"
+# white = "#707880"
+# yellow = "#422800"
+#

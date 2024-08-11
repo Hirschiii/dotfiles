@@ -13,11 +13,13 @@ exec gentoo-pipewire-launcher &
 exec wl-paste --watch cliphist store
 exec_always mako
 
+# timeout 450	 'loginctl suspend' \
+
 exec swayidle -w \
         timeout 300  'swaylock -f' \
-		timeout 450	 'loginctl suspend' \
+		timeout 600 'swaymsg "output * power off"' \
+			resume 'swaymsg "output * power on"' \
 		timeout 10000	 'loginctl hibernate' \
-		resume 'swaymsg "output * power on"' \
 		before-sleep 'swaylock -f'
 # exec_always nm-applet
 # exec wl-paste -p -t text --watch clipman store -P --histpath="~/.local/share/clipman-primary.json"
@@ -44,7 +46,7 @@ set $menu wofi --show drun --show-icons
 
 blur enable
 blur_radius 10
-default_dim_inactive 0.2
+default_dim_inactive 0.1
 corner_radius 10
 
 ### Output configuration

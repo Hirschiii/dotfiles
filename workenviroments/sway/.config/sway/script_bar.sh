@@ -67,7 +67,7 @@ network=$(ip route get 1.1.1.1 | grep -Po '(?<=dev\s)\w+' | cut -f1 -d ' ')
 # language=$(swaymsg -r -t get_inputs | awk '/1:1:AT_Translated_Set_2_keyboard/;/xkb_active_layout_name/' | grep -A1 '\b1:1:AT_Translated_Set_2_keyboard\b' | grep "xkb_active_layout_name" | awk -F '"' '{print $4}')
 loadavg_5min=$(cat /proc/loadavg | awk -F ' ' '{print $2}')
 
-position=$(curl https://am.i.mullvad.net/city)
+# position=$(curl https://am.i.mullvad.net/city)
 
 # vpn=$(curl https://am.i.mullvad.net/connected)
 
@@ -106,4 +106,4 @@ else
     audio_active='🔊'
 fi
 
-echo "$next_task $inbox | $position | $network_active | LoadAvg $loadavg_5min | $battery_pluggedin $battery_charge | $date_and_week $current_time"
+echo "$next_task $inbox | $network_active | LoadAvg $loadavg_5min | $battery_pluggedin $battery_charge | $date_and_week $current_time"
