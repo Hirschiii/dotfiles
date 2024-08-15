@@ -22,7 +22,7 @@ export EDITOR=nvim
 export VISUAL=nvim
 
 # For context to work
-export TEXMF="/usr/share/texmf-dist:$HOME/texmf"
+export TEXMF="$TEXMF:$HOME/texmf:/usr/local/texlive/2024/texmf-dist"
 # export TEXMFHOME=$HOME/texmf
 
 
