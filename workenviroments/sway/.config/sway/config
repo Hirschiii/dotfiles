@@ -16,11 +16,11 @@ exec_always mako
 # timeout 450	 'loginctl suspend' \
 
 exec swayidle -w \
-        timeout 300  'swaylock -f' \
+        timeout 300  'swaylock -e -f -i /tmp/lockscreen.png' \
 		timeout 600 'swaymsg "output * power off"' \
 			resume 'swaymsg "output * power on"' \
 		timeout 10000	 'loginctl hibernate' \
-		before-sleep 'swaylock -f'
+		before-sleep 'swaylock -e -f -i /tmp/lockscreen.png'
 # exec_always nm-applet
 # exec wl-paste -p -t text --watch clipman store -P --histpath="~/.local/share/clipman-primary.json"
 #
@@ -57,6 +57,8 @@ corner_radius 10
 # output "*" bg /home/niklas/.config/wall/wallpaper8.jpg fill
 # output "*" bg /home/niklas/.config/wall/gradient.jpg fill
 output "*" background "~/.cache/wallpaper" fill
+
+exec convert -filter Gaussian -resize 20% -blur 0x2.5 -resize 500% $HOME/.cache/wallpaper /tmp/lockscreen.png &
 #
 # Example configuration:
 #
