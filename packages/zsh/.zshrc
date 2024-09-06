@@ -183,3 +183,5 @@ if [ "$(tty)" = "/dev/tty1" ]; then
     exec dbus-run-session /usr/bin/sway > $XDG_RUNTIME_DIR/sway.log 2>&1
 fi
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+devmon 2>&1 > /dev/null &

@@ -7,7 +7,7 @@
 # Read `man 5 sway` for a complete reference.
 
 ### Variables
-exec gentoo-pipewire-launcher &
+exec_always gentoo-pipewire-launcher restart &
 # exec foot --server
 # exec wl-paste -t text --watch clipman store
 exec wl-paste --watch cliphist store
@@ -133,8 +133,8 @@ for_window [shell="xwayland"] default_border normal 2
 #
 #    for_window [class="^.*"] border pixel 2
 
-gaps inner 5
-gaps outer 10
+gaps inner 20
+gaps outer 30
 
 # Multi Mediaa
 
