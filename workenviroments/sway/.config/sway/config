@@ -5,7 +5,11 @@
 # Copy this to ~/.config/sway/config and edit it to your liking.
 #
 # Read `man 5 sway` for a complete reference.
+seat * hide_cursor 8000
 
+exec dbus-update-activation-environment --all
+exec gnome-keyring-daemon --start --components=secrets
+exec export $(gnome-keyring-daemon)
 ### Variables
 exec_always gentoo-pipewire-launcher restart &
 # exec foot --server
@@ -17,9 +21,9 @@ exec_always mako
 
 exec swayidle -w \
         timeout 300  'swaylock -e -f -i /tmp/lockscreen.png' \
-		timeout 600 'swaymsg "output * power off"' \
+		timeout 400 'swaymsg "output * power off"' \
 			resume 'swaymsg "output * power on"' \
-		timeout 10000	 'loginctl hibernate' \
+		timeout 800	 'loginctl suspend-then-hibernate' \
 		before-sleep 'swaylock -e -f -i /tmp/lockscreen.png'
 # exec_always nm-applet
 # exec wl-paste -p -t text --watch clipman store -P --histpath="~/.local/share/clipman-primary.json"
@@ -93,7 +97,7 @@ input type:keyboard {
 #No titlebars
 #
 default_floating_border pixel 2
-default_border pixel 2
+default_border normal 2
 
 # Mark XWayland
 for_window [shell="xwayland"] title_format "%title :: %shell"
@@ -133,14 +137,19 @@ for_window [shell="xwayland"] default_border normal 2
 #
 #    for_window [class="^.*"] border pixel 2
 
-gaps inner 20
-gaps outer 30
+gaps inner 10
+gaps outer 10
 
 # Multi Mediaa
 
-bindsym XF86MonBrightnessDown exec light -U 10
-bindsym XF86MonBrightnessUp exec light -A 10
+# bindsym XF86MonBrightnessDown exec light -U 10
+# bindsym XF86MonBrightnessUp exec light -A 10
 
+bindsym XF86MonBrightnessDown exec brightnessctl set 5%-
+bindsym XF86MonBrightnessUp exec brightnessctl set 5%+
+
+bindsym XF86AudioRaiseVolume exec wpctl set-volume @DEFAULT_SINK@ 5%+
+bindsym XF86AudioLowerVolume exec wpctl set-volume @DEFAULT_SINK@ 5%-
 
     # Start a terminal
     bindsym $mod+Return exec $term
@@ -310,10 +319,10 @@ bar {
     status_command while ~/.config/sway/script_bar.sh; do sleep 1; done
 
     tray_output *
-	tray {
-        bindcode 273 ContextMenu
-        bindsym BTN_RIGHT ContextMenu
-    }
+	# tray {
+	#        bindcode 273 ContextMenu
+	#        bindsym BTN_RIGHT ContextMenu
+	#    }
     # "gtk-layer-shell": false
 
     colors {

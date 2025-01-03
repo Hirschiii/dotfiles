@@ -21,8 +21,8 @@ verbose=affected,blank,context,edit,header,footnote,label,new-id,project,special
 # Files
 # data.location=/home/niklas/.task
 
-# Custom coefficient
 
+# Custom coefficient
 urgency.user.tag.klausur.coefficient = 1
 
 # # Custom reports
