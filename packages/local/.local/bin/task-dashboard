@@ -1,0 +1,32 @@
+#!/bin/bash
+
+# Name of the tmux session
+SESSION_NAME="taskwarrior_dashboard"
+
+# Check if the session already exists
+tmux has-session -t $SESSION_NAME 2>/dev/null
+if [ $? -eq 0 ]; then
+	echo "Session '$SESSION_NAME' already exists. Attaching..."
+	tmux attach-session -t $SESSION_NAME
+	exit 0
+fi
+
+# Create a new tmux session
+tmux new-session -d -s $SESSION_NAME -n main
+
+# Pane 1: Taskwarrior Calendar
+tmux send-keys "while true; do clear; task rc.color=on calendar; sleep 30; done" C-m
+
+# Split the main pane horizontally for the burndown chart
+tmux split-window -h
+tmux send-keys "while true; do clear; task rc.color=on burndown.daily; sleep 30; done" C-m
+
+# Split the left pane vertically for the task list
+tmux split-window -v
+tmux send-keys "while true; do clear; task rc.color=on next; sleep 30; done" C-m
+
+# Select the top-left pane for default focus
+tmux select-pane -t 0
+
+# Attach to the session
+tmux attach-session -t $SESSION_NAME

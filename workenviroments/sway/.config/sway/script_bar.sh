@@ -5,26 +5,29 @@
 
 # Next Task:
 
-# OVERDUE='💀'
-# DUETODAY='😱'
-# DUETOMORROW='🗓️'
-# URGENT='❗'
-#
-# function task_indikator {
-# 	TASK="task"
-# 	echo "test"
-# 	if [ `$TASK +READY +OVERDUE count rc.context:none` => "0" ]; then
-# 		echo "$OVERDUE"
-# 	elif [ `$TASK +READY +TOMORROW count rc.context:none` => "0" ]; then 
-# 		echo "$DUETOMORROW"
-# 	elif [ `$TASK +READY +TODAY count rc.context:none` => "0" ]; then 
-# 		echo "$DUETODAY"
-# 	elif [ `$TASK +READY urgency.over:20 count rc.context:none` => "0" ]; then 
-# 		echo "$URGENT"
-# 	else
-# 		echo '$'
-# 	fi
-# }
+OVERDUE='💀'
+DUETODAY='😱'
+DUETOMORROW='🗓️'
+URGENT='❗'
+
+function task_indicator {
+	TASK="task"
+	# Check if there are overdue tasks
+	if [ "$($TASK +READY +OVERDUE count rc.context:none)" -gt 0 ]; then
+		echo "$OVERDUE"
+	# Check if there are tasks due tomorrow
+	elif [ "$($TASK +READY +TOMORROW count rc.context:none)" -gt 0 ]; then
+		echo "$DUETOMORROW"
+	# Check if there are tasks due today
+	elif [ "$($TASK +READY +TODAY count rc.context:none)" -gt 0 ]; then
+		echo "$DUETODAY"
+	# Check if there are tasks with high urgency
+	elif [ "$($TASK +READY urgency.over:20 count rc.context:none)" -gt 0 ]; then
+		echo "$URGENT"
+	else
+		echo '$'
+	fi
+}
 
 # next_task=$(task export next limit:1 | jq '.[] | "ID: \(.id) Desc: \(.description)"')
 next_task=$(task rc.verbose: bar limit:1)
@@ -75,35 +78,30 @@ loadavg_5min=$(cat /proc/loadavg | awk -F ' ' '{print $2}')
 # refresh on the bar
 #weather=$(curl -Ss 'https://wttr.in/Pontevedra?0&T&Q&format=1')
 
-if [ $battery_status = "Discharging" ];
-then
-    battery_pluggedin=''
+if [ $battery_status = "Discharging" ]; then
+	battery_pluggedin=''
 else
-    battery_pluggedin='⚡'
+	battery_pluggedin='⚡'
 fi
 
-if ! [ $network ]
-then
-   network_active="󰅛"
+if ! [ $network ]; then
+	network_active="󰅛"
 else
-   network_active="⇆"
+	network_active="⇆"
 fi
 
-if [ $player_status = "Playing" ]
-then
-    song_status='▶'
-elif [ $player_status = "Paused" ]
-then
-    song_status='⏸'
+if [ $player_status = "Playing" ]; then
+	song_status='▶'
+elif [ $player_status = "Paused" ]; then
+	song_status='⏸'
 else
-    song_status='⏹'
+	song_status='⏹'
 fi
 
-if [ $audio_is_muted = "true" ]
-then
-    audio_active='🔇'
+if [ $audio_is_muted = "true" ]; then
+	audio_active='🔇'
 else
-    audio_active='🔊'
+	audio_active='🔊'
 fi
 
-echo "$next_task $inbox | $network_active | LoadAvg $loadavg_5min | $battery_pluggedin $battery_charge | $date_and_week $current_time"
+echo "$(task_indicator) $next_task$inbox | $network_active | LoadAvg $loadavg_5min | $battery_pluggedin $battery_charge | $date_and_week $current_time"
