@@ -1,0 +1,96 @@
+commands:metadata:Generates a list of all commands, with behavior details
+count:metadata:Counts matching tasks
+ids:metadata:Shows the IDs of matching tasks, as a range
+information:metadata:Shows all data and metadata
+projects:metadata:Shows all project names used
+stats:metadata:Shows task database statistics
+tags:metadata:Shows a list of all tags used
+uuids:metadata:Shows the UUIDs of matching tasks, as a space-separated list
+active:report:Active tasks
+all:report:All tasks
+blocked:report:Blocked tasks
+blocking:report:Blocking tasks
+completed:report:Completed tasks
+inbox:report:INBOX report
+list:report:Most details of tasks
+long:report:All details of tasks
+ls:report:Few details of tasks
+minimal:report:Minimal details of tasks
+newest:report:Newest tasks
+next:report:Most urgent tasks
+oldest:report:Oldest tasks
+overdue:report:Overdue tasks
+q1:report:Quadrant 1: important and urgent
+q2:report:Quadrant 2: important and unurgent
+q3:report:Quadrant 3: unimportant and urgent
+q4:report:Quadrant 4: unimportant and unurgent
+ready:report:Most urgent actionable tasks
+recurring:report:Recurring Tasks
+timesheet:report:Summary of completed and started tasks
+todo:report:Todo
+unblocked:report:Unblocked tasks
+waiting:report:Waiting (hidden) tasks
+add:operation:Adds a new task
+annotate:operation:Adds an annotation to an existing task
+append:operation:Appends text to an existing task description
+delete:operation:Deletes the specified task
+denotate:operation:Deletes an annotation
+done:operation:Marks the specified task as completed
+duplicate:operation:Duplicates the specified tasks
+edit:operation:Launches an editor to modify a task directly
+log:operation:Adds a new task that is already completed
+modify:operation:Modifies the existing task with provided arguments.
+prepend:operation:Prepends text to an existing task description
+purge:operation:Removes the specified tasks from the data files. Causes permanent loss of data.
+start:operation:Marks specified task as started
+stop:operation:Removes the 'start' time from a task
+undo:operation:Reverts the most recent change to a task
+context:context:Set and define contexts (default filters / modifications)
+burndown.daily:graphs:Shows a graphical burndown chart, by day
+burndown.monthly:graphs:Shows a graphical burndown chart, by month
+burndown.weekly:graphs:Shows a graphical burndown chart, by week
+calendar:graphs:Shows a calendar, with due tasks marked
+ghistory.annual:graphs:Shows a graphical report of task history, by year
+ghistory.daily:graphs:Shows a graphical report of task history, by day
+ghistory.monthly:graphs:Shows a graphical report of task history, by month
+ghistory.weekly:graphs:Shows a graphical report of task history, by week
+history.annual:graphs:Shows a report of task history, by year
+history.daily:graphs:Shows a report of task history, by day
+history.monthly:graphs:Shows a report of task history, by month
+history.weekly:graphs:Shows a report of task history, by week
+summary:graphs:Shows a report of task status by project
+columns:config:All supported columns and formatting styles
+config:config:Change settings in the task configuration
+reports:config:Lists all supported reports
+show:config:Shows all configuration variables or subset
+udas:config:Shows all the defined UDA details
+export:migration:Exports tasks in JSON format
+import:migration:Imports JSON files
+synchronize:migration:Synchronizes data with the Taskserver
+calc:misc:Calculator
+colors:misc:All colors, a sample, or a legend
+diagnostics:misc:Platform, build and environment details
+execute:misc:Executes external commands and scripts
+help:misc:Displays this usage help text
+logo:misc:Displays the Taskwarrior logo
+news:misc:Displays news about the recent releases
+version:misc:Shows the Taskwarrior version number
+_aliases:internal:Generates a list of all aliases, for autocompletion purposes
+_columns:internal:Displays only a list of supported columns
+_commands:internal:Generates a list of all commands, for autocompletion purposes
+_config:internal:Lists all supported configuration variables, for completion purposes
+_context:internal:Lists all supported contexts, for completion purposes
+_get:internal:DOM Accessor
+_ids:internal:Shows the IDs of matching tasks, in the form of a list
+_projects:internal:Shows only a list of all project names used
+_show:internal:Shows all configuration settings in a machine-readable format
+_tags:internal:Shows only a list of all tags used, for autocompletion purposes
+_udas:internal:Shows the defined UDAs for completion purposes
+_unique:internal:Generates lists of unique attribute values
+_urgency:internal:Displays the urgency measure of a task
+_uuids:internal:Shows the UUIDs of matching tasks, as a list
+_version:internal:Shows only the Taskwarrior version number
+_zshattributes:internal:Generates a list of all attributes, for zsh autocompletion purposes
+_zshcommands:internal:Generates a list of all commands, for zsh autocompletion purposes
+_zshids:internal:Shows the IDs and descriptions of matching tasks
+_zshuuids:internal:Shows the UUIDs and descriptions of matching tasks

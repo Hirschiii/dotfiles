@@ -31,7 +31,7 @@ config.set('content.autoplay', False)
 # config.set("colors.webpage.darkmode.enabled", True)
 
 
-config.set("qt.force_platform", "wayland")
+# config.set("qt.force_platform", "wayland")
 
 
 

@@ -15,14 +15,18 @@ OTHER="02"
 
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=15'
 
+# For Mac:
+export PATH=$HOME/context/tex/texmf-osx-arm64/bin:$PATH
 export PATH="$PATH:$HOME/.local/bin:/opt/homebrew/bin"
 export ZK_NOTEBOOK_DIR=~/notes
+
+# export FPATH=$FPATH:$HOME/.config/zsh/completion/_task
 
 export EDITOR=nvim
 export VISUAL=nvim
 
 # For context to work
-export TEXMF="$TEXMF:$HOME/texmf:/usr/local/texlive/2024/texmf-dist"
+# export TEXMF="$TEXMF:$HOME/texmf:/usr/local/texlive/2024/texmf-dist"
 # export TEXMFHOME=$HOME/texmf
 
 
@@ -37,25 +41,25 @@ export NNN_OPTS="E"
 # Enable colors and change prompt:
 autoload -U colors && colors
 
-OVERDUE='󰚌 '
-DUETODAY=' '
-DUETOMORROW='󰃭 '
-URGENT=''
+# OVERDUE='󰚌 '
+# DUETODAY=' '
+# DUETOMORROW='󰃭 '
+# URGENT=''
 
-function task_indikator {
-	TASK="task"
-	if [[ `$TASK +READY +OVERDUE count rc.context:none` -gt "0" ]]; then
-		echo "$OVERDUE"
-	elif [[ `$TASK +READY +TOMORROW count rc.context:none` -gt "0" ]]; then 
-		echo "$DUETOMORROW"
-	elif [[ `$TASK +READY +TODAY count rc.context:none` -gt "0" ]]; then 
-		echo "$DUETODAY"
-	elif [[ `$TASK +READY urgency.over:20 count rc.context:none` -gt "0" ]]; then 
-		echo "$URGENT"
-	else
-		echo ' '
-	fi
-}
+# function task_indikator {
+# 	TASK="task"
+# 	if [[ `$TASK +READY +OVERDUE count rc.context:none` -gt "0" ]]; then
+# 		echo "$OVERDUE"
+# 	elif [[ `$TASK +READY +TOMORROW count rc.context:none` -gt "0" ]]; then 
+# 		echo "$DUETOMORROW"
+# 	elif [[ `$TASK +READY +TODAY count rc.context:none` -gt "0" ]]; then 
+# 		echo "$DUETODAY"
+# 	elif [[ `$TASK +READY urgency.over:20 count rc.context:none` -gt "0" ]]; then 
+# 		echo "$URGENT"
+# 	else
+# 		echo ' '
+# 	fi
+# }
 
 # PS1="%B%{$fg[red]%}[%{$fg[yellow]%}%n%{$fg[green]%}@%{$fg[blue]%}%M %{$fg[magenta]%}%1d%{$fg[red]%}]%{$reset_color%}$%b "
 # PS1='%~ $: '
