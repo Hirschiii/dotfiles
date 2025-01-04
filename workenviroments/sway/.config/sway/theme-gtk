@@ -1,0 +1,9 @@
+set $gnome-schema org.gnome.desktop.interface
+exec_always {
+    gsettings set $gnome-schema gtk-theme 'catppuccin-frappe-blue-standard+default'
+    gsettings set $gnome-schema icon-theme 'Papirus-Dark'
+    gsettings set $gnome-schema cursor-theme 'Catppuccin-cursor'
+    gsettings set $gnome-schema font-name 'jetbrains mono nerd font 12'
+}
+
+seat seat0 xcursor_theme Adwaita 24

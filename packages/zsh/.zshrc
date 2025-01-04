@@ -25,14 +25,11 @@ export ZK_NOTEBOOK_DIR=~/notes
 export EDITOR=nvim
 export VISUAL=nvim
 
-<<<<<<< HEAD
 # For context to work
 # export TEXMF="$TEXMF:$HOME/texmf:/usr/local/texlive/2024/texmf-dist"
 # export TEXMFHOME=$HOME/texmf
-=======
 autoload edit-command-line; zle -N edit-command-line
 bindkey -M vicmd v edit-command-line
->>>>>>> 137ee1022b1a9910339211f7f67d0e3827af75e5
 
 # For context to work
 # export TEXMF="/usr/share/texmf-dist"
@@ -166,6 +163,7 @@ bindkey -v '^?' backward-delete-char
 [ -f "$HOME/.config/zsh/taskwarrior.zsh" ] && source "$HOME/.config/zsh/taskwarrior.zsh"
 [ -f "$HOME/.config/zsh/quitcd.zsh" ] && source "$HOME/.config/zsh/quitcd.zsh"
 [ -f "$HOME/.config/zsh/zsh-keybinding" ] && source "$HOME/.config/zsh/zsh-keybinding"
+[ -f "$HOME/.config/zsh/theme" ] && source "$HOME/.config/zsh/theme"
 [ -f "/usr/share/zsh/site-functions/zsh-syntax-highlighting.zsh" ] && source "/usr/share/zsh/site-functions/zsh-syntax-highlighting.zsh"
 
 # Changing "ls" to "exa"

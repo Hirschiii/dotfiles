@@ -7,6 +7,8 @@
 # Read `man 5 sway` for a complete reference.
 seat * hide_cursor 8000
 
+include theme-gtk
+
 exec dbus-update-activation-environment --all
 exec gnome-keyring-daemon --start --components=secrets
 exec export $(gnome-keyring-daemon)
