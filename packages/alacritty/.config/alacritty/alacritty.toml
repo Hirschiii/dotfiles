@@ -46,11 +46,12 @@ regex = "[^ ]+\\.rs:\\d+:\\d+"
 command = { program = "code", args = [ "--goto" ] }
 mouse = { enabled = true }
 
-# [general]
-# live_config_reload = true
-# import = [
-# 	"~/.config/alacritty/rose-pine.toml",
-# ]
+[general]
+live_config_reload = true
+import = [
+	# "~/.config/alacritty/rose-pine.toml",
+	"~/.config/alacritty/catppuccin/catppuccin-frappe.toml",
+]
 
 
 [colors.primary]
