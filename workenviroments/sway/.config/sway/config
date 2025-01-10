@@ -1,5 +1,5 @@
 # Theme: 
-# include ~/.config/sway/themes/catppuccin-mocha
+include ~/.config/sway/themes/catppuccin-mocha
 # Default config for sway
 #
 # Copy this to ~/.config/sway/config and edit it to your liking.
@@ -327,20 +327,27 @@ bar {
 	#    }
     # "gtk-layer-shell": false
 
-    colors {
-        statusline #ffffff
-        background #323232
-        inactive_workspace #323232 #323232 #5c5c5c
-    }
+  colors {
+    background         $base
+    statusline         $text
+    focused_statusline $text
+    focused_separator  $base
+
+    # target           border bg        text
+    focused_workspace  $base  $mauve    $crust
+    active_workspace   $base  $surface2 $text
+    inactive_workspace $base  $base     $text
+    urgent_workspace   $base  $red      $crust
+  }
 }
 
 # target                 title     bg    text   indicator  border
-# client.focused           $lavender $base $text  $rosewater $lavender
-# client.focused_inactive  $overlay0 $base $text  $rosewater $overlay0
-# client.unfocused         $overlay0 $base $text  $rosewater $overlay0
-# client.urgent            $peach    $base $peach $overlay0  $peach
-# client.placeholder       $overlay0 $base $text  $overlay0  $overlay0
-# client.background        $base
+client.focused           $lavender $base $text  $rosewater $lavender
+client.focused_inactive  $overlay0 $base $text  $rosewater $overlay0
+client.unfocused         $overlay0 $base $text  $rosewater $overlay0
+client.urgent            $peach    $base $peach $overlay0  $peach
+client.placeholder       $overlay0 $base $text  $overlay0  $overlay0
+client.background        $base
 
 # More reasonable floating windows:
 
