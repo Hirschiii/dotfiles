@@ -34,7 +34,7 @@ bindkey -M vicmd v edit-command-line
 # For context to work
 # export TEXMF="/usr/share/texmf-dist"
 # export TEXMFHOME=$HOME/texmf
-export TEXMF=~/texmf:~/context/tex/texmf:~/context/tex/texmf-context:~/context/tex/texmf-fonts
+# export TEXMF=~/texmf:~/context/tex/texmf:~/context/tex/texmf-context:~/context/tex/texmf-fonts
 
 export PATH=/home/niklas/context/tex/texmf-linux-64/bin:$PATH
 
