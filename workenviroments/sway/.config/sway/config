@@ -88,8 +88,8 @@ input type:keyboard {
   # See /usr/share/X11/xkb/rules/xorg.lst for options
   xkb_options ctrl:nocaps,grp:alt_shift_toggle
 
-  repeat_delay 250
-  repeat_rate 45
+  # repeat_delay 250
+  # repeat_rate 45
 }
 
 #
