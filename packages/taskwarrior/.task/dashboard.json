@@ -1,0 +1,23 @@
+{
+	"session": "task-dashboard",
+	"window": "view",
+	"auto-attach": true,
+	"layout": {
+		"v:~:p33:l2": [
+			{
+				"h:~:p33": [
+					"task",
+					{
+						"v:~:p50:p33": [
+							"task rc.context:none summary",
+							"task rc.context:default overdue",
+							"task rc.context:none +TODAY"
+						]
+					}
+				]
+			},
+			"task burndown.daily",
+			"*!task shell"
+		]
+	}
+}

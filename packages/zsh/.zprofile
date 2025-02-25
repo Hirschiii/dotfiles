@@ -28,3 +28,6 @@ export FZF_DEFAULT_OPTS="--height=40% --multi --tiebreak=begin \
     tmux send-keys -t \{left\} -l \\\"{}\\\" && \
     tmux send-keys -t \{left\} Enter \
   ]\""
+
+
+source ~/.env
