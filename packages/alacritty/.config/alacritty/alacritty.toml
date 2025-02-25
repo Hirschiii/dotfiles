@@ -41,7 +41,7 @@ key = "C"
 mods = "Alt"
 
 [window]
-opacity = 0.7
+opacity = 0.4
 blur = true
 
 [window.padding]
