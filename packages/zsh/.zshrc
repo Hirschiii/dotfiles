@@ -17,6 +17,7 @@ ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=15'
 
 # For Mac:
 export PATH=$HOME/context/tex/texmf-osx-arm64/bin:$PATH
+export PATH=/home/niklas/context/tex/texmf-linux-aarch64/bin:$PATH
 export PATH="$PATH:$HOME/.local/bin:/opt/homebrew/bin"
 export ZK_NOTEBOOK_DIR=~/notes
 

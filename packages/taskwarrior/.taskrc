@@ -155,4 +155,3 @@ context.schule.write=+schule priority:L urgent:Y
 
 context.personal.read=+personal
 context.personal.write=+personal
-context=schule
