@@ -28,14 +28,21 @@ report.todo.labels=ID,Project,Text,Urg
 report.todo.sort=urgency-,project-
 report.todo.filter=status:pending -ACTIVE -WAITING -BLOCKED -OVERDUE
 
+# For simple notes
+report.notes.description=Notes
+report.notes.columns=id,project,description.count,entry.age
+report.notes.labels=ID,Project,Description,Entered
+report.notes.sort=entry+
+report.notes.filter=status:pending  -WAITING -BLOCKED -OVERDUE +note
+
 # uda.score.type=numeric
 # uda.score.label=Score
 # urgency.uda.score.coefficient=2
 
 # Die nächste Klausur anzeigen
 report.klausur.description=Die nächste Klausur anzeigen
-report.klausur.columns=id,due,description.count,urgency
-report.klausur.labels=ID,Due,Text,Urg
+report.klausur.columns=id,due,due.relative,description.count,urgency
+report.klausur.labels=ID,Due,Time left,Text,Urg
 report.klausur.sort=due+
 report.klausur.filter=status:pending -ACTIVE -WAITING -BLOCKED -OVERDUE +klausur
 
@@ -57,7 +64,7 @@ report.bar.filter=status:pending -WAITING limit:page -klausur
 
 report.next.columns=id,start.age,urgent,priority,depends,project,tags,recur,scheduled.countdown,due.relative,until.remaining,description.count
 report.next.labels=ID,Started,Urg.,Prio,Dep.,Project,Tags,Recur,Scheduled,due,Until,Desc.
-# report.next.filter=status:pending -WAITING limit:page -klausur
+report.next.filter=status:pending -WAITING limit:page -note -tracking -klausur
 
 ## Boxing / How big is a task
 
@@ -66,6 +73,10 @@ report.next.labels=ID,Started,Urg.,Prio,Dep.,Project,Tags,Recur,Scheduled,due,Un
 # uda.box.default=1
 #
 # urgency.uda.box.coefficient=2
+
+uda.estimate.type=duration
+uda.estimate.label=Estimated Time
+uda.estimate.description=Estimated time to complete the task
 
 uda.urgent.type=string
 uda.urgent.label=Urgent
@@ -132,11 +143,11 @@ data.location=/home/niklas/.task
 #include light-16.theme
 #include light-256.theme
 # include dark-16.theme
-# include dark-256.theme
+include dark-256.theme
 # include dark-red-256.theme
-include dark-green-256.theme
+# include dark-green-256.theme
 #include dark-blue-256.theme
-#include dark-violets-256.theme
+# include dark-violets-256.theme
 #include dark-yellow-green.theme
 #include dark-gray-256.theme
 # include dark-gray-blue-256.theme
@@ -149,10 +160,9 @@ sync.server.url=$TW_SERVER_URL
 sync.server.client_id=$TW_SERVER_CLIENT_ID
 sync.encryption_secret=$TW_ENCRYPTION_SECRET
 
-context.schule.read=+schule priority:L urgent:Y
+context.schule.read=+schule 
 context.schule.write=+schule priority:L urgent:Y
 
 
-context.personal.read=+personal
+context.personal.read=+personal 
 context.personal.write=+personal
-context=schule
