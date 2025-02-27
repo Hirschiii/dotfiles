@@ -3,6 +3,19 @@
 # Variables
 ################
 
+# Started task
+
+function task_started {
+	TASK="task"
+	# Check if there are overdue tasks
+	if [ "$($TASK +ACTIVE count rc.context:none)" -gt 0 ]; then
+		echo -e "\033[32m$($TASK rc.verbose: bar +ACTIVE limit:1)\033[0m |"
+	else
+		echo "Nopoe"
+	fi
+}
+
+
 # Next Task:
 
 OVERDUE='💀'
@@ -104,4 +117,4 @@ else
 	audio_active='🔊'
 fi
 
-echo "$(task_indicator) $next_task$inbox | $network_active | LoadAvg $loadavg_5min | $battery_pluggedin $battery_charge | $date_and_week $current_time"
+echo "$(task_started) $(task_indicator) $next_task$inbox | $network_active | LoadAvg $loadavg_5min | $battery_pluggedin $battery_charge | $date_and_week $current_time"

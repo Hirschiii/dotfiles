@@ -42,7 +42,7 @@ set $right l
 # Your preferred terminal emulator
 # set $term footclient
 set $term alacritty
-set $browser firefox
+set $browser thorium-browser --ozone-platform-hint=auto --enable-features=UseOzonePlatform,WaylandWindowDecorations
 # Your preferred application launcher
 # Note: pass the final command to swaymsg so that the resulting window can be opened
 # on the original workspace that the command was run on.
@@ -318,8 +318,9 @@ bar {
     # When the status_command prints a new line to stdout, swaybar updates.
     # The default just shows the current date and time.
     # status_command while date +'%Y-%m-%d %I:%M:%S %p'; do sleep 1; done
-    status_command while ~/.config/sway/script_bar.sh; do sleep 1; done
-
+    # status_command while ~/.config/sway/script_bar_json.sh; do sleep 1; done
+	# separator_symbol " | "
+    status_command ~/.config/sway/script_bar_json.sh
     tray_output *
 	# tray {
 	#        bindcode 273 ContextMenu
@@ -330,6 +331,7 @@ bar {
   colors {
     background         $base
     statusline         $text
+	separator		   $text
     focused_statusline $text
     focused_separator  $base
 
