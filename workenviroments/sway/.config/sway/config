@@ -62,7 +62,7 @@ set $menu wofi --show drun --show-icons
 # output "*" bg /home/niklas/.config/wall/fsociety.png fill
 # output "*" bg /home/niklas/.config/wall/wallpaper8.jpg fill
 # output "*" bg /home/niklas/.config/wall/gradient.jpg fill
-# output "*" background "~/.cache/wallpaper" fill
+output "*" background "~/.cache/wallpaper" fill
 
 exec convert -filter Gaussian -resize 20% -blur 0x2.5 -resize 500% $HOME/.cache/wallpaper /tmp/lockscreen.png &
 #
