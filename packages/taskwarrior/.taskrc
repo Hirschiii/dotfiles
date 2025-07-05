@@ -40,11 +40,11 @@ report.notes.filter=status:pending  -WAITING -BLOCKED -OVERDUE +note
 # urgency.uda.score.coefficient=2
 
 # Die nächste Klausur anzeigen
-report.klausur.description=Die nächste Klausur anzeigen
-report.klausur.columns=id,due,due.relative,description.count,urgency
-report.klausur.labels=ID,Due,Time left,Text,Urg
-report.klausur.sort=due+
-report.klausur.filter=status:pending -ACTIVE -WAITING -BLOCKED -OVERDUE +klausur
+# report.klausur.description=Die nächste Klausur anzeigen
+# report.klausur.columns=id,due,due.relative,description.count,urgency
+# report.klausur.labels=ID,Due,Time left,Text,Urg
+# report.klausur.sort=due+
+# report.klausur.filter=status:pending -ACTIVE -WAITING -BLOCKED -OVERDUE +klausur
 
 
 # Bar
@@ -64,7 +64,7 @@ report.bar.filter=status:pending -WAITING limit:page -klausur
 
 report.next.columns=id,start.age,urgent,priority,depends,project,tags,recur,scheduled.countdown,due.relative,until.remaining,description.count
 report.next.labels=ID,Started,Urg.,Prio,Dep.,Project,Tags,Recur,Scheduled,due,Until,Desc.
-report.next.filter=status:pending -WAITING limit:page -note -tracking -klausur
+report.next.filter=status:pending -WAITING limit:page -note -tracking -klausur project.not:piano 
 
 ## Boxing / How big is a task
 
@@ -160,8 +160,8 @@ sync.server.url=$TW_SERVER_URL
 sync.server.client_id=$TW_SERVER_CLIENT_ID
 sync.encryption_secret=$TW_ENCRYPTION_SECRET
 
-context.schule.read=+schule 
-context.schule.write=+schule priority:L urgent:Y
+# context.schule.read=+schule or project:abi
+# context.schule.write=+schule priority:L urgent:Y
 
 
 context.personal.read=+personal 

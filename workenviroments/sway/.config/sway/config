@@ -1,5 +1,7 @@
 # Theme: 
 include ~/.config/sway/themes/catppuccin-mocha
+# include ~/.config/sway/thinkbot
+# include ~/.config/sway/$(hostname)
 # Default config for sway
 #
 # Copy this to ~/.config/sway/config and edit it to your liking.
@@ -25,7 +27,7 @@ exec swayidle -w \
         timeout 300  'swaylock -e -f -i /tmp/lockscreen.png' \
 		timeout 400 'swaymsg "output * power off"' \
 			resume 'swaymsg "output * power on"' \
-		timeout 800	 'loginctl suspend-then-hibernate' \
+		timeout 800	 'loginctl suspend' \
 		before-sleep 'swaylock -e -f -i /tmp/lockscreen.png'
 # exec_always nm-applet
 # exec wl-paste -p -t text --watch clipman store -P --histpath="~/.local/share/clipman-primary.json"
@@ -42,7 +44,8 @@ set $right l
 # Your preferred terminal emulator
 # set $term footclient
 set $term alacritty
-set $browser thorium-browser --ozone-platform-hint=auto --enable-features=UseOzonePlatform,WaylandWindowDecorations
+# set $browser thorium-browser --ozone-platform-hint=auto --enable-features=UseOzonePlatform,WaylandWindowDecorations
+set $browser firefox
 # Your preferred application launcher
 # Note: pass the final command to swaymsg so that the resulting window can be opened
 # on the original workspace that the command was run on.
@@ -71,10 +74,33 @@ exec convert -filter Gaussian -resize 20% -blur 0x2.5 -resize 500% $HOME/.cache/
 #   output HDMI-A-1 resolution 1920x1080 position 1920,0
 # output Unknown-1 scale 2
 
+
+set $laptop eDP-1
+set $desktop DP-1
+
+output $desktop pos 0 0 res 3840x2160 scale 2
+output $laptop scale 2.5
+
+exec_always ./scripts/clamshell
+
+bindswitch --reload --locked lid:on output $laptop disable
+bindswitch --reload --locked lid:off output $laptop enable
+
+# bindswitch --reload --locked lid:on output $desktop enable
+# bindswitch --reload --locked lid:off output $desktop disable
+
 input type:touchpad {
     # tap enable
     # dwt disabled
     natural_scroll disabled
+}
+
+input "6127:24745:Lenovo_Essential_Wireless_Keyboard_and_Mouse_Combo" {
+    # tap enable
+    # dwt disabled
+    natural_scroll disabled
+	accel_profile "adaptive"
+	pointer_accel -0.5
 }
 
 input type:keyboard {
@@ -158,6 +184,9 @@ bindsym XF86AudioLowerVolume exec wpctl set-volume @DEFAULT_SINK@ 5%-
     bindsym $mod+Shift+Return exec $term -e tmux new-session -A -s default
     bindsym $mod+w exec $browser
 
+    bindsym $mod+Shift+n exec $term -T "journal note" -e zk new $ZK_NOTEBOOK_DIR/journal --group journal --no-input
+    bindsym $mod+n exec $term -e zk edit --interactive
+
 	bindsym $mod+shift+b exec swaymsg bar mode toggle
 
 	bindsym $mod+Shift+w exec imv ~/.config/wall/*
@@ -168,6 +197,8 @@ bindsym XF86AudioLowerVolume exec wpctl set-volume @DEFAULT_SINK@ 5%-
 
     bindsym $mod+Shift+p exec grim -g "$(slurp)" /tmp/$(date +"%s_grim.png")
     bindsym $mod+p exec grim /tmp/$(date +"%s_grim.png")
+
+	bindsym Ctrl+$mod+Shift+p exec grim -g "$(slurp -p)" -t ppm - | convert - -format '%[pixel:p{0,0}]' txt:- | tail -n 1 | cut -d ' ' -f 4 | wl-copy
 
     # Kill focused window
     bindsym $mod+c kill
@@ -218,6 +249,7 @@ bindsym XF86AudioLowerVolume exec wpctl set-volume @DEFAULT_SINK@ 5%-
 #
 # Workspaces:
 #
+
     # Switch to workspace
     bindsym $mod+1 workspace number 1
     bindsym $mod+2 workspace number 2
@@ -321,6 +353,7 @@ bar {
     # status_command while ~/.config/sway/script_bar_json.sh; do sleep 1; done
 	# separator_symbol " | "
     status_command ~/.config/sway/script_bar_json.sh
+    # status_command while ~/.config/sway/script_bar_json.sh; do sleep 1; done
     tray_output *
 	# tray {
 	#        bindcode 273 ContextMenu
@@ -343,6 +376,7 @@ bar {
   }
 }
 
+
 # target                 title     bg    text   indicator  border
 client.focused           $lavender $base $text  $rosewater $lavender
 client.focused_inactive  $overlay0 $base $text  $rosewater $overlay0
@@ -361,6 +395,7 @@ for_window [app_id = "floating_update"] floating enable, resize set width 1000px
 for_window [title = "Administrator privileges required"] floating enable
 
 for_window [title="Extension: (Bitwarden Password Manager) - Bitwarden — Mozilla Firefox"]  floating enable
+for_window [app_id="Alacritty" title="journal note"]  floating enable
 
 # Firefox
 

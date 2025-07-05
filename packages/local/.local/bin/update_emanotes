@@ -1,0 +1,5 @@
+#!/bin/bash
+
+docker exec -it emanote-nix emanote gen /out
+
+rsync -av /home/niklas/out/* gulugulu@aegaeon.uberspace.de:/home/gulugulu/html/vonhirschfeld.eu/zettelkasten/ --delete

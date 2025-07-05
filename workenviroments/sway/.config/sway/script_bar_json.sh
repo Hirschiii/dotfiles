@@ -29,7 +29,7 @@ function task_urgent {
 
 function task_next {
 	# Check if there are overdue tasks
-		echo """
+	echo """
 		{
 			\"name\": \"task_next\",
 			\"full_text\": \"| $(task rc.verbose: bar limit:1) |\",
@@ -38,7 +38,6 @@ function task_next {
 		},
 		"""
 }
-
 
 # Send the header so that swaybar knows we want to use JSON:
 echo '{ "version": 1, "separator_symbol": "|" }'
@@ -51,43 +50,47 @@ echo '[]'
 
 # Now send blocks with information forever:
 while :; do
-    # Gather all the necessary information
-    next_task=$(task rc.verbose: bar limit:1)
-    inbox=$([[ $(task export inbox | jq) != "[]" ]] && echo "Inbox NOT empty |" || echo "")
-    
-    # Battery information
-    battery_charge=$(cat /sys/class/power_supply/BAT0/capacity)
-    battery_status=$(cat /sys/class/power_supply/BAT0/status)
-    if [ "$battery_status" = "Discharging" ]; then
-        battery_pluggedin=''
-    else
-        battery_pluggedin='⚡'
-    fi
+	# Gather all the necessary information
+	next_task=$(task rc.verbose: bar limit:1)
+	inbox=$([[ $(task export inbox | jq) != "[]" ]] && echo "Inbox NOT empty |" || echo "")
 
-    # Network information
-    network=$(ip route get 1.1.1.1 | grep -Po '(?<=dev\s)\w+' | cut -f1 -d ' ')
-    if ! [ "$network" ]; then
-        network_active="󰅛"
-    else
-        network_active="⇆"
-    fi
+	# Battery information
+	battery_charge=$(cat /sys/class/power_supply/BAT0/capacity)
+	battery_status=$(cat /sys/class/power_supply/BAT0/status)
 
-    # Load average
-    loadavg_5min=$(cat /proc/loadavg | awk -F ' ' '{print $2}')
+	if [ "$battery_status" = "Discharging" ]; then
+		battery_pluggedin=''
+	else
+		battery_pluggedin='⚡'
+	fi
 
-    # Date and time
-    date_and_week=$(date "+%Y/%m/%d (w%-V)")
-    current_time=$(date "+%H:%M")
+	# Network information
+	network=$(ip route get 1.1.1.1 | grep -Po '(?<=dev\s)\w+' | cut -f1 -d ' ')
+	if ! [ "$network" ]; then
+		network_active="󰅛"
+	else
+		network_active="⇆"
+	fi
 
-    # Prepare the output in JSON format
-    echo ",["
-		task_started
-		task_next
+	# Load average
+	loadavg_5min=$(cat /proc/loadavg | awk -F ' ' '{print $2}')
+
+	# Date and time
+	date_and_week=$(date "+%Y/%m/%d (w%-V)")
+	current_time=$(date "+%H:%M")
+
+	language=$(swaymsg -r -t get_inputs | awk '/1:1:AT_Translated_Set_2_keyboard/;/xkb_active_layout_name/' | grep -A1 '\b1:1:AT_Translated_Set_2_keyboard\b' | grep "xkb_active_layout_name" | awk -F '"' '{print $4}')
+
+	# Prepare the output in JSON format
+	echo ",["
+	task_started
+	task_next
 	echo "  {\"name\":\"task_inbox\",\"full_text\":\"$inbox\", \"min_width\": \"100%\", \"urgent\": false},"
-    echo "  {\"name\":\"network_status\",\"full_text\":\"$network_active | LoadAvg $loadavg_5min | $battery_pluggedin $battery_charge% |\", \"min_width\": \"100%\", \"urgent\": false},"
-    echo "  {\"name\":\"date_time\",\"full_text\":\"$date_and_week $current_time\", \"min_width\": \"100%\", \"urgent\": false}"
-    echo "]"
+	echo "  {\"name\":\"language\",\"full_text\":\"$language |\", \"min_width\": \"100%\", \"urgent\": false},"
+	echo "  {\"name\":\"network_status\",\"full_text\":\"$network_active | LoadAvg $loadavg_5min | $battery_pluggedin $battery_charge% |\", \"min_width\": \"100%\", \"urgent\": false},"
+	echo "  {\"name\":\"date_time\",\"full_text\":\"$date_and_week $current_time\", \"min_width\": \"100%\", \"urgent\": false}"
+	echo "]"
 
-    # Sleep for a specified interval before updating
-    sleep 1
+	# Sleep for a specified interval before updating
+	sleep 1
 done

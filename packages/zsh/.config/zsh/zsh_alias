@@ -53,3 +53,10 @@ alias tm='task modify'
 # alias td='clear;task next +ACTIVE or +OVERDUE or due:today or scheduled:today or pri:H; calcurse -r; timew | grep -v "no active time"'
 alias td='clear;task next +ACTIVE or +OVERDUE or due:today or scheduled:today or pri:H;  timew | grep -v "no active time"'
 alias tal='task add dep:"$(task +LATEST uuids)"'
+
+# ZK
+alias edit="zk edit --interactive" 
+alias journal="zk new $ZK_NOTEBOOK_DIR/journal --group journal --no-input"
+
+
+alias serve_http='python3 -m http.server'

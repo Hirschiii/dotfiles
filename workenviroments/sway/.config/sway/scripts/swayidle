@@ -4,10 +4,9 @@ killall swayidle || echo "Just starting"
 
 echo "Sway idle"
 swayidle -w \
-    timeout 300  'swaylock -f' \
-    timeout 301  'swaymsg "output * dpms off"' \
-        resume   'swaymsg "output * dpms on"' \
-        after-resume 'clamshell' \
-    before-sleep 'playerctl pause' \
-    before-sleep 'swaylock -f'
-
+	timeout 300 'swaylock -f' \
+	timeout 301 'swaymsg "output * dpms off"' \
+	resume 'swaymsg "output * dpms on"' \
+	after-resume 'clamshell' \
+	before-sleep 'playerctl pause' \
+	before-sleep 'swaylock -f'

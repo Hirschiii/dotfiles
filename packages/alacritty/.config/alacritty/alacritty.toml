@@ -11,23 +11,30 @@ draw_bold_text_with_bright_colors = true
 # [env]
 # TERM = "xterm-256color"
 
+# [terminal]
+# shell = "/bin/nu"
+
 [font]
 size = 11.0
 
 [font.bold]
 family = "IosevkaTerm Nerd Font Propo"
+# family = "dinish"
 style = "Bold"
 
 [font.bold_italic]
 family = "IosevkaTerm Nerd Font Propo"
+# family = "DINish"
 style = "Bold Italic"
 
 [font.italic]
 family = "IosevkaTerm Nerd Font Propo"
+# family = "DINish"
 style = "Italic"
 
 [font.normal]
 family = "IosevkaTerm Nerd Font Propo"
+# family = "DINish-Regular"
 style = "Regular"
 
 [[keyboard.bindings]]
@@ -41,7 +48,7 @@ key = "C"
 mods = "Alt"
 
 [window]
-opacity = 0.4
+opacity = 0.8
 blur = true
 
 [window.padding]

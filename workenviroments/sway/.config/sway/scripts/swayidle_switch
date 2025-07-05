@@ -1,0 +1,3 @@
+#!/bin/sh
+
+state = $(echo "off\nmonitor off\nsuspend\nsuspend then hibernate" | wofi --dmenu)
