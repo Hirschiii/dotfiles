@@ -128,7 +128,7 @@ bindkey -v '^?' backward-delete-char
 [ -d "$HOME/go/bin" ] && export PATH=/home/niklas/go/bin:$PATH
 
 # Changing "ls" to "exa"
-alias ls='eza -l --color=always --group-directories-first' # my preferred listing
+alias ls='eza -l --icons --color=always --group-directories-first' # my preferred listing
 alias la='eza -la --color=always --group-directories-first'  # all files and dirs
 alias ll='eza -l --color=always --group-directories-first'  # long format
 alias lt='eza -aT --color=always --group-directories-first' # tree listing
@@ -158,8 +158,9 @@ alias fgrep='fgrep --color=auto'
 if [ "$(tty)" = "/dev/tty1" ]; then
     # export `gnome-keyring-daemon --start --components=ssh`
 	# export WAYLAND_DISPLAY=wayland-0
+    # exec dbus-run-session /usr/bin/hyprland > $XDG_RUNTIME_DIR/sway.log 2>&1
+	# exec Hyprland > $XDG_RUNTIME_DIR/hypr.log 2>&1
     exec dbus-run-session /usr/bin/sway > $XDG_RUNTIME_DIR/sway.log 2>&1
-    # exec dbus-run-session /usr/bin/sway > $XDG_RUNTIME_DIR/sway.log 2>&1
 fi
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 

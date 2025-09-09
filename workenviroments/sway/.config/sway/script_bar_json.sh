@@ -58,6 +58,8 @@ while :; do
 	battery_charge=$(cat /sys/class/power_supply/BAT0/capacity)
 	battery_status=$(cat /sys/class/power_supply/BAT0/status)
 
+	volume=$(wpctl get-volume @DEFAULT_AUDIO_SINK@)
+
 	if [ "$battery_status" = "Discharging" ]; then
 		battery_pluggedin=''
 	else
@@ -86,6 +88,7 @@ while :; do
 	task_started
 	task_next
 	echo "  {\"name\":\"task_inbox\",\"full_text\":\"$inbox\", \"min_width\": \"100%\", \"urgent\": false},"
+	echo "  {\"name\":\"volume\",\"full_text\":\"$volume |\", \"min_width\": \"100%\", \"urgent\": false},"
 	echo "  {\"name\":\"language\",\"full_text\":\"$language |\", \"min_width\": \"100%\", \"urgent\": false},"
 	echo "  {\"name\":\"network_status\",\"full_text\":\"$network_active | LoadAvg $loadavg_5min | $battery_pluggedin $battery_charge% |\", \"min_width\": \"100%\", \"urgent\": false},"
 	echo "  {\"name\":\"date_time\",\"full_text\":\"$date_and_week $current_time\", \"min_width\": \"100%\", \"urgent\": false}"
