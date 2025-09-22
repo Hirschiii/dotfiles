@@ -1,0 +1,6 @@
+#!/bin/bash
+
+echo $1
+cp -f "$1" ~/.cache/wallpaper 
+swaymsg output "*" background ~/.cache/wallpaper fill
+convert -filter Gaussian -resize 20% -blur 0x2.5 -resize 500% $HOME/.cache/wallpaper /tmp/lockscreen.png >/dev/null 2>&1 &

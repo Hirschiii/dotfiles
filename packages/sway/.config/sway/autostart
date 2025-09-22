@@ -1,0 +1,9 @@
+exec dbus-update-activation-environment --all
+exec gnome-keyring-daemon --start --components=secrets
+exec export $(gnome-keyring-daemon)
+### Variables
+exec gentoo-pipewire-launcher restart &
+# exec foot --server
+# exec wl-paste -t text --watch clipman store
+exec wl-paste --watch cliphist store
+exec_always mako

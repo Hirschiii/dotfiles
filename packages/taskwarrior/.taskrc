@@ -148,10 +148,15 @@ include dark-256.theme
 # include solarized-light-256.theme
 # include no-color.theme
 
-news.version=3.2.0
+news.version=2.6.0
 sync.server.url=$TW_SERVER_URL
 sync.server.client_id=$TW_SERVER_CLIENT_ID
 sync.encryption_secret=$TW_ENCRYPTION_SECRET
+
+# sync.server.url="http://gulugulu.uber.space:41921"
+# sync.server.client_id="0800e1e7-01b5-4d73-9c51-f7e8f9ce849d"
+# sync.encryption_secret="Ka8aec9eIex3ahng"
+
 
 # context.schule.read=+schule or project:abi
 # context.schule.write=+schule priority:L urgent:Y
@@ -159,3 +164,6 @@ sync.encryption_secret=$TW_ENCRYPTION_SECRET
 
 context.personal.read=+personal 
 context.personal.write=+personal
+context.uni.read=project:uni
+context.uni.write=project:uni
+context=uni
