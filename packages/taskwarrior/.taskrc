@@ -166,4 +166,3 @@ context.personal.read=+personal
 context.personal.write=+personal
 context.uni.read=project:uni
 context.uni.write=project:uni
-context=uni

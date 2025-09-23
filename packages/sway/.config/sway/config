@@ -41,6 +41,7 @@ set $laptop eDP-1
 set $desktop DP-1
 
 output $desktop pos 0 0 res 3840x2160 scale 2
+output $laptop pos 0 0 res 3840x2160 scale 2 render_bit_depth 10
 # output $laptop scale 2
 
 # in /etc/elogind/logind.conf set HandleLidSwitch=ignore
