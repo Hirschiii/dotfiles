@@ -35,11 +35,11 @@ alias tasksync="task sync && trellowarrior sync"
 alias next="taks next limit:1"
 
 coffitivity() {
-	mpv --no-video $(yta-aac -g https://www.youtube.com/watch?v=7OeCjkG_xuI)
+	mpv --no-video $(yta-aac --cookies-from-browser firefox  -g https://www.youtube.com/watch?v=7OeCjkG_xuI)
 }
 
 lofi() {
-  mpv --no-video $(yta-aac -g https://www.youtube.com/watch?v=jfKfPfyJRdk)
+  mpv --no-video $(yta-aac --cookies-from-browser firefox -g https://www.youtube.com/watch?v=jfKfPfyJRdk)
 }
 
 # Taskwarrior:
@@ -51,7 +51,7 @@ alias tan='task add scheduled:today'
 alias tat='task add scheduled:tomorrow until:sch+14d'
 alias tm='task modify'
 # alias td='clear;task next +ACTIVE or +OVERDUE or due:today or scheduled:today or pri:H; calcurse -r; timew | grep -v "no active time"'
-alias td='clear;task next +ACTIVE or +OVERDUE or due:today or scheduled:today or pri:H;  timew | grep -v "no active time"'
+# alias td='clear;task next +ACTIVE or +OVERDUE or due:today or scheduled:today or pri:H;  timew | grep -v "no active time"'
 alias tal='task add dep:"$(task +LATEST uuids)"'
 
 # ZK

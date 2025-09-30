@@ -19,7 +19,10 @@ weekstart=Monday
 verbose=affected,blank,context,edit,header,footnote,label,new-id,project,special,sync,recur
 
 # Custom coefficient
-urgency.user.tag.klausur.coefficient = 1
+urgency.user.tag.problem.coefficient = 2
+urgency.user.tag.next.coefficient = 2
+urgency.user.tag.later.coefficient = -2
+urgency.user.tag.uni.coefficient = 4
 
 # # Custom reports
 report.todo.description=Todo
@@ -55,9 +58,14 @@ report.bar.filter=status:pending -WAITING limit:page -klausur
 # report.next.columns=id,urgency,start.age,urgent,priority,depends,project,tags,recur,scheduled.countdown,due.relative,until.remaining,description.count
 # report.next.labels=ID,Urgency,Started,Urg.,Prio,Dep.,Project,Tags,Recur,Scheduled,due,Until,Desc.
 
-report.next.columns=id,start.age,urgent,priority,depends,project,tags,recur,scheduled.countdown,due.relative,until.remaining,description.count
-report.next.labels=ID,Started,Urg.,Prio,Dep.,Project,Tags,Recur,Scheduled,due,Until,Desc.
-report.next.filter=status:pending -WAITING limit:page -note -tracking -klausur project.not:piano 
+# report.next.columns=id,start.age,urgent,priority,depends,project,tags,recur,scheduled.countdown,due.relative,until.remaining,description.count
+# report.next.labels=ID,Started,Urg.,Prio,Dep.,Project,Tags,Recur,Scheduled,due,Until,Desc.
+# report.next.filter=status:pending -WAITING limit:page -note -tracking -klausur project.not:piano 
+
+report.next.columns=id,urgent,priority,start.age,entry.age,depends,project,tags,recur,scheduled.countdown,due.relative,until.remaining,description,urgency
+report.next.filter=status:pending -WAITING limit:page                                                     
+report.next.labels=ID,U,P,Active,Age,Deps,Project,Tag,Recur,S,Due,Until,Description,Urg
+report.next.sort=urgency-
 
 ## Boxing / How big is a task
 
@@ -164,5 +172,5 @@ sync.encryption_secret=$TW_ENCRYPTION_SECRET
 
 context.personal.read=+personal 
 context.personal.write=+personal
-context.uni.read=project:uni
-context.uni.write=project:uni
+context.uni.read=+uni
+context.uni.write=+uni

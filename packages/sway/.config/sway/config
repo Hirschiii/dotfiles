@@ -40,13 +40,13 @@ exec convert -filter Gaussian -resize 20% -blur 0x2.5 -resize 500% $HOME/.cache/
 set $laptop eDP-1
 set $desktop DP-1
 
-output $desktop pos 0 0 res 3840x2160 scale 2
+output $desktop pos 0 0 res 3840x2160 scale 2 render_bit_depth 10
 output $laptop pos 0 0 res 3840x2160 scale 2 render_bit_depth 10
 # output $laptop scale 2
 
 # in /etc/elogind/logind.conf set HandleLidSwitch=ignore
-
-# exec_always ./scripts/clamshell
+exec_always $HOME/.config/sway/scripts/clamshell
+# exec_always /scripts/clamshell
 # 
 # bindswitch --reload --locked lid:on output $laptop disable
 # bindswitch --reload --locked lid:off output $laptop enable
@@ -139,7 +139,7 @@ gaps outer 10
     bindsym $mod+Shift+n exec $term -T "journal note" -e zk new $ZK_NOTEBOOK_DIR/journal --group journal --no-input
     bindsym $mod+Shift+u exec $term -T "privat note" -e zk edit $ZK_NOTEBOOK_DIR/privat --interactive
 	bindsym $mod+u exec $term -T "uni note" -e zk edit $ZK_NOTEBOOK_DIR/uni --interactive
-    bindsym $mod+n exec $term -T "My Zettelkasten" -e zk edit --interactive
+    bindsym $mod+n exec $term -T "My Zettelkasten" -e zk edit $ZK_NOTEBOOK_DIR/zettelkasten --interactive
 
 	bindsym $mod+q exec swaylock -e -f -i /tmp/lockscreen.png
 
