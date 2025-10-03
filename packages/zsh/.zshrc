@@ -1,7 +1,6 @@
 export EDITOR=nvim
 
 autoload edit-command-line; zle -N edit-command-line
-bindkey -M vicmd v edit-command-line
 
 # Enable colors and change prompt:
 autoload -U colors && colors
@@ -13,6 +12,9 @@ compinit
 
 zstyle ':completion:*' menu select
 zmodload zsh/complist
+
+set -o vi
+bindkey -v '^?' backward-delete-char
 
 
 zstyle ':completion::complete:*' use-cache 1

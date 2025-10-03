@@ -65,7 +65,19 @@ report.bar.filter=status:pending -WAITING limit:page -klausur
 report.next.columns=id,urgent,priority,start.age,entry.age,depends,project,tags,recur,scheduled.countdown,due.relative,until.remaining,description,urgency
 report.next.filter=status:pending -WAITING limit:page                                                     
 report.next.labels=ID,U,P,Active,Age,Deps,Project,Tag,Recur,S,Due,Until,Description,Urg
+# report.next.sort=project-,urgency-
 report.next.sort=urgency-
+
+
+report.default.columns=id,urgent,priority,start.age,entry.age,depends,project,tags,recur,scheduled.countdown,due.relative,until.remaining,description,urgency
+report.default.filter=status:pending -WAITING limit:page                                                     
+report.default.labels=ID,U,P,Active,Age,Deps,Project,Tag,Recur,S,Due,Until,Description,Urg
+report.default.sort=project+,tags+,urgency-
+
+
+default.command=default
+default.project=inbox
+
 
 ## Boxing / How big is a task
 
@@ -156,7 +168,7 @@ include dark-256.theme
 # include solarized-light-256.theme
 # include no-color.theme
 
-news.version=2.6.0
+news.version=3.4.1
 sync.server.url=$TW_SERVER_URL
 sync.server.client_id=$TW_SERVER_CLIENT_ID
 sync.encryption_secret=$TW_ENCRYPTION_SECRET
