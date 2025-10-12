@@ -24,24 +24,23 @@ urgency.user.tag.next.coefficient = 2
 urgency.user.tag.later.coefficient = -2
 urgency.user.tag.uni.coefficient = 4
 
-# # Custom reports
-report.todo.description=Todo
-report.todo.columns=id,project,description.count,urgency
-report.todo.labels=ID,Project,Text,Urg
-report.todo.sort=urgency-,project-
-report.todo.filter=status:pending -ACTIVE -WAITING -BLOCKED -OVERDUE
+urgency.blocking.coefficient = 2
 
-# uda.score.type=numeric
-# uda.score.label=Score
-# urgency.uda.score.coefficient=2
+# ------------------------ #
+# Evidence Based Scheduled #
+# ------------------------ #
 
-# Die nächste Klausur anzeigen
-# report.klausur.description=Die nächste Klausur anzeigen
-# report.klausur.columns=id,due,due.relative,description.count,urgency
-# report.klausur.labels=ID,Due,Time left,Text,Urg
-# report.klausur.sort=due+
-# report.klausur.filter=status:pending -ACTIVE -WAITING -BLOCKED -OVERDUE +klausur
+uda.totalactivetime.type=duration
+uda.totalactivetime.label=Total active time
+uda.totalactivetime.values=''
 
+uda.estimatedtime.type=duration
+uda.estimatedtime.label=Estimated time
+uda.estimatedtime.values=''
+
+uda.velocity.type=numeric
+uda.velocity.label=Velocity
+uda.velocity.values=''
 
 # Bar
 
@@ -50,29 +49,24 @@ report.bar.labels  = ,,,,
 report.bar.sort    = urgency-
 report.bar.filter=status:pending -WAITING limit:page -klausur
 
-# Mod defautl / next rep
-
-# report.next.columns=id,urgency,start.age,entry.age,depends,project,tags,recur,scheduled.countdown,due.relative,until.remaining,description.count,urgent,priority
-# report.next.labels=ID,Urg.,Stated,Age,Dep., Project,Tags,Recur,Scheduled,due,Until,Desc.,Urg.,Prio
-
-# report.next.columns=id,urgency,start.age,urgent,priority,depends,project,tags,recur,scheduled.countdown,due.relative,until.remaining,description.count
-# report.next.labels=ID,Urgency,Started,Urg.,Prio,Dep.,Project,Tags,Recur,Scheduled,due,Until,Desc.
-
-# report.next.columns=id,start.age,urgent,priority,depends,project,tags,recur,scheduled.countdown,due.relative,until.remaining,description.count
-# report.next.labels=ID,Started,Urg.,Prio,Dep.,Project,Tags,Recur,Scheduled,due,Until,Desc.
-# report.next.filter=status:pending -WAITING limit:page -note -tracking -klausur project.not:piano 
+# ------------------------ #
+# Custom / Changed Reports #
+# ------------------------ #
 
 report.next.columns=id,urgent,priority,start.age,entry.age,depends,project,tags,recur,scheduled.countdown,due.relative,until.remaining,description,urgency
 report.next.filter=status:pending -WAITING limit:page                                                     
 report.next.labels=ID,U,P,Active,Age,Deps,Project,Tag,Recur,S,Due,Until,Description,Urg
-# report.next.sort=project-,urgency-
 report.next.sort=urgency-
-
 
 report.default.columns=id,urgent,priority,start.age,entry.age,depends,project,tags,recur,scheduled.countdown,due.relative,until.remaining,description,urgency
 report.default.filter=status:pending -WAITING limit:page                                                     
 report.default.labels=ID,U,P,Active,Age,Deps,Project,Tag,Recur,S,Due,Until,Description,Urg
 report.default.sort=project+,tags+,urgency-
+
+## Change for EBS
+
+report.list.columns=id,start.age,entry.age,depends.indicator,priority,project,tags,recur.indicator,scheduled.countdown,due,until.remaining,description.count,estimatedtime,totalactivetime,velocity,urgency
+report.list.labels=ID,Active,Age,D,P,Project,Tags,R,Sch,Due,Until,Description,Est,Elapsed,Vel,Urg
 
 
 default.command=default
@@ -81,25 +75,11 @@ default.project=inbox
 
 ## Boxing / How big is a task
 
-# uda.box.type=numeric
-# uda.box.lable=Boxes (x*30min)
-# uda.box.default=1
-#
-# urgency.uda.box.coefficient=2
-
-uda.estimate.type=duration
-uda.estimate.label=Estimated Time
-uda.estimate.description=Estimated time to complete the task
-
 uda.urgent.type=string
 uda.urgent.label=Urgent
 uda.urgent.values=Y,N
 
 uda.priority.values=H,L
-
-uda.selectedtoday.type=string
-uda.selectedtoday.label=Selected_for_today
-uda.selectedtoday.values=Y,N
 
 urgency.tags.coefficient = 0
 urgency.annotations.coefficient = 0
@@ -172,15 +152,6 @@ news.version=3.4.1
 sync.server.url=$TW_SERVER_URL
 sync.server.client_id=$TW_SERVER_CLIENT_ID
 sync.encryption_secret=$TW_ENCRYPTION_SECRET
-
-# sync.server.url="http://gulugulu.uber.space:41921"
-# sync.server.client_id="0800e1e7-01b5-4d73-9c51-f7e8f9ce849d"
-# sync.encryption_secret="Ka8aec9eIex3ahng"
-
-
-# context.schule.read=+schule or project:abi
-# context.schule.write=+schule priority:L urgent:Y
-
 
 context.personal.read=+personal 
 context.personal.write=+personal
