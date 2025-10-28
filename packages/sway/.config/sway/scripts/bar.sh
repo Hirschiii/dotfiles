@@ -55,8 +55,8 @@ while :; do
 	inbox=$([[ $(task export inbox | jq) != "[]" ]] && echo "Inbox NOT empty" || echo "")
 
 	# Battery information
-	battery_charge=$(cat /sys/class/power_supply/BAT0/capacity)
-	battery_status=$(cat /sys/class/power_supply/BAT0/status)
+	battery_charge=$(cat $BAT/capacity)
+	battery_status=$(cat $BAT/status)
 
 	volume=$(wpctl get-volume @DEFAULT_AUDIO_SINK@)
 
