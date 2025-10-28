@@ -62,4 +62,7 @@ export NNN_FCOLORS="$BLK$CHR$DIR$EXE$REG$HARDLINK$SYMLINK$MISSING$ORPHAN$FIFO$SO
 # nnn
 export NNN_OPTS="E"
 
+[[ $(hostname) -eq BotMac ]] && source  "$HOME/.mac.zsh"
+# [[ $(hostname) -eq BotMac ]] && source  "$HOME/.zmac"
+
 source ~/.env
