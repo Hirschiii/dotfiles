@@ -1,9 +1,15 @@
 #!/usr/bin/env bash
 
+SESSION_ORDNER=""
+
+[ -d "$HOME/git/" ] && SESSION_ORDNER="$SESSION_ORDNER $HOME/git/"
+[ -d "$HOME/projects" ] && SESSION_ORDNER="$SESSION_ORDNER $HOME/projects/*/"
+[ -d "$HOME/personal" ] && SESSION_ORDNER="$SESSION_ORDNER $HOME/personal"
+
 if [[ $# -eq 1 ]]; then
 	selected=$1
 else
-	selected=$(find ~/git/ ~/notes/schule ~/notes/project ~/ ~/notes ~/projects ~/projects/*/ ~/personal ~/work -mindepth 1 -maxdepth 1 -type d | fzf)
+	selected=$(find $SESSION_ORDNER -mindepth 1 -maxdepth 3 -type d -not -name '.*' | fzf)
 fi
 
 if [[ -z $selected ]]; then

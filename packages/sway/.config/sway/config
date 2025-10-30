@@ -42,7 +42,6 @@ set $desktop DP-1
 
 output $desktop pos 0 0 res 3840x2160 scale 2 render_bit_depth 10
 output $laptop pos 0 0 res 3840x2160 scale 2 render_bit_depth 10
-# output $laptop scale 2
 
 # in /etc/elogind/logind.conf set HandleLidSwitch=ignore
 exec_always $HOME/.config/sway/scripts/clamshell
@@ -263,17 +262,16 @@ bindsym $mod+r mode "resize"
 #
     # Special keys to adjust volume via PulseAudio
     bindsym --locked XF86AudioMute exec pactl set-sink-mute \@DEFAULT_SINK@ toggle && notify-send "Toggled Mute"
-    bindsym --locked XF86AudioLowerVolume exec pactl set-sink-volume \@DEFAULT_SINK@ -5%
-    bindsym --locked XF86AudioRaiseVolume exec pactl set-sink-volume \@DEFAULT_SINK@ +5%
-    bindsym --locked XF86AudioMicMute exec pactl set-source-mute \@DEFAULT_SOURCE@ toggle
+    bindsym --locked XF86AudioLowerVolume exec pactl set-sink-volume \@DEFAULT_SINK@ -5% && notify-send "Toggled Mute"
+    bindsym --locked XF86AudioRaiseVolume exec pactl set-sink-volume \@DEFAULT_SINK@ +5% && notify-send "Toggled Mute"
+    bindsym --locked XF86AudioMicMute exec pactl set-source-mute \@DEFAULT_SOURCE@ toggle && notify-send "Toggled Mute"  
     # Special keys to adjust brightness via brightnessctl
-    bindsym --locked XF86MonBrightnessDown exec brightnessctl set 2%-
-    bindsym --locked XF86MonBrightnessUp exec brightnessctl set 2%+
+    bindsym --locked XF86MonBrightnessDown exec brightnessctl set 2%- && notify-send "Toggled Mute"
+    bindsym --locked XF86MonBrightnessUp exec brightnessctl set 2%+ && notify-send "Toggled Mute"
     # Special key to take a screenshot with grim
-    bindsym Print exec grim
 
     bindsym $mod+Shift+p exec grim -g "$(slurp)" /tmp/$(date +"%s_grim.png")
-    bindsym $mod+p exec grim /tmp/$(date +"%s_grim.png")
+    bindsym $mod+p exec grim /tmp/$(date +"%s_grim.png") && notify-send "Screenshot"
 
 
 #
