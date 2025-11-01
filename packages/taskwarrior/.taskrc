@@ -94,7 +94,7 @@ urgency.uda.priority.L.coefficient = 0
 # https://blag.nullteilerfrei.de/2013/10/24/the-eisenhower-matrix-in-taskwarrior/
 # inbox
 report.inbox.description=INBOX report
-report.inbox.filter=limit:page dep: status:pending and ( priority: or urgent: or project: )
+report.inbox.filter=limit:page dep: status:pending and ( priority: or urgent: or project: or project:inbox )
 report.inbox.columns=id,project,description,entry.age,priority,urgent,tags
 report.inbox.labels=ID,Proj,Description,Age,Prio,Urgent,Tags
 report.inbox.sort=entry+
@@ -157,3 +157,5 @@ context.personal.read=+personal
 context.personal.write=+personal
 context.uni.read=+uni
 context.uni.write=+uni
+context.gamejam.read=project:uni.gamejam
+context.gamejam.write=project:uni.gamejam

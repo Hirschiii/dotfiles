@@ -30,6 +30,9 @@ config.set('content.autoplay', False)
 # Setting dark mode
 # config.set("colors.webpage.darkmode.enabled", True)
 
+# Bad fix for failed GPU Rendering
+# TOFIX!!!
+config.set("qt.force_software_rendering", "qt-quick")
 
 # config.set("qt.force_platform", "wayland")
 

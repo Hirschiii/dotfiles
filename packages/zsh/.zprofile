@@ -61,6 +61,7 @@ export NNN_FCOLORS="$BLK$CHR$DIR$EXE$REG$HARDLINK$SYMLINK$MISSING$ORPHAN$FIFO$SO
 
 # nnn
 export NNN_OPTS="E"
+export PATH=$PATH:~/.npm_install/bin
 
 [[ $(hostname) -eq BotMac ]] && source  "$HOME/.mac.zsh"
 # [[ $(hostname) -eq BotMac ]] && source  "$HOME/.zmac"
