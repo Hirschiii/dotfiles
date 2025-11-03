@@ -155,7 +155,8 @@ sync.encryption_secret=$TW_ENCRYPTION_SECRET
 
 context.personal.read=+personal 
 context.personal.write=+personal
-context.uni.read=+uni
-context.uni.write=+uni
+context.uni.read=project:uni
+context.uni.write=project:uni
 context.gamejam.read=project:uni.gamejam
 context.gamejam.write=project:uni.gamejam
+context=uni
