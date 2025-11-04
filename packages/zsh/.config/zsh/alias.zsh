@@ -42,6 +42,8 @@ lofi() {
   mpv --no-video $(yta-aac --cookies-from-browser firefox -g https://www.youtube.com/watch?v=jfKfPfyJRdk)
 }
 
+alias ambient_techno="mpv --no-video https://www.youtube.com/watch?v=2F6B9EibJjw"
+
 # Taskwarrior:
 
 alias t=task
