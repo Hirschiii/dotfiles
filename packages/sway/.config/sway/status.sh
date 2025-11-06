@@ -17,9 +17,9 @@ pwr_formatted=$(awk '{printf "%.2fW" ,$1*1e-6 }' $BAT/power_now)
 next_task_formatted ()
 {
 	if [ "$(task +ACTIVE count rc.context:none)" -gt 0 ]; then
-		echo "Active: $(task rc.verbose: bar +ACTIVE limit:1)"
+		echo -n "Active: $(task rc.verbose: bar +ACTIVE limit:1)"
 	else
-		echo "Next: $(task rc.verbose: bar limit:2)"
+		echo -n "Next: $(task rc.verbose: bar limit:1)"
 	fi
 	
 }
