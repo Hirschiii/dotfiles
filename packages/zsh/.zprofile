@@ -67,3 +67,6 @@ export PATH=$PATH:~/.npm_install/bin
 # [[ $(hostname) -eq BotMac ]] && source  "$HOME/.mac.zsh"
 
 source ~/.env
+
+eval "$(/opt/homebrew/bin/brew shellenv)"
+export PATH=$PATH:$HOME/go/bin
