@@ -159,4 +159,3 @@ context.uni.read=project:uni
 context.uni.write=project:uni
 context.gamejam.read=project:uni.gamejam
 context.gamejam.write=project:uni.gamejam
-context=uni

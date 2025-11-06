@@ -8,8 +8,21 @@ mem_formatted=$(free -m | awk 'NR==2{printf "%.0f\n", $3*100/$2 }')
 disk_formatted=$(df -h | awk '$NF=="/"{printf "%s\n", $5}' )
 date_formatted=$(date "+%a %F %H:%M")
 lcd_formatted=$(($(brightnessctl g) * 100 / $(brightnessctl m)))
-bat_formatted=$(cat /sys/class/power_supply/BAT0/capacity)
+bat_formatted=$(cat $BAT/capacity)
 vol_formatted=$(pamixer --get-volume)
-pwr_formatted=$(awk '{printf "%.2fW" ,$1*1e-6 }' /sys/class/power_supply/BAT0/power_now)
+pwr_formatted=$(awk '{printf "%.2fW" ,$1*1e-6 }' $BAT/power_now)
 
-echo "pwr $pwr_formatted / cpu $cpu_formatted / mem $mem_formatted% / ssd $disk_formatted / bat $bat_formatted% / lcd $lcd_formatted% / vol $vol_formatted%    $date_formatted "
+# next_task_formatted=$(task rc.verbose: bar limit:1)
+
+next_task_formatted ()
+{
+	if [ "$(task +ACTIVE count rc.context:none)" -gt 0 ]; then
+		echo "Active: $(task rc.verbose: bar +ACTIVE limit:1)"
+	else
+		echo "Next: $(task rc.verbose: bar limit:2)"
+	fi
+	
+}
+
+
+echo "$(next_task_formatted) / pwr $pwr_formatted / cpu $cpu_formatted / mem $mem_formatted% / ssd $disk_formatted / bat $bat_formatted% / lcd $lcd_formatted% / vol $vol_formatted%    $date_formatted "
