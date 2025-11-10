@@ -44,8 +44,8 @@ uda.velocity.values=''
 
 # Bar
 
-report.bar.columns = id,description.count,urgent,priority,due.relative
-report.bar.labels  = ,,,,
+report.bar.columns = id,project,description.count,urgent,priority,due.relative
+report.bar.labels  = ,,,,,
 report.bar.sort    = urgency-
 report.bar.filter=status:pending -WAITING limit:page -klausur
 
