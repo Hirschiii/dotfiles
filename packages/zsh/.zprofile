@@ -68,5 +68,5 @@ export PATH=$PATH:~/.npm_install/bin
 
 source ~/.env
 
-eval "$(/opt/homebrew/bin/brew shellenv)"
+[[ -f /opt/homebrew/bin/brew ]] && eval "$(/opt/homebrew/bin/brew shellenv)"
 export PATH=$PATH:$HOME/go/bin

@@ -2,7 +2,7 @@
 live_config_reload = true
 import = [
 	# "~/.config/alacritty/rose-pine.toml",
-	"~/.config/alacritty/catppuccin/catppuccin-frappe.toml",
+	# "~/.config/alacritty/catppuccin/catppuccin-frappe.toml",
 ]
 
 [colors]
