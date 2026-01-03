@@ -92,7 +92,7 @@ while :; do
 	echo "  {\"name\":\"language\",\"full_text\":\"$language\", \"min_width\": \"100%\", \"urgent\": false},"
 	echo "  {\"name\":\"network_status\",\"full_text\":\"$network_active\", \"min_width\": \"100%\", \"urgent\": false},"
 	echo "  {\"name\":\"load_avg\",\"full_text\":\"LoadAvg $loadavg_5min\", \"min_width\": \"100%\", \"urgent\": false},"
-	echo "  {\"name\":\"battery\",\"full_text\":\"$battery_pluggedin $battery_charge%\", \"min_width\": \"100%\", \"urgent\": false},"
+	echo "  {\"name\":\"battery\",\"full_text\":\"$battery_pluggedin $battery_charge%\", \"min_width\": \"100%\", \"background\": \"#FF0000\", \"urgent\": true},"
 	echo "  {\"name\":\"date_time\",\"full_text\":\"$date_and_week $current_time\", \"min_width\": \"100%\", \"urgent\": false}"
 	echo "]"
 

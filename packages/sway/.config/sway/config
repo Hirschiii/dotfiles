@@ -271,7 +271,7 @@ bindsym $mod+r mode "resize"
     bindsym --locked XF86AudioRaiseVolume exec pactl set-sink-volume \@DEFAULT_SINK@ +5% && notify-send "Toggled Mute"
     bindsym --locked XF86AudioMicMute exec pactl set-source-mute \@DEFAULT_SOURCE@ toggle && notify-send "Toggled Mute"  
     # Special keys to adjust brightness via brightnessctl
-    bindsym --locked XF86MonBrightnessDown exec brightnessctl set 2%- && notify-send "Decrease Brightness"
+    bindsym --locked XF86MonBrightnessDown exec brightnessctl set 4%- && notify-send "Decrease Brightness"
     bindsym --locked XF86MonBrightnessUp exec brightnessctl set 2%+ && notify-send "Increase Brightness"
     # Special key to take a screenshot with grim
 
@@ -285,20 +285,22 @@ bindsym $mod+r mode "resize"
 # Read `man 5 sway-bar` for more information about this section.
 bar {
     position top
-    status_command while ~/.config/sway/status.sh; do sleep 5; done
+    # status_command while ~/.config/sway/bar.sh; do sleep 5; done
+    status_command ~/.config/sway/status.sh
     tray_output none
     bindcode 272 exec "echo 'toggle visibility' > /tmp/wcp"
     bindcode 273 exec "echo 2 > /tmp/sov"
 
-    colors {
-        height 24
-        statusline #AAAAAA
-        background #00000033
-	focused_workspace #00000033 #00000033 #FFFFFF
-	active_workspace #00000033 #00000033 #AAAAAA
-	inactive_workspace #00000033 #00000033 #999999
-	urgent_workspace #00000033 #00000033 #FF0000
-    }
+		  colors {
+		      height 24
+		      statusline #AAAAAA
+		      background #00000033
+		      # background #000000
+			focused_workspace #00000033 #00000033 #FFFFFF
+			active_workspace #00000033 #00000033 #AAAAAA
+			inactive_workspace #00000033 #00000033 #999999
+			urgent_workspace #00000033 #00000033 #FF0000
+		  }
     font "Ubuntu Mono" 11
 }
 # bar {
