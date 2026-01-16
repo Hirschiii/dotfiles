@@ -8,7 +8,7 @@ include autostart
 include gtk
 include themes/catpuccin-mocha
 
-seat seat0 xcursor_theme Adwaita
+seat seat0 xcursor_theme gentoo 32
 ### Variables
 #
 # Logo key. Use Mod1 for Alt.
@@ -32,7 +32,7 @@ set $menu fuzzel
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
 output * bg "~/.cache/wallpaper" fill
 
-exec convert -filter Gaussian -resize 20% -blur 0x2.5 -resize 500% $HOME/.cache/wallpaper /tmp/lockscreen.png &
+exec magick $HOME/.cache/wallpaper -filter Gaussian -resize 20% -blur 0x2.5 -resize 500%  /tmp/lockscreen.png
 #
 # Example configuration:
 #
@@ -287,7 +287,7 @@ bar {
     position top
     # status_command while ~/.config/sway/bar.sh; do sleep 5; done
     status_command ~/.config/sway/status.sh
-    tray_output none
+    # tray_output none
     bindcode 272 exec "echo 'toggle visibility' > /tmp/wcp"
     bindcode 273 exec "echo 2 > /tmp/sov"
 
