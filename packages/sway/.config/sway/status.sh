@@ -47,7 +47,9 @@ while :; do
 	bat_formatted=$(cat $BAT/capacity)
 	vol_formatted=$(pamixer --get-volume)
 	pwr_formatted=$(awk '{printf "%.2fW" ,$1*1e-6 }' $BAT/power_now)
+	muisc_formatted=$(mpc status | head -n 2 | tail -1)
 
+	echo " {\"name\": \"music\", \"full_text\": \"$muisc_formatted\", \"min_width\": \"100%\"},"
 	echo " {\"name\": \"task\", \"full_text\": \"$(next_task_formatted)\", \"min_width\": \"100%\"},"
 	echo " {\"name\": \"pwr\", \"full_text\": \"pwr $pwr_formatted\", \"min_width\": \"100%\"},"
 	echo " {\"name\": \"cpu\", \"full_text\": \"cpu $cpu_formatted\", \"min_width\": \"100%\"},"

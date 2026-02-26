@@ -7,6 +7,18 @@
 include autostart
 include gtk
 include themes/catpuccin-mocha
+ 
+# # Rendering
+# output * render_direct_scanout on
+# output * adaptive_sync on
+# output * max_render_time 6
+# 
+# Input latency improvements
+# seat * repeat_delay 200
+# seat * repeat_rate 60
+
+# Damage tracking (super critical)
+# damage tracking incremental
 
 seat seat0 xcursor_theme gentoo 32
 ### Variables
@@ -19,7 +31,7 @@ set $down j
 set $up k
 set $right l
 # Your preferred terminal emulator
-set $term alacritty
+set $term foot
 set $browser librewolf-bin
 # set $browser firefox
 # set $browser qutebrowser
@@ -43,9 +55,9 @@ set $laptop eDP-1
 set $desktop DP-1
 set $vertical HDMI-A-2
 
-output $desktop pos 0 0 res 3840x2160 scale 2 render_bit_depth 10
-output $laptop pos 0 0 res 3840x2160 scale 2 render_bit_depth 10
-output $vertical pos 1920 0 transform 270 scale 1.5
+output $desktop pos 0 0 res 3840x2160 scale 1.5
+output $laptop pos 0 0 res 3840x2160 scale 2
+output $vertical pos 3840 0 transform 270 scale 1.5
 # output $laptop scale 2
 
 # in /etc/elogind/logind.conf set HandleLidSwitch=ignore
@@ -138,11 +150,36 @@ default_border pixel 2
 # My application
 #
 
-    bindsym $mod+Shift+Return exec $term -e tmux new-session -A -s default
-    bindsym $mod+Shift+n exec $term -T "journal note" -e zk new $ZK_NOTEBOOK_DIR/journal --group journal --no-input
-    bindsym $mod+Shift+u exec $term -T "privat note" -e zk edit $ZK_NOTEBOOK_DIR/privat --interactive
-	bindsym $mod+u exec $term -T "uni note" -e zk edit $ZK_NOTEBOOK_DIR/uni --interactive
-    bindsym $mod+n exec $term -T "My Zettelkasten" -e zk edit $ZK_NOTEBOOK_DIR/zettelkasten --interactive
+# Test note mode
+
+set $mode_note Select Note
+
+mode "$mode_note" {
+
+	bindsym u exec $term -T "Uni note" -e zk edit $ZK_NOTEBOOK_DIR/uni --interactive; mode "default"
+	bindsym n exec $term -T "Notes" -e zk edit  $ZK_NOTEBOOK_DIR/zettelkasten --interactive; mode "default"
+	bindsym p exec $term -T "Projects" -e zk edit  $ZK_NOTEBOOK_DIR/projects --interactive; mode "default"
+	bindsym j exec $term -T "Journal note" -e zk new $ZK_NOTEBOOK_DIR/journal --group journal --no-input; mode "default"
+
+	bindsym Escape mode "default"
+}
+
+bindsym $mod+n mode "$mode_note"
+
+set $mode_music Muisic control
+
+mode "$mode_music" {
+
+	bindsym p exec mpc toggle; mode "default"
+	bindsym m exec $term -T "Music" -e rmpc; mode "default"
+
+	bindsym Escape mode "default"
+}
+
+bindsym $mod+m mode "$mode_music"
+
+
+	bindsym $mod+Shift+Return exec $term -e tmux new-session -A -s default
 
 	bindsym $mod+q exec swaylock -e -f -i /tmp/lockscreen.png
 
@@ -267,16 +304,17 @@ bindsym $mod+r mode "resize"
 #
     # Special keys to adjust volume via PulseAudio
     bindsym --locked XF86AudioMute exec pactl set-sink-mute \@DEFAULT_SINK@ toggle && notify-send "Toggled Mute"
-    bindsym --locked XF86AudioLowerVolume exec pactl set-sink-volume \@DEFAULT_SINK@ -5% && notify-send "Toggled Mute"
-    bindsym --locked XF86AudioRaiseVolume exec pactl set-sink-volume \@DEFAULT_SINK@ +5% && notify-send "Toggled Mute"
+    bindsym --locked XF86AudioLowerVolume exec pactl set-sink-volume \@DEFAULT_SINK@ -5% && notify-send "Volume -5%"
+    bindsym --locked XF86AudioRaiseVolume exec pactl set-sink-volume \@DEFAULT_SINK@ +5% && notify-send "Volume +5%"
     bindsym --locked XF86AudioMicMute exec pactl set-source-mute \@DEFAULT_SOURCE@ toggle && notify-send "Toggled Mute"  
     # Special keys to adjust brightness via brightnessctl
     bindsym --locked XF86MonBrightnessDown exec brightnessctl set 4%- && notify-send "Decrease Brightness"
     bindsym --locked XF86MonBrightnessUp exec brightnessctl set 2%+ && notify-send "Increase Brightness"
-    # Special key to take a screenshot with grim
+    # Special key to take a screenshot with grim	   
 
     bindsym $mod+Shift+p exec grim -g "$(slurp)" /tmp/$(date +"%s_grim.png")
-    bindsym $mod+p exec grim /tmp/$(date +"%s_grim.png") && notify-send "Screenshot"
+    # bindsym $mod+p exec grim /tmp/$(date +"%s_grim.png") && notify-send "Screenshot"
+    bindsym $mod+p exec grim -g "$(slurp -p)" -t ppm - | convert - -format '%[pixel:p{0,0}]' txt:- | cliphist store
 
 
 #
@@ -346,6 +384,7 @@ client.background        $base
 # Rules:
 
 for_window [app_id="Alacritty" title="journal note"]  floating enable
-
+for_window [app_id="Alacritty" title="Music"]  floating enable
+for_window [app_id="foot" title="Music"]  floating enable
 
 include /etc/sway/config.d/*

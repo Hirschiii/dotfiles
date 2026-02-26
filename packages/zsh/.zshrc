@@ -17,7 +17,12 @@ set -o vi
 bindkey -v '^?' backward-delete-char
 
 
-zstyle ':completion::complete:*' use-cache 1
+zstyle ':completion:*' use-cache on
+zstyle ':completion:*' cache-path ~/.zsh/cache
+
+zstyle ':completion:*' completer _complete _match _approximate
+zstyle ':completion:*:match:*' original only
+zstyle ':completion:*:approximate:*' max-errors 1 numeric
 
 zstyle ':completion:*:descriptions' format '%U%B%d%b%u'
 zstyle ':completion:*:warnings' format '%BSorry, no matches for: %d%b'
@@ -85,11 +90,22 @@ alias vim="nvim"
 alias ls="ls --color"
 
 if [ "$(tty)" = "/dev/tty1" ]; then
-    # export `gnome-keyring-daemon --start --components=ssh`
-	# export WAYLAND_DISPLAY=wayland-0
-    # exec dbus-run-session /usr/bin/hyprland > $XDG_RUNTIME_DIR/sway.log 2>&1
-	# exec Hyprland > $XDG_RUNTIME_DIR/hypr.log 2>&1
-    exec dbus-run-session /usr/bin/sway > $XDG_RUNTIME_DIR/sway.log 2>&1
+	#    # export `gnome-keyring-daemon --start --components=ssh`
+	# # export WAYLAND_DISPLAY=wayland-0
+	#    # exec dbus-run-session /usr/bin/hyprland > $XDG_RUNTIME_DIR/sway.log 2>&1
+	# # exec Hyprland > $XDG_RUNTIME_DIR/hypr.log 2>&1
+	#    # exec dbus-run-session /usr/bin/sway > $XDG_RUNTIME_DIR/sway.log 2>&1
+	# if (( ! ${+XDG_RUNTIME_DIR} )); then
+	# 	export XDG_RUNTIME_DIR=/run/user/${UID}
+	# fi
+	#
+	# if [[ ! -f ${XDG_RUNTIME_DIR} ]]; then
+	# 	mkdir -p ${XDG_RUNTIME_DIR}
+	# 	chmod 1777 ${XDG_RUNTIME_DIR}
+	# fi
+
+	exec dbus-run-session /usr/bin/sway > ${XDG_RUNTIME_DIR}/sway.log 2>&1
+	# exec dbus-run-session /usr/bin/mango > ${XDG_RUNTIME_DIR}/mango.log 2>&1
 fi
 
 # Set up fzf key bindings and fuzzy completion

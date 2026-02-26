@@ -83,10 +83,13 @@ while :; do
 
 	language=$(swaymsg -r -t get_inputs | awk '/1:1:AT_Translated_Set_2_keyboard/;/xkb_active_layout_name/' | grep -A1 '\b1:1:AT_Translated_Set_2_keyboard\b' | grep "xkb_active_layout_name" | awk -F '"' '{print $4}')
 
+	music=$(mpc status | head -n 1)
+
 	# Prepare the output in JSON format
 	echo ",["
 	task_started
 	task_next
+	echo "  {\"name\":\"music\",\"full_text\":\"$muisc\", \"min_width\": \"100%\", \"urgent\": false},"
 	echo "  {\"name\":\"task_inbox\",\"full_text\":\"$inbox\", \"min_width\": \"100%\", \"urgent\": false},"
 	echo "  {\"name\":\"volume\",\"full_text\":\"$volume\", \"min_width\": \"100%\", \"urgent\": false},"
 	echo "  {\"name\":\"language\",\"full_text\":\"$language\", \"min_width\": \"100%\", \"urgent\": false},"

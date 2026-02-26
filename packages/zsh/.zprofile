@@ -3,7 +3,12 @@ export QT_WAYLAND_DISABLE_WINDOWDECORATION=1
 
 export MOZ_ENABLE_WAYLAND=1
 
+# export LIBSEAT_BACKEND=seatd
 
+export XDG_CACHE_HOME="${HOME}/.cache"
+export XDG_CONFIG_HOME="${HOME}/.config"
+export XDG_DATA_HOME="${HOME}/.local/share"
+export XDG_STATE_HOME="${HOME}/.local/state"
 
 export FZF_DEFAULT_OPTS="--height=40% --multi --tiebreak=begin \
   --bind 'ctrl-y:execute-silent(echo {} | pbcopy)' \
@@ -70,3 +75,9 @@ source ~/.env
 
 [[ -f /opt/homebrew/bin/brew ]] && eval "$(/opt/homebrew/bin/brew shellenv)"
 export PATH=$PATH:$HOME/go/bin
+
+# sh is used because MANPAGER cannot use pipes by itself.
+export MANPAGER="sh -c 'col -bx | bat -l man -p'"
+
+# MPD:
+export MPD_HOST=~/.mpd/socket

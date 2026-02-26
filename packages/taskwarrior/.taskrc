@@ -24,6 +24,8 @@ urgency.user.tag.next.coefficient = 2
 urgency.user.tag.later.coefficient = -2
 urgency.user.tag.uni.coefficient = 4
 
+urgency.user.tag.wennzeit.coefficient = -4
+
 urgency.blocking.coefficient = 2
 
 # ------------------------ #
