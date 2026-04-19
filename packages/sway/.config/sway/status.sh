@@ -41,7 +41,7 @@ while :; do
 
 	cpu_formatted=$(uptime | awk '{print $10}' | cut -d "," -f 1)
 	mem_formatted=$(free -m | awk 'NR==2{printf "%.0f\n", $3*100/$2 }')
-	disk_formatted=$(df -h | awk '$NF=="/"{printf "%s\n", $5}' )
+	# disk_formatted=$(df -h | awk '$NF=="/"{printf "%s\n", $5}' )
 	date_formatted=$(date "+%a %F %H:%M")
 	lcd_formatted=$(($(brightnessctl g) * 100 / $(brightnessctl m)))
 	bat_formatted=$(cat $BAT/capacity)
@@ -54,7 +54,7 @@ while :; do
 	echo " {\"name\": \"pwr\", \"full_text\": \"pwr $pwr_formatted\", \"min_width\": \"100%\"},"
 	echo " {\"name\": \"cpu\", \"full_text\": \"cpu $cpu_formatted\", \"min_width\": \"100%\"},"
 	echo " {\"name\": \"mem\", \"full_text\": \"mem $mem_formatted%\", \"min_width\": \"100%\"},"
-	echo " {\"name\": \"ssd\", \"full_text\": \"ssd $disk_formatted\", \"min_width\": \"100%\"},"
+	# echo " {\"name\": \"ssd\", \"full_text\": \"ssd $disk_formatted\", \"min_width\": \"100%\"},"
 	echo " {\"name\": \"bat\", \"full_text\": \"bat $bat_formatted%\", \"min_width\": \"100%\", \"background\":  \"$(bat_bg_color)\", \"urgent\": \"true\"},"
 	echo " {\"name\": \"lcd\", \"full_text\": \"lcd $lcd_formatted%\", \"min_width\": \"100%\"},"
 	echo " {\"name\": \"vol\", \"full_text\": \"vol $vol_formatted%    $date_formatted\", \"min_width\": \"100%\"},"
