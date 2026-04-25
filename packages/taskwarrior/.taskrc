@@ -56,7 +56,7 @@ report.bar.filter=status:pending -WAITING limit:page -klausur
 # ------------------------ #
 
 report.next.columns=id,urgent,priority,start.age,entry.age,depends,project,tags,recur,scheduled.countdown,due.relative,until.remaining,description,urgency
-report.next.filter=status:pending -WAITING limit:page                                                     
+report.next.filter=status:pending -WAITING limit:page -idee -merken -note
 report.next.labels=ID,U,P,Active,Age,Deps,Project,Tag,Recur,S,Due,Until,Description,Urg
 report.next.sort=urgency-
 
@@ -72,8 +72,6 @@ report.list.labels=ID,Active,Age,D,P,Project,Tags,R,Sch,Due,Until,Description,Es
 
 
 default.command=default
-default.project=inbox
-
 
 ## Boxing / How big is a task
 
@@ -97,8 +95,8 @@ urgency.uda.priority.L.coefficient = 0
 # inbox
 report.inbox.description=INBOX report
 report.inbox.filter=limit:page dep: status:pending and ( priority: or urgent: or project:inbox )
-report.inbox.columns=id,project,description,entry.age,priority,urgent,tags
-report.inbox.labels=ID,Proj,Description,Age,Prio,Urgent,Tags
+report.inbox.columns=id,priority,urgent,project,description,entry.age,tags,urgency
+report.inbox.labels=ID,P,U,Proj,Description,Age,Tags,Urg
 report.inbox.sort=entry+
 
 # task Q1

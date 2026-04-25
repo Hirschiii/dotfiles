@@ -45,8 +45,23 @@ alias q4="func_q4"
 
 alias today="selectedtoady"
 
-# function task ()
-# {
-#    task "$@" 
-#    pkill -RTMIN+8 waybar
-# }
+# Taskwarrior:
+
+alias t=task
+alias tn='task next'
+alias ta='task add'
+alias tan='task add scheduled:today'
+alias tat='task add scheduled:tomorrow until:sch+14d'
+alias tm='task modify'
+# alias td='clear;task next +ACTIVE or +OVERDUE or due:today or scheduled:today or pri:H; calcurse -r; timew | grep -v "no active time"'
+# alias td='clear;task next +ACTIVE or +OVERDUE or due:today or scheduled:today or pri:H;  timew | grep -v "no active time"'
+alias tal='task add dep:"$(task +LATEST uuids)"'
+
+# Morning routine
+alias morning='task +OVERDUE list; task due:today list; task +urgent list; task inbox'
+
+# End of day review  
+alias evening='task completed end:today; task +next limit:5; task inbox'
+
+# Quick add with inbox processing
+alias in='task add +inbox'

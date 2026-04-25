@@ -86,7 +86,7 @@ exec swayidle -w \
 #
   input "type:touchpad" {
       dwt enabled
-      tap enabled
+      tap disable
       natural_scroll enabled
       middle_emulation enabled
   }

@@ -45,17 +45,8 @@ lofi() {
 alias ambient_techno="mpv --no-video 'https://www.youtube.com/watch?v=2F6B9EibJjw'"
 alias ambient_bineural="mpv --no-video 'https://www.youtube.com/watch?v=Dq-h8LIe6II&t=2s'"
 
-# Taskwarrior:
 
-alias t=task
-alias tn='clear;task next'
-alias ta='task add'
-alias tan='task add scheduled:today'
-alias tat='task add scheduled:tomorrow until:sch+14d'
-alias tm='task modify'
-# alias td='clear;task next +ACTIVE or +OVERDUE or due:today or scheduled:today or pri:H; calcurse -r; timew | grep -v "no active time"'
-# alias td='clear;task next +ACTIVE or +OVERDUE or due:today or scheduled:today or pri:H;  timew | grep -v "no active time"'
-alias tal='task add dep:"$(task +LATEST uuids)"'
+
 
 # ZK
 alias edit="zk edit --interactive" 

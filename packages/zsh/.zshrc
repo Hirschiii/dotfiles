@@ -78,6 +78,7 @@ setopt NOBEEP
 # Load aliases and shortcuts if existent.
 [ -f "$HOME/.config/zsh/zshnameddirrc" ] && source "$HOME/.config/zsh/zshnameddirrc"
 [ -f "$HOME/.config/zsh/alias.zsh" ] && source "$HOME/.config/zsh/alias.zsh"
+[ -f "$HOME/.config/zsh/completion.zsh" ] && source "$HOME/.config/zsh/completion.zsh"
 [ -f "$HOME/.config/zsh/taskwarrior.zsh" ] && source "$HOME/.config/zsh/taskwarrior.zsh"
 [ -f "$HOME/.config/zsh/quitcd.zsh" ] && source "$HOME/.config/zsh/quitcd.zsh"
 [ -f "$HOME/.config/zsh/keybindings.zsh" ] && source "$HOME/.config/zsh/keybindings.zsh"
@@ -110,5 +111,7 @@ fi
 
 # Set up fzf key bindings and fuzzy completion
 source <(fzf --zsh)
+
+## Completions:
 
 # [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
